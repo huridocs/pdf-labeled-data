@@ -1,0 +1,163 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3206" width="2316">
+	<fontspec id="font0" size="717" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="47" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="45" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="37" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="38" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="44" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="35" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="46" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="36" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="34" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="61" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="225" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font15" size="25" family="GlyphLessFont" color="#000000"/>
+<text top="397" left="131" width="450" height="63" font="font1" id="p1_t1" reading_order_no="1" segment_no="1" tag_type="title">Optical  Fingerprinting  to </text>
+<text top="446" left="132" width="449" height="61" font="font2" id="p1_t2" reading_order_no="2" segment_no="1" tag_type="title">Protect  Data:  A  Proposal </text>
+<text top="499" left="131" width="156" height="55" font="font3" id="p1_t3" reading_order_no="3" segment_no="2" tag_type="text">pp.  23-28 </text>
+<text top="596" left="131" width="381" height="54" font="font4" id="p1_t4" reading_order_no="4" segment_no="7" tag_type="text">Nachiketh  R.  Potlapally </text>
+<text top="695" left="214" width="546" height="52" font="font5" id="p1_t5" reading_order_no="5" segment_no="10" tag_type="text">he  pervasive  use  of  optical  discs— </text>
+<text top="743" left="214" width="545" height="51" font="font6" id="p1_t6" reading_order_no="6" segment_no="10" tag_type="text">the  preferred  media  for  storing  and </text>
+<text top="790" left="214" width="546" height="53" font="font4" id="p1_t7" reading_order_no="7" segment_no="10" tag_type="text">distributing  digital  information— </text>
+<text top="839" left="130" width="628" height="52" font="font5" id="p1_t8" reading_order_no="8" segment_no="10" tag_type="text">is  motivated  by  their  low  cost,  versatility, </text>
+<text top="886" left="130" width="630" height="54" font="font6" id="p1_t9" reading_order_no="9" segment_no="10" tag_type="text">and  durability.  Unfortunately,  circuit </text>
+<text top="935" left="129" width="630" height="52" font="font5" id="p1_t10" reading_order_no="10" segment_no="10" tag_type="text">technology  advances  have  made  it  easy </text>
+<text top="982" left="130" width="629" height="53" font="font6" id="p1_t11" reading_order_no="11" segment_no="10" tag_type="text">to  create  high-fidelity  copies  of  these </text>
+<text top="1030" left="130" width="629" height="53" font="font6" id="p1_t12" reading_order_no="12" segment_no="10" tag_type="text">discs.  The  trend  toward  progressive  ease </text>
+<text top="1078" left="129" width="629" height="53" font="font6" id="p1_t13" reading_order_no="13" segment_no="10" tag_type="text">of  disc  copying  has  spawned  a  burgeon- </text>
+<text top="1126" left="129" width="629" height="53" font="font6" id="p1_t14" reading_order_no="14" segment_no="10" tag_type="text">ing  parallel  economy  based  on  illegal </text>
+<text top="1175" left="129" width="598" height="51" font="font5" id="p1_t15" reading_order_no="15" segment_no="10" tag_type="text">software  copying  and  merchandizing. </text>
+<text top="1222" left="165" width="593" height="53" font="font6" id="p1_t16" reading_order_no="16" segment_no="11" tag_type="text">Thor  is  a  proposed  security  scheme  to </text>
+<text top="1272" left="130" width="629" height="50" font="font5" id="p1_t17" reading_order_no="17" segment_no="11" tag_type="text">prevent  unauthorized  disc  duplication </text>
+<text top="1319" left="129" width="629" height="52" font="font5" id="p1_t18" reading_order_no="18" segment_no="11" tag_type="text">and  illegal  use  of  the  data.  Thor  relies  on </text>
+<text top="1367" left="128" width="630" height="52" font="font5" id="p1_t19" reading_order_no="19" segment_no="11" tag_type="text">a  combination  of  software  and  hardware </text>
+<text top="1415" left="129" width="630" height="51" font="font5" id="p1_t20" reading_order_no="20" segment_no="11" tag_type="text">strategies  using  time-tested  cryptographic </text>
+<text top="1462" left="129" width="629" height="53" font="font6" id="p1_t21" reading_order_no="21" segment_no="11" tag_type="text">algorithms  to  provide  resistance  to  tam- </text>
+<text top="1510" left="129" width="516" height="53" font="font6" id="p1_t22" reading_order_no="22" segment_no="11" tag_type="text">pering  and  malicious  operations. </text>
+<text top="1647" left="128" width="626" height="61" font="font7" id="p1_t23" reading_order_no="23" segment_no="16" tag_type="title">Training  for  Information  Assurance </text>
+<text top="1700" left="129" width="157" height="54" font="font8" id="p1_t24" reading_order_no="24" segment_no="16" tag_type="text">pp.  30-37 </text>
+<text top="1801" left="129" width="587" height="49" font="font9" id="p1_t25" reading_order_no="25" segment_no="20" tag_type="text">Donald  Welch,  Daniel  Ragsdale,  and </text>
+<text top="1844" left="133" width="255" height="54" font="font8" id="p1_t26" reading_order_no="26" segment_no="20" tag_type="text">Wayne  Schepens </text>
+<text top="1943" left="214" width="546" height="51" font="font6" id="p1_t27" reading_order_no="27" segment_no="23" tag_type="text">he  US  is  at  great  risk  from  terrorist </text>
+<text top="1992" left="214" width="545" height="50" font="font5" id="p1_t28" reading_order_no="28" segment_no="23" tag_type="text">manipulation  of  the  intangible  bits </text>
+<text top="2039" left="214" width="544" height="51" font="font6" id="p1_t29" reading_order_no="29" segment_no="23" tag_type="text">and  bytes  of  cyberspace.  US  mili- </text>
+<text top="2088" left="129" width="630" height="50" font="font5" id="p1_t30" reading_order_no="30" segment_no="23" tag_type="text">tary  institutions  are  already  preparing </text>
+<text top="2135" left="129" width="630" height="52" font="font5" id="p1_t31" reading_order_no="31" segment_no="23" tag_type="text">for  cyberspace  terrorism  and  warfare  by </text>
+<text top="2183" left="128" width="630" height="51" font="font6" id="p1_t32" reading_order_no="32" segment_no="23" tag_type="text">educating  cadets  in  information  assur- </text>
+<text top="2232" left="129" width="630" height="50" font="font5" id="p1_t33" reading_order_no="33" segment_no="23" tag_type="text">ance.  In  January  2000,  the  US  Military </text>
+<text top="2279" left="128" width="630" height="51" font="font6" id="p1_t34" reading_order_no="34" segment_no="23" tag_type="text">Academy  at  West  Point  created  an  infor- </text>
+<text top="2326" left="129" width="630" height="53" font="font4" id="p1_t35" reading_order_no="35" segment_no="23" tag_type="text">mation  assurance  course  that  centers  on </text>
+<text top="2373" left="129" width="630" height="56" font="font8" id="p1_t36" reading_order_no="36" segment_no="23" tag_type="text">a  competitive,  hands-on  defensive  pro- </text>
+<text top="2423" left="128" width="630" height="51" font="font6" id="p1_t37" reading_order_no="37" segment_no="23" tag_type="text">ject:  protect  a  real  network  from  real </text>
+<text top="2471" left="130" width="106" height="51" font="font6" id="p1_t38" reading_order_no="38" segment_no="23" tag_type="text">attack. </text>
+<text top="2519" left="166" width="592" height="51" font="font6" id="p1_t39" reading_order_no="39" segment_no="24" tag_type="text">This  project  forced  the  cadets  to  pull </text>
+<text top="2566" left="128" width="631" height="53" font="font4" id="p1_t40" reading_order_no="40" segment_no="24" tag_type="text">together  what  they  know  theoretically </text>
+<text top="2614" left="129" width="631" height="53" font="font4" id="p1_t41" reading_order_no="41" segment_no="24" tag_type="text">and  apply  it  to  a  real  network  under </text>
+<text top="2662" left="129" width="630" height="54" font="font4" id="p1_t42" reading_order_no="42" segment_no="24" tag_type="text">attack  without  risking  the  damage  that </text>
+<text top="2712" left="128" width="629" height="51" font="font6" id="p1_t43" reading_order_no="43" segment_no="24" tag_type="text">mistakes  would  cause  on  a  live  network. </text>
+<text top="2759" left="128" width="631" height="51" font="font6" id="p1_t44" reading_order_no="44" segment_no="24" tag_type="text">The  authors  encourage  other  organiza- </text>
+<text top="2806" left="129" width="630" height="53" font="font4" id="p1_t45" reading_order_no="45" segment_no="24" tag_type="text">tions  to  follow  their  lead  by  conducting </text>
+<text top="2858" left="129" width="458" height="47" font="font9" id="p1_t46" reading_order_no="46" segment_no="24" tag_type="text">similar  competitive  exercises. </text>
+<text top="400" left="811" width="471" height="61" font="font2" id="p1_t47" reading_order_no="47" segment_no="3" tag_type="title">Large-Vocabulary  Speech </text>
+<text top="448" left="812" width="434" height="62" font="font10" id="p1_t48" reading_order_no="48" segment_no="3" tag_type="title">Recognition  Algorithms </text>
+<text top="502" left="811" width="159" height="54" font="font8" id="p1_t49" reading_order_no="49" segment_no="4" tag_type="text">pp.  42-50 </text>
+<text top="599" left="811" width="448" height="53" font="font6" id="p1_t50" reading_order_no="50" segment_no="8" tag_type="text">Mukund  Padmanabhan  and </text>
+<text top="646" left="811" width="261" height="53" font="font4" id="p1_t51" reading_order_no="51" segment_no="8" tag_type="text">Michael  Picheny </text>
+<text top="744" left="902" width="539" height="53" font="font6" id="p1_t52" reading_order_no="52" segment_no="12" tag_type="text">roviding  the  computer  with a  nat- </text>
+<text top="791" left="902" width="540" height="54" font="font4" id="p1_t53" reading_order_no="53" segment_no="12" tag_type="text">ural  interface,  including  the  ability </text>
+<text top="842" left="901" width="541" height="52" font="font5" id="p1_t54" reading_order_no="54" segment_no="12" tag_type="text">to  understand  human  speech,  has </text>
+<text top="888" left="812" width="628" height="54" font="font6" id="p1_t55" reading_order_no="55" segment_no="12" tag_type="text">been a  research  goal  for  almost  40  years. </text>
+<text top="936" left="811" width="630" height="53" font="font6" id="p1_t56" reading_order_no="56" segment_no="12" tag_type="text">Practical  versions  of  such  systems  have </text>
+<text top="984" left="811" width="630" height="53" font="font6" id="p1_t57" reading_order_no="57" segment_no="12" tag_type="text">become  moderately  usable  and  com- </text>
+<text top="1033" left="811" width="631" height="52" font="font5" id="p1_t58" reading_order_no="58" segment_no="12" tag_type="text">mercially  successful  only  in  the  past  few </text>
+<text top="1082" left="811" width="242" height="49" font="font11" id="p1_t59" reading_order_no="59" segment_no="12" tag_type="text">years,  however. </text>
+<text top="1127" left="848" width="593" height="55" font="font4" id="p1_t60" reading_order_no="60" segment_no="13" tag_type="text">To  date,  statistical  modeling  tech- </text>
+<text top="1177" left="811" width="630" height="52" font="font5" id="p1_t61" reading_order_no="61" segment_no="13" tag_type="text">niques  trained  from  hundreds  of  hours </text>
+<text top="1224" left="811" width="630" height="53" font="font6" id="p1_t62" reading_order_no="62" segment_no="13" tag_type="text">of  speech  have  provided  most  speech </text>
+<text top="1273" left="811" width="631" height="53" font="font5" id="p1_t63" reading_order_no="63" segment_no="13" tag_type="text">recognition  advancements.  Although  it </text>
+<text top="1320" left="811" width="630" height="53" font="font6" id="p1_t64" reading_order_no="64" segment_no="13" tag_type="text">may  appear  that  we  have  far  to  go  before </text>
+<text top="1368" left="811" width="630" height="53" font="font6" id="p1_t65" reading_order_no="65" segment_no="13" tag_type="text">these  systems  can  match  human  perfor- </text>
+<text top="1420" left="811" width="630" height="48" font="font12" id="p1_t66" reading_order_no="66" segment_no="13" tag_type="text">mance,  if  researchers  maintain  the  cur- </text>
+<text top="1464" left="811" width="631" height="53" font="font6" id="p1_t67" reading_order_no="67" segment_no="13" tag_type="text">rent  rate  of  yearly  progress  in  reducing </text>
+<text top="1514" left="811" width="631" height="50" font="font11" id="p1_t68" reading_order_no="68" segment_no="13" tag_type="text">word  error  rates,  that  objective  should </text>
+<text top="1561" left="812" width="583" height="52" font="font5" id="p1_t69" reading_order_no="69" segment_no="13" tag_type="text">be  within  reach  in  less  than  a  decade. </text>
+<text top="1695" left="811" width="619" height="64" font="font10" id="p1_t70" reading_order_no="70" segment_no="17" tag_type="title">Automated  Natural  Spoken  Dialog </text>
+<text top="1749" left="811" width="158" height="55" font="font3" id="p1_t71" reading_order_no="71" segment_no="17" tag_type="text">pp.  51-56 </text>
+<text top="1851" left="810" width="466" height="47" font="font9" id="p1_t72" reading_order_no="72" segment_no="21" tag_type="text">Allen  L.  Gorin,  Alicia  Abella, </text>
+<text top="1895" left="812" width="523" height="54" font="font6" id="p1_t73" reading_order_no="73" segment_no="22" tag_type="text">Tirso  Alonso,  Giuseppe  Riccardi, </text>
+<text top="1944" left="820" width="352" height="51" font="font6" id="p1_t74" reading_order_no="74" segment_no="25" tag_type="text">and  Jeremy  H.  Wright </text>
+<text top="2040" left="895" width="546" height="53" font="font6" id="p1_t75" reading_order_no="75" segment_no="27" tag_type="text">raditional  menu-driven  speech </text>
+<text top="2090" left="896" width="546" height="51" font="font11" id="p1_t76" reading_order_no="76" segment_no="27" tag_type="text">recognition  systems  force  users  to </text>
+<text top="2139" left="895" width="547" height="49" font="font9" id="p1_t77" reading_order_no="77" segment_no="27" tag_type="text">learn  the  machine’s  jargon,  but </text>
+<text top="2186" left="811" width="630" height="50" font="font11" id="p1_t78" reading_order_no="78" segment_no="27" tag_type="text">many  people  can’t  or  won’t  navigate </text>
+<text top="2232" left="812" width="628" height="53" font="font6" id="p1_t79" reading_order_no="79" segment_no="27" tag_type="text">such  highly  structured  interactions. </text>
+<text top="2281" left="811" width="630" height="52" font="font5" id="p1_t80" reading_order_no="80" segment_no="27" tag_type="text">AT&amp;T’s  “How  May  I  Help  You?”  tech- </text>
+<text top="2327" left="811" width="631" height="54" font="font4" id="p1_t81" reading_order_no="81" segment_no="27" tag_type="text">nology  shifts  the  burden  to  the  machine </text>
+<text top="2375" left="812" width="629" height="55" font="font4" id="p1_t82" reading_order_no="82" segment_no="27" tag_type="text">by  requiring  it  to  adapt  to  human  lan- </text>
+<text top="2425" left="810" width="631" height="52" font="font5" id="p1_t83" reading_order_no="83" segment_no="27" tag_type="text">guage  and  understand  what  people  actu- </text>
+<text top="2472" left="812" width="630" height="53" font="font6" id="p1_t84" reading_order_no="84" segment_no="27" tag_type="text">ally  say  rather  than  what  a  system </text>
+<text top="2519" left="811" width="459" height="53" font="font4" id="p1_t85" reading_order_no="85" segment_no="27" tag_type="text">designer  expects  them  to  say. </text>
+<text top="2568" left="848" width="593" height="53" font="font6" id="p1_t86" reading_order_no="86" segment_no="28" tag_type="text">For  a  given  task,  it  is  more  crucial  to </text>
+<text top="2618" left="811" width="631" height="50" font="font5" id="p1_t87" reading_order_no="87" segment_no="28" tag_type="text">recognize  and  understand  some  linguistic </text>
+<text top="2665" left="811" width="631" height="52" font="font5" id="p1_t88" reading_order_no="88" segment_no="28" tag_type="text">events  than  others.  The  authors  have </text>
+<text top="2713" left="811" width="630" height="51" font="font6" id="p1_t89" reading_order_no="89" segment_no="28" tag_type="text">developed  algorithms  that  automatically </text>
+<text top="2764" left="811" width="631" height="47" font="font9" id="p1_t90" reading_order_no="90" segment_no="28" tag_type="text">learn  the  salient  words,  phrases,  and </text>
+<text top="2808" left="811" width="631" height="53" font="font4" id="p1_t91" reading_order_no="91" segment_no="28" tag_type="text">grammar  fragments  for  a  given  task  far </text>
+<text top="2857" left="811" width="537" height="53" font="font6" id="p1_t92" reading_order_no="92" segment_no="28" tag_type="text">more  reliably  than  other  methods. </text>
+<text top="196" left="1338" width="475" height="83" font="font13" id="p1_t93" reading_order_no="0" segment_no="0" tag_type="title">LLU  ee </text>
+<text top="401" left="1495" width="490" height="63" font="font10" id="p1_t94" reading_order_no="93" segment_no="5" tag_type="title">From  Multimedia  Retrieval </text>
+<text top="450" left="1494" width="504" height="63" font="font10" id="p1_t95" reading_order_no="94" segment_no="5" tag_type="title">to  Knowledge  Management </text>
+<text top="504" left="1494" width="159" height="54" font="font8" id="p1_t96" reading_order_no="95" segment_no="6" tag_type="text">pp.  58-66 </text>
+<text top="602" left="1494" width="551" height="53" font="font6" id="p1_t97" reading_order_no="96" segment_no="9" tag_type="text">Pedro  J.  Moreno,  ]-M.  Van  Thong, </text>
+<text top="650" left="1494" width="542" height="53" font="font6" id="p1_t98" reading_order_no="97" segment_no="9" tag_type="text">Beth  Logan,  and  Gareth  J.E.  Jones </text>
+<text top="749" left="1583" width="542" height="49" font="font11" id="p1_t99" reading_order_no="98" segment_no="14" tag_type="text">espite  recent  advances,  multimedia </text>
+<text top="795" left="1584" width="542" height="53" font="font6" id="p1_t100" reading_order_no="99" segment_no="14" tag_type="text">use  in  knowledge  management </text>
+<text top="845" left="1584" width="541" height="49" font="font11" id="p1_t101" reading_order_no="100" segment_no="14" tag_type="text">remains  largely  limited  to  retrieval </text>
+<text top="892" left="1494" width="631" height="52" font="font5" id="p1_t102" reading_order_no="101" segment_no="14" tag_type="text">systems.  Multimedia  data  introduces  sey- </text>
+<text top="939" left="1493" width="632" height="51" font="font5" id="p1_t103" reading_order_no="102" segment_no="14" tag_type="text">eral  challenges  to  KM  systems,  including </text>
+<text top="987" left="1494" width="631" height="52" font="font5" id="p1_t104" reading_order_no="103" segment_no="14" tag_type="text">the  uncertainties  associated  with  media </text>
+<text top="1034" left="1494" width="631" height="53" font="font6" id="p1_t105" reading_order_no="104" segment_no="14" tag_type="text">analyzers  and  the  need  for  good  scalabil- </text>
+<text top="1082" left="1494" width="630" height="54" font="font6" id="p1_t106" reading_order_no="105" segment_no="14" tag_type="text">ity  and  effective  user  interfaces.  Architec- </text>
+<text top="1131" left="1494" width="631" height="52" font="font5" id="p1_t107" reading_order_no="106" segment_no="14" tag_type="text">tures  capable  of  handling  system  com- </text>
+<text top="1178" left="1494" width="631" height="53" font="font6" id="p1_t108" reading_order_no="107" segment_no="14" tag_type="text">plexity  will  also  play  a  crucial  role  in </text>
+<text top="1226" left="1494" width="630" height="54" font="font6" id="p1_t109" reading_order_no="108" segment_no="14" tag_type="text">deploying  multimedia-~based  KM  solu- </text>
+<text top="1277" left="1494" width="84" height="47" font="font9" id="p1_t110" reading_order_no="109" segment_no="14" tag_type="text">tions. </text>
+<text top="1323" left="1531" width="594" height="52" font="font5" id="p1_t111" reading_order_no="110" segment_no="15" tag_type="text">The  prospects  for  fully  exploiting  mul- </text>
+<text top="1373" left="1493" width="631" height="49" font="font9" id="p1_t112" reading_order_no="111" segment_no="15" tag_type="text">timedia  content  are  promising.  Given  cur- </text>
+<text top="1419" left="1495" width="630" height="52" font="font5" id="p1_t113" reading_order_no="112" segment_no="15" tag_type="text">rent  trends  in  audio  and  video  analysis, </text>
+<text top="1468" left="1494" width="632" height="50" font="font11" id="p1_t114" reading_order_no="113" segment_no="15" tag_type="text">multimedia  storage  and  distribution  over </text>
+<text top="1515" left="1494" width="631" height="52" font="font5" id="p1_t115" reading_order_no="114" segment_no="15" tag_type="text">the  Internet,  developments  in  XML  rep- </text>
+<text top="1564" left="1495" width="630" height="49" font="font11" id="p1_t116" reading_order_no="115" segment_no="15" tag_type="text">resentations,  and  integration  with  knowl- </text>
+<text top="1611" left="1494" width="631" height="52" font="font5" id="p1_t117" reading_order_no="116" segment_no="15" tag_type="text">edge  portals,  the  authors  expect  mulkti- </text>
+<text top="1659" left="1495" width="585" height="50" font="font5" id="p1_t118" reading_order_no="117" segment_no="15" tag_type="text">media  data  to  become  truly  pervasive. </text>
+<text top="1794" left="1494" width="552" height="61" font="font2" id="p1_t119" reading_order_no="118" segment_no="18" tag_type="title">Software  System  Engineering: </text>
+<text top="1843" left="1494" width="174" height="59" font="font7" id="p1_t120" reading_order_no="119" segment_no="18" tag_type="title">A  Tutorial </text>
+<text top="1896" left="1494" width="158" height="54" font="font8" id="p1_t121" reading_order_no="120" segment_no="19" tag_type="text">pp.  68-73 </text>
+<text top="1994" left="1495" width="299" height="50" font="font5" id="p1_t122" reading_order_no="121" segment_no="26" tag_type="text">Richard  H.  Thayer </text>
+<text top="2090" left="1585" width="541" height="51" font="font6" id="p1_t123" reading_order_no="122" segment_no="29" tag_type="text">oftware,  the  dominant  technology </text>
+<text top="2138" left="1584" width="540" height="52" font="font5" id="p1_t124" reading_order_no="123" segment_no="29" tag_type="text">in  many  technical  systems,  often </text>
+<text top="2187" left="1584" width="541" height="50" font="font5" id="p1_t125" reading_order_no="124" segment_no="29" tag_type="text">provides  the  cohesiveness  and  data </text>
+<text top="2235" left="1494" width="631" height="50" font="font5" id="p1_t126" reading_order_no="125" segment_no="29" tag_type="text">control  that  enable  a  complex  system  to </text>
+<text top="2283" left="1494" width="633" height="50" font="font5" id="p1_t127" reading_order_no="126" segment_no="29" tag_type="text">solve  problems.  Yet  the  vast  majority  of </text>
+<text top="2329" left="1494" width="631" height="53" font="font6" id="p1_t128" reading_order_no="127" segment_no="29" tag_type="text">large  software  systems  do  not  meet  their </text>
+<text top="2379" left="1494" width="632" height="50" font="font5" id="p1_t129" reading_order_no="128" segment_no="29" tag_type="text">projected  schedule  or  estimated  cost,  nor </text>
+<text top="2426" left="1494" width="631" height="51" font="font6" id="p1_t130" reading_order_no="129" segment_no="29" tag_type="text">do  they  completely  fulfill  the  system </text>
+<text top="2477" left="1495" width="373" height="47" font="font9" id="p1_t131" reading_order_no="130" segment_no="29" tag_type="text">acquirer’s  expectations. </text>
+<text top="2523" left="1531" width="595" height="50" font="font5" id="p1_t132" reading_order_no="131" segment_no="30" tag_type="text">The  application  of  system  engineering </text>
+<text top="2569" left="1493" width="632" height="53" font="font6" id="p1_t133" reading_order_no="132" segment_no="30" tag_type="text">principles  to  software  development  pro- </text>
+<text top="2618" left="1494" width="631" height="51" font="font6" id="p1_t134" reading_order_no="133" segment_no="30" tag_type="text">duces  activities,  tasks,  and  procedures </text>
+<text top="2667" left="1493" width="633" height="50" font="font5" id="p1_t135" reading_order_no="134" segment_no="30" tag_type="text">called  software  system  engineering,  or </text>
+<text top="2715" left="1494" width="631" height="50" font="font5" id="p1_t136" reading_order_no="135" segment_no="30" tag_type="text">SwSE—a  distinct  and  powerful  tool  for </text>
+<text top="2762" left="1494" width="634" height="51" font="font6" id="p1_t137" reading_order_no="136" segment_no="30" tag_type="text">managing  the  technical  development  of </text>
+<text top="2811" left="1494" width="631" height="50" font="font5" id="p1_t138" reading_order_no="137" segment_no="30" tag_type="text">large  software  projects.  This  tutorial  inte- </text>
+<text top="2858" left="1494" width="631" height="51" font="font6" id="p1_t139" reading_order_no="138" segment_no="30" tag_type="text">grates  the  definitions  and  processes  from </text>
+<text top="2906" left="1494" width="631" height="51" font="font6" id="p1_t140" reading_order_no="139" segment_no="30" tag_type="text">the  IEEE  software  engineering  standards </text>
+<text top="2954" left="1494" width="354" height="51" font="font5" id="p1_t141" reading_order_no="140" segment_no="30" tag_type="text">into  the  SwSE  process. </text>
+<text top="3090" left="1830" width="133" height="62" font="font10" id="p1_t142" reading_order_no="141" segment_no="31" tag_type="text">April  2002 </text>
+</page>
+</pdf2xml>

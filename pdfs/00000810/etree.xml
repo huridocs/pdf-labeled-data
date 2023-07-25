@@ -1,0 +1,132 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3213" width="2278">
+	<fontspec id="font0" size="38" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="37" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="58" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="270" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="272" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="33" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="88" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="119" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="34" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="52" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="31" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="30" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font15" size="32" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font16" size="36" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font17" size="29" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font18" size="241" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font19" size="35" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font20" size="25" family="GlyphLessFont" color="#000000"/>
+<text top="462" left="78" width="829" height="54" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">application.  It  also  has  an  acoustic  component </text>
+<text top="508" left="77" width="829" height="57" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">reflected  in  the  voice  models  the  speech  engine  uses </text>
+<text top="557" left="77" width="829" height="55" font="font2" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="text">during  recognition.  These  voice  models  can  be </text>
+<text top="606" left="76" width="828" height="53" font="font0" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="text">either  unique  per  speaker  or  speaker-independent. </text>
+<text top="652" left="113" width="793" height="56" font="font1" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="text">Figure  1  shows  the  resources  the  Via Voice  speech </text>
+<text top="700" left="76" width="831" height="57" font="font1" id="p1_t6" reading_order_no="5" segment_no="1" tag_type="text">engine  uses  during  the  recognition  process  (http:// </text>
+<text top="749" left="76" width="828" height="53" font="font2" id="p1_t7" reading_order_no="6" segment_no="1" tag_type="text">www-3.ibm.com/software/speech/dev/sdk_windows. </text>
+<text top="795" left="76" width="830" height="58" font="font3" id="p1_t8" reading_order_no="7" segment_no="1" tag_type="text">html).  The  domain-specific  resources,  such  as  the </text>
+<text top="844" left="76" width="830" height="57" font="font1" id="p1_t9" reading_order_no="8" segment_no="1" tag_type="text">vocabulary,  can  vary  dynamically  during  a  given </text>
+<text top="894" left="77" width="829" height="54" font="font0" id="p1_t10" reading_order_no="9" segment_no="1" tag_type="text">recognition  session.  A  dictation  application  can </text>
+<text top="939" left="76" width="830" height="58" font="font3" id="p1_t11" reading_order_no="10" segment_no="1" tag_type="text">transcribe  spoken  input  directly  into  the  docu- </text>
+<text top="991" left="76" width="830" height="52" font="font4" id="p1_t12" reading_order_no="11" segment_no="1" tag_type="text">ment’s  text  content,  a  transaction  application  can </text>
+<text top="1036" left="77" width="828" height="56" font="font1" id="p1_t13" reading_order_no="12" segment_no="1" tag_type="text">facilitate  a  dialog  leading  to  a  transaction,  and  a </text>
+<text top="1085" left="76" width="830" height="55" font="font2" id="p1_t14" reading_order_no="13" segment_no="1" tag_type="text">multimedia  indexing  application  can  generate </text>
+<text top="1133" left="75" width="363" height="54" font="font2" id="p1_t15" reading_order_no="14" segment_no="1" tag_type="text">words  as  index  terms. </text>
+<text top="1180" left="113" width="793" height="56" font="font1" id="p1_t16" reading_order_no="15" segment_no="2" tag_type="text">In  terms  of  application  development,  speech </text>
+<text top="1228" left="76" width="830" height="56" font="font1" id="p1_t17" reading_order_no="16" segment_no="2" tag_type="text">engines  typically  offer  a  combination  of  program- </text>
+<text top="1276" left="76" width="830" height="56" font="font1" id="p1_t18" reading_order_no="17" segment_no="2" tag_type="text">mable  APIs  and  tools  to  create  and  define  vocabu- </text>
+<text top="1324" left="77" width="830" height="56" font="font1" id="p1_t19" reading_order_no="18" segment_no="2" tag_type="text">laries  and  pronunciations  for  the  words  they </text>
+<text top="1373" left="76" width="830" height="55" font="font2" id="p1_t20" reading_order_no="19" segment_no="2" tag_type="text">contain.  A  dictation  or  multimedia  indexing  appli- </text>
+<text top="1420" left="76" width="833" height="56" font="font1" id="p1_t21" reading_order_no="20" segment_no="2" tag_type="text">cation  may  use  a  predefined  large  vocabulary  of </text>
+<text top="1469" left="79" width="827" height="55" font="font2" id="p1_t22" reading_order_no="21" segment_no="2" tag_type="text">100,000  words  or  so,  while  a  transactional  appli- </text>
+<text top="1516" left="76" width="831" height="55" font="font1" id="p1_t23" reading_order_no="22" segment_no="2" tag_type="text">cation  may  use  a  smaller,  task-specific  vocabulary </text>
+<text top="1564" left="77" width="406" height="54" font="font1" id="p1_t24" reading_order_no="23" segment_no="2" tag_type="text">of  a  few  hundred  words. </text>
+<text top="1611" left="114" width="793" height="55" font="font1" id="p1_t25" reading_order_no="24" segment_no="3" tag_type="text">Although  adequate  for  some  applications,  smaller </text>
+<text top="1660" left="76" width="831" height="54" font="font1" id="p1_t26" reading_order_no="25" segment_no="3" tag_type="text">vocabularies  pose  usability  limitations  by  requiring </text>
+<text top="1707" left="77" width="830" height="56" font="font1" id="p1_t27" reading_order_no="26" segment_no="3" tag_type="text">strict  enumeration  of  the  phrases  the  system  can  rec- </text>
+<text top="1756" left="76" width="830" height="54" font="font1" id="p1_t28" reading_order_no="27" segment_no="3" tag_type="text">ognize  at  any  given  state  in  the  application.  To  over- </text>
+<text top="1803" left="75" width="831" height="55" font="font1" id="p1_t29" reading_order_no="28" segment_no="3" tag_type="text">come  this  limitation,  transactional  applications </text>
+<text top="1851" left="76" width="829" height="56" font="font1" id="p1_t30" reading_order_no="29" segment_no="3" tag_type="text">define  speech  grammars  for  specific  tasks.  These </text>
+<text top="1899" left="75" width="831" height="56" font="font1" id="p1_t31" reading_order_no="30" segment_no="3" tag_type="text">grammars  provide  an  extension  of  the  single  words </text>
+<text top="1948" left="76" width="830" height="54" font="font2" id="p1_t32" reading_order_no="31" segment_no="3" tag_type="text">or  simple  phrases  a  vocabulary  supports.  They  form </text>
+<text top="1997" left="76" width="830" height="53" font="font2" id="p1_t33" reading_order_no="32" segment_no="3" tag_type="text">a  structured  collection  of  words  and  phrases  bound </text>
+<text top="2043" left="76" width="830" height="55" font="font1" id="p1_t34" reading_order_no="33" segment_no="3" tag_type="text">together  by  rules  that  define  the  set  of  speech </text>
+<text top="2092" left="76" width="830" height="54" font="font2" id="p1_t35" reading_order_no="34" segment_no="3" tag_type="text">streams  the  speech  engine  can  recognize  at  a  given </text>
+<text top="2141" left="76" width="830" height="53" font="font0" id="p1_t36" reading_order_no="35" segment_no="3" tag_type="text">time.  For  example,  developers  can  define  a  gram- </text>
+<text top="2187" left="77" width="829" height="56" font="font1" id="p1_t37" reading_order_no="36" segment_no="3" tag_type="text">mar  that  permits  flexible  ways  of  speaking  a  date, </text>
+<text top="2236" left="77" width="829" height="54" font="font2" id="p1_t38" reading_order_no="37" segment_no="3" tag_type="text">a  dollar  amount,  or  a  number.  Prompts  that  cue </text>
+<text top="2282" left="77" width="830" height="57" font="font3" id="p1_t39" reading_order_no="38" segment_no="3" tag_type="text">users  on  what  they  can  say  next  are  an  important </text>
+<text top="2332" left="77" width="830" height="54" font="font1" id="p1_t40" reading_order_no="39" segment_no="3" tag_type="text">aspect  of  defining  and  using  grammars.  It  turns  out </text>
+<text top="2381" left="76" width="833" height="53" font="font2" id="p1_t41" reading_order_no="40" segment_no="3" tag_type="text">that  speech  grammars  are  a  critical  component  of </text>
+<text top="2428" left="76" width="395" height="53" font="font2" id="p1_t42" reading_order_no="41" segment_no="3" tag_type="text">enabling  the  Voice  Web. </text>
+<text top="2523" left="75" width="278" height="54" font="font1" id="p1_t43" reading_order_no="42" segment_no="10" tag_type="title">THE  VOICE  WEB </text>
+<text top="2574" left="114" width="793" height="50" font="font4" id="p1_t44" reading_order_no="43" segment_no="11" tag_type="text">In  March  1999,  AT&amp;T,  IBM,  Lucent,  and </text>
+<text top="2620" left="77" width="830" height="53" font="font2" id="p1_t45" reading_order_no="44" segment_no="11" tag_type="text">Motorola  established  an  industry  organization,  the </text>
+<text top="2668" left="76" width="832" height="54" font="font2" id="p1_t46" reading_order_no="45" segment_no="11" tag_type="text">VoiceXML  Forum,  to  develop  and  promote  a  new </text>
+<text top="2716" left="76" width="831" height="54" font="font2" id="p1_t47" reading_order_no="46" segment_no="11" tag_type="text">computer  language,  the  Voice  extensible  Markup </text>
+<text top="2764" left="77" width="830" height="54" font="font2" id="p1_t48" reading_order_no="47" segment_no="11" tag_type="text">Language  (http://www.w3.org/Voice/).  Developers </text>
+<text top="2812" left="76" width="831" height="55" font="font2" id="p1_t49" reading_order_no="48" segment_no="11" tag_type="text">can  use  VoiceXML  to  create  audio  dialogs  that  fea- </text>
+<text top="2860" left="77" width="830" height="54" font="font2" id="p1_t50" reading_order_no="49" segment_no="11" tag_type="text">ture  synthesized  speech,  digitized  audio,  recogni- </text>
+<text top="2908" left="77" width="831" height="53" font="font2" id="p1_t51" reading_order_no="50" segment_no="11" tag_type="text">tion  of  spoken  and  touchtone  key  input,  recording </text>
+<text top="2955" left="77" width="830" height="54" font="font1" id="p1_t52" reading_order_no="51" segment_no="11" tag_type="text">of  spoken  input,  telephony,  and  mixed-initiative </text>
+<text top="3005" left="76" width="237" height="51" font="font0" id="p1_t53" reading_order_no="52" segment_no="11" tag_type="text">conversations. </text>
+<text top="675" left="1228" width="250" height="45" font="font8" id="p1_t54" reading_order_no="53" segment_no="5" tag_type="figure">Journalism  domain </text>
+<text top="737" left="1209" width="234" height="45" font="font8" id="p1_t55" reading_order_no="54" segment_no="5" tag_type="figure">Radiology  domain </text>
+<text top="801" left="1115" width="234" height="45" font="font8" id="p1_t56" reading_order_no="55" segment_no="5" tag_type="figure">“cstartus”  domain </text>
+<text top="1170" left="1324" width="276" height="46" font="font11" id="p1_t57" reading_order_no="56" segment_no="5" tag_type="figure">Speaker-independent </text>
+<text top="1209" left="1382" width="157" height="45" font="font8" id="p1_t58" reading_order_no="57" segment_no="5" tag_type="figure">voice  model </text>
+<text top="1367" left="1589" width="91" height="42" font="font13" id="p1_t59" reading_order_no="59" segment_no="5" tag_type="figure">Words, </text>
+<text top="1405" left="1589" width="151" height="42" font="font13" id="p1_t60" reading_order_no="60" segment_no="5" tag_type="figure">commands, </text>
+<text top="1442" left="1590" width="104" height="42" font="font13" id="p1_t61" reading_order_no="61" segment_no="5" tag_type="figure">or  index </text>
+<text top="1480" left="1589" width="126" height="42" font="font14" id="p1_t62" reading_order_no="62" segment_no="5" tag_type="figure">terms  out </text>
+<text top="1419" left="1021" width="125" height="45" font="font8" id="p1_t63" reading_order_no="58" segment_no="5" tag_type="figure">Speech  in </text>
+<text top="1917" left="1074" width="132" height="46" font="font11" id="p1_t64" reading_order_no="63" segment_no="7" tag_type="figure">VoiceXML </text>
+<text top="1956" left="1073" width="136" height="43" font="font15" id="p1_t65" reading_order_no="64" segment_no="7" tag_type="figure">interpreter </text>
+<text top="2175" left="1272" width="204" height="46" font="font11" id="p1_t66" reading_order_no="66" segment_no="7" tag_type="figure">Implementation </text>
+<text top="2211" left="1318" width="110" height="49" font="font16" id="p1_t67" reading_order_no="67" segment_no="7" tag_type="figure">platform </text>
+<text top="2428" left="1000" width="792" height="56" font="font1" id="p1_t68" reading_order_no="68" segment_no="8" tag_type="text">The  four  partners  designed  VoiceXML  to  make </text>
+<text top="2476" left="963" width="829" height="56" font="font3" id="p1_t69" reading_order_no="69" segment_no="8" tag_type="text">Internet  content  and  information  accessible  using </text>
+<text top="2525" left="963" width="829" height="54" font="font1" id="p1_t70" reading_order_no="70" segment_no="8" tag_type="text">speech  recognition  and  mobile  devices.  The </text>
+<text top="2573" left="962" width="829" height="55" font="font2" id="p1_t71" reading_order_no="71" segment_no="8" tag_type="text">VoiceXML  forum  was  founded  to  bring  the  advan- </text>
+<text top="2622" left="963" width="828" height="53" font="font2" id="p1_t72" reading_order_no="72" segment_no="8" tag_type="text">tages  of  Web-based  development  and  content  deliv- </text>
+<text top="2672" left="963" width="755" height="50" font="font4" id="p1_t73" reading_order_no="73" segment_no="8" tag_type="text">ery  to  interactive  voice  response  applications. </text>
+<text top="2716" left="1001" width="790" height="56" font="font1" id="p1_t74" reading_order_no="74" segment_no="9" tag_type="text">Figure  2  shows  VoiceXML’  architectural  model, </text>
+<text top="2764" left="963" width="829" height="56" font="font1" id="p1_t75" reading_order_no="75" segment_no="9" tag_type="text">which  uses  the  familiar  client-server  paradigm  to </text>
+<text top="2816" left="964" width="828" height="50" font="font4" id="p1_t76" reading_order_no="76" segment_no="9" tag_type="text">integrate  voice  services  with  data  services.  A  voice </text>
+<text top="2863" left="964" width="828" height="52" font="font0" id="p1_t77" reading_order_no="77" segment_no="9" tag_type="text">service  is  a  sequence  of  interaction  dialogs  between </text>
+<text top="2910" left="964" width="829" height="53" font="font2" id="p1_t78" reading_order_no="78" segment_no="9" tag_type="text">a  user  and  an  implementation  platform.  Document </text>
+<text top="2957" left="964" width="828" height="54" font="font2" id="p1_t79" reading_order_no="79" segment_no="9" tag_type="text">servers,  which  can  be  external  to  the  implementa- </text>
+<text top="3004" left="963" width="829" height="56" font="font1" id="p1_t80" reading_order_no="80" segment_no="9" tag_type="text">tion  platform,  provide  the  dialogs.  Document  or </text>
+<text top="1997" left="1093" width="95" height="39" font="font17" id="p1_t81" reading_order_no="65" segment_no="7" tag_type="figure">context </text>
+<text top="3106" left="1776" width="133" height="47" font="font19" id="p1_t82" reading_order_no="105" segment_no="12" tag_type="text">April  2002 </text>
+<text top="489" left="1846" width="246" height="47" font="font19" id="p1_t83" reading_order_no="81" segment_no="4" tag_type="text">Figure  1.  Speech </text>
+<text top="539" left="1846" width="216" height="45" font="font8" id="p1_t84" reading_order_no="82" segment_no="4" tag_type="text">recognition  re- </text>
+<text top="587" left="1846" width="253" height="45" font="font8" id="p1_t85" reading_order_no="83" segment_no="4" tag_type="text">sources.  Domain- </text>
+<text top="635" left="1846" width="268" height="45" font="font8" id="p1_t86" reading_order_no="84" segment_no="4" tag_type="text">specific  resources </text>
+<text top="683" left="1847" width="200" height="45" font="font8" id="p1_t87" reading_order_no="85" segment_no="4" tag_type="text">—such  as  the </text>
+<text top="731" left="1849" width="246" height="45" font="font8" id="p1_t88" reading_order_no="86" segment_no="4" tag_type="text">vocabulary—can </text>
+<text top="778" left="1849" width="243" height="46" font="font11" id="p1_t89" reading_order_no="87" segment_no="4" tag_type="text">vary  dynamically </text>
+<text top="825" left="1847" width="204" height="47" font="font19" id="p1_t90" reading_order_no="88" segment_no="4" tag_type="text">during  a  given </text>
+<text top="874" left="1846" width="264" height="47" font="font19" id="p1_t91" reading_order_no="89" segment_no="4" tag_type="text">session  to  accom- </text>
+<text top="922" left="1846" width="265" height="46" font="font11" id="p1_t92" reading_order_no="90" segment_no="4" tag_type="text">modate,  for  exam- </text>
+<text top="972" left="1845" width="206" height="43" font="font15" id="p1_t93" reading_order_no="91" segment_no="4" tag_type="text">ple,  dictation, </text>
+<text top="1019" left="1848" width="287" height="45" font="font8" id="p1_t94" reading_order_no="92" segment_no="4" tag_type="text">transaction,  or  mul- </text>
+<text top="1066" left="1848" width="241" height="46" font="font11" id="p1_t95" reading_order_no="93" segment_no="4" tag_type="text">timedia  indexing </text>
+<text top="1115" left="1846" width="190" height="45" font="font8" id="p1_t96" reading_order_no="94" segment_no="4" tag_type="text">applications. </text>
+<text top="1661" left="1845" width="281" height="46" font="font11" id="p1_t97" reading_order_no="95" segment_no="6" tag_type="text">Figure  2.  VoiceXML </text>
+<text top="1709" left="1845" width="295" height="46" font="font11" id="p1_t98" reading_order_no="96" segment_no="6" tag_type="text">architectural  model. </text>
+<text top="1756" left="1848" width="276" height="47" font="font19" id="p1_t99" reading_order_no="97" segment_no="6" tag_type="text">The  model  uses  the </text>
+<text top="1806" left="1845" width="270" height="45" font="font8" id="p1_t100" reading_order_no="98" segment_no="6" tag_type="text">client-server  para- </text>
+<text top="1854" left="1845" width="247" height="45" font="font8" id="p1_t101" reading_order_no="99" segment_no="6" tag_type="text">digm  and  views  a </text>
+<text top="1902" left="1846" width="258" height="45" font="font8" id="p1_t102" reading_order_no="100" segment_no="6" tag_type="text">voice  service  as  a </text>
+<text top="1950" left="1843" width="301" height="45" font="font8" id="p1_t103" reading_order_no="101" segment_no="6" tag_type="text">Sequence  of  interac- </text>
+<text top="1996" left="1845" width="302" height="46" font="font11" id="p1_t104" reading_order_no="102" segment_no="6" tag_type="text">tion  dialogs  between </text>
+<text top="2044" left="1844" width="293" height="46" font="font11" id="p1_t105" reading_order_no="103" segment_no="6" tag_type="text">a  user  and  an  imple- </text>
+<text top="2093" left="1844" width="287" height="45" font="font8" id="p1_t106" reading_order_no="104" segment_no="6" tag_type="text">mentation  platform. </text>
+</page>
+</pdf2xml>

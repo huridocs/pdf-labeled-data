@@ -1,0 +1,497 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font0" size="51" family="CMUSerif" color="#000000"/>
+	<fontspec id="font1" size="26" family="CMUSerif" color="#000000"/>
+<text top="191" left="109" width="823" height="52" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">Adversarial Approaches to Bayesian </text>
+<text top="262" left="119" width="804" height="52" font="font0" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="title">Learning and Bayesian Approaches </text>
+<text top="333" left="220" width="585" height="52" font="font0" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="title">to Adversarial Robustness</text>
+<text top="403" left="280" width="500" height="26" font="font1" id="p1_t4" reading_order_no="3" segment_no="1" tag_type="text">Ian Goodfellow, OpenAI Research Scientist </text>
+<text top="438" left="245" width="570" height="26" font="font1" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="text">NIPS 2016 Workshop on Bayesian Deep Learning </text>
+<text top="473" left="401" width="249" height="26" font="font1" id="p1_t6" reading_order_no="5" segment_no="2" tag_type="text">Barcelona, 2016-12-10</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font2" size="12" family="CMUSerif" color="#000000"/>
+	<fontspec id="font3" size="69" family="CMUSerif" color="#000000"/>
+	<fontspec id="font4" size="27" family="CMUSerif" color="#000000"/>
+	<fontspec id="font5" size="36" family="CMUSerif" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p2_t1" reading_order_no="0" segment_no="4" tag_type="text">(Goodfellow 2016)</text>
+<text top="90" left="82" width="860" height="70" font="font3" id="p2_t2" reading_order_no="1" segment_no="0" tag_type="title">Speculation on Three Topics</text>
+<text top="323" left="79" width="14" height="27" font="font4" id="p2_t3" reading_order_no="2" segment_no="1" tag_type="list">•</text>
+<text top="320" left="114" width="815" height="37" font="font5" id="p2_t4" reading_order_no="3" segment_no="1" tag_type="list">Can we build a generative adversarial model of the </text>
+<text top="370" left="114" width="431" height="37" font="font5" id="p2_t5" reading_order_no="4" segment_no="1" tag_type="list">posterior over parameters? </text>
+<text top="465" left="79" width="14" height="27" font="font4" id="p2_t6" reading_order_no="5" segment_no="2" tag_type="list">•</text>
+<text top="462" left="114" width="651" height="37" font="font5" id="p2_t7" reading_order_no="6" segment_no="2" tag_type="list">Adversarial variants of variational Bayes </text>
+<text top="557" left="79" width="14" height="27" font="font4" id="p2_t8" reading_order_no="7" segment_no="3" tag_type="list">•</text>
+<text top="554" left="114" width="812" height="37" font="font5" id="p2_t9" reading_order_no="8" segment_no="3" tag_type="list">Can Bayesian modeling solve adversarial examples?</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font6" size="80" family="CMUSerif" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p3_t1" reading_order_no="0" segment_no="5" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="148" width="729" height="81" font="font6" id="p3_t2" reading_order_no="1" segment_no="0" tag_type="title">Generative Modeling</text>
+<text top="217" left="79" width="14" height="27" font="font4" id="p3_t3" reading_order_no="2" segment_no="1" tag_type="list">•</text>
+<text top="214" left="114" width="308" height="37" font="font5" id="p3_t4" reading_order_no="3" segment_no="1" tag_type="list">Density estimation </text>
+<text top="401" left="79" width="14" height="27" font="font4" id="p3_t5" reading_order_no="4" segment_no="2" tag_type="list">•</text>
+<text top="398" left="114" width="290" height="37" font="font5" id="p3_t6" reading_order_no="5" segment_no="2" tag_type="list">Sample generation</text>
+<text top="706" left="179" width="288" height="37" font="font5" id="p3_t7" reading_order_no="6" segment_no="3" tag_type="text">Training examples</text>
+<text top="706" left="642" width="232" height="37" font="font5" id="p3_t8" reading_order_no="7" segment_no="4" tag_type="text">Model samples</text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font7" size="70" family="CMUSerif" color="#000000"/>
+	<fontspec id="font8" size="22" family="CMUSerif,Italic" color="#000000"/>
+	<fontspec id="font9" size="22" family="CMUSerif" color="#000000"/>
+	<fontspec id="font10" size="22" family="CMUSerif" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p4_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2016)</text>
+<text top="91" left="79" width="866" height="71" font="font7" id="p4_t2" reading_order_no="1" segment_no="0" tag_type="title">Adversarial Nets Framework</text>
+<text top="451" left="299" width="10" height="23" font="font8" id="p4_t3" reading_order_no="2" segment_no="1" tag_type="figure"><i>x</i></text>
+<text top="451" left="309" width="146" height="23" font="font9" id="p4_t4" reading_order_no="3" segment_no="1" tag_type="figure"> sampled from </text>
+<text top="480" left="352" width="43" height="23" font="font9" id="p4_t5" reading_order_no="4" segment_no="1" tag_type="figure">data</text>
+<text top="343" left="308" width="23" height="23" font="font9" id="p4_t6" reading_order_no="5" segment_no="1" tag_type="figure">Di</text>
+<text top="343" left="331" width="13" height="25" font="font10" id="p4_t7" reading_order_no="6" segment_no="1" tag_type="figure">ff</text>
+<text top="343" left="344" width="102" height="23" font="font9" id="p4_t8" reading_order_no="7" segment_no="1" tag_type="figure">erentiable </text>
+<text top="372" left="322" width="87" height="23" font="font9" id="p4_t9" reading_order_no="8" segment_no="1" tag_type="figure">function </text>
+<text top="372" left="408" width="17" height="23" font="font8" id="p4_t10" reading_order_no="9" segment_no="1" tag_type="figure"><i>D</i></text>
+<text top="226" left="297" width="17" height="23" font="font8" id="p4_t11" reading_order_no="10" segment_no="1" tag_type="figure"><i>D</i></text>
+<text top="226" left="314" width="143" height="23" font="font9" id="p4_t12" reading_order_no="11" segment_no="1" tag_type="figure">(x) tries to be </text>
+<text top="256" left="343" width="60" height="23" font="font9" id="p4_t13" reading_order_no="12" segment_no="1" tag_type="figure">near 1</text>
+<text top="699" left="589" width="116" height="23" font="font9" id="p4_t14" reading_order_no="13" segment_no="1" tag_type="figure">Input noise </text>
+<text top="699" left="706" width="9" height="23" font="font8" id="p4_t15" reading_order_no="14" segment_no="1" tag_type="figure"><i>z</i></text>
+<text top="576" left="587" width="23" height="23" font="font9" id="p4_t16" reading_order_no="15" segment_no="1" tag_type="figure">Di</text>
+<text top="576" left="610" width="13" height="25" font="font10" id="p4_t17" reading_order_no="16" segment_no="1" tag_type="figure">ff</text>
+<text top="576" left="623" width="102" height="23" font="font9" id="p4_t18" reading_order_no="17" segment_no="1" tag_type="figure">erentiable </text>
+<text top="605" left="600" width="87" height="23" font="font9" id="p4_t19" reading_order_no="18" segment_no="1" tag_type="figure">function </text>
+<text top="605" left="687" width="17" height="23" font="font8" id="p4_t20" reading_order_no="19" segment_no="1" tag_type="figure"><i>G</i></text>
+<text top="451" left="578" width="10" height="23" font="font8" id="p4_t21" reading_order_no="20" segment_no="1" tag_type="figure"><i>x</i></text>
+<text top="451" left="588" width="146" height="23" font="font9" id="p4_t22" reading_order_no="21" segment_no="1" tag_type="figure"> sampled from </text>
+<text top="480" left="623" width="58" height="23" font="font9" id="p4_t23" reading_order_no="22" segment_no="1" tag_type="figure">model</text>
+<text top="357" left="644" width="17" height="23" font="font8" id="p4_t24" reading_order_no="23" segment_no="1" tag_type="figure"><i>D</i></text>
+<text top="172" left="576" width="17" height="23" font="font8" id="p4_t25" reading_order_no="24" segment_no="1" tag_type="figure"><i>D</i></text>
+<text top="172" left="593" width="142" height="23" font="font9" id="p4_t26" reading_order_no="25" segment_no="1" tag_type="figure"> tries to make </text>
+<text top="202" left="575" width="79" height="23" font="font8" id="p4_t27" reading_order_no="26" segment_no="1" tag_type="figure"><i>D(G(z))</i></text>
+<text top="202" left="655" width="74" height="23" font="font9" id="p4_t28" reading_order_no="27" segment_no="1" tag_type="figure"> near 0,</text>
+<text top="231" left="576" width="25" height="23" font="font8" id="p4_t29" reading_order_no="28" segment_no="1" tag_type="figure"><i>G </i></text>
+<text top="231" left="601" width="134" height="23" font="font9" id="p4_t30" reading_order_no="29" segment_no="1" tag_type="figure">tries to make </text>
+<text top="261" left="579" width="79" height="23" font="font8" id="p4_t31" reading_order_no="30" segment_no="1" tag_type="figure"><i>D(G(z))</i></text>
+<text top="261" left="658" width="68" height="23" font="font9" id="p4_t32" reading_order_no="31" segment_no="1" tag_type="figure"> near 1</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font11" size="38" family="CMMI10" color="#000000"/>
+	<fontspec id="font12" size="28" family="CMR8" color="#000000"/>
+	<fontspec id="font13" size="28" family="CMMI8" color="#000000"/>
+	<fontspec id="font14" size="38" family="CMR10" color="#000000"/>
+	<fontspec id="font15" size="38" family="CMSY10" color="#000000"/>
+	<fontspec id="font16" size="38" family="MSBM10" color="#000000"/>
+	<fontspec id="font17" size="28" family="CMMIB8" color="#000000"/>
+	<fontspec id="font18" size="28" family="CMSY8" color="#000000"/>
+	<fontspec id="font19" size="21" family="CMR6" color="#000000"/>
+	<fontspec id="font20" size="38" family="CMMIB10" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p5_t1" reading_order_no="0" segment_no="6" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="241" width="542" height="81" font="font6" id="p5_t2" reading_order_no="1" segment_no="0" tag_type="title">Minimax Game</text>
+<text top="452" left="38" width="873" height="37" font="font5" id="p5_t3" reading_order_no="2" segment_no="3" tag_type="list">-Equilibrium is a saddle point of the discriminator loss </text>
+<text top="502" left="38" width="626" height="37" font="font5" id="p5_t4" reading_order_no="3" segment_no="4" tag_type="list">-Resembles Jensen-Shannon divergence </text>
+<text top="552" left="38" width="977" height="37" font="font5" id="p5_t5" reading_order_no="4" segment_no="5" tag_type="list">-Generator minimizes the log-probability of the discriminator </text>
+<text top="602" left="38" width="205" height="37" font="font5" id="p5_t6" reading_order_no="5" segment_no="5" tag_type="list">being correct</text>
+<text top="253" left="69" width="21" height="35" font="font11" id="p5_t7" reading_order_no="6" segment_no="1" tag_type="formula">J</text>
+<text top="243" left="94" width="11" height="28" font="font12" id="p5_t8" reading_order_no="7" segment_no="1" tag_type="formula">(</text>
+<text top="244" left="106" width="24" height="25" font="font13" id="p5_t9" reading_order_no="8" segment_no="1" tag_type="formula">D</text>
+<text top="243" left="131" width="11" height="28" font="font12" id="p5_t10" reading_order_no="9" segment_no="1" tag_type="formula">)</text>
+<text top="251" left="154" width="30" height="38" font="font14" id="p5_t11" reading_order_no="10" segment_no="1" tag_type="formula">=</text>
+<text top="225" left="228" width="19" height="38" font="font14" id="p5_t12" reading_order_no="11" segment_no="1" tag_type="formula">1</text>
+<text top="277" left="228" width="19" height="38" font="font14" id="p5_t13" reading_order_no="42" segment_no="1" tag_type="formula">2</text>
+<text top="253" left="252" width="25" height="39" font="font16" id="p5_t14" reading_order_no="12" segment_no="1" tag_type="formula">E</text>
+<text top="273" left="277" width="19" height="13" font="font17" id="p5_t15" reading_order_no="13" segment_no="1" tag_type="formula">x</text>
+<text top="272" left="297" width="23" height="23" font="font18" id="p5_t16" reading_order_no="14" segment_no="1" tag_type="formula">∼</text>
+<text top="266" left="320" width="15" height="25" font="font13" id="p5_t17" reading_order_no="15" segment_no="1" tag_type="formula">p</text>
+<text top="276" left="334" width="50" height="15" font="font19" id="p5_t18" reading_order_no="16" segment_no="1" tag_type="formula">data</text>
+<text top="251" left="394" width="49" height="38" font="font14" id="p5_t19" reading_order_no="17" segment_no="1" tag_type="formula">log</text>
+<text top="253" left="449" width="32" height="35" font="font11" id="p5_t20" reading_order_no="18" segment_no="1" tag_type="formula">D</text>
+<text top="251" left="482" width="15" height="38" font="font14" id="p5_t21" reading_order_no="19" segment_no="1" tag_type="formula">(</text>
+<text top="262" left="497" width="25" height="18" font="font20" id="p5_t22" reading_order_no="20" segment_no="1" tag_type="formula">x</text>
+<text top="251" left="522" width="15" height="38" font="font14" id="p5_t23" reading_order_no="21" segment_no="1" tag_type="formula">)</text>
+<text top="225" left="588" width="19" height="38" font="font14" id="p5_t24" reading_order_no="22" segment_no="1" tag_type="formula">1</text>
+<text top="277" left="588" width="19" height="38" font="font14" id="p5_t25" reading_order_no="23" segment_no="1" tag_type="formula">2</text>
+<text top="253" left="611" width="25" height="39" font="font16" id="p5_t26" reading_order_no="24" segment_no="1" tag_type="formula">E</text>
+<text top="273" left="636" width="16" height="13" font="font17" id="p5_t27" reading_order_no="25" segment_no="1" tag_type="formula">z</text>
+<text top="251" left="662" width="89" height="38" font="font14" id="p5_t28" reading_order_no="26" segment_no="1" tag_type="formula">log (1</text>
+<text top="253" left="798" width="32" height="35" font="font11" id="p5_t29" reading_order_no="27" segment_no="1" tag_type="formula">D</text>
+<text top="251" left="837" width="15" height="38" font="font14" id="p5_t30" reading_order_no="28" segment_no="1" tag_type="formula">(</text>
+<text top="253" left="852" width="30" height="35" font="font11" id="p5_t31" reading_order_no="29" segment_no="1" tag_type="formula">G</text>
+<text top="251" left="881" width="15" height="38" font="font14" id="p5_t32" reading_order_no="30" segment_no="1" tag_type="formula">(</text>
+<text top="262" left="896" width="21" height="18" font="font20" id="p5_t33" reading_order_no="31" segment_no="1" tag_type="formula">z</text>
+<text top="251" left="919" width="44" height="38" font="font14" id="p5_t34" reading_order_no="32" segment_no="1" tag_type="formula">)))</text>
+<text top="330" left="71" width="21" height="35" font="font11" id="p5_t35" reading_order_no="33" segment_no="2" tag_type="formula">J</text>
+<text top="320" left="96" width="11" height="28" font="font12" id="p5_t36" reading_order_no="34" segment_no="2" tag_type="formula">(</text>
+<text top="322" left="108" width="23" height="25" font="font13" id="p5_t37" reading_order_no="35" segment_no="2" tag_type="formula">G</text>
+<text top="320" left="131" width="11" height="28" font="font12" id="p5_t38" reading_order_no="36" segment_no="2" tag_type="formula">)</text>
+<text top="328" left="154" width="30" height="38" font="font14" id="p5_t39" reading_order_no="37" segment_no="2" tag_type="formula">=</text>
+<text top="330" left="224" width="21" height="35" font="font11" id="p5_t40" reading_order_no="38" segment_no="2" tag_type="formula">J</text>
+<text top="320" left="249" width="11" height="28" font="font12" id="p5_t41" reading_order_no="39" segment_no="2" tag_type="formula">(</text>
+<text top="322" left="261" width="24" height="25" font="font13" id="p5_t42" reading_order_no="40" segment_no="2" tag_type="formula">D</text>
+<text top="320" left="286" width="11" height="28" font="font12" id="p5_t43" reading_order_no="41" segment_no="2" tag_type="formula">)</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font21" size="36" family="CMMI10" color="#000000"/>
+	<fontspec id="font22" size="36" family="CMR10" color="#000000"/>
+	<fontspec id="font23" size="25" family="SFRM0700" color="#000000"/>
+	<fontspec id="font24" size="34" family="CMUSerif" color="#000000"/>
+	<fontspec id="font25" size="29" family="CMR10" color="#000000"/>
+	<fontspec id="font26" size="29" family="CMMI10" color="#000000"/>
+	<fontspec id="font27" size="29" family="CMMIB10" color="#000000"/>
+	<fontspec id="font28" size="20" family="CMR7" color="#000000"/>
+	<fontspec id="font29" size="36" family="CMUSerif,Italic" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p6_t1" reading_order_no="0" segment_no="5" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="111" width="801" height="81" font="font6" id="p6_t2" reading_order_no="1" segment_no="0" tag_type="title">Discriminator Strategy</text>
+<text top="266" left="413" width="29" height="32" font="font21" id="p6_t3" reading_order_no="2" segment_no="2" tag_type="formula">D</text>
+<text top="264" left="443" width="14" height="36" font="font22" id="p6_t4" reading_order_no="3" segment_no="2" tag_type="formula">(</text>
+<text top="266" left="457" width="20" height="32" font="font21" id="p6_t5" reading_order_no="4" segment_no="2" tag_type="formula">x</text>
+<text top="264" left="477" width="51" height="36" font="font22" id="p6_t6" reading_order_no="5" segment_no="2" tag_type="formula">) =</text>
+<text top="241" left="636" width="18" height="32" font="font21" id="p6_t7" reading_order_no="6" segment_no="2" tag_type="formula">p</text>
+<text top="254" left="654" width="55" height="18" font="font23" id="p6_t8" reading_order_no="7" segment_no="2" tag_type="formula">data</text>
+<text top="239" left="711" width="14" height="36" font="font22" id="p6_t9" reading_order_no="8" segment_no="2" tag_type="formula">(</text>
+<text top="241" left="725" width="20" height="32" font="font21" id="p6_t10" reading_order_no="9" segment_no="2" tag_type="formula">x</text>
+<text top="239" left="745" width="14" height="36" font="font22" id="p6_t11" reading_order_no="10" segment_no="2" tag_type="formula">)</text>
+<text top="290" left="543" width="18" height="32" font="font21" id="p6_t12" reading_order_no="11" segment_no="2" tag_type="formula">p</text>
+<text top="303" left="561" width="55" height="18" font="font23" id="p6_t13" reading_order_no="12" segment_no="2" tag_type="formula">data</text>
+<text top="288" left="618" width="14" height="36" font="font22" id="p6_t14" reading_order_no="13" segment_no="2" tag_type="formula">(</text>
+<text top="290" left="632" width="20" height="32" font="font21" id="p6_t15" reading_order_no="14" segment_no="2" tag_type="formula">x</text>
+<text top="288" left="652" width="49" height="36" font="font22" id="p6_t16" reading_order_no="15" segment_no="2" tag_type="formula">) +</text>
+<text top="290" left="710" width="18" height="32" font="font21" id="p6_t17" reading_order_no="16" segment_no="2" tag_type="formula">p</text>
+<text top="303" left="728" width="75" height="18" font="font23" id="p6_t18" reading_order_no="17" segment_no="2" tag_type="formula">model</text>
+<text top="288" left="804" width="14" height="36" font="font22" id="p6_t19" reading_order_no="18" segment_no="2" tag_type="formula">(</text>
+<text top="290" left="818" width="20" height="32" font="font21" id="p6_t20" reading_order_no="19" segment_no="2" tag_type="formula">x</text>
+<text top="288" left="838" width="14" height="36" font="font22" id="p6_t21" reading_order_no="20" segment_no="2" tag_type="formula">)</text>
+<text top="348" left="820" width="84" height="35" font="font24" id="p6_t22" reading_order_no="21" segment_no="3" tag_type="figure">Data </text>
+<text top="402" left="810" width="104" height="35" font="font24" id="p6_t23" reading_order_no="22" segment_no="3" tag_type="figure">Model </text>
+<text top="450" left="770" width="174" height="35" font="font24" id="p6_t24" reading_order_no="23" segment_no="3" tag_type="figure">distribution</text>
+<text top="197" left="109" width="105" height="29" font="font25" id="p6_t25" reading_order_no="24" segment_no="1" tag_type="text">Optimal</text>
+<text top="199" left="223" width="24" height="25" font="font26" id="p6_t26" reading_order_no="25" segment_no="1" tag_type="text">D</text>
+<text top="197" left="248" width="11" height="29" font="font25" id="p6_t27" reading_order_no="26" segment_no="1" tag_type="text">(</text>
+<text top="206" left="259" width="19" height="13" font="font27" id="p6_t28" reading_order_no="27" segment_no="1" tag_type="text">x</text>
+<text top="197" left="278" width="110" height="29" font="font25" id="p6_t29" reading_order_no="28" segment_no="1" tag_type="text">) for any</text>
+<text top="199" left="398" width="15" height="25" font="font26" id="p6_t30" reading_order_no="29" segment_no="1" tag_type="text">p</text>
+<text top="209" left="413" width="45" height="14" font="font28" id="p6_t31" reading_order_no="30" segment_no="1" tag_type="text">data</text>
+<text top="197" left="459" width="11" height="29" font="font25" id="p6_t32" reading_order_no="31" segment_no="1" tag_type="text">(</text>
+<text top="206" left="471" width="19" height="13" font="font27" id="p6_t33" reading_order_no="32" segment_no="1" tag_type="text">x</text>
+<text top="197" left="490" width="68" height="29" font="font25" id="p6_t34" reading_order_no="33" segment_no="1" tag_type="text">) and</text>
+<text top="199" left="567" width="15" height="25" font="font26" id="p6_t35" reading_order_no="34" segment_no="1" tag_type="text">p</text>
+<text top="209" left="582" width="61" height="14" font="font28" id="p6_t36" reading_order_no="35" segment_no="1" tag_type="text">model</text>
+<text top="197" left="644" width="11" height="29" font="font25" id="p6_t37" reading_order_no="36" segment_no="1" tag_type="text">(</text>
+<text top="206" left="655" width="19" height="13" font="font27" id="p6_t38" reading_order_no="37" segment_no="1" tag_type="text">x</text>
+<text top="197" left="675" width="133" height="29" font="font25" id="p6_t39" reading_order_no="38" segment_no="1" tag_type="text">) is always</text>
+<text top="651" left="755" width="15" height="35" font="font29" id="p6_t40" reading_order_no="39" segment_no="3" tag_type="figure"><i>z</i></text>
+<text top="561" left="754" width="17" height="35" font="font29" id="p6_t41" reading_order_no="40" segment_no="3" tag_type="figure"><i>x</i></text>
+<text top="348" left="436" width="204" height="35" font="font24" id="p6_t42" reading_order_no="41" segment_no="3" tag_type="figure">Discriminator</text>
+<text top="451" left="94" width="341" height="37" font="font5" id="p6_t43" reading_order_no="42" segment_no="4" tag_type="text">Estimating this ratio </text>
+<text top="501" left="42" width="444" height="37" font="font5" id="p6_t44" reading_order_no="43" segment_no="4" tag_type="text">using supervised learning is </text>
+<text top="551" left="81" width="367" height="37" font="font5" id="p6_t45" reading_order_no="44" segment_no="4" tag_type="text">the key approximation </text>
+<text top="601" left="51" width="413" height="37" font="font5" id="p6_t46" reading_order_no="45" segment_no="4" tag_type="text">mechanism used by GANs</text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font30" size="62" family="CMUSerif" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p7_t1" reading_order_no="0" segment_no="1" tag_type="text">(Goodfellow 2016)</text>
+<text top="50" left="152" width="740" height="63" font="font30" id="p7_t2" reading_order_no="1" segment_no="0" tag_type="text">High quality samples from </text>
+<text top="136" left="167" width="690" height="63" font="font30" id="p7_t3" reading_order_no="2" segment_no="0" tag_type="text">complicated distributions</text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font31" size="23" family="CMUSerif" color="#000000"/>
+	<fontspec id="font32" size="31" family="CMUSerif" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p8_t1" reading_order_no="0" segment_no="6" tag_type="text">(Goodfellow 2016)</text>
+<text top="51" left="84" width="877" height="63" font="font30" id="p8_t2" reading_order_no="1" segment_no="0" tag_type="title">Speculative idea: generator nets </text>
+<text top="136" left="90" width="844" height="63" font="font30" id="p8_t3" reading_order_no="2" segment_no="0" tag_type="title">for sampling from the posterior</text>
+<text top="220" left="79" width="12" height="24" font="font31" id="p8_t4" reading_order_no="3" segment_no="1" tag_type="list">•</text>
+<text top="216" left="109" width="261" height="32" font="font32" id="p8_t5" reading_order_no="4" segment_no="1" tag_type="list">Practical obstacle: </text>
+<text top="299" left="114" width="12" height="24" font="font31" id="p8_t6" reading_order_no="5" segment_no="2" tag_type="list">•</text>
+<text top="295" left="144" width="777" height="32" font="font32" id="p8_t7" reading_order_no="6" segment_no="2" tag_type="list">Parameters lie in a much higher dimensional space than </text>
+<text top="338" left="144" width="225" height="32" font="font32" id="p8_t8" reading_order_no="7" segment_no="2" tag_type="list">observed inputs </text>
+<text top="422" left="79" width="12" height="24" font="font31" id="p8_t9" reading_order_no="8" segment_no="3" tag_type="list">•</text>
+<text top="418" left="109" width="247" height="32" font="font32" id="p8_t10" reading_order_no="9" segment_no="3" tag_type="list">Possible solution: </text>
+<text top="501" left="114" width="12" height="24" font="font31" id="p8_t11" reading_order_no="10" segment_no="4" tag_type="list">•</text>
+<text top="498" left="144" width="712" height="32" font="font32" id="p8_t12" reading_order_no="11" segment_no="4" tag_type="list">Maybe the posterior does not need to be extremely </text>
+<text top="541" left="144" width="174" height="32" font="font32" id="p8_t13" reading_order_no="12" segment_no="4" tag_type="list">complicated </text>
+<text top="624" left="114" width="12" height="24" font="font31" id="p8_t14" reading_order_no="13" segment_no="5" tag_type="list">•</text>
+<text top="620" left="144" width="795" height="32" font="font32" id="p8_t15" reading_order_no="14" segment_no="5" tag_type="list">HyperNetworks (Ha et al 2016) seem to be able to model </text>
+<text top="663" left="144" width="392" height="32" font="font32" id="p8_t16" reading_order_no="15" segment_no="5" tag_type="list">a distribution on parameters</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="741" left="921" width="96" height="12" font="font2" id="p9_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="152" width="738" height="81" font="font6" id="p9_t2" reading_order_no="1" segment_no="0" tag_type="title">Theoretical problems</text>
+<text top="319" left="79" width="14" height="27" font="font4" id="p9_t3" reading_order_no="2" segment_no="1" tag_type="list">•</text>
+<text top="316" left="114" width="688" height="37" font="font5" id="p9_t4" reading_order_no="3" segment_no="1" tag_type="list">A naive application of GANs to generating </text>
+<text top="366" left="114" width="836" height="37" font="font5" id="p9_t5" reading_order_no="4" segment_no="1" tag_type="list">parameters would require samples of the parameters </text>
+<text top="416" left="114" width="374" height="37" font="font5" id="p9_t6" reading_order_no="5" segment_no="1" tag_type="list">from the true posterior </text>
+<text top="511" left="79" width="14" height="27" font="font4" id="p9_t7" reading_order_no="6" segment_no="2" tag_type="list">•</text>
+<text top="508" left="114" width="704" height="37" font="font5" id="p9_t8" reading_order_no="7" segment_no="2" tag_type="list">We only have samples of the data that were </text>
+<text top="558" left="114" width="535" height="37" font="font5" id="p9_t9" reading_order_no="8" segment_no="2" tag_type="list">generated using the true posterior</text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font33" size="36" family="CMMI10" color="#000000"/>
+	<fontspec id="font34" size="36" family="CMR10" color="#000000"/>
+	<fontspec id="font35" size="36" family="CMMIB10" color="#000000"/>
+	<fontspec id="font36" size="36" family="CMSY10" color="#000000"/>
+	<fontspec id="font37" size="36" family="CMMIB10" color="#000000"/>
+	<fontspec id="font38" size="25" family="CMSY7" color="#000000"/>
+	<fontspec id="font39" size="36" family="CMR10" color="#000000"/>
+	<fontspec id="font40" size="25" family="CMMI7" color="#000000"/>
+	<fontspec id="font41" size="25" family="CMR7" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p10_t1" reading_order_no="0" segment_no="6" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="225" width="573" height="81" font="font6" id="p10_t2" reading_order_no="1" segment_no="0" tag_type="title">HMC approach?</text>
+<text top="212" left="312" width="18" height="23" font="font33" id="p10_t3" reading_order_no="2" segment_no="1" tag_type="formula">p</text>
+<text top="201" left="330" width="14" height="36" font="font34" id="p10_t4" reading_order_no="3" segment_no="1" tag_type="formula">(</text>
+<text top="203" left="344" width="34" height="25" font="font35" id="p10_t5" reading_order_no="4" segment_no="1" tag_type="formula">X</text>
+<text top="201" left="390" width="10" height="36" font="font36" id="p10_t6" reading_order_no="5" segment_no="1" tag_type="formula">|</text>
+<text top="203" left="410" width="20" height="25" font="font37" id="p10_t7" reading_order_no="6" segment_no="1" tag_type="formula">θ</text>
+<text top="201" left="432" width="14" height="36" font="font34" id="p10_t8" reading_order_no="7" segment_no="1" tag_type="formula">)</text>
+<text top="261" left="303" width="18" height="23" font="font33" id="p10_t9" reading_order_no="8" segment_no="1" tag_type="formula">p</text>
+<text top="250" left="321" width="14" height="36" font="font34" id="p10_t10" reading_order_no="9" segment_no="1" tag_type="formula">(</text>
+<text top="252" left="335" width="34" height="25" font="font35" id="p10_t11" reading_order_no="10" segment_no="1" tag_type="formula">X</text>
+<text top="250" left="382" width="10" height="36" font="font36" id="p10_t12" reading_order_no="11" segment_no="1" tag_type="formula">|</text>
+<text top="252" left="402" width="20" height="25" font="font37" id="p10_t13" reading_order_no="12" segment_no="1" tag_type="formula">θ</text>
+<text top="255" left="423" width="15" height="20" font="font38" id="p10_t14" reading_order_no="13" segment_no="1" tag_type="formula">∗</text>
+<text top="250" left="440" width="14" height="36" font="font34" id="p10_t15" reading_order_no="14" segment_no="1" tag_type="formula">)</text>
+<text top="225" left="468" width="28" height="36" font="font34" id="p10_t16" reading_order_no="15" segment_no="1" tag_type="formula">=</text>
+<text top="228" left="506" width="27" height="37" font="font39" id="p10_t17" reading_order_no="16" segment_no="1" tag_type="formula">Π</text>
+<text top="241" left="533" width="10" height="17" font="font40" id="p10_t18" reading_order_no="17" segment_no="1" tag_type="formula">i</text>
+<text top="212" left="557" width="18" height="23" font="font33" id="p10_t19" reading_order_no="18" segment_no="1" tag_type="formula">p</text>
+<text top="201" left="575" width="14" height="36" font="font34" id="p10_t20" reading_order_no="19" segment_no="1" tag_type="formula">(</text>
+<text top="203" left="589" width="24" height="25" font="font35" id="p10_t21" reading_order_no="20" segment_no="1" tag_type="formula">x</text>
+<text top="196" left="613" width="11" height="25" font="font41" id="p10_t22" reading_order_no="21" segment_no="1" tag_type="formula">(</text>
+<text top="198" left="624" width="10" height="17" font="font40" id="p10_t23" reading_order_no="22" segment_no="1" tag_type="formula">i</text>
+<text top="196" left="634" width="11" height="25" font="font41" id="p10_t24" reading_order_no="23" segment_no="1" tag_type="formula">)</text>
+<text top="201" left="657" width="10" height="36" font="font36" id="p10_t25" reading_order_no="24" segment_no="1" tag_type="formula">|</text>
+<text top="203" left="677" width="20" height="25" font="font37" id="p10_t26" reading_order_no="25" segment_no="1" tag_type="formula">θ</text>
+<text top="201" left="698" width="14" height="36" font="font34" id="p10_t27" reading_order_no="26" segment_no="1" tag_type="formula">)</text>
+<text top="262" left="549" width="18" height="23" font="font33" id="p10_t28" reading_order_no="27" segment_no="1" tag_type="formula">p</text>
+<text top="251" left="567" width="14" height="36" font="font34" id="p10_t29" reading_order_no="28" segment_no="1" tag_type="formula">(</text>
+<text top="253" left="581" width="24" height="25" font="font35" id="p10_t30" reading_order_no="29" segment_no="1" tag_type="formula">x</text>
+<text top="248" left="605" width="11" height="25" font="font41" id="p10_t31" reading_order_no="30" segment_no="1" tag_type="formula">(</text>
+<text top="251" left="616" width="10" height="17" font="font40" id="p10_t32" reading_order_no="31" segment_no="1" tag_type="formula">i</text>
+<text top="248" left="626" width="11" height="25" font="font41" id="p10_t33" reading_order_no="32" segment_no="1" tag_type="formula">)</text>
+<text top="251" left="649" width="10" height="36" font="font36" id="p10_t34" reading_order_no="33" segment_no="1" tag_type="formula">|</text>
+<text top="252" left="669" width="20" height="25" font="font37" id="p10_t35" reading_order_no="34" segment_no="1" tag_type="formula">θ</text>
+<text top="256" left="690" width="15" height="20" font="font38" id="p10_t36" reading_order_no="35" segment_no="1" tag_type="formula">∗</text>
+<text top="251" left="707" width="14" height="36" font="font34" id="p10_t37" reading_order_no="36" segment_no="1" tag_type="formula">)</text>
+<text top="316" left="47" width="14" height="27" font="font4" id="p10_t38" reading_order_no="37" segment_no="2" tag_type="list">•</text>
+<text top="312" left="82" width="794" height="37" font="font5" id="p10_t39" reading_order_no="38" segment_no="2" tag_type="list">Allows estimation of unnormalized likelihoods via </text>
+<text top="362" left="82" width="220" height="37" font="font5" id="p10_t40" reading_order_no="39" segment_no="2" tag_type="list">discriminator </text>
+<text top="416" left="47" width="14" height="27" font="font4" id="p10_t41" reading_order_no="40" segment_no="3" tag_type="list">•</text>
+<text top="412" left="82" width="193" height="37" font="font5" id="p10_t42" reading_order_no="41" segment_no="3" tag_type="list">Drawbacks: </text>
+<text top="466" left="82" width="14" height="27" font="font4" id="p10_t43" reading_order_no="42" segment_no="4" tag_type="list">•</text>
+<text top="462" left="117" width="839" height="37" font="font5" id="p10_t44" reading_order_no="43" segment_no="4" tag_type="list">Discriminator needs to be re-optimized after visiting </text>
+<text top="512" left="117" width="421" height="37" font="font5" id="p10_t45" reading_order_no="44" segment_no="4" tag_type="list">each new parameter value </text>
+<text top="566" left="82" width="14" height="27" font="font4" id="p10_t46" reading_order_no="45" segment_no="5" tag_type="list">•</text>
+<text top="562" left="117" width="801" height="37" font="font5" id="p10_t47" reading_order_no="46" segment_no="5" tag_type="list">For the likelihood estimate to be a function of the </text>
+<text top="612" left="117" width="744" height="37" font="font5" id="p10_t48" reading_order_no="47" segment_no="5" tag_type="list">parameters, we must include the discriminator </text>
+<text top="662" left="117" width="826" height="37" font="font5" id="p10_t49" reading_order_no="48" segment_no="5" tag_type="list">learning process in the graph for the estimate, as in </text>
+<text top="712" left="117" width="521" height="37" font="font5" id="p10_t50" reading_order_no="49" segment_no="5" tag_type="list">unrolled GANs (Metz et al 2016)</text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font42" size="55" family="CMMIB10" color="#000000"/>
+	<fontspec id="font43" size="55" family="CMMIB10" color="#000000"/>
+	<fontspec id="font44" size="41" family="CMEX10" color="#000000"/>
+	<fontspec id="font45" size="41" family="CMR10" color="#000000"/>
+	<fontspec id="font46" size="41" family="CMMI10" color="#000000"/>
+	<fontspec id="font47" size="41" family="CMMIB10" color="#000000"/>
+	<fontspec id="font48" size="41" family="CMSY10" color="#000000"/>
+	<fontspec id="font49" size="30" family="CMR8" color="#000000"/>
+	<fontspec id="font50" size="41" family="CMSY10" color="#000000"/>
+	<fontspec id="font51" size="41" family="MSBM10" color="#000000"/>
+	<fontspec id="font52" size="30" family="CMMIB8" color="#000000"/>
+	<fontspec id="font53" size="30" family="CMSY8" color="#000000"/>
+	<fontspec id="font54" size="30" family="CMMI8" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p11_t1" reading_order_no="2" segment_no="6" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="205" width="615" height="81" font="font6" id="p11_t2" reading_order_no="3" segment_no="0" tag_type="title">Variational Bayes</text>
+<text top="251" left="104" width="30" height="25" font="font42" id="p11_t3" reading_order_no="0" segment_no="2" tag_type="figure">z</text>
+<text top="415" left="105" width="36" height="25" font="font43" id="p11_t4" reading_order_no="1" segment_no="2" tag_type="figure">x</text>
+<text top="243" left="241" width="52" height="41" font="font45" id="p11_t5" reading_order_no="4" segment_no="1" tag_type="formula">log</text>
+<text top="246" left="300" width="21" height="36" font="font46" id="p11_t6" reading_order_no="5" segment_no="1" tag_type="formula">p</text>
+<text top="243" left="321" width="16" height="41" font="font45" id="p11_t7" reading_order_no="6" segment_no="1" tag_type="formula">(</text>
+<text top="255" left="337" width="27" height="19" font="font47" id="p11_t8" reading_order_no="7" segment_no="1" tag_type="formula">x</text>
+<text top="243" left="364" width="16" height="41" font="font45" id="p11_t9" reading_order_no="8" segment_no="1" tag_type="formula">)</text>
+<text top="243" left="430" width="52" height="41" font="font45" id="p11_t10" reading_order_no="9" segment_no="1" tag_type="formula">log</text>
+<text top="246" left="490" width="21" height="36" font="font46" id="p11_t11" reading_order_no="10" segment_no="1" tag_type="formula">p</text>
+<text top="243" left="510" width="16" height="41" font="font45" id="p11_t12" reading_order_no="11" segment_no="1" tag_type="formula">(</text>
+<text top="255" left="526" width="27" height="19" font="font47" id="p11_t13" reading_order_no="12" segment_no="1" tag_type="formula">x</text>
+<text top="243" left="553" width="16" height="41" font="font45" id="p11_t14" reading_order_no="13" segment_no="1" tag_type="formula">)</text>
+<text top="246" left="619" width="34" height="36" font="font46" id="p11_t15" reading_order_no="14" segment_no="1" tag_type="formula">D</text>
+<text top="259" left="653" width="45" height="21" font="font49" id="p11_t16" reading_order_no="15" segment_no="1" tag_type="formula">KL</text>
+<text top="243" left="706" width="16" height="41" font="font45" id="p11_t17" reading_order_no="16" segment_no="1" tag_type="formula">(</text>
+<text top="246" left="722" width="18" height="36" font="font46" id="p11_t18" reading_order_no="17" segment_no="1" tag_type="formula">q</text>
+<text top="243" left="742" width="16" height="41" font="font45" id="p11_t19" reading_order_no="18" segment_no="1" tag_type="formula">(</text>
+<text top="255" left="758" width="23" height="19" font="font47" id="p11_t20" reading_order_no="19" segment_no="1" tag_type="formula">z</text>
+<text top="243" left="782" width="16" height="41" font="font45" id="p11_t21" reading_order_no="20" segment_no="1" tag_type="formula">)</text>
+<text top="243" left="798" width="20" height="41" font="font48" id="p11_t22" reading_order_no="21" segment_no="1" tag_type="formula">k</text>
+<text top="246" left="818" width="21" height="36" font="font46" id="p11_t23" reading_order_no="22" segment_no="1" tag_type="formula">p</text>
+<text top="243" left="839" width="16" height="41" font="font45" id="p11_t24" reading_order_no="23" segment_no="1" tag_type="formula">(</text>
+<text top="255" left="855" width="23" height="19" font="font47" id="p11_t25" reading_order_no="24" segment_no="1" tag_type="formula">z</text>
+<text top="243" left="891" width="11" height="41" font="font50" id="p11_t26" reading_order_no="25" segment_no="1" tag_type="formula">|</text>
+<text top="255" left="913" width="27" height="19" font="font47" id="p11_t27" reading_order_no="26" segment_no="1" tag_type="formula">x</text>
+<text top="243" left="940" width="32" height="41" font="font45" id="p11_t28" reading_order_no="27" segment_no="1" tag_type="formula">))</text>
+<text top="306" left="391" width="32" height="41" font="font45" id="p11_t29" reading_order_no="28" segment_no="3" tag_type="formula">=</text>
+<text top="309" left="423" width="27" height="42" font="font51" id="p11_t30" reading_order_no="29" segment_no="3" tag_type="formula">E</text>
+<text top="329" left="450" width="18" height="14" font="font52" id="p11_t31" reading_order_no="30" segment_no="3" tag_type="formula">z</text>
+<text top="329" left="469" width="25" height="24" font="font53" id="p11_t32" reading_order_no="31" segment_no="3" tag_type="formula">∼</text>
+<text top="323" left="494" width="14" height="26" font="font54" id="p11_t33" reading_order_no="32" segment_no="3" tag_type="formula">q</text>
+<text top="306" left="518" width="52" height="41" font="font45" id="p11_t34" reading_order_no="33" segment_no="3" tag_type="formula">log</text>
+<text top="309" left="578" width="21" height="36" font="font46" id="p11_t35" reading_order_no="34" segment_no="3" tag_type="formula">p</text>
+<text top="306" left="598" width="16" height="41" font="font45" id="p11_t36" reading_order_no="35" segment_no="3" tag_type="formula">(</text>
+<text top="318" left="614" width="27" height="19" font="font47" id="p11_t37" reading_order_no="36" segment_no="3" tag_type="formula">x</text>
+<text top="309" left="641" width="11" height="36" font="font46" id="p11_t38" reading_order_no="37" segment_no="3" tag_type="formula">,</text>
+<text top="318" left="659" width="23" height="19" font="font47" id="p11_t39" reading_order_no="38" segment_no="3" tag_type="formula">z</text>
+<text top="306" left="684" width="57" height="41" font="font45" id="p11_t40" reading_order_no="39" segment_no="3" tag_type="formula">) +</text>
+<text top="309" left="750" width="34" height="36" font="font46" id="p11_t41" reading_order_no="40" segment_no="3" tag_type="formula">H</text>
+<text top="306" left="787" width="16" height="41" font="font45" id="p11_t42" reading_order_no="41" segment_no="3" tag_type="formula">(</text>
+<text top="309" left="803" width="18" height="36" font="font46" id="p11_t43" reading_order_no="42" segment_no="3" tag_type="formula">q</text>
+<text top="306" left="823" width="16" height="41" font="font45" id="p11_t44" reading_order_no="43" segment_no="3" tag_type="formula">)</text>
+<text top="464" left="253" width="14" height="27" font="font4" id="p11_t45" reading_order_no="44" segment_no="4" tag_type="list">•</text>
+<text top="461" left="288" width="666" height="37" font="font5" id="p11_t46" reading_order_no="45" segment_no="4" tag_type="list">Same graphical model structure as GANs </text>
+<text top="514" left="253" width="14" height="27" font="font4" id="p11_t47" reading_order_no="46" segment_no="5" tag_type="list">•</text>
+<text top="511" left="288" width="510" height="37" font="font5" id="p11_t48" reading_order_no="47" segment_no="5" tag_type="list">Often limited by expressivity of </text>
+<text top="511" left="798" width="17" height="35" font="font29" id="p11_t49" reading_order_no="48" segment_no="5" tag_type="list"><i>q</i></text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font55" size="146" family="CMMIB10" color="#000000"/>
+	<fontspec id="font56" size="146" family="CMMIB10" color="#000000"/>
+	<fontspec id="font57" size="146" family="CMMIB10" color="#000000"/>
+	<fontspec id="font58" size="146" family="CMMIB10" color="#000000"/>
+	<fontspec id="font59" size="146" family="CMMIB10" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p12_t1" reading_order_no="0" segment_no="5" tag_type="text">(Goodfellow 2016)</text>
+<text top="50" left="128" width="789" height="63" font="font30" id="p12_t2" reading_order_no="1" segment_no="0" tag_type="title">Arbitrary capacity posterior </text>
+<text top="136" left="238" width="548" height="63" font="font30" id="p12_t3" reading_order_no="2" segment_no="0" tag_type="title">via backwards GAN</text>
+<text top="312" left="204" width="81" height="67" font="font55" id="p12_t4" reading_order_no="3" segment_no="1" tag_type="figure">z</text>
+<text top="531" left="206" width="96" height="67" font="font56" id="p12_t5" reading_order_no="4" segment_no="1" tag_type="figure">x</text>
+<text top="312" left="675" width="81" height="67" font="font57" id="p12_t6" reading_order_no="5" segment_no="2" tag_type="figure">z</text>
+<text top="531" left="558" width="96" height="67" font="font58" id="p12_t7" reading_order_no="6" segment_no="2" tag_type="figure">x</text>
+<text top="531" left="777" width="99" height="67" font="font59" id="p12_t8" reading_order_no="7" segment_no="2" tag_type="figure">u</text>
+<text top="668" left="102" width="300" height="37" font="font5" id="p12_t9" reading_order_no="8" segment_no="3" tag_type="text">Generation process</text>
+<text top="668" left="512" width="419" height="37" font="font5" id="p12_t10" reading_order_no="9" segment_no="4" tag_type="text">Posterior sampling process</text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font60" size="22" family="CMUSerif" color="#000000"/>
+	<fontspec id="font61" size="29" family="CMUSerif" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p13_t1" reading_order_no="0" segment_no="7" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="226" width="572" height="81" font="font6" id="p13_t2" reading_order_no="1" segment_no="0" tag_type="title">Related variants</text>
+<text top="217" left="79" width="11" height="22" font="font60" id="p13_t3" reading_order_no="2" segment_no="1" tag_type="list">•</text>
+<text top="215" left="107" width="611" height="30" font="font61" id="p13_t4" reading_order_no="3" segment_no="1" tag_type="list">Adversarial autoencoder (Makhzani et al 2015) </text>
+<text top="291" left="114" width="11" height="22" font="font60" id="p13_t5" reading_order_no="4" segment_no="2" tag_type="list">•</text>
+<text top="289" left="142" width="579" height="30" font="font61" id="p13_t6" reading_order_no="5" segment_no="2" tag_type="list">Variational lower bound for training decoder </text>
+<text top="365" left="114" width="11" height="22" font="font60" id="p13_t7" reading_order_no="6" segment_no="3" tag_type="list">•</text>
+<text top="363" left="142" width="405" height="30" font="font61" id="p13_t8" reading_order_no="7" segment_no="3" tag_type="list">Adversarial training of encoder </text>
+<text top="439" left="149" width="11" height="22" font="font60" id="p13_t9" reading_order_no="8" segment_no="4" tag_type="list">•</text>
+<text top="437" left="177" width="248" height="30" font="font61" id="p13_t10" reading_order_no="9" segment_no="4" tag_type="list">Restricted encoder </text>
+<text top="513" left="149" width="11" height="22" font="font60" id="p13_t11" reading_order_no="10" segment_no="5" tag_type="list">•</text>
+<text top="511" left="177" width="736" height="30" font="font61" id="p13_t12" reading_order_no="11" segment_no="5" tag_type="list">Makes aggregate approximate posterior indistinguishable </text>
+<text top="551" left="177" width="595" height="30" font="font61" id="p13_t13" reading_order_no="12" segment_no="5" tag_type="list">from prior, rather than approximate posterior </text>
+<text top="591" left="177" width="477" height="30" font="font61" id="p13_t14" reading_order_no="13" segment_no="5" tag_type="list">indistinguishable from true posterior </text>
+<text top="667" left="149" width="11" height="22" font="font60" id="p13_t15" reading_order_no="14" segment_no="6" tag_type="list">•</text>
+<text top="665" left="177" width="632" height="30" font="font61" id="p13_t16" reading_order_no="15" segment_no="6" tag_type="list">Uses variational lower bound for training decoder</text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="741" left="921" width="96" height="12" font="font2" id="p14_t1" reading_order_no="0" segment_no="5" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="265" width="494" height="81" font="font6" id="p14_t2" reading_order_no="1" segment_no="0" tag_type="title">ALI / BiGAN</text>
+<text top="277" left="79" width="14" height="27" font="font4" id="p14_t3" reading_order_no="2" segment_no="1" tag_type="list">•</text>
+<text top="274" left="114" width="775" height="37" font="font5" id="p14_t4" reading_order_no="3" segment_no="1" tag_type="list">Adversarially Learned Inference (Dumoulin et al </text>
+<text top="324" left="114" width="98" height="37" font="font5" id="p14_t5" reading_order_no="4" segment_no="1" tag_type="list">2016) </text>
+<text top="419" left="114" width="14" height="27" font="font4" id="p14_t6" reading_order_no="5" segment_no="2" tag_type="list">•</text>
+<text top="416" left="149" width="287" height="37" font="font5" id="p14_t7" reading_order_no="6" segment_no="2" tag_type="list">Gaussian encoder </text>
+<text top="511" left="79" width="14" height="27" font="font4" id="p14_t8" reading_order_no="7" segment_no="3" tag_type="list">•</text>
+<text top="508" left="114" width="474" height="37" font="font5" id="p14_t9" reading_order_no="8" segment_no="3" tag_type="list">BiGAN (Donahue et al 2016) </text>
+<text top="603" left="114" width="14" height="27" font="font4" id="p14_t10" reading_order_no="9" segment_no="4" tag_type="list">•</text>
+<text top="600" left="149" width="344" height="37" font="font5" id="p14_t11" reading_order_no="10" segment_no="4" tag_type="list">Deterministic encoder</text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="741" left="921" width="96" height="12" font="font2" id="p15_t1" reading_order_no="0" segment_no="5" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="132" width="759" height="81" font="font6" id="p15_t2" reading_order_no="1" segment_no="0" tag_type="title">Adversarial Examples</text>
+<text top="450" left="88" width="108" height="37" font="font5" id="p15_t3" reading_order_no="2" segment_no="1" tag_type="text">panda </text>
+<text top="500" left="16" width="240" height="37" font="font5" id="p15_t4" reading_order_no="3" segment_no="3" tag_type="text">58% confidence</text>
+<text top="461" left="841" width="119" height="37" font="font5" id="p15_t5" reading_order_no="4" segment_no="2" tag_type="text">gibbon </text>
+<text top="511" left="774" width="240" height="37" font="font5" id="p15_t6" reading_order_no="5" segment_no="4" tag_type="text">99% confidence</text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font62" size="19" family="CMUSerif" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p16_t1" reading_order_no="0" segment_no="1" tag_type="figure">(Goodfellow 2016)</text>
+<text top="50" left="28" width="1003" height="63" font="font30" id="p16_t2" reading_order_no="1" segment_no="0" tag_type="title">Overly linear, increasingly confident </text>
+<text top="136" left="337" width="364" height="63" font="font30" id="p16_t3" reading_order_no="2" segment_no="0" tag_type="title">extrapolation</text>
+<text top="495" left="368" width="0" height="19" font="font62" id="p16_t4" reading_order_no="3" segment_no="1" tag_type="figure">Argumen</text>
+<text top="419" left="368" width="0" height="19" font="font62" id="p16_t5" reading_order_no="4" segment_no="1" tag_type="figure">t to softmax</text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font63" size="24" family="ArialMT" color="#073763"/>
+	<fontspec id="font64" size="24" family="CMUSerif" color="#073763"/>
+	<fontspec id="font65" size="24" family="CMUSerif,Italic" color="#073763"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p17_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2016)</text>
+<text top="50" left="158" width="729" height="63" font="font30" id="p17_t2" reading_order_no="1" segment_no="0" tag_type="title">Designing priors on latent </text>
+<text top="136" left="421" width="182" height="63" font="font30" id="p17_t3" reading_order_no="2" segment_no="0" tag_type="title">factors</text>
+<text top="258" left="-24" width="8" height="23" font="font63" id="p17_t4" reading_order_no="4" segment_no="2" tag_type="not_found">-</text>
+<text top="254" left="26" width="223" height="24" font="font64" id="p17_t5" reading_order_no="3" segment_no="1" tag_type="text">Both these two class </text>
+<text top="287" left="26" width="171" height="24" font="font64" id="p17_t6" reading_order_no="5" segment_no="1" tag_type="text">mixture models </text>
+<text top="320" left="26" width="246" height="24" font="font64" id="p17_t7" reading_order_no="6" segment_no="1" tag_type="text">implement roughly the </text>
+<text top="353" left="26" width="211" height="24" font="font64" id="p17_t8" reading_order_no="7" segment_no="1" tag_type="text">same marginal over </text>
+<text top="353" left="237" width="11" height="23" font="font65" id="p17_t9" reading_order_no="8" segment_no="1" tag_type="text"><i>x</i></text>
+<text top="353" left="249" width="15" height="24" font="font64" id="p17_t10" reading_order_no="9" segment_no="1" tag_type="text">, </text>
+<text top="386" left="26" width="203" height="24" font="font64" id="p17_t11" reading_order_no="10" segment_no="1" tag_type="text">with very different </text>
+<text top="419" left="26" width="286" height="24" font="font64" id="p17_t12" reading_order_no="11" segment_no="1" tag_type="text">posteriors over the classes. </text>
+<text top="452" left="26" width="254" height="24" font="font64" id="p17_t13" reading_order_no="12" segment_no="1" tag_type="text">The likelihood criterion </text>
+<text top="485" left="26" width="284" height="24" font="font64" id="p17_t14" reading_order_no="13" segment_no="1" tag_type="text">cannot strongly prefer one </text>
+<text top="518" left="26" width="280" height="24" font="font64" id="p17_t15" reading_order_no="14" segment_no="1" tag_type="text">to the other, and in many </text>
+<text top="551" left="26" width="262" height="24" font="font64" id="p17_t16" reading_order_no="15" segment_no="1" tag_type="text">cases will prefer the bad </text>
+<text top="584" left="26" width="43" height="24" font="font64" id="p17_t17" reading_order_no="16" segment_no="1" tag_type="text">one.</text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="741" left="921" width="96" height="12" font="font2" id="p18_t1" reading_order_no="0" segment_no="4" tag_type="not_found">(Goodfellow 2016)</text>
+</page>
+<page number="19" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font66" size="73" family="CMUSerif" color="#000000"/>
+	<fontspec id="font67" size="24" family="CMUSerif" color="#000000"/>
+	<fontspec id="font68" size="32" family="CMUSerif" color="#000000"/>
+	<fontspec id="font69" size="32" family="CMUSerif" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p19_t1" reading_order_no="2" segment_no="8" tag_type="text">(Goodfellow 2016)</text>
+<text top="89" left="81" width="863" height="74" font="font66" id="p19_t2" reading_order_no="3" segment_no="0" tag_type="title">Possible Bayesian solutions</text>
+<text top="218" left="79" width="12" height="24" font="font67" id="p19_t3" reading_order_no="4" segment_no="1" tag_type="list">•</text>
+<text top="215" left="110" width="350" height="32" font="font68" id="p19_t4" reading_order_no="5" segment_no="1" tag_type="list">Bayesian neural network </text>
+<text top="299" left="114" width="12" height="24" font="font67" id="p19_t5" reading_order_no="6" segment_no="2" tag_type="list">•</text>
+<text top="296" left="145" width="736" height="32" font="font68" id="p19_t6" reading_order_no="7" segment_no="2" tag_type="list">Better confidence estimates might solve the problem </text>
+<text top="380" left="114" width="12" height="24" font="font67" id="p19_t7" reading_order_no="8" segment_no="3" tag_type="list">•</text>
+<text top="377" left="145" width="687" height="32" font="font68" id="p19_t8" reading_order_no="9" segment_no="3" tag_type="list">So far, has not worked, but may just need more e</text>
+<text top="377" left="832" width="18" height="35" font="font69" id="p19_t9" reading_order_no="0" segment_no="4" tag_type="text">ff</text>
+<text top="377" left="851" width="51" height="32" font="font68" id="p19_t10" reading_order_no="1" segment_no="4" tag_type="text">ort </text>
+<text top="461" left="149" width="12" height="24" font="font67" id="p19_t11" reading_order_no="10" segment_no="5" tag_type="list">•</text>
+<text top="458" left="180" width="300" height="32" font="font68" id="p19_t12" reading_order_no="11" segment_no="5" tag_type="list">Variational approach </text>
+<text top="542" left="149" width="12" height="24" font="font67" id="p19_t13" reading_order_no="12" segment_no="6" tag_type="list">•</text>
+<text top="539" left="180" width="183" height="32" font="font68" id="p19_t14" reading_order_no="13" segment_no="6" tag_type="list">MC dropout </text>
+<text top="623" left="79" width="12" height="24" font="font67" id="p19_t15" reading_order_no="14" segment_no="7" tag_type="list">•</text>
+<text top="620" left="110" width="829" height="32" font="font68" id="p19_t16" reading_order_no="15" segment_no="7" tag_type="list">Regularize neural network to emulate Bayesian model with </text>
+<text top="664" left="110" width="727" height="32" font="font68" id="p19_t17" reading_order_no="16" segment_no="7" tag_type="list">RBF kernel (amortized inference of Bayesian model)</text>
+</page>
+<page number="20" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font70" size="34" family="CMUSerif" color="#4a86e8"/>
+	<fontspec id="font71" size="33" family="CMUSerif" color="#4a86e8"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p20_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2016)</text>
+<text top="85" left="52" width="871" height="35" font="font70" id="p20_t2" reading_order_no="1" segment_no="0" tag_type="text">Universal engineering machine (model-based optimization)</text>
+<text top="272" left="436" width="203" height="35" font="font70" id="p20_t3" reading_order_no="2" segment_no="2" tag_type="text">Training data</text>
+<text top="272" left="679" width="206" height="35" font="font70" id="p20_t4" reading_order_no="3" segment_no="2" tag_type="text">Extrapolation</text>
+<text top="168" left="54" width="315" height="34" font="font71" id="p20_t5" reading_order_no="4" segment_no="1" tag_type="text">Make new inventions </text>
+<text top="214" left="54" width="247" height="34" font="font71" id="p20_t6" reading_order_no="5" segment_no="1" tag_type="text">by finding input </text>
+<text top="260" left="54" width="234" height="34" font="font71" id="p20_t7" reading_order_no="6" segment_no="1" tag_type="text">that maximizes </text>
+<text top="306" left="54" width="267" height="34" font="font71" id="p20_t8" reading_order_no="7" segment_no="1" tag_type="text">model’s predicted </text>
+<text top="352" left="54" width="180" height="34" font="font71" id="p20_t9" reading_order_no="8" segment_no="1" tag_type="text">performance</text>
+</page>
+<page number="21" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font72" size="35" family="CMUSerif" color="#000000"/>
+	<fontspec id="font73" size="35" family="CMUSerif,Italic" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p21_t1" reading_order_no="0" segment_no="5" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="321" width="382" height="81" font="font6" id="p21_t2" reading_order_no="1" segment_no="0" tag_type="title">Conclusion</text>
+<text top="236" left="79" width="13" height="26" font="font1" id="p21_t3" reading_order_no="2" segment_no="1" tag_type="list">•</text>
+<text top="233" left="113" width="660" height="35" font="font72" id="p21_t4" reading_order_no="3" segment_no="1" tag_type="list">Generative adversarial nets may be able to </text>
+<text top="324" left="114" width="13" height="26" font="font1" id="p21_t5" reading_order_no="4" segment_no="2" tag_type="list">•</text>
+<text top="322" left="148" width="804" height="35" font="font72" id="p21_t6" reading_order_no="5" segment_no="2" tag_type="list">Sample from the Bayesian posterior over parameters </text>
+<text top="413" left="114" width="13" height="26" font="font1" id="p21_t7" reading_order_no="6" segment_no="3" tag_type="list">•</text>
+<text top="410" left="148" width="504" height="35" font="font72" id="p21_t8" reading_order_no="7" segment_no="3" tag_type="list">Implement an arbitrary capacity </text>
+<text top="410" left="652" width="16" height="33" font="font73" id="p21_t9" reading_order_no="8" segment_no="3" tag_type="list"><i>q</i></text>
+<text top="410" left="668" width="237" height="35" font="font72" id="p21_t10" reading_order_no="9" segment_no="3" tag_type="list"> for variational </text>
+<text top="458" left="148" width="98" height="35" font="font72" id="p21_t11" reading_order_no="10" segment_no="3" tag_type="list">Bayes </text>
+<text top="549" left="79" width="13" height="26" font="font1" id="p21_t12" reading_order_no="11" segment_no="4" tag_type="list">•</text>
+<text top="546" left="113" width="833" height="35" font="font72" id="p21_t13" reading_order_no="12" segment_no="4" tag_type="list">Bayesian learning may be able to solve the adversarial </text>
+<text top="594" left="113" width="794" height="35" font="font72" id="p21_t14" reading_order_no="13" segment_no="4" tag_type="list">example problem and unlock the potential of model-</text>
+<text top="642" left="113" width="286" height="35" font="font72" id="p21_t15" reading_order_no="14" segment_no="4" tag_type="list">based optimization</text>
+</page>
+</pdf2xml>

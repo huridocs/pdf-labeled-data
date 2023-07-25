@@ -1,0 +1,57 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="405" width="720">
+	<fontspec id="font0" size="24" family="Arial,Bold" color="#ffffff"/>
+	<fontspec id="font1" size="28" family="Arial,Bold" color="#ffffff"/>
+	<fontspec id="font2" size="20" family="Arial,Bold" color="#ffffff"/>
+<text top="37" left="508" width="172" height="23" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text"><b>Ian Goodfellow</b></text>
+<text top="109" left="22" width="431" height="26" font="font1" id="p1_t2" reading_order_no="1" segment_no="1" tag_type="title"><b>Generative adversarial networks</b></text>
+<text top="167" left="34" width="150" height="19" font="font2" id="p1_t3" reading_order_no="2" segment_no="2" tag_type="text"><b>Giving artificial </b></text>
+<text top="190" left="34" width="116" height="19" font="font2" id="p1_t4" reading_order_no="3" segment_no="2" tag_type="text"><b>intelligence </b></text>
+<text top="213" left="34" width="177" height="19" font="font2" id="p1_t5" reading_order_no="4" segment_no="2" tag_type="text"><b>imagination using </b></text>
+<text top="236" left="34" width="119" height="19" font="font2" id="p1_t6" reading_order_no="5" segment_no="2" tag_type="text"><b>game theory</b></text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="405" width="720">
+	<fontspec id="font3" size="36" family="ArialMT" color="#ffffff"/>
+<text top="304" left="292" width="60" height="47" font="font3" id="p2_t1" reading_order_no="0" segment_no="2" tag_type="text">379</text>
+<text top="131" left="262" width="80" height="47" font="font3" id="p2_t2" reading_order_no="1" segment_no="0" tag_type="text">2503</text>
+<text top="145" left="636" width="60" height="47" font="font3" id="p2_t3" reading_order_no="2" segment_no="1" tag_type="text">175</text>
+<text top="304" left="606" width="100" height="47" font="font3" id="p2_t4" reading_order_no="3" segment_no="3" tag_type="text">26624</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="405" width="720">
+<text top="94" left="16" width="688" height="47" font="font3" id="p3_t1" reading_order_no="0" segment_no="0" tag_type="text">Mapping South Africa with Street View cars</text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="405" width="720">
+	<fontspec id="font4" size="36" family="ArialMT" color="#e60001"/>
+	<fontspec id="font5" size="36" family="ArialMT" color="#00d500"/>
+<text top="101" left="18" width="275" height="47" font="font3" id="p4_t1" reading_order_no="0" segment_no="0" tag_type="text">Traditional model</text>
+<text top="228" left="293" width="80" height="47" font="font3" id="p4_t2" reading_order_no="2" segment_no="3" tag_type="text">2504</text>
+<text top="328" left="65" width="80" height="47" font="font3" id="p4_t3" reading_order_no="1" segment_no="4" tag_type="text">Input</text>
+<text top="272" left="293" width="110" height="47" font="font4" id="p4_t4" reading_order_no="3" segment_no="3" tag_type="text">Actual </text>
+<text top="314" left="293" width="100" height="47" font="font4" id="p4_t5" reading_order_no="4" segment_no="3" tag_type="text">output</text>
+<text top="271" left="481" width="134" height="47" font="font5" id="p4_t6" reading_order_no="5" segment_no="2" tag_type="text">Desired </text>
+<text top="313" left="481" width="100" height="47" font="font5" id="p4_t7" reading_order_no="6" segment_no="2" tag_type="text">output</text>
+<text top="224" left="481" width="80" height="47" font="font3" id="p4_t8" reading_order_no="7" segment_no="2" tag_type="text">2503</text>
+<text top="114" left="348" width="209" height="47" font="font3" id="p4_t9" reading_order_no="8" segment_no="1" tag_type="text">Update: 4-&gt;3</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="405" width="720">
+<text top="100" left="18" width="646" height="47" font="font3" id="p5_t1" reading_order_no="0" segment_no="0" tag_type="title">Generative adversarial networks (GANs)</text>
+<text top="340" left="172" width="124" height="19" font="font2" id="p5_t2" reading_order_no="1" segment_no="1" tag_type="figure"><b>Training data</b></text>
+<text top="237" left="330" width="129" height="19" font="font2" id="p5_t3" reading_order_no="2" segment_no="1" tag_type="figure"><b>Discriminator</b></text>
+<text top="237" left="491" width="42" height="19" font="font2" id="p5_t4" reading_order_no="3" segment_no="1" tag_type="figure"><b>Real</b></text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="405" width="720">
+<text top="100" left="18" width="646" height="47" font="font3" id="p6_t1" reading_order_no="0" segment_no="0" tag_type="title">Generative adversarial networks (GANs)</text>
+<text top="343" left="287" width="104" height="19" font="font2" id="p6_t2" reading_order_no="1" segment_no="1" tag_type="figure"><b>Generated </b></text>
+<text top="366" left="287" width="41" height="19" font="font2" id="p6_t3" reading_order_no="2" segment_no="1" tag_type="figure"><b>data</b></text>
+<text top="240" left="445" width="129" height="19" font="font2" id="p6_t4" reading_order_no="3" segment_no="1" tag_type="figure"><b>Discriminator</b></text>
+<text top="240" left="606" width="46" height="19" font="font2" id="p6_t5" reading_order_no="4" segment_no="1" tag_type="figure"><b>Fake</b></text>
+<text top="240" left="101" width="96" height="19" font="font2" id="p6_t6" reading_order_no="5" segment_no="1" tag_type="figure"><b>Generator</b></text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="405" width="720">
+<text top="100" left="18" width="330" height="47" font="font3" id="p7_t1" reading_order_no="0" segment_no="0" tag_type="title">Imaginary celebrities</text>
+<text top="360" left="403" width="308" height="47" font="font3" id="p7_t2" reading_order_no="1" segment_no="1" tag_type="text">(Karras et al, 2017)</text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="405" width="720">
+</page>
+</pdf2xml>

@@ -1,0 +1,433 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="792" width="612">
+	<fontspec id="font0" size="9" family="Arial,Italic" color="#000000"/>
+	<fontspec id="font1" size="9" family="Arial" color="#000000"/>
+	<fontspec id="font2" size="9" family="Arial,Bold" color="#000000"/>
+	<fontspec id="font3" size="7" family="Arial,Italic" color="#000000"/>
+	<fontspec id="font4" size="10" family="Giovanni-Book" color="#000000"/>
+	<fontspec id="font5" size="10" family="Mathematica5" color="#000000"/>
+	<fontspec id="font6" size="10" family="Giovanni-BookItalic,Italic" color="#000000"/>
+	<fontspec id="font7" size="10" family="SymbolMT" color="#000000"/>
+	<fontspec id="font8" size="7" family="Giovanni-BookItalic,Italic" color="#000000"/>
+	<fontspec id="font9" size="7" family="Giovanni-Book" color="#000000"/>
+	<fontspec id="font10" size="10" family="Giovanni,Bold" color="#000000"/>
+	<fontspec id="font11" size="8" family="Mathematica5" color="#000000"/>
+	<fontspec id="font12" size="10" family="GillSans" color="#ffffff"/>
+	<fontspec id="font13" size="10" family="GillSans,Bold" color="#000000"/>
+	<fontspec id="font14" size="10" family="GillSans" color="#000000"/>
+	<fontspec id="font15" size="16" family="CMBX10,Bold" color="#000000"/>
+	<fontspec id="font16" size="16" family="CMR10" color="#000000"/>
+	<fontspec id="font17" size="16" family="CMMI10,Italic" color="#000000"/>
+	<fontspec id="font18" size="16" family="CMSY10,Italic" color="#000000"/>
+	<fontspec id="font19" size="11" family="CMBX7,Bold" color="#000000"/>
+	<fontspec id="font20" size="16" family="CMTI10,Italic" color="#000000"/>
+	<fontspec id="font21" size="11" family="CMSY7,Italic" color="#000000"/>
+	<fontspec id="font22" size="11" family="CMMI7,Italic" color="#000000"/>
+<text top="41" left="55" width="129" height="10" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title"><i>Algorithms for Molecular Biology</i></text>
+<text top="41" left="184" width="28" height="10" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="title"> 2006, </text>
+<text top="41" left="211" width="5" height="10" font="font2" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="title"><b>1</b></text>
+<text top="41" left="216" width="12" height="10" font="font1" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="title">:21</text>
+<text top="41" left="410" width="144" height="10" font="font1" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="text">http://www.almob.org/content/1/1/21</text>
+<text top="756" left="503" width="51" height="10" font="font1" id="p1_t6" reading_order_no="403" segment_no="9" tag_type="text">Page 6 of 18</text>
+<text top="769" left="432" width="122" height="8" font="font3" id="p1_t7" reading_order_no="404" segment_no="10" tag_type="text"><i>(page number not for citation purposes)</i></text>
+<text top="91" left="55" width="159" height="9" font="font4" id="p1_t8" reading_order_no="5" segment_no="3" tag_type="text">For each suffix of a structured motif, </text>
+<text top="90" left="214" width="10" height="10" font="font5" id="p1_t9" reading_order_no="6" segment_no="3" tag_type="text"></text>
+<text top="91" left="224" width="72" height="9" font="font4" id="p1_t10" reading_order_no="7" segment_no="3" tag_type="text">, starting at posi-</text>
+<text top="108" left="55" width="20" height="9" font="font4" id="p1_t11" reading_order_no="8" segment_no="3" tag_type="text">tion </text>
+<text top="108" left="76" width="5" height="9" font="font6" id="p1_t12" reading_order_no="9" segment_no="3" tag_type="text"><i>i </i></text>
+<text top="108" left="83" width="32" height="9" font="font4" id="p1_t13" reading_order_no="10" segment_no="3" tag_type="text">with 1 </text>
+<text top="105" left="114" width="5" height="12" font="font7" id="p1_t14" reading_order_no="11" segment_no="3" tag_type="text">≤</text>
+<text top="108" left="123" width="5" height="9" font="font6" id="p1_t15" reading_order_no="12" segment_no="3" tag_type="text"><i>i </i></text>
+<text top="105" left="130" width="5" height="12" font="font7" id="p1_t16" reading_order_no="13" segment_no="3" tag_type="text">≤</text>
+<text top="108" left="135" width="7" height="9" font="font4" id="p1_t17" reading_order_no="14" segment_no="3" tag_type="text">  |</text>
+<text top="107" left="142" width="10" height="10" font="font5" id="p1_t18" reading_order_no="15" segment_no="3" tag_type="text"></text>
+<text top="108" left="153" width="98" height="9" font="font4" id="p1_t19" reading_order_no="16" segment_no="3" tag_type="text">|, we keep its pos-list, </text>
+<text top="107" left="251" width="7" height="10" font="font5" id="p1_t20" reading_order_no="17" segment_no="3" tag_type="text"></text>
+<text top="113" left="258" width="2" height="6" font="font8" id="p1_t21" reading_order_no="18" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="108" left="260" width="36" height="9" font="font4" id="p1_t22" reading_order_no="19" segment_no="3" tag_type="text">, and an</text>
+<text top="125" left="55" width="45" height="9" font="font4" id="p1_t23" reading_order_no="20" segment_no="3" tag_type="text">index list, </text>
+<text top="125" left="100" width="8" height="10" font="font5" id="p1_t24" reading_order_no="21" segment_no="3" tag_type="text"></text>
+<text top="130" left="108" width="2" height="6" font="font8" id="p1_t25" reading_order_no="22" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="125" left="110" width="89" height="9" font="font4" id="p1_t26" reading_order_no="23" segment_no="3" tag_type="text">. For each entry, say </text>
+<text top="125" left="199" width="7" height="10" font="font5" id="p1_t27" reading_order_no="24" segment_no="3" tag_type="text"></text>
+<text top="130" left="205" width="2" height="6" font="font8" id="p1_t28" reading_order_no="25" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="125" left="207" width="3" height="9" font="font4" id="p1_t29" reading_order_no="26" segment_no="3" tag_type="text">[</text>
+<text top="125" left="211" width="3" height="9" font="font6" id="p1_t30" reading_order_no="27" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="125" left="213" width="71" height="9" font="font4" id="p1_t31" reading_order_no="28" segment_no="3" tag_type="text">], in the pos-list </text>
+<text top="125" left="285" width="7" height="10" font="font5" id="p1_t32" reading_order_no="29" segment_no="3" tag_type="text"></text>
+<text top="130" left="292" width="2" height="6" font="font8" id="p1_t33" reading_order_no="30" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="125" left="294" width="3" height="9" font="font4" id="p1_t34" reading_order_no="31" segment_no="3" tag_type="text">,</text>
+<text top="143" left="55" width="137" height="9" font="font4" id="p1_t35" reading_order_no="32" segment_no="3" tag_type="text">the corresponding index entry </text>
+<text top="142" left="192" width="8" height="10" font="font5" id="p1_t36" reading_order_no="33" segment_no="3" tag_type="text"></text>
+<text top="147" left="200" width="2" height="6" font="font8" id="p1_t37" reading_order_no="34" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="143" left="202" width="3" height="9" font="font4" id="p1_t38" reading_order_no="35" segment_no="3" tag_type="text">[</text>
+<text top="143" left="205" width="3" height="9" font="font6" id="p1_t39" reading_order_no="36" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="143" left="207" width="89" height="9" font="font4" id="p1_t40" reading_order_no="37" segment_no="3" tag_type="text">], points to the first</text>
+<text top="160" left="55" width="42" height="9" font="font4" id="p1_t41" reading_order_no="38" segment_no="3" tag_type="text">entry, say </text>
+<text top="160" left="97" width="3" height="9" font="font6" id="p1_t42" reading_order_no="39" segment_no="3" tag_type="text"><i>f</i></text>
+<text top="160" left="100" width="16" height="9" font="font4" id="p1_t43" reading_order_no="40" segment_no="3" tag_type="text">, in </text>
+<text top="159" left="116" width="7" height="10" font="font5" id="p1_t44" reading_order_no="41" segment_no="3" tag_type="text"></text>
+<text top="164" left="123" width="2" height="6" font="font8" id="p1_t45" reading_order_no="42" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="164" left="124" width="9" height="6" font="font9" id="p1_t46" reading_order_no="43" segment_no="3" tag_type="text">+1 </text>
+<text top="160" left="134" width="162" height="9" font="font4" id="p1_t47" reading_order_no="44" segment_no="3" tag_type="text">that satisfies the gap range with respect</text>
+<text top="177" left="55" width="11" height="9" font="font4" id="p1_t48" reading_order_no="45" segment_no="3" tag_type="text">to </text>
+<text top="176" left="67" width="7" height="10" font="font5" id="p1_t49" reading_order_no="46" segment_no="3" tag_type="text"></text>
+<text top="181" left="74" width="2" height="6" font="font8" id="p1_t50" reading_order_no="47" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="177" left="75" width="3" height="9" font="font4" id="p1_t51" reading_order_no="48" segment_no="3" tag_type="text">[</text>
+<text top="177" left="79" width="3" height="9" font="font6" id="p1_t52" reading_order_no="49" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="177" left="81" width="27" height="9" font="font4" id="p1_t53" reading_order_no="50" segment_no="3" tag_type="text">], i.e., </text>
+<text top="176" left="108" width="7" height="10" font="font5" id="p1_t54" reading_order_no="51" segment_no="3" tag_type="text"></text>
+<text top="181" left="115" width="2" height="6" font="font8" id="p1_t55" reading_order_no="52" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="181" left="117" width="8" height="6" font="font9" id="p1_t56" reading_order_no="53" segment_no="3" tag_type="text">+1</text>
+<text top="177" left="124" width="3" height="9" font="font4" id="p1_t57" reading_order_no="54" segment_no="3" tag_type="text">[</text>
+<text top="177" left="128" width="3" height="9" font="font6" id="p1_t58" reading_order_no="55" segment_no="3" tag_type="text"><i>f</i></text>
+<text top="177" left="131" width="12" height="9" font="font4" id="p1_t59" reading_order_no="56" segment_no="3" tag_type="text">] - </text>
+<text top="176" left="143" width="7" height="10" font="font5" id="p1_t60" reading_order_no="57" segment_no="3" tag_type="text"></text>
+<text top="181" left="150" width="2" height="6" font="font8" id="p1_t61" reading_order_no="58" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="177" left="152" width="3" height="9" font="font4" id="p1_t62" reading_order_no="59" segment_no="3" tag_type="text">[</text>
+<text top="177" left="155" width="3" height="9" font="font6" id="p1_t63" reading_order_no="60" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="177" left="158" width="20" height="9" font="font4" id="p1_t64" reading_order_no="61" segment_no="3" tag_type="text">] - 1 </text>
+<text top="174" left="178" width="7" height="12" font="font7" id="p1_t65" reading_order_no="62" segment_no="3" tag_type="text">∈</text>
+<text top="177" left="185" width="6" height="9" font="font4" id="p1_t66" reading_order_no="63" segment_no="3" tag_type="text"> [</text>
+<text top="177" left="191" width="3" height="9" font="font6" id="p1_t67" reading_order_no="64" segment_no="3" tag_type="text"><i>l</i></text>
+<text top="181" left="194" width="2" height="6" font="font8" id="p1_t68" reading_order_no="65" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="177" left="196" width="5" height="9" font="font4" id="p1_t69" reading_order_no="66" segment_no="3" tag_type="text">, </text>
+<text top="177" left="201" width="5" height="9" font="font6" id="p1_t70" reading_order_no="67" segment_no="3" tag_type="text"><i>u</i></text>
+<text top="181" left="206" width="2" height="6" font="font8" id="p1_t71" reading_order_no="68" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="177" left="208" width="52" height="9" font="font4" id="p1_t72" reading_order_no="69" segment_no="3" tag_type="text">]. Note that </text>
+<text top="177" left="287" width="9" height="9" font="font4" id="p1_t73" reading_order_no="72" segment_no="3" tag_type="text"> is</text>
+<text top="199" left="55" width="110" height="9" font="font4" id="p1_t74" reading_order_no="73" segment_no="3" tag_type="text">never used. Also note that </text>
+<text top="198" left="165" width="7" height="10" font="font5" id="p1_t75" reading_order_no="74" segment_no="3" tag_type="text"></text>
+<text top="199" left="172" width="4" height="9" font="font4" id="p1_t76" reading_order_no="75" segment_no="3" tag_type="text">(</text>
+<text top="198" left="176" width="10" height="10" font="font5" id="p1_t77" reading_order_no="76" segment_no="3" tag_type="text"></text>
+<text top="199" left="186" width="14" height="9" font="font4" id="p1_t78" reading_order_no="77" segment_no="3" tag_type="text">) = </text>
+<text top="198" left="200" width="7" height="10" font="font5" id="p1_t79" reading_order_no="78" segment_no="3" tag_type="text"></text>
+<text top="203" left="207" width="4" height="6" font="font9" id="p1_t80" reading_order_no="79" segment_no="3" tag_type="text">1</text>
+<text top="199" left="211" width="20" height="9" font="font4" id="p1_t81" reading_order_no="80" segment_no="3" tag_type="text">. Let </text>
+<text top="199" left="230" width="6" height="9" font="font6" id="p1_t82" reading_order_no="81" segment_no="3" tag_type="text"><i>s </i></text>
+<text top="199" left="236" width="60" height="9" font="font4" id="p1_t83" reading_order_no="82" segment_no="3" tag_type="text">be a start posi-</text>
+<text top="214" left="55" width="170" height="9" font="font4" id="p1_t84" reading_order_no="83" segment_no="3" tag_type="text">tion for the structured motif in sequence </text>
+<text top="214" left="225" width="5" height="9" font="font6" id="p1_t85" reading_order_no="84" segment_no="3" tag_type="text"><i>S</i></text>
+<text top="214" left="230" width="35" height="9" font="font4" id="p1_t86" reading_order_no="85" segment_no="3" tag_type="text">, and let </text>
+<text top="214" left="265" width="6" height="9" font="font6" id="p1_t87" reading_order_no="86" segment_no="3" tag_type="text"><i>s </i></text>
+<text top="214" left="271" width="26" height="9" font="font4" id="p1_t88" reading_order_no="87" segment_no="3" tag_type="text">be the</text>
+<text top="229" left="55" width="3" height="9" font="font6" id="p1_t89" reading_order_no="88" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="234" left="58" width="2" height="6" font="font8" id="p1_t90" reading_order_no="89" segment_no="3" tag_type="text"><i>s</i></text>
+<text top="229" left="60" width="51" height="9" font="font4" id="p1_t91" reading_order_no="90" segment_no="3" tag_type="text">-th entry in </text>
+<text top="228" left="111" width="7" height="10" font="font5" id="p1_t92" reading_order_no="91" segment_no="3" tag_type="text"></text>
+<text top="234" left="118" width="4" height="6" font="font9" id="p1_t93" reading_order_no="92" segment_no="3" tag_type="text">1</text>
+<text top="229" left="122" width="24" height="9" font="font4" id="p1_t94" reading_order_no="93" segment_no="3" tag_type="text">, i.e., </text>
+<text top="229" left="145" width="6" height="9" font="font6" id="p1_t95" reading_order_no="94" segment_no="3" tag_type="text"><i>s </i></text>
+<text top="229" left="152" width="8" height="9" font="font4" id="p1_t96" reading_order_no="95" segment_no="3" tag_type="text">= </text>
+<text top="228" left="160" width="7" height="10" font="font5" id="p1_t97" reading_order_no="96" segment_no="3" tag_type="text"></text>
+<text top="234" left="167" width="4" height="6" font="font9" id="p1_t98" reading_order_no="97" segment_no="3" tag_type="text">1</text>
+<text top="229" left="171" width="3" height="9" font="font4" id="p1_t99" reading_order_no="98" segment_no="3" tag_type="text">[</text>
+<text top="229" left="174" width="3" height="9" font="font6" id="p1_t100" reading_order_no="99" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="234" left="177" width="2" height="6" font="font8" id="p1_t101" reading_order_no="100" segment_no="3" tag_type="text"><i>s</i></text>
+<text top="229" left="179" width="25" height="9" font="font4" id="p1_t102" reading_order_no="101" segment_no="3" tag_type="text">]. Let </text>
+<text top="229" left="204" width="8" height="9" font="font6" id="p1_t103" reading_order_no="102" segment_no="3" tag_type="text"><i>F </i></text>
+<text top="229" left="212" width="84" height="9" font="font4" id="p1_t104" reading_order_no="103" segment_no="3" tag_type="text">store a full position</text>
+<text top="246" left="55" width="57" height="9" font="font4" id="p1_t105" reading_order_no="104" segment_no="3" tag_type="text">starting from </text>
+<text top="246" left="112" width="3" height="9" font="font6" id="p1_t106" reading_order_no="105" segment_no="3" tag_type="text"><i>s</i></text>
+<text top="246" left="115" width="37" height="9" font="font4" id="p1_t107" reading_order_no="106" segment_no="3" tag_type="text">, and let </text>
+<text top="246" left="152" width="7" height="10" font="font5" id="p1_t108" reading_order_no="107" segment_no="3" tag_type="text"></text>
+<text top="246" left="159" width="138" height="9" font="font4" id="p1_t109" reading_order_no="108" segment_no="3" tag_type="text"> store the set of all full positions.</text>
+<text top="261" left="55" width="241" height="9" font="font4" id="p1_t110" reading_order_no="109" segment_no="3" tag_type="text">Fi<a href="">gure 2 </a>shows the pseudo-code for recovering full posi-</text>
+<text top="275" left="55" width="86" height="9" font="font4" id="p1_t111" reading_order_no="110" segment_no="3" tag_type="text">tions starting from </text>
+<text top="275" left="141" width="3" height="9" font="font6" id="p1_t112" reading_order_no="111" segment_no="3" tag_type="text"><i>s</i></text>
+<text top="275" left="144" width="152" height="9" font="font4" id="p1_t113" reading_order_no="112" segment_no="3" tag_type="text">. This recursive algorithm has four</text>
+<text top="290" left="55" width="51" height="9" font="font4" id="p1_t114" reading_order_no="113" segment_no="3" tag_type="text">parameters: </text>
+<text top="290" left="107" width="5" height="9" font="font6" id="p1_t115" reading_order_no="114" segment_no="3" tag_type="text"><i>i </i></text>
+<text top="290" left="112" width="126" height="9" font="font4" id="p1_t116" reading_order_no="115" segment_no="3" tag_type="text">denotes a (suffix) position in </text>
+<text top="289" left="238" width="10" height="10" font="font5" id="p1_t117" reading_order_no="116" segment_no="3" tag_type="text"></text>
+<text top="290" left="249" width="5" height="9" font="font4" id="p1_t118" reading_order_no="117" segment_no="3" tag_type="text">, </text>
+<text top="290" left="254" width="5" height="9" font="font6" id="p1_t119" reading_order_no="118" segment_no="3" tag_type="text"><i>j </i></text>
+<text top="290" left="259" width="37" height="9" font="font4" id="p1_t120" reading_order_no="119" segment_no="3" tag_type="text">gives the</text>
+<text top="307" left="55" width="3" height="9" font="font6" id="p1_t121" reading_order_no="120" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="307" left="58" width="52" height="9" font="font4" id="p1_t122" reading_order_no="121" segment_no="3" tag_type="text">-th entry in </text>
+<text top="306" left="110" width="7" height="10" font="font5" id="p1_t123" reading_order_no="122" segment_no="3" tag_type="text"></text>
+<text top="312" left="117" width="2" height="6" font="font8" id="p1_t124" reading_order_no="123" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="307" left="119" width="5" height="9" font="font4" id="p1_t125" reading_order_no="124" segment_no="3" tag_type="text">, </text>
+<text top="307" left="125" width="8" height="9" font="font6" id="p1_t126" reading_order_no="125" segment_no="3" tag_type="text"><i>F </i></text>
+<text top="307" left="133" width="163" height="9" font="font4" id="p1_t127" reading_order_no="126" segment_no="3" tag_type="text">denotes an intermediate full position,</text>
+<text top="324" left="55" width="19" height="9" font="font4" id="p1_t128" reading_order_no="127" segment_no="3" tag_type="text">and </text>
+<text top="324" left="74" width="7" height="10" font="font5" id="p1_t129" reading_order_no="128" segment_no="3" tag_type="text"></text>
+<text top="324" left="80" width="216" height="9" font="font4" id="p1_t130" reading_order_no="129" segment_no="3" tag_type="text"> denotes the set of all the full occurrences. The algo-</text>
+<text top="341" left="55" width="121" height="9" font="font4" id="p1_t131" reading_order_no="130" segment_no="3" tag_type="text">rithm is initially called with </text>
+<text top="341" left="176" width="5" height="9" font="font6" id="p1_t132" reading_order_no="131" segment_no="3" tag_type="text"><i>i </i></text>
+<text top="341" left="182" width="19" height="9" font="font4" id="p1_t133" reading_order_no="132" segment_no="3" tag_type="text">= 2, </text>
+<text top="341" left="201" width="5" height="9" font="font6" id="p1_t134" reading_order_no="133" segment_no="3" tag_type="text"><i>j </i></text>
+<text top="341" left="207" width="8" height="9" font="font4" id="p1_t135" reading_order_no="134" segment_no="3" tag_type="text">= </text>
+<text top="341" left="215" width="8" height="10" font="font5" id="p1_t136" reading_order_no="135" segment_no="3" tag_type="text"></text>
+<text top="346" left="223" width="4" height="6" font="font9" id="p1_t137" reading_order_no="136" segment_no="3" tag_type="text">1</text>
+<text top="341" left="227" width="3" height="9" font="font4" id="p1_t138" reading_order_no="137" segment_no="3" tag_type="text">[</text>
+<text top="341" left="230" width="3" height="9" font="font6" id="p1_t139" reading_order_no="138" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="346" left="233" width="2" height="6" font="font8" id="p1_t140" reading_order_no="139" segment_no="3" tag_type="text"><i>s</i></text>
+<text top="341" left="235" width="8" height="9" font="font4" id="p1_t141" reading_order_no="140" segment_no="3" tag_type="text">], </text>
+<text top="341" left="244" width="8" height="9" font="font6" id="p1_t142" reading_order_no="141" segment_no="3" tag_type="text"><i>F </i></text>
+<text top="341" left="252" width="14" height="9" font="font4" id="p1_t143" reading_order_no="142" segment_no="3" tag_type="text">= {</text>
+<text top="341" left="266" width="3" height="9" font="font6" id="p1_t144" reading_order_no="143" segment_no="3" tag_type="text"><i>s</i></text>
+<text top="341" left="269" width="27" height="9" font="font4" id="p1_t145" reading_order_no="144" segment_no="3" tag_type="text">}, and</text>
+<text top="358" left="55" width="7" height="10" font="font5" id="p1_t146" reading_order_no="145" segment_no="3" tag_type="text"></text>
+<text top="359" left="64" width="8" height="9" font="font4" id="p1_t147" reading_order_no="146" segment_no="3" tag_type="text">= </text>
+<text top="356" left="72" width="8" height="12" font="font7" id="p1_t148" reading_order_no="147" segment_no="3" tag_type="text">∅</text>
+<text top="359" left="80" width="120" height="9" font="font4" id="p1_t149" reading_order_no="148" segment_no="3" tag_type="text">. Starting at the first index in </text>
+<text top="359" left="200" width="5" height="9" font="font6" id="p1_t150" reading_order_no="149" segment_no="3" tag_type="text"><i>P</i></text>
+<text top="363" left="205" width="2" height="6" font="font8" id="p1_t151" reading_order_no="150" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="359" left="207" width="89" height="9" font="font4" id="p1_t152" reading_order_no="151" segment_no="3" tag_type="text">, that satisfies the gap</text>
+<text top="374" left="55" width="169" height="9" font="font4" id="p1_t153" reading_order_no="152" segment_no="3" tag_type="text">range with respect to the last position in </text>
+<text top="374" left="224" width="5" height="9" font="font6" id="p1_t154" reading_order_no="153" segment_no="3" tag_type="text"><i>F</i></text>
+<text top="374" left="229" width="67" height="9" font="font4" id="p1_t155" reading_order_no="154" segment_no="3" tag_type="text">, we continue to</text>
+<text top="388" left="55" width="116" height="9" font="font4" id="p1_t156" reading_order_no="155" segment_no="3" tag_type="text">compute all such positions </text>
+<text top="388" left="171" width="3" height="9" font="font6" id="p1_t157" reading_order_no="156" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="388" left="173" width="5" height="9" font="font4" id="p1_t158" reading_order_no="157" segment_no="3" tag_type="text">' </text>
+<text top="385" left="178" width="7" height="12" font="font7" id="p1_t159" reading_order_no="158" segment_no="3" tag_type="text">∈</text>
+<text top="388" left="185" width="6" height="9" font="font4" id="p1_t160" reading_order_no="159" segment_no="3" tag_type="text"> [</text>
+<text top="388" left="191" width="3" height="9" font="font6" id="p1_t161" reading_order_no="160" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="388" left="193" width="8" height="9" font="font4" id="p1_t162" reading_order_no="161" segment_no="3" tag_type="text">, |</text>
+<text top="388" left="201" width="5" height="9" font="font6" id="p1_t163" reading_order_no="162" segment_no="3" tag_type="text"><i>P</i></text>
+<text top="393" left="207" width="2" height="6" font="font8" id="p1_t164" reading_order_no="163" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="388" left="209" width="87" height="9" font="font4" id="p1_t165" reading_order_no="164" segment_no="3" tag_type="text">|] that satisfy the gap</text>
+<text top="403" left="55" width="192" height="9" font="font4" id="p1_t166" reading_order_no="165" segment_no="3" tag_type="text">range (line 3).  That is, we find all positions </text>
+<text top="403" left="247" width="3" height="9" font="font6" id="p1_t167" reading_order_no="166" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="403" left="249" width="47" height="9" font="font4" id="p1_t168" reading_order_no="167" segment_no="3" tag_type="text">', such that</text>
+<text top="417" left="55" width="5" height="9" font="font6" id="p1_t169" reading_order_no="168" segment_no="3" tag_type="text"><i>P</i></text>
+<text top="422" left="61" width="2" height="6" font="font8" id="p1_t170" reading_order_no="169" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="417" left="62" width="3" height="9" font="font4" id="p1_t171" reading_order_no="170" segment_no="3" tag_type="text">[</text>
+<text top="417" left="66" width="3" height="9" font="font6" id="p1_t172" reading_order_no="171" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="417" left="68" width="13" height="9" font="font4" id="p1_t173" reading_order_no="172" segment_no="3" tag_type="text">'] - </text>
+<text top="417" left="82" width="5" height="9" font="font6" id="p1_t174" reading_order_no="173" segment_no="3" tag_type="text"><i>F</i></text>
+<text top="417" left="87" width="3" height="9" font="font4" id="p1_t175" reading_order_no="174" segment_no="3" tag_type="text">[</text>
+<text top="417" left="90" width="5" height="9" font="font6" id="p1_t176" reading_order_no="175" segment_no="3" tag_type="text"><i>i </i></text>
+<text top="417" left="96" width="38" height="9" font="font4" id="p1_t177" reading_order_no="176" segment_no="3" tag_type="text">- 1] - 1 = </text>
+<text top="417" left="133" width="8" height="9" font="font6" id="p1_t178" reading_order_no="177" segment_no="3" tag_type="text"><i>d </i></text>
+<text top="414" left="141" width="7" height="12" font="font7" id="p1_t179" reading_order_no="178" segment_no="3" tag_type="text">∈</text>
+<text top="417" left="147" width="6" height="9" font="font4" id="p1_t180" reading_order_no="179" segment_no="3" tag_type="text"> [</text>
+<text top="417" left="153" width="3" height="9" font="font6" id="p1_t181" reading_order_no="180" segment_no="3" tag_type="text"><i>l</i></text>
+<text top="422" left="156" width="2" height="6" font="font8" id="p1_t182" reading_order_no="181" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="417" left="158" width="5" height="9" font="font4" id="p1_t183" reading_order_no="182" segment_no="3" tag_type="text">, </text>
+<text top="417" left="163" width="5" height="9" font="font6" id="p1_t184" reading_order_no="183" segment_no="3" tag_type="text"><i>u</i></text>
+<text top="422" left="168" width="2" height="6" font="font8" id="p1_t185" reading_order_no="184" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="417" left="170" width="105" height="9" font="font4" id="p1_t186" reading_order_no="185" segment_no="3" tag_type="text">]. For each such position </text>
+<text top="417" left="275" width="3" height="9" font="font6" id="p1_t187" reading_order_no="186" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="417" left="277" width="19" height="9" font="font4" id="p1_t188" reading_order_no="187" segment_no="3" tag_type="text">', we</text>
+<text top="432" left="55" width="241" height="9" font="font4" id="p1_t189" reading_order_no="188" segment_no="3" tag_type="text">add it in turn to the intermediate full position, and make</text>
+<text top="445" left="55" width="241" height="9" font="font4" id="p1_t190" reading_order_no="189" segment_no="3" tag_type="text">another recursive call (line 5), passing the first index posi-</text>
+<text top="458" left="55" width="20" height="9" font="font4" id="p1_t191" reading_order_no="190" segment_no="3" tag_type="text">tion </text>
+<text top="458" left="75" width="8" height="9" font="font6" id="p1_t192" reading_order_no="191" segment_no="3" tag_type="text"><i>N</i></text>
+<text top="463" left="82" width="2" height="6" font="font8" id="p1_t193" reading_order_no="192" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="458" left="84" width="3" height="9" font="font4" id="p1_t194" reading_order_no="193" segment_no="3" tag_type="text">[</text>
+<text top="458" left="87" width="3" height="9" font="font6" id="p1_t195" reading_order_no="194" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="458" left="90" width="18" height="9" font="font4" id="p1_t196" reading_order_no="195" segment_no="3" tag_type="text">'] in </text>
+<text top="458" left="108" width="5" height="9" font="font6" id="p1_t197" reading_order_no="196" segment_no="3" tag_type="text"><i>P</i></text>
+<text top="463" left="114" width="2" height="6" font="font8" id="p1_t198" reading_order_no="197" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="463" left="116" width="9" height="6" font="font9" id="p1_t199" reading_order_no="198" segment_no="3" tag_type="text">+1 </text>
+<text top="458" left="125" width="171" height="9" font="font4" id="p1_t200" reading_order_no="199" segment_no="3" tag_type="text">that can satisfy the gap range with respect</text>
+<text top="473" left="55" width="11" height="9" font="font4" id="p1_t201" reading_order_no="200" segment_no="3" tag_type="text">to </text>
+<text top="473" left="67" width="5" height="9" font="font6" id="p1_t202" reading_order_no="201" segment_no="3" tag_type="text"><i>P</i></text>
+<text top="478" left="73" width="2" height="6" font="font8" id="p1_t203" reading_order_no="202" segment_no="3" tag_type="text"><i>i</i></text>
+<text top="473" left="74" width="3" height="9" font="font4" id="p1_t204" reading_order_no="203" segment_no="3" tag_type="text">[</text>
+<text top="473" left="78" width="3" height="9" font="font6" id="p1_t205" reading_order_no="204" segment_no="3" tag_type="text"><i>j</i></text>
+<text top="473" left="80" width="216" height="9" font="font4" id="p1_t206" reading_order_no="205" segment_no="3" tag_type="text">']. Thus in each call we keep following the indices</text>
+<text top="488" left="55" width="241" height="9" font="font4" id="p1_t207" reading_order_no="206" segment_no="3" tag_type="text">from one pos-list to the next, to finally obtain a full posi-</text>
+<text top="502" left="55" width="77" height="9" font="font4" id="p1_t208" reading_order_no="207" segment_no="3" tag_type="text">tion starting from </text>
+<text top="502" left="132" width="6" height="9" font="font6" id="p1_t209" reading_order_no="208" segment_no="3" tag_type="text"><i>s </i></text>
+<text top="502" left="138" width="133" height="9" font="font4" id="p1_t210" reading_order_no="209" segment_no="3" tag_type="text">when we reach the last pos-list, </text>
+<text top="502" left="294" width="3" height="9" font="font4" id="p1_t211" reading_order_no="212" segment_no="5" tag_type="text">.</text>
+<text top="89" left="313" width="140" height="9" font="font4" id="p1_t212" reading_order_no="213" segment_no="2" tag_type="text">Note that at each suffix position </text>
+<text top="89" left="453" width="3" height="9" font="font6" id="p1_t213" reading_order_no="214" segment_no="2" tag_type="text"><i>i</i></text>
+<text top="89" left="455" width="29" height="9" font="font4" id="p1_t214" reading_order_no="215" segment_no="2" tag_type="text">, since </text>
+<text top="89" left="485" width="5" height="9" font="font6" id="p1_t215" reading_order_no="216" segment_no="2" tag_type="text"><i>j </i></text>
+<text top="89" left="490" width="64" height="9" font="font4" id="p1_t216" reading_order_no="217" segment_no="2" tag_type="text">only marks the</text>
+<text top="104" left="313" width="69" height="9" font="font4" id="p1_t217" reading_order_no="218" segment_no="2" tag_type="text">first position in </text>
+<text top="103" left="382" width="7" height="10" font="font5" id="p1_t218" reading_order_no="219" segment_no="2" tag_type="text"></text>
+<text top="109" left="389" width="2" height="6" font="font8" id="p1_t219" reading_order_no="220" segment_no="2" tag_type="text"><i>i</i></text>
+<text top="109" left="391" width="9" height="6" font="font9" id="p1_t220" reading_order_no="221" segment_no="2" tag_type="text">+1 </text>
+<text top="104" left="401" width="153" height="9" font="font4" id="p1_t221" reading_order_no="222" segment_no="2" tag_type="text">that satisfies the gap constraints, we</text>
+<text top="119" left="313" width="221" height="9" font="font4" id="p1_t222" reading_order_no="223" segment_no="2" tag_type="text">also need to consider all the subsequent positions </text>
+<text top="119" left="534" width="3" height="9" font="font6" id="p1_t223" reading_order_no="224" segment_no="2" tag_type="text"><i>j</i></text>
+<text top="119" left="537" width="15" height="9" font="font4" id="p1_t224" reading_order_no="225" segment_no="2" tag_type="text">' &gt; </text>
+<text top="119" left="552" width="3" height="9" font="font6" id="p1_t225" reading_order_no="226" segment_no="2" tag_type="text"><i>j</i></text>
+<text top="132" left="313" width="190" height="9" font="font4" id="p1_t226" reading_order_no="227" segment_no="2" tag_type="text">that may satisfy the corresponding gap range.</text>
+<text top="155" left="313" width="241" height="9" font="font4" id="p1_t227" reading_order_no="228" segment_no="4" tag_type="text">Consider the example shown in Fig. <a href="">3 to </a>recover the full</text>
+<text top="167" left="313" width="60" height="9" font="font4" id="p1_t228" reading_order_no="229" segment_no="4" tag_type="text">positions for </text>
+<text top="166" left="373" width="10" height="10" font="font5" id="p1_t229" reading_order_no="230" segment_no="4" tag_type="text"></text>
+<text top="167" left="384" width="170" height="9" font="font4" id="p1_t230" reading_order_no="231" segment_no="4" tag_type="text"> = CCG[0,3]TA[1,3]GAAC. Under each</text>
+<text top="178" left="313" width="241" height="9" font="font4" id="p1_t231" reading_order_no="232" segment_no="4" tag_type="text">symbol we show two columns. The left column corre-</text>
+<text top="190" left="313" width="241" height="9" font="font4" id="p1_t232" reading_order_no="233" segment_no="4" tag_type="text">sponds to the intermediate pos-lists as we proceed from</text>
+<text top="202" left="313" width="241" height="9" font="font4" id="p1_t233" reading_order_no="234" segment_no="4" tag_type="text">right to left, whereas the right column stores the indices</text>
+<text top="214" left="313" width="241" height="9" font="font4" id="p1_t234" reading_order_no="235" segment_no="4" tag_type="text">into the previous pos-list. For example, the middle col-</text>
+<text top="225" left="313" width="94" height="9" font="font4" id="p1_t235" reading_order_no="236" segment_no="4" tag_type="text">umn gives the pos-list </text>
+<text top="225" left="407" width="7" height="10" font="font5" id="p1_t236" reading_order_no="237" segment_no="4" tag_type="text"></text>
+<text top="225" left="414" width="4" height="9" font="font4" id="p1_t237" reading_order_no="238" segment_no="4" tag_type="text">(</text>
+<text top="225" left="418" width="12" height="9" font="font6" id="p1_t238" reading_order_no="239" segment_no="4" tag_type="text"><i>TA</i></text>
+<text top="225" left="429" width="20" height="9" font="font4" id="p1_t239" reading_order_no="240" segment_no="4" tag_type="text">[1,3]</text>
+<text top="225" left="450" width="26" height="9" font="font6" id="p1_t240" reading_order_no="241" segment_no="4" tag_type="text"><i>GAAC</i></text>
+<text top="225" left="475" width="20" height="9" font="font4" id="p1_t241" reading_order_no="242" segment_no="4" tag_type="text">) = {</text>
+<text top="225" left="495" width="5" height="9" font="font10" id="p1_t242" reading_order_no="243" segment_no="4" tag_type="text"><b>1</b></text>
+<text top="225" left="500" width="5" height="9" font="font4" id="p1_t243" reading_order_no="244" segment_no="4" tag_type="text">, </text>
+<text top="225" left="505" width="5" height="9" font="font10" id="p1_t244" reading_order_no="245" segment_no="4" tag_type="text"><b>1</b></text>
+<text top="225" left="510" width="15" height="9" font="font4" id="p1_t245" reading_order_no="246" segment_no="4" tag_type="text">, 4, </text>
+<text top="225" left="526" width="5" height="9" font="font10" id="p1_t246" reading_order_no="247" segment_no="4" tag_type="text"><b>2</b></text>
+<text top="225" left="531" width="5" height="9" font="font4" id="p1_t247" reading_order_no="248" segment_no="4" tag_type="text">, </text>
+<text top="225" left="536" width="5" height="9" font="font10" id="p1_t248" reading_order_no="249" segment_no="4" tag_type="text"><b>2</b></text>
+<text top="225" left="541" width="13" height="9" font="font4" id="p1_t249" reading_order_no="250" segment_no="4" tag_type="text">, 5,</text>
+<text top="237" left="313" width="10" height="9" font="font4" id="p1_t250" reading_order_no="251" segment_no="4" tag_type="text">7, </text>
+<text top="237" left="323" width="5" height="9" font="font10" id="p1_t251" reading_order_no="252" segment_no="4" tag_type="text"><b>3</b></text>
+<text top="237" left="328" width="5" height="9" font="font4" id="p1_t252" reading_order_no="253" segment_no="4" tag_type="text">, </text>
+<text top="237" left="333" width="5" height="9" font="font10" id="p1_t253" reading_order_no="254" segment_no="4" tag_type="text"><b>1</b></text>
+<text top="237" left="338" width="94" height="9" font="font4" id="p1_t254" reading_order_no="255" segment_no="4" tag_type="text">, 1}. For each position </text>
+<text top="237" left="433" width="7" height="9" font="font6" id="p1_t255" reading_order_no="256" segment_no="4" tag_type="text"><i>x </i></text>
+<text top="234" left="439" width="7" height="12" font="font7" id="p1_t256" reading_order_no="257" segment_no="4" tag_type="text">∈</text>
+<text top="236" left="448" width="7" height="10" font="font5" id="p1_t257" reading_order_no="258" segment_no="4" tag_type="text"></text>
+<text top="237" left="455" width="4" height="9" font="font4" id="p1_t258" reading_order_no="259" segment_no="4" tag_type="text">(</text>
+<text top="237" left="459" width="12" height="9" font="font6" id="p1_t259" reading_order_no="260" segment_no="4" tag_type="text"><i>TA</i></text>
+<text top="237" left="471" width="18" height="9" font="font4" id="p1_t260" reading_order_no="261" segment_no="4" tag_type="text">[l,3]</text>
+<text top="237" left="488" width="26" height="9" font="font6" id="p1_t261" reading_order_no="262" segment_no="4" tag_type="text"><i>GAAC</i></text>
+<text top="237" left="514" width="40" height="9" font="font4" id="p1_t262" reading_order_no="263" segment_no="4" tag_type="text">) (exclud-</text>
+<text top="249" left="313" width="241" height="9" font="font4" id="p1_t263" reading_order_no="264" segment_no="4" tag_type="text">ing the sequence identifiers and the cardinality), the right</text>
+<text top="261" left="313" width="118" height="9" font="font4" id="p1_t264" reading_order_no="265" segment_no="4" tag_type="text">column records an index in </text>
+<text top="260" left="431" width="7" height="10" font="font5" id="p1_t265" reading_order_no="266" segment_no="4" tag_type="text"></text>
+<text top="261" left="438" width="4" height="9" font="font4" id="p1_t266" reading_order_no="267" segment_no="4" tag_type="text">(</text>
+<text top="261" left="442" width="26" height="9" font="font6" id="p1_t267" reading_order_no="268" segment_no="4" tag_type="text"><i>GAAC</i></text>
+<text top="261" left="468" width="86" height="9" font="font4" id="p1_t268" reading_order_no="269" segment_no="4" tag_type="text">) which corresponds</text>
+<text top="272" left="313" width="105" height="9" font="font4" id="p1_t269" reading_order_no="270" segment_no="4" tag_type="text">to the first position in </text>
+<text top="272" left="418" width="7" height="10" font="font5" id="p1_t270" reading_order_no="271" segment_no="4" tag_type="text"></text>
+<text top="272" left="425" width="4" height="9" font="font4" id="p1_t271" reading_order_no="272" segment_no="4" tag_type="text">(</text>
+<text top="272" left="429" width="26" height="9" font="font6" id="p1_t272" reading_order_no="273" segment_no="4" tag_type="text"><i>GAAC</i></text>
+<text top="272" left="454" width="100" height="9" font="font4" id="p1_t273" reading_order_no="274" segment_no="4" tag_type="text">) that satisfies the gap</text>
+<text top="284" left="313" width="89" height="9" font="font4" id="p1_t274" reading_order_no="275" segment_no="4" tag_type="text">range with respect to </text>
+<text top="284" left="402" width="4" height="9" font="font6" id="p1_t275" reading_order_no="276" segment_no="4" tag_type="text"><i>x</i></text>
+<text top="284" left="407" width="113" height="9" font="font4" id="p1_t276" reading_order_no="277" segment_no="4" tag_type="text">. For example, for position </text>
+<text top="284" left="520" width="7" height="9" font="font6" id="p1_t277" reading_order_no="278" segment_no="4" tag_type="text"><i>x </i></text>
+<text top="284" left="527" width="27" height="9" font="font4" id="p1_t278" reading_order_no="279" segment_no="4" tag_type="text">= 5 (at</text>
+<text top="296" left="313" width="128" height="9" font="font4" id="p1_t279" reading_order_no="280" segment_no="4" tag_type="text">index 6), the first position in </text>
+<text top="295" left="441" width="7" height="10" font="font5" id="p1_t280" reading_order_no="281" segment_no="4" tag_type="text"></text>
+<text top="296" left="448" width="4" height="9" font="font4" id="p1_t281" reading_order_no="282" segment_no="4" tag_type="text">(</text>
+<text top="296" left="452" width="26" height="9" font="font6" id="p1_t282" reading_order_no="283" segment_no="4" tag_type="text"><i>GAAC</i></text>
+<text top="296" left="478" width="76" height="9" font="font4" id="p1_t283" reading_order_no="284" segment_no="4" tag_type="text">) that satisfies the</text>
+<text top="308" left="313" width="241" height="9" font="font4" id="p1_t284" reading_order_no="285" segment_no="4" tag_type="text">gap range [1,3] is 10 (since in this case there are 3 gaps</text>
+<text top="319" left="313" width="241" height="9" font="font4" id="p1_t285" reading_order_no="286" segment_no="4" tag_type="text">between the end of TA at position 6 and start of GAAC at</text>
+<text top="331" left="313" width="241" height="9" font="font4" id="p1_t286" reading_order_no="287" segment_no="4" tag_type="text">position 10), and it occurs at index 6. Likewise, for each</text>
+<text top="343" left="313" width="241" height="9" font="font4" id="p1_t287" reading_order_no="288" segment_no="4" tag_type="text">position in the current pos-list we store which positions in</text>
+<text top="355" left="313" width="241" height="9" font="font4" id="p1_t288" reading_order_no="289" segment_no="4" tag_type="text">the previous pos-list were extended. With this indexed</text>
+<text top="366" left="313" width="241" height="9" font="font4" id="p1_t289" reading_order_no="290" segment_no="4" tag_type="text">information, full-position recovery becomes straightfor-</text>
+<text top="378" left="313" width="241" height="9" font="font4" id="p1_t290" reading_order_no="291" segment_no="4" tag_type="text">ward. We begin with the start positions of the occurrences.</text>
+<text top="390" left="313" width="241" height="9" font="font4" id="p1_t291" reading_order_no="292" segment_no="4" tag_type="text">We then keep following the indices from one pos-list to</text>
+<text top="402" left="313" width="241" height="9" font="font4" id="p1_t292" reading_order_no="293" segment_no="4" tag_type="text">the next, until we reach the last pos-list. Since the index</text>
+<text top="413" left="313" width="241" height="9" font="font4" id="p1_t293" reading_order_no="294" segment_no="4" tag_type="text">only marks the first position that satisfies the gap range,</text>
+<text top="425" left="313" width="241" height="9" font="font4" id="p1_t294" reading_order_no="295" segment_no="4" tag_type="text">we still need to check if the following positions satisfy the</text>
+<text top="437" left="313" width="241" height="9" font="font4" id="p1_t295" reading_order_no="296" segment_no="4" tag_type="text">gap range. At each stage in the full position recovery, we</text>
+<text top="449" left="313" width="214" height="9" font="font4" id="p1_t296" reading_order_no="297" segment_no="4" tag_type="text">maintain a list of intermediate position prefixes </text>
+<text top="448" left="527" width="7" height="10" font="font5" id="p1_t297" reading_order_no="298" segment_no="4" tag_type="text"></text>
+<text top="449" left="533" width="21" height="9" font="font4" id="p1_t298" reading_order_no="299" segment_no="4" tag_type="text"> that</text>
+<text top="460" left="313" width="79" height="9" font="font4" id="p1_t299" reading_order_no="300" segment_no="4" tag_type="text">match up to the </text>
+<text top="460" left="393" width="3" height="9" font="font6" id="p1_t300" reading_order_no="301" segment_no="4" tag_type="text"><i>j</i></text>
+<text top="460" left="395" width="71" height="9" font="font4" id="p1_t301" reading_order_no="302" segment_no="4" tag_type="text">-th position in </text>
+<text top="460" left="466" width="10" height="10" font="font5" id="p1_t302" reading_order_no="303" segment_no="4" tag_type="text"></text>
+<text top="460" left="476" width="78" height="9" font="font4" id="p1_t303" reading_order_no="304" segment_no="4" tag_type="text">. For example, to</text>
+<text top="472" left="313" width="119" height="9" font="font4" id="p1_t304" reading_order_no="305" segment_no="4" tag_type="text">recover the full position for </text>
+<text top="471" left="432" width="10" height="10" font="font5" id="p1_t305" reading_order_no="306" segment_no="4" tag_type="text"></text>
+<text top="472" left="442" width="112" height="9" font="font4" id="p1_t306" reading_order_no="307" segment_no="4" tag_type="text"> = CCG[0,3]TA[1,3]GAAC,</text>
+<text top="484" left="313" width="143" height="9" font="font4" id="p1_t307" reading_order_no="308" segment_no="4" tag_type="text">considering start position 1 (with </text>
+<text top="483" left="457" width="7" height="10" font="font5" id="p1_t308" reading_order_no="309" segment_no="4" tag_type="text"></text>
+<text top="484" left="463" width="91" height="9" font="font4" id="p1_t309" reading_order_no="310" segment_no="4" tag_type="text"> = {(1)}) in sequence</text>
+<text top="496" left="313" width="241" height="9" font="font4" id="p1_t310" reading_order_no="311" segment_no="4" tag_type="text">2, we follow index 6 to get position 5 in the middle pos-</text>
+<text top="507" left="313" width="43" height="9" font="font4" id="p1_t311" reading_order_no="312" segment_no="4" tag_type="text">list, to get </text>
+<text top="507" left="356" width="7" height="10" font="font5" id="p1_t312" reading_order_no="313" segment_no="4" tag_type="text"></text>
+<text top="507" left="363" width="191" height="9" font="font4" id="p1_t313" reading_order_no="314" segment_no="4" tag_type="text"> = {(1, 5)}. Since the next position after 5 is 7</text>
+<text top="176" left="262" width="8" height="10" font="font5" id="p1_t314" reading_order_no="70" segment_no="3" tag_type="text"></text>
+<text top="181" left="273" width="9" height="8" font="font11" id="p1_t315" reading_order_no="71" segment_no="3" tag_type="text"></text>
+<text top="501" left="273" width="7" height="10" font="font5" id="p1_t316" reading_order_no="210" segment_no="3" tag_type="text"></text>
+<text top="506" left="281" width="9" height="8" font="font11" id="p1_t317" reading_order_no="211" segment_no="3" tag_type="text"></text>
+<text top="699" left="55" width="165" height="9" font="font12" id="p1_t318" reading_order_no="401" segment_no="7" tag_type="title">Indexed Full Position Recovery Algorithm</text>
+<text top="699" left="55" width="37" height="9" font="font13" id="p1_t319" reading_order_no="400" segment_no="7" tag_type="title"><b>Figure 2</b></text>
+<text top="709" left="55" width="167" height="9" font="font14" id="p1_t320" reading_order_no="402" segment_no="8" tag_type="text">Indexed Full Position Recovery Algorithm.</text>
+<text top="535" left="71" width="179" height="17" font="font15" id="p1_t321" reading_order_no="315" segment_no="6" tag_type="table"><b>Full-Position-Recovery</b></text>
+<text top="535" left="250" width="6" height="15" font="font16" id="p1_t322" reading_order_no="316" segment_no="6" tag_type="table">(</text>
+<text top="535" left="256" width="41" height="17" font="font17" id="p1_t323" reading_order_no="317" segment_no="6" tag_type="table"><i>i, j, F,</i></text>
+<text top="531" left="299" width="11" height="20" font="font18" id="p1_t324" reading_order_no="318" segment_no="6" tag_type="table"><i>F</i></text>
+<text top="535" left="312" width="6" height="15" font="font16" id="p1_t325" reading_order_no="319" segment_no="6" tag_type="table">)</text>
+<text top="554" left="56" width="7" height="14" font="font19" id="p1_t326" reading_order_no="320" segment_no="6" tag_type="table"><b>1</b></text>
+<text top="554" left="71" width="11" height="17" font="font15" id="p1_t327" reading_order_no="321" segment_no="6" tag_type="table"><b>if</b></text>
+<text top="553" left="89" width="6" height="15" font="font16" id="p1_t328" reading_order_no="322" segment_no="6" tag_type="table">(</text>
+<text top="554" left="95" width="22" height="17" font="font17" id="p1_t329" reading_order_no="323" segment_no="6" tag_type="table"><i>i &gt;</i></text>
+<text top="550" left="121" width="28" height="20" font="font18" id="p1_t330" reading_order_no="324" segment_no="6" tag_type="table"><i>|M|</i></text>
+<text top="553" left="149" width="6" height="15" font="font16" id="p1_t331" reading_order_no="325" segment_no="6" tag_type="table">)</text>
+<text top="554" left="160" width="35" height="17" font="font15" id="p1_t332" reading_order_no="326" segment_no="6" tag_type="table"><b>then</b></text>
+<text top="571" left="56" width="7" height="14" font="font19" id="p1_t333" reading_order_no="327" segment_no="6" tag_type="table"><b>2</b></text>
+<text top="570" left="95" width="29" height="15" font="font16" id="p1_t334" reading_order_no="328" segment_no="6" tag_type="table">Add</text>
+<text top="570" left="130" width="10" height="17" font="font17" id="p1_t335" reading_order_no="329" segment_no="6" tag_type="table"><i>F</i></text>
+<text top="570" left="147" width="14" height="15" font="font16" id="p1_t336" reading_order_no="330" segment_no="6" tag_type="table">to</text>
+<text top="567" left="166" width="11" height="20" font="font18" id="p1_t337" reading_order_no="331" segment_no="6" tag_type="table"><i>F</i></text>
+<text top="570" left="179" width="4" height="15" font="font16" id="p1_t338" reading_order_no="332" segment_no="6" tag_type="table">;</text>
+<text top="593" left="57" width="7" height="14" font="font19" id="p1_t339" reading_order_no="333" segment_no="6" tag_type="table"><b>3</b></text>
+<text top="592" left="71" width="56" height="17" font="font15" id="p1_t340" reading_order_no="334" segment_no="6" tag_type="table"><b>foreach</b></text>
+<text top="589" left="132" width="6" height="20" font="font20" id="p1_t341" reading_order_no="335" segment_no="6" tag_type="table"><i>(</i></text>
+<text top="592" left="139" width="6" height="17" font="font17" id="p1_t342" reading_order_no="336" segment_no="6" tag_type="table"><i>j</i></text>
+<text top="589" left="155" width="10" height="20" font="font18" id="p1_t343" reading_order_no="337" segment_no="6" tag_type="table"><i>∈</i></text>
+<text top="592" left="170" width="4" height="15" font="font16" id="p1_t344" reading_order_no="338" segment_no="6" tag_type="table">[</text>
+<text top="592" left="174" width="11" height="17" font="font17" id="p1_t345" reading_order_no="339" segment_no="6" tag_type="table"><i>j,</i></text>
+<text top="589" left="187" width="15" height="20" font="font18" id="p1_t346" reading_order_no="340" segment_no="6" tag_type="table"><i>|P</i></text>
+<text top="595" left="203" width="4" height="14" font="font22" id="p1_t347" reading_order_no="341" segment_no="6" tag_type="table"><i>i</i></text>
+<text top="589" left="208" width="4" height="20" font="font18" id="p1_t348" reading_order_no="342" segment_no="6" tag_type="table"><i>|</i></text>
+<text top="592" left="212" width="4" height="15" font="font16" id="p1_t349" reading_order_no="343" segment_no="6" tag_type="table">]</text>
+<text top="589" left="222" width="62" height="20" font="font20" id="p1_t350" reading_order_no="344" segment_no="6" tag_type="table"><i>such that</i></text>
+<text top="592" left="290" width="6" height="15" font="font16" id="p1_t351" reading_order_no="345" segment_no="6" tag_type="table">(</text>
+<text top="589" left="296" width="11" height="20" font="font18" id="p1_t352" reading_order_no="346" segment_no="6" tag_type="table"><i>P</i></text>
+<text top="595" left="307" width="4" height="14" font="font22" id="p1_t353" reading_order_no="347" segment_no="6" tag_type="table"><i>i</i></text>
+<text top="592" left="312" width="4" height="15" font="font16" id="p1_t354" reading_order_no="348" segment_no="6" tag_type="table">[</text>
+<text top="592" left="317" width="6" height="17" font="font17" id="p1_t355" reading_order_no="349" segment_no="6" tag_type="table"><i>j</i></text>
+<text top="592" left="328" width="4" height="15" font="font16" id="p1_t356" reading_order_no="350" segment_no="6" tag_type="table">]</text>
+<text top="589" left="335" width="12" height="20" font="font18" id="p1_t357" reading_order_no="351" segment_no="6" tag_type="table"><i>−</i></text>
+<text top="592" left="349" width="10" height="17" font="font17" id="p1_t358" reading_order_no="352" segment_no="6" tag_type="table"><i>F</i></text>
+<text top="592" left="361" width="4" height="15" font="font16" id="p1_t359" reading_order_no="353" segment_no="6" tag_type="table">[</text>
+<text top="592" left="366" width="5" height="17" font="font17" id="p1_t360" reading_order_no="354" segment_no="6" tag_type="table"><i>i</i></text>
+<text top="589" left="373" width="12" height="20" font="font18" id="p1_t361" reading_order_no="355" segment_no="6" tag_type="table"><i>−</i></text>
+<text top="592" left="388" width="12" height="15" font="font16" id="p1_t362" reading_order_no="356" segment_no="6" tag_type="table">1]</text>
+<text top="589" left="402" width="12" height="20" font="font18" id="p1_t363" reading_order_no="357" segment_no="6" tag_type="table"><i>−</i></text>
+<text top="592" left="416" width="24" height="15" font="font16" id="p1_t364" reading_order_no="358" segment_no="6" tag_type="table">1 =</text>
+<text top="592" left="444" width="8" height="17" font="font17" id="p1_t365" reading_order_no="359" segment_no="6" tag_type="table"><i>d</i></text>
+<text top="592" left="452" width="6" height="15" font="font16" id="p1_t366" reading_order_no="360" segment_no="6" tag_type="table">)</text>
+<text top="589" left="463" width="10" height="20" font="font18" id="p1_t367" reading_order_no="361" segment_no="6" tag_type="table"><i>∈</i></text>
+<text top="592" left="478" width="4" height="15" font="font16" id="p1_t368" reading_order_no="362" segment_no="6" tag_type="table">[</text>
+<text top="592" left="482" width="5" height="17" font="font17" id="p1_t369" reading_order_no="363" segment_no="6" tag_type="table"><i>l</i></text>
+<text top="595" left="487" width="4" height="14" font="font22" id="p1_t370" reading_order_no="364" segment_no="6" tag_type="table"><i>i</i></text>
+<text top="592" left="492" width="16" height="17" font="font17" id="p1_t371" reading_order_no="365" segment_no="6" tag_type="table"><i>, u</i></text>
+<text top="595" left="508" width="4" height="14" font="font22" id="p1_t372" reading_order_no="366" segment_no="6" tag_type="table"><i>i</i></text>
+<text top="592" left="513" width="10" height="15" font="font16" id="p1_t373" reading_order_no="367" segment_no="6" tag_type="table">])</text>
+<text top="592" left="528" width="19" height="17" font="font15" id="p1_t374" reading_order_no="368" segment_no="6" tag_type="table"><b>do</b></text>
+<text top="611" left="57" width="7" height="14" font="font19" id="p1_t375" reading_order_no="369" segment_no="6" tag_type="table"><b>4</b></text>
+<text top="610" left="95" width="10" height="17" font="font17" id="p1_t376" reading_order_no="370" segment_no="6" tag_type="table"><i>F</i></text>
+<text top="610" left="108" width="4" height="15" font="font16" id="p1_t377" reading_order_no="371" segment_no="6" tag_type="table">[</text>
+<text top="610" left="112" width="5" height="17" font="font17" id="p1_t378" reading_order_no="372" segment_no="6" tag_type="table"><i>i</i></text>
+<text top="610" left="117" width="4" height="15" font="font16" id="p1_t379" reading_order_no="373" segment_no="6" tag_type="table">]</text>
+<text top="606" left="126" width="31" height="20" font="font18" id="p1_t380" reading_order_no="374" segment_no="6" tag_type="table"><i>← P</i></text>
+<text top="613" left="157" width="4" height="14" font="font22" id="p1_t381" reading_order_no="375" segment_no="6" tag_type="table"><i>i</i></text>
+<text top="610" left="162" width="4" height="15" font="font16" id="p1_t382" reading_order_no="376" segment_no="6" tag_type="table">[</text>
+<text top="610" left="167" width="6" height="17" font="font17" id="p1_t383" reading_order_no="377" segment_no="6" tag_type="table"><i>j</i></text>
+<text top="610" left="178" width="9" height="15" font="font16" id="p1_t384" reading_order_no="378" segment_no="6" tag_type="table">];</text>
+<text top="629" left="57" width="7" height="14" font="font19" id="p1_t385" reading_order_no="379" segment_no="6" tag_type="table"><b>5</b></text>
+<text top="628" left="95" width="161" height="15" font="font16" id="p1_t386" reading_order_no="380" segment_no="6" tag_type="table">Full-Position-Recovery(</text>
+<text top="629" left="257" width="5" height="17" font="font17" id="p1_t387" reading_order_no="381" segment_no="6" tag_type="table"><i>i</i></text>
+<text top="628" left="265" width="28" height="15" font="font16" id="p1_t388" reading_order_no="382" segment_no="6" tag_type="table">+ 1,</text>
+<text top="625" left="298" width="13" height="20" font="font18" id="p1_t389" reading_order_no="383" segment_no="6" tag_type="table"><i>N</i></text>
+<text top="632" left="311" width="4" height="14" font="font22" id="p1_t390" reading_order_no="384" segment_no="6" tag_type="table"><i>i</i></text>
+<text top="628" left="316" width="4" height="15" font="font16" id="p1_t391" reading_order_no="385" segment_no="6" tag_type="table">[</text>
+<text top="629" left="320" width="6" height="17" font="font17" id="p1_t392" reading_order_no="386" segment_no="6" tag_type="table"><i>j</i></text>
+<text top="628" left="332" width="9" height="15" font="font16" id="p1_t393" reading_order_no="387" segment_no="6" tag_type="table">],</text>
+<text top="629" left="346" width="10" height="17" font="font17" id="p1_t394" reading_order_no="388" segment_no="6" tag_type="table"><i>F</i></text>
+<text top="628" left="358" width="4" height="15" font="font16" id="p1_t395" reading_order_no="389" segment_no="6" tag_type="table">,</text>
+<text top="625" left="368" width="11" height="20" font="font18" id="p1_t396" reading_order_no="390" segment_no="6" tag_type="table"><i>F</i></text>
+<text top="628" left="381" width="10" height="15" font="font16" id="p1_t397" reading_order_no="391" segment_no="6" tag_type="table">);</text>
+<text top="653" left="58" width="7" height="14" font="font19" id="p1_t398" reading_order_no="392" segment_no="6" tag_type="table"><b>6</b></text>
+<text top="652" left="71" width="11" height="17" font="font15" id="p1_t399" reading_order_no="393" segment_no="6" tag_type="table"><b>if</b></text>
+<text top="648" left="89" width="38" height="20" font="font20" id="p1_t400" reading_order_no="394" segment_no="6" tag_type="table"><i>(i=2)</i></text>
+<text top="652" left="132" width="35" height="17" font="font15" id="p1_t401" reading_order_no="395" segment_no="6" tag_type="table"><b>then</b></text>
+<text top="669" left="58" width="7" height="14" font="font19" id="p1_t402" reading_order_no="396" segment_no="6" tag_type="table"><b>7</b></text>
+<text top="668" left="95" width="48" height="15" font="font16" id="p1_t403" reading_order_no="397" segment_no="6" tag_type="table">Return</text>
+<text top="664" left="149" width="11" height="20" font="font18" id="p1_t404" reading_order_no="398" segment_no="6" tag_type="table"><i>F</i></text>
+<text top="668" left="162" width="4" height="15" font="font16" id="p1_t405" reading_order_no="399" segment_no="6" tag_type="table">;</text>
+</page>
+</pdf2xml>

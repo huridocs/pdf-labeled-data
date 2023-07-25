@@ -1,0 +1,134 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3242" width="2338">
+	<fontspec id="font0" size="4" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="61" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="42" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="46" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="47" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="44" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="38" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="48" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="45" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="23" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="31" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="1261" family="GlyphLessFont" color="#000000"/>
+<text top="868" left="185" width="1273" height="86" font="font1" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">Testing,  probably  more  than  any  other  activity  in </text>
+<text top="935" left="189" width="1122" height="85" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">software  development,  is  about  discovery. </text>
+<text top="1090" left="201" width="620" height="56" font="font2" id="p1_t3" reading_order_no="2" segment_no="3" tag_type="text">never  occur  in  the  real  world,  but </text>
+<text top="1139" left="199" width="579" height="59" font="font3" id="p1_t4" reading_order_no="3" segment_no="3" tag_type="text">which  we  think  might  expose  a </text>
+<text top="1191" left="200" width="606" height="57" font="font3" id="p1_t5" reading_order_no="4" segment_no="3" tag_type="text">so-far  unknown  limitation  in  the </text>
+<text top="1240" left="200" width="618" height="62" font="font4" id="p1_t6" reading_order_no="5" segment_no="3" tag_type="text">system.  None  of  these  are  guaran- </text>
+<text top="1296" left="201" width="552" height="57" font="font3" id="p1_t7" reading_order_no="6" segment_no="3" tag_type="text">teed  to  throw  a  defect.  In  fact, </text>
+<text top="1351" left="200" width="589" height="53" font="font5" id="p1_t8" reading_order_no="7" segment_no="3" tag_type="text">nothing  in  testing  is  guaranteed, </text>
+<text top="1395" left="200" width="580" height="65" font="font6" id="p1_t9" reading_order_no="8" segment_no="3" tag_type="text">since  we  dont  really  know  what </text>
+<text top="1453" left="199" width="558" height="57" font="font3" id="p1_t10" reading_order_no="9" segment_no="3" tag_type="text">we  are  looking  for.  We  are  just </text>
+<text top="1500" left="200" width="575" height="63" font="font6" id="p1_t11" reading_order_no="10" segment_no="3" tag_type="text">looking  for  something  that  tells </text>
+<text top="1557" left="201" width="530" height="57" font="font3" id="p1_t12" reading_order_no="11" segment_no="3" tag_type="text">us  we  don't  know  something. </text>
+<text top="1610" left="201" width="621" height="56" font="font2" id="p1_t13" reading_order_no="12" segment_no="3" tag_type="text">Often  this  is  obvious,  as  when  the </text>
+<text top="1659" left="200" width="556" height="59" font="font7" id="p1_t14" reading_order_no="13" segment_no="3" tag_type="text">system  crashes;  sometimes  it  is </text>
+<text top="1712" left="201" width="220" height="58" font="font3" id="p1_t15" reading_order_no="14" segment_no="3" tag_type="text">quite  subtle. </text>
+<text top="1821" left="199" width="473" height="51" font="font8" id="p1_t16" reading_order_no="15" segment_no="5" tag_type="title">The  Dual  Hypotheses  of </text>
+<text top="1873" left="202" width="416" height="51" font="font8" id="p1_t17" reading_order_no="16" segment_no="5" tag_type="title">Knowledge  Discovery </text>
+<text top="1916" left="199" width="608" height="63" font="font6" id="p1_t18" reading_order_no="17" segment_no="6" tag_type="text">The  Dual  Hypotheses  of  Knowl- </text>
+<text top="1969" left="200" width="421" height="63" font="font6" id="p1_t19" reading_order_no="18" segment_no="6" tag_type="text">edge  Discovery  [3]  are: </text>
+<text top="2073" left="201" width="558" height="63" font="font6" id="p1_t20" reading_order_no="19" segment_no="7" tag_type="list">¢  We  can  only  discover  knowl- </text>
+<text top="2125" left="232" width="520" height="63" font="font6" id="p1_t21" reading_order_no="20" segment_no="7" tag_type="list">edge  in  an  environment  that </text>
+<text top="2176" left="231" width="453" height="65" font="font6" id="p1_t22" reading_order_no="21" segment_no="7" tag_type="list">contains  that  knowledge. </text>
+<text top="2230" left="201" width="511" height="62" font="font4" id="p1_t23" reading_order_no="22" segment_no="8" tag_type="list">¢  The  only  way  to  assert  the </text>
+<text top="2281" left="230" width="558" height="63" font="font6" id="p1_t24" reading_order_no="23" segment_no="8" tag_type="list">validity  of  any  knowledge  is  to </text>
+<text top="2334" left="231" width="581" height="62" font="font4" id="p1_t25" reading_order_no="24" segment_no="8" tag_type="list">compare  it  to  another  source  of </text>
+<text top="2392" left="231" width="202" height="54" font="font2" id="p1_t26" reading_order_no="25" segment_no="8" tag_type="list">knowledge. </text>
+<text top="2494" left="336" width="439" height="58" font="font3" id="p1_t27" reading_order_no="26" segment_no="12" tag_type="text">he  first  hypothesis  shows </text>
+<text top="2543" left="337" width="403" height="62" font="font4" id="p1_t28" reading_order_no="27" segment_no="12" tag_type="text">us  why,  sometimes,  we </text>
+<text top="2600" left="335" width="456" height="56" font="font9" id="p1_t29" reading_order_no="28" segment_no="12" tag_type="text">cannot  test  for  and  detect </text>
+<text top="2652" left="335" width="414" height="56" font="font9" id="p1_t30" reading_order_no="29" segment_no="12" tag_type="text">defects  in  the  lab.  If  we </text>
+<text top="2705" left="199" width="531" height="54" font="font2" id="p1_t31" reading_order_no="30" segment_no="12" tag_type="text">cannot  duplicate,  in  sufficient </text>
+<text top="2758" left="199" width="592" height="54" font="font2" id="p1_t32" reading_order_no="31" segment_no="12" tag_type="text">detail  and  with  sufficient  control, </text>
+<text top="2808" left="200" width="555" height="57" font="font3" id="p1_t33" reading_order_no="32" segment_no="12" tag_type="text">the  situations  that  will  occur  in </text>
+<text top="2860" left="200" width="602" height="57" font="font3" id="p1_t34" reading_order_no="33" segment_no="12" tag_type="text">the  customer’s  environment  when </text>
+<text top="2914" left="198" width="610" height="54" font="font2" id="p1_t35" reading_order_no="34" segment_no="12" tag_type="text">we  release  the  software,  we  cannot </text>
+<text top="2959" left="198" width="559" height="64" font="font6" id="p1_t36" reading_order_no="35" segment_no="12" tag_type="text">expose  these  defects.  Of  course, </text>
+<text top="3018" left="199" width="577" height="54" font="font2" id="p1_t37" reading_order_no="36" segment_no="12" tag_type="text">the  customer’s  environment,  not </text>
+<text top="1084" left="877" width="556" height="65" font="font10" id="p1_t38" reading_order_no="37" segment_no="1" tag_type="text">being  subject  to  this  limitation, </text>
+<text top="1138" left="878" width="574" height="62" font="font4" id="p1_t39" reading_order_no="38" segment_no="1" tag_type="text">usually  has  no  difficulty  in  quite </text>
+<text top="1190" left="877" width="623" height="62" font="font4" id="p1_t40" reading_order_no="39" segment_no="1" tag_type="text">publicly  demonstrating  our  lack  of </text>
+<text top="1241" left="877" width="198" height="63" font="font6" id="p1_t41" reading_order_no="40" segment_no="1" tag_type="text">knowledge. </text>
+<text top="1294" left="926" width="552" height="64" font="font4" id="p1_t42" reading_order_no="41" segment_no="2" tag_type="text">The  second  hypothesis  demon- </text>
+<text top="1347" left="876" width="575" height="62" font="font4" id="p1_t43" reading_order_no="42" segment_no="2" tag_type="text">strates  the  paradox  of  testing:  if  J </text>
+<text top="1399" left="876" width="566" height="62" font="font4" id="p1_t44" reading_order_no="43" segment_no="2" tag_type="text">have  sufficient  knowledge  about </text>
+<text top="1451" left="875" width="565" height="62" font="font4" id="p1_t45" reading_order_no="44" segment_no="2" tag_type="text">what  is  wrong  with  my  system  I </text>
+<text top="1503" left="877" width="599" height="62" font="font4" id="p1_t46" reading_order_no="45" segment_no="2" tag_type="text">can  create  a  robust  set  of  test  cases </text>
+<text top="1555" left="877" width="620" height="62" font="font4" id="p1_t47" reading_order_no="46" segment_no="2" tag_type="text">and  results  that  will  show  if  there  is </text>
+<text top="1606" left="877" width="596" height="63" font="font6" id="p1_t48" reading_order_no="47" segment_no="2" tag_type="text">anything  I  don’t  know.  But  if  I  do </text>
+<text top="1659" left="877" width="566" height="62" font="font4" id="p1_t49" reading_order_no="48" segment_no="2" tag_type="text">have  sufficient  knowledge  about </text>
+<text top="1716" left="876" width="600" height="55" font="font9" id="p1_t50" reading_order_no="49" segment_no="2" tag_type="text">what  I  dont  know,  I  must  a  priori </text>
+<text top="1763" left="876" width="508" height="62" font="font4" id="p1_t51" reading_order_no="50" segment_no="2" tag_type="text">know  it,  which  means  I  have </text>
+<text top="1814" left="877" width="604" height="63" font="font6" id="p1_t52" reading_order_no="51" segment_no="2" tag_type="text">already  exposed  my  ignorance  and </text>
+<text top="1867" left="877" width="601" height="62" font="font4" id="p1_t53" reading_order_no="52" segment_no="2" tag_type="text">therefore  I  don’t  need  to  test  at  all. </text>
+<text top="1919" left="876" width="624" height="62" font="font4" id="p1_t54" reading_order_no="53" segment_no="2" tag_type="text">‘Testing,  it  seems,  is  effective  only  if </text>
+<text top="1977" left="875" width="586" height="55" font="font9" id="p1_t55" reading_order_no="54" segment_no="2" tag_type="text">we  dont  need  to  do  it,  and  is  not </text>
+<text top="2024" left="875" width="598" height="62" font="font4" id="p1_t56" reading_order_no="55" segment_no="2" tag_type="text">very  effective  when  we  do  need  to </text>
+<text top="2074" left="877" width="90" height="63" font="font6" id="p1_t57" reading_order_no="56" segment_no="2" tag_type="text">do  it. </text>
+<text top="2187" left="877" width="526" height="51" font="font8" id="p1_t58" reading_order_no="57" segment_no="9" tag_type="title">Paradoctoring  the  Paradox </text>
+<text top="2231" left="877" width="557" height="63" font="font6" id="p1_t59" reading_order_no="58" segment_no="10" tag_type="text">How  can  we  effectively  address </text>
+<text top="2285" left="876" width="605" height="61" font="font11" id="p1_t60" reading_order_no="59" segment_no="10" tag_type="text">this  situation?  Our  testing  heuris- </text>
+<text top="2336" left="876" width="547" height="62" font="font4" id="p1_t61" reading_order_no="60" segment_no="10" tag_type="text">tics  of  boundary  value  analysis </text>
+<text top="2387" left="876" width="612" height="63" font="font6" id="p1_t62" reading_order_no="61" segment_no="10" tag_type="text">and  equivalence  partitioning  help. </text>
+<text top="2439" left="875" width="602" height="63" font="font6" id="p1_t63" reading_order_no="62" segment_no="10" tag_type="text">They  point  us  to  the  locations  of </text>
+<text top="2492" left="876" width="559" height="62" font="font4" id="p1_t64" reading_order_no="63" segment_no="10" tag_type="text">high-density  knowledge  within </text>
+<text top="2545" left="877" width="601" height="62" font="font4" id="p1_t65" reading_order_no="64" segment_no="10" tag_type="text">our  system.  We  are  most  likely  to </text>
+<text top="2595" left="876" width="546" height="65" font="font6" id="p1_t66" reading_order_no="65" segment_no="10" tag_type="text">make  mistakes  where  complex </text>
+<text top="2649" left="875" width="549" height="62" font="font11" id="p1_t67" reading_order_no="66" segment_no="10" tag_type="text">knowledge  is  clustered.  Where </text>
+<text top="2700" left="876" width="607" height="63" font="font6" id="p1_t68" reading_order_no="67" segment_no="10" tag_type="text">things  are  complicated  we  usually </text>
+<text top="2755" left="876" width="535" height="59" font="font7" id="p1_t69" reading_order_no="68" segment_no="10" tag_type="text">understand  them  less  and  our </text>
+<text top="2809" left="877" width="605" height="57" font="font3" id="p1_t70" reading_order_no="69" segment_no="10" tag_type="text">ignorance  (read  defects)  is  usually </text>
+<text top="2859" left="876" width="119" height="59" font="font7" id="p1_t71" reading_order_no="70" segment_no="10" tag_type="text">higher. </text>
+<text top="2911" left="927" width="527" height="61" font="font11" id="p1_t72" reading_order_no="71" segment_no="11" tag_type="text">But  there  is  another  aspect  to </text>
+<text top="2964" left="875" width="504" height="59" font="font7" id="p1_t73" reading_order_no="72" segment_no="11" tag_type="text">consider.  I  have  found  good </text>
+<text top="3016" left="876" width="565" height="59" font="font7" id="p1_t74" reading_order_no="73" segment_no="11" tag_type="text">testers  have  a  “nose”  for  testing. </text>
+<text top="3155" left="1310" width="387" height="31" font="font12" id="p1_t75" reading_order_no="111" segment_no="16" tag_type="text">COMMUNICATIONS  OF  THE  ACM </text>
+<text top="1093" left="1552" width="572" height="57" font="font9" id="p1_t76" reading_order_no="74" segment_no="4" tag_type="text">They  experience  a  kind  of  intu- </text>
+<text top="1143" left="1554" width="582" height="59" font="font3" id="p1_t77" reading_order_no="75" segment_no="4" tag_type="text">ition  that  tells  them  what  to  test </text>
+<text top="1190" left="1554" width="622" height="66" font="font6" id="p1_t78" reading_order_no="76" segment_no="4" tag_type="text">and  how.  A  simple  example  of  this </text>
+<text top="1248" left="1554" width="597" height="58" font="font3" id="p1_t79" reading_order_no="77" segment_no="4" tag_type="text">in  operation  can  be  shown  in  the </text>
+<text top="1297" left="1553" width="610" height="62" font="font11" id="p1_t80" reading_order_no="78" segment_no="4" tag_type="text">layering  or  sequencing  of  tests.  At </text>
+<text top="1352" left="1554" width="586" height="58" font="font3" id="p1_t81" reading_order_no="79" segment_no="4" tag_type="text">the  beginning  of  The  Art  of Sofi- </text>
+<text top="1401" left="1554" width="619" height="62" font="font11" id="p1_t82" reading_order_no="80" segment_no="4" tag_type="text">ware  Testing,  Myers  suggests  a  self- </text>
+<text top="1456" left="1554" width="474" height="58" font="font3" id="p1_t83" reading_order_no="81" segment_no="4" tag_type="text">test  to  determine  your  test </text>
+<text top="1502" left="1553" width="493" height="66" font="font10" id="p1_t84" reading_order_no="82" segment_no="4" tag_type="text">effectiveness  (his  phrase).  It </text>
+<text top="1557" left="1554" width="593" height="62" font="font4" id="p1_t85" reading_order_no="83" segment_no="4" tag_type="text">involves  establishing  a  set  of  tests </text>
+<text top="1609" left="1554" width="588" height="62" font="font4" id="p1_t86" reading_order_no="84" segment_no="4" tag_type="text">for  a  trivial  program  that  accepts </text>
+<text top="1661" left="1554" width="498" height="62" font="font11" id="p1_t87" reading_order_no="85" segment_no="4" tag_type="text">inputs  to  be  used  to  predict </text>
+<text top="1716" left="1552" width="558" height="58" font="font3" id="p1_t88" reading_order_no="86" segment_no="4" tag_type="text">whether  the  values,  if  numeric, </text>
+<text top="1769" left="1552" width="598" height="57" font="font3" id="p1_t89" reading_order_no="87" segment_no="4" tag_type="text">will  describe  the  sides  of  an  equi- </text>
+<text top="1823" left="1553" width="566" height="54" font="font5" id="p1_t90" reading_order_no="88" segment_no="4" tag_type="text">lateral,  an  isosceles,  or  a  scalene </text>
+<text top="1868" left="1554" width="609" height="63" font="font4" id="p1_t91" reading_order_no="89" segment_no="4" tag_type="text">triangle.  Presumably,  the  program </text>
+<text top="1926" left="1552" width="596" height="55" font="font9" id="p1_t92" reading_order_no="90" segment_no="4" tag_type="text">will  also  indicate  if  the  input  val- </text>
+<text top="1977" left="1554" width="581" height="58" font="font3" id="p1_t93" reading_order_no="91" segment_no="4" tag_type="text">ues  cannot  make  a  triangle  at  all </text>
+<text top="2030" left="1553" width="602" height="57" font="font9" id="p1_t94" reading_order_no="92" segment_no="4" tag_type="text">for  some  reason.  A  standard  (cor- </text>
+<text top="2077" left="1555" width="618" height="64" font="font4" id="p1_t95" reading_order_no="93" segment_no="4" tag_type="text">rect  or  valid)  input  test  case  might </text>
+<text top="2135" left="1555" width="620" height="54" font="font2" id="p1_t96" reading_order_no="94" segment_no="4" tag_type="text">be  to  use  the  numbers  3,  4,  and  5. </text>
+<text top="2181" left="1552" width="592" height="62" font="font4" id="p1_t97" reading_order_no="95" segment_no="4" tag_type="text">These  numbers,  representing  the </text>
+<text top="2237" left="1553" width="581" height="58" font="font3" id="p1_t98" reading_order_no="96" segment_no="4" tag_type="text">lengths  of  the  sides  of  a  triangle, </text>
+<text top="2285" left="1552" width="615" height="63" font="font6" id="p1_t99" reading_order_no="97" segment_no="4" tag_type="text">would  produce a  right-angled  sca- </text>
+<text top="2336" left="1553" width="580" height="65" font="font6" id="p1_t100" reading_order_no="98" segment_no="4" tag_type="text">lene  triangle.  Assuming  the  pro- </text>
+<text top="2394" left="1554" width="557" height="57" font="font3" id="p1_t101" reading_order_no="99" segment_no="4" tag_type="text">gram  works  well  for  this  input, </text>
+<text top="2447" left="1552" width="608" height="55" font="font9" id="p1_t102" reading_order_no="100" segment_no="4" tag_type="text">would  it  be  better  to  next  execute </text>
+<text top="2500" left="1554" width="587" height="54" font="font2" id="p1_t103" reading_order_no="101" segment_no="4" tag_type="text">a  test  for  the  number  set  3,  5,  4? </text>
+<text top="2552" left="1555" width="588" height="54" font="font2" id="p1_t104" reading_order_no="102" segment_no="4" tag_type="text">Or  how  about  the  number  set  4, </text>
+<text top="2607" left="1554" width="263" height="53" font="font5" id="p1_t105" reading_order_no="103" segment_no="4" tag_type="text">5;  :G.0r  63455? </text>
+<text top="2702" left="1720" width="361" height="63" font="font6" id="p1_t106" reading_order_no="104" segment_no="13" tag_type="text">s  shown  in  the  table </text>
+<text top="2760" left="1721" width="432" height="55" font="font9" id="p1_t107" reading_order_no="105" segment_no="13" tag_type="text">here,  the  choices  in  this </text>
+<text top="2806" left="1721" width="440" height="63" font="font6" id="p1_t108" reading_order_no="106" segment_no="13" tag_type="text">case  are  between  chang- </text>
+<text top="2858" left="1721" width="455" height="63" font="font6" id="p1_t109" reading_order_no="107" segment_no="13" tag_type="text">ing  only  the  order  of  the </text>
+<text top="2910" left="1553" width="497" height="65" font="font6" id="p1_t110" reading_order_no="108" segment_no="13" tag_type="text">inputs,  only  their  values  or </text>
+<text top="2962" left="1552" width="615" height="65" font="font6" id="p1_t111" reading_order_no="109" segment_no="13" tag_type="text">changing  both  order  and  value  at </text>
+<text top="3014" left="1552" width="562" height="65" font="font6" id="p1_t112" reading_order_no="110" segment_no="13" tag_type="text">the  same  time.  Is  it  “better”  to </text>
+<text top="3148" left="1736" width="300" height="42" font="font13" id="p1_t113" reading_order_no="112" segment_no="14" tag_type="text">January  2005/Vol.  48,  No.  | </text>
+<text top="3148" left="2131" width="38" height="42" font="font13" id="p1_t114" reading_order_no="113" segment_no="15" tag_type="text">17 </text>
+</page>
+</pdf2xml>

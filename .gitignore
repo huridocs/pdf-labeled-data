@@ -1,0 +1,14 @@
+*.pyc
+*.pyo
+.DS_Store
+.idea
+.vscode
+*.log
+/venv/
+*.cache
+*_config.py
+**/*.pytest_cache
+src/.pytest_cache
+**/*.pickle
+**/**/active_dataset.txt
+**/**/*.pdf

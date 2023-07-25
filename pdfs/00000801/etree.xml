@@ -1,0 +1,136 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3199" width="2268">
+	<fontspec id="font0" size="29" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="34" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="37" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="36" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="28" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="35" family="GlyphLessFont" color="#000000"/>
+<text top="100" left="68" width="1627" height="42" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">PICARD  ET  AL.:  TOWARD  MACHINE  EMOTIONAL  INTELLIGENCE:  ANALYSIS  OF  AFFECTIVE  PHYSIOLOGICAL  STATE </text>
+<text top="187" left="70" width="1040" height="54" font="font1" id="p1_t2" reading_order_no="2" segment_no="2" tag_type="text">recognize  an  emotional  expression  in  neutral-content </text>
+<text top="233" left="70" width="1040" height="58" font="font2" id="p1_t3" reading_order_no="3" segment_no="2" tag_type="text">speech  with  about  60  percent  accuracy,  choosing  from </text>
+<text top="282" left="69" width="1040" height="57" font="font2" id="p1_t4" reading_order_no="4" segment_no="2" tag_type="text">among  about  six  different  affective  labels  [10].  Computer </text>
+<text top="330" left="69" width="1039" height="58" font="font2" id="p1_t5" reading_order_no="5" segment_no="2" tag_type="text">algorithms  match  or  slightly  beat  this  accuracy,  e.g.,  [11], </text>
+<text top="379" left="71" width="1038" height="58" font="font2" id="p1_t6" reading_order_no="6" segment_no="2" tag_type="text">[12].  Note  that  computer  speech  recognition  that  works  at </text>
+<text top="430" left="68" width="1040" height="55" font="font1" id="p1_t7" reading_order_no="7" segment_no="2" tag_type="text">about  90  percent  accuracy  on  neutrally-spoken  speech  tends </text>
+<text top="478" left="68" width="1039" height="55" font="font1" id="p1_t8" reading_order_no="8" segment_no="2" tag_type="text">to  drop  to  50-60  percent  accuracy  on  emotional  speech  [13]. </text>
+<text top="526" left="68" width="1041" height="57" font="font3" id="p1_t9" reading_order_no="9" segment_no="2" tag_type="text">Improved  handling  of  emotion  in  speech  is  important  for </text>
+<text top="580" left="69" width="929" height="49" font="font4" id="p1_t10" reading_order_no="10" segment_no="2" tag_type="text">recognizing  what  is  said,  as  well  as  how  it  was  said. </text>
+<text top="622" left="117" width="992" height="55" font="font2" id="p1_t11" reading_order_no="11" segment_no="3" tag_type="text">Facial  expression  recognition  is  easier  for  people,  e.g., </text>
+<text top="671" left="69" width="1040" height="56" font="font3" id="p1_t12" reading_order_no="12" segment_no="3" tag_type="text">70-98  percent  accurate  on  six  categories  of  facial  expressions </text>
+<text top="719" left="68" width="1042" height="58" font="font2" id="p1_t13" reading_order_no="13" segment_no="3" tag_type="text">exhibited  by  actors  [14]  and  the  rates  computers  obtain </text>
+<text top="768" left="68" width="1041" height="57" font="font3" id="p1_t14" reading_order_no="14" segment_no="3" tag_type="text">range  from  80-98  percent  accuracy  when  recognizing </text>
+<text top="816" left="68" width="1041" height="57" font="font2" id="p1_t15" reading_order_no="15" segment_no="3" tag_type="text">5-7  classes  of  emotional  expression  on  groups  of  8-32  people </text>
+<text top="869" left="69" width="1040" height="53" font="font5" id="p1_t16" reading_order_no="16" segment_no="3" tag_type="text">[15],  [16].  Other  research  has  focused  not  so  much  on </text>
+<text top="915" left="67" width="1043" height="56" font="font3" id="p1_t17" reading_order_no="17" segment_no="3" tag_type="text">recognizing  a  few  categories  of  emotional  expressions  but </text>
+<text top="964" left="67" width="1042" height="55" font="font1" id="p1_t18" reading_order_no="18" segment_no="3" tag_type="text">on  recognizing  specific  facial  actions—the  fundamental </text>
+<text top="1013" left="67" width="1041" height="55" font="font1" id="p1_t19" reading_order_no="19" segment_no="3" tag_type="text">muscle  movements  that  comprise  Paul  Ekman’s  Facial </text>
+<text top="1059" left="68" width="1041" height="58" font="font2" id="p1_t20" reading_order_no="20" segment_no="3" tag_type="text">Action  Coding  System—which  can  be  combined  to  describe </text>
+<text top="1108" left="68" width="1042" height="58" font="font2" id="p1_t21" reading_order_no="21" segment_no="3" tag_type="text">all  facial  expressions.  Recognizers  have  already  been  built </text>
+<text top="1161" left="68" width="1040" height="52" font="font5" id="p1_t22" reading_order_no="22" segment_no="3" tag_type="text">for  a  handful  of  the  facial  actions  [17],  [18],  [19],  [20],  and </text>
+<text top="1206" left="68" width="1041" height="56" font="font3" id="p1_t23" reading_order_no="23" segment_no="3" tag_type="text">the  automated  recognizers  have  been  shown  to  perform </text>
+<text top="1255" left="67" width="1042" height="57" font="font3" id="p1_t24" reading_order_no="24" segment_no="3" tag_type="text">comparably  to  humans  trained  in  recognizing  facial  actions </text>
+<text top="1304" left="69" width="1040" height="56" font="font3" id="p1_t25" reading_order_no="25" segment_no="3" tag_type="text">[18].  These  facial  actions  are  essentially  facial  phonemes, </text>
+<text top="1352" left="67" width="1042" height="57" font="font3" id="p1_t26" reading_order_no="26" segment_no="3" tag_type="text">which  can  be  assembled  to  form  facial  expressions.  There </text>
+<text top="1400" left="67" width="1042" height="57" font="font2" id="p1_t27" reading_order_no="27" segment_no="3" tag_type="text">are  also  recent  efforts  that  indicate  that  combining  audio </text>
+<text top="1449" left="67" width="1042" height="57" font="font3" id="p1_t28" reading_order_no="28" segment_no="3" tag_type="text">and  video  signals  for  emotion  recognition  can  give </text>
+<text top="1501" left="67" width="563" height="50" font="font5" id="p1_t29" reading_order_no="29" segment_no="3" tag_type="text">improved  results  [21],  [22],  [23]. </text>
+<text top="1545" left="117" width="992" height="57" font="font2" id="p1_t30" reading_order_no="30" segment_no="4" tag_type="text">Although  the  progress  in  facial,  vocal,  and  combined </text>
+<text top="1594" left="68" width="1042" height="57" font="font2" id="p1_t31" reading_order_no="31" segment_no="4" tag_type="text">facial/vocal  expression  recognition  is  promising,  all  of  the </text>
+<text top="1642" left="68" width="1043" height="57" font="font2" id="p1_t32" reading_order_no="32" segment_no="4" tag_type="text">results  above  are  on  presegmented  data  of  a  small  set  of </text>
+<text top="1692" left="68" width="1043" height="56" font="font3" id="p1_t33" reading_order_no="33" segment_no="4" tag_type="text">sometimes  exaggerated  expressions  or  on  a  small  subset  of </text>
+<text top="1740" left="67" width="1042" height="57" font="font2" id="p1_t34" reading_order_no="34" segment_no="4" tag_type="text">hand-marked  singly-occurring  facial  actions.  The  state-of- </text>
+<text top="1788" left="68" width="1042" height="55" font="font2" id="p1_t35" reading_order_no="35" segment_no="4" tag_type="text">the-art  in  affect  recognition  is  similar  to  that  of  speech </text>
+<text top="1839" left="67" width="1042" height="55" font="font1" id="p1_t36" reading_order_no="36" segment_no="4" tag_type="text">recognition  several  decades  ago  when  the  computer  could </text>
+<text top="1890" left="67" width="1041" height="50" font="font6" id="p1_t37" reading_order_no="37" segment_no="4" tag_type="text">classify  the  carefully  articulated  digits,  “0,1,2,...,9,” </text>
+<text top="1936" left="67" width="1043" height="54" font="font1" id="p1_t38" reading_order_no="38" segment_no="4" tag_type="text">spoken  with  pauses  in  between,  but  could  not  accurately </text>
+<text top="1984" left="67" width="1043" height="54" font="font3" id="p1_t39" reading_order_no="39" segment_no="4" tag_type="text">detect  these  digits  in  the  many  ways  they  are  spoken  in </text>
+<text top="2033" left="67" width="571" height="53" font="font1" id="p1_t40" reading_order_no="40" segment_no="4" tag_type="text">larger  continuous  conversations. </text>
+<text top="2079" left="118" width="992" height="57" font="font2" id="p1_t41" reading_order_no="41" segment_no="5" tag_type="text">Emotion  recognition  research  is  also  hard  because </text>
+<text top="2127" left="68" width="1043" height="57" font="font2" id="p1_t42" reading_order_no="42" segment_no="5" tag_type="text">understanding  emotion  is  hard;  after  over  a  century  of </text>
+<text top="2177" left="68" width="1043" height="56" font="font3" id="p1_t43" reading_order_no="43" segment_no="5" tag_type="text">research,  emotion  theorists  still  do  not  agree  upon  what </text>
+<text top="2225" left="68" width="1042" height="57" font="font2" id="p1_t44" reading_order_no="44" segment_no="5" tag_type="text">emotions  are  and  how  they  are  communicated.  One  of  the </text>
+<text top="2275" left="66" width="1045" height="54" font="font3" id="p1_t45" reading_order_no="45" segment_no="5" tag_type="text">big  questions  in  emotion  theory  is  whether  distinct </text>
+<text top="2322" left="67" width="1043" height="57" font="font2" id="p1_t46" reading_order_no="46" segment_no="5" tag_type="text">physiological  patterns  accompany  each  emotion  [24].  The </text>
+<text top="2372" left="67" width="1042" height="56" font="font3" id="p1_t47" reading_order_no="47" segment_no="5" tag_type="text">physiological  muscle  movements  comprising  what  looks  to </text>
+<text top="2421" left="67" width="1042" height="54" font="font1" id="p1_t48" reading_order_no="48" segment_no="5" tag_type="text">an  outsider  to  be  a  facial  expression  may  not  always </text>
+<text top="2470" left="67" width="1043" height="53" font="font1" id="p1_t49" reading_order_no="49" segment_no="5" tag_type="text">correspond  to  a  real  underlying  emotional  state.  Emotion </text>
+<text top="2517" left="67" width="1043" height="57" font="font2" id="p1_t50" reading_order_no="50" segment_no="5" tag_type="text">consists  of  more  than  its  outward  physical  expression;  it </text>
+<text top="2565" left="68" width="1042" height="57" font="font2" id="p1_t51" reading_order_no="51" segment_no="5" tag_type="text">also  consists  of  internal  feelings  and  thoughts,  as  well  as </text>
+<text top="2615" left="68" width="1042" height="54" font="font3" id="p1_t52" reading_order_no="52" segment_no="5" tag_type="text">other  internal  processes  of  which  the  person  having  the </text>
+<text top="2668" left="67" width="483" height="49" font="font6" id="p1_t53" reading_order_no="53" segment_no="5" tag_type="text">emotion  may  not  be  aware. </text>
+<text top="2711" left="117" width="992" height="55" font="font2" id="p1_t54" reading_order_no="54" segment_no="6" tag_type="text">The  relation  between  internal  bodily  feelings  and </text>
+<text top="2761" left="67" width="1043" height="54" font="font3" id="p1_t55" reading_order_no="55" segment_no="6" tag_type="text">externally  observable  expression  is  still  an  open  research </text>
+<text top="2815" left="67" width="1042" height="48" font="font4" id="p1_t56" reading_order_no="56" segment_no="6" tag_type="text">area,  with  a  history  of  controversy.  Historically,  James  was </text>
+<text top="2859" left="67" width="1043" height="53" font="font1" id="p1_t57" reading_order_no="57" segment_no="6" tag_type="text">the  major  proponent  of  emotion  as  an  experience  of  bodily </text>
+<text top="2906" left="67" width="1042" height="56" font="font3" id="p1_t58" reading_order_no="58" segment_no="6" tag_type="text">changes,  such  as  your  heart  pounding  or  your  hands </text>
+<text top="2957" left="67" width="1041" height="52" font="font5" id="p1_t59" reading_order_no="59" segment_no="6" tag_type="text">perspiring  [25].  This  view  was  challenged  by  Cannon  [26] </text>
+<text top="3002" left="67" width="1042" height="57" font="font2" id="p1_t60" reading_order_no="60" segment_no="6" tag_type="text">and  again  by  Schachter  and  Singer  who  argued  that  the </text>
+<text top="3051" left="68" width="1042" height="57" font="font2" id="p1_t61" reading_order_no="61" segment_no="6" tag_type="text">experience  of  physiological  changes  was  not  sufficient  to </text>
+<text top="105" left="2140" width="60" height="38" font="font7" id="p1_t62" reading_order_no="1" segment_no="1" tag_type="text">AFT </text>
+<text top="187" left="1161" width="1042" height="58" font="font2" id="p1_t63" reading_order_no="62" segment_no="7" tag_type="text">discriminate  emotions.  Schachter  and  Singer’s  experiments </text>
+<text top="241" left="1161" width="1042" height="50" font="font8" id="p1_t64" reading_order_no="63" segment_no="7" tag_type="text">showed  that,  if  a  bodily  arousal  state  was  induced,  then </text>
+<text top="285" left="1161" width="1042" height="57" font="font2" id="p1_t65" reading_order_no="64" segment_no="7" tag_type="text">subjects  could  be  put  into  two  distinct  moods  simply  by </text>
+<text top="335" left="1160" width="1043" height="56" font="font1" id="p1_t66" reading_order_no="65" segment_no="7" tag_type="text">being  put  in  two  different  situations.  They  argued  that </text>
+<text top="382" left="1160" width="1041" height="58" font="font2" id="p1_t67" reading_order_no="66" segment_no="7" tag_type="text">physiological  responses  such  as  sweaty  palms  and  a  rapid </text>
+<text top="431" left="1160" width="1042" height="58" font="font2" id="p1_t68" reading_order_no="67" segment_no="7" tag_type="text">heart  beat  inform  our  brain  that  we  are  aroused  and  then </text>
+<text top="480" left="1161" width="1042" height="57" font="font3" id="p1_t69" reading_order_no="68" segment_no="7" tag_type="text">the  brain  must  appraise  the  situation  we  are  in  before  it  can </text>
+<text top="532" left="1160" width="996" height="53" font="font5" id="p1_t70" reading_order_no="69" segment_no="7" tag_type="text">label  the  state  with  an  emotion  such  as  fear  or  love  [27]. </text>
+<text top="581" left="1211" width="991" height="52" font="font6" id="p1_t71" reading_order_no="70" segment_no="8" tag_type="text">Since  the  classic  work  of  Schachter  and  Singer,  there  has </text>
+<text top="625" left="1159" width="1044" height="58" font="font3" id="p1_t72" reading_order_no="71" segment_no="8" tag_type="text">been  a  debate  about  whether  or  not  emotions  are  accom- </text>
+<text top="674" left="1160" width="1043" height="57" font="font3" id="p1_t73" reading_order_no="72" segment_no="8" tag_type="text">panied  by  specific  physiological  changes  other  than  simply </text>
+<text top="726" left="1161" width="1040" height="53" font="font5" id="p1_t74" reading_order_no="73" segment_no="8" tag_type="text">arousal  level.  Ekman  et  al.  [28]  and  Winton  et  al.  [29] </text>
+<text top="773" left="1160" width="1043" height="55" font="font1" id="p1_t75" reading_order_no="74" segment_no="8" tag_type="text">provided  some  of  the  first  findings  showing  significant </text>
+<text top="820" left="1161" width="1042" height="57" font="font3" id="p1_t76" reading_order_no="75" segment_no="8" tag_type="text">differences  in  autonomic  nervous  system  signals  according </text>
+<text top="870" left="1161" width="1040" height="55" font="font1" id="p1_t77" reading_order_no="76" segment_no="8" tag_type="text">to  a  small  number  of  emotional  categories  or  dimensions, </text>
+<text top="916" left="1159" width="1042" height="58" font="font2" id="p1_t78" reading_order_no="77" segment_no="8" tag_type="text">but  there  was  no  exploration  of  automated  classification. </text>
+<text top="968" left="1161" width="1041" height="54" font="font5" id="p1_t79" reading_order_no="78" segment_no="8" tag_type="text">Fridlund  and  Izard  [30]  appear  to  have  been  the  first  to </text>
+<text top="1016" left="1160" width="1042" height="55" font="font1" id="p1_t80" reading_order_no="79" segment_no="8" tag_type="text">apply  pattern  recognition  (linear  discriminants)  to  classifi- </text>
+<text top="1064" left="1161" width="1042" height="55" font="font1" id="p1_t81" reading_order_no="80" segment_no="8" tag_type="text">cation  of  emotion  from  physiological  features,  attaining </text>
+<text top="1116" left="1161" width="1042" height="52" font="font6" id="p1_t82" reading_order_no="81" segment_no="8" tag_type="text">rates  of  38-51  percent  accuracy  (via  cross-validation)  on </text>
+<text top="1160" left="1161" width="1041" height="57" font="font2" id="p1_t83" reading_order_no="82" segment_no="8" tag_type="text">subject-dependent  classification  of  four  different  facial </text>
+<text top="1209" left="1161" width="1042" height="57" font="font3" id="p1_t84" reading_order_no="83" segment_no="8" tag_type="text">expressions  (happy,  sad,  anger,  fear)  given  four  facial </text>
+<text top="1258" left="1161" width="1042" height="56" font="font3" id="p1_t85" reading_order_no="84" segment_no="8" tag_type="text">electromyogram  signals.  Although  there  are  over  a  dozen </text>
+<text top="1306" left="1161" width="1042" height="57" font="font3" id="p1_t86" reading_order_no="85" segment_no="8" tag_type="text">published  efforts  aimed  at  finding  physiological  correlates </text>
+<text top="1358" left="1160" width="1042" height="52" font="font5" id="p1_t87" reading_order_no="86" segment_no="8" tag_type="text">when  examining  small  sets  of  emotions  (from  2-7  emotions </text>
+<text top="1407" left="1161" width="1042" height="51" font="font6" id="p1_t88" reading_order_no="87" segment_no="8" tag_type="text">according  to  a  recent  overview  [31]),  most  have  focused  on </text>
+<text top="1452" left="1161" width="1041" height="56" font="font3" id="p1_t89" reading_order_no="88" segment_no="8" tag_type="text">t-test  or  analysis  of  variance  comparisons,  combining  data </text>
+<text top="1499" left="1161" width="1042" height="57" font="font2" id="p1_t90" reading_order_no="89" segment_no="8" tag_type="text">over  many  subjects,  where  each  was  measured  for  a </text>
+<text top="1551" left="1162" width="1040" height="52" font="font5" id="p1_t91" reading_order_no="90" segment_no="8" tag_type="text">relatively  small  amount  of  time  (seconds  or  minutes). </text>
+<text top="1597" left="1162" width="1042" height="56" font="font3" id="p1_t92" reading_order_no="91" segment_no="8" tag_type="text">Relatively  few  of  the  studies  have  included  neutral  control </text>
+<text top="1646" left="1162" width="1042" height="56" font="font3" id="p1_t93" reading_order_no="92" segment_no="8" tag_type="text">states  where  the  subject  relaxed  and  passed  time  feeling  no </text>
+<text top="1695" left="1162" width="1041" height="56" font="font3" id="p1_t94" reading_order_no="93" segment_no="8" tag_type="text">specific  emotion,  and  none  to  our  knowledge  have  collected </text>
+<text top="1749" left="1162" width="1041" height="48" font="font4" id="p1_t95" reading_order_no="94" segment_no="8" tag_type="text">data  from  a  person  repeatedly,  over  many  weeks,  where </text>
+<text top="1792" left="1162" width="1041" height="54" font="font3" id="p1_t96" reading_order_no="95" segment_no="8" tag_type="text">disparate  sources  of  noise  enter  the  data.  Few  efforts </text>
+<text top="1840" left="1160" width="1043" height="56" font="font3" id="p1_t97" reading_order_no="96" segment_no="8" tag_type="text">beyond  Fridlund’s  have  employed  linear  discriminants, </text>
+<text top="1889" left="1161" width="1042" height="56" font="font3" id="p1_t98" reading_order_no="97" segment_no="8" tag_type="text">and  we  know  of  none  that  have  applied  more  sophisticated </text>
+<text top="1938" left="1160" width="790" height="54" font="font1" id="p1_t99" reading_order_no="98" segment_no="8" tag_type="text">pattern  recognition  to  physiological  features. </text>
+<text top="1985" left="1210" width="993" height="54" font="font3" id="p1_t100" reading_order_no="99" segment_no="9" tag_type="text">The  work  in  this  paper  is  novel  in  trying  to  classify </text>
+<text top="2032" left="1160" width="1043" height="57" font="font2" id="p1_t101" reading_order_no="100" segment_no="9" tag_type="text">physiological  patterns  for  a  set  of  eight  emotions  (including </text>
+<text top="2082" left="1161" width="1043" height="56" font="font3" id="p1_t102" reading_order_no="101" segment_no="9" tag_type="text">neutral),  by  applying  pattern  recognition  techniques  be- </text>
+<text top="2130" left="1161" width="1042" height="55" font="font2" id="p1_t103" reading_order_no="102" segment_no="9" tag_type="text">yond  that  of  simple  discriminants  to  the  problem  (we  use </text>
+<text top="2178" left="1161" width="1044" height="57" font="font2" id="p1_t104" reading_order_no="103" segment_no="9" tag_type="text">new  features,  feature  selection,  spatial  transformations  of </text>
+<text top="2227" left="1162" width="1042" height="57" font="font2" id="p1_t105" reading_order_no="104" segment_no="9" tag_type="text">features,  and  combinations  of  these  methods)  and  by </text>
+<text top="2277" left="1162" width="1041" height="54" font="font3" id="p1_t106" reading_order_no="105" segment_no="9" tag_type="text">focusing  on  “felt”  emotions  of  a  single  subject  gathered </text>
+<text top="2326" left="1162" width="1042" height="53" font="font1" id="p1_t107" reading_order_no="106" segment_no="9" tag_type="text">over  sessions  spanning  many  weeks.  The  results  we  obtain </text>
+<text top="2373" left="1162" width="1041" height="56" font="font3" id="p1_t108" reading_order_no="107" segment_no="9" tag_type="text">are  also  independent  of  psychological  debates  on  the </text>
+<text top="2422" left="1161" width="1042" height="56" font="font3" id="p1_t109" reading_order_no="108" segment_no="9" tag_type="text">universality  of  emotion  categories  [32],  focusing  instead </text>
+<text top="2471" left="1161" width="630" height="53" font="font1" id="p1_t110" reading_order_no="109" segment_no="9" tag_type="text">on  user-defined  emotion  categories. </text>
+<text top="2518" left="1210" width="992" height="55" font="font2" id="p1_t111" reading_order_no="110" segment_no="10" tag_type="text">The  contributions  of  this  paper  include  not  only  a </text>
+<text top="2567" left="1161" width="1043" height="56" font="font3" id="p1_t112" reading_order_no="111" segment_no="10" tag_type="text">new  means  for  pattern  analysis  of  affective  states  from </text>
+<text top="2615" left="1161" width="1043" height="55" font="font2" id="p1_t113" reading_order_no="112" segment_no="10" tag_type="text">physiology,  but  also  the  finding  of  significant  classification </text>
+<text top="2665" left="1162" width="1043" height="54" font="font3" id="p1_t114" reading_order_no="113" segment_no="10" tag_type="text">rates  from  physiological  patterns  corresponding  to  eight </text>
+<text top="2712" left="1162" width="1041" height="57" font="font2" id="p1_t115" reading_order_no="114" segment_no="10" tag_type="text">affective  states  measured  from  a  subject  over  many  weeks </text>
+<text top="2761" left="1162" width="1042" height="57" font="font2" id="p1_t116" reading_order_no="115" segment_no="10" tag_type="text">of  data.  Our  results  also  reveal  significant  discrimination </text>
+<text top="2811" left="1161" width="1044" height="54" font="font3" id="p1_t117" reading_order_no="116" segment_no="10" tag_type="text">among  both  most  commonly  described  dimensions  of </text>
+<text top="2860" left="1161" width="1042" height="55" font="font1" id="p1_t118" reading_order_no="117" segment_no="10" tag_type="text">emotion:  valence  and  arousal.  We  show  that  the  day-to- </text>
+<text top="2908" left="1162" width="1042" height="54" font="font3" id="p1_t119" reading_order_no="118" segment_no="10" tag_type="text">day  variations  in  physiological  signals  are  large,  even  when </text>
+<text top="2956" left="1161" width="1042" height="56" font="font3" id="p1_t120" reading_order_no="119" segment_no="10" tag_type="text">the  same  emotion  is  expressed,  and  this  effect  undermines </text>
+<text top="3006" left="1161" width="1042" height="53" font="font1" id="p1_t121" reading_order_no="120" segment_no="10" tag_type="text">recognition  accuracy  if  it  is  not  appropriately  handled.  This </text>
+<text top="3052" left="1162" width="1043" height="57" font="font2" id="p1_t122" reading_order_no="121" segment_no="10" tag_type="text">paper  proposes  and  compares  techniques  for  handling</text>
+</page>
+</pdf2xml>

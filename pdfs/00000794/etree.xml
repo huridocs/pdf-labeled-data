@@ -1,0 +1,153 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3158" width="2151">
+	<fontspec id="font0" size="42" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="37" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="43" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="21" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="30" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="2" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="3" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="36" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="33" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="34" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="32" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="31" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font15" size="44" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font16" size="28" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font17" size="51" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font18" size="35" family="GlyphLessFont" color="#000000"/>
+<text top="253" left="27" width="964" height="57" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">vice,  so  A  asks  B  for  a  recommendation  with  respect  to </text>
+<text top="304" left="27" width="963" height="57" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">the  car  service  category,  assuming  that  A  trusts  B’s  rec- </text>
+<text top="355" left="27" width="964" height="55" font="font1" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="text">ommendation  within  this  category.  When  B  receives  this </text>
+<text top="403" left="27" width="964" height="59" font="font0" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="text">request  and  finds  that  it  doesn’t  know  D  either,  B  for- </text>
+<text top="455" left="27" width="964" height="55" font="font1" id="p1_t5" reading_order_no="4" segment_no="0" tag_type="text">wards  A’s  request  to  C,  which  has  D’s  trustworthiness </text>
+<text top="505" left="27" width="964" height="55" font="font1" id="p1_t6" reading_order_no="5" segment_no="0" tag_type="text">information  within  the  car  service  category.  C  sends  a </text>
+<text top="554" left="27" width="963" height="57" font="font0" id="p1_t7" reading_order_no="6" segment_no="0" tag_type="text">reply  to  A  with  D’s  trust  value.  The  path  A  x  Bx  Cx  D </text>
+<text top="604" left="27" width="501" height="57" font="font0" id="p1_t8" reading_order_no="7" segment_no="0" tag_type="text">is  the  recommendation  path. </text>
+<text top="655" left="61" width="931" height="55" font="font1" id="p1_t9" reading_order_no="8" segment_no="1" tag_type="text">We  use  the  following  formula  to  calculate  the  trust </text>
+<text top="706" left="27" width="965" height="54" font="font2" id="p1_t10" reading_order_no="9" segment_no="1" tag_type="text">value  from  the  returned  value!:  tu_T  =  [rtv(1)/4]  x </text>
+<text top="757" left="29" width="962" height="53" font="font3" id="p1_t11" reading_order_no="10" segment_no="1" tag_type="text">[rtv(2)/4|  x...  x  [rtv(i)/4]  x  ...  x  [rtv(n)/4|  x  tu(T),  where </text>
+<text top="806" left="27" width="962" height="54" font="font2" id="p1_t12" reading_order_no="11" segment_no="1" tag_type="text">rtv(i)  is  the  trust  value  of  the  ith  recommender  in  the </text>
+<text top="857" left="27" width="963" height="53" font="font3" id="p1_t13" reading_order_no="12" segment_no="1" tag_type="text">recommendation  path,  tv(T)  is  the  trust  value  of  target </text>
+<text top="909" left="28" width="961" height="50" font="font4" id="p1_t14" reading_order_no="13" segment_no="1" tag_type="text">T  returned  by  the  last  recommender,  and  tv_T is  the  cal- </text>
+<text top="954" left="26" width="532" height="57" font="font0" id="p1_t15" reading_order_no="14" segment_no="1" tag_type="text">culated  trust  value  of  target  T. </text>
+<text top="1005" left="61" width="929" height="57" font="font0" id="p1_t16" reading_order_no="15" segment_no="2" tag_type="text">When  multiple  recommendation  paths  exist  between  the </text>
+<text top="1055" left="26" width="963" height="57" font="font0" id="p1_t17" reading_order_no="16" segment_no="2" tag_type="text">requester  and  the  target,  the  target’s  eventual  trust  value  is </text>
+<text top="1105" left="26" width="952" height="57" font="font0" id="p1_t18" reading_order_no="17" segment_no="2" tag_type="text">the  average  of  the  values  calculated  from  different  paths. </text>
+<text top="1154" left="62" width="593" height="58" font="font0" id="p1_t19" reading_order_no="18" segment_no="3" tag_type="text">This  model  has  some  weaknesses: </text>
+<text top="1255" left="64" width="926" height="57" font="font0" id="p1_t20" reading_order_no="19" segment_no="10" tag_type="list">e  It  doesn’t  consider  false  recommendations  and </text>
+<text top="1307" left="100" width="890" height="54" font="font2" id="p1_t21" reading_order_no="20" segment_no="10" tag_type="list">assumes  that  a  recommender  with  a  good  recom- </text>
+<text top="1356" left="100" width="890" height="55" font="font1" id="p1_t22" reading_order_no="21" segment_no="10" tag_type="list">mender  trust  value  always  makes  reliable  recom- </text>
+<text top="1406" left="100" width="656" height="55" font="font1" id="p1_t23" reading_order_no="22" segment_no="10" tag_type="list">mendations,  which  might  not  be  true. </text>
+<text top="1454" left="65" width="929" height="58" font="font5" id="p1_t24" reading_order_no="23" segment_no="11" tag_type="list">¢  It  doesn’t  provide  a  mechanism  for  monitoring  and </text>
+<text top="1503" left="100" width="643" height="60" font="font5" id="p1_t25" reading_order_no="24" segment_no="11" tag_type="list">reevaluating  trust,  which  is  dynamic. </text>
+<text top="1604" left="62" width="932" height="58" font="font0" id="p1_t26" reading_order_no="25" segment_no="13" tag_type="text">Trust  shouldn’t  be  considered  a  binary  concept  (that </text>
+<text top="1657" left="28" width="965" height="54" font="font2" id="p1_t27" reading_order_no="26" segment_no="13" tag_type="text">is,  either  to  trust  or  not  to  trust).  Abdul-Rahman </text>
+<text top="1705" left="28" width="962" height="57" font="font0" id="p1_t28" reading_order_no="27" segment_no="13" tag_type="text">and  Hailes  quantified  trust  as  a  multiple  value  concept! </text>
+<text top="1755" left="28" width="965" height="57" font="font0" id="p1_t29" reading_order_no="28" segment_no="13" tag_type="text">Many  trust-management  systems  use  the  same  ap- </text>
+<text top="1805" left="27" width="966" height="57" font="font0" id="p1_t30" reading_order_no="29" segment_no="13" tag_type="text">proach.*!°  The  key  challenge  then  is  how  to  process </text>
+<text top="1856" left="27" width="966" height="55" font="font1" id="p1_t31" reading_order_no="30" segment_no="13" tag_type="text">the  trust  values  to  minimize  the  influence  of  false </text>
+<text top="1906" left="28" width="320" height="55" font="font1" id="p1_t32" reading_order_no="31" segment_no="13" tag_type="text">recommendations. </text>
+<text top="1956" left="64" width="921" height="55" font="font1" id="p1_t33" reading_order_no="32" segment_no="14" tag_type="text">We  can  classify  the  trust  models  into  two  categories: </text>
+<text top="2059" left="66" width="928" height="53" font="font3" id="p1_t34" reading_order_no="33" segment_no="18" tag_type="list">e  evidence-based  model,  in  which  entities  establish  a </text>
+<text top="2107" left="101" width="892" height="55" font="font1" id="p1_t35" reading_order_no="34" segment_no="18" tag_type="list">trust  relationship  based  on  some  evidence,  such  as </text>
+<text top="2156" left="102" width="122" height="57" font="font0" id="p1_t36" reading_order_no="35" segment_no="18" tag_type="list">keys;*? </text>
+<text top="2208" left="66" width="928" height="54" font="font2" id="p1_t37" reading_order_no="36" segment_no="19" tag_type="list">©  recommendation-based  model,  in  which  recom- </text>
+<text top="2255" left="101" width="892" height="57" font="font0" id="p1_t38" reading_order_no="37" segment_no="19" tag_type="list">mendations  from  intermediaries  set  up  the  trust  rela- </text>
+<text top="2309" left="101" width="568" height="53" font="font3" id="p1_t39" reading_order_no="38" segment_no="19" tag_type="list">tionship  between  two  strangers. ! </text>
+<text top="2406" left="63" width="931" height="55" font="font1" id="p1_t40" reading_order_no="39" segment_no="24" tag_type="text">We  can  also  place  the  trust-management  systems  for </text>
+<text top="2457" left="29" width="965" height="55" font="font1" id="p1_t41" reading_order_no="40" segment_no="24" tag_type="text">distributed  systems  into  these  two  categories.  For  exam- </text>
+<text top="2506" left="29" width="964" height="57" font="font0" id="p1_t42" reading_order_no="41" segment_no="24" tag_type="text">ple,  Laurent  Eschenauer,  Virgil  Gligor,  and  John  Baras!! </text>
+<text top="2556" left="29" width="965" height="57" font="font0" id="p1_t43" reading_order_no="42" segment_no="24" tag_type="text">used  an  evidence-based  approach,  while  Li  Xiong  and </text>
+<text top="2606" left="29" width="965" height="57" font="font0" id="p1_t44" reading_order_no="43" segment_no="24" tag_type="text">Ling  Liu?  and  Karl  Aberer  and  Zoran  Despotovic?  used </text>
+<text top="2657" left="29" width="632" height="55" font="font1" id="p1_t45" reading_order_no="44" segment_no="24" tag_type="text">a  recommendation-based  approach. </text>
+<text top="2754" left="27" width="777" height="58" font="font5" id="p1_t46" reading_order_no="45" segment_no="29" tag_type="title">TRUST  MANAGEMENT  IN  P2P  SYSTEMS </text>
+<text top="2804" left="65" width="930" height="58" font="font5" id="p1_t47" reading_order_no="46" segment_no="30" tag_type="text">P2P  systems  are  distributed  systems  without  central- </text>
+<text top="2856" left="28" width="967" height="57" font="font0" id="p1_t48" reading_order_no="47" segment_no="30" tag_type="text">ized  control  or  organization.  The  peers  interact  directly </text>
+<text top="2907" left="29" width="966" height="55" font="font1" id="p1_t49" reading_order_no="48" segment_no="30" tag_type="text">and  are  both  consumers  and  service  providers.  P2P  sys- </text>
+<text top="2955" left="28" width="969" height="58" font="font5" id="p1_t50" reading_order_no="49" segment_no="30" tag_type="text">tems  need  trust  management  to  ensure  cooperation— </text>
+<text top="3007" left="28" width="600" height="55" font="font1" id="p1_t51" reading_order_no="50" segment_no="30" tag_type="text">for  example,  to  reduce  free  riding. </text>
+<text top="260" left="1068" width="403" height="28" font="font6" id="p1_t52" reading_order_no="51" segment_no="4" tag_type="figure">Si RRR GE Sy  ARR  RTE RS oe  RE Glatt, GAN </text>
+<text top="301" left="1068" width="403" height="41" font="font7" id="p1_t53" reading_order_no="52" segment_no="5" tag_type="title">Table  1.  Direct  trust  value. </text>
+<text top="383" left="1068" width="84" height="49" font="font10" id="p1_t54" reading_order_no="53" segment_no="6" tag_type="table">Value </text>
+<text top="383" left="1303" width="129" height="49" font="font10" id="p1_t55" reading_order_no="54" segment_no="6" tag_type="table">Meaning </text>
+<text top="383" left="1571" width="174" height="49" font="font10" id="p1_t56" reading_order_no="55" segment_no="6" tag_type="table">Explanation </text>
+<text top="464" left="1093" width="29" height="45" font="font11" id="p1_t57" reading_order_no="56" segment_no="6" tag_type="table">-1 </text>
+<text top="464" left="1288" width="119" height="45" font="font11" id="p1_t58" reading_order_no="57" segment_no="6" tag_type="table">Distrust </text>
+<text top="464" left="1570" width="344" height="45" font="font11" id="p1_t59" reading_order_no="58" segment_no="6" tag_type="table">Completely  untrustworthy </text>
+<text top="513" left="1112" width="14" height="46" font="font12" id="p1_t60" reading_order_no="59" segment_no="6" tag_type="table">0 </text>
+<text top="513" left="1304" width="129" height="46" font="font12" id="p1_t61" reading_order_no="60" segment_no="6" tag_type="table">Ignorance </text>
+<text top="513" left="1570" width="160" height="46" font="font12" id="p1_t62" reading_order_no="61" segment_no="6" tag_type="table">Can’t  decide </text>
+<text top="565" left="1114" width="8" height="45" font="font11" id="p1_t63" reading_order_no="62" segment_no="6" tag_type="table">1 </text>
+<text top="565" left="1292" width="113" height="45" font="font11" id="p1_t64" reading_order_no="63" segment_no="6" tag_type="table">Minimal </text>
+<text top="565" left="1571" width="164" height="45" font="font11" id="p1_t65" reading_order_no="64" segment_no="6" tag_type="table">Lowest  trust </text>
+<text top="615" left="1112" width="14" height="43" font="font13" id="p1_t66" reading_order_no="65" segment_no="6" tag_type="table">2 </text>
+<text top="616" left="1301" width="105" height="43" font="font13" id="p1_t67" reading_order_no="66" segment_no="6" tag_type="table">Average </text>
+<text top="616" left="1570" width="288" height="43" font="font13" id="p1_t68" reading_order_no="67" segment_no="6" tag_type="table">Mean  trustworthiness </text>
+<text top="666" left="1112" width="14" height="43" font="font13" id="p1_t69" reading_order_no="68" segment_no="6" tag_type="table">3 </text>
+<text top="666" left="1302" width="68" height="43" font="font13" id="p1_t70" reading_order_no="69" segment_no="6" tag_type="table">Good </text>
+<text top="666" left="1569" width="371" height="43" font="font13" id="p1_t71" reading_order_no="70" segment_no="6" tag_type="table">Trusted  by  major  population </text>
+<text top="714" left="1112" width="15" height="45" font="font11" id="p1_t72" reading_order_no="71" segment_no="6" tag_type="table">4 </text>
+<text top="714" left="1303" width="123" height="45" font="font11" id="p1_t73" reading_order_no="72" segment_no="6" tag_type="table">Complete </text>
+<text top="714" left="1571" width="222" height="45" font="font11" id="p1_t74" reading_order_no="73" segment_no="6" tag_type="table">Fully  trustworthy </text>
+<text top="861" left="1071" width="78" height="28" font="font6" id="p1_t75" reading_order_no="74" segment_no="7" tag_type="figure">Siege </text>
+<text top="861" left="1273" width="291" height="28" font="font6" id="p1_t76" reading_order_no="75" segment_no="7" tag_type="figure">RGN  oH  ripees So Setter </text>
+<text top="902" left="1066" width="541" height="41" font="font7" id="p1_t77" reading_order_no="76" segment_no="8" tag_type="title">Table  2.  Recommender  trust  value. </text>
+<text top="982" left="1067" width="83" height="50" font="font4" id="p1_t78" reading_order_no="77" segment_no="9" tag_type="table">Value </text>
+<text top="983" left="1280" width="129" height="50" font="font4" id="p1_t79" reading_order_no="78" segment_no="9" tag_type="table">Meaning </text>
+<text top="983" left="1544" width="175" height="50" font="font4" id="p1_t80" reading_order_no="79" segment_no="9" tag_type="table">Explanation </text>
+<text top="1066" left="1094" width="29" height="43" font="font13" id="p1_t81" reading_order_no="80" segment_no="9" tag_type="table">=1 </text>
+<text top="1066" left="1265" width="118" height="43" font="font13" id="p1_t82" reading_order_no="81" segment_no="9" tag_type="table">Distrust </text>
+<text top="1066" left="1543" width="343" height="43" font="font13" id="p1_t83" reading_order_no="82" segment_no="9" tag_type="table">Completely  untrustworthy </text>
+<text top="1115" left="1113" width="14" height="45" font="font11" id="p1_t84" reading_order_no="83" segment_no="9" tag_type="table">0 </text>
+<text top="1115" left="1281" width="129" height="45" font="font11" id="p1_t85" reading_order_no="84" segment_no="9" tag_type="table">Ignorance </text>
+<text top="1115" left="1543" width="160" height="45" font="font11" id="p1_t86" reading_order_no="85" segment_no="9" tag_type="table">Can't  decide </text>
+<text top="1166" left="1115" width="8" height="42" font="font14" id="p1_t87" reading_order_no="86" segment_no="9" tag_type="table">1 </text>
+<text top="1166" left="1281" width="103" height="42" font="font14" id="p1_t88" reading_order_no="87" segment_no="9" tag_type="table">Minimal </text>
+<text top="1167" left="1542" width="348" height="43" font="font14" id="p1_t89" reading_order_no="88" segment_no="9" tag_type="table">The  entity  itself  judges  the </text>
+<text top="1215" left="1113" width="14" height="43" font="font13" id="p1_t90" reading_order_no="89" segment_no="9" tag_type="table">2 </text>
+<text top="1215" left="1278" width="105" height="43" font="font13" id="p1_t91" reading_order_no="90" segment_no="9" tag_type="table">Average </text>
+<text top="1216" left="1544" width="368" height="44" font="font13" id="p1_t92" reading_order_no="91" segment_no="9" tag_type="table">reliability  of  recommender’s </text>
+<text top="1265" left="1113" width="14" height="45" font="font11" id="p1_t93" reading_order_no="92" segment_no="9" tag_type="table">3 </text>
+<text top="1265" left="1280" width="67" height="45" font="font11" id="p1_t94" reading_order_no="93" segment_no="9" tag_type="table">Good </text>
+<text top="1265" left="1544" width="231" height="45" font="font11" id="p1_t95" reading_order_no="94" segment_no="9" tag_type="table">recommendation. </text>
+<text top="1314" left="1113" width="15" height="45" font="font11" id="p1_t96" reading_order_no="95" segment_no="9" tag_type="table">4 </text>
+<text top="1314" left="1280" width="123" height="45" font="font11" id="p1_t97" reading_order_no="96" segment_no="9" tag_type="table">Complete </text>
+<text top="1458" left="1085" width="931" height="53" font="font3" id="p1_t98" reading_order_no="97" segment_no="12" tag_type="text">In  P2P  systems,  peers  often  must  interact  with </text>
+<text top="1506" left="1047" width="969" height="55" font="font1" id="p1_t99" reading_order_no="98" segment_no="12" tag_type="text">unknown  entities  whose  trustworthiness  is  also  un- </text>
+<text top="1557" left="1047" width="969" height="55" font="font1" id="p1_t100" reading_order_no="99" segment_no="12" tag_type="text">known.  Centralized  schemes  or  schemes  that  rely  on </text>
+<text top="1606" left="1047" width="541" height="57" font="font0" id="p1_t101" reading_order_no="100" segment_no="12" tag_type="text">global  knowledge  won’t  work. </text>
+<text top="1705" left="1048" width="897" height="57" font="font0" id="p1_t102" reading_order_no="101" segment_no="15" tag_type="text">Recommendation-based  trust  management </text>
+<text top="1755" left="1085" width="931" height="57" font="font0" id="p1_t103" reading_order_no="102" segment_no="16" tag_type="text">Xiong  and  Liu?  based  their  distributed  trust-manage- </text>
+<text top="1806" left="1047" width="968" height="57" font="font1" id="p1_t104" reading_order_no="103" segment_no="16" tag_type="text">ment  system  on  feedback  or  recommendations  that  help </text>
+<text top="1856" left="1048" width="968" height="57" font="font0" id="p1_t105" reading_order_no="104" segment_no="16" tag_type="text">establish  trust  relationships  between  unknown  or  unfa- </text>
+<text top="1904" left="1048" width="965" height="58" font="font5" id="p1_t106" reading_order_no="105" segment_no="16" tag_type="text">miliar  peers.  They  define  a  satisfactory  interaction  as  1 </text>
+<text top="1956" left="1048" width="736" height="57" font="font0" id="p1_t107" reading_order_no="106" segment_no="16" tag_type="text">and  a  complaint  as  0.  Their  trust  metric  is </text>
+<text top="2033" left="1291" width="39" height="59" font="font15" id="p1_t108" reading_order_no="107" segment_no="17" tag_type="formula">S </text>
+<text top="2033" left="1391" width="275" height="59" font="font15" id="p1_t109" reading_order_no="108" segment_no="17" tag_type="formula">S(u,v,t)  *  Cr(v,t) </text>
+<text top="2095" left="1092" width="292" height="38" font="font16" id="p1_t110" reading_order_no="109" segment_no="17" tag_type="formula">T(u,t)  a  veP,v  #u </text>
+<text top="2123" left="1372" width="16" height="69" font="font17" id="p1_t111" reading_order_no="110" segment_no="17" tag_type="formula">Sy </text>
+<text top="2123" left="1467" width="122" height="69" font="font17" id="p1_t112" reading_order_no="111" segment_no="17" tag_type="formula">I(u,v,t) </text>
+<text top="2123" left="1971" width="40" height="69" font="font17" id="p1_t113" reading_order_no="113" segment_no="20" tag_type="text">(1) </text>
+<text top="2192" left="1313" width="148" height="38" font="font16" id="p1_t114" reading_order_no="112" segment_no="17" tag_type="formula">veP,v#u </text>
+<text top="2261" left="1047" width="105" height="50" font="font4" id="p1_t115" reading_order_no="114" segment_no="21" tag_type="text">where </text>
+<text top="2356" left="1088" width="661" height="55" font="font1" id="p1_t116" reading_order_no="115" segment_no="22" tag_type="list">e  P  isa  set  of  peers  in  the  P2P  system; </text>
+<text top="2408" left="1087" width="724" height="54" font="font2" id="p1_t117" reading_order_no="116" segment_no="23" tag_type="list">¢  wand  v  are  peers  in  the  system,  u,  v  €  P; </text>
+<text top="2458" left="1088" width="930" height="54" font="font2" id="p1_t118" reading_order_no="117" segment_no="25" tag_type="list">¢  S(u,v,t)  is  the  degree  of  satisfaction  that  u  has  with  v </text>
+<text top="2508" left="1124" width="414" height="54" font="font2" id="p1_t119" reading_order_no="118" segment_no="25" tag_type="list">until  the  #th  transaction; </text>
+<text top="2557" left="1087" width="930" height="55" font="font1" id="p1_t120" reading_order_no="119" segment_no="26" tag_type="list">¢  T(u,t)  is  v’s  trust  value  evaluated  by  other  peers  until </text>
+<text top="2608" left="1123" width="325" height="55" font="font1" id="p1_t121" reading_order_no="120" segment_no="26" tag_type="list">the  zth  transaction; </text>
+<text top="2658" left="1088" width="930" height="55" font="font1" id="p1_t122" reading_order_no="121" segment_no="27" tag_type="list">¢  Cr(v,t)  is  the  balance  factor  for  filtering  feedback </text>
+<text top="2709" left="1124" width="202" height="53" font="font3" id="p1_t123" reading_order_no="122" segment_no="27" tag_type="list">from  v;  and </text>
+<text top="2759" left="1088" width="930" height="53" font="font3" id="p1_t124" reading_order_no="123" segment_no="28" tag_type="list">©  I(u,v,t)  is  the  number  of  interactions  that  u  has  with </text>
+<text top="2805" left="1124" width="470" height="58" font="font5" id="p1_t125" reading_order_no="124" segment_no="28" tag_type="list">v  up  to  the  th  transaction. </text>
+<text top="2909" left="1050" width="968" height="54" font="font2" id="p1_t126" reading_order_no="125" segment_no="31" tag_type="text">So,  T(u,t)  is  the  ratio  of  the  cumulative  weighted  satis- </text>
+<text top="2960" left="1050" width="968" height="53" font="font3" id="p1_t127" reading_order_no="126" segment_no="31" tag_type="text">faction  that  u  receives  to  the  total  number  of  interactions </text>
+<text top="3007" left="1049" width="578" height="57" font="font0" id="p1_t128" reading_order_no="127" segment_no="31" tag_type="text">that  u  has  within  the  P2P  system. </text>
+<text top="3114" left="1833" width="185" height="47" font="font18" id="p1_t129" reading_order_no="128" segment_no="32" tag_type="text">February  2007</text>
+</page>
+</pdf2xml>

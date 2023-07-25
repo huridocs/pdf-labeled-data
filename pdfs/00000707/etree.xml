@@ -1,0 +1,151 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3219" width="2295">
+	<fontspec id="font0" size="29" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="15" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="10" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="1" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="18" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="19" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="12" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="750" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="2" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="9" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="11" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="32" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="31" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="33" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="37" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font15" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font16" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font17" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font18" size="34" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font19" size="36" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font20" size="35" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font21" size="38" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font22" size="49" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font23" size="42" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font24" size="46" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font25" size="3" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font26" size="4" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font27" size="53" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font28" size="269" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font29" size="267" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font30" size="268" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font31" size="243" family="GlyphLessFont" color="#000000"/>
+<text top="99" left="69" width="212" height="39" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">MOHAN  ET  AL.: </text>
+<text top="920" left="70" width="1039" height="46" font="font11" id="p1_t2" reading_order_no="1" segment_no="5" tag_type="text">Fig.  3.  It  is  very  important  to  place  geometric  constraints  on  the  location </text>
+<text top="960" left="69" width="1041" height="46" font="font12" id="p1_t3" reading_order_no="2" segment_no="5" tag_type="text">and  scale  of  component  detections.  Even  though  a  detection  may  be  the </text>
+<text top="998" left="69" width="1042" height="48" font="font11" id="p1_t4" reading_order_no="3" segment_no="5" tag_type="text">strongest  in  a  particular  window  examined,  it  might  not  be  at  the  proper </text>
+<text top="1036" left="69" width="1040" height="48" font="font13" id="p1_t5" reading_order_no="4" segment_no="5" tag_type="text">location.  In  this  figure,  the  shadow  of  the  person’s  head  is  detected  with </text>
+<text top="1077" left="69" width="1042" height="47" font="font11" id="p1_t6" reading_order_no="5" segment_no="5" tag_type="text">a  higher  score  than  the  head  itself.  If  we  did  not  check  for  proper </text>
+<text top="1117" left="68" width="1042" height="46" font="font11" id="p1_t7" reading_order_no="6" segment_no="5" tag_type="text">configuration  and  scale,  component  detections  like  these  would  lead  to </text>
+<text top="1157" left="68" width="714" height="44" font="font12" id="p1_t8" reading_order_no="7" segment_no="5" tag_type="text">false  alarms  and/or  missed  detections  of  people. </text>
+<text top="1249" left="68" width="1042" height="53" font="font14" id="p1_t9" reading_order_no="8" segment_no="11" tag_type="text">invariance  scheme  [21].  Haar  wavelets  of  two  different </text>
+<text top="1296" left="69" width="1041" height="58" font="font15" id="p1_t10" reading_order_no="9" segment_no="11" tag_type="text">scales  (16  x  16  pixels  and  8  x  8  pixels)  are  used  to  generate </text>
+<text top="1347" left="69" width="1040" height="57" font="font16" id="p1_t11" reading_order_no="10" segment_no="11" tag_type="text">a  multiscale  representation  of  the  images.  The  wavelets  are </text>
+<text top="1397" left="69" width="1041" height="56" font="font16" id="p1_t12" reading_order_no="11" segment_no="11" tag_type="text">applied  to  the  image  such  that  they  overlap  75  percent  with </text>
+<text top="1445" left="69" width="1040" height="58" font="font17" id="p1_t13" reading_order_no="12" segment_no="11" tag_type="text">the  neighboring  wavelets  in  the  vertical  and  horizontal </text>
+<text top="1501" left="69" width="1043" height="50" font="font18" id="p1_t14" reading_order_no="13" segment_no="11" tag_type="text">directions;  this  is  done  to  increase  the  spatial  resolution  of </text>
+<text top="1545" left="69" width="1041" height="58" font="font15" id="p1_t15" reading_order_no="14" segment_no="11" tag_type="text">our  system  and  to  yield  richer  representation.  At  each  scale, </text>
+<text top="1599" left="69" width="1041" height="52" font="font19" id="p1_t16" reading_order_no="15" segment_no="11" tag_type="text">three  different  orientations  of  Haar  wavelets  are  used,  each </text>
+<text top="1644" left="68" width="1041" height="59" font="font17" id="p1_t17" reading_order_no="16" segment_no="11" tag_type="text">of  which  responds  to  differences  in  intensities  across </text>
+<text top="1700" left="68" width="1041" height="51" font="font20" id="p1_t18" reading_order_no="17" segment_no="11" tag_type="text">different  axes.  In  this  manner,  information  about  how </text>
+<text top="1746" left="68" width="1040" height="57" font="font15" id="p1_t19" reading_order_no="18" segment_no="11" tag_type="text">intensity  varies  in  each  color  channel  (red,  green,  and  blue) </text>
+<text top="1800" left="68" width="1041" height="51" font="font20" id="p1_t20" reading_order_no="19" segment_no="11" tag_type="text">in  the  horizontal,  vertical,  and  diagonal  directions  is </text>
+<text top="1846" left="68" width="1041" height="56" font="font16" id="p1_t21" reading_order_no="20" segment_no="11" tag_type="text">obtained.  The  information  streams  from  the  three  color </text>
+<text top="1895" left="68" width="1041" height="57" font="font15" id="p1_t22" reading_order_no="21" segment_no="11" tag_type="text">channels  are  combined  and  collapsed  into  one  by  taking  the </text>
+<text top="1944" left="67" width="1042" height="58" font="font17" id="p1_t23" reading_order_no="22" segment_no="11" tag_type="text">wavelet  coefficient  for  the  color  channel  that  exhibits  the </text>
+<text top="1995" left="68" width="1042" height="57" font="font15" id="p1_t24" reading_order_no="23" segment_no="11" tag_type="text">greatest  variation  in  intensity  at  each  location  and  for  each </text>
+<text top="2044" left="68" width="1041" height="58" font="font17" id="p1_t25" reading_order_no="24" segment_no="11" tag_type="text">orientation.  At  these  scales  of  wavelets  there  are  582  features </text>
+<text top="2094" left="68" width="1041" height="57" font="font15" id="p1_t26" reading_order_no="25" segment_no="11" tag_type="text">for  the  32  x  32  pixel  window  for  the  head  and  shoulders </text>
+<text top="2144" left="68" width="1042" height="58" font="font17" id="p1_t27" reading_order_no="26" segment_no="11" tag_type="text">and  954  features  for  the  48  x  32  pixel  windows  representing </text>
+<text top="2194" left="68" width="1041" height="58" font="font17" id="p1_t28" reading_order_no="27" segment_no="11" tag_type="text">the  lower  body  and  the  left  and  right  arms.  This  method </text>
+<text top="2245" left="68" width="1041" height="56" font="font15" id="p1_t29" reading_order_no="28" segment_no="11" tag_type="text">results  in  a  thorough  and  compact  representation  of  the </text>
+<text top="101" left="300" width="970" height="41" font="font0" id="p1_t30" reading_order_no="29" segment_no="1" tag_type="text">EXAMPLE-BASED  OBJECT  DETECTION  IN  IMAGES  BY  COMPONENTS </text>
+<text top="107" left="2156" width="46" height="39" font="font0" id="p1_t31" reading_order_no="30" segment_no="2" tag_type="text">353 </text>
+<text top="189" left="1163" width="1040" height="57" font="font15" id="p1_t32" reading_order_no="31" segment_no="3" tag_type="text">components,  with  high  interclass  and  low  intraclass </text>
+<text top="240" left="1162" width="163" height="51" font="font21" id="p1_t33" reading_order_no="32" segment_no="3" tag_type="text">variation. </text>
+<text top="285" left="1212" width="991" height="59" font="font17" id="p1_t34" reading_order_no="33" segment_no="4" tag_type="text">We  use  support  vector  machines  (SVM)  to  classify  the </text>
+<text top="337" left="1163" width="1041" height="55" font="font16" id="p1_t35" reading_order_no="34" segment_no="4" tag_type="text">data  vectors  resulting  from  the  Haar  wavelet  representation </text>
+<text top="385" left="1163" width="1039" height="57" font="font15" id="p1_t36" reading_order_no="35" segment_no="4" tag_type="text">of  the  components.  SVMs  were  proposed  by  Vapnik  [25] </text>
+<text top="435" left="1163" width="1040" height="57" font="font15" id="p1_t37" reading_order_no="36" segment_no="4" tag_type="text">and  have  yielded  excellent  results  in  various  data  classifica- </text>
+<text top="487" left="1163" width="1041" height="53" font="font14" id="p1_t38" reading_order_no="37" segment_no="4" tag_type="text">tion  tasks,  including  people  detection  [16],  [14]  and  text </text>
+<text top="532" left="1162" width="1041" height="59" font="font17" id="p1_t39" reading_order_no="38" segment_no="4" tag_type="text">classification  [9].  Traditional  training  techniques  for  classi- </text>
+<text top="581" left="1163" width="1040" height="59" font="font17" id="p1_t40" reading_order_no="39" segment_no="4" tag_type="text">fiers  like  multilayer  perceptrons  use  empirical  risk  mini- </text>
+<text top="632" left="1162" width="1041" height="58" font="font15" id="p1_t41" reading_order_no="40" segment_no="4" tag_type="text">mization  and  lack  a  solid  mathematical  justification.  The </text>
+<text top="681" left="1162" width="1041" height="58" font="font15" id="p1_t42" reading_order_no="41" segment_no="4" tag_type="text">SVM  algorithm  uses  structural  risk  minimization  to  find  the </text>
+<text top="731" left="1162" width="1040" height="56" font="font16" id="p1_t43" reading_order_no="42" segment_no="4" tag_type="text">hyperplane  that  optimally  separates  two  classes  of  objects. </text>
+<text top="779" left="1162" width="1042" height="58" font="font17" id="p1_t44" reading_order_no="43" segment_no="4" tag_type="text">This  is  equivalent  to  minimizing  a  bound  on  generalization </text>
+<text top="828" left="1162" width="1042" height="59" font="font17" id="p1_t45" reading_order_no="44" segment_no="4" tag_type="text">error.  The  optimal  hyperplane  is  computed  as  a  decision </text>
+<text top="879" left="1163" width="344" height="54" font="font15" id="p1_t46" reading_order_no="45" segment_no="4" tag_type="text">surface  of  the  form: </text>
+<text top="958" left="1530" width="297" height="67" font="font22" id="p1_t47" reading_order_no="46" segment_no="6" tag_type="formula">f(x)  =  sgn(g(x)), </text>
+<text top="962" left="2157" width="43" height="66" font="font22" id="p1_t48" reading_order_no="47" segment_no="7" tag_type="text">(1) </text>
+<text top="1038" left="1161" width="107" height="46" font="font18" id="p1_t49" reading_order_no="48" segment_no="8" tag_type="text">where </text>
+<text top="1094" left="1588" width="15" height="57" font="font23" id="p1_t50" reading_order_no="49" segment_no="9" tag_type="formula">r </text>
+<text top="1153" left="1414" width="518" height="65" font="font24" id="p1_t51" reading_order_no="50" segment_no="9" tag_type="formula">g(x)  =  (&gt;:  yi  K  (x,  x)  +  | </text>
+<text top="1157" left="2158" width="42" height="62" font="font24" id="p1_t52" reading_order_no="51" segment_no="10" tag_type="text">(2) </text>
+<text top="1192" left="1576" width="41" height="57" font="font23" id="p1_t53" reading_order_no="52" segment_no="9" tag_type="formula">i=l </text>
+<text top="1267" left="1161" width="1040" height="55" font="font14" id="p1_t54" reading_order_no="53" segment_no="12" tag_type="text">In  (2),  K  is  one  of  many  possible  kernel  functions,  y;  € </text>
+<text top="1313" left="1164" width="1039" height="58" font="font15" id="p1_t55" reading_order_no="54" segment_no="12" tag_type="text">{—1,  1}  is  the  class  label  of  the  data  point  x},  and  {x?}!_,  isa </text>
+<text top="1363" left="1162" width="1041" height="56" font="font16" id="p1_t56" reading_order_no="55" segment_no="12" tag_type="text">subset  of  the  training  data  set.  The  x}  are  called  support </text>
+<text top="1412" left="1162" width="1041" height="57" font="font15" id="p1_t57" reading_order_no="56" segment_no="12" tag_type="text">vectors  and  are  the  points  from  the  data  set  that  define  the </text>
+<text top="1462" left="1162" width="1042" height="56" font="font16" id="p1_t58" reading_order_no="57" segment_no="12" tag_type="text">separating  hyperplane.  Finally,  the  coefficients  a;  and  b  are </text>
+<text top="1510" left="1162" width="1042" height="57" font="font15" id="p1_t59" reading_order_no="58" segment_no="12" tag_type="text">determined  by  solving  a  large-scale  quadratic  programming </text>
+<text top="1559" left="1161" width="1042" height="58" font="font15" id="p1_t60" reading_order_no="59" segment_no="12" tag_type="text">problem.  One  of  the  appealing  characteristics  of  SVMs  is </text>
+<text top="1612" left="1162" width="1040" height="53" font="font14" id="p1_t61" reading_order_no="60" segment_no="12" tag_type="text">that  there  are  just  two  tunable  parameters,  Cpos  and  Cneg, </text>
+<text top="1658" left="1160" width="1043" height="57" font="font15" id="p1_t62" reading_order_no="61" segment_no="12" tag_type="text">which  are  penalty  terms  for  positive  and  negative  pattern </text>
+<text top="1706" left="1161" width="1042" height="58" font="font17" id="p1_t63" reading_order_no="62" segment_no="12" tag_type="text">misclassifications,  respectively.  The  kernel  function  K  that </text>
+<text top="1757" left="1161" width="1041" height="56" font="font15" id="p1_t64" reading_order_no="63" segment_no="12" tag_type="text">is  used  in  the  component  classifiers  is  a  quadratic </text>
+<text top="1806" left="1160" width="745" height="56" font="font15" id="p1_t65" reading_order_no="64" segment_no="12" tag_type="text">polynomial  and  is  K(x,x})  =  (x-x}  +1)’. </text>
+<text top="1854" left="1210" width="994" height="56" font="font15" id="p1_t66" reading_order_no="65" segment_no="13" tag_type="text">In  (1),  f(x)  €  {—1,1}  is  referred  to  as  the  binary  class  of </text>
+<text top="1901" left="1161" width="1040" height="58" font="font17" id="p1_t67" reading_order_no="66" segment_no="13" tag_type="text">the  data  point  x  which  is  being  classified  by  the  SVM.  As  (1) </text>
+<text top="1951" left="1161" width="1042" height="58" font="font17" id="p1_t68" reading_order_no="67" segment_no="13" tag_type="text">shows,  the  binary  class  of  a  data  point  is  the  sign  of  the  raw </text>
+<text top="2001" left="1161" width="1042" height="57" font="font15" id="p1_t69" reading_order_no="68" segment_no="13" tag_type="text">output  g(x)  of  the  SVM  classifier.  The  raw  output  of  an </text>
+<text top="2049" left="1161" width="1041" height="58" font="font17" id="p1_t70" reading_order_no="69" segment_no="13" tag_type="text">SVM  classifier  is  the  distance  of  a  data  point  from  the </text>
+<text top="2100" left="1161" width="1042" height="56" font="font15" id="p1_t71" reading_order_no="70" segment_no="13" tag_type="text">decision  hyperplane.  In  general,  the  greater  the  magnitude </text>
+<text top="2148" left="1161" width="1042" height="57" font="font17" id="p1_t72" reading_order_no="71" segment_no="13" tag_type="text">of  the  raw  output,  the  more  likely  a  classified  data  point </text>
+<text top="2197" left="1160" width="1042" height="58" font="font17" id="p1_t73" reading_order_no="72" segment_no="13" tag_type="text">belongs  to  the  binary  class  it  is  grouped  into  by  the </text>
+<text top="2246" left="1161" width="258" height="55" font="font17" id="p1_t74" reading_order_no="73" segment_no="13" tag_type="text">SVM  classifier. </text>
+<text top="2382" left="1059" width="144" height="50" font="font14" id="p1_t75" reading_order_no="74" segment_no="14" tag_type="title">TABLE  1 </text>
+<text top="2424" left="710" width="850" height="49" font="font20" id="p1_t76" reading_order_no="75" segment_no="15" tag_type="title">Geometric  Constraints  Placed  on  Each  Component </text>
+<text top="2509" left="536" width="185" height="50" font="font14" id="p1_t77" reading_order_no="76" segment_no="16" tag_type="table">Component </text>
+<text top="2510" left="822" width="10" height="50" font="font14" id="p1_t78" reading_order_no="77" segment_no="16" tag_type="table">I </text>
+<text top="2510" left="921" width="139" height="50" font="font14" id="p1_t79" reading_order_no="78" segment_no="16" tag_type="table">Centroid </text>
+<text top="2511" left="1311" width="79" height="50" font="font14" id="p1_t80" reading_order_no="79" segment_no="16" tag_type="table">Seale </text>
+<text top="2511" left="1581" width="265" height="50" font="font14" id="p1_t81" reading_order_no="80" segment_no="16" tag_type="table">Other  Criteria  ] </text>
+<text top="2558" left="872" width="664" height="49" font="font19" id="p1_t82" reading_order_no="81" segment_no="16" tag_type="table">Row  |  Column  |  Minimum |  Marimum </text>
+<text top="2606" left="459" width="495" height="50" font="font19" id="p1_t83" reading_order_no="82" segment_no="16" tag_type="table">Head  and  Shoulders  |}  2343) </text>
+<text top="2607" left="1009" width="102" height="49" font="font19" id="p1_t84" reading_order_no="83" segment_no="16" tag_type="table">3242 </text>
+<text top="2608" left="1187" width="120" height="49" font="font19" id="p1_t85" reading_order_no="84" segment_no="16" tag_type="table">28  x  28 </text>
+<text top="2608" left="1391" width="121" height="49" font="font19" id="p1_t86" reading_order_no="85" segment_no="16" tag_type="table">42  x  42 </text>
+<text top="2610" left="1838" width="8" height="49" font="font19" id="p1_t87" reading_order_no="86" segment_no="16" tag_type="table">| </text>
+<text top="2655" left="525" width="200" height="49" font="font19" id="p1_t88" reading_order_no="87" segment_no="16" tag_type="table">Lower  Body </text>
+<text top="2657" left="1009" width="102" height="49" font="font19" id="p1_t89" reading_order_no="88" segment_no="16" tag_type="table">oe  ed </text>
+<text top="2657" left="1186" width="121" height="49" font="font19" id="p1_t90" reading_order_no="89" segment_no="16" tag_type="table">42  x  28 </text>
+<text top="2658" left="1391" width="121" height="49" font="font19" id="p1_t91" reading_order_no="90" segment_no="16" tag_type="table">69  x  46 </text>
+<text top="2659" left="1585" width="228" height="49" font="font19" id="p1_t92" reading_order_no="91" segment_no="16" tag_type="table">Bottom  Edge: </text>
+<text top="2706" left="1586" width="224" height="49" font="font19" id="p1_t93" reading_order_no="92" segment_no="16" tag_type="table">Row:  124+4 </text>
+<text top="2751" left="449" width="662" height="52" font="font14" id="p1_t94" reading_order_no="93" segment_no="16" tag_type="table">Right  Arm  Extended  ||  5445 |  4643 </text>
+<text top="2753" left="1187" width="120" height="50" font="font14" id="p1_t95" reading_order_no="94" segment_no="16" tag_type="table">31  x  25 </text>
+<text top="2754" left="1391" width="117" height="50" font="font14" id="p1_t96" reading_order_no="95" segment_no="16" tag_type="table">47  x  31 </text>
+<text top="2801" left="490" width="272" height="49" font="font19" id="p1_t97" reading_order_no="96" segment_no="16" tag_type="table">Right  Arm  Bent </text>
+<text top="2802" left="1009" width="102" height="49" font="font19" id="p1_t98" reading_order_no="97" segment_no="16" tag_type="table">46  +3 </text>
+<text top="2803" left="1187" width="32" height="49" font="font19" id="p1_t99" reading_order_no="98" segment_no="16" tag_type="table">SIE </text>
+<text top="2803" left="1273" width="35" height="49" font="font19" id="p1_t100" reading_order_no="99" segment_no="16" tag_type="table">25 </text>
+<text top="2803" left="1391" width="119" height="49" font="font19" id="p1_t101" reading_order_no="100" segment_no="16" tag_type="table">47  x  31 </text>
+<text top="2804" left="1619" width="164" height="49" font="font19" id="p1_t102" reading_order_no="101" segment_no="16" tag_type="table">Top  Edge: </text>
+<text top="2853" left="1596" width="204" height="50" font="font19" id="p1_t103" reading_order_no="102" segment_no="16" tag_type="table">Row:  3143 </text>
+<text top="2897" left="462" width="327" height="49" font="font19" id="p1_t104" reading_order_no="103" segment_no="16" tag_type="table">Left  Arm  Extended </text>
+<text top="2899" left="1012" width="99" height="49" font="font19" id="p1_t105" reading_order_no="104" segment_no="16" tag_type="table">lees </text>
+<text top="2899" left="1187" width="121" height="49" font="font19" id="p1_t106" reading_order_no="105" segment_no="16" tag_type="table">31  x25 </text>
+<text top="2900" left="1391" width="120" height="49" font="font19" id="p1_t107" reading_order_no="106" segment_no="16" tag_type="table">47  x  31 </text>
+<text top="2945" left="503" width="245" height="51" font="font14" id="p1_t108" reading_order_no="107" segment_no="16" tag_type="table">Left  Arm  Bent </text>
+<text top="2947" left="1014" width="97" height="50" font="font14" id="p1_t109" reading_order_no="108" segment_no="16" tag_type="table">17+3 </text>
+<text top="2947" left="1187" width="121" height="50" font="font14" id="p1_t110" reading_order_no="109" segment_no="16" tag_type="table">31  x  25 </text>
+<text top="2948" left="1391" width="117" height="50" font="font14" id="p1_t111" reading_order_no="110" segment_no="16" tag_type="table">47  x  31 </text>
+<text top="2949" left="1620" width="163" height="50" font="font14" id="p1_t112" reading_order_no="111" segment_no="16" tag_type="table">Top  Edge: </text>
+<text top="2997" left="1596" width="204" height="50" font="font19" id="p1_t113" reading_order_no="112" segment_no="16" tag_type="table">Row:  3143 </text>
+<text top="3049" left="77" width="1181" height="45" font="font11" id="p1_t114" reading_order_no="113" segment_no="17" tag_type="text">All  coordinates  are  relative  to  the  upper  left-hand  corner  of  a  128  x  64  rectangle.</text>
+</page>
+</pdf2xml>

@@ -1,0 +1,1005 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="841" width="595">
+	<fontspec id="font0" size="14" family="NimbusRomNo9L-Medi" color="#000000"/>
+	<fontspec id="font1" size="12" family="NimbusRomNo9L-ReguItal" color="#000000"/>
+	<fontspec id="font2" size="8" family="CMSY8" color="#000000"/>
+	<fontspec id="font3" size="12" family="NimbusRomNo9L-Regu" color="#000000"/>
+	<fontspec id="font4" size="9" family="CMSY9" color="#000000"/>
+	<fontspec id="font5" size="9" family="NimbusMonL-Regu" color="#000000"/>
+	<fontspec id="font6" size="12" family="NimbusRomNo9L-Medi" color="#000000"/>
+	<fontspec id="font7" size="9" family="NimbusRomNo9L-Regu" color="#000000"/>
+	<fontspec id="font8" size="9" family="NimbusRomNo9L-Medi" color="#000000"/>
+	<fontspec id="font9" size="9" family="NimbusRomNo9L-ReguItal" color="#000000"/>
+	<fontspec id="font10" size="8" family="NimbusRomNo9L-Regu" color="#000000"/>
+	<fontspec id="font11" size="9" family="CMR9" color="#000000"/>
+	<fontspec id="font12" size="20" family="Times" color="#7f7f7f"/>
+<text top="84" left="104" width="389" height="13" font="font0" id="p1_t1" reading_order_no="1" segment_no="0" tag_type="title">Do sound event representations generalize to other audio tasks?</text>
+<text top="101" left="180" width="237" height="13" font="font0" id="p1_t2" reading_order_no="2" segment_no="0" tag_type="title">A case study in audio transfer learning</text>
+<text top="130" left="122" width="77" height="10" font="font1" id="p1_t3" reading_order_no="3" segment_no="1" tag_type="text">Anurag Kumar*</text>
+<text top="128" left="199" width="4" height="8" font="font2" id="p1_t4" reading_order_no="4" segment_no="1" tag_type="text">†</text>
+<text top="130" left="203" width="59" height="10" font="font1" id="p1_t5" reading_order_no="5" segment_no="1" tag_type="text">, Yun Wang*</text>
+<text top="128" left="262" width="4" height="8" font="font2" id="p1_t6" reading_order_no="6" segment_no="1" tag_type="text">‡</text>
+<text top="130" left="267" width="110" height="10" font="font1" id="p1_t7" reading_order_no="7" segment_no="1" tag_type="text">, Vamsi Krishna Ithapu</text>
+<text top="128" left="377" width="4" height="8" font="font2" id="p1_t8" reading_order_no="8" segment_no="1" tag_type="text">†</text>
+<text top="130" left="381" width="89" height="10" font="font1" id="p1_t9" reading_order_no="9" segment_no="1" tag_type="text">, Christian Fuegen</text>
+<text top="128" left="471" width="4" height="8" font="font2" id="p1_t10" reading_order_no="10" segment_no="1" tag_type="text">‡</text>
+<text top="152" left="136" width="4" height="8" font="font2" id="p1_t11" reading_order_no="11" segment_no="2" tag_type="text">†</text>
+<text top="154" left="141" width="160" height="11" font="font3" id="p1_t12" reading_order_no="12" segment_no="2" tag_type="text">Facebook Reality Labs Research,</text>
+<text top="152" left="303" width="4" height="8" font="font2" id="p1_t13" reading_order_no="13" segment_no="2" tag_type="text">‡</text>
+<text top="154" left="311" width="150" height="11" font="font3" id="p1_t14" reading_order_no="14" segment_no="2" tag_type="text">Facebook Applied AI Research</text>
+<text top="169" left="194" width="5" height="8" font="font4" id="p1_t15" reading_order_no="15" segment_no="3" tag_type="text">{</text>
+<text top="170" left="199" width="161" height="7" font="font5" id="p1_t16" reading_order_no="16" segment_no="3" tag_type="text">anuragkr,yunwang,ithapu,fuegen</text>
+<text top="169" left="360" width="5" height="8" font="font4" id="p1_t17" reading_order_no="17" segment_no="3" tag_type="text">}</text>
+<text top="170" left="365" width="38" height="7" font="font5" id="p1_t18" reading_order_no="18" segment_no="3" tag_type="text">@fb.com</text>
+<text top="199" left="149" width="44" height="11" font="font6" id="p1_t19" reading_order_no="19" segment_no="4" tag_type="title">Abstract</text>
+<text top="218" left="57" width="227" height="8" font="font7" id="p1_t20" reading_order_no="20" segment_no="6" tag_type="text">Transfer learning is critical for efficient information transfer</text>
+<text top="228" left="58" width="228" height="8" font="font7" id="p1_t21" reading_order_no="21" segment_no="6" tag_type="text">across multiple related learning problems. A simple, yet effec-</text>
+<text top="239" left="58" width="227" height="8" font="font7" id="p1_t22" reading_order_no="22" segment_no="6" tag_type="text">tive transfer learning approach utilizes deep neural networks</text>
+<text top="249" left="58" width="228" height="8" font="font7" id="p1_t23" reading_order_no="23" segment_no="6" tag_type="text">trained on a large-scale task for feature extraction. Such repre-</text>
+<text top="259" left="58" width="227" height="8" font="font7" id="p1_t24" reading_order_no="24" segment_no="6" tag_type="text">sentations are then used to learn related downstream tasks. In</text>
+<text top="270" left="58" width="227" height="8" font="font7" id="p1_t25" reading_order_no="25" segment_no="6" tag_type="text">this paper, we investigate transfer learning capacity of audio</text>
+<text top="280" left="58" width="228" height="8" font="font7" id="p1_t26" reading_order_no="26" segment_no="6" tag_type="text">representations obtained from neural networks trained on a large-</text>
+<text top="291" left="58" width="227" height="8" font="font7" id="p1_t27" reading_order_no="27" segment_no="6" tag_type="text">scale sound event detection dataset. We build and evaluate these</text>
+<text top="301" left="58" width="227" height="8" font="font7" id="p1_t28" reading_order_no="28" segment_no="6" tag_type="text">representations across a wide range of other audio tasks, via a</text>
+<text top="311" left="58" width="227" height="8" font="font7" id="p1_t29" reading_order_no="29" segment_no="6" tag_type="text">simple linear classifier transfer mechanism. We show that such</text>
+<text top="322" left="58" width="227" height="8" font="font7" id="p1_t30" reading_order_no="30" segment_no="6" tag_type="text">simple linear transfer is already powerful enough to achieve high</text>
+<text top="332" left="58" width="227" height="8" font="font7" id="p1_t31" reading_order_no="31" segment_no="6" tag_type="text">performance on the downstream tasks. We also provide insights</text>
+<text top="343" left="58" width="227" height="8" font="font7" id="p1_t32" reading_order_no="32" segment_no="6" tag_type="text">into the attributes of sound event representations that enable such</text>
+<text top="353" left="58" width="105" height="8" font="font7" id="p1_t33" reading_order_no="33" segment_no="6" tag_type="text">efficient information transfer.</text>
+<text top="364" left="58" width="48" height="8" font="font8" id="p1_t34" reading_order_no="34" segment_no="7" tag_type="text">Index Terms</text>
+<text top="364" left="106" width="179" height="8" font="font7" id="p1_t35" reading_order_no="35" segment_no="7" tag_type="text">: transfer learning, representation learning, sound</text>
+<text top="374" left="58" width="47" height="8" font="font7" id="p1_t36" reading_order_no="36" segment_no="7" tag_type="text">events, audio</text>
+<text top="396" left="130" width="81" height="11" font="font6" id="p1_t37" reading_order_no="37" segment_no="8" tag_type="title">1. Introduction</text>
+<text top="414" left="58" width="227" height="8" font="font7" id="p1_t38" reading_order_no="38" segment_no="9" tag_type="text">Building task-agnostic representations that can generalize across</text>
+<text top="424" left="58" width="227" height="8" font="font7" id="p1_t39" reading_order_no="39" segment_no="9" tag_type="text">multiple learning problems has been critical in advancing and</text>
+<text top="434" left="58" width="228" height="8" font="font7" id="p1_t40" reading_order_no="40" segment_no="9" tag_type="text">applying machine learning techniques in a variety of domains.</text>
+<text top="445" left="58" width="228" height="8" font="font7" id="p1_t41" reading_order_no="41" segment_no="9" tag_type="text">However, often the design of neural networks are driven by low-</text>
+<text top="455" left="58" width="227" height="8" font="font7" id="p1_t42" reading_order_no="42" segment_no="9" tag_type="text">level tasks in a given problem domain. For instance, a variety</text>
+<text top="466" left="58" width="227" height="8" font="font7" id="p1_t43" reading_order_no="43" segment_no="9" tag_type="text">of robust deep networks for low-level tasks like visual object</text>
+<text top="476" left="58" width="228" height="8" font="font7" id="p1_t44" reading_order_no="44" segment_no="9" tag_type="text">recognition, co-segmentation, etc., have been designed and thor-</text>
+<text top="487" left="58" width="227" height="8" font="font7" id="p1_t45" reading_order_no="45" segment_no="9" tag_type="text">oughly evaluated. While these carefully designed networks are</text>
+<text top="497" left="57" width="227" height="8" font="font7" id="p1_t46" reading_order_no="46" segment_no="9" tag_type="text">very successful on such low-level tasks, the need for frameworks</text>
+<text top="507" left="58" width="164" height="8" font="font7" id="p1_t47" reading_order_no="47" segment_no="9" tag_type="text">and algorithmic procedures that combine and</text>
+<text top="507" left="223" width="29" height="8" font="font9" id="p1_t48" reading_order_no="48" segment_no="9" tag_type="text">transfer</text>
+<text top="507" left="254" width="32" height="8" font="font7" id="p1_t49" reading_order_no="49" segment_no="9" tag_type="text">informa-</text>
+<text top="518" left="58" width="227" height="8" font="font7" id="p1_t50" reading_order_no="50" segment_no="9" tag_type="text">tion across multiple low-level tasks to help tackle higher-level</text>
+<text top="528" left="58" width="228" height="8" font="font7" id="p1_t51" reading_order_no="51" segment_no="9" tag_type="text">tasks (like multi-sensory scene parsing, activity understanding,</text>
+<text top="539" left="58" width="227" height="8" font="font7" id="p1_t52" reading_order_no="52" segment_no="9" tag_type="text">etc.), remains a challenging problem. Moreover, this notion of</text>
+<text top="549" left="58" width="227" height="8" font="font7" id="p1_t53" reading_order_no="53" segment_no="9" tag_type="text">combining or sharing knowledge is helpful for training systems</text>
+<text top="559" left="58" width="182" height="8" font="font7" id="p1_t54" reading_order_no="54" segment_no="9" tag_type="text">under limited and noisy-labeled data as well <a href="deeplearning_paper34.html#5">[1, 2].</a></text>
+<text top="570" left="73" width="212" height="8" font="font7" id="p1_t55" reading_order_no="55" segment_no="11" tag_type="text">Transfer learning is possibly the best suited framework for</text>
+<text top="580" left="58" width="227" height="8" font="font7" id="p1_t56" reading_order_no="56" segment_no="11" tag_type="text">building such shareable representations, and has been studied</text>
+<text top="591" left="58" width="227" height="8" font="font7" id="p1_t57" reading_order_no="57" segment_no="11" tag_type="text">comprehensively in the domains of computer vision and natural</text>
+<text top="601" left="58" width="228" height="8" font="font7" id="p1_t58" reading_order_no="58" segment_no="11" tag_type="text">language processing <a href="deeplearning_paper34.html#5">[3, 4, 5]. </a>Taking vision as an example, trans-</text>
+<text top="612" left="58" width="227" height="8" font="font7" id="p1_t59" reading_order_no="59" segment_no="11" tag_type="text">fer learning has been applied to a wide range of problems like</text>
+<text top="622" left="58" width="227" height="8" font="font7" id="p1_t60" reading_order_no="60" segment_no="11" tag_type="text">scene understanding and action summarizing <a href="deeplearning_paper34.html#5">[6, 7, 8], </a>few shot</text>
+<text top="632" left="58" width="228" height="8" font="font7" id="p1_t61" reading_order_no="61" segment_no="11" tag_type="text">learning and noisy label learning <a href="deeplearning_paper34.html#5">[1, 2], </a>to mention a few. Sys-</text>
+<text top="643" left="58" width="227" height="8" font="font7" id="p1_t62" reading_order_no="62" segment_no="11" tag_type="text">tems trained on low-level vision tasks such as object detection</text>
+<text top="653" left="58" width="228" height="8" font="font7" id="p1_t63" reading_order_no="63" segment_no="11" tag_type="text">and classification serve as the source task from which the knowl-</text>
+<text top="664" left="58" width="227" height="8" font="font7" id="p1_t64" reading_order_no="64" segment_no="11" tag_type="text">edge is transferred. This is mainly because of the availability of</text>
+<text top="674" left="58" width="160" height="8" font="font7" id="p1_t65" reading_order_no="65" segment_no="11" tag_type="text">large-scale annotated datasets for such tasks.</text>
+<text top="685" left="73" width="213" height="8" font="font7" id="p1_t66" reading_order_no="66" segment_no="16" tag_type="text">In acoustics, specifically, in audio machine learning, trans-</text>
+<text top="695" left="58" width="227" height="8" font="font7" id="p1_t67" reading_order_no="67" segment_no="16" tag_type="text">fer learning has been studied to a relatively lesser extent. One</text>
+<text top="705" left="58" width="227" height="8" font="font7" id="p1_t68" reading_order_no="68" segment_no="16" tag_type="text">possible reason is the less obvious choice of low-level source</text>
+<text top="716" left="58" width="227" height="8" font="font7" id="p1_t69" reading_order_no="69" segment_no="16" tag_type="text">task. Nevertheless, transfer learning has gained traction in recent</text>
+<text top="735" left="72" width="67" height="7" font="font10" id="p1_t70" reading_order_no="136" segment_no="17" tag_type="footnote">* Equal contribution.</text>
+<text top="201" left="313" width="227" height="8" font="font7" id="p1_t71" reading_order_no="70" segment_no="5" tag_type="text">times in the audio machine learning. It’s been studied in isolated</text>
+<text top="211" left="313" width="227" height="8" font="font7" id="p1_t72" reading_order_no="71" segment_no="5" tag_type="text">contexts such as sound event detection (SED) <a href="deeplearning_paper34.html#5">[9, 10, 11], </a>music</text>
+<text top="222" left="313" width="227" height="8" font="font7" id="p1_t73" reading_order_no="72" segment_no="5" tag_type="text">tagging <a href="deeplearning_paper34.html#5">[12] </a>and emotion recognition <a href="deeplearning_paper34.html#5">[13]. </a>Nevertheless, we do</text>
+<text top="232" left="313" width="227" height="8" font="font7" id="p1_t74" reading_order_no="73" segment_no="5" tag_type="text">not yet understand the nuances of generalized representations</text>
+<text top="242" left="313" width="227" height="8" font="font7" id="p1_t75" reading_order_no="74" segment_no="5" tag_type="text">that capture structural similarity between source and target audio</text>
+<text top="253" left="313" width="227" height="8" font="font7" id="p1_t76" reading_order_no="75" segment_no="5" tag_type="text">tasks. While prior works have employed transfer learning for</text>
+<text top="263" left="313" width="169" height="8" font="font7" id="p1_t77" reading_order_no="76" segment_no="5" tag_type="text">different audio tasks, knowledge transfer from a</text>
+<text top="263" left="484" width="55" height="8" font="font9" id="p1_t78" reading_order_no="77" segment_no="5" tag_type="text">single low-level</text>
+<text top="274" left="313" width="37" height="8" font="font9" id="p1_t79" reading_order_no="78" segment_no="5" tag_type="text">audio task</text>
+<text top="274" left="354" width="186" height="8" font="font7" id="p1_t80" reading_order_no="79" segment_no="5" tag_type="text">to a variety of other audio tasks has not been studied</text>
+<text top="284" left="313" width="228" height="8" font="font7" id="p1_t81" reading_order_no="80" segment_no="5" tag_type="text">comprehensively. This forms the key motivation of this paper.</text>
+<text top="294" left="313" width="227" height="8" font="font7" id="p1_t82" reading_order_no="81" segment_no="5" tag_type="text">Clearly, the capability of shareable representations may depend</text>
+<text top="305" left="313" width="227" height="8" font="font7" id="p1_t83" reading_order_no="82" segment_no="5" tag_type="text">entirely upon the choice of the tasks used for evaluation. We</text>
+<text top="315" left="313" width="228" height="8" font="font7" id="p1_t84" reading_order_no="83" segment_no="5" tag_type="text">hypothesize that SED representations to have substantial capa-</text>
+<text top="326" left="313" width="227" height="8" font="font7" id="p1_t85" reading_order_no="84" segment_no="5" tag_type="text">bilities to generalize to other related audio task. We choose SED</text>
+<text top="336" left="313" width="121" height="8" font="font7" id="p1_t86" reading_order_no="85" segment_no="5" tag_type="text">as the source task for two reasons:</text>
+<text top="336" left="436" width="14" height="8" font="font9" id="p1_t87" reading_order_no="86" segment_no="5" tag_type="text">first</text>
+<text top="336" left="450" width="89" height="8" font="font7" id="p1_t88" reading_order_no="87" segment_no="5" tag_type="text">, sound event datasets are</text>
+<text top="346" left="313" width="227" height="8" font="font7" id="p1_t89" reading_order_no="88" segment_no="5" tag_type="text">among the largest available audio datasets, thereby providing a</text>
+<text top="357" left="313" width="212" height="8" font="font7" id="p1_t90" reading_order_no="89" segment_no="5" tag_type="text">large enough database for learning “robust” representations;</text>
+<text top="357" left="527" width="14" height="8" font="font9" id="p1_t91" reading_order_no="90" segment_no="5" tag_type="text">sec-</text>
+<text top="367" left="313" width="14" height="8" font="font9" id="p1_t92" reading_order_no="91" segment_no="5" tag_type="text">ond</text>
+<text top="367" left="326" width="213" height="8" font="font7" id="p1_t93" reading_order_no="92" segment_no="5" tag_type="text">, learning sound events implicitly entails learning low-level</text>
+<text top="378" left="313" width="227" height="8" font="font7" id="p1_t94" reading_order_no="93" segment_no="5" tag_type="text">acoustic phenomena, which, in principle, amounts to capturing a</text>
+<text top="388" left="313" width="227" height="8" font="font7" id="p1_t95" reading_order_no="94" segment_no="5" tag_type="text">significant amount of information in an audio snippet. We refer</text>
+<text top="399" left="313" width="64" height="8" font="font7" id="p1_t96" reading_order_no="95" segment_no="5" tag_type="text">to the SED as the</text>
+<text top="399" left="379" width="24" height="8" font="font9" id="p1_t97" reading_order_no="96" segment_no="5" tag_type="text">source</text>
+<text top="399" left="406" width="134" height="8" font="font7" id="p1_t98" reading_order_no="97" segment_no="5" tag_type="text">task and explore their generalization</text>
+<text top="409" left="313" width="75" height="8" font="font7" id="p1_t99" reading_order_no="98" segment_no="5" tag_type="text">power to other audio</text>
+<text top="409" left="388" width="21" height="8" font="font9" id="p1_t100" reading_order_no="99" segment_no="5" tag_type="text">target</text>
+<text top="409" left="411" width="130" height="8" font="font7" id="p1_t101" reading_order_no="100" segment_no="5" tag_type="text">tasks. Besides, benchmarking capa-</text>
+<text top="419" left="313" width="227" height="8" font="font7" id="p1_t102" reading_order_no="101" segment_no="5" tag_type="text">bilities of SED representations for audio transfer learning, we</text>
+<text top="430" left="313" width="227" height="8" font="font7" id="p1_t103" reading_order_no="102" segment_no="5" tag_type="text">aim to provide interesting insights into the target tasks and the</text>
+<text top="440" left="313" width="203" height="8" font="font7" id="p1_t104" reading_order_no="103" segment_no="5" tag_type="text">relationship between the target tasks and the source task.</text>
+<text top="453" left="328" width="212" height="8" font="font7" id="p1_t105" reading_order_no="104" segment_no="10" tag_type="text">Keeping the above motivations in mind, we standardized</text>
+<text top="463" left="313" width="227" height="8" font="font7" id="p1_t106" reading_order_no="105" segment_no="10" tag_type="text">the transfer learning process in the following way. We train</text>
+<text top="474" left="313" width="227" height="8" font="font7" id="p1_t107" reading_order_no="106" segment_no="10" tag_type="text">neural networks for a large scale SED task and transfer the</text>
+<text top="484" left="313" width="227" height="8" font="font7" id="p1_t108" reading_order_no="107" segment_no="10" tag_type="text">representations obtained from these networks for any given audio</text>
+<text top="494" left="313" width="227" height="8" font="font7" id="p1_t109" reading_order_no="108" segment_no="10" tag_type="text">to the target tasks. To reduce the bias in the design of the SED</text>
+<text top="505" left="313" width="227" height="8" font="font7" id="p1_t110" reading_order_no="109" segment_no="10" tag_type="text">model itself, we train and analyze results through two separate</text>
+<text top="515" left="313" width="164" height="8" font="font7" id="p1_t111" reading_order_no="110" segment_no="10" tag_type="text">networks. We constrain ourselves to training</text>
+<text top="515" left="479" width="61" height="8" font="font9" id="p1_t112" reading_order_no="111" segment_no="10" tag_type="text">linear classifiers</text>
+<text top="526" left="313" width="227" height="8" font="font7" id="p1_t113" reading_order_no="112" segment_no="10" tag_type="text">for each target task using the representations obtained from the</text>
+<text top="536" left="313" width="227" height="8" font="font7" id="p1_t114" reading_order_no="113" segment_no="10" tag_type="text">SED networks. Linear classifiers allow a simple and grounded</text>
+<text top="546" left="312" width="227" height="8" font="font7" id="p1_t115" reading_order_no="114" segment_no="10" tag_type="text">way to evaluate the efficacy of these audio representations for</text>
+<text top="557" left="313" width="227" height="8" font="font7" id="p1_t116" reading_order_no="115" segment_no="10" tag_type="text">knowledge transfer. Even using a simple non-linear mapping</text>
+<text top="567" left="313" width="227" height="8" font="font7" id="p1_t117" reading_order_no="116" segment_no="10" tag_type="text">for transfer limits us from disentangling the power of sound</text>
+<text top="578" left="313" width="228" height="8" font="font7" id="p1_t118" reading_order_no="117" segment_no="10" tag_type="text">event representations vs. the power of non-linear transfer itself.</text>
+<text top="588" left="313" width="227" height="8" font="font7" id="p1_t119" reading_order_no="118" segment_no="10" tag_type="text">Finally, Finally, we consider a variety of target tasks to help to</text>
+<text top="599" left="313" width="227" height="8" font="font7" id="p1_t120" reading_order_no="119" segment_no="10" tag_type="text">better understand the effectiveness as well as the limitations of</text>
+<text top="609" left="313" width="199" height="8" font="font7" id="p1_t121" reading_order_no="120" segment_no="10" tag_type="text">these audio representations obtained from SED models.</text>
+<text top="622" left="328" width="212" height="8" font="font7" id="p1_t122" reading_order_no="121" segment_no="13" tag_type="text">In Section <a href="deeplearning_paper34.html#1">2 </a>we introduce the networks used for SED, and</text>
+<text top="632" left="313" width="227" height="8" font="font7" id="p1_t123" reading_order_no="122" segment_no="13" tag_type="text">Section <a href="deeplearning_paper34.html#2">3 </a>discusses the target tasks. We evaluate the transfer</text>
+<text top="642" left="313" width="227" height="8" font="font7" id="p1_t124" reading_order_no="123" segment_no="13" tag_type="text">of event representations in Section <a href="deeplearning_paper34.html#2">4, </a>and provide insights with</text>
+<text top="653" left="313" width="228" height="8" font="font7" id="p1_t125" reading_order_no="124" segment_no="13" tag_type="text">some visualizations in Section <a href="deeplearning_paper34.html#3">5. </a>Section <a href="deeplearning_paper34.html#4">6 </a>concludes the paper.</text>
+<text top="669" left="321" width="210" height="11" font="font6" id="p1_t126" reading_order_no="125" segment_no="14" tag_type="title">2. Source Task &amp; Audio Representations</text>
+<text top="682" left="312" width="227" height="8" font="font7" id="p1_t127" reading_order_no="126" segment_no="15" tag_type="text">As said above, the source task is sound event detection, and</text>
+<text top="692" left="313" width="228" height="8" font="font7" id="p1_t128" reading_order_no="127" segment_no="15" tag_type="text">representations are obtained from two state-of-the-art deep net-</text>
+<text top="703" left="312" width="205" height="8" font="font7" id="p1_t129" reading_order_no="128" segment_no="15" tag_type="text">works trained on the AudioSet <a href="deeplearning_paper34.html#5">[14] </a>corpus, which contains</text>
+<text top="703" left="520" width="5" height="8" font="font11" id="p1_t130" reading_order_no="129" segment_no="15" tag_type="text">2</text>
+<text top="703" left="526" width="15" height="8" font="font7" id="p1_t131" reading_order_no="130" segment_no="15" tag_type="text">mil-</text>
+<text top="713" left="313" width="95" height="8" font="font7" id="p1_t132" reading_order_no="131" segment_no="15" tag_type="text">lion training recordings of</text>
+<text top="713" left="410" width="14" height="8" font="font11" id="p1_t133" reading_order_no="132" segment_no="15" tag_type="text">527</text>
+<text top="713" left="426" width="113" height="8" font="font7" id="p1_t134" reading_order_no="133" segment_no="15" tag_type="text">types of sound events. The two</text>
+<text top="724" left="313" width="227" height="8" font="font7" id="p1_t135" reading_order_no="134" segment_no="15" tag_type="text">models, TALNet <a href="deeplearning_paper34.html#5">[15] </a>and WEANet-SUSTAIN <a href="deeplearning_paper34.html#5">[16], </a>are briefly</text>
+<text top="734" left="313" width="69" height="8" font="font7" id="p1_t136" reading_order_no="135" segment_no="15" tag_type="text">summarized below.</text>
+<text top="596" left="32" width="0" height="18" font="font12" id="p1_t137" reading_order_no="0" segment_no="12" tag_type="title">arXiv:2106.11335v1  [cs.SD]  21 Jun 2021</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="841" width="595">
+	<fontspec id="font13" size="9" family="CMMI9" color="#000000"/>
+	<fontspec id="font14" size="6" family="CMR6" color="#000000"/>
+<text top="78" left="58" width="50" height="8" font="font8" id="p2_t1" reading_order_no="0" segment_no="1" tag_type="title">2.1. TALNet</text>
+<text top="99" left="57" width="229" height="8" font="font7" id="p2_t2" reading_order_no="1" segment_no="2" tag_type="text">TALNet <a href="deeplearning_paper34.html#5">[15] </a>is a deep convolutional recurrent network for SED.</text>
+<text top="110" left="57" width="227" height="8" font="font7" id="p2_t3" reading_order_no="2" segment_no="2" tag_type="text">The network takes logmel spectrograms as inputs; the logmel</text>
+<text top="120" left="58" width="66" height="8" font="font7" id="p2_t4" reading_order_no="3" segment_no="2" tag_type="text">spectrograms have</text>
+<text top="120" left="126" width="9" height="8" font="font11" id="p2_t5" reading_order_no="4" segment_no="2" tag_type="text">40</text>
+<text top="120" left="138" width="80" height="8" font="font7" id="p2_t6" reading_order_no="5" segment_no="2" tag_type="text">frames per second and</text>
+<text top="120" left="220" width="9" height="8" font="font11" id="p2_t7" reading_order_no="6" segment_no="2" tag_type="text">64</text>
+<text top="120" left="231" width="55" height="8" font="font7" id="p2_t8" reading_order_no="7" segment_no="2" tag_type="text">frequency bins.</text>
+<text top="130" left="57" width="138" height="8" font="font7" id="p2_t9" reading_order_no="8" segment_no="2" tag_type="text">The input features are passed through</text>
+<text top="130" left="198" width="9" height="8" font="font11" id="p2_t10" reading_order_no="9" segment_no="2" tag_type="text">10</text>
+<text top="130" left="209" width="76" height="8" font="font7" id="p2_t11" reading_order_no="10" segment_no="2" tag_type="text">convolutional layers,</text>
+<text top="141" left="58" width="5" height="8" font="font11" id="p2_t12" reading_order_no="11" segment_no="2" tag_type="text">5</text>
+<text top="141" left="64" width="220" height="8" font="font7" id="p2_t13" reading_order_no="12" segment_no="2" tag_type="text">pooling layers, and one bidirectional GRU layer. The output</text>
+<text top="151" left="58" width="60" height="8" font="font7" id="p2_t14" reading_order_no="13" segment_no="2" tag_type="text">of the GRU has</text>
+<text top="151" left="121" width="9" height="8" font="font11" id="p2_t15" reading_order_no="14" segment_no="2" tag_type="text">10</text>
+<text top="151" left="134" width="123" height="8" font="font7" id="p2_t16" reading_order_no="15" segment_no="2" tag_type="text">frames per second, each being a</text>
+<text top="151" left="260" width="5" height="8" font="font11" id="p2_t17" reading_order_no="16" segment_no="2" tag_type="text">1</text>
+<text top="151" left="265" width="3" height="8" font="font13" id="p2_t18" reading_order_no="17" segment_no="2" tag_type="text">,</text>
+<text top="151" left="269" width="14" height="8" font="font11" id="p2_t19" reading_order_no="18" segment_no="2" tag_type="text">024</text>
+<text top="151" left="283" width="3" height="8" font="font7" id="p2_t20" reading_order_no="19" segment_no="2" tag_type="text">-</text>
+<text top="162" left="58" width="227" height="8" font="font7" id="p2_t21" reading_order_no="20" segment_no="2" tag_type="text">dimensional vector. These vectors are further processed by a</text>
+<text top="172" left="58" width="227" height="8" font="font7" id="p2_t22" reading_order_no="21" segment_no="2" tag_type="text">fully connected layer to calculate the probability of each type</text>
+<text top="182" left="58" width="228" height="8" font="font7" id="p2_t23" reading_order_no="22" segment_no="2" tag_type="text">of sound event at each frame, and these probabilities are ag-</text>
+<text top="193" left="58" width="228" height="8" font="font7" id="p2_t24" reading_order_no="23" segment_no="2" tag_type="text">gregated over an entire recording using a linear softmax pool-</text>
+<text top="203" left="58" width="227" height="8" font="font7" id="p2_t25" reading_order_no="24" segment_no="2" tag_type="text">ing function to yield global event probabilities. We extract the</text>
+<text top="214" left="57" width="5" height="8" font="font11" id="p2_t26" reading_order_no="25" segment_no="2" tag_type="text">1</text>
+<text top="214" left="62" width="3" height="8" font="font13" id="p2_t27" reading_order_no="26" segment_no="2" tag_type="text">,</text>
+<text top="214" left="66" width="14" height="8" font="font11" id="p2_t28" reading_order_no="27" segment_no="2" tag_type="text">024</text>
+<text top="214" left="80" width="205" height="8" font="font7" id="p2_t29" reading_order_no="28" segment_no="2" tag_type="text">-dimensional output of GRU layer (averaged over time)</text>
+<text top="224" left="58" width="228" height="8" font="font7" id="p2_t30" reading_order_no="29" segment_no="2" tag_type="text">as the learned transferable representation for any given input.</text>
+<text top="235" left="58" width="227" height="8" font="font7" id="p2_t31" reading_order_no="30" segment_no="2" tag_type="text">Before using these representations to train linear classifiers, we</text>
+<text top="245" left="58" width="227" height="8" font="font7" id="p2_t32" reading_order_no="31" segment_no="2" tag_type="text">first normalize them to have zero mean and unit variance across</text>
+<text top="255" left="58" width="191" height="8" font="font7" id="p2_t33" reading_order_no="32" segment_no="2" tag_type="text">training data, then normalize each vector to have unit</text>
+<text top="255" left="250" width="3" height="8" font="font13" id="p2_t34" reading_order_no="33" segment_no="2" tag_type="text">l</text>
+<text top="258" left="253" width="4" height="5" font="font14" id="p2_t35" reading_order_no="34" segment_no="2" tag_type="text">2</text>
+<text top="255" left="257" width="24" height="8" font="font7" id="p2_t36" reading_order_no="35" segment_no="2" tag_type="text">-norm.</text>
+<text top="281" left="58" width="95" height="8" font="font8" id="p2_t37" reading_order_no="36" segment_no="8" tag_type="title">2.2. WEANet-SUSTAIN</text>
+<text top="302" left="57" width="227" height="8" font="font7" id="p2_t38" reading_order_no="37" segment_no="9" tag_type="text">The second network we use is WEANet-SUSTAIN <a href="deeplearning_paper34.html#5">[16]. </a>This</text>
+<text top="313" left="58" width="68" height="8" font="font7" id="p2_t39" reading_order_no="38" segment_no="9" tag_type="text">network also takes</text>
+<text top="313" left="128" width="9" height="8" font="font11" id="p2_t40" reading_order_no="39" segment_no="9" tag_type="text">64</text>
+<text top="313" left="137" width="149" height="8" font="font7" id="p2_t41" reading_order_no="40" segment_no="9" tag_type="text">-dimensional logmel spectrograms as in-</text>
+<text top="323" left="58" width="90" height="8" font="font7" id="p2_t42" reading_order_no="41" segment_no="9" tag_type="text">put, but the frame rate is</text>
+<text top="323" left="150" width="14" height="8" font="font11" id="p2_t43" reading_order_no="42" segment_no="9" tag_type="text">100</text>
+<text top="323" left="166" width="119" height="8" font="font7" id="p2_t44" reading_order_no="43" segment_no="9" tag_type="text">frames per second. The network</text>
+<text top="334" left="58" width="228" height="8" font="font7" id="p2_t45" reading_order_no="44" segment_no="9" tag_type="text">is a fully convolutional neural network with a class-specific at-</text>
+<text top="344" left="58" width="160" height="8" font="font7" id="p2_t46" reading_order_no="45" segment_no="9" tag_type="text">tention layer. The input is first processed by</text>
+<text top="344" left="220" width="5" height="8" font="font11" id="p2_t47" reading_order_no="46" segment_no="9" tag_type="text">4</text>
+<text top="344" left="227" width="58" height="8" font="font7" id="p2_t48" reading_order_no="47" segment_no="9" tag_type="text">blocks of layers</text>
+<text top="354" left="57" width="128" height="8" font="font7" id="p2_t49" reading_order_no="48" segment_no="9" tag_type="text">(B1 to B4); each block consists of</text>
+<text top="354" left="188" width="5" height="8" font="font11" id="p2_t50" reading_order_no="49" segment_no="9" tag_type="text">2</text>
+<text top="354" left="195" width="90" height="8" font="font7" id="p2_t51" reading_order_no="50" segment_no="9" tag_type="text">convolutional layers fol-</text>
+<text top="365" left="58" width="198" height="8" font="font7" id="p2_t52" reading_order_no="51" segment_no="9" tag_type="text">lowed by max pooling. These blocks are followed by</text>
+<text top="365" left="258" width="5" height="8" font="font11" id="p2_t53" reading_order_no="52" segment_no="9" tag_type="text">4</text>
+<text top="365" left="266" width="19" height="8" font="font7" id="p2_t54" reading_order_no="53" segment_no="9" tag_type="text">more</text>
+<text top="375" left="58" width="227" height="8" font="font7" id="p2_t55" reading_order_no="54" segment_no="9" tag_type="text">blocks (B5 to B8) of only convolutional layers. At this stage we</text>
+<text top="386" left="58" width="11" height="8" font="font7" id="p2_t56" reading_order_no="55" segment_no="9" tag_type="text">get</text>
+<text top="386" left="71" width="50" height="8" font="font9" id="p2_t57" reading_order_no="56" segment_no="9" tag_type="text">segment-level</text>
+<text top="386" left="123" width="161" height="8" font="font7" id="p2_t58" reading_order_no="57" segment_no="9" tag_type="text">outputs, which are then combined through a</text>
+<text top="396" left="58" width="170" height="8" font="font7" id="p2_t59" reading_order_no="58" segment_no="9" tag_type="text">class-specific attention mechanism to produce a</text>
+<text top="396" left="230" width="54" height="8" font="font9" id="p2_t60" reading_order_no="59" segment_no="9" tag_type="text">recording-level</text>
+<text top="407" left="58" width="227" height="8" font="font7" id="p2_t61" reading_order_no="60" segment_no="9" tag_type="text">output. The network is trained using a sequential self-teaching</text>
+<text top="417" left="58" width="227" height="8" font="font7" id="p2_t62" reading_order_no="61" segment_no="9" tag_type="text">approach leading to robust generalization. We use WEANet’s</text>
+<text top="427" left="57" width="5" height="8" font="font11" id="p2_t63" reading_order_no="62" segment_no="9" tag_type="text">2</text>
+<text top="427" left="62" width="3" height="8" font="font13" id="p2_t64" reading_order_no="63" segment_no="9" tag_type="text">,</text>
+<text top="427" left="66" width="14" height="8" font="font11" id="p2_t65" reading_order_no="64" segment_no="9" tag_type="text">048</text>
+<text top="427" left="80" width="204" height="8" font="font7" id="p2_t66" reading_order_no="65" segment_no="9" tag_type="text">-dimensional hidden representation from the output of</text>
+<text top="438" left="58" width="159" height="8" font="font7" id="p2_t67" reading_order_no="66" segment_no="9" tag_type="text">block B5 (average/max pooled over time and</text>
+<text top="438" left="219" width="3" height="8" font="font13" id="p2_t68" reading_order_no="67" segment_no="9" tag_type="text">l</text>
+<text top="441" left="222" width="4" height="5" font="font14" id="p2_t69" reading_order_no="68" segment_no="9" tag_type="text">2</text>
+<text top="438" left="226" width="58" height="8" font="font7" id="p2_t70" reading_order_no="69" segment_no="9" tag_type="text">-normalized) for</text>
+<text top="448" left="58" width="96" height="8" font="font7" id="p2_t71" reading_order_no="70" segment_no="9" tag_type="text">transferring to target tasks.</text>
+<text top="475" left="75" width="191" height="11" font="font6" id="p2_t72" reading_order_no="71" segment_no="13" tag_type="title">3. Transfer Learning to Target Tasks</text>
+<text top="499" left="58" width="227" height="8" font="font7" id="p2_t73" reading_order_no="72" segment_no="14" tag_type="text">Our motivation here is to understand the knowledge transfer from</text>
+<text top="509" left="58" width="227" height="8" font="font7" id="p2_t74" reading_order_no="73" segment_no="14" tag_type="text">SED to a variety of other audio downstream tasks, focusing on</text>
+<text top="520" left="58" width="227" height="8" font="font7" id="p2_t75" reading_order_no="74" segment_no="14" tag_type="text">sounds, actions, music, etc., and with small as well as large-scale</text>
+<text top="530" left="58" width="227" height="8" font="font7" id="p2_t76" reading_order_no="75" segment_no="14" tag_type="text">datasets. The representations from TALNet and WEANet are</text>
+<text top="540" left="58" width="45" height="8" font="font7" id="p2_t77" reading_order_no="76" segment_no="14" tag_type="text">used to train</text>
+<text top="540" left="105" width="62" height="8" font="font8" id="p2_t78" reading_order_no="77" segment_no="14" tag_type="text">linear classifiers</text>
+<text top="540" left="169" width="115" height="8" font="font7" id="p2_t79" reading_order_no="78" segment_no="14" tag_type="text">for these tasks. This helps us in</text>
+<text top="551" left="58" width="227" height="8" font="font7" id="p2_t80" reading_order_no="79" segment_no="14" tag_type="text">focusing on representative power of the learned representations</text>
+<text top="561" left="58" width="227" height="8" font="font7" id="p2_t81" reading_order_no="80" segment_no="14" tag_type="text">for the target tasks rather than relying on strong classifiers to</text>
+<text top="572" left="58" width="92" height="8" font="font7" id="p2_t82" reading_order_no="81" segment_no="14" tag_type="text">obtain good performance.</text>
+<text top="598" left="58" width="121" height="8" font="font8" id="p2_t83" reading_order_no="82" segment_no="17" tag_type="title">3.1. Sound Event Classification</text>
+<text top="620" left="57" width="227" height="8" font="font7" id="p2_t84" reading_order_no="83" segment_no="19" tag_type="text">Although SED on AudioSet is our source task, we also consider</text>
+<text top="630" left="58" width="108" height="8" font="font7" id="p2_t85" reading_order_no="84" segment_no="19" tag_type="text">sound event classification on</text>
+<text top="630" left="168" width="5" height="8" font="font11" id="p2_t86" reading_order_no="85" segment_no="19" tag_type="text">3</text>
+<text top="630" left="176" width="109" height="8" font="font7" id="p2_t87" reading_order_no="86" segment_no="19" tag_type="text">other datasets as target tasks:</text>
+<text top="640" left="58" width="227" height="8" font="font7" id="p2_t88" reading_order_no="87" segment_no="19" tag_type="text">ESC-50 <a href="deeplearning_paper34.html#5">[17], </a>Urbansound <a href="deeplearning_paper34.html#5">[18] </a>and FSDKaggle2019 <a href="deeplearning_paper34.html#5">[19]. </a>The</text>
+<text top="651" left="58" width="227" height="8" font="font7" id="p2_t89" reading_order_no="88" segment_no="19" tag_type="text">domain mismatch between these datasets and AudioSet makes</text>
+<text top="661" left="58" width="107" height="8" font="font7" id="p2_t90" reading_order_no="89" segment_no="19" tag_type="text">transfer learning non-trivial.</text>
+<text top="661" left="174" width="111" height="8" font="font7" id="p2_t91" reading_order_no="90" segment_no="19" tag_type="text">The FSDKaggle2019 dataset,</text>
+<text top="672" left="58" width="133" height="8" font="font7" id="p2_t92" reading_order_no="91" segment_no="19" tag_type="text">in particular, is more challenging.</text>
+<text top="672" left="201" width="85" height="8" font="font7" id="p2_t93" reading_order_no="92" segment_no="19" tag_type="text">Unlike the other two,</text>
+<text top="682" left="58" width="228" height="8" font="font7" id="p2_t94" reading_order_no="93" segment_no="19" tag_type="text">FSDKaggle2019 is a multi-label dataset, where each record-</text>
+<text top="692" left="58" width="228" height="8" font="font7" id="p2_t95" reading_order_no="94" segment_no="19" tag_type="text">ing can have more than one label. It also consists of a “curated”</text>
+<text top="703" left="58" width="227" height="8" font="font7" id="p2_t96" reading_order_no="95" segment_no="19" tag_type="text">set and a “noisy label” set: the former contains audio recordings</text>
+<text top="713" left="58" width="227" height="8" font="font7" id="p2_t97" reading_order_no="96" segment_no="19" tag_type="text">carefully labeled by humans, whereas the latter can have wrongly</text>
+<text top="724" left="58" width="137" height="8" font="font7" id="p2_t98" reading_order_no="97" segment_no="19" tag_type="text">labeled audio examples. An estimated</text>
+<text top="724" left="197" width="17" height="8" font="font11" id="p2_t99" reading_order_no="98" segment_no="19" tag_type="text">60%</text>
+<text top="724" left="216" width="68" height="8" font="font7" id="p2_t100" reading_order_no="99" segment_no="19" tag_type="text">of all the labels are</text>
+<text top="734" left="57" width="149" height="8" font="font7" id="p2_t101" reading_order_no="100" segment_no="19" tag_type="text">wrong, making it a very challenging task.</text>
+<text top="76" left="375" width="30" height="8" font="font8" id="p2_t102" reading_order_no="101" segment_no="0" tag_type="table">Method</text>
+<text top="76" left="447" width="20" height="8" font="font8" id="p2_t103" reading_order_no="102" segment_no="0" tag_type="table">MAP</text>
+<text top="76" left="480" width="27" height="8" font="font8" id="p2_t104" reading_order_no="103" segment_no="0" tag_type="table">MAUC</text>
+<text top="87" left="362" width="17" height="8" font="font7" id="p2_t105" reading_order_no="104" segment_no="0" tag_type="table">Ford</text>
+<text top="87" left="382" width="18" height="8" font="font9" id="p2_t106" reading_order_no="105" segment_no="0" tag_type="table">et. al</text>
+<text top="87" left="402" width="15" height="8" font="font7" id="p2_t107" reading_order_no="106" segment_no="0" tag_type="table"><a href="deeplearning_paper34.html#5">[26]</a></text>
+<text top="87" left="448" width="20" height="8" font="font7" id="p2_t108" reading_order_no="107" segment_no="0" tag_type="table">0.380</text>
+<text top="87" left="484" width="20" height="8" font="font7" id="p2_t109" reading_order_no="108" segment_no="0" tag_type="table">0.970</text>
+<text top="98" left="366" width="47" height="8" font="font7" id="p2_t110" reading_order_no="109" segment_no="0" tag_type="table">TALNet <a href="deeplearning_paper34.html#5">[15]</a></text>
+<text top="98" left="448" width="20" height="8" font="font7" id="p2_t111" reading_order_no="110" segment_no="0" tag_type="table">0.386</text>
+<text top="98" left="484" width="20" height="8" font="font7" id="p2_t112" reading_order_no="111" segment_no="0" tag_type="table">0.971</text>
+<text top="108" left="345" width="91" height="8" font="font7" id="p2_t113" reading_order_no="112" segment_no="0" tag_type="table">WEANet-SUSTAIN <a href="deeplearning_paper34.html#5">[16]</a></text>
+<text top="108" left="448" width="20" height="8" font="font7" id="p2_t114" reading_order_no="113" segment_no="0" tag_type="table">0.398</text>
+<text top="108" left="484" width="20" height="8" font="font7" id="p2_t115" reading_order_no="114" segment_no="0" tag_type="table">0.972</text>
+<text top="121" left="312" width="29" height="8" font="font7" id="p2_t116" reading_order_no="115" segment_no="3" tag_type="text">Table 1:</text>
+<text top="121" left="344" width="195" height="8" font="font9" id="p2_t117" reading_order_no="116" segment_no="3" tag_type="text">Comparison with state-of-the-art methods on AudioSet</text>
+<text top="136" left="313" width="129" height="8" font="font8" id="p2_t118" reading_order_no="117" segment_no="4" tag_type="title">3.2. Acoustic Scene Classification</text>
+<text top="153" left="312" width="227" height="8" font="font7" id="p2_t119" reading_order_no="118" segment_no="5" tag_type="text">Acoustic scenes are often composed of a mixture of sounds</text>
+<text top="163" left="313" width="227" height="8" font="font7" id="p2_t120" reading_order_no="119" segment_no="5" tag_type="text">thereby exhibiting complex acoustic characteristics. While this</text>
+<text top="173" left="313" width="227" height="8" font="font7" id="p2_t121" reading_order_no="120" segment_no="5" tag_type="text">implicit relation between sound events and acoustic scenes can</text>
+<text top="184" left="313" width="228" height="8" font="font7" id="p2_t122" reading_order_no="121" segment_no="5" tag_type="text">provide some nuanced understanding of acoustic scenes, it re-</text>
+<text top="194" left="313" width="227" height="8" font="font7" id="p2_t123" reading_order_no="122" segment_no="5" tag_type="text">mains to be seen if representations based on SED can capture</text>
+<text top="205" left="313" width="228" height="8" font="font7" id="p2_t124" reading_order_no="123" segment_no="5" tag_type="text">enough information for good scene classification performance.</text>
+<text top="215" left="313" width="227" height="8" font="font7" id="p2_t125" reading_order_no="124" segment_no="5" tag_type="text">Here we evaluate the transferability of SED to acoustic scene</text>
+<text top="226" left="313" width="228" height="8" font="font7" id="p2_t126" reading_order_no="125" segment_no="5" tag_type="text">classification using Task 1a of the 2019 DCASE challenge <a href="deeplearning_paper34.html#5">[20].</a></text>
+<text top="247" left="313" width="75" height="8" font="font8" id="p2_t127" reading_order_no="126" segment_no="6" tag_type="title">3.3. Music Tagging</text>
+<text top="263" left="312" width="227" height="8" font="font7" id="p2_t128" reading_order_no="127" segment_no="7" tag_type="text">This target task aims at tagging audio recordings with different</text>
+<text top="274" left="313" width="227" height="8" font="font7" id="p2_t129" reading_order_no="128" segment_no="7" tag_type="text">music genres, instruments, moods, etc. It adds on the variability</text>
+<text top="284" left="313" width="227" height="8" font="font7" id="p2_t130" reading_order_no="129" segment_no="7" tag_type="text">of target labels considered in this work. We use the well-known</text>
+<text top="295" left="313" width="227" height="8" font="font7" id="p2_t131" reading_order_no="130" segment_no="7" tag_type="text">MagnaTagATune dataset <a href="deeplearning_paper34.html#5">[21] </a>for transfer evaluation. This is a</text>
+<text top="305" left="313" width="227" height="8" font="font7" id="p2_t132" reading_order_no="131" segment_no="7" tag_type="text">multi-label dataset, where each recording can belong to a genre</text>
+<text top="316" left="313" width="228" height="8" font="font7" id="p2_t133" reading_order_no="132" segment_no="7" tag_type="text">class as well as multiple instrument classes, at the same time.</text>
+<text top="326" left="312" width="53" height="8" font="font7" id="p2_t134" reading_order_no="133" segment_no="7" tag_type="text">We use the top</text>
+<text top="326" left="367" width="9" height="8" font="font11" id="p2_t135" reading_order_no="134" segment_no="7" tag_type="text">50</text>
+<text top="326" left="379" width="138" height="8" font="font7" id="p2_t136" reading_order_no="135" segment_no="7" tag_type="text">tags of this dataset in our experiments.</text>
+<text top="347" left="313" width="178" height="8" font="font8" id="p2_t137" reading_order_no="136" segment_no="10" tag_type="title">3.4. Human Action Classification Using Audio</text>
+<text top="364" left="312" width="227" height="8" font="font7" id="p2_t138" reading_order_no="137" segment_no="11" tag_type="text">The goal of this task is to recognize human actions such as</text>
+<text top="374" left="312" width="228" height="8" font="font7" id="p2_t139" reading_order_no="138" segment_no="11" tag_type="text">“ice skating” and “playing guitar” in video recordings. We use</text>
+<text top="385" left="313" width="227" height="8" font="font7" id="p2_t140" reading_order_no="139" segment_no="11" tag_type="text">the most recent version of the Kinetics dataset (Kinetics700), a</text>
+<text top="395" left="312" width="229" height="8" font="font7" id="p2_t141" reading_order_no="140" segment_no="11" tag_type="text">widely used benchmark for action classification <a href="deeplearning_paper34.html#5">[22]. </a>It is a large-</text>
+<text top="405" left="313" width="84" height="8" font="font7" id="p2_t142" reading_order_no="141" segment_no="11" tag_type="text">scale dataset with over</text>
+<text top="405" left="399" width="14" height="8" font="font11" id="p2_t143" reading_order_no="142" segment_no="11" tag_type="text">550</text>
+<text top="405" left="413" width="5" height="8" font="font7" id="p2_t144" reading_order_no="143" segment_no="11" tag_type="text">k</text>
+<text top="405" left="420" width="9" height="8" font="font11" id="p2_t145" reading_order_no="144" segment_no="11" tag_type="text">10</text>
+<text top="405" left="429" width="69" height="8" font="font7" id="p2_t146" reading_order_no="145" segment_no="11" tag_type="text">-second clips from</text>
+<text top="405" left="501" width="14" height="8" font="font11" id="p2_t147" reading_order_no="146" segment_no="11" tag_type="text">700</text>
+<text top="405" left="517" width="22" height="8" font="font7" id="p2_t148" reading_order_no="147" segment_no="11" tag_type="text">action</text>
+<text top="416" left="313" width="227" height="8" font="font7" id="p2_t149" reading_order_no="148" segment_no="11" tag_type="text">classes. This problem has been primarily tackled from a visual</text>
+<text top="426" left="313" width="227" height="8" font="font7" id="p2_t150" reading_order_no="149" segment_no="11" tag_type="text">perspective, although some multimodal approaches have also</text>
+<text top="437" left="313" width="85" height="8" font="font7" id="p2_t151" reading_order_no="150" segment_no="11" tag_type="text">been proposed <a href="deeplearning_paper34.html#5">[23, 24].</a></text>
+<text top="448" left="328" width="90" height="8" font="font7" id="p2_t152" reading_order_no="151" segment_no="12" tag_type="text">In this paper, we explore</text>
+<text top="448" left="420" width="39" height="8" font="font9" id="p2_t153" reading_order_no="152" segment_no="12" tag_type="text">audio-only</text>
+<text top="448" left="461" width="78" height="8" font="font7" id="p2_t154" reading_order_no="153" segment_no="12" tag_type="text">recognition of human</text>
+<text top="458" left="313" width="227" height="8" font="font7" id="p2_t155" reading_order_no="154" segment_no="12" tag_type="text">actions. This is interesting in several aspects. To the best of our</text>
+<text top="469" left="313" width="110" height="8" font="font7" id="p2_t156" reading_order_no="155" segment_no="12" tag_type="text">knowledge, this is perhaps the</text>
+<text top="469" left="425" width="35" height="8" font="font9" id="p2_t157" reading_order_no="156" segment_no="12" tag_type="text">first work</text>
+<text top="469" left="462" width="78" height="8" font="font7" id="p2_t158" reading_order_no="157" segment_no="12" tag_type="text">that explicitly tries to</text>
+<text top="479" left="313" width="227" height="8" font="font7" id="p2_t159" reading_order_no="158" segment_no="12" tag_type="text">link human actions and sound events. In principle, similar to</text>
+<text top="490" left="313" width="228" height="8" font="font7" id="p2_t160" reading_order_no="159" segment_no="12" tag_type="text">ImageNet <a href="deeplearning_paper34.html#5">[25] </a>based pre-trained models being used for visual-</text>
+<text top="500" left="313" width="227" height="8" font="font7" id="p2_t161" reading_order_no="160" segment_no="12" tag_type="text">driven action classification, we hypothesize that pre-trained SED</text>
+<text top="510" left="313" width="228" height="8" font="font7" id="p2_t162" reading_order_no="161" segment_no="12" tag_type="text">models can help advance the state of audio-driven action classifi-</text>
+<text top="521" left="313" width="186" height="8" font="font7" id="p2_t163" reading_order_no="162" segment_no="12" tag_type="text">cation. Further, being a large-scale dataset with over</text>
+<text top="521" left="501" width="14" height="8" font="font11" id="p2_t164" reading_order_no="163" segment_no="12" tag_type="text">550</text>
+<text top="521" left="515" width="26" height="8" font="font7" id="p2_t165" reading_order_no="164" segment_no="12" tag_type="text">k clips,</text>
+<text top="531" left="313" width="227" height="8" font="font7" id="p2_t166" reading_order_no="165" segment_no="12" tag_type="text">transferring SED representations to this task via linear classifiers</text>
+<text top="542" left="313" width="227" height="8" font="font7" id="p2_t167" reading_order_no="166" segment_no="12" tag_type="text">helps characterize the efficacy of direct classification of actions</text>
+<text top="552" left="312" width="198" height="8" font="font7" id="p2_t168" reading_order_no="167" segment_no="12" tag_type="text">vs. action classification based on knowledge of sounds.</text>
+<text top="574" left="385" width="81" height="11" font="font6" id="p2_t169" reading_order_no="168" segment_no="15" tag_type="title">4. Experiments</text>
+<text top="593" left="312" width="92" height="8" font="font8" id="p2_t170" reading_order_no="169" segment_no="16" tag_type="title">4.1. Datasets and Setup</text>
+<text top="609" left="313" width="13" height="8" font="font7" id="p2_t171" reading_order_no="170" segment_no="18" tag_type="text">For</text>
+<text top="609" left="334" width="13" height="8" font="font7" id="p2_t172" reading_order_no="171" segment_no="18" tag_type="text">fair</text>
+<text top="609" left="355" width="45" height="8" font="font7" id="p2_t173" reading_order_no="172" segment_no="18" tag_type="text">comparison,</text>
+<text top="609" left="410" width="11" height="8" font="font7" id="p2_t174" reading_order_no="173" segment_no="18" tag_type="text">we</text>
+<text top="609" left="430" width="24" height="8" font="font7" id="p2_t175" reading_order_no="174" segment_no="18" tag_type="text">follow</text>
+<text top="609" left="462" width="11" height="8" font="font7" id="p2_t176" reading_order_no="175" segment_no="18" tag_type="text">the</text>
+<text top="609" left="482" width="31" height="8" font="font7" id="p2_t177" reading_order_no="176" segment_no="18" tag_type="text">standard</text>
+<text top="609" left="521" width="20" height="8" font="font7" id="p2_t178" reading_order_no="177" segment_no="18" tag_type="text">train-</text>
+<text top="620" left="313" width="227" height="8" font="font7" id="p2_t179" reading_order_no="178" segment_no="18" tag_type="text">ing/validation/test split and use performance metrics defined for</text>
+<text top="630" left="313" width="227" height="8" font="font7" id="p2_t180" reading_order_no="179" segment_no="18" tag_type="text">each dataset. When such information is unavailable, we follow</text>
+<text top="640" left="313" width="227" height="8" font="font7" id="p2_t181" reading_order_no="180" segment_no="18" tag_type="text">the most prevailing setup from previous works. For ESC-50 and</text>
+<text top="651" left="313" width="94" height="8" font="font7" id="p2_t182" reading_order_no="181" segment_no="18" tag_type="text">Urbansound, we perform</text>
+<text top="651" left="409" width="5" height="8" font="font11" id="p2_t183" reading_order_no="182" segment_no="18" tag_type="text">5</text>
+<text top="651" left="414" width="34" height="8" font="font7" id="p2_t184" reading_order_no="183" segment_no="18" tag_type="text">-fold and</text>
+<text top="651" left="451" width="9" height="8" font="font11" id="p2_t185" reading_order_no="184" segment_no="18" tag_type="text">10</text>
+<text top="651" left="460" width="79" height="8" font="font7" id="p2_t186" reading_order_no="185" segment_no="18" tag_type="text">-fold cross-validation</text>
+<text top="661" left="313" width="227" height="8" font="font7" id="p2_t187" reading_order_no="186" segment_no="18" tag_type="text">following the predefined folds, and report the average accuracy</text>
+<text top="672" left="313" width="227" height="8" font="font7" id="p2_t188" reading_order_no="187" segment_no="18" tag_type="text">across all folds. For FSDKaggle2019, the “public” test set is</text>
+<text top="682" left="313" width="191" height="8" font="font7" id="p2_t189" reading_order_no="188" segment_no="18" tag_type="text">used for validation. For MagnaTagATune, we use the</text>
+<text top="682" left="506" width="34" height="8" font="font11" id="p2_t190" reading_order_no="189" segment_no="18" tag_type="text">12 : 1 : 3</text>
+<text top="692" left="313" width="227" height="8" font="font7" id="p2_t191" reading_order_no="190" segment_no="18" tag_type="text">split for training, validation and testing, as was done in several</text>
+<text top="703" left="313" width="198" height="8" font="font7" id="p2_t192" reading_order_no="191" segment_no="18" tag_type="text">prior works <a href="deeplearning_paper34.html#5">[29, 30, 31]. </a>For Kinetics700, we take out</text>
+<text top="703" left="513" width="9" height="8" font="font11" id="p2_t193" reading_order_no="192" segment_no="18" tag_type="text">20</text>
+<text top="703" left="522" width="3" height="8" font="font13" id="p2_t194" reading_order_no="193" segment_no="18" tag_type="text">,</text>
+<text top="703" left="526" width="14" height="8" font="font11" id="p2_t195" reading_order_no="194" segment_no="18" tag_type="text">525</text>
+<text top="713" left="313" width="227" height="8" font="font7" id="p2_t196" reading_order_no="195" segment_no="18" tag_type="text">examples from the training set to use as a validation set. All</text>
+<text top="724" left="313" width="227" height="8" font="font7" id="p2_t197" reading_order_no="196" segment_no="18" tag_type="text">models are implemented in PyTorch, and hyperparameters are</text>
+<text top="734" left="313" width="111" height="8" font="font7" id="p2_t198" reading_order_no="197" segment_no="18" tag_type="text">tuned using the validation sets.</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="841" width="595">
+	<fontspec id="font15" size="9" family="Dingbats" color="#000000"/>
+	<fontspec id="font16" size="9" family="MSBM10" color="#000000"/>
+	<fontspec id="font17" size="6" family="CMMI6" color="#000000"/>
+	<fontspec id="font18" size="6" family="CMSY6" color="#000000"/>
+<text top="76" left="89" width="18" height="8" font="font8" id="p3_t1" reading_order_no="0" segment_no="0" tag_type="table">Task</text>
+<text top="76" left="157" width="29" height="8" font="font8" id="p3_t2" reading_order_no="1" segment_no="0" tag_type="table">Dataset</text>
+<text top="76" left="215" width="35" height="8" font="font8" id="p3_t3" reading_order_no="2" segment_no="0" tag_type="table"># Classes</text>
+<text top="76" left="286" width="26" height="8" font="font8" id="p3_t4" reading_order_no="3" segment_no="0" tag_type="table">Metric</text>
+<text top="76" left="349" width="31" height="8" font="font8" id="p3_t5" reading_order_no="4" segment_no="0" tag_type="table">TALNet</text>
+<text top="76" left="393" width="35" height="8" font="font8" id="p3_t6" reading_order_no="5" segment_no="0" tag_type="table">WEANet</text>
+<text top="76" left="440" width="89" height="8" font="font8" id="p3_t7" reading_order_no="6" segment_no="0" tag_type="table">Prior Work (Uses TL?)</text>
+<text top="102" left="73" width="49" height="8" font="font7" id="p3_t8" reading_order_no="7" segment_no="0" tag_type="table">Sound Events</text>
+<text top="87" left="157" width="28" height="8" font="font7" id="p3_t9" reading_order_no="8" segment_no="0" tag_type="table">ESC-50</text>
+<text top="87" left="228" width="9" height="8" font="font7" id="p3_t10" reading_order_no="9" segment_no="0" tag_type="table">50</text>
+<text top="87" left="282" width="34" height="8" font="font7" id="p3_t11" reading_order_no="10" segment_no="0" tag_type="table">Accuracy</text>
+<text top="87" left="357" width="16" height="8" font="font7" id="p3_t12" reading_order_no="11" segment_no="0" tag_type="table">91.0</text>
+<text top="87" left="402" width="16" height="8" font="font7" id="p3_t13" reading_order_no="12" segment_no="0" tag_type="table">94.1</text>
+<text top="87" left="440" width="33" height="8" font="font7" id="p3_t14" reading_order_no="13" segment_no="0" tag_type="table">94.7 <a href="deeplearning_paper34.html#5">[11]</a></text>
+<text top="87" left="503" width="7" height="9" font="font15" id="p3_t15" reading_order_no="14" segment_no="0" tag_type="table">3</text>
+<text top="97" left="149" width="44" height="8" font="font7" id="p3_t16" reading_order_no="15" segment_no="0" tag_type="table">Urbansound</text>
+<text top="97" left="228" width="9" height="8" font="font7" id="p3_t17" reading_order_no="16" segment_no="0" tag_type="table">10</text>
+<text top="97" left="282" width="34" height="8" font="font7" id="p3_t18" reading_order_no="17" segment_no="0" tag_type="table">Accuracy</text>
+<text top="97" left="357" width="16" height="8" font="font7" id="p3_t19" reading_order_no="18" segment_no="0" tag_type="table">85.2</text>
+<text top="97" left="402" width="16" height="8" font="font7" id="p3_t20" reading_order_no="19" segment_no="0" tag_type="table">85.2</text>
+<text top="97" left="440" width="33" height="8" font="font7" id="p3_t21" reading_order_no="20" segment_no="0" tag_type="table">85.1 <a href="deeplearning_paper34.html#5">[27]</a></text>
+<text top="97" left="503" width="7" height="9" font="font15" id="p3_t22" reading_order_no="21" segment_no="0" tag_type="table">3</text>
+<text top="113" left="140" width="60" height="8" font="font7" id="p3_t23" reading_order_no="22" segment_no="0" tag_type="table">FSDKaggle2019</text>
+<text top="113" left="228" width="9" height="8" font="font7" id="p3_t24" reading_order_no="23" segment_no="0" tag_type="table">80</text>
+<text top="113" left="268" width="23" height="8" font="font7" id="p3_t25" reading_order_no="24" segment_no="0" tag_type="table">lwlrap</text>
+<text top="108" left="308" width="28" height="8" font="font7" id="p3_t26" reading_order_no="25" segment_no="0" tag_type="table">Curated</text>
+<text top="108" left="357" width="16" height="8" font="font7" id="p3_t27" reading_order_no="26" segment_no="0" tag_type="table">72.0</text>
+<text top="108" left="402" width="16" height="8" font="font7" id="p3_t28" reading_order_no="27" segment_no="0" tag_type="table">72.8</text>
+<text top="108" left="440" width="33" height="8" font="font7" id="p3_t29" reading_order_no="28" segment_no="0" tag_type="table">54.2 <a href="deeplearning_paper34.html#5">[19]</a></text>
+<text top="113" left="503" width="5" height="9" font="font15" id="p3_t30" reading_order_no="29" segment_no="0" tag_type="table">7</text>
+<text top="118" left="312" width="21" height="8" font="font7" id="p3_t31" reading_order_no="30" segment_no="0" tag_type="table">Noisy</text>
+<text top="118" left="357" width="16" height="8" font="font7" id="p3_t32" reading_order_no="31" segment_no="0" tag_type="table">51.0</text>
+<text top="118" left="402" width="16" height="8" font="font7" id="p3_t33" reading_order_no="32" segment_no="0" tag_type="table">50.3</text>
+<text top="118" left="440" width="33" height="8" font="font7" id="p3_t34" reading_order_no="33" segment_no="0" tag_type="table">31.2 <a href="deeplearning_paper34.html#5">[19]</a></text>
+<text top="129" left="69" width="59" height="8" font="font7" id="p3_t35" reading_order_no="34" segment_no="0" tag_type="table">Acoustic Scenes</text>
+<text top="129" left="148" width="47" height="8" font="font7" id="p3_t36" reading_order_no="35" segment_no="0" tag_type="table">DCASE2019</text>
+<text top="129" left="228" width="9" height="8" font="font7" id="p3_t37" reading_order_no="36" segment_no="0" tag_type="table">10</text>
+<text top="129" left="282" width="34" height="8" font="font7" id="p3_t38" reading_order_no="37" segment_no="0" tag_type="table">Accuracy</text>
+<text top="129" left="357" width="16" height="8" font="font7" id="p3_t39" reading_order_no="38" segment_no="0" tag_type="table">65.8</text>
+<text top="129" left="402" width="16" height="8" font="font7" id="p3_t40" reading_order_no="39" segment_no="0" tag_type="table">68.0</text>
+<text top="129" left="440" width="33" height="8" font="font7" id="p3_t41" reading_order_no="40" segment_no="0" tag_type="table">58.9 <a href="deeplearning_paper34.html#5">[11]</a></text>
+<text top="129" left="503" width="7" height="9" font="font15" id="p3_t42" reading_order_no="41" segment_no="0" tag_type="table">3</text>
+<text top="140" left="71" width="54" height="8" font="font7" id="p3_t43" reading_order_no="42" segment_no="0" tag_type="table">Music Tagging</text>
+<text top="140" left="140" width="62" height="8" font="font7" id="p3_t44" reading_order_no="43" segment_no="0" tag_type="table">MagnaTagATune</text>
+<text top="140" left="228" width="9" height="8" font="font7" id="p3_t45" reading_order_no="44" segment_no="0" tag_type="table">50</text>
+<text top="140" left="286" width="26" height="8" font="font7" id="p3_t46" reading_order_no="45" segment_no="0" tag_type="table">MAUC</text>
+<text top="140" left="357" width="16" height="8" font="font7" id="p3_t47" reading_order_no="46" segment_no="0" tag_type="table">91.5</text>
+<text top="140" left="402" width="16" height="8" font="font7" id="p3_t48" reading_order_no="47" segment_no="0" tag_type="table">91.5</text>
+<text top="140" left="440" width="33" height="8" font="font7" id="p3_t49" reading_order_no="48" segment_no="0" tag_type="table">90.2 <a href="deeplearning_paper34.html#5">[12]</a></text>
+<text top="139" left="503" width="7" height="9" font="font15" id="p3_t50" reading_order_no="49" segment_no="0" tag_type="table">3</text>
+<text top="156" left="70" width="57" height="8" font="font7" id="p3_t51" reading_order_no="50" segment_no="0" tag_type="table">Human Actions</text>
+<text top="156" left="150" width="43" height="8" font="font7" id="p3_t52" reading_order_no="51" segment_no="0" tag_type="table">Kinetics700</text>
+<text top="156" left="225" width="13" height="8" font="font7" id="p3_t53" reading_order_no="52" segment_no="0" tag_type="table">700</text>
+<text top="156" left="262" width="34" height="8" font="font7" id="p3_t54" reading_order_no="53" segment_no="0" tag_type="table">Accuracy</text>
+<text top="150" left="312" width="21" height="8" font="font7" id="p3_t55" reading_order_no="54" segment_no="0" tag_type="table">Top-1</text>
+<text top="150" left="357" width="16" height="8" font="font7" id="p3_t56" reading_order_no="55" segment_no="0" tag_type="table">15.9</text>
+<text top="150" left="402" width="16" height="8" font="font7" id="p3_t57" reading_order_no="56" segment_no="0" tag_type="table">18.0</text>
+<text top="150" left="440" width="33" height="8" font="font7" id="p3_t58" reading_order_no="57" segment_no="0" tag_type="table">21.9 <a href="deeplearning_paper34.html#5">[28]</a></text>
+<text top="155" left="503" width="5" height="9" font="font15" id="p3_t59" reading_order_no="58" segment_no="0" tag_type="table">7</text>
+<text top="161" left="312" width="21" height="8" font="font7" id="p3_t60" reading_order_no="59" segment_no="0" tag_type="table">Top-5</text>
+<text top="161" left="357" width="16" height="8" font="font7" id="p3_t61" reading_order_no="60" segment_no="0" tag_type="table">30.5</text>
+<text top="161" left="402" width="16" height="8" font="font7" id="p3_t62" reading_order_no="61" segment_no="0" tag_type="table">33.0</text>
+<text top="161" left="440" width="33" height="8" font="font7" id="p3_t63" reading_order_no="62" segment_no="0" tag_type="table">36.9 <a href="deeplearning_paper34.html#5">[28]</a></text>
+<text top="173" left="63" width="29" height="8" font="font7" id="p3_t64" reading_order_no="63" segment_no="2" tag_type="text">Table 2:</text>
+<text top="173" left="95" width="439" height="8" font="font9" id="p3_t65" reading_order_no="64" segment_no="2" tag_type="text">Summary of the target tasks and the performance of TALNet and WEANet-SUSTAIN, compared with some previous works.</text>
+<text top="209" left="57" width="84" height="8" font="font8" id="p3_t66" reading_order_no="65" segment_no="3" tag_type="title">4.2. AudioSet Models</text>
+<text top="225" left="57" width="227" height="8" font="font7" id="p3_t67" reading_order_no="66" segment_no="5" tag_type="text">The details of the TALNet and WEANet models trained on</text>
+<text top="236" left="57" width="228" height="8" font="font7" id="p3_t68" reading_order_no="67" segment_no="5" tag_type="text">AudioSet can be found in <a href="deeplearning_paper34.html#5">[15] </a>and <a href="deeplearning_paper34.html#5">[16] </a>respectively. Table <a href="deeplearning_paper34.html#2">1</a></text>
+<text top="246" left="58" width="227" height="8" font="font7" id="p3_t69" reading_order_no="68" segment_no="5" tag_type="text">shows the performance of the two models on AudioSet. In this</text>
+<text top="256" left="57" width="227" height="8" font="font7" id="p3_t70" reading_order_no="69" segment_no="5" tag_type="text">work, we re-trained TALNet applying SpecAugment <a href="deeplearning_paper34.html#5">[32] </a>to the</text>
+<text top="267" left="58" width="197" height="8" font="font7" id="p3_t71" reading_order_no="70" segment_no="5" tag_type="text">inputs. We masked out one frequency band of at most</text>
+<text top="267" left="256" width="9" height="8" font="font11" id="p3_t72" reading_order_no="71" segment_no="5" tag_type="text">16</text>
+<text top="267" left="268" width="18" height="8" font="font7" id="p3_t73" reading_order_no="72" segment_no="5" tag_type="text">bins,</text>
+<text top="277" left="58" width="117" height="8" font="font7" id="p3_t74" reading_order_no="73" segment_no="5" tag_type="text">and one time interval of at most</text>
+<text top="277" left="177" width="5" height="8" font="font11" id="p3_t75" reading_order_no="74" segment_no="5" tag_type="text">2</text>
+<text top="277" left="184" width="101" height="8" font="font7" id="p3_t76" reading_order_no="75" segment_no="5" tag_type="text">seconds. This improves the</text>
+<text top="288" left="58" width="144" height="8" font="font7" id="p3_t77" reading_order_no="76" segment_no="5" tag_type="text">the mean average precision (MAP) from</text>
+<text top="287" left="204" width="5" height="8" font="font11" id="p3_t78" reading_order_no="77" segment_no="5" tag_type="text">0</text>
+<text top="287" left="209" width="3" height="8" font="font13" id="p3_t79" reading_order_no="78" segment_no="5" tag_type="text">.</text>
+<text top="287" left="211" width="14" height="8" font="font11" id="p3_t80" reading_order_no="79" segment_no="5" tag_type="text">359</text>
+<text top="288" left="227" width="33" height="8" font="font7" id="p3_t81" reading_order_no="80" segment_no="5" tag_type="text">in <a href="deeplearning_paper34.html#5">[15] </a>to</text>
+<text top="287" left="263" width="5" height="8" font="font11" id="p3_t82" reading_order_no="81" segment_no="5" tag_type="text">0</text>
+<text top="287" left="267" width="3" height="8" font="font13" id="p3_t83" reading_order_no="82" segment_no="5" tag_type="text">.</text>
+<text top="287" left="270" width="14" height="8" font="font11" id="p3_t84" reading_order_no="83" segment_no="5" tag_type="text">386</text>
+<text top="288" left="284" width="2" height="8" font="font7" id="p3_t85" reading_order_no="84" segment_no="5" tag_type="text">.</text>
+<text top="309" left="57" width="47" height="8" font="font8" id="p3_t86" reading_order_no="85" segment_no="8" tag_type="title">4.3. Results</text>
+<text top="325" left="57" width="227" height="8" font="font7" id="p3_t87" reading_order_no="86" segment_no="10" tag_type="text">Table <a href="deeplearning_paper34.html#3">2 </a>summarizes results for all target tasks. For brevity, we</text>
+<text top="336" left="58" width="227" height="8" font="font7" id="p3_t88" reading_order_no="87" segment_no="10" tag_type="text">also show performance from prior works that most closely relate</text>
+<text top="346" left="58" width="228" height="8" font="font7" id="p3_t89" reading_order_no="88" segment_no="10" tag_type="text">to the proposed approach. To our knowledge, no such trans-</text>
+<text top="357" left="58" width="227" height="8" font="font7" id="p3_t90" reading_order_no="89" segment_no="10" tag_type="text">fer learning work exists for FSDKaggle2019 and Kinetics700</text>
+<text top="367" left="57" width="37" height="8" font="font7" id="p3_t91" reading_order_no="90" segment_no="10" tag_type="text">(shown by</text>
+<text top="367" left="97" width="5" height="9" font="font15" id="p3_t92" reading_order_no="91" segment_no="10" tag_type="text">7</text>
+<text top="367" left="104" width="181" height="8" font="font7" id="p3_t93" reading_order_no="92" segment_no="10" tag_type="text">under the “Uses TL?” column); for the other tasks,</text>
+<text top="377" left="58" width="228" height="8" font="font7" id="p3_t94" reading_order_no="93" segment_no="10" tag_type="text">the reported baselines are from prior works using transfer learn-</text>
+<text top="388" left="58" width="227" height="8" font="font7" id="p3_t95" reading_order_no="94" segment_no="10" tag_type="text">ing. However, these transfer learning processes are often much</text>
+<text top="398" left="58" width="227" height="8" font="font7" id="p3_t96" reading_order_no="95" segment_no="10" tag_type="text">more complex compared to our simple linear classifiers trained</text>
+<text top="409" left="58" width="199" height="8" font="font7" id="p3_t97" reading_order_no="96" segment_no="10" tag_type="text">on learned representations from TALNet and WEANet.</text>
+<text top="420" left="73" width="213" height="8" font="font7" id="p3_t98" reading_order_no="97" segment_no="11" tag_type="text">For the target tasks of sound event classification, the lin-</text>
+<text top="430" left="58" width="227" height="8" font="font7" id="p3_t99" reading_order_no="98" segment_no="11" tag_type="text">ear classifiers built upon TALNet and WEANet representations</text>
+<text top="441" left="58" width="227" height="8" font="font7" id="p3_t100" reading_order_no="99" segment_no="11" tag_type="text">give similar performance as prior transfer learning works on the</text>
+<text top="451" left="58" width="227" height="8" font="font7" id="p3_t101" reading_order_no="100" segment_no="11" tag_type="text">ESC-50 and Urbansound datasets. These numbers also come</text>
+<text top="461" left="58" width="227" height="8" font="font7" id="p3_t102" reading_order_no="101" segment_no="11" tag_type="text">close to the state-of-the-art (SOTA) on these datasets. Note</text>
+<text top="472" left="58" width="228" height="8" font="font7" id="p3_t103" reading_order_no="102" segment_no="11" tag_type="text">that, <a href="deeplearning_paper34.html#5">[27] </a>applies transfer via networks pre-trained on images.</text>
+<text top="482" left="58" width="227" height="8" font="font7" id="p3_t104" reading_order_no="103" segment_no="11" tag_type="text">On FSDKaggle2019, we compare with the baseline approach in</text>
+<text top="493" left="58" width="85" height="8" font="font7" id="p3_t105" reading_order_no="104" segment_no="11" tag_type="text"><a href="deeplearning_paper34.html#5">[19], </a>and our results are</text>
+<text top="492" left="145" width="17" height="8" font="font11" id="p3_t106" reading_order_no="105" segment_no="11" tag_type="text">34%</text>
+<text top="493" left="164" width="13" height="8" font="font7" id="p3_t107" reading_order_no="106" segment_no="11" tag_type="text">and</text>
+<text top="492" left="180" width="17" height="8" font="font11" id="p3_t108" reading_order_no="107" segment_no="11" tag_type="text">63%</text>
+<text top="493" left="199" width="31" height="8" font="font7" id="p3_t109" reading_order_no="108" segment_no="11" tag_type="text">superior.</text>
+<text top="504" left="73" width="212" height="8" font="font7" id="p3_t110" reading_order_no="109" segment_no="15" tag_type="text">For the target task of acoustic scene classification, audio</text>
+<text top="514" left="58" width="169" height="8" font="font7" id="p3_t111" reading_order_no="110" segment_no="15" tag_type="text">representations from TALNet and WEANet give</text>
+<text top="514" left="229" width="5" height="8" font="font11" id="p3_t112" reading_order_no="111" segment_no="15" tag_type="text">6</text>
+<text top="514" left="234" width="3" height="8" font="font13" id="p3_t113" reading_order_no="112" segment_no="15" tag_type="text">.</text>
+<text top="514" left="236" width="12" height="8" font="font11" id="p3_t114" reading_order_no="113" segment_no="15" tag_type="text">9%</text>
+<text top="514" left="251" width="13" height="8" font="font7" id="p3_t115" reading_order_no="114" segment_no="15" tag_type="text">and</text>
+<text top="514" left="265" width="5" height="8" font="font11" id="p3_t116" reading_order_no="115" segment_no="15" tag_type="text">9</text>
+<text top="514" left="270" width="3" height="8" font="font13" id="p3_t117" reading_order_no="116" segment_no="15" tag_type="text">.</text>
+<text top="514" left="272" width="12" height="8" font="font11" id="p3_t118" reading_order_no="117" segment_no="15" tag_type="text">1%</text>
+<text top="525" left="58" width="228" height="8" font="font7" id="p3_t119" reading_order_no="118" segment_no="15" tag_type="text">better performance compared to <a href="deeplearning_paper34.html#5">[11]] </a>(also trained on AudioSet).</text>
+<text top="536" left="73" width="213" height="8" font="font7" id="p3_t120" reading_order_no="119" segment_no="1" tag_type="text">On the music tagging task, TALNet- and WEANet-based rep-</text>
+<text top="546" left="58" width="227" height="8" font="font7" id="p3_t121" reading_order_no="120" segment_no="1" tag_type="text">resentations lead to better performance compared to the transfer</text>
+<text top="556" left="58" width="227" height="8" font="font7" id="p3_t122" reading_order_no="121" segment_no="1" tag_type="text">learning proposal from <a href="deeplearning_paper34.html#5">[12]. </a>Interestingly, <a href="deeplearning_paper34.html#5">[12] </a>uses a large-scale</text>
+<text top="567" left="58" width="228" height="8" font="font7" id="p3_t123" reading_order_no="122" segment_no="1" tag_type="text">music tagging as source task (the Million Song Dataset <a href="deeplearning_paper34.html#5">[33]),</a></text>
+<text top="577" left="57" width="227" height="8" font="font7" id="p3_t124" reading_order_no="123" segment_no="1" tag_type="text">which is very similar to the target task. While AudioSet also</text>
+<text top="588" left="58" width="227" height="8" font="font7" id="p3_t125" reading_order_no="124" segment_no="1" tag_type="text">contains a fairly large number of music examples, this clearly</text>
+<text top="598" left="58" width="227" height="8" font="font7" id="p3_t126" reading_order_no="125" segment_no="1" tag_type="text">shows that it is possible to construct good representations for</text>
+<text top="608" left="58" width="228" height="8" font="font7" id="p3_t127" reading_order_no="126" segment_no="1" tag_type="text">music tagging via a more general-purpose source task like SED.</text>
+<text top="620" left="73" width="212" height="8" font="font7" id="p3_t128" reading_order_no="127" segment_no="16" tag_type="text">For Kinetics700, the performance of linear classifiers with</text>
+<text top="630" left="58" width="227" height="8" font="font7" id="p3_t129" reading_order_no="128" segment_no="16" tag_type="text">audio representations from TALNet and WEANet is inferior to</text>
+<text top="640" left="58" width="227" height="8" font="font7" id="p3_t130" reading_order_no="129" segment_no="16" tag_type="text">training an Xception model from scratch <a href="deeplearning_paper34.html#5">[28]. </a>This is expected</text>
+<text top="651" left="58" width="227" height="8" font="font7" id="p3_t131" reading_order_no="130" segment_no="16" tag_type="text">for a large-scale dataset such as Kinetics700. But it is noteworthy</text>
+<text top="661" left="58" width="227" height="8" font="font7" id="p3_t132" reading_order_no="131" segment_no="16" tag_type="text">that these audio representations can give competitive results with</text>
+<text top="672" left="58" width="227" height="8" font="font7" id="p3_t133" reading_order_no="132" segment_no="16" tag_type="text">just linear classifiers, illustrating the shared information between</text>
+<text top="682" left="58" width="228" height="8" font="font7" id="p3_t134" reading_order_no="133" segment_no="16" tag_type="text">the two tasks – this has not been previously studied or observed.</text>
+<text top="692" left="58" width="228" height="8" font="font7" id="p3_t135" reading_order_no="134" segment_no="16" tag_type="text">Some action classes, such as “rolling eyes” and “peeling banana”,</text>
+<text top="703" left="58" width="227" height="8" font="font7" id="p3_t136" reading_order_no="135" segment_no="16" tag_type="text">do not exhibit specific acoustic signatures and are hard to detect</text>
+<text top="713" left="58" width="228" height="8" font="font7" id="p3_t137" reading_order_no="136" segment_no="16" tag_type="text">through any audio-only approach. The action “playing bagpipes”</text>
+<text top="724" left="58" width="139" height="8" font="font7" id="p3_t138" reading_order_no="137" segment_no="16" tag_type="text">achieves the highest top-1 accuracy of</text>
+<text top="724" left="199" width="9" height="8" font="font11" id="p3_t139" reading_order_no="138" segment_no="16" tag_type="text">87</text>
+<text top="724" left="208" width="3" height="8" font="font13" id="p3_t140" reading_order_no="139" segment_no="16" tag_type="text">.</text>
+<text top="724" left="211" width="12" height="8" font="font11" id="p3_t141" reading_order_no="140" segment_no="16" tag_type="text">5%</text>
+<text top="724" left="225" width="59" height="8" font="font7" id="p3_t142" reading_order_no="141" segment_no="16" tag_type="text">(using WEANet</text>
+<text top="734" left="58" width="227" height="8" font="font7" id="p3_t143" reading_order_no="142" segment_no="16" tag_type="text">features). This is not surprising because the “bagpipes” event</text>
+<text top="209" left="313" width="228" height="8" font="font7" id="p3_t144" reading_order_no="143" segment_no="4" tag_type="text">gets the highest performance on the source AudioSet task as well.</text>
+<text top="219" left="313" width="227" height="8" font="font7" id="p3_t145" reading_order_no="144" segment_no="4" tag_type="text">In Sec. <a href="deeplearning_paper34.html#4">5.2 </a>we will provide some qualitative interpretation of the</text>
+<text top="230" left="313" width="228" height="8" font="font7" id="p3_t146" reading_order_no="145" segment_no="4" tag_type="text">relationship between the source SED task and target Kinetics700.</text>
+<text top="251" left="348" width="156" height="11" font="font6" id="p3_t147" reading_order_no="146" segment_no="6" tag_type="title">5. Analysis and Visualizations</text>
+<text top="269" left="313" width="228" height="8" font="font7" id="p3_t148" reading_order_no="147" segment_no="7" tag_type="text">Overall, the results on target tasks shows that, in most cases,</text>
+<text top="280" left="313" width="228" height="8" font="font7" id="p3_t149" reading_order_no="148" segment_no="7" tag_type="text">simple linear classifiers that transfer TALNet and WEANet rep-</text>
+<text top="290" left="313" width="227" height="8" font="font7" id="p3_t150" reading_order_no="149" segment_no="7" tag_type="text">resentations can give competitive, or marginally better, results</text>
+<text top="301" left="313" width="227" height="8" font="font7" id="p3_t151" reading_order_no="150" segment_no="7" tag_type="text">compared to previously published numbers on these datasets. To</text>
+<text top="311" left="313" width="213" height="8" font="font7" id="p3_t152" reading_order_no="151" segment_no="7" tag_type="text">bring further insights, we provide some more analysis here.</text>
+<text top="322" left="328" width="213" height="8" font="font7" id="p3_t153" reading_order_no="152" segment_no="9" tag_type="text">We first show that the representations can capture semantics-</text>
+<text top="332" left="313" width="227" height="8" font="font7" id="p3_t154" reading_order_no="153" segment_no="9" tag_type="text">driven proximity relationships among the target labels. We show</text>
+<text top="343" left="313" width="227" height="8" font="font7" id="p3_t155" reading_order_no="154" segment_no="9" tag_type="text">this through the linear classification weights learned for each</text>
+<text top="353" left="313" width="227" height="8" font="font7" id="p3_t156" reading_order_no="155" segment_no="9" tag_type="text">class in the target task. We also analyze the correlation between</text>
+<text top="363" left="313" width="227" height="8" font="font7" id="p3_t157" reading_order_no="156" segment_no="9" tag_type="text">the target task labels and source task sound events, and illustrate</text>
+<text top="374" left="313" width="227" height="8" font="font7" id="p3_t158" reading_order_no="157" segment_no="9" tag_type="text">that to a certain extent we can explain the sound events that</text>
+<text top="384" left="313" width="228" height="8" font="font7" id="p3_t159" reading_order_no="158" segment_no="9" tag_type="text">contribute to specific target labels. Keeping page-limit in mind,</text>
+<text top="395" left="312" width="227" height="8" font="font7" id="p3_t160" reading_order_no="159" segment_no="9" tag_type="text">we summarize the analysis for TALNet-based representations</text>
+<text top="405" left="313" width="228" height="8" font="font7" id="p3_t161" reading_order_no="160" segment_no="9" tag_type="text">alone; similar results were obtained for WEANet representations.</text>
+<text top="426" left="313" width="124" height="8" font="font8" id="p3_t162" reading_order_no="161" segment_no="12" tag_type="title">5.1. Clustering of Target Labels</text>
+<text top="442" left="312" width="227" height="8" font="font7" id="p3_t163" reading_order_no="162" segment_no="13" tag_type="text">The weight matrix of the linear model learned for a target task</text>
+<text top="452" left="313" width="55" height="8" font="font7" id="p3_t164" reading_order_no="163" segment_no="13" tag_type="text">is essentially a</text>
+<text top="453" left="371" width="39" height="8" font="font9" id="p3_t165" reading_order_no="164" segment_no="13" tag_type="text">condensed</text>
+<text top="452" left="413" width="128" height="8" font="font7" id="p3_t166" reading_order_no="165" segment_no="13" tag_type="text">representation of the target labels’</text>
+<text top="463" left="313" width="111" height="8" font="font7" id="p3_t167" reading_order_no="166" segment_no="13" tag_type="text">semantics. We denote this as</text>
+<text top="463" left="427" width="9" height="8" font="font13" id="p3_t168" reading_order_no="167" segment_no="13" tag_type="text">W</text>
+<text top="462" left="442" width="6" height="8" font="font4" id="p3_t169" reading_order_no="168" segment_no="13" tag_type="text">∈</text>
+<text top="465" left="452" width="6" height="7" font="font16" id="p3_t170" reading_order_no="169" segment_no="13" tag_type="text">R</text>
+<text top="461" left="459" width="5" height="5" font="font17" id="p3_t171" reading_order_no="170" segment_no="13" tag_type="text">C</text>
+<text top="461" left="465" width="6" height="6" font="font18" id="p3_t172" reading_order_no="171" segment_no="13" tag_type="text">×</text>
+<text top="461" left="470" width="6" height="5" font="font17" id="p3_t173" reading_order_no="172" segment_no="13" tag_type="text">D</text>
+<text top="463" left="477" width="28" height="8" font="font7" id="p3_t174" reading_order_no="173" segment_no="13" tag_type="text">, where</text>
+<text top="463" left="508" width="7" height="8" font="font13" id="p3_t175" reading_order_no="174" segment_no="13" tag_type="text">C</text>
+<text top="463" left="519" width="21" height="8" font="font7" id="p3_t176" reading_order_no="175" segment_no="13" tag_type="text">is the</text>
+<text top="473" left="313" width="140" height="8" font="font7" id="p3_t177" reading_order_no="176" segment_no="13" tag_type="text">number of classes in the target task and</text>
+<text top="473" left="455" width="8" height="8" font="font13" id="p3_t178" reading_order_no="177" segment_no="13" tag_type="text">D</text>
+<text top="473" left="465" width="74" height="8" font="font7" id="p3_t179" reading_order_no="178" segment_no="13" tag_type="text">is the dimensionality</text>
+<text top="484" left="313" width="88" height="8" font="font7" id="p3_t180" reading_order_no="179" segment_no="13" tag_type="text">of audio representations.</text>
+<text top="494" left="328" width="213" height="8" font="font7" id="p3_t181" reading_order_no="180" segment_no="14" tag_type="text">Consider the music tagging task with TALNet representa-</text>
+<text top="505" left="313" width="176" height="8" font="font7" id="p3_t182" reading_order_no="181" segment_no="14" tag_type="text">tions as an example. The learned weight matrix</text>
+<text top="505" left="491" width="9" height="8" font="font13" id="p3_t183" reading_order_no="182" segment_no="14" tag_type="text">W</text>
+<text top="505" left="504" width="36" height="8" font="font7" id="p3_t184" reading_order_no="183" segment_no="14" tag_type="text">has a size</text>
+<text top="515" left="313" width="8" height="8" font="font7" id="p3_t185" reading_order_no="184" segment_no="14" tag_type="text">of</text>
+<text top="515" left="322" width="9" height="8" font="font11" id="p3_t186" reading_order_no="185" segment_no="14" tag_type="text">50</text>
+<text top="515" left="334" width="7" height="8" font="font4" id="p3_t187" reading_order_no="186" segment_no="14" tag_type="text">×</text>
+<text top="515" left="343" width="5" height="8" font="font11" id="p3_t188" reading_order_no="187" segment_no="14" tag_type="text">1</text>
+<text top="515" left="348" width="3" height="8" font="font13" id="p3_t189" reading_order_no="188" segment_no="14" tag_type="text">,</text>
+<text top="515" left="352" width="14" height="8" font="font11" id="p3_t190" reading_order_no="189" segment_no="14" tag_type="text">024</text>
+<text top="515" left="365" width="21" height="8" font="font7" id="p3_t191" reading_order_no="190" segment_no="14" tag_type="text">; each</text>
+<text top="515" left="389" width="5" height="8" font="font11" id="p3_t192" reading_order_no="191" segment_no="14" tag_type="text">1</text>
+<text top="515" left="394" width="3" height="8" font="font13" id="p3_t193" reading_order_no="192" segment_no="14" tag_type="text">,</text>
+<text top="515" left="398" width="14" height="8" font="font11" id="p3_t194" reading_order_no="193" segment_no="14" tag_type="text">024</text>
+<text top="515" left="412" width="128" height="8" font="font7" id="p3_t195" reading_order_no="194" segment_no="14" tag_type="text">-dimensional row vector essentially</text>
+<text top="526" left="313" width="227" height="8" font="font7" id="p3_t196" reading_order_no="195" segment_no="14" tag_type="text">represents a music tag. If the TALNet representations do allow</text>
+<text top="536" left="313" width="193" height="8" font="font7" id="p3_t197" reading_order_no="196" segment_no="14" tag_type="text">for learning the semantics of the music tags, then in this</text>
+<text top="536" left="508" width="5" height="8" font="font11" id="p3_t198" reading_order_no="197" segment_no="14" tag_type="text">1</text>
+<text top="536" left="512" width="3" height="8" font="font13" id="p3_t199" reading_order_no="198" segment_no="14" tag_type="text">,</text>
+<text top="536" left="516" width="14" height="8" font="font11" id="p3_t200" reading_order_no="199" segment_no="14" tag_type="text">024</text>
+<text top="536" left="530" width="9" height="8" font="font7" id="p3_t201" reading_order_no="200" segment_no="14" tag_type="text">-D</text>
+<text top="546" left="313" width="228" height="8" font="font7" id="p3_t202" reading_order_no="201" segment_no="14" tag_type="text">space, semantically similar tags should be close to each other.</text>
+<text top="557" left="313" width="227" height="8" font="font7" id="p3_t203" reading_order_no="202" segment_no="14" tag_type="text">Given this hypothesis, we perform a hierarchical clustering in</text>
+<text top="567" left="313" width="227" height="8" font="font7" id="p3_t204" reading_order_no="203" segment_no="14" tag_type="text">this space. The resultant dendrogram is shown in Fig. <a href="deeplearning_paper34.html#4">1. </a>It</text>
+<text top="578" left="313" width="228" height="8" font="font7" id="p3_t205" reading_order_no="204" segment_no="14" tag_type="text">clearly shows the hypothesized semantically meaningful group-</text>
+<text top="588" left="313" width="227" height="8" font="font7" id="p3_t206" reading_order_no="205" segment_no="14" tag_type="text">ing of classes. In particular, we see that synonymous tags such</text>
+<text top="598" left="313" width="227" height="8" font="font7" id="p3_t207" reading_order_no="206" segment_no="14" tag_type="text">as “woman”, “female”, “female vocal”, and “female voice” are</text>
+<text top="609" left="313" width="216" height="8" font="font7" id="p3_t208" reading_order_no="207" segment_no="14" tag_type="text">clustered together. Similarly, instruments of classical music (</text>
+<text top="609" left="529" width="12" height="8" font="font9" id="p3_t209" reading_order_no="208" segment_no="14" tag_type="text">e.g.</text>
+<text top="619" left="312" width="228" height="8" font="font7" id="p3_t210" reading_order_no="209" segment_no="14" tag_type="text">“violin” and “harp”) form a cluster, and so do words describing</text>
+<text top="630" left="312" width="55" height="8" font="font7" id="p3_t211" reading_order_no="210" segment_no="14" tag_type="text">vibrant music (</text>
+<text top="630" left="367" width="13" height="8" font="font9" id="p3_t212" reading_order_no="211" segment_no="14" tag_type="text">e.g.</text>
+<text top="630" left="383" width="156" height="8" font="font7" id="p3_t213" reading_order_no="212" segment_no="14" tag_type="text">“drums”, “beat”, and “dance”). This shows</text>
+<text top="640" left="313" width="227" height="8" font="font7" id="p3_t214" reading_order_no="213" segment_no="14" tag_type="text">that our setup and source task are robust in learning general</text>
+<text top="651" left="313" width="217" height="8" font="font7" id="p3_t215" reading_order_no="214" segment_no="14" tag_type="text">task-agnostic (abstract) information about audio and sounds.</text>
+<text top="661" left="328" width="213" height="8" font="font7" id="p3_t216" reading_order_no="215" segment_no="17" tag_type="text">We performed a similar analysis for the human action recog-</text>
+<text top="672" left="313" width="228" height="8" font="font7" id="p3_t217" reading_order_no="216" segment_no="17" tag_type="text">nition task, and the resulting dendrogram is shown in Fig. <a href="deeplearning_paper34.html#4">2.</a></text>
+<text top="682" left="313" width="227" height="8" font="font7" id="p3_t218" reading_order_no="217" segment_no="17" tag_type="text">Given the rather large number of action types in Kinetics700, we</text>
+<text top="692" left="313" width="227" height="8" font="font7" id="p3_t219" reading_order_no="218" segment_no="17" tag_type="text">only show a few action names. Observe that we can recognize</text>
+<text top="703" left="313" width="227" height="8" font="font7" id="p3_t220" reading_order_no="219" segment_no="17" tag_type="text">semantic clusters at both macro and micro levels. At the macro</text>
+<text top="713" left="313" width="227" height="8" font="font7" id="p3_t221" reading_order_no="220" segment_no="17" tag_type="text">level, one can summarize each large cluster (marked by colors)</text>
+<text top="724" left="312" width="227" height="8" font="font7" id="p3_t222" reading_order_no="221" segment_no="17" tag_type="text">with a few words. For example, most of the actions in teal are</text>
+<text top="734" left="313" width="39" height="8" font="font9" id="p3_t223" reading_order_no="222" segment_no="17" tag_type="text">housework</text>
+<text top="734" left="352" width="113" height="8" font="font7" id="p3_t224" reading_order_no="223" segment_no="17" tag_type="text">, and most actions in purple are</text>
+<text top="734" left="467" width="52" height="8" font="font9" id="p3_t225" reading_order_no="224" segment_no="17" tag_type="text">sports on land</text>
+<text top="734" left="519" width="20" height="8" font="font7" id="p3_t226" reading_order_no="225" segment_no="17" tag_type="text">. At a</text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="841" width="595">
+	<fontspec id="font19" size="5" family="DejaVuSans" color="#1f77b4"/>
+	<fontspec id="font20" size="5" family="DejaVuSans" color="#ff7f0e"/>
+	<fontspec id="font21" size="5" family="DejaVuSans" color="#2ca02c"/>
+	<fontspec id="font22" size="5" family="DejaVuSans" color="#d62728"/>
+	<fontspec id="font23" size="5" family="DejaVuSans" color="#9467bd"/>
+	<fontspec id="font24" size="5" family="DejaVuSans" color="#8c564b"/>
+	<fontspec id="font25" size="5" family="DejaVuSans" color="#e377c2"/>
+	<fontspec id="font26" size="5" family="DejaVuSans" color="#7f7f7f"/>
+	<fontspec id="font27" size="5" family="DejaVuSans" color="#bcbd22"/>
+	<fontspec id="font28" size="5" family="DejaVuSans" color="#17becf"/>
+	<fontspec id="font29" size="5" family="DejaVuSans" color="#8c564b"/>
+	<fontspec id="font30" size="5" family="DejaVuSans" color="#7f7f7f"/>
+	<fontspec id="font31" size="5" family="DejaVuSans" color="#17becf"/>
+	<fontspec id="font32" size="5" family="DejaVuSans" color="#9467bd"/>
+	<fontspec id="font33" size="5" family="DejaVuSans" color="#bcbd22"/>
+	<fontspec id="font34" size="6" family="DejaVuSans" color="#000000"/>
+<text top="147" left="65" width="0" height="6" font="font19" id="p4_t1" reading_order_no="0" segment_no="0" tag_type="figure">flute</text>
+<text top="153" left="69" width="9" height="8" font="font20" id="p4_t2" reading_order_no="1" segment_no="0" tag_type="figure">no voice no vocal no vocals</text>
+<text top="149" left="82" width="0" height="6" font="font20" id="p4_t3" reading_order_no="2" segment_no="0" tag_type="figure">weird</text>
+<text top="156" left="87" width="0" height="6" font="font20" id="p4_t4" reading_order_no="3" segment_no="0" tag_type="figure">electronic</text>
+<text top="149" left="91" width="0" height="6" font="font20" id="p4_t5" reading_order_no="4" segment_no="0" tag_type="figure">synth</text>
+<text top="154" left="96" width="4" height="6" font="font20" id="p4_t6" reading_order_no="5" segment_no="0" tag_type="figure">new age ambient</text>
+<text top="146" left="104" width="0" height="6" font="font20" id="p4_t7" reading_order_no="6" segment_no="0" tag_type="figure">fast</text>
+<text top="150" left="109" width="9" height="7" font="font20" id="p4_t8" reading_order_no="7" segment_no="0" tag_type="figure">dance techno beats</text>
+<text top="147" left="122" width="4" height="9" font="font20" id="p4_t9" reading_order_no="8" segment_no="0" tag_type="figure">beat drums</text>
+<text top="147" left="131" width="9" height="8" font="font21" id="p4_t10" reading_order_no="9" segment_no="0" tag_type="figure">loud rock metal</text>
+<text top="152" left="144" width="4" height="6" font="font21" id="p4_t11" reading_order_no="10" segment_no="0" tag_type="figure">country guitar</text>
+<text top="147" left="153" width="4" height="9" font="font22" id="p4_t12" reading_order_no="11" segment_no="0" tag_type="figure">sitar indian</text>
+<text top="149" left="162" width="9" height="7" font="font23" id="p4_t13" reading_order_no="12" segment_no="0" tag_type="figure">opera choral choir</text>
+<text top="147" left="175" width="0" height="6" font="font24" id="p4_t14" reading_order_no="13" segment_no="0" tag_type="figure">harp</text>
+<text top="159" left="179" width="0" height="6" font="font24" id="p4_t15" reading_order_no="14" segment_no="0" tag_type="figure">harpsichord</text>
+<text top="153" left="184" width="4" height="6" font="font24" id="p4_t16" reading_order_no="15" segment_no="0" tag_type="figure">classical classic</text>
+<text top="146" left="192" width="0" height="6" font="font24" id="p4_t17" reading_order_no="16" segment_no="0" tag_type="figure">solo</text>
+<text top="151" left="197" width="4" height="6" font="font24" id="p4_t18" reading_order_no="17" segment_no="0" tag_type="figure">strings violin</text>
+<text top="147" left="206" width="0" height="6" font="font24" id="p4_t19" reading_order_no="18" segment_no="0" tag_type="figure">cello</text>
+<text top="147" left="210" width="9" height="7" font="font25" id="p4_t20" reading_order_no="19" segment_no="0" tag_type="figure">slow soft quiet</text>
+<text top="149" left="223" width="0" height="6" font="font19" id="p4_t21" reading_order_no="20" segment_no="0" tag_type="figure">piano</text>
+<text top="148" left="227" width="0" height="6" font="font26" id="p4_t22" reading_order_no="21" segment_no="0" tag_type="figure">male</text>
+<text top="157" left="232" width="0" height="6" font="font26" id="p4_t23" reading_order_no="22" segment_no="0" tag_type="figure">male vocal</text>
+<text top="147" left="236" width="0" height="6" font="font26" id="p4_t24" reading_order_no="23" segment_no="0" tag_type="figure">man</text>
+<text top="157" left="241" width="0" height="6" font="font26" id="p4_t25" reading_order_no="24" segment_no="0" tag_type="figure">male voice</text>
+<text top="150" left="245" width="13" height="8" font="font27" id="p4_t26" reading_order_no="25" segment_no="0" tag_type="figure">vocals singing vocal voice</text>
+<text top="146" left="263" width="0" height="6" font="font27" id="p4_t27" reading_order_no="26" segment_no="0" tag_type="figure">pop</text>
+<text top="160" left="267" width="4" height="6" font="font28" id="p4_t28" reading_order_no="27" segment_no="0" tag_type="figure">female voice female vocal</text>
+<text top="152" left="276" width="4" height="6" font="font28" id="p4_t29" reading_order_no="28" segment_no="0" tag_type="figure">woman female</text>
+<text top="168" left="58" width="38" height="8" font="font7" id="p4_t30" reading_order_no="29" segment_no="1" tag_type="text">Figure 1:</text>
+<text top="168" left="109" width="175" height="8" font="font9" id="p4_t31" reading_order_no="30" segment_no="1" tag_type="text">Hierarchical clustering dendrogram of the</text>
+<text top="179" left="57" width="103" height="8" font="font9" id="p4_t32" reading_order_no="31" segment_no="1" tag_type="text">MagnaTagATune music tags.</text>
+<text top="328" left="65" width="0" height="6" font="font20" id="p4_t33" reading_order_no="32" segment_no="4" tag_type="figure">swimming front crawl</text>
+<text top="335" left="68" width="0" height="6" font="font20" id="p4_t34" reading_order_no="33" segment_no="4" tag_type="figure">swimming butterfly stroke</text>
+<text top="331" left="72" width="0" height="6" font="font20" id="p4_t35" reading_order_no="34" segment_no="4" tag_type="figure">swimming breast stroke</text>
+<text top="328" left="76" width="0" height="6" font="font20" id="p4_t36" reading_order_no="35" segment_no="4" tag_type="figure">swimming backstroke</text>
+<text top="317" left="84" width="0" height="6" font="font23" id="p4_t37" reading_order_no="36" segment_no="4" tag_type="figure">hammer throw</text>
+<text top="307" left="87" width="0" height="6" font="font23" id="p4_t38" reading_order_no="37" segment_no="4" tag_type="figure">shot put</text>
+<text top="318" left="91" width="0" height="6" font="font23" id="p4_t39" reading_order_no="38" segment_no="4" tag_type="figure">throwing discus</text>
+<text top="314" left="95" width="0" height="6" font="font23" id="p4_t40" reading_order_no="39" segment_no="4" tag_type="figure">javelin throw</text>
+<text top="309" left="99" width="11" height="8" font="font23" id="p4_t41" reading_order_no="40" segment_no="4" tag_type="figure">pole vault high jump long jump triple jump</text>
+<text top="306" left="114" width="0" height="6" font="font23" id="p4_t42" reading_order_no="41" segment_no="4" tag_type="figure">hurdling</text>
+<text top="325" left="121" width="19" height="6" font="font23" id="p4_t43" reading_order_no="42" segment_no="4" tag_type="figure">dribbling basketball juggling soccer ball passing soccer ball dunking basketball playing basketball shooting basketball</text>
+<text top="309" left="144" width="0" height="6" font="font23" id="p4_t44" reading_order_no="43" segment_no="4" tag_type="figure">dodgeball</text>
+<text top="321" left="148" width="0" height="6" font="font23" id="p4_t45" reading_order_no="44" segment_no="4" tag_type="figure">playing volleyball</text>
+<text top="323" left="155" width="4" height="6" font="font25" id="p4_t46" reading_order_no="45" segment_no="4" tag_type="figure">playing harmonica playing accordion</text>
+<text top="313" left="163" width="4" height="7" font="font25" id="p4_t47" reading_order_no="46" segment_no="4" tag_type="figure">playing cello playing violin</text>
+<text top="323" left="171" width="0" height="6" font="font25" id="p4_t48" reading_order_no="47" segment_no="4" tag_type="figure">playing saxophone</text>
+<text top="318" left="174" width="0" height="6" font="font25" id="p4_t49" reading_order_no="48" segment_no="4" tag_type="figure">playing clarinet</text>
+<text top="314" left="178" width="0" height="6" font="font25" id="p4_t50" reading_order_no="49" segment_no="4" tag_type="figure">playing oboe</text>
+<text top="320" left="182" width="11" height="9" font="font25" id="p4_t51" reading_order_no="50" segment_no="4" tag_type="figure">playing bagpipes playing trumpet playing trombone playing didgeridoo</text>
+<text top="315" left="201" width="0" height="6" font="font26" id="p4_t52" reading_order_no="51" segment_no="4" tag_type="figure">eating carrots</text>
+<text top="319" left="205" width="4" height="7" font="font26" id="p4_t53" reading_order_no="52" segment_no="4" tag_type="figure">eating spaghetti eating ice cream</text>
+<text top="315" left="212" width="4" height="7" font="font26" id="p4_t54" reading_order_no="53" segment_no="4" tag_type="figure">eating burger eating hotdog</text>
+<text top="321" left="220" width="4" height="8" font="font26" id="p4_t55" reading_order_no="54" segment_no="4" tag_type="figure">eating doughnuts eating watermelon</text>
+<text top="319" left="231" width="15" height="6" font="font27" id="p4_t56" reading_order_no="55" segment_no="4" tag_type="figure">massaging head massaging neck massaging feet massaging back massaging legs</text>
+<text top="312" left="254" width="0" height="6" font="font28" id="p4_t57" reading_order_no="56" segment_no="4" tag_type="figure">barbequing</text>
+<text top="319" left="258" width="4" height="8" font="font28" id="p4_t58" reading_order_no="57" segment_no="4" tag_type="figure">cooking scallops frying vegetables</text>
+<text top="317" left="265" width="0" height="6" font="font28" id="p4_t59" reading_order_no="58" segment_no="4" tag_type="figure">poaching eggs</text>
+<text top="313" left="269" width="0" height="6" font="font28" id="p4_t60" reading_order_no="59" segment_no="4" tag_type="figure">cooking egg</text>
+<text top="321" left="273" width="8" height="6" font="font28" id="p4_t61" reading_order_no="60" segment_no="4" tag_type="figure">cooking sausages cooking chicken scrambling eggs</text>
+<text top="343" left="58" width="32" height="8" font="font7" id="p4_t62" reading_order_no="61" segment_no="5" tag_type="text">Figure 2:</text>
+<text top="343" left="92" width="192" height="8" font="font9" id="p4_t63" reading_order_no="62" segment_no="5" tag_type="text">Hierarchical clustering dendrogram of the Kinetics700</text>
+<text top="353" left="58" width="227" height="8" font="font9" id="p4_t64" reading_order_no="63" segment_no="5" tag_type="text">actions. To avoid clutter, action names are only shown for some</text>
+<text top="364" left="58" width="52" height="8" font="font9" id="p4_t65" reading_order_no="64" segment_no="5" tag_type="text">small clusters.</text>
+<text top="391" left="58" width="227" height="8" font="font7" id="p4_t66" reading_order_no="65" segment_no="8" tag_type="text">finer level of resolution, we can see small clusters representing</text>
+<text top="402" left="58" width="38" height="8" font="font9" id="p4_t67" reading_order_no="66" segment_no="8" tag_type="text">ball sports</text>
+<text top="402" left="98" width="13" height="8" font="font7" id="p4_t68" reading_order_no="67" segment_no="8" tag_type="text">and</text>
+<text top="402" left="113" width="53" height="8" font="font9" id="p4_t69" reading_order_no="68" segment_no="8" tag_type="text">track-and-field</text>
+<text top="402" left="169" width="117" height="8" font="font7" id="p4_t70" reading_order_no="69" segment_no="8" tag_type="text">sports form within the large pur-</text>
+<text top="412" left="58" width="228" height="8" font="font7" id="p4_t71" reading_order_no="70" segment_no="8" tag_type="text">ple cluster. Surprisingly, action classes such as massaging head,</text>
+<text top="423" left="58" width="227" height="8" font="font7" id="p4_t72" reading_order_no="71" segment_no="8" tag_type="text">neck, back, legs, and feet, which do not correspond to sound</text>
+<text top="433" left="58" width="227" height="8" font="font7" id="p4_t73" reading_order_no="72" segment_no="8" tag_type="text">signals, are also well clustered. A possible explanation is that</text>
+<text top="443" left="58" width="227" height="8" font="font7" id="p4_t74" reading_order_no="73" segment_no="8" tag_type="text">these actions often come with audio tracks containing relaxing</text>
+<text top="454" left="58" width="227" height="8" font="font7" id="p4_t75" reading_order_no="74" segment_no="8" tag_type="text">music, and the audio representations are able to exploit such</text>
+<text top="464" left="58" width="227" height="8" font="font7" id="p4_t76" reading_order_no="75" segment_no="8" tag_type="text">acoustic cues to support the recognition of visual actions. Fig. <a href="deeplearning_paper34.html#4">3</a></text>
+<text top="475" left="58" width="227" height="8" font="font7" id="p4_t77" reading_order_no="76" segment_no="8" tag_type="text">provides an alternate view by running t-SNE <a href="deeplearning_paper34.html#5">[34] </a>on the learned</text>
+<text top="485" left="58" width="227" height="8" font="font7" id="p4_t78" reading_order_no="77" segment_no="8" tag_type="text">class representations. The color coding follows the dendogram</text>
+<text top="496" left="58" width="227" height="8" font="font7" id="p4_t79" reading_order_no="78" segment_no="8" tag_type="text">coloring scheme. Once again, we notice that closely related</text>
+<text top="506" left="58" width="227" height="8" font="font7" id="p4_t80" reading_order_no="79" segment_no="8" tag_type="text">events cluster together. In summary, deep audio representations</text>
+<text top="516" left="58" width="227" height="8" font="font7" id="p4_t81" reading_order_no="80" segment_no="8" tag_type="text">from large scale SED task may directly be used to learn semantic</text>
+<text top="527" left="58" width="227" height="8" font="font7" id="p4_t82" reading_order_no="81" segment_no="8" tag_type="text">relationships among human-actions using a linear classification</text>
+<text top="537" left="58" width="79" height="8" font="font7" id="p4_t83" reading_order_no="82" segment_no="8" tag_type="text">transfer methodology.</text>
+<text top="559" left="58" width="224" height="8" font="font8" id="p4_t84" reading_order_no="83" segment_no="9" tag_type="title">5.2. Correlation Between Target Labels and Sound Events</text>
+<text top="576" left="57" width="227" height="8" font="font7" id="p4_t85" reading_order_no="84" segment_no="11" tag_type="text">While we have shown that the audio representations from our</text>
+<text top="586" left="58" width="227" height="8" font="font7" id="p4_t86" reading_order_no="85" segment_no="11" tag_type="text">source task contain adequate information for recognizing music</text>
+<text top="597" left="58" width="228" height="8" font="font7" id="p4_t87" reading_order_no="86" segment_no="11" tag_type="text">tags and actions, it is hard to interpret and rationalize the evi-</text>
+<text top="607" left="58" width="227" height="8" font="font7" id="p4_t88" reading_order_no="87" segment_no="11" tag_type="text">dence that the transfer learning models use to predict a target</text>
+<text top="617" left="58" width="227" height="8" font="font7" id="p4_t89" reading_order_no="88" segment_no="11" tag_type="text">label. To understand this, we study the correlation between the</text>
+<text top="628" left="58" width="227" height="8" font="font7" id="p4_t90" reading_order_no="89" segment_no="11" tag_type="text">target labels and sound events to see if predictions of target labels</text>
+<text top="638" left="58" width="216" height="8" font="font7" id="p4_t91" reading_order_no="90" segment_no="11" tag_type="text">are often supported by the existence of certain sound events.</text>
+<text top="650" left="73" width="212" height="8" font="font7" id="p4_t92" reading_order_no="91" segment_no="13" tag_type="text">We compute the cosine similarity between the following</text>
+<text top="660" left="58" width="70" height="8" font="font7" id="p4_t93" reading_order_no="92" segment_no="13" tag_type="text">two sets of vectors:</text>
+<text top="660" left="130" width="5" height="8" font="font11" id="p4_t94" reading_order_no="93" segment_no="13" tag_type="text">1</text>
+<text top="660" left="135" width="3" height="8" font="font13" id="p4_t95" reading_order_no="94" segment_no="13" tag_type="text">,</text>
+<text top="660" left="139" width="14" height="8" font="font11" id="p4_t96" reading_order_no="95" segment_no="13" tag_type="text">024</text>
+<text top="660" left="153" width="132" height="8" font="font7" id="p4_t97" reading_order_no="96" segment_no="13" tag_type="text">-D representations of music tags and</text>
+<text top="671" left="58" width="227" height="8" font="font7" id="p4_t98" reading_order_no="97" segment_no="13" tag_type="text">actions, taken from the rows of the weight matrices of the two</text>
+<text top="681" left="58" width="93" height="8" font="font7" id="p4_t99" reading_order_no="98" segment_no="13" tag_type="text">linear classifiers; and the</text>
+<text top="681" left="153" width="5" height="8" font="font11" id="p4_t100" reading_order_no="99" segment_no="13" tag_type="text">1</text>
+<text top="681" left="158" width="3" height="8" font="font13" id="p4_t101" reading_order_no="100" segment_no="13" tag_type="text">,</text>
+<text top="681" left="162" width="14" height="8" font="font11" id="p4_t102" reading_order_no="101" segment_no="13" tag_type="text">024</text>
+<text top="681" left="176" width="92" height="8" font="font7" id="p4_t103" reading_order_no="102" segment_no="13" tag_type="text">-D representations of the</text>
+<text top="681" left="271" width="14" height="8" font="font11" id="p4_t104" reading_order_no="103" segment_no="13" tag_type="text">527</text>
+<text top="691" left="57" width="227" height="8" font="font7" id="p4_t105" reading_order_no="104" segment_no="13" tag_type="text">AudioSet sound events, taken from the rows of the weight matrix</text>
+<text top="702" left="58" width="227" height="8" font="font7" id="p4_t106" reading_order_no="105" segment_no="13" tag_type="text">of the final fully connected layer of TALNet. Before computing</text>
+<text top="712" left="58" width="227" height="8" font="font7" id="p4_t107" reading_order_no="106" segment_no="13" tag_type="text">the cosine similarity, we perform mean-variance normalization.</text>
+<text top="724" left="73" width="212" height="8" font="font7" id="p4_t108" reading_order_no="107" segment_no="14" tag_type="text">A part of the resulting cosine similarity matrix is shown in</text>
+<text top="734" left="58" width="227" height="8" font="font7" id="p4_t109" reading_order_no="108" segment_no="14" tag_type="text">Fig. <a href="deeplearning_paper34.html#4">4. </a>Rows represent sound events, and columns represent</text>
+<text top="222" left="335" width="33" height="8" font="font7" id="p4_t110" reading_order_no="109" segment_no="2" tag_type="figure">Figure 3:</text>
+<text top="222" left="371" width="146" height="8" font="font9" id="p4_t111" reading_order_no="110" segment_no="2" tag_type="figure">t-SNE plot of the Kinetics action classes.</text>
+<text top="259" left="356" width="26" height="6" font="font24" id="p4_t112" reading_order_no="111" segment_no="3" tag_type="figure">harp harpsichord classical classic solo strings violin cello</text>
+<text top="259" left="385" width="11" height="6" font="font26" id="p4_t113" reading_order_no="112" segment_no="3" tag_type="figure">male male vocal man male voice</text>
+<text top="259" left="400" width="11" height="6" font="font28" id="p4_t114" reading_order_no="113" segment_no="3" tag_type="figure">female voice female vocal woman female</text>
+<text top="259" left="418" width="26" height="6" font="font23" id="p4_t115" reading_order_no="114" segment_no="3" tag_type="figure">dribbling basketball juggling soccer ball passing soccer ball dunking basketball playing basketball shooting basketball dodgeball playing volleyball</text>
+<text top="259" left="448" width="22" height="6" font="font26" id="p4_t116" reading_order_no="115" segment_no="3" tag_type="figure">eating carrots eating spaghetti eating ice cream eating burger eating hotdog eating doughnuts eating watermelon</text>
+<text top="259" left="473" width="15" height="6" font="font27" id="p4_t117" reading_order_no="116" segment_no="3" tag_type="figure">massaging head massaging neck massaging feet massaging back massaging legs</text>
+<text top="259" left="491" width="26" height="6" font="font28" id="p4_t118" reading_order_no="117" segment_no="3" tag_type="figure">barbequing cooking scallops frying vegetables poaching eggs cooking egg cooking sausages cooking chicken scrambling eggs</text>
+<text top="264" left="334" width="17" height="6" font="font29" id="p4_t119" reading_order_no="118" segment_no="3" tag_type="figure">harpsichord</text>
+<text top="268" left="344" width="7" height="6" font="font29" id="p4_t120" reading_order_no="119" segment_no="3" tag_type="figure">harp</text>
+<text top="271" left="338" width="13" height="6" font="font29" id="p4_t121" reading_order_no="120" segment_no="3" tag_type="figure">pizzicato</text>
+<text top="275" left="343" width="8" height="6" font="font29" id="p4_t122" reading_order_no="121" segment_no="3" tag_type="figure">zither</text>
+<text top="279" left="334" width="17" height="6" font="font29" id="p4_t123" reading_order_no="122" segment_no="3" tag_type="figure">violin fiddle</text>
+<text top="282" left="331" width="20" height="6" font="font29" id="p4_t124" reading_order_no="123" segment_no="3" tag_type="figure">string section</text>
+<text top="286" left="315" width="36" height="6" font="font29" id="p4_t125" reading_order_no="124" segment_no="3" tag_type="figure">bowed string instrument</text>
+<text top="290" left="344" width="7" height="6" font="font29" id="p4_t126" reading_order_no="125" segment_no="3" tag_type="figure">cello</text>
+<text top="293" left="333" width="17" height="6" font="font29" id="p4_t127" reading_order_no="126" segment_no="3" tag_type="figure">double bass</text>
+<text top="297" left="332" width="19" height="6" font="font30" id="p4_t128" reading_order_no="127" segment_no="3" tag_type="figure">male singing</text>
+<text top="301" left="333" width="18" height="6" font="font31" id="p4_t129" reading_order_no="128" segment_no="3" tag_type="figure">child singing</text>
+<text top="304" left="330" width="21" height="6" font="font31" id="p4_t130" reading_order_no="129" segment_no="3" tag_type="figure">female singing</text>
+<text top="308" left="338" width="13" height="6" font="font32" id="p4_t131" reading_order_no="130" segment_no="3" tag_type="figure">bouncing</text>
+<text top="312" left="325" width="26" height="6" font="font32" id="p4_t132" reading_order_no="131" segment_no="3" tag_type="figure">basketball bounce</text>
+<text top="315" left="341" width="10" height="6" font="font30" id="p4_t133" reading_order_no="132" segment_no="3" tag_type="figure">crunch</text>
+<text top="319" left="321" width="30" height="6" font="font30" id="p4_t134" reading_order_no="133" segment_no="3" tag_type="figure">chewing mastication</text>
+<text top="323" left="343" width="8" height="6" font="font30" id="p4_t135" reading_order_no="134" segment_no="3" tag_type="figure">biting</text>
+<text top="326" left="329" width="21" height="6" font="font33" id="p4_t136" reading_order_no="135" segment_no="3" tag_type="figure">ambient music</text>
+<text top="330" left="329" width="22" height="6" font="font33" id="p4_t137" reading_order_no="136" segment_no="3" tag_type="figure">new age music</text>
+<text top="334" left="346" width="5" height="6" font="font31" id="p4_t138" reading_order_no="137" segment_no="3" tag_type="figure">stir</text>
+<text top="337" left="335" width="16" height="6" font="font31" id="p4_t139" reading_order_no="138" segment_no="3" tag_type="figure">frying food</text>
+<text top="341" left="343" width="8" height="6" font="font31" id="p4_t140" reading_order_no="139" segment_no="3" tag_type="figure">sizzle</text>
+<text top="328" left="531" width="6" height="7" font="font34" id="p4_t141" reading_order_no="144" segment_no="3" tag_type="figure">0.1</text>
+<text top="311" left="528" width="6" height="7" font="font34" id="p4_t142" reading_order_no="143" segment_no="3" tag_type="figure">0.0</text>
+<text top="295" left="528" width="6" height="7" font="font34" id="p4_t143" reading_order_no="142" segment_no="3" tag_type="figure">0.1</text>
+<text top="279" left="528" width="6" height="7" font="font34" id="p4_t144" reading_order_no="141" segment_no="3" tag_type="figure">0.2</text>
+<text top="263" left="528" width="6" height="7" font="font34" id="p4_t145" reading_order_no="140" segment_no="3" tag_type="figure">0.3</text>
+<text top="350" left="313" width="32" height="8" font="font7" id="p4_t146" reading_order_no="145" segment_no="6" tag_type="text">Figure 4:</text>
+<text top="350" left="347" width="192" height="8" font="font9" id="p4_t147" reading_order_no="146" segment_no="6" tag_type="text">Cosine similarity between some AudioSet sound events</text>
+<text top="361" left="312" width="227" height="8" font="font9" id="p4_t148" reading_order_no="147" segment_no="6" tag_type="text">(rows) and MagnaTagATune music tags / Kinetics700 actions</text>
+<text top="371" left="312" width="38" height="8" font="font9" id="p4_t149" reading_order_no="148" segment_no="6" tag_type="text">(columns).</text>
+<text top="386" left="313" width="228" height="8" font="font7" id="p4_t150" reading_order_no="149" segment_no="7" tag_type="text">music tags and actions. The rows and columns are sorted ac-</text>
+<text top="396" left="313" width="228" height="8" font="font7" id="p4_t151" reading_order_no="150" segment_no="7" tag_type="text">cording to the dendrograms produced by hierarchical clustering,</text>
+<text top="407" left="313" width="227" height="8" font="font7" id="p4_t152" reading_order_no="151" segment_no="7" tag_type="text">so that similar music tags, actions, and sound events are next to</text>
+<text top="417" left="313" width="228" height="8" font="font7" id="p4_t153" reading_order_no="152" segment_no="7" tag_type="text">each other. We can immediately recognize blocks of high sim-</text>
+<text top="428" left="313" width="72" height="8" font="font7" id="p4_t154" reading_order_no="153" segment_no="7" tag_type="text">ilarity values (often</text>
+<text top="427" left="387" width="7" height="8" font="font4" id="p4_t155" reading_order_no="154" segment_no="7" tag_type="text">≥</text>
+<text top="427" left="397" width="5" height="8" font="font11" id="p4_t156" reading_order_no="155" segment_no="7" tag_type="text">0</text>
+<text top="427" left="402" width="3" height="8" font="font13" id="p4_t157" reading_order_no="156" segment_no="7" tag_type="text">.</text>
+<text top="427" left="404" width="5" height="8" font="font11" id="p4_t158" reading_order_no="157" segment_no="7" tag_type="text">2</text>
+<text top="428" left="409" width="131" height="8" font="font7" id="p4_t159" reading_order_no="158" segment_no="7" tag_type="text">), manifesting themselves in yellow</text>
+<text top="438" left="313" width="227" height="8" font="font7" id="p4_t160" reading_order_no="159" segment_no="7" tag_type="text">and light green cells. Considering that two random vectors in</text>
+<text top="448" left="313" width="227" height="8" font="font7" id="p4_t161" reading_order_no="160" segment_no="7" tag_type="text">a high-dimensional space are usually nearly orthogonal, cosine</text>
+<text top="459" left="313" width="227" height="8" font="font7" id="p4_t162" reading_order_no="161" segment_no="7" tag_type="text">similarity values above 0.2 are remarkably large. This figure</text>
+<text top="469" left="313" width="227" height="8" font="font7" id="p4_t163" reading_order_no="162" segment_no="7" tag_type="text">demonstrates that many music tags or actions can be explained</text>
+<text top="480" left="313" width="227" height="8" font="font7" id="p4_t164" reading_order_no="163" segment_no="7" tag_type="text">by a single or a few sound events, and transfer learning is able to</text>
+<text top="490" left="313" width="227" height="8" font="font7" id="p4_t165" reading_order_no="164" segment_no="7" tag_type="text">discover such correspondences. For example, various actions of</text>
+<text top="500" left="313" width="227" height="8" font="font7" id="p4_t166" reading_order_no="165" segment_no="7" tag_type="text">cooking exhibit high similarity to events like “sizzle”; actions</text>
+<text top="511" left="313" width="228" height="8" font="font7" id="p4_t167" reading_order_no="166" segment_no="7" tag_type="text">of eating are characterized by “chewing”. Actions like mas-</text>
+<text top="521" left="313" width="227" height="8" font="font7" id="p4_t168" reading_order_no="167" segment_no="7" tag_type="text">saging are often accompanied by relaxing music such as “new</text>
+<text top="532" left="313" width="227" height="8" font="font7" id="p4_t169" reading_order_no="168" segment_no="7" tag_type="text">age music”, although the similarity is not as high. Overall, the</text>
+<text top="542" left="313" width="227" height="8" font="font7" id="p4_t170" reading_order_no="169" segment_no="7" tag_type="text">correlation analysis provides a quantifiable way to interpret the</text>
+<text top="553" left="313" width="228" height="8" font="font7" id="p4_t171" reading_order_no="170" segment_no="7" tag_type="text">correspondences between music tags, actions, and sound events.</text>
+<text top="574" left="389" width="73" height="11" font="font6" id="p4_t172" reading_order_no="171" segment_no="10" tag_type="title">6. Conclusion</text>
+<text top="592" left="312" width="227" height="8" font="font7" id="p4_t173" reading_order_no="172" segment_no="12" tag_type="text">We demonstrated that it is possible to transfer knowledge from</text>
+<text top="602" left="313" width="227" height="8" font="font7" id="p4_t174" reading_order_no="173" segment_no="12" tag_type="text">sound event detection (SED) task to a wide range of other audio</text>
+<text top="613" left="313" width="227" height="8" font="font7" id="p4_t175" reading_order_no="174" segment_no="12" tag_type="text">tasks, including acoustic scene classification, music tagging and</text>
+<text top="623" left="313" width="227" height="8" font="font7" id="p4_t176" reading_order_no="175" segment_no="12" tag_type="text">human action recognition. Using a simple linear classifier on</text>
+<text top="633" left="313" width="227" height="8" font="font7" id="p4_t177" reading_order_no="176" segment_no="12" tag_type="text">audio representations obtained from SED models, we are able</text>
+<text top="644" left="313" width="227" height="8" font="font7" id="p4_t178" reading_order_no="177" segment_no="12" tag_type="text">to achieve performance that is comparable or better than the</text>
+<text top="654" left="313" width="227" height="8" font="font7" id="p4_t179" reading_order_no="178" segment_no="12" tag_type="text">state of the art on several datasets. The linear classification</text>
+<text top="665" left="313" width="227" height="8" font="font7" id="p4_t180" reading_order_no="179" segment_no="12" tag_type="text">system also provides a lucid way to interpret the suitability</text>
+<text top="675" left="313" width="227" height="8" font="font7" id="p4_t181" reading_order_no="180" segment_no="12" tag_type="text">of these representations for target tasks. By visualizing the</text>
+<text top="685" left="313" width="227" height="8" font="font7" id="p4_t182" reading_order_no="181" segment_no="12" tag_type="text">classifier learned representations learned for target tasks, we</text>
+<text top="696" left="313" width="227" height="8" font="font7" id="p4_t183" reading_order_no="182" segment_no="12" tag_type="text">found meaningful structures that reflect proximity relationships</text>
+<text top="706" left="313" width="227" height="8" font="font7" id="p4_t184" reading_order_no="183" segment_no="12" tag_type="text">among music genres, instruments, moods, as well as various</text>
+<text top="717" left="313" width="227" height="8" font="font7" id="p4_t185" reading_order_no="184" segment_no="12" tag_type="text">human actions. Lastly, it was possible to identify the unique</text>
+<text top="727" left="313" width="228" height="8" font="font7" id="p4_t186" reading_order_no="185" segment_no="12" tag_type="text">sound events that contribute to the learning of downstream tasks.</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="841" width="595">
+	<fontspec id="font35" size="8" family="NimbusRomNo9L-ReguItal" color="#000000"/>
+<text top="76" left="135" width="72" height="11" font="font6" id="p5_t1" reading_order_no="0" segment_no="0" tag_type="title">7. References</text>
+<text top="93" left="62" width="223" height="7" font="font10" id="p5_t2" reading_order_no="1" segment_no="2" tag_type="text">[1] Y. Wang, Q. Yao, J. T. Kwok, and L. M. Ni, “Generalizing from a</text>
+<text top="102" left="76" width="152" height="7" font="font10" id="p5_t3" reading_order_no="2" segment_no="2" tag_type="text">few examples: A survey on few-shot learning,”</text>
+<text top="102" left="230" width="55" height="7" font="font35" id="p5_t4" reading_order_no="3" segment_no="2" tag_type="text">ACM Computing</text>
+<text top="111" left="76" width="52" height="7" font="font35" id="p5_t5" reading_order_no="4" segment_no="2" tag_type="text">Surveys (CSUR)</text>
+<text top="111" left="127" width="22" height="7" font="font10" id="p5_t6" reading_order_no="5" segment_no="2" tag_type="text">, 2020.</text>
+<text top="123" left="62" width="224" height="7" font="font10" id="p5_t7" reading_order_no="6" segment_no="4" tag_type="text">[2] K. Lee, X. He, L. Zhang, and L. Yang, “CleanNet: Transfer learn-</text>
+<text top="132" left="76" width="190" height="7" font="font10" id="p5_t8" reading_order_no="7" segment_no="4" tag_type="text">ing for scalable image classifier training with label noise,” in</text>
+<text top="132" left="267" width="17" height="7" font="font35" id="p5_t9" reading_order_no="8" segment_no="4" tag_type="text">IEEE</text>
+<text top="141" left="76" width="20" height="7" font="font35" id="p5_t10" reading_order_no="9" segment_no="4" tag_type="text">CVPR</text>
+<text top="141" left="96" width="22" height="7" font="font10" id="p5_t11" reading_order_no="10" segment_no="4" tag_type="text">, 2018.</text>
+<text top="153" left="62" width="223" height="7" font="font10" id="p5_t12" reading_order_no="11" segment_no="6" tag_type="text">[3] K. Weiss, T. M. Khoshgoftaar, and D. Wang, “A survey of transfer</text>
+<text top="162" left="76" width="31" height="7" font="font10" id="p5_t13" reading_order_no="12" segment_no="6" tag_type="text">learning,”</text>
+<text top="162" left="109" width="64" height="7" font="font35" id="p5_t14" reading_order_no="13" segment_no="6" tag_type="text">Journal of Big Data</text>
+<text top="162" left="173" width="22" height="7" font="font10" id="p5_t15" reading_order_no="14" segment_no="6" tag_type="text">, 2016.</text>
+<text top="174" left="62" width="223" height="7" font="font10" id="p5_t16" reading_order_no="15" segment_no="7" tag_type="text">[4] C. Tan, F. Sun, T. Kong, W. Zhang, C. Yang, and C. Liu, “A survey</text>
+<text top="183" left="76" width="90" height="7" font="font10" id="p5_t17" reading_order_no="16" segment_no="7" tag_type="text">on deep transfer learning,” in</text>
+<text top="183" left="167" width="117" height="7" font="font35" id="p5_t18" reading_order_no="17" segment_no="7" tag_type="text">International Conference on Artificial</text>
+<text top="192" left="76" width="54" height="7" font="font35" id="p5_t19" reading_order_no="18" segment_no="7" tag_type="text">Neural Networks</text>
+<text top="192" left="130" width="2" height="7" font="font10" id="p5_t20" reading_order_no="19" segment_no="7" tag_type="text">.</text>
+<text top="192" left="140" width="93" height="7" font="font10" id="p5_t21" reading_order_no="20" segment_no="7" tag_type="text">Springer, 2018, pp. 270–279.</text>
+<text top="204" left="62" width="224" height="7" font="font10" id="p5_t22" reading_order_no="21" segment_no="9" tag_type="text">[5] X. Zhai, J. Puigcerver, A. Kolesnikov, P. Ruyssen, C. Riquelme,</text>
+<text top="213" left="76" width="209" height="7" font="font10" id="p5_t23" reading_order_no="22" segment_no="9" tag_type="text">M. Lucic, J. Djolonga, A. Pinto, M. Neumann, A. Dosovitskiy</text>
+<text top="222" left="76" width="15" height="7" font="font35" id="p5_t24" reading_order_no="23" segment_no="9" tag_type="text">et al.</text>
+<text top="222" left="91" width="193" height="7" font="font10" id="p5_t25" reading_order_no="24" segment_no="9" tag_type="text">, “A large-scale study of representation learning with the visual</text>
+<text top="231" left="76" width="94" height="7" font="font10" id="p5_t26" reading_order_no="25" segment_no="9" tag_type="text">task adaptation benchmark,”</text>
+<text top="231" left="173" width="110" height="7" font="font35" id="p5_t27" reading_order_no="26" segment_no="9" tag_type="text">arXiv preprint arXiv:1910.04867</text>
+<text top="231" left="283" width="2" height="7" font="font10" id="p5_t28" reading_order_no="27" segment_no="9" tag_type="text">,</text>
+<text top="240" left="76" width="18" height="7" font="font10" id="p5_t29" reading_order_no="28" segment_no="9" tag_type="text">2019.</text>
+<text top="252" left="62" width="224" height="7" font="font10" id="p5_t30" reading_order_no="29" segment_no="12" tag_type="text">[6] G. Csurka, “Domain adaptation for visual applications: A compre-</text>
+<text top="261" left="76" width="51" height="7" font="font10" id="p5_t31" reading_order_no="30" segment_no="12" tag_type="text">hensive survey,”</text>
+<text top="261" left="129" width="106" height="7" font="font35" id="p5_t32" reading_order_no="31" segment_no="12" tag_type="text">arXiv preprint arXiv:1702.05374</text>
+<text top="261" left="235" width="22" height="7" font="font10" id="p5_t33" reading_order_no="32" segment_no="12" tag_type="text">, 2017.</text>
+<text top="273" left="62" width="223" height="7" font="font10" id="p5_t34" reading_order_no="33" segment_no="13" tag_type="text">[7] A. R. Zamir, A. Sax, W. Shen, L. J. Guibas, J. Malik, and</text>
+<text top="282" left="76" width="209" height="7" font="font10" id="p5_t35" reading_order_no="34" segment_no="13" tag_type="text">S. Savarese, “Taskonomy: Disentangling task transfer learning,” in</text>
+<text top="291" left="76" width="39" height="7" font="font35" id="p5_t36" reading_order_no="35" segment_no="13" tag_type="text">IEEE CVPR</text>
+<text top="291" left="115" width="22" height="7" font="font10" id="p5_t37" reading_order_no="36" segment_no="13" tag_type="text">, 2018.</text>
+<text top="303" left="62" width="223" height="7" font="font10" id="p5_t38" reading_order_no="37" segment_no="15" tag_type="text">[8] A. B. Sargano, X. Wang, P. Angelov, and Z. Habib, “Human action</text>
+<text top="312" left="76" width="209" height="7" font="font10" id="p5_t39" reading_order_no="38" segment_no="15" tag_type="text">recognition using transfer learning with deep representations,” in</text>
+<text top="321" left="76" width="188" height="7" font="font35" id="p5_t40" reading_order_no="39" segment_no="15" tag_type="text">International Joint Conference on Neural Networks (IJCNN)</text>
+<text top="321" left="264" width="21" height="7" font="font10" id="p5_t41" reading_order_no="40" segment_no="15" tag_type="text">, 2017,</text>
+<text top="330" left="76" width="42" height="7" font="font10" id="p5_t42" reading_order_no="41" segment_no="15" tag_type="text">pp. 463–469.</text>
+<text top="342" left="62" width="223" height="7" font="font10" id="p5_t43" reading_order_no="42" segment_no="17" tag_type="text">[9] A. Kumar, M. Khadkevich, and C. F¨ugen, “Knowledge transfer</text>
+<text top="351" left="76" width="209" height="7" font="font10" id="p5_t44" reading_order_no="43" segment_no="17" tag_type="text">from weakly labeled audio using convolutional neural network for</text>
+<text top="360" left="76" width="91" height="7" font="font10" id="p5_t45" reading_order_no="44" segment_no="17" tag_type="text">sound events and scenes,” in</text>
+<text top="360" left="168" width="26" height="7" font="font35" id="p5_t46" reading_order_no="45" segment_no="17" tag_type="text">ICASSP</text>
+<text top="360" left="194" width="66" height="7" font="font10" id="p5_t47" reading_order_no="46" segment_no="17" tag_type="text">, 2018, pp. 326–330.</text>
+<text top="372" left="58" width="227" height="7" font="font10" id="p5_t48" reading_order_no="47" segment_no="19" tag_type="text">[10] P. Arora and R. Haeb-Umbach, “A study on transfer learning for</text>
+<text top="381" left="76" width="170" height="7" font="font10" id="p5_t49" reading_order_no="48" segment_no="19" tag_type="text">acoustic event detection in a real life scenario,” in</text>
+<text top="381" left="249" width="35" height="7" font="font35" id="p5_t50" reading_order_no="49" segment_no="19" tag_type="text">IEEE 19th</text>
+<text top="390" left="76" width="208" height="7" font="font35" id="p5_t51" reading_order_no="50" segment_no="19" tag_type="text">International Workshop on Multimedia Signal Processing (MMSP)</text>
+<text top="390" left="283" width="2" height="7" font="font10" id="p5_t52" reading_order_no="51" segment_no="19" tag_type="text">,</text>
+<text top="399" left="76" width="46" height="7" font="font10" id="p5_t53" reading_order_no="52" segment_no="19" tag_type="text">2017, pp. 1–6.</text>
+<text top="411" left="58" width="228" height="7" font="font10" id="p5_t54" reading_order_no="53" segment_no="21" tag_type="text">[11] Q. Kong, Y. Cao, T. Iqbal, Y. Wang, W. Wang, and M. D. Plumbley,</text>
+<text top="420" left="75" width="210" height="7" font="font10" id="p5_t55" reading_order_no="54" segment_no="21" tag_type="text">“Panns: Large-scale pretrained audio neural networks for audio</text>
+<text top="429" left="76" width="65" height="7" font="font10" id="p5_t56" reading_order_no="55" segment_no="21" tag_type="text">pattern recognition,”</text>
+<text top="429" left="143" width="106" height="7" font="font35" id="p5_t57" reading_order_no="56" segment_no="21" tag_type="text">arXiv preprint arXiv:1912.10211</text>
+<text top="429" left="249" width="22" height="7" font="font10" id="p5_t58" reading_order_no="57" segment_no="21" tag_type="text">, 2019.</text>
+<text top="441" left="58" width="227" height="7" font="font10" id="p5_t59" reading_order_no="58" segment_no="23" tag_type="text">[12] J. Lee and J. Nam, “Multi-level and multi-scale feature aggregation</text>
+<text top="450" left="76" width="210" height="7" font="font10" id="p5_t60" reading_order_no="59" segment_no="23" tag_type="text">using pretrained convolutional neural networks for music auto-</text>
+<text top="459" left="76" width="29" height="7" font="font10" id="p5_t61" reading_order_no="60" segment_no="23" tag_type="text">tagging,”</text>
+<text top="459" left="107" width="101" height="7" font="font35" id="p5_t62" reading_order_no="61" segment_no="23" tag_type="text">IEEE Signal Processing Letters</text>
+<text top="459" left="207" width="22" height="7" font="font10" id="p5_t63" reading_order_no="62" segment_no="23" tag_type="text">, 2017.</text>
+<text top="471" left="58" width="227" height="7" font="font10" id="p5_t64" reading_order_no="63" segment_no="25" tag_type="text">[13] S. Latif, R. Rana, S. Younis, J. Qadir, and J. Epps, “Transfer</text>
+<text top="480" left="76" width="210" height="7" font="font10" id="p5_t65" reading_order_no="64" segment_no="25" tag_type="text">learning for improving speech emotion classification accuracy,”</text>
+<text top="489" left="76" width="106" height="7" font="font35" id="p5_t66" reading_order_no="65" segment_no="25" tag_type="text">arXiv preprint arXiv:1801.06353</text>
+<text top="489" left="182" width="22" height="7" font="font10" id="p5_t67" reading_order_no="66" segment_no="25" tag_type="text">, 2018.</text>
+<text top="501" left="58" width="228" height="7" font="font10" id="p5_t68" reading_order_no="67" segment_no="26" tag_type="text">[14] J. Gemmeke, D. Ellis, D. Freedman, A. Jansen, W. Lawrence, R. C.</text>
+<text top="510" left="76" width="209" height="7" font="font10" id="p5_t69" reading_order_no="68" segment_no="26" tag_type="text">Moore, M. Plakal, and M. Ritter, “Audio Set: An ontology and</text>
+<text top="519" left="76" width="145" height="7" font="font10" id="p5_t70" reading_order_no="69" segment_no="26" tag_type="text">human-labeled dataset for audio events,” in</text>
+<text top="519" left="223" width="26" height="7" font="font35" id="p5_t71" reading_order_no="70" segment_no="26" tag_type="text">ICASSP</text>
+<text top="519" left="249" width="36" height="7" font="font10" id="p5_t72" reading_order_no="71" segment_no="26" tag_type="text">, 2017, pp.</text>
+<text top="528" left="76" width="30" height="7" font="font10" id="p5_t73" reading_order_no="72" segment_no="26" tag_type="text">776–780.</text>
+<text top="540" left="58" width="227" height="7" font="font10" id="p5_t74" reading_order_no="73" segment_no="29" tag_type="text">[15] Y. Wang, J. Li, and F. Metze, “A comparison of five multiple</text>
+<text top="549" left="76" width="209" height="7" font="font10" id="p5_t75" reading_order_no="74" segment_no="29" tag_type="text">instance learning pooling functions for sound event detection with</text>
+<text top="558" left="76" width="58" height="7" font="font10" id="p5_t76" reading_order_no="75" segment_no="29" tag_type="text">weak labeling,” in</text>
+<text top="558" left="135" width="26" height="7" font="font35" id="p5_t77" reading_order_no="76" segment_no="29" tag_type="text">ICASSP</text>
+<text top="558" left="161" width="58" height="7" font="font10" id="p5_t78" reading_order_no="77" segment_no="29" tag_type="text">, 2019, pp. 31–35.</text>
+<text top="570" left="58" width="227" height="7" font="font10" id="p5_t79" reading_order_no="78" segment_no="30" tag_type="text">[16] A. Kumar and V. Ithapu, “A sequential self teaching approach for</text>
+<text top="579" left="76" width="181" height="7" font="font10" id="p5_t80" reading_order_no="79" segment_no="30" tag_type="text">improving generalization in sound event recognition,” in</text>
+<text top="579" left="259" width="26" height="7" font="font35" id="p5_t81" reading_order_no="80" segment_no="30" tag_type="text">Interna-</text>
+<text top="588" left="76" width="156" height="7" font="font35" id="p5_t82" reading_order_no="81" segment_no="30" tag_type="text">tional Conference on Machine Learning (ICML)</text>
+<text top="588" left="231" width="2" height="7" font="font10" id="p5_t83" reading_order_no="82" segment_no="30" tag_type="text">.</text>
+<text top="588" left="241" width="44" height="7" font="font10" id="p5_t84" reading_order_no="83" segment_no="30" tag_type="text">PMLR, 2020,</text>
+<text top="597" left="76" width="50" height="7" font="font10" id="p5_t85" reading_order_no="84" segment_no="30" tag_type="text">pp. 5447–5457.</text>
+<text top="609" left="58" width="228" height="7" font="font10" id="p5_t86" reading_order_no="85" segment_no="31" tag_type="text">[17] K. Piczak, “ESC: Dataset for environmental sound classification,”</text>
+<text top="618" left="76" width="6" height="7" font="font10" id="p5_t87" reading_order_no="86" segment_no="31" tag_type="text">in</text>
+<text top="618" left="84" width="167" height="7" font="font35" id="p5_t88" reading_order_no="87" segment_no="31" tag_type="text">23rd ACM International Conference on Multimedia</text>
+<text top="618" left="251" width="34" height="7" font="font10" id="p5_t89" reading_order_no="88" segment_no="31" tag_type="text">, 2015, pp.</text>
+<text top="627" left="75" width="38" height="7" font="font10" id="p5_t90" reading_order_no="89" segment_no="31" tag_type="text">1015–1018.</text>
+<text top="639" left="58" width="227" height="7" font="font10" id="p5_t91" reading_order_no="90" segment_no="32" tag_type="text">[18] J. Salamon, C. Jacoby, and J. Bello, “A dataset and taxonomy for</text>
+<text top="648" left="76" width="80" height="7" font="font10" id="p5_t92" reading_order_no="91" segment_no="32" tag_type="text">urban sound research,” in</text>
+<text top="648" left="158" width="126" height="7" font="font35" id="p5_t93" reading_order_no="92" segment_no="32" tag_type="text">22nd ACM International Conference on</text>
+<text top="657" left="76" width="37" height="7" font="font35" id="p5_t94" reading_order_no="93" segment_no="32" tag_type="text">Multimedia</text>
+<text top="657" left="112" width="74" height="7" font="font10" id="p5_t95" reading_order_no="94" segment_no="32" tag_type="text">, 2014, pp. 1041–1044.</text>
+<text top="669" left="58" width="227" height="7" font="font10" id="p5_t96" reading_order_no="95" segment_no="33" tag_type="text">[19] E. Fonseca, M. Plakal, F. Font, D. Ellis, and X. Serra, “Audio</text>
+<text top="678" left="76" width="162" height="7" font="font10" id="p5_t97" reading_order_no="96" segment_no="33" tag_type="text">tagging with noisy labels and minimal supervision,”</text>
+<text top="678" left="240" width="45" height="7" font="font35" id="p5_t98" reading_order_no="97" segment_no="33" tag_type="text">arXiv preprint</text>
+<text top="687" left="76" width="58" height="7" font="font35" id="p5_t99" reading_order_no="98" segment_no="33" tag_type="text">arXiv:1906.02975</text>
+<text top="687" left="134" width="22" height="7" font="font10" id="p5_t100" reading_order_no="99" segment_no="33" tag_type="text">, 2019.</text>
+<text top="699" left="58" width="227" height="7" font="font10" id="p5_t101" reading_order_no="100" segment_no="34" tag_type="text">[20] A. Mesaros, T. Heittola, and T. Virtanen, “A multi-device</text>
+<text top="708" left="76" width="173" height="7" font="font10" id="p5_t102" reading_order_no="101" segment_no="34" tag_type="text">dataset for urban acoustic scene classification,” in</text>
+<text top="708" left="253" width="32" height="7" font="font35" id="p5_t103" reading_order_no="102" segment_no="34" tag_type="text">Detection</text>
+<text top="717" left="76" width="209" height="7" font="font35" id="p5_t104" reading_order_no="103" segment_no="34" tag_type="text">and Classification of Acoustic Scenes and Events 2018</text>
+<text top="726" left="75" width="82" height="7" font="font35" id="p5_t105" reading_order_no="104" segment_no="34" tag_type="text">Workshop (DCASE2018)</text>
+<text top="726" left="157" width="128" height="7" font="font10" id="p5_t106" reading_order_no="105" segment_no="34" tag_type="text">, November 2018. [Online]. Available:</text>
+<text top="735" left="76" width="103" height="7" font="font10" id="p5_t107" reading_order_no="106" segment_no="34" tag_type="text"><a href="https://arxiv.org/abs/1807.09840">https://arxiv.org/abs/1807.09840</a></text>
+<text top="79" left="313" width="227" height="7" font="font10" id="p5_t108" reading_order_no="107" segment_no="1" tag_type="text">[21] E. Law, K. West, M. Mandel, M. Bay, and J. Downie, “Evaluation</text>
+<text top="88" left="331" width="185" height="7" font="font10" id="p5_t109" reading_order_no="108" segment_no="1" tag_type="text">of algorithms using games: The case of music tagging.” in</text>
+<text top="88" left="518" width="21" height="7" font="font35" id="p5_t110" reading_order_no="109" segment_no="1" tag_type="text">ISMIR</text>
+<text top="88" left="539" width="2" height="7" font="font10" id="p5_t111" reading_order_no="110" segment_no="1" tag_type="text">,</text>
+<text top="97" left="331" width="62" height="7" font="font10" id="p5_t112" reading_order_no="111" segment_no="1" tag_type="text">2009, pp. 387–392.</text>
+<text top="110" left="313" width="228" height="7" font="font10" id="p5_t113" reading_order_no="112" segment_no="3" tag_type="text">[22] W. Kay, J. Carreira, K. Simonyan, B. Zhang, C. Hillier, S. Vi-</text>
+<text top="119" left="331" width="187" height="7" font="font10" id="p5_t114" reading_order_no="113" segment_no="3" tag_type="text">jayanarasimhan, F. Viola, T. Green, T. Back, P. Natsev</text>
+<text top="119" left="521" width="17" height="7" font="font35" id="p5_t115" reading_order_no="114" segment_no="3" tag_type="text">et al.</text>
+<text top="119" left="538" width="2" height="7" font="font10" id="p5_t116" reading_order_no="115" segment_no="3" tag_type="text">,</text>
+<text top="127" left="330" width="155" height="7" font="font10" id="p5_t117" reading_order_no="116" segment_no="3" tag_type="text">“The Kinetics human action video dataset,”</text>
+<text top="128" left="490" width="49" height="7" font="font35" id="p5_t118" reading_order_no="117" segment_no="3" tag_type="text">arXiv preprint</text>
+<text top="137" left="331" width="58" height="7" font="font35" id="p5_t119" reading_order_no="118" segment_no="3" tag_type="text">arXiv:1705.06950</text>
+<text top="136" left="389" width="22" height="7" font="font10" id="p5_t120" reading_order_no="119" segment_no="3" tag_type="text">, 2017.</text>
+<text top="149" left="313" width="228" height="7" font="font10" id="p5_t121" reading_order_no="120" segment_no="5" tag_type="text">[23] B. Ghanem, J. C. Niebles, C. Snoek, F. C. Heilbron, H. Alwassel,</text>
+<text top="158" left="331" width="209" height="7" font="font10" id="p5_t122" reading_order_no="121" segment_no="5" tag_type="text">V. Escorcia, R. Krishna, S. Buch, and C. D. Dao, “The ActivityNet</text>
+<text top="167" left="331" width="188" height="7" font="font10" id="p5_t123" reading_order_no="122" segment_no="5" tag_type="text">large-scale activity recognition challenge 2018 summary,”</text>
+<text top="168" left="521" width="18" height="7" font="font35" id="p5_t124" reading_order_no="123" segment_no="5" tag_type="text">arXiv</text>
+<text top="177" left="331" width="86" height="7" font="font35" id="p5_t125" reading_order_no="124" segment_no="5" tag_type="text">preprint arXiv:1808.03766</text>
+<text top="176" left="417" width="22" height="7" font="font10" id="p5_t126" reading_order_no="125" segment_no="5" tag_type="text">, 2018.</text>
+<text top="189" left="313" width="228" height="7" font="font10" id="p5_t127" reading_order_no="126" segment_no="8" tag_type="text">[24] F. Xiao, Y. J. Lee, K. Grauman, J. Malik, and C. Feichtenhofer, “Au-</text>
+<text top="198" left="331" width="162" height="7" font="font10" id="p5_t128" reading_order_no="127" segment_no="8" tag_type="text">diovisual SlowFast networks for video recognition,”</text>
+<text top="198" left="495" width="45" height="7" font="font35" id="p5_t129" reading_order_no="128" segment_no="8" tag_type="text">arXiv preprint</text>
+<text top="207" left="331" width="58" height="7" font="font35" id="p5_t130" reading_order_no="129" segment_no="8" tag_type="text">arXiv:2001.08740</text>
+<text top="207" left="389" width="22" height="7" font="font10" id="p5_t131" reading_order_no="130" segment_no="8" tag_type="text">, 2020.</text>
+<text top="220" left="313" width="228" height="7" font="font10" id="p5_t132" reading_order_no="131" segment_no="10" tag_type="text">[25] J. Deng, W. Dong, R. Socher, L. Li, K. Li, and L. Fei-Fei, “Ima-</text>
+<text top="229" left="331" width="167" height="7" font="font10" id="p5_t133" reading_order_no="132" segment_no="10" tag_type="text">geNet: A large-scale hierarchical image database,” in</text>
+<text top="229" left="500" width="39" height="7" font="font35" id="p5_t134" reading_order_no="133" segment_no="10" tag_type="text">IEEE CVPR</text>
+<text top="229" left="539" width="2" height="7" font="font10" id="p5_t135" reading_order_no="134" segment_no="10" tag_type="text">,</text>
+<text top="238" left="331" width="62" height="7" font="font10" id="p5_t136" reading_order_no="135" segment_no="10" tag_type="text">2009, pp. 248–255.</text>
+<text top="251" left="313" width="228" height="7" font="font10" id="p5_t137" reading_order_no="136" segment_no="11" tag_type="text">[26] L. Ford, H. Tang, F. Grondin, and J. R. Glass, “A deep residual net-</text>
+<text top="260" left="331" width="154" height="7" font="font10" id="p5_t138" reading_order_no="137" segment_no="11" tag_type="text">work for large-scale acoustic scene analysis.” in</text>
+<text top="260" left="486" width="52" height="7" font="font35" id="p5_t139" reading_order_no="138" segment_no="11" tag_type="text">INTERSPEECH</text>
+<text top="260" left="538" width="2" height="7" font="font10" id="p5_t140" reading_order_no="139" segment_no="11" tag_type="text">,</text>
+<text top="269" left="331" width="70" height="7" font="font10" id="p5_t141" reading_order_no="140" segment_no="11" tag_type="text">2019, pp. 2568–2572.</text>
+<text top="282" left="313" width="228" height="7" font="font10" id="p5_t142" reading_order_no="141" segment_no="14" tag_type="text">[27] K. Palanisamy, D. Singhania, and A. Yao, “Rethinking CNN mod-</text>
+<text top="291" left="331" width="94" height="7" font="font10" id="p5_t143" reading_order_no="142" segment_no="14" tag_type="text">els for audio classification,”</text>
+<text top="291" left="428" width="110" height="7" font="font35" id="p5_t144" reading_order_no="143" segment_no="14" tag_type="text">arXiv preprint arXiv:2007.11154</text>
+<text top="291" left="538" width="2" height="7" font="font10" id="p5_t145" reading_order_no="144" segment_no="14" tag_type="text">,</text>
+<text top="300" left="331" width="18" height="7" font="font10" id="p5_t146" reading_order_no="145" segment_no="14" tag_type="text">2020.</text>
+<text top="313" left="313" width="228" height="7" font="font10" id="p5_t147" reading_order_no="146" segment_no="16" tag_type="text">[28] Z. Qiu, D. Li, Y. Li, Q. Cai, Y. Pan, and T. Yao, “Trimmed ac-</text>
+<text top="322" left="331" width="210" height="7" font="font10" id="p5_t148" reading_order_no="147" segment_no="16" tag_type="text">tion recognition, dense-captioning events in videos, and spatio-</text>
+<text top="331" left="331" width="209" height="7" font="font10" id="p5_t149" reading_order_no="148" segment_no="16" tag_type="text">temporal action localization with focus on activitynet challenge</text>
+<text top="340" left="331" width="21" height="7" font="font10" id="p5_t150" reading_order_no="149" segment_no="16" tag_type="text">2019,”</text>
+<text top="340" left="354" width="106" height="7" font="font35" id="p5_t151" reading_order_no="150" segment_no="16" tag_type="text">arXiv preprint arXiv:1906.07016</text>
+<text top="340" left="460" width="22" height="7" font="font10" id="p5_t152" reading_order_no="151" segment_no="16" tag_type="text">, 2019.</text>
+<text top="353" left="313" width="227" height="7" font="font10" id="p5_t153" reading_order_no="152" segment_no="18" tag_type="text">[29] S. Dieleman and B. Schrauwen, “End-to-end learning for music</text>
+<text top="362" left="331" width="31" height="7" font="font10" id="p5_t154" reading_order_no="153" segment_no="18" tag_type="text">audio,” in</text>
+<text top="362" left="364" width="26" height="7" font="font35" id="p5_t155" reading_order_no="154" segment_no="18" tag_type="text">ICASSP</text>
+<text top="362" left="390" width="22" height="7" font="font10" id="p5_t156" reading_order_no="155" segment_no="18" tag_type="text">, 2014.</text>
+<text top="375" left="313" width="228" height="7" font="font10" id="p5_t157" reading_order_no="156" segment_no="20" tag_type="text">[30] Z. Wang, S. Muknahallipatna, M. Fan, A. Okray, and C. Lan, “Mu-</text>
+<text top="384" left="331" width="209" height="7" font="font10" id="p5_t158" reading_order_no="157" segment_no="20" tag_type="text">sic classification using an improved CRNN with multi-directional</text>
+<text top="393" left="331" width="209" height="7" font="font10" id="p5_t159" reading_order_no="158" segment_no="20" tag_type="text">spatial dependencies in both time and frequency dimensions,” in</text>
+<text top="402" left="331" width="188" height="7" font="font35" id="p5_t160" reading_order_no="159" segment_no="20" tag_type="text">International Joint Conference on Neural Networks (IJCNN)</text>
+<text top="402" left="519" width="21" height="7" font="font10" id="p5_t161" reading_order_no="160" segment_no="20" tag_type="text">, 2019,</text>
+<text top="411" left="331" width="26" height="7" font="font10" id="p5_t162" reading_order_no="161" segment_no="20" tag_type="text">pp. 1–8.</text>
+<text top="424" left="313" width="227" height="7" font="font10" id="p5_t163" reading_order_no="162" segment_no="22" tag_type="text">[31] Q. Wang, F. Su, and Y. Wang, “Hierarchical attentive deep neural</text>
+<text top="433" left="331" width="209" height="7" font="font10" id="p5_t164" reading_order_no="163" segment_no="22" tag_type="text">networks for semantic music annotation through multiple music</text>
+<text top="442" left="331" width="53" height="7" font="font10" id="p5_t165" reading_order_no="164" segment_no="22" tag_type="text">representations,”</text>
+<text top="442" left="386" width="154" height="7" font="font35" id="p5_t166" reading_order_no="165" segment_no="22" tag_type="text">International Journal of Multimedia Information</text>
+<text top="451" left="331" width="29" height="7" font="font35" id="p5_t167" reading_order_no="166" segment_no="22" tag_type="text">Retrieval</text>
+<text top="451" left="360" width="96" height="7" font="font10" id="p5_t168" reading_order_no="167" segment_no="22" tag_type="text">, vol. 9, no. 1, pp. 3–16, 2020.</text>
+<text top="464" left="313" width="227" height="7" font="font10" id="p5_t169" reading_order_no="168" segment_no="24" tag_type="text">[32] D. Park, W. Chan, Y. Zhang, C. Chiu, B. Zoph, E. Cubuk, and</text>
+<text top="473" left="331" width="209" height="7" font="font10" id="p5_t170" reading_order_no="169" segment_no="24" tag_type="text">Q. Le, “SpecAugment: A simple data augmentation method for</text>
+<text top="482" left="331" width="99" height="7" font="font10" id="p5_t171" reading_order_no="170" segment_no="24" tag_type="text">automatic speech recognition,”</text>
+<text top="482" left="432" width="106" height="7" font="font35" id="p5_t172" reading_order_no="171" segment_no="24" tag_type="text">arXiv preprint arXiv:1904.08779</text>
+<text top="482" left="538" width="2" height="7" font="font10" id="p5_t173" reading_order_no="172" segment_no="24" tag_type="text">,</text>
+<text top="491" left="331" width="18" height="7" font="font10" id="p5_t174" reading_order_no="173" segment_no="24" tag_type="text">2019.</text>
+<text top="504" left="313" width="227" height="7" font="font10" id="p5_t175" reading_order_no="174" segment_no="27" tag_type="text">[33] T. Bertin-Mahieux, D. P. Ellis, B. Whitman, and P. Lamere, “The</text>
+<text top="513" left="331" width="89" height="7" font="font10" id="p5_t176" reading_order_no="175" segment_no="27" tag_type="text">million song dataset,” 2011.</text>
+<text top="526" left="313" width="201" height="7" font="font10" id="p5_t177" reading_order_no="176" segment_no="28" tag_type="text">[34] L. Maaten and G. Hinton, “Visualizing data using t-SNE,”</text>
+<text top="526" left="515" width="24" height="7" font="font35" id="p5_t178" reading_order_no="177" segment_no="28" tag_type="text">Journal</text>
+<text top="535" left="331" width="101" height="7" font="font35" id="p5_t179" reading_order_no="178" segment_no="28" tag_type="text">of Machine Learning Research</text>
+<text top="535" left="432" width="108" height="7" font="font10" id="p5_t180" reading_order_no="179" segment_no="28" tag_type="text">, vol. 9, no. Nov, pp. 2579–2605,</text>
+<text top="544" left="331" width="18" height="7" font="font10" id="p5_t181" reading_order_no="180" segment_no="28" tag_type="text">2008.</text>
+</page>
+<outline>
+<item page="1">1  Introduction</item>
+<item page="1">2  Source Task &amp; Audio Representations</item>
+<outline>
+<item page="2">2.1  TALNet</item>
+<item page="2">2.2  WEANet-SUSTAIN</item>
+</outline>
+<item page="2">3  Transfer Learning to Target Tasks</item>
+<outline>
+<item page="2">3.1  Sound Event Classification</item>
+<item page="2">3.2  Acoustic Scene Classification</item>
+<item page="2">3.3  Music Tagging</item>
+<item page="2">3.4  Human Action Classification Using Audio</item>
+</outline>
+<item page="2">4  Experiments</item>
+<outline>
+<item page="2">4.1  Datasets and Setup</item>
+<item page="3">4.2  AudioSet Models</item>
+<item page="3">4.3  Results</item>
+</outline>
+<item page="3">5  Analysis and Visualizations</item>
+<outline>
+<item page="3">5.1  Clustering of Target Labels</item>
+<item page="4">5.2  Correlation Between Target Labels and Sound Events</item>
+</outline>
+<item page="4">6  Conclusion</item>
+<item page="5">7  References</item>
+</outline>
+</pdf2xml>

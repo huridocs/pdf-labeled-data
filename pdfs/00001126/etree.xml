@@ -1,0 +1,41 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3221" width="2332">
+	<fontspec id="font0" size="156" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="188" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="42" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="801" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="497" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="63" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="62" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="58" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="57" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="56" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="50" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="59" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="1038" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="32" family="GlyphLessFont" color="#000000"/>
+<text top="214" left="131" width="1988" height="211" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">CREATING  AN  ADAPTIVE </text>
+<text top="398" left="127" width="1597" height="211" font="font0" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="title">NETWORK  OF  HUBS </text>
+<text top="582" left="130" width="1615" height="211" font="font0" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="title">USING  SCHELLING'S </text>
+<text top="758" left="132" width="599" height="254" font="font1" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="title">MODS </text>
+<text top="984" left="835" width="730" height="57" font="font2" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="text">By  ATUL  SINGH  and  MADS  HAAHR </text>
+<text top="1720" left="903" width="1065" height="85" font="font5" id="p1_t6" reading_order_no="5" segment_no="2" tag_type="text">Adjusting  the  overlay  network  topology  in  a </text>
+<text top="1801" left="803" width="1262" height="84" font="font6" id="p1_t7" reading_order_no="6" segment_no="2" tag_type="text">peer-to-peer  network  to  satisfy  performance  criterta. </text>
+<text top="1978" left="861" width="1078" height="78" font="font7" id="p1_t8" reading_order_no="7" segment_no="3" tag_type="text">he  term  peer-to-peer  (P2P)  refers  to  distributed </text>
+<text top="2046" left="862" width="1131" height="78" font="font7" id="p1_t9" reading_order_no="8" segment_no="3" tag_type="text">systems  without  any  central  control,  where  all  the </text>
+<text top="2114" left="863" width="1204" height="77" font="font8" id="p1_t10" reading_order_no="9" segment_no="3" tag_type="text">nodes  (called  peers)  are  equivalent  in  functionality.  In </text>
+<text top="2187" left="302" width="1771" height="77" font="font8" id="p1_t11" reading_order_no="10" segment_no="3" tag_type="text">a  P2P  system,  peers  can  collaborate  and  communicate  with  each  other  without </text>
+<text top="2253" left="302" width="1775" height="77" font="font8" id="p1_t12" reading_order_no="11" segment_no="3" tag_type="text">the  need  for  centralized  components.  P2P  systems  organize  the  peer  computers </text>
+<text top="2319" left="303" width="1609" height="78" font="font7" id="p1_t13" reading_order_no="12" segment_no="3" tag_type="text">in a  virtual  communication  network  called  an  overlay  network.  Overlay </text>
+<text top="2387" left="302" width="1716" height="76" font="font9" id="p1_t14" reading_order_no="13" segment_no="3" tag_type="text">networks  generally  have  self-organizing  characteristics,  which  means  they  are </text>
+<text top="2454" left="303" width="1742" height="76" font="font9" id="p1_t15" reading_order_no="14" segment_no="3" tag_type="text">established  and  maintained  by  P2P  software  without  any  human  intervention </text>
+<text top="2520" left="303" width="1692" height="77" font="font8" id="p1_t16" reading_order_no="15" segment_no="3" tag_type="text">and  that  P2P  software  manages  events  such  as  peers  joining  and  leaving  the </text>
+<text top="2586" left="302" width="1774" height="78" font="font7" id="p1_t17" reading_order_no="16" segment_no="3" tag_type="text">network.  This  self-organizing  nature  of  P2P  helps  reduce  the  management  cost </text>
+<text top="2661" left="303" width="1642" height="68" font="font10" id="p1_t18" reading_order_no="17" segment_no="3" tag_type="text">of  the  computer  infrastructure.  However,  the  decentralized  nature  of  P2P </text>
+<text top="2720" left="302" width="1674" height="80" font="font11" id="p1_t19" reading_order_no="18" segment_no="3" tag_type="text">networks  makes  it  difficult  to  develop  efficient  algorithms  for  tasks  such  as </text>
+<text top="2789" left="302" width="1529" height="76" font="font9" id="p1_t20" reading_order_no="19" segment_no="3" tag_type="text">clustering  and  search,  which  are  required  by  many  P2P  applications. </text>
+<text top="3131" left="1345" width="698" height="43" font="font13" id="p1_t21" reading_order_no="20" segment_no="5" tag_type="text">COMMUNICATIONS  OF  THE  ACM  March  2006/Vol.49,No.3 </text>
+<text top="3124" left="2090" width="45" height="43" font="font13" id="p1_t22" reading_order_no="21" segment_no="4" tag_type="text">69</text>
+</page>
+</pdf2xml>

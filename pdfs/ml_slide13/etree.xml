@@ -1,0 +1,387 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="540" width="720">
+	<fontspec id="font0" size="9" family="ArialMT" color="#9ea0a4"/>
+	<fontspec id="font1" size="39" family="CMUSerif" color="#1c4587"/>
+	<fontspec id="font2" size="17" family="CMUSerif" color="#5f6165"/>
+	<fontspec id="font3" size="29" family="CMUSerif" color="#1c4587"/>
+	<fontspec id="font4" size="27" family="CMUSerif" color="#000000"/>
+<text top="514" left="605" width="76" height="8" font="font0" id="p1_t1" reading_order_no="8" segment_no="5" tag_type="text">Google Proprietary</text>
+<text top="138" left="197" width="484" height="39" font="font1" id="p1_t2" reading_order_no="0" segment_no="0" tag_type="title">Tutorial on Neural Network </text>
+<text top="192" left="197" width="394" height="39" font="font1" id="p1_t3" reading_order_no="1" segment_no="0" tag_type="title">Optimization Problems</text>
+<text top="424" left="197" width="239" height="18" font="font2" id="p1_t4" reading_order_no="5" segment_no="2" tag_type="text">Deep Learning Summer School </text>
+<text top="445" left="197" width="74" height="18" font="font2" id="p1_t5" reading_order_no="6" segment_no="3" tag_type="text">Montreal </text>
+<text top="466" left="197" width="114" height="18" font="font2" id="p1_t6" reading_order_no="7" segment_no="4" tag_type="text">August 9, 2015</text>
+<text top="256" left="197" width="196" height="29" font="font3" id="p1_t7" reading_order_no="2" segment_no="1" tag_type="text">presentation by</text>
+<text top="256" left="402" width="51" height="29" font="font3" id="p1_t8" reading_order_no="3" segment_no="1" tag_type="text">Ian </text>
+<text top="296" left="197" width="142" height="29" font="font3" id="p1_t9" reading_order_no="4" segment_no="1" tag_type="text">Goodfellow</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="540" width="720">
+	<fontspec id="font5" size="39" family="CMUSerif" color="#4a86e8"/>
+	<fontspec id="font6" size="24" family="CMUSerif" color="#000000"/>
+	<fontspec id="font7" size="24" family="CMUSerif,Bold" color="#000000"/>
+<text top="514" left="605" width="76" height="8" font="font0" id="p2_t1" reading_order_no="0" segment_no="6" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="225" height="40" font="font5" id="p2_t2" reading_order_no="1" segment_no="0" tag_type="title">Optimization</text>
+<text top="310" left="42" width="204" height="24" font="font6" id="p2_t3" reading_order_no="2" segment_no="1" tag_type="list">-Exhaustive search </text>
+<text top="343" left="42" width="396" height="24" font="font6" id="p2_t4" reading_order_no="3" segment_no="2" tag_type="list">-Random search (genetic algorithms) </text>
+<text top="376" left="42" width="215" height="24" font="font6" id="p2_t5" reading_order_no="4" segment_no="3" tag_type="list">-Analytical solution </text>
+<text top="409" left="42" width="524" height="24" font="font6" id="p2_t6" reading_order_no="5" segment_no="4" tag_type="list">-Model-based search (e.g. Bayesian optimization) </text>
+<text top="442" left="42" width="260" height="24" font="font6" id="p2_t7" reading_order_no="6" segment_no="5" tag_type="list">-Neural nets usually use </text>
+<text top="442" left="302" width="260" height="23" font="font7" id="p2_t8" reading_order_no="7" segment_no="5" tag_type="list"><b>gradient-based search</b></text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="540" width="720">
+	<fontspec id="font8" size="24" family="ArialMT" color="#000000"/>
+<text top="514" left="605" width="76" height="8" font="font0" id="p3_t1" reading_order_no="0" segment_no="5" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="377" height="40" font="font5" id="p3_t2" reading_order_no="1" segment_no="0" tag_type="title">In this presentation….</text>
+<text top="123" left="63" width="8" height="23" font="font8" id="p3_t3" reading_order_no="2" segment_no="1" tag_type="list">-</text>
+<text top="122" left="114" width="500" height="24" font="font6" id="p3_t4" reading_order_no="3" segment_no="1" tag_type="list">“Exact Solutions to the Nonlinear Dynamics of </text>
+<text top="155" left="114" width="588" height="24" font="font6" id="p3_t5" reading_order_no="4" segment_no="1" tag_type="list">Learning in Deep Linear Neural Networks.” Saxe et al,  </text>
+<text top="188" left="114" width="123" height="24" font="font6" id="p3_t6" reading_order_no="5" segment_no="1" tag_type="list">ICLR 2014 </text>
+<text top="222" left="63" width="8" height="23" font="font8" id="p3_t7" reading_order_no="6" segment_no="2" tag_type="list">-</text>
+<text top="221" left="114" width="580" height="24" font="font6" id="p3_t8" reading_order_no="7" segment_no="2" tag_type="list">“Identifying and attacking the saddle point problem in </text>
+<text top="254" left="114" width="563" height="24" font="font6" id="p3_t9" reading_order_no="8" segment_no="2" tag_type="list">high-dimensional non-convex optimization.” Dauphin </text>
+<text top="287" left="114" width="182" height="24" font="font6" id="p3_t10" reading_order_no="9" segment_no="2" tag_type="list">et al, NIPS 2014 </text>
+<text top="321" left="63" width="8" height="23" font="font8" id="p3_t11" reading_order_no="10" segment_no="3" tag_type="list">-</text>
+<text top="320" left="114" width="469" height="24" font="font6" id="p3_t12" reading_order_no="11" segment_no="3" tag_type="list">“The Loss Surfaces of Multilayer Networks.” </text>
+<text top="353" left="114" width="378" height="24" font="font6" id="p3_t13" reading_order_no="12" segment_no="3" tag_type="list">Choromanska et al, AISTATS 2015 </text>
+<text top="387" left="63" width="8" height="23" font="font8" id="p3_t14" reading_order_no="13" segment_no="4" tag_type="list">-</text>
+<text top="386" left="114" width="471" height="24" font="font6" id="p3_t15" reading_order_no="14" segment_no="4" tag_type="list">“Qualitatively characterizing neural network </text>
+<text top="419" left="114" width="567" height="24" font="font6" id="p3_t16" reading_order_no="15" segment_no="4" tag_type="list">optimization problems.” Goodfellow et al, ICLR 2015 </text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p4_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="601" height="40" font="font5" id="p4_t2" reading_order_no="1" segment_no="0" tag_type="title">Derivatives and Second Derivatives</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p5_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="374" height="40" font="font5" id="p5_t2" reading_order_no="1" segment_no="0" tag_type="title">Directional Curvature</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p6_t1" reading_order_no="0" segment_no="4" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="474" height="40" font="font5" id="p6_t2" reading_order_no="1" segment_no="0" tag_type="title">Taylor series approximation</text>
+<text top="317" left="102" width="86" height="24" font="font6" id="p6_t3" reading_order_no="2" segment_no="1" tag_type="text">Baseline</text>
+<text top="317" left="250" width="75" height="24" font="font6" id="p6_t4" reading_order_no="3" segment_no="2" tag_type="text">Linear </text>
+<text top="350" left="250" width="79" height="24" font="font6" id="p6_t5" reading_order_no="4" segment_no="2" tag_type="text">change </text>
+<text top="383" left="250" width="75" height="24" font="font6" id="p6_t6" reading_order_no="5" segment_no="2" tag_type="text">due to </text>
+<text top="416" left="250" width="86" height="24" font="font6" id="p6_t7" reading_order_no="6" segment_no="2" tag_type="text">gradient</text>
+<text top="317" left="462" width="119" height="24" font="font6" id="p6_t8" reading_order_no="7" segment_no="3" tag_type="text">Correction </text>
+<text top="350" left="462" width="57" height="24" font="font6" id="p6_t9" reading_order_no="8" segment_no="3" tag_type="text">from </text>
+<text top="383" left="462" width="119" height="24" font="font6" id="p6_t10" reading_order_no="9" segment_no="3" tag_type="text">directional </text>
+<text top="416" left="462" width="100" height="24" font="font6" id="p6_t11" reading_order_no="10" segment_no="3" tag_type="text">curvature</text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="540" width="720">
+	<fontspec id="font9" size="35" family="CMUSerif" color="#4a86e8"/>
+<text top="514" left="605" width="76" height="8" font="font0" id="p7_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="65" left="37" width="632" height="36" font="font9" id="p7_t2" reading_order_no="1" segment_no="0" tag_type="title">How much does a gradient step improve?</text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="540" width="720">
+	<fontspec id="font10" size="23" family="CMUSerif" color="#333336"/>
+<text top="514" left="605" width="76" height="8" font="font0" id="p8_t1" reading_order_no="0" segment_no="4" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="245" height="40" font="font5" id="p8_t2" reading_order_no="1" segment_no="0" tag_type="title">Critical points</text>
+<text top="427" left="5" width="482" height="23" font="font10" id="p8_t3" reading_order_no="2" segment_no="2" tag_type="text">All positive eigenvalues All negative eigenvalues</text>
+<text top="433" left="513" width="146" height="23" font="font10" id="p8_t4" reading_order_no="3" segment_no="2" tag_type="text">Some positive </text>
+<text top="466" left="513" width="185" height="23" font="font10" id="p8_t5" reading_order_no="4" segment_no="3" tag_type="text">and some negative</text>
+<text top="94" left="291" width="341" height="23" font="font10" id="p8_t6" reading_order_no="5" segment_no="1" tag_type="text">Zero gradient, and Hessian with…</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p9_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="299" height="40" font="font5" id="p9_t2" reading_order_no="1" segment_no="0" tag_type="title">Newton’s method</text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p10_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="550" height="40" font="font5" id="p10_t2" reading_order_no="1" segment_no="0" tag_type="title">Newton’s method’s failure mode</text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="540" width="720">
+	<fontspec id="font11" size="24" family="CMUSerif,Italic" color="#000000"/>
+<text top="514" left="605" width="76" height="8" font="font0" id="p11_t1" reading_order_no="0" segment_no="7" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="589" height="40" font="font5" id="p11_t2" reading_order_no="1" segment_no="0" tag_type="title">The old myth of SGD convergence</text>
+<text top="123" left="63" width="8" height="23" font="font8" id="p11_t3" reading_order_no="2" segment_no="1" tag_type="list">-</text>
+<text top="122" left="114" width="308" height="24" font="font6" id="p11_t4" reading_order_no="3" segment_no="1" tag_type="list">SGD usually moves downhill </text>
+<text top="156" left="63" width="8" height="23" font="font8" id="p11_t5" reading_order_no="4" segment_no="2" tag_type="list">-</text>
+<text top="155" left="114" width="455" height="24" font="font6" id="p11_t6" reading_order_no="5" segment_no="2" tag_type="list">SGD eventually encounters a critical point </text>
+<text top="189" left="63" width="8" height="23" font="font8" id="p11_t7" reading_order_no="6" segment_no="3" tag_type="list">-</text>
+<text top="188" left="114" width="285" height="24" font="font6" id="p11_t8" reading_order_no="7" segment_no="3" tag_type="list">Usually this is a minimum </text>
+<text top="222" left="63" width="8" height="23" font="font8" id="p11_t9" reading_order_no="8" segment_no="4" tag_type="list">-</text>
+<text top="221" left="114" width="171" height="24" font="font6" id="p11_t10" reading_order_no="9" segment_no="4" tag_type="list">However, it is a </text>
+<text top="221" left="285" width="154" height="23" font="font11" id="p11_t11" reading_order_no="10" segment_no="4" tag_type="list"><i>local minimum</i></text>
+<text top="255" left="63" width="8" height="23" font="font8" id="p11_t12" reading_order_no="11" segment_no="5" tag_type="list">-</text>
+<text top="254" left="114" width="418" height="24" font="font6" id="p11_t13" reading_order_no="12" segment_no="5" tag_type="list">J has a high value at this critical point </text>
+<text top="288" left="63" width="8" height="23" font="font8" id="p11_t14" reading_order_no="13" segment_no="6" tag_type="list">-</text>
+<text top="287" left="114" width="64" height="24" font="font6" id="p11_t15" reading_order_no="14" segment_no="6" tag_type="list">Some </text>
+<text top="287" left="178" width="166" height="23" font="font11" id="p11_t16" reading_order_no="15" segment_no="6" tag_type="list"><i>global minimum</i></text>
+<text top="287" left="344" width="307" height="24" font="font6" id="p11_t17" reading_order_no="16" segment_no="6" tag_type="list"> is the real target, and has a </text>
+<text top="320" left="114" width="237" height="24" font="font6" id="p11_t18" reading_order_no="17" segment_no="6" tag_type="list">much lower value of J </text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p12_t1" reading_order_no="0" segment_no="5" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="604" height="40" font="font5" id="p12_t2" reading_order_no="1" segment_no="0" tag_type="title">The new myth of SGD convergence</text>
+<text top="123" left="63" width="8" height="23" font="font8" id="p12_t3" reading_order_no="2" segment_no="1" tag_type="list">-</text>
+<text top="122" left="114" width="308" height="24" font="font6" id="p12_t4" reading_order_no="3" segment_no="1" tag_type="list">SGD usually moves downhill </text>
+<text top="156" left="63" width="8" height="23" font="font8" id="p12_t5" reading_order_no="4" segment_no="2" tag_type="list">-</text>
+<text top="155" left="114" width="455" height="24" font="font6" id="p12_t6" reading_order_no="5" segment_no="2" tag_type="list">SGD eventually encounters a critical point </text>
+<text top="189" left="63" width="8" height="23" font="font8" id="p12_t7" reading_order_no="6" segment_no="3" tag_type="list">-</text>
+<text top="188" left="114" width="314" height="24" font="font6" id="p12_t8" reading_order_no="7" segment_no="3" tag_type="list">Usually this is a saddle point </text>
+<text top="222" left="63" width="8" height="23" font="font8" id="p12_t9" reading_order_no="8" segment_no="4" tag_type="list">-</text>
+<text top="221" left="114" width="585" height="24" font="font6" id="p12_t10" reading_order_no="9" segment_no="4" tag_type="list">SGD is stuck, and the main reason it is stuck is that it </text>
+<text top="254" left="114" width="361" height="24" font="font6" id="p12_t11" reading_order_no="10" segment_no="4" tag_type="list">fails to exploit negative curvature </text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p13_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="586" height="40" font="font5" id="p13_t2" reading_order_no="1" segment_no="0" tag_type="title">Some functions lack critical points</text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="540" width="720">
+	<fontspec id="font12" size="37" family="CMUSerif" color="#4a86e8"/>
+<text top="514" left="605" width="76" height="8" font="font0" id="p14_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="628" height="38" font="font12" id="p14_t2" reading_order_no="1" segment_no="0" tag_type="title">SGD may not encounter critical points</text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="540" width="720">
+	<fontspec id="font13" size="14" family="CMUSerif" color="#333336"/>
+<text top="514" left="605" width="76" height="8" font="font0" id="p15_t1" reading_order_no="0" segment_no="2" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="610" height="40" font="font5" id="p15_t2" reading_order_no="1" segment_no="0" tag_type="title">Gradient descent flees saddle points</text>
+<text top="480" left="604" width="112" height="14" font="font13" id="p15_t3" reading_order_no="2" segment_no="1" tag_type="text">(Goodfellow 2015)</text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p16_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="304" height="40" font="font5" id="p16_t2" reading_order_no="1" segment_no="0" tag_type="title">Poor conditioning</text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p17_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="304" height="40" font="font5" id="p17_t2" reading_order_no="1" segment_no="0" tag_type="title">Poor conditioning</text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p18_t1" reading_order_no="0" segment_no="9" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="588" height="40" font="font5" id="p18_t2" reading_order_no="1" segment_no="0" tag_type="title">Why convergence may not happen</text>
+<text top="123" left="63" width="8" height="23" font="font8" id="p18_t3" reading_order_no="2" segment_no="1" tag_type="list">-</text>
+<text top="122" left="114" width="559" height="24" font="font6" id="p18_t4" reading_order_no="3" segment_no="1" tag_type="list">Never stop if function doesn’t have a local minimum </text>
+<text top="156" left="63" width="8" height="23" font="font8" id="p18_t5" reading_order_no="4" segment_no="2" tag_type="list">-</text>
+<text top="155" left="114" width="555" height="24" font="font6" id="p18_t6" reading_order_no="5" segment_no="2" tag_type="list">Get “stuck,” possibly still moving but not improving </text>
+<text top="197" left="161" width="8" height="23" font="font8" id="p18_t7" reading_order_no="6" segment_no="3" tag_type="list">-</text>
+<text top="196" left="213" width="259" height="24" font="font6" id="p18_t8" reading_order_no="7" segment_no="3" tag_type="list">Too bad of conditioning </text>
+<text top="230" left="161" width="8" height="23" font="font8" id="p18_t9" reading_order_no="8" segment_no="4" tag_type="list">-</text>
+<text top="229" left="213" width="266" height="24" font="font6" id="p18_t10" reading_order_no="9" segment_no="4" tag_type="list">Too much gradient noise </text>
+<text top="263" left="161" width="8" height="23" font="font8" id="p18_t11" reading_order_no="10" segment_no="5" tag_type="list">-</text>
+<text top="262" left="213" width="123" height="24" font="font6" id="p18_t12" reading_order_no="11" segment_no="5" tag_type="list">Overfitting </text>
+<text top="296" left="161" width="8" height="23" font="font8" id="p18_t13" reading_order_no="12" segment_no="6" tag_type="list">-</text>
+<text top="295" left="213" width="81" height="24" font="font6" id="p18_t14" reading_order_no="13" segment_no="6" tag_type="list">Other? </text>
+<text top="337" left="63" width="8" height="23" font="font8" id="p18_t15" reading_order_no="14" segment_no="7" tag_type="list">-</text>
+<text top="336" left="114" width="556" height="24" font="font6" id="p18_t16" reading_order_no="15" segment_no="7" tag_type="list">Usually we get “stuck” before finding a critical point </text>
+<text top="370" left="63" width="8" height="23" font="font8" id="p18_t17" reading_order_no="16" segment_no="8" tag_type="list">-</text>
+<text top="369" left="114" width="535" height="24" font="font6" id="p18_t18" reading_order_no="17" segment_no="8" tag_type="list">Only Newton’s method and related techniques are </text>
+<text top="402" left="114" width="279" height="24" font="font6" id="p18_t19" reading_order_no="18" segment_no="8" tag_type="list">attracted to saddle points </text>
+</page>
+<page number="19" position="absolute" top="0" left="0" height="540" width="720">
+	<fontspec id="font14" size="29" family="CMUSerif" color="#4a86e8"/>
+<text top="514" left="605" width="76" height="8" font="font0" id="p19_t1" reading_order_no="0" segment_no="9" tag_type="text">Google Proprietary</text>
+<text top="64" left="37" width="629" height="29" font="font14" id="p19_t2" reading_order_no="1" segment_no="0" tag_type="title">Are saddle points or local minima more common?</text>
+<text top="123" left="63" width="8" height="23" font="font8" id="p19_t3" reading_order_no="2" segment_no="1" tag_type="list">-</text>
+<text top="122" left="114" width="462" height="24" font="font6" id="p19_t4" reading_order_no="3" segment_no="1" tag_type="list">Imagine for each eigenvalue, you flip a coin </text>
+<text top="156" left="63" width="8" height="23" font="font8" id="p19_t5" reading_order_no="4" segment_no="2" tag_type="list">-</text>
+<text top="155" left="114" width="548" height="24" font="font6" id="p19_t6" reading_order_no="5" segment_no="2" tag_type="list">If heads, the eigenvalue is positive, if tails, negative </text>
+<text top="189" left="63" width="8" height="23" font="font8" id="p19_t7" reading_order_no="6" segment_no="3" tag_type="list">-</text>
+<text top="188" left="114" width="442" height="24" font="font6" id="p19_t8" reading_order_no="7" segment_no="3" tag_type="list">Need to get all heads to have a minimum </text>
+<text top="222" left="63" width="8" height="23" font="font8" id="p19_t9" reading_order_no="8" segment_no="4" tag_type="list">-</text>
+<text top="221" left="114" width="560" height="24" font="font6" id="p19_t10" reading_order_no="9" segment_no="4" tag_type="list">Higher dimensions -&gt; exponentially less likely to get </text>
+<text top="254" left="114" width="100" height="24" font="font6" id="p19_t11" reading_order_no="10" segment_no="4" tag_type="list">all heads </text>
+<text top="288" left="63" width="8" height="23" font="font8" id="p19_t12" reading_order_no="11" segment_no="5" tag_type="list">-</text>
+<text top="287" left="114" width="256" height="24" font="font6" id="p19_t13" reading_order_no="12" segment_no="5" tag_type="list">Random matrix theory: </text>
+<text top="321" left="57" width="8" height="23" font="font8" id="p19_t14" reading_order_no="13" segment_no="6" tag_type="list">-</text>
+<text top="320" left="108" width="579" height="24" font="font6" id="p19_t15" reading_order_no="14" segment_no="6" tag_type="list">The coin is weighted; the lower J is, the more likely to </text>
+<text top="353" left="108" width="99" height="24" font="font6" id="p19_t16" reading_order_no="15" segment_no="6" tag_type="list">be heads </text>
+<text top="387" left="57" width="8" height="23" font="font8" id="p19_t17" reading_order_no="16" segment_no="7" tag_type="list">-</text>
+<text top="386" left="108" width="361" height="24" font="font6" id="p19_t18" reading_order_no="17" segment_no="7" tag_type="list">So most local minima have low J! </text>
+<text top="420" left="57" width="8" height="23" font="font8" id="p19_t19" reading_order_no="18" segment_no="8" tag_type="list">-</text>
+<text top="419" left="108" width="533" height="24" font="font6" id="p19_t20" reading_order_no="19" segment_no="8" tag_type="list">Most critical points with high J are saddle points! </text>
+</page>
+<page number="20" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p20_t1" reading_order_no="0" segment_no="5" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="595" height="40" font="font5" id="p20_t2" reading_order_no="1" segment_no="0" tag_type="title">Do neural nets have saddle points?</text>
+<text top="120" left="21" width="8" height="23" font="font8" id="p20_t3" reading_order_no="2" segment_no="1" tag_type="list">-</text>
+<text top="119" left="72" width="181" height="24" font="font6" id="p20_t4" reading_order_no="3" segment_no="1" tag_type="list">Saxe et al, 2013: </text>
+<text top="153" left="15" width="8" height="23" font="font8" id="p20_t5" reading_order_no="4" segment_no="2" tag_type="list">-</text>
+<text top="152" left="66" width="124" height="24" font="font6" id="p20_t6" reading_order_no="5" segment_no="2" tag_type="list">neural nets </text>
+<text top="185" left="66" width="136" height="24" font="font6" id="p20_t7" reading_order_no="6" segment_no="2" tag_type="list">without non-</text>
+<text top="218" left="66" width="165" height="24" font="font6" id="p20_t8" reading_order_no="7" segment_no="2" tag_type="list">linearities have </text>
+<text top="251" left="66" width="139" height="24" font="font6" id="p20_t9" reading_order_no="8" segment_no="2" tag_type="list">many saddle </text>
+<text top="284" left="66" width="72" height="24" font="font6" id="p20_t10" reading_order_no="9" segment_no="2" tag_type="list">points </text>
+<text top="318" left="15" width="8" height="23" font="font8" id="p20_t11" reading_order_no="10" segment_no="3" tag_type="list">-</text>
+<text top="317" left="66" width="201" height="24" font="font6" id="p20_t12" reading_order_no="11" segment_no="3" tag_type="list">all the minima are </text>
+<text top="350" left="66" width="71" height="24" font="font6" id="p20_t13" reading_order_no="12" segment_no="3" tag_type="list">global </text>
+<text top="384" left="15" width="8" height="23" font="font8" id="p20_t14" reading_order_no="13" segment_no="4" tag_type="list">-</text>
+<text top="383" left="66" width="161" height="24" font="font6" id="p20_t15" reading_order_no="14" segment_no="4" tag_type="list">all the minima </text>
+<text top="416" left="66" width="189" height="24" font="font6" id="p20_t16" reading_order_no="15" segment_no="4" tag_type="list">form a connected </text>
+<text top="449" left="66" width="99" height="24" font="font6" id="p20_t17" reading_order_no="16" segment_no="4" tag_type="list">manifold </text>
+</page>
+<page number="21" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p21_t1" reading_order_no="0" segment_no="5" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="595" height="40" font="font5" id="p21_t2" reading_order_no="1" segment_no="0" tag_type="title">Do neural nets have saddle points?</text>
+<text top="120" left="21" width="8" height="23" font="font8" id="p21_t3" reading_order_no="2" segment_no="1" tag_type="list">-</text>
+<text top="119" left="72" width="572" height="24" font="font6" id="p21_t4" reading_order_no="3" segment_no="1" tag_type="list">Dauphin et al 2014: Experiments show neural nets do </text>
+<text top="152" left="72" width="566" height="24" font="font6" id="p21_t5" reading_order_no="4" segment_no="1" tag_type="list">have as many saddle points as random matrix theory </text>
+<text top="185" left="72" width="91" height="24" font="font6" id="p21_t6" reading_order_no="5" segment_no="1" tag_type="list">predicts </text>
+<text top="219" left="21" width="8" height="23" font="font8" id="p21_t7" reading_order_no="6" segment_no="2" tag_type="list">-</text>
+<text top="218" left="72" width="539" height="24" font="font6" id="p21_t8" reading_order_no="7" segment_no="2" tag_type="list">Choromanska et al 2015: Theoretical argument for </text>
+<text top="251" left="72" width="258" height="24" font="font6" id="p21_t9" reading_order_no="8" segment_no="2" tag_type="list">why this should happen </text>
+<text top="286" left="21" width="8" height="23" font="font8" id="p21_t10" reading_order_no="9" segment_no="3" tag_type="list">-</text>
+<text top="284" left="72" width="204" height="24" font="font6" id="p21_t11" reading_order_no="10" segment_no="3" tag_type="list">Major implication: </text>
+<text top="284" left="276" width="342" height="23" font="font7" id="p21_t12" reading_order_no="11" segment_no="3" tag_type="list"><b>most minima are good, and </b></text>
+<text top="318" left="72" width="400" height="23" font="font7" id="p21_t13" reading_order_no="12" segment_no="3" tag_type="list"><b>this is more true for big models. </b></text>
+<text top="354" left="21" width="8" height="23" font="font8" id="p21_t14" reading_order_no="13" segment_no="4" tag_type="list">-</text>
+<text top="353" left="72" width="371" height="24" font="font6" id="p21_t15" reading_order_no="14" segment_no="4" tag_type="list">Minor implication: the reason that </text>
+<text top="353" left="443" width="176" height="23" font="font11" id="p21_t16" reading_order_no="15" segment_no="4" tag_type="list"><i>Newton’s method</i></text>
+<text top="386" left="72" width="544" height="24" font="font6" id="p21_t17" reading_order_no="16" segment_no="4" tag_type="list">works poorly for neural nets is its attraction to the </text>
+<text top="419" left="72" width="270" height="24" font="font6" id="p21_t18" reading_order_no="17" segment_no="4" tag_type="list">ubiquitous saddle points. </text>
+</page>
+<page number="22" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p22_t1" reading_order_no="0" segment_no="7" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="576" height="40" font="font5" id="p22_t2" reading_order_no="1" segment_no="0" tag_type="title">The state of modern optimization</text>
+<text top="123" left="63" width="8" height="23" font="font8" id="p22_t3" reading_order_no="2" segment_no="1" tag_type="list">-</text>
+<text top="122" left="114" width="536" height="24" font="font6" id="p22_t4" reading_order_no="3" segment_no="1" tag_type="list">We can optimize most classifiers, autoencoders, or </text>
+<text top="155" left="114" width="504" height="24" font="font6" id="p22_t5" reading_order_no="4" segment_no="1" tag_type="list">recurrent nets if they are based on linear layers </text>
+<text top="189" left="63" width="8" height="23" font="font8" id="p22_t6" reading_order_no="5" segment_no="2" tag_type="list">-</text>
+<text top="188" left="114" width="437" height="24" font="font6" id="p22_t7" reading_order_no="6" segment_no="2" tag_type="list">Especially true of LSTM, ReLU, maxout </text>
+<text top="222" left="63" width="8" height="23" font="font8" id="p22_t8" reading_order_no="7" segment_no="3" tag_type="list">-</text>
+<text top="221" left="114" width="111" height="24" font="font6" id="p22_t9" reading_order_no="8" segment_no="3" tag_type="list">It may be </text>
+<text top="221" left="225" width="278" height="23" font="font11" id="p22_t10" reading_order_no="9" segment_no="3" tag_type="list"><i>much slower than we want</i></text>
+<text top="255" left="63" width="8" height="23" font="font8" id="p22_t11" reading_order_no="10" segment_no="4" tag_type="list">-</text>
+<text top="254" left="114" width="517" height="24" font="font6" id="p22_t12" reading_order_no="11" segment_no="4" tag_type="list">Even depth does not prevent success, Sussillo 14 </text>
+<text top="287" left="114" width="217" height="24" font="font6" id="p22_t13" reading_order_no="12" segment_no="4" tag_type="list">reached 1,000 layers </text>
+<text top="321" left="63" width="8" height="23" font="font8" id="p22_t14" reading_order_no="13" segment_no="5" tag_type="list">-</text>
+<text top="320" left="114" width="556" height="24" font="font6" id="p22_t15" reading_order_no="14" segment_no="5" tag_type="list">We may not be able to optimize more exotic models </text>
+<text top="354" left="63" width="8" height="23" font="font8" id="p22_t16" reading_order_no="15" segment_no="6" tag_type="list">-</text>
+<text top="353" left="114" width="576" height="24" font="font6" id="p22_t17" reading_order_no="16" segment_no="6" tag_type="list">Optimization benchmarks are usually not done on the </text>
+<text top="386" left="114" width="151" height="24" font="font6" id="p22_t18" reading_order_no="17" segment_no="6" tag_type="list">exotic models </text>
+</page>
+<page number="23" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p23_t1" reading_order_no="0" segment_no="2" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="500" height="40" font="font5" id="p23_t2" reading_order_no="1" segment_no="0" tag_type="title">Why is optimization so slow?</text>
+<text top="122" left="57" width="602" height="24" font="font6" id="p23_t3" reading_order_no="2" segment_no="1" tag_type="text">We can fail to compute good local updates (get “stuck”). </text>
+<text top="155" left="57" width="620" height="24" font="font6" id="p23_t4" reading_order_no="3" segment_no="1" tag_type="text">Or local information can disagree with global information, </text>
+<text top="188" left="57" width="515" height="23" font="font11" id="p23_t5" reading_order_no="4" segment_no="1" tag_type="text"><i>even when there are not any non-global minima, </i></text>
+<text top="221" left="57" width="512" height="23" font="font11" id="p23_t6" reading_order_no="5" segment_no="1" tag_type="text"><i>even when there are not any minima of any kind</i></text>
+</page>
+<page number="24" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p24_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="475" height="40" font="font5" id="p24_t2" reading_order_no="1" segment_no="0" tag_type="title">Linear view of the difficulty</text>
+</page>
+<page number="25" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p25_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="483" height="40" font="font5" id="p25_t2" reading_order_no="1" segment_no="0" tag_type="title">Factored linear loss function</text>
+</page>
+<page number="26" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p26_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="633" height="39" font="font5" id="p26_t2" reading_order_no="1" segment_no="0" tag_type="title">Attractive saddle points and plateaus</text>
+</page>
+<page number="27" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p27_t1" reading_order_no="0" segment_no="6" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="453" height="40" font="font5" id="p27_t2" reading_order_no="1" segment_no="0" tag_type="title">Questions for visualization</text>
+<text top="123" left="63" width="8" height="23" font="font8" id="p27_t3" reading_order_no="2" segment_no="1" tag_type="list">-</text>
+<text top="122" left="114" width="403" height="24" font="font6" id="p27_t4" reading_order_no="3" segment_no="1" tag_type="list">Does SGD get stuck in local minima? </text>
+<text top="156" left="63" width="8" height="23" font="font8" id="p27_t5" reading_order_no="4" segment_no="2" tag_type="list">-</text>
+<text top="155" left="114" width="410" height="24" font="font6" id="p27_t6" reading_order_no="5" segment_no="2" tag_type="list">Does SGD get stuck on saddle points? </text>
+<text top="189" left="63" width="8" height="23" font="font8" id="p27_t7" reading_order_no="6" segment_no="3" tag_type="list">-</text>
+<text top="188" left="114" width="507" height="24" font="font6" id="p27_t8" reading_order_no="7" segment_no="3" tag_type="list">Does SGD waste time navigating around global </text>
+<text top="221" left="114" width="447" height="24" font="font6" id="p27_t9" reading_order_no="8" segment_no="3" tag_type="list">obstacles despite properly exploiting local </text>
+<text top="254" left="114" width="141" height="24" font="font6" id="p27_t10" reading_order_no="9" segment_no="3" tag_type="list">information? </text>
+<text top="288" left="63" width="8" height="23" font="font8" id="p27_t11" reading_order_no="10" segment_no="4" tag_type="list">-</text>
+<text top="287" left="114" width="499" height="24" font="font6" id="p27_t12" reading_order_no="11" segment_no="4" tag_type="list">Does SGD wind between multiple local bumpy </text>
+<text top="320" left="114" width="113" height="24" font="font6" id="p27_t13" reading_order_no="12" segment_no="4" tag_type="list">obstacles? </text>
+<text top="354" left="63" width="8" height="23" font="font8" id="p27_t14" reading_order_no="13" segment_no="5" tag_type="list">-</text>
+<text top="353" left="114" width="397" height="24" font="font6" id="p27_t15" reading_order_no="14" segment_no="5" tag_type="list">Does SGD thread a twisting canyon? </text>
+</page>
+<page number="28" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p28_t1" reading_order_no="0" segment_no="5" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="527" height="40" font="font5" id="p28_t2" reading_order_no="1" segment_no="0" tag_type="title">History written by the winners</text>
+<text top="123" left="63" width="8" height="23" font="font8" id="p28_t3" reading_order_no="2" segment_no="1" tag_type="list">-</text>
+<text top="122" left="114" width="477" height="24" font="font6" id="p28_t4" reading_order_no="3" segment_no="1" tag_type="list">Visualize trajectories of (near) SOTA results </text>
+<text top="156" left="63" width="8" height="23" font="font8" id="p28_t5" reading_order_no="4" segment_no="2" tag_type="list">-</text>
+<text top="155" left="114" width="352" height="24" font="font6" id="p28_t6" reading_order_no="5" segment_no="2" tag_type="list">Selection bias: looking at success </text>
+<text top="189" left="63" width="8" height="23" font="font8" id="p28_t7" reading_order_no="6" segment_no="3" tag_type="list">-</text>
+<text top="188" left="114" width="489" height="24" font="font6" id="p28_t8" reading_order_no="7" segment_no="3" tag_type="list">Failure is interesting, but hard to attribute to </text>
+<text top="221" left="114" width="140" height="24" font="font6" id="p28_t9" reading_order_no="8" segment_no="3" tag_type="list">optimization </text>
+<text top="255" left="63" width="8" height="23" font="font8" id="p28_t10" reading_order_no="9" segment_no="4" tag_type="list">-</text>
+<text top="254" left="114" width="573" height="24" font="font6" id="p28_t11" reading_order_no="10" segment_no="4" tag_type="list">Careful with interpretation: SGD never encounters X, </text>
+<text top="287" left="114" width="341" height="24" font="font6" id="p28_t12" reading_order_no="11" segment_no="4" tag_type="list">or SGD fails if it encounters X? </text>
+</page>
+<page number="29" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p29_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="453" height="40" font="font5" id="p29_t2" reading_order_no="1" segment_no="0" tag_type="title">2D Subspace Visualization</text>
+</page>
+<page number="30" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p30_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="407" height="40" font="font5" id="p30_t2" reading_order_no="1" segment_no="0" tag_type="title">A Special 1-D Subspace</text>
+</page>
+<page number="31" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p31_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="509" height="40" font="font5" id="p31_t2" reading_order_no="1" segment_no="0" tag_type="title">Maxout / MNIST experiment</text>
+</page>
+<page number="32" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p32_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="449" height="40" font="font5" id="p32_t2" reading_order_no="1" segment_no="0" tag_type="title">Other activation functions</text>
+</page>
+<page number="33" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p33_t1" reading_order_no="0" segment_no="2" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="385" height="40" font="font5" id="p33_t2" reading_order_no="1" segment_no="0" tag_type="title">Convolutional network</text>
+<text top="419" left="422" width="246" height="24" font="font6" id="p33_t3" reading_order_no="2" segment_no="1" tag_type="text">The “wrong side of the </text>
+<text top="452" left="422" width="171" height="24" font="font6" id="p33_t4" reading_order_no="3" segment_no="1" tag_type="text">mountain” effect</text>
+</page>
+<page number="34" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p34_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="424" height="40" font="font5" id="p34_t2" reading_order_no="1" segment_no="0" tag_type="title">Sequence model (LSTM)</text>
+</page>
+<page number="35" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p35_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="512" height="40" font="font5" id="p35_t2" reading_order_no="1" segment_no="0" tag_type="title">Generative model (MP-DBM)</text>
+</page>
+<page number="36" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p36_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="297" height="40" font="font5" id="p36_t2" reading_order_no="1" segment_no="0" tag_type="title">3-D Visualization</text>
+</page>
+<page number="37" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p37_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="523" height="40" font="font5" id="p37_t2" reading_order_no="1" segment_no="0" tag_type="title">3-D Visualization of MP-DBM</text>
+</page>
+<page number="38" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p38_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="568" height="40" font="font5" id="p38_t2" reading_order_no="1" segment_no="0" tag_type="title">Random walk control experiment</text>
+</page>
+<page number="39" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p39_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="468" height="40" font="font5" id="p39_t2" reading_order_no="1" segment_no="0" tag_type="title">3-D plots without obstacles</text>
+</page>
+<page number="40" position="absolute" top="0" left="0" height="540" width="720">
+<text top="514" left="605" width="76" height="8" font="font0" id="p40_t1" reading_order_no="0" segment_no="1" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="526" height="40" font="font5" id="p40_t2" reading_order_no="1" segment_no="0" tag_type="title">3-D plot of adversarial maxout</text>
+</page>
+<page number="41" position="absolute" top="0" left="0" height="540" width="720">
+	<fontspec id="font15" size="24" family="CMUSansSerif" color="#333336"/>
+<text top="514" left="605" width="76" height="8" font="font0" id="p41_t1" reading_order_no="0" segment_no="4" tag_type="text">Google Proprietary</text>
+<text top="126" left="40" width="539" height="23" font="font15" id="p41_t2" reading_order_no="1" segment_no="1" tag_type="list">•For most problems, there exists a linear subspace of </text>
+<text top="159" left="40" width="335" height="23" font="font15" id="p41_t3" reading_order_no="2" segment_no="1" tag_type="list">monotonically decreasing values  </text>
+<text top="225" left="40" width="647" height="23" font="font15" id="p41_t4" reading_order_no="3" segment_no="2" tag_type="list">• For some problems, there are obstacles between this subspace </text>
+<text top="258" left="40" width="155" height="23" font="font15" id="p41_t5" reading_order_no="4" segment_no="2" tag_type="list">the SGD path  </text>
+<text top="324" left="40" width="619" height="23" font="font15" id="p41_t6" reading_order_no="5" segment_no="3" tag_type="list">• Factored linear models capture many qualitative aspects of </text>
+<text top="357" left="40" width="217" height="23" font="font15" id="p41_t7" reading_order_no="6" segment_no="3" tag_type="list">deep network training</text>
+<text top="66" left="37" width="463" height="40" font="font5" id="p41_t8" reading_order_no="7" segment_no="0" tag_type="title">Lessons from visualizations</text>
+</page>
+<page number="42" position="absolute" top="0" left="0" height="540" width="720">
+	<fontspec id="font16" size="16" family="CMUSerif" color="#000000"/>
+<text top="514" left="605" width="76" height="8" font="font0" id="p42_t1" reading_order_no="0" segment_no="8" tag_type="text">Google Proprietary</text>
+<text top="66" left="37" width="186" height="40" font="font5" id="p42_t2" reading_order_no="1" segment_no="0" tag_type="title">Conclusion</text>
+<text top="90" left="296" width="383" height="24" font="font6" id="p42_t3" reading_order_no="2" segment_no="1" tag_type="text">Do not blame optimization troubles </text>
+<text top="123" left="296" width="365" height="24" font="font6" id="p42_t4" reading_order_no="3" segment_no="1" tag_type="text">on one specific boogeyman simply </text>
+<text top="156" left="296" width="373" height="24" font="font6" id="p42_t5" reading_order_no="4" segment_no="1" tag_type="text">because it is the one that frightens </text>
+<text top="189" left="296" width="384" height="24" font="font6" id="p42_t6" reading_order_no="5" segment_no="1" tag_type="text">you. Consider all possible obstacles, </text>
+<text top="222" left="296" width="393" height="24" font="font6" id="p42_t7" reading_order_no="6" segment_no="1" tag_type="text">and seek evidence for which ones are </text>
+<text top="255" left="296" width="68" height="24" font="font6" id="p42_t8" reading_order_no="7" segment_no="1" tag_type="text">there. </text>
+<text top="286" left="296" width="229" height="16" font="font16" id="p42_t9" reading_order_no="8" segment_no="2" tag_type="text">Local minima -&gt; gradient norm </text>
+<text top="308" left="296" width="323" height="16" font="font16" id="p42_t10" reading_order_no="9" segment_no="3" tag_type="text">Conditioning -&gt; uphill steps + changing gHg </text>
+<text top="330" left="296" width="240" height="16" font="font16" id="p42_t11" reading_order_no="10" segment_no="4" tag_type="text">Noise -&gt; uphill steps + varying g </text>
+<text top="352" left="296" width="385" height="16" font="font16" id="p42_t12" reading_order_no="11" segment_no="5" tag_type="text">Saddle points -&gt; gradient norm + negative eigenvalue </text>
+<text top="374" left="296" width="30" height="16" font="font16" id="p42_t13" reading_order_no="12" segment_no="5" tag_type="text">etc. </text>
+<text top="398" left="296" width="220" height="24" font="font6" id="p42_t14" reading_order_no="13" segment_no="6" tag_type="text">Make visualizations! </text>
+<text top="431" left="296" width="335" height="24" font="font6" id="p42_t15" reading_order_no="14" segment_no="7" tag_type="text">Consider yourself challenged to </text>
+<text top="431" left="631" width="59" height="23" font="font11" id="p42_t16" reading_order_no="15" segment_no="7" tag_type="text"><i>show </i></text>
+<text top="464" left="296" width="153" height="23" font="font11" id="p42_t17" reading_order_no="16" segment_no="7" tag_type="text"><i>us the obstacle</i></text>
+<text top="464" left="449" width="15" height="24" font="font6" id="p42_t18" reading_order_no="17" segment_no="7" tag_type="text">. </text>
+</page>
+</pdf2xml>

@@ -1,0 +1,161 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="792" width="612">
+	<fontspec id="font0" size="9" family="Arial,Italic" color="#000000"/>
+	<fontspec id="font1" size="9" family="Arial" color="#000000"/>
+	<fontspec id="font2" size="9" family="Arial,Bold" color="#000000"/>
+	<fontspec id="font3" size="7" family="Arial,Italic" color="#000000"/>
+	<fontspec id="font4" size="11" family="GillSans,Bold" color="#000000"/>
+	<fontspec id="font5" size="10" family="Giovanni-Book" color="#000000"/>
+	<fontspec id="font6" size="10" family="Giovanni-BookItalic,Italic" color="#000000"/>
+<text top="41" left="55" width="129" height="10" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title"><i>Algorithms for Molecular Biology</i></text>
+<text top="41" left="184" width="28" height="10" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="title"> 2006, </text>
+<text top="41" left="211" width="5" height="10" font="font2" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="title"><b>1</b></text>
+<text top="41" left="216" width="7" height="10" font="font1" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="title">:6</text>
+<text top="41" left="415" width="139" height="10" font="font1" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="text">http://www.almob.org/content/1/1/6</text>
+<text top="756" left="498" width="56" height="10" font="font1" id="p1_t6" reading_order_no="147" segment_no="11" tag_type="text">Page 10 of 12</text>
+<text top="769" left="432" width="122" height="8" font="font3" id="p1_t7" reading_order_no="148" segment_no="12" tag_type="text"><i>(page number not for citation purposes)</i></text>
+<text top="87" left="55" width="56" height="10" font="font4" id="p1_t8" reading_order_no="5" segment_no="2" tag_type="title"><b>Conclusion</b></text>
+<text top="98" left="55" width="241" height="9" font="font5" id="p1_t9" reading_order_no="6" segment_no="4" tag_type="text">Automated alignment procedures are based on simple</text>
+<text top="110" left="55" width="241" height="9" font="font5" id="p1_t10" reading_order_no="7" segment_no="4" tag_type="text">algorithmical rules. For a given set of input sequences,</text>
+<text top="122" left="55" width="241" height="9" font="font5" id="p1_t11" reading_order_no="8" segment_no="4" tag_type="text">they try to find an alignment with maximum score in the</text>
+<text top="134" left="55" width="241" height="9" font="font5" id="p1_t12" reading_order_no="9" segment_no="4" tag_type="text">sense of some underlying objective function. The two</text>
+<text top="145" left="55" width="221" height="9" font="font5" id="p1_t13" reading_order_no="10" segment_no="4" tag_type="text">basic questions in sequence alignment are therefore (</text>
+<text top="145" left="277" width="5" height="9" font="font6" id="p1_t14" reading_order_no="11" segment_no="4" tag_type="text"><i>a</i></text>
+<text top="145" left="281" width="15" height="9" font="font5" id="p1_t15" reading_order_no="12" segment_no="4" tag_type="text">) to</text>
+<text top="157" left="55" width="192" height="9" font="font5" id="p1_t16" reading_order_no="13" segment_no="4" tag_type="text">define an meaningful objective function and (</text>
+<text top="157" left="247" width="5" height="9" font="font6" id="p1_t17" reading_order_no="14" segment_no="4" tag_type="text"><i>b</i></text>
+<text top="157" left="252" width="44" height="9" font="font5" id="p1_t18" reading_order_no="15" segment_no="4" tag_type="text">) to design</text>
+<text top="169" left="55" width="241" height="9" font="font5" id="p1_t19" reading_order_no="16" segment_no="4" tag_type="text">an efficient optimisation algorithm that finds optimal or</text>
+<text top="181" left="55" width="241" height="9" font="font5" id="p1_t20" reading_order_no="17" segment_no="4" tag_type="text">at least near-optimal alignments with respect to the cho-</text>
+<text top="192" left="55" width="241" height="9" font="font5" id="p1_t21" reading_order_no="18" segment_no="4" tag_type="text">sen objective function. Most multi-alignment programs</text>
+<text top="204" left="55" width="39" height="9" font="font5" id="p1_t22" reading_order_no="19" segment_no="4" tag_type="text">are using </text>
+<text top="204" left="94" width="36" height="9" font="font6" id="p1_t23" reading_order_no="20" segment_no="4" tag_type="text"><i>heuristic </i></text>
+<text top="204" left="129" width="167" height="9" font="font5" id="p1_t24" reading_order_no="21" segment_no="4" tag_type="text">optimisation algorithms, i.e. they are, in</text>
+<text top="216" left="55" width="241" height="9" font="font5" id="p1_t25" reading_order_no="22" segment_no="4" tag_type="text">general, not able to find the mathematically optimal</text>
+<text top="228" left="55" width="241" height="9" font="font5" id="p1_t26" reading_order_no="23" segment_no="4" tag_type="text">alignment with respect to the objective function. An</text>
+<text top="239" left="55" width="241" height="9" font="font5" id="p1_t27" reading_order_no="24" segment_no="4" tag_type="text">objective function for sequence alignment should assign</text>
+<text top="251" left="55" width="48" height="9" font="font6" id="p1_t28" reading_order_no="25" segment_no="4" tag_type="text"><i>numerically </i></text>
+<text top="251" left="105" width="66" height="9" font="font5" id="p1_t29" reading_order_no="26" segment_no="4" tag_type="text">high scores to </text>
+<text top="251" left="172" width="46" height="9" font="font6" id="p1_t30" reading_order_no="27" segment_no="4" tag_type="text"><i>biologically </i></text>
+<text top="251" left="219" width="77" height="9" font="font5" id="p1_t31" reading_order_no="28" segment_no="4" tag_type="text">meaningful align-</text>
+<text top="263" left="55" width="213" height="9" font="font5" id="p1_t32" reading_order_no="29" segment_no="4" tag_type="text">ments. However, it is clearly not possible to find a </text>
+<text top="263" left="269" width="28" height="9" font="font6" id="p1_t33" reading_order_no="30" segment_no="4" tag_type="text"><i>univer-</i></text>
+<text top="275" left="55" width="20" height="9" font="font6" id="p1_t34" reading_order_no="31" segment_no="4" tag_type="text"><i>sally </i></text>
+<text top="275" left="75" width="222" height="9" font="font5" id="p1_t35" reading_order_no="32" segment_no="4" tag_type="text">applicable objective function that would give highest</text>
+<text top="286" left="55" width="241" height="9" font="font5" id="p1_t36" reading_order_no="33" segment_no="4" tag_type="text">numerical scores to the biologically correct alignments in</text>
+<text top="298" left="55" width="241" height="9" font="font5" id="p1_t37" reading_order_no="34" segment_no="4" tag_type="text">all possible situations. This is the main reason why align-</text>
+<text top="310" left="55" width="241" height="9" font="font5" id="p1_t38" reading_order_no="35" segment_no="4" tag_type="text">ment programs may fail to produce biologically reasona-</text>
+<text top="322" left="55" width="241" height="9" font="font5" id="p1_t39" reading_order_no="36" segment_no="4" tag_type="text">ble output alignments. In fact, the impossibility to define</text>
+<text top="333" left="55" width="241" height="9" font="font5" id="p1_t40" reading_order_no="37" segment_no="4" tag_type="text">a universal objective function constitutes a fundamental</text>
+<text top="345" left="55" width="60" height="9" font="font5" id="p1_t41" reading_order_no="38" segment_no="4" tag_type="text">limitation for </text>
+<text top="345" left="115" width="12" height="9" font="font6" id="p1_t42" reading_order_no="39" segment_no="4" tag_type="text"><i>all </i></text>
+<text top="345" left="127" width="141" height="9" font="font5" id="p1_t43" reading_order_no="40" segment_no="4" tag_type="text">automated alignment algorithms.</text>
+<text top="369" left="55" width="241" height="9" font="font5" id="p1_t44" reading_order_no="41" segment_no="6" tag_type="text">Often a user is already familiar with a sequence family</text>
+<text top="380" left="55" width="241" height="9" font="font5" id="p1_t45" reading_order_no="42" segment_no="6" tag_type="text">that he or she wants to align, so some knowledge about</text>
+<text top="392" left="55" width="241" height="9" font="font5" id="p1_t46" reading_order_no="43" segment_no="6" tag_type="text">existing sequence homologies may be available. Such</text>
+<text top="404" left="55" width="241" height="9" font="font5" id="p1_t47" reading_order_no="44" segment_no="6" tag_type="text">expert knowledge can be used to direct an otherwise auto-</text>
+<text top="416" left="55" width="241" height="9" font="font5" id="p1_t48" reading_order_no="45" segment_no="6" tag_type="text">mated alignment procedure. To facilitate the use of expert</text>
+<text top="427" left="55" width="241" height="9" font="font5" id="p1_t49" reading_order_no="46" segment_no="6" tag_type="text">knowledge for sequence alignment, we proposed an</text>
+<text top="439" left="55" width="84" height="9" font="font6" id="p1_t50" reading_order_no="47" segment_no="6" tag_type="text"><i>anchored alignment </i></text>
+<text top="439" left="139" width="157" height="9" font="font5" id="p1_t51" reading_order_no="48" segment_no="6" tag_type="text">approach where known homologies</text>
+<text top="451" left="55" width="241" height="9" font="font5" id="p1_t52" reading_order_no="49" segment_no="6" tag_type="text">can be used to restrict the alignment search space. This can</text>
+<text top="463" left="55" width="241" height="9" font="font5" id="p1_t53" reading_order_no="50" segment_no="6" tag_type="text">clearly improve the quality of the produced output align-</text>
+<text top="474" left="55" width="241" height="9" font="font5" id="p1_t54" reading_order_no="51" segment_no="6" tag_type="text">ments in situations where automatic procedures are not</text>
+<text top="486" left="55" width="241" height="9" font="font5" id="p1_t55" reading_order_no="52" segment_no="6" tag_type="text">able to produce meaningful alignments. In addition,</text>
+<text top="498" left="55" width="241" height="9" font="font5" id="p1_t56" reading_order_no="53" segment_no="6" tag_type="text">alignment anchors can be used to reduce the program run-</text>
+<text top="510" left="55" width="78" height="9" font="font5" id="p1_t57" reading_order_no="54" segment_no="6" tag_type="text">ning time. For the </text>
+<text top="510" left="133" width="19" height="9" font="font6" id="p1_t58" reading_order_no="55" segment_no="6" tag_type="text"><i>Hox </i></text>
+<text top="510" left="152" width="144" height="9" font="font5" id="p1_t59" reading_order_no="56" segment_no="6" tag_type="text">gene clusters that we analyzed, the</text>
+<text top="521" left="55" width="241" height="9" font="font5" id="p1_t60" reading_order_no="57" segment_no="6" tag_type="text">non-anchored version of DIALIGN produced serious mis-</text>
+<text top="533" left="55" width="241" height="9" font="font5" id="p1_t61" reading_order_no="58" segment_no="6" tag_type="text">alignments. We used the known gene boundaries as</text>
+<text top="545" left="55" width="241" height="9" font="font5" id="p1_t62" reading_order_no="59" segment_no="6" tag_type="text">anchor points to guarantee a correct alignment of these</text>
+<text top="557" left="55" width="84" height="9" font="font5" id="p1_t63" reading_order_no="60" segment_no="6" tag_type="text">genes to each other.</text>
+<text top="580" left="55" width="241" height="9" font="font5" id="p1_t64" reading_order_no="61" segment_no="9" tag_type="text">There are two possible reasons why automated alignment</text>
+<text top="592" left="55" width="241" height="9" font="font5" id="p1_t65" reading_order_no="62" segment_no="9" tag_type="text">procedures may fail to produce biologically correct align-</text>
+<text top="604" left="55" width="36" height="9" font="font5" id="p1_t66" reading_order_no="63" segment_no="9" tag_type="text">ments, (</text>
+<text top="604" left="91" width="5" height="9" font="font6" id="p1_t67" reading_order_no="64" segment_no="9" tag_type="text"><i>a</i></text>
+<text top="604" left="95" width="201" height="9" font="font5" id="p1_t68" reading_order_no="65" segment_no="9" tag_type="text">) The chosen objective function may not be in</text>
+<text top="615" left="55" width="241" height="9" font="font5" id="p1_t69" reading_order_no="66" segment_no="9" tag_type="text">accordance with biology, i.e., it may assign mathemati-</text>
+<text top="627" left="55" width="241" height="9" font="font5" id="p1_t70" reading_order_no="67" segment_no="9" tag_type="text">cally high scores to biologically wrong alignments. In this</text>
+<text top="639" left="55" width="241" height="9" font="font5" id="p1_t71" reading_order_no="68" segment_no="9" tag_type="text">case, even efficient optimisation algorithms would lead to</text>
+<text top="651" left="55" width="110" height="9" font="font5" id="p1_t72" reading_order_no="69" segment_no="9" tag_type="text">meaningless alignments. (</text>
+<text top="651" left="166" width="5" height="9" font="font6" id="p1_t73" reading_order_no="70" segment_no="9" tag_type="text"><i>b</i></text>
+<text top="651" left="170" width="126" height="9" font="font5" id="p1_t74" reading_order_no="71" segment_no="9" tag_type="text">) The mathematically optimal</text>
+<text top="662" left="55" width="241" height="9" font="font5" id="p1_t75" reading_order_no="72" segment_no="9" tag_type="text">alignment is biologically meaningful, but the employed</text>
+<text top="674" left="55" width="241" height="9" font="font5" id="p1_t76" reading_order_no="73" segment_no="9" tag_type="text">heuristic optimisation procedure is not able to find the</text>
+<text top="686" left="55" width="241" height="9" font="font5" id="p1_t77" reading_order_no="74" segment_no="9" tag_type="text">alignment with highest score. For the further develop-</text>
+<text top="698" left="55" width="241" height="9" font="font5" id="p1_t78" reading_order_no="75" segment_no="9" tag_type="text">ment of alignment algorithms, it is crucial to find out</text>
+<text top="709" left="55" width="241" height="9" font="font5" id="p1_t79" reading_order_no="76" segment_no="9" tag_type="text">which one of these reasons is to blame for mis-alignments</text>
+<text top="721" left="55" width="195" height="9" font="font5" id="p1_t80" reading_order_no="77" segment_no="9" tag_type="text">produced by existing software programs. If (</text>
+<text top="721" left="250" width="5" height="9" font="font6" id="p1_t81" reading_order_no="78" segment_no="9" tag_type="text"><i>a</i></text>
+<text top="721" left="255" width="41" height="9" font="font5" id="p1_t82" reading_order_no="79" segment_no="9" tag_type="text">) is often</text>
+<text top="87" left="313" width="241" height="9" font="font5" id="p1_t83" reading_order_no="80" segment_no="3" tag_type="text">observed for an alignment program, efforts should be</text>
+<text top="98" left="313" width="233" height="9" font="font5" id="p1_t84" reading_order_no="81" segment_no="3" tag_type="text">made to improve its underlying objective function. If (</text>
+<text top="98" left="546" width="5" height="9" font="font6" id="p1_t85" reading_order_no="82" segment_no="3" tag_type="text"><i>b</i></text>
+<text top="98" left="550" width="4" height="9" font="font5" id="p1_t86" reading_order_no="83" segment_no="3" tag_type="text">)</text>
+<text top="110" left="313" width="241" height="9" font="font5" id="p1_t87" reading_order_no="84" segment_no="3" tag_type="text">is the case, the biological quality of the output alignments</text>
+<text top="122" left="313" width="241" height="9" font="font5" id="p1_t88" reading_order_no="85" segment_no="3" tag_type="text">can be improved by using a more efficient optimisation</text>
+<text top="134" left="313" width="241" height="9" font="font5" id="p1_t89" reading_order_no="86" segment_no="3" tag_type="text">algorithm. For DIALIGN, it is unknown how close the</text>
+<text top="145" left="313" width="241" height="9" font="font5" id="p1_t90" reading_order_no="87" segment_no="3" tag_type="text">produced alignments come to the numerically optimal</text>
+<text top="157" left="313" width="241" height="9" font="font5" id="p1_t91" reading_order_no="88" segment_no="3" tag_type="text">alignment – in fact, it is possible to construct example</text>
+<text top="169" left="313" width="241" height="9" font="font5" id="p1_t92" reading_order_no="89" segment_no="3" tag_type="text">sequences where DIALIGN's greedy heuristic produces</text>
+<text top="181" left="313" width="241" height="9" font="font5" id="p1_t93" reading_order_no="90" segment_no="3" tag_type="text">alignments with arbitrarily low scores compared with the</text>
+<text top="192" left="313" width="118" height="9" font="font5" id="p1_t94" reading_order_no="91" segment_no="3" tag_type="text">possible optimal alignment.</text>
+<text top="216" left="313" width="175" height="9" font="font5" id="p1_t95" reading_order_no="92" segment_no="5" tag_type="text">In the Fugu examp<a href="">le, Figure 2 and 3,</a> the </text>
+<text top="216" left="488" width="42" height="9" font="font6" id="p1_t96" reading_order_no="93" segment_no="5" tag_type="text"><i>numerical </i></text>
+<text top="216" left="530" width="24" height="9" font="font5" id="p1_t97" reading_order_no="94" segment_no="5" tag_type="text">align-</text>
+<text top="228" left="313" width="241" height="9" font="font5" id="p1_t98" reading_order_no="95" segment_no="5" tag_type="text">ment score of the (anchored) correct alignment was 13%</text>
+<text top="239" left="313" width="241" height="9" font="font5" id="p1_t99" reading_order_no="96" segment_no="5" tag_type="text">below the score of the non-anchored alignment. All</text>
+<text top="251" left="313" width="241" height="9" font="font5" id="p1_t100" reading_order_no="97" segment_no="5" tag_type="text">sequenc<a href="">es in Figure 2 and 3 </a>contain only subsets of the 13</text>
+<text top="263" left="313" width="19" height="9" font="font6" id="p1_t101" reading_order_no="98" segment_no="5" tag_type="text"><i>Hox </i></text>
+<text top="263" left="332" width="222" height="9" font="font5" id="p1_t102" reading_order_no="99" segment_no="5" tag_type="text">paralogy groups, and different sequences contain dif-</text>
+<text top="275" left="313" width="241" height="9" font="font5" id="p1_t103" reading_order_no="100" segment_no="5" tag_type="text">ferent genes. For such an extreme data set, it is unlikely</text>
+<text top="286" left="313" width="241" height="9" font="font5" id="p1_t104" reading_order_no="101" segment_no="5" tag_type="text">that any reasonable objective function would assign an</text>
+<text top="298" left="313" width="241" height="9" font="font5" id="p1_t105" reading_order_no="102" segment_no="5" tag_type="text">optimal score to the biologically correct alignment. Here,</text>
+<text top="310" left="313" width="241" height="9" font="font5" id="p1_t106" reading_order_no="103" segment_no="5" tag_type="text">the problem is that sequence similarity no longer coin-</text>
+<text top="322" left="313" width="241" height="9" font="font5" id="p1_t107" reading_order_no="104" segment_no="5" tag_type="text">cides with biological homology. The only way of produc-</text>
+<text top="333" left="313" width="198" height="9" font="font5" id="p1_t108" reading_order_no="105" segment_no="5" tag_type="text">ing good alignments in such situations is </text>
+<text top="333" left="511" width="38" height="9" font="font6" id="p1_t109" reading_order_no="106" segment_no="5" tag_type="text"><i>to force </i></text>
+<text top="333" left="549" width="5" height="9" font="font5" id="p1_t110" reading_order_no="107" segment_no="5" tag_type="text">a</text>
+<text top="345" left="313" width="241" height="9" font="font5" id="p1_t111" reading_order_no="108" segment_no="5" tag_type="text">program to align certain known homologies to each</text>
+<text top="357" left="313" width="241" height="9" font="font5" id="p1_t112" reading_order_no="109" segment_no="5" tag_type="text">other. With our anchoring approach we can do this, for</text>
+<text top="369" left="313" width="187" height="9" font="font5" id="p1_t113" reading_order_no="110" segment_no="5" tag_type="text">example by using known gene boundaries as </text>
+<text top="369" left="500" width="52" height="9" font="font6" id="p1_t114" reading_order_no="111" segment_no="5" tag_type="text"><i>anchor points</i></text>
+<text top="369" left="552" width="3" height="9" font="font5" id="p1_t115" reading_order_no="112" segment_no="5" tag_type="text">.</text>
+<text top="392" left="313" width="241" height="9" font="font5" id="p1_t116" reading_order_no="113" segment_no="7" tag_type="text">For the BAliBASE benchmark data base, the total score of</text>
+<text top="404" left="313" width="241" height="9" font="font5" id="p1_t117" reading_order_no="114" segment_no="7" tag_type="text">the (biologically meaningful) anchored alignments was</text>
+<text top="416" left="313" width="241" height="9" font="font5" id="p1_t118" reading_order_no="115" segment_no="7" tag_type="text">also below the score of the (biologically wrong) non-</text>
+<text top="427" left="313" width="123" height="9" font="font5" id="p1_t119" reading_order_no="116" segment_no="7" tag_type="text">anchored default alignments.</text>
+<text top="451" left="313" width="241" height="9" font="font5" id="p1_t120" reading_order_no="117" segment_no="8" tag_type="text">This implies, that improved optimisation algorithms will</text>
+<text top="463" left="313" width="241" height="9" font="font5" id="p1_t121" reading_order_no="118" segment_no="8" tag_type="text">not lead to biologically improved alignments for these</text>
+<text top="474" left="313" width="241" height="9" font="font5" id="p1_t122" reading_order_no="119" segment_no="8" tag_type="text">sequences. In this case, however, there is some corre-</text>
+<text top="486" left="313" width="241" height="9" font="font5" id="p1_t123" reading_order_no="120" segment_no="8" tag_type="text">spondence between sequence similarity and homology,</text>
+<text top="498" left="313" width="241" height="9" font="font5" id="p1_t124" reading_order_no="121" segment_no="8" tag_type="text">so one should hope that the performance of DIALIGN on</text>
+<text top="510" left="313" width="241" height="9" font="font5" id="p1_t125" reading_order_no="122" segment_no="8" tag_type="text">these data can be improved by to designing better objec-</text>
+<text top="521" left="313" width="241" height="9" font="font5" id="p1_t126" reading_order_no="123" segment_no="8" tag_type="text">tive functions. An interesting example from BAliBASE is</text>
+<text top="533" left="313" width="241" height="9" font="font5" id="p1_t127" reading_order_no="124" segment_no="8" tag_type="text">shown in Figure <a href="">4. He</a>re, the non-anchored default ver-</text>
+<text top="545" left="313" width="241" height="9" font="font5" id="p1_t128" reading_order_no="125" segment_no="8" tag_type="text">sion of our program produced a complete mis-alignment.</text>
+<text top="557" left="313" width="241" height="9" font="font5" id="p1_t129" reading_order_no="126" segment_no="8" tag_type="text">However, it was sufficient to enforce the correct alignment</text>
+<text top="568" left="313" width="31" height="9" font="font5" id="p1_t130" reading_order_no="127" segment_no="8" tag_type="text">of one </text>
+<text top="568" left="344" width="25" height="9" font="font6" id="p1_t131" reading_order_no="128" segment_no="8" tag_type="text"><i>single </i></text>
+<text top="568" left="369" width="185" height="9" font="font5" id="p1_t132" reading_order_no="129" segment_no="8" tag_type="text">column using corresponding anchor points</text>
+<text top="580" left="313" width="241" height="9" font="font5" id="p1_t133" reading_order_no="130" segment_no="8" tag_type="text">to obtain a meaningful alignment of the entire sequences</text>
+<text top="592" left="313" width="241" height="9" font="font5" id="p1_t134" reading_order_no="131" segment_no="8" tag_type="text">where not only the one anchored column but most of the</text>
+<text top="604" left="313" width="241" height="9" font="font5" id="p1_t135" reading_order_no="132" segment_no="8" tag_type="text">three core blocks are correctly aligned. This indicates that</text>
+<text top="615" left="313" width="241" height="9" font="font5" id="p1_t136" reading_order_no="133" segment_no="8" tag_type="text">the correct alignment of the core blocks corresponds to a</text>
+<text top="627" left="313" width="63" height="9" font="font6" id="p1_t137" reading_order_no="134" segment_no="8" tag_type="text"><i>local maximum </i></text>
+<text top="627" left="376" width="117" height="9" font="font5" id="p1_t138" reading_order_no="135" segment_no="8" tag_type="text">in the alignment landscape.</text>
+<text top="651" left="313" width="124" height="9" font="font5" id="p1_t139" reading_order_no="136" segment_no="10" tag_type="text">In contrast, in the teleost </text>
+<text top="651" left="437" width="25" height="9" font="font6" id="p1_t140" reading_order_no="137" segment_no="10" tag_type="text"><i>HoxA </i></text>
+<text top="651" left="466" width="88" height="9" font="font5" id="p1_t141" reading_order_no="138" segment_no="10" tag_type="text">cluster example the</text>
+<text top="662" left="313" width="241" height="9" font="font5" id="p1_t142" reading_order_no="139" segment_no="10" tag_type="text">numerical score of the anchored alignment was around</text>
+<text top="674" left="313" width="22" height="9" font="font5" id="p1_t143" reading_order_no="140" segment_no="10" tag_type="text">15% </text>
+<text top="674" left="335" width="24" height="9" font="font6" id="p1_t144" reading_order_no="141" segment_no="10" tag_type="text"><i>above </i></text>
+<text top="674" left="359" width="195" height="9" font="font5" id="p1_t145" reading_order_no="142" segment_no="10" tag_type="text">the score of the non-anchored alignment. This</text>
+<text top="686" left="313" width="241" height="9" font="font5" id="p1_t146" reading_order_no="143" segment_no="10" tag_type="text">demonstrates that the greedy optimisation algorithm used</text>
+<text top="698" left="313" width="241" height="9" font="font5" id="p1_t147" reading_order_no="144" segment_no="10" tag_type="text">by DIALIGN can lead to results with scores far below the</text>
+<text top="709" left="313" width="241" height="9" font="font5" id="p1_t148" reading_order_no="145" segment_no="10" tag_type="text">optimal alignment. In such situations, improved optimi-</text>
+<text top="721" left="313" width="241" height="9" font="font5" id="p1_t149" reading_order_no="146" segment_no="10" tag_type="text">sation algorithms may lead not only to mathematically</text>
+</page>
+</pdf2xml>

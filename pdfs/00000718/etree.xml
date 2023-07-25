@@ -1,0 +1,135 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3220" width="2273">
+	<fontspec id="font0" size="37" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="38" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="3" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="72" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="179" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="36" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="70" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="48" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="29" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="27" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="28" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="64" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font15" size="91" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font16" size="127" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font17" size="43" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font18" size="78" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font19" size="22" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font20" size="303" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font21" size="25" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font22" size="35" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font23" size="44" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font24" size="34" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font25" size="33" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font26" size="32" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font27" size="307" family="GlyphLessFont" color="#000000"/>
+<text top="438" left="110" width="793" height="50" font="font0" id="p1_t1" reading_order_no="0" segment_no="2" tag_type="list">©  activity,  a  processing  step  in  a  business  process; </text>
+<text top="484" left="110" width="793" height="53" font="font1" id="p1_t2" reading_order_no="1" segment_no="3" tag_type="list">e  control  link,  sequencing  rules  in  a  business </text>
+<text top="532" left="147" width="756" height="53" font="font1" id="p1_t3" reading_order_no="2" segment_no="3" tag_type="list">process  that  model  the  control  flow  from  one </text>
+<text top="581" left="147" width="321" height="51" font="font2" id="p1_t4" reading_order_no="3" segment_no="3" tag_type="list">activity  to  the  next; </text>
+<text top="629" left="110" width="793" height="51" font="font2" id="p1_t5" reading_order_no="4" segment_no="4" tag_type="list">e  data  link,  information  flow  in  a  business </text>
+<text top="676" left="147" width="757" height="53" font="font1" id="p1_t6" reading_order_no="5" segment_no="4" tag_type="list">process,  wherein  data  flow  can  be  separate </text>
+<text top="726" left="148" width="304" height="50" font="font0" id="p1_t7" reading_order_no="6" segment_no="4" tag_type="list">from  control  flow; </text>
+<text top="772" left="110" width="794" height="53" font="font1" id="p1_t8" reading_order_no="7" segment_no="5" tag_type="list">e  data  mapping,  specifying  information  that </text>
+<text top="819" left="147" width="756" height="54" font="font3" id="p1_t9" reading_order_no="8" segment_no="5" tag_type="list">needs  to  be  transferred  between  two  linked </text>
+<text top="870" left="147" width="228" height="51" font="font2" id="p1_t10" reading_order_no="9" segment_no="5" tag_type="list">activities;  and </text>
+<text top="917" left="110" width="794" height="53" font="font1" id="p1_t11" reading_order_no="10" segment_no="6" tag_type="list">e  pluglink  and  export  element,  describing  the </text>
+<text top="963" left="148" width="755" height="54" font="font3" id="p1_t12" reading_order_no="11" segment_no="6" tag_type="list">relation  between  activities  in  the  flow  model </text>
+<text top="1011" left="147" width="758" height="54" font="font3" id="p1_t13" reading_order_no="12" segment_no="6" tag_type="list">and  the  WSDL  operations  the  service  provider </text>
+<text top="1059" left="147" width="102" height="54" font="font3" id="p1_t14" reading_order_no="13" segment_no="6" tag_type="list">offers. </text>
+<text top="1155" left="110" width="794" height="54" font="font3" id="p1_t15" reading_order_no="14" segment_no="9" tag_type="text">Figure  5  shows  a  graphical  representation  of  the </text>
+<text top="1205" left="73" width="831" height="53" font="font1" id="p1_t16" reading_order_no="15" segment_no="9" tag_type="text">TotalSupply  Web  service  WSFL  model,  with  three </text>
+<text top="1253" left="74" width="831" height="53" font="font1" id="p1_t17" reading_order_no="16" segment_no="9" tag_type="text">flow  models  comprising  the  global  model:  one  for </text>
+<text top="1299" left="74" width="830" height="55" font="font4" id="p1_t18" reading_order_no="17" segment_no="9" tag_type="text">our  enterprise  and  two  representing  the  support- </text>
+<text top="1350" left="75" width="194" height="51" font="font2" id="p1_t19" reading_order_no="18" segment_no="9" tag_type="text">ing  services. </text>
+<text top="1397" left="110" width="795" height="53" font="font1" id="p1_t20" reading_order_no="19" segment_no="10" tag_type="text">Prior  to  constructing  a  WSFL  global  model,  the </text>
+<text top="1444" left="75" width="829" height="54" font="font3" id="p1_t21" reading_order_no="20" segment_no="10" tag_type="text">individual  flow  models  must  be  specified  accord- </text>
+<text top="1493" left="75" width="829" height="53" font="font1" id="p1_t22" reading_order_no="21" segment_no="10" tag_type="text">ing  to  IBM’s  WSFL  specification  (http://www- </text>
+<text top="1540" left="74" width="832" height="54" font="font3" id="p1_t23" reading_order_no="22" segment_no="10" tag_type="text">4.ibm.com/software/solutions/webservices/pdf/ </text>
+<text top="1588" left="74" width="831" height="54" font="font3" id="p1_t24" reading_order_no="23" segment_no="10" tag_type="text">WSFL.pdf).  The  WSFL  flow  model  for  TotalSupply </text>
+<text top="1635" left="74" width="830" height="55" font="font4" id="p1_t25" reading_order_no="24" segment_no="10" tag_type="text">consists  of  a  flowModel  name,  TotalSupplyFlow; </text>
+<text top="1685" left="75" width="830" height="53" font="font1" id="p1_t26" reading_order_no="25" segment_no="10" tag_type="text">a  service  ProviderType;  and a  listing  of  service </text>
+<text top="238" left="1040" width="182" height="39" font="font11" id="p1_t27" reading_order_no="26" segment_no="1" tag_type="figure">TotalSupplyFlow </text>
+<text top="458" left="1312" width="86" height="36" font="font12" id="p1_t28" reading_order_no="29" segment_no="1" tag_type="figure">Process </text>
+<text top="488" left="1308" width="94" height="39" font="font11" id="p1_t29" reading_order_no="30" segment_no="1" tag_type="figure">payment </text>
+<text top="609" left="1189" width="75" height="38" font="font13" id="p1_t30" reading_order_no="31" segment_no="1" tag_type="figure">Accept </text>
+<text top="642" left="1176" width="102" height="36" font="font12" id="p1_t31" reading_order_no="32" segment_no="1" tag_type="figure">shipment </text>
+<text top="672" left="1187" width="81" height="39" font="font11" id="p1_t32" reading_order_no="33" segment_no="1" tag_type="figure">request </text>
+<text top="285" left="1589" width="129" height="38" font="font13" id="p1_t33" reading_order_no="27" segment_no="1" tag_type="figure">Supplier  | </text>
+<text top="332" left="1583" width="125" height="36" font="font12" id="p1_t34" reading_order_no="28" segment_no="1" tag_type="figure">FlowModel </text>
+<text top="571" left="1593" width="85" height="36" font="font12" id="p1_t35" reading_order_no="34" segment_no="1" tag_type="figure">Shipper </text>
+<text top="615" left="1583" width="125" height="36" font="font12" id="p1_t36" reading_order_no="35" segment_no="1" tag_type="figure">FlowModel </text>
+<text top="739" left="1379" width="126" height="39" font="font11" id="p1_t37" reading_order_no="36" segment_no="1" tag_type="figure">FlowModel </text>
+<text top="916" left="958" width="832" height="54" font="font3" id="p1_t38" reading_order_no="54" segment_no="7" tag_type="text">providers,  activity  specifications,  and  control  and </text>
+<text top="965" left="957" width="833" height="53" font="font1" id="p1_t39" reading_order_no="55" segment_no="7" tag_type="text">data  links.  Our  TotalSupply  flow  model  includes </text>
+<text top="1014" left="957" width="833" height="50" font="font0" id="p1_t40" reading_order_no="56" segment_no="7" tag_type="text">two  separate  serviceProvider  elements  in  the  ser- </text>
+<text top="1060" left="957" width="832" height="53" font="font1" id="p1_t41" reading_order_no="57" segment_no="7" tag_type="text">vice  ProviderType—mySupplier  and  myShipper. </text>
+<text top="1109" left="958" width="790" height="53" font="font1" id="p1_t42" reading_order_no="58" segment_no="7" tag_type="text">Figure  6a  shows  the  XML  code  for  mySupplier. </text>
+<text top="1155" left="994" width="797" height="55" font="font4" id="p1_t43" reading_order_no="59" segment_no="8" tag_type="text">The  TotalSupply  flow  model  must  perform  three </text>
+<text top="1204" left="958" width="833" height="54" font="font3" id="p1_t44" reading_order_no="60" segment_no="8" tag_type="text">activities  to  successfully  complete  the  business </text>
+<text top="1253" left="958" width="832" height="53" font="font1" id="p1_t45" reading_order_no="61" segment_no="8" tag_type="text">process:  processing  a  purchase  order,  accepting  a </text>
+<text top="1303" left="958" width="833" height="50" font="font0" id="p1_t46" reading_order_no="62" segment_no="8" tag_type="text">shipment  request,  and  receiving  a  payment.  Separate </text>
+<text top="1348" left="958" width="833" height="54" font="font3" id="p1_t47" reading_order_no="63" segment_no="8" tag_type="text">activity  elements  specify  each  of  these  activities, </text>
+<text top="1397" left="958" width="833" height="53" font="font1" id="p1_t48" reading_order_no="64" segment_no="8" tag_type="text">which  must  perform  in  a  specific  order:  Purchase- </text>
+<text top="1445" left="958" width="833" height="53" font="font1" id="p1_t49" reading_order_no="65" segment_no="8" tag_type="text">order  processing  must  precede  the  shipper’s  accep- </text>
+<text top="1493" left="958" width="834" height="53" font="font1" id="p1_t50" reading_order_no="66" segment_no="8" tag_type="text">tance  of  the  shipping  request,  whereas  the  payment </text>
+<text top="1541" left="957" width="835" height="53" font="font1" id="p1_t51" reading_order_no="67" segment_no="8" tag_type="text">can  be  received  at  any  time—WSFL  allows  an  activ- </text>
+<text top="1589" left="959" width="833" height="53" font="font1" id="p1_t52" reading_order_no="68" segment_no="8" tag_type="text">ity  to  exist  outside  the  control  links  connecting  other </text>
+<text top="1636" left="958" width="834" height="54" font="font3" id="p1_t53" reading_order_no="69" segment_no="8" tag_type="text">activities.  Figure  6b  provides  an  example  of  the </text>
+<text top="1684" left="958" width="834" height="54" font="font3" id="p1_t54" reading_order_no="70" segment_no="8" tag_type="text">processPO  activity,  which  is  provided  by  my- </text>
+<text top="1833" left="124" width="1168" height="47" font="font22" id="p1_t55" reading_order_no="71" segment_no="12" tag_type="text">&lt;serviceProvider  name="mySupplier"  type="supplier"&gt; </text>
+<text top="1880" left="174" width="1191" height="50" font="font0" id="p1_t56" reading_order_no="72" segment_no="12" tag_type="text">&lt;locator  type="static"  service="qualitySupply.com"/&gt; </text>
+<text top="1928" left="124" width="409" height="49" font="font8" id="p1_t57" reading_order_no="73" segment_no="12" tag_type="text">&lt;/serviceProvider&gt; </text>
+<text top="1975" left="110" width="36" height="59" font="font23" id="p1_t58" reading_order_no="74" segment_no="13" tag_type="text">(a) </text>
+<text top="2072" left="124" width="615" height="50" font="font0" id="p1_t59" reading_order_no="75" segment_no="14" tag_type="text">&lt;activity  name="processPO"&gt; </text>
+<text top="2122" left="174" width="986" height="46" font="font24" id="p1_t60" reading_order_no="76" segment_no="14" tag_type="text">&lt;performedBy  serviceProvider="mySupplier"/&gt; </text>
+<text top="2168" left="174" width="247" height="50" font="font0" id="p1_t61" reading_order_no="77" segment_no="14" tag_type="text">&lt;implement&gt; </text>
+<text top="2216" left="224" width="178" height="50" font="font0" id="p1_t62" reading_order_no="78" segment_no="14" tag_type="text">&lt;export&gt; </text>
+<text top="2267" left="274" width="730" height="45" font="font25" id="p1_t63" reading_order_no="79" segment_no="14" tag_type="text">&lt;target  portType="totalSupplyPT" </text>
+<text top="2316" left="374" width="618" height="45" font="font25" id="p1_t64" reading_order_no="80" segment_no="14" tag_type="text">operation="sendProcOrder"/&gt; </text>
+<text top="2358" left="224" width="201" height="51" font="font2" id="p1_t65" reading_order_no="81" segment_no="14" tag_type="text">&lt;/export&gt; </text>
+<text top="2408" left="174" width="270" height="49" font="font8" id="p1_t66" reading_order_no="82" segment_no="14" tag_type="text">&lt;/implement&gt; </text>
+<text top="2454" left="125" width="246" height="51" font="font2" id="p1_t67" reading_order_no="83" segment_no="14" tag_type="text">&lt;/activity&gt; </text>
+<text top="2508" left="110" width="36" height="53" font="font1" id="p1_t68" reading_order_no="84" segment_no="15" tag_type="text">(b) </text>
+<text top="2604" left="125" width="705" height="43" font="font26" id="p1_t69" reading_order_no="85" segment_no="16" tag_type="text">&lt;controlLink  source="processPO" </text>
+<text top="2650" left="273" width="735" height="46" font="font24" id="p1_t70" reading_order_no="86" segment_no="16" tag_type="text">target="acceptShipmentRequest"/&gt; </text>
+<text top="2748" left="125" width="636" height="45" font="font25" id="p1_t71" reading_order_no="87" segment_no="17" tag_type="text">&lt;dataLink  source="processPO" </text>
+<text top="2796" left="323" width="712" height="45" font="font25" id="p1_t72" reading_order_no="88" segment_no="17" tag_type="text">target="acceptShipmentRequest"&gt; </text>
+<text top="2843" left="174" width="1239" height="45" font="font25" id="p1_t73" reading_order_no="89" segment_no="17" tag_type="text">&lt;map  sourceMessage="anINVandSR"  targetMessage="anSR"/&gt; </text>
+<text top="2888" left="125" width="247" height="49" font="font8" id="p1_t74" reading_order_no="90" segment_no="17" tag_type="text">&lt;/dataLink&gt; </text>
+<text top="2935" left="111" width="33" height="59" font="font23" id="p1_t75" reading_order_no="91" segment_no="18" tag_type="text">(c) </text>
+<text top="172" left="1845" width="275" height="46" font="font24" id="p1_t76" reading_order_no="37" segment_no="0" tag_type="text">Figure  5.  TotalSup- </text>
+<text top="219" left="1843" width="231" height="47" font="font22" id="p1_t77" reading_order_no="38" segment_no="0" tag_type="text">ply  Web  service </text>
+<text top="269" left="1844" width="285" height="46" font="font24" id="p1_t78" reading_order_no="39" segment_no="0" tag_type="text">global  model  repre- </text>
+<text top="318" left="1844" width="299" height="43" font="font26" id="p1_t79" reading_order_no="40" segment_no="0" tag_type="text">sentation.  Activities </text>
+<text top="365" left="1844" width="275" height="46" font="font24" id="p1_t80" reading_order_no="41" segment_no="0" tag_type="text">such  as  processPO </text>
+<text top="411" left="1845" width="273" height="47" font="font22" id="p1_t81" reading_order_no="42" segment_no="0" tag_type="text">are  represented  as </text>
+<text top="461" left="1845" width="297" height="46" font="font24" id="p1_t82" reading_order_no="43" segment_no="0" tag_type="text">shaded  circles,  con- </text>
+<text top="508" left="1847" width="265" height="46" font="font24" id="p1_t83" reading_order_no="44" segment_no="0" tag_type="text">trol  links  are  solid </text>
+<text top="556" left="1845" width="271" height="47" font="font22" id="p1_t84" reading_order_no="45" segment_no="0" tag_type="text">arrows  connecting </text>
+<text top="606" left="1845" width="303" height="43" font="font26" id="p1_t85" reading_order_no="46" segment_no="0" tag_type="text">activities,  data  links </text>
+<text top="653" left="1845" width="275" height="46" font="font24" id="p1_t86" reading_order_no="47" segment_no="0" tag_type="text">are  dashed  arrows, </text>
+<text top="701" left="1845" width="236" height="46" font="font24" id="p1_t87" reading_order_no="48" segment_no="0" tag_type="text">and  the  callouts </text>
+<text top="749" left="1846" width="219" height="46" font="font24" id="p1_t88" reading_order_no="49" segment_no="0" tag_type="text">connecting  the </text>
+<text top="797" left="1849" width="267" height="46" font="font24" id="p1_t89" reading_order_no="50" segment_no="0" tag_type="text">TotalSupply  activi- </text>
+<text top="845" left="1847" width="276" height="46" font="font24" id="p1_t90" reading_order_no="51" segment_no="0" tag_type="text">ties  to  the  external </text>
+<text top="892" left="1845" width="273" height="47" font="font22" id="p1_t91" reading_order_no="52" segment_no="0" tag_type="text">services  represent </text>
+<text top="941" left="1844" width="144" height="46" font="font24" id="p1_t92" reading_order_no="53" segment_no="0" tag_type="text">pluglinks. </text>
+<text top="1806" left="1846" width="216" height="46" font="font24" id="p1_t93" reading_order_no="92" segment_no="11" tag_type="text">Figure  6.  WSFL </text>
+<text top="1854" left="1850" width="236" height="46" font="font24" id="p1_t94" reading_order_no="93" segment_no="11" tag_type="text">TotalSupply  flow </text>
+<text top="1903" left="1846" width="271" height="45" font="font25" id="p1_t95" reading_order_no="94" segment_no="11" tag_type="text">model:  (a)  service- </text>
+<text top="1951" left="1846" width="250" height="45" font="font25" id="p1_t96" reading_order_no="95" segment_no="11" tag_type="text">Provider  element </text>
+<text top="1997" left="1847" width="266" height="46" font="font24" id="p1_t97" reading_order_no="96" segment_no="11" tag_type="text">for  mySupplier;  (b) </text>
+<text top="2046" left="1845" width="275" height="46" font="font24" id="p1_t98" reading_order_no="97" segment_no="11" tag_type="text">processPO  activity </text>
+<text top="2094" left="1845" width="283" height="46" font="font24" id="p1_t99" reading_order_no="98" segment_no="11" tag_type="text">provided  by  mySup- </text>
+<text top="2143" left="1845" width="299" height="45" font="font25" id="p1_t100" reading_order_no="99" segment_no="11" tag_type="text">plier;  (¢)  controlLink </text>
+<text top="2191" left="1846" width="189" height="45" font="font25" id="p1_t101" reading_order_no="100" segment_no="11" tag_type="text">and  dataLink </text>
+<text top="2239" left="1847" width="142" height="45" font="font25" id="p1_t102" reading_order_no="101" segment_no="11" tag_type="text">elements. </text>
+</page>
+</pdf2xml>

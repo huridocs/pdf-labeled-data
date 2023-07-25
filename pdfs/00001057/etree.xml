@@ -1,0 +1,113 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3233" width="2289">
+	<fontspec id="font0" size="68" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="70" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="55" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="3" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="48" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="47" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="46" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="43" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="45" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="49" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="42" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="23" family="GlyphLessFont" color="#000000"/>
+<text top="313" left="218" width="1752" height="92" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">The  missing  component  for  T'V-like  service  over  the  Internet  is  a </text>
+<text top="395" left="220" width="1815" height="95" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">SCALABLE  ONE-TO-MANY  DISTRIBUTION  MECHANISM </text>
+<text top="492" left="220" width="1150" height="74" font="font2" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="text">that  accommodates  live  streaming  content. </text>
+<text top="703" left="251" width="917" height="65" font="font4" id="p1_t4" reading_order_no="3" segment_no="5" tag_type="text">the  application  on  their  desktop  computers  with </text>
+<text top="756" left="251" width="703" height="65" font="font4" id="p1_t5" reading_order_no="4" segment_no="5" tag_type="text">no  special  support  from  the  network. </text>
+<text top="860" left="269" width="918" height="65" font="font4" id="p1_t6" reading_order_no="5" segment_no="6" tag_type="text">Here,  I  review  the  key  design  challenges  and </text>
+<text top="914" left="218" width="970" height="63" font="font5" id="p1_t7" reading_order_no="6" segment_no="6" tag_type="text">explore  mesh-based  P2P  streaming  as  a  promising </text>
+<text top="966" left="218" width="975" height="63" font="font5" id="p1_t8" reading_order_no="7" segment_no="6" tag_type="text">approach  for  providing  this  service.  The  key  role  of </text>
+<text top="1018" left="217" width="969" height="63" font="font5" id="p1_t9" reading_order_no="8" segment_no="6" tag_type="text">end  systems  in  content  delivery  introduces  several </text>
+<text top="1070" left="218" width="966" height="63" font="font5" id="p1_t10" reading_order_no="9" segment_no="6" tag_type="text">challenges  in  designing  P2P  streaming  mechanisms: </text>
+<text top="1121" left="270" width="916" height="63" font="font5" id="p1_t11" reading_order_no="10" segment_no="7" tag_type="text">Bandwidth  heterogeneity  and  asymmetry.  Partici- </text>
+<text top="1173" left="217" width="968" height="63" font="font5" id="p1_t12" reading_order_no="11" segment_no="7" tag_type="text">pating  peers  in  a  session  are  likely  to  have  heteroge- </text>
+<text top="1226" left="218" width="970" height="65" font="font4" id="p1_t13" reading_order_no="12" segment_no="7" tag_type="text">neous-access-link  bandwidth.  The  access-link </text>
+<text top="1277" left="218" width="968" height="65" font="font4" id="p1_t14" reading_order_no="13" segment_no="7" tag_type="text">bandwidth  of  individual  peers  is  often  asymmetri- </text>
+<text top="1330" left="217" width="969" height="63" font="font5" id="p1_t15" reading_order_no="14" segment_no="7" tag_type="text">cal,  that  is,  the  incoming  bandwidth  is  greater  than </text>
+<text top="1382" left="218" width="969" height="65" font="font4" id="p1_t16" reading_order_no="15" segment_no="7" tag_type="text">the  outgoing  bandwidth.  The  heterogeneity  and </text>
+<text top="1436" left="218" width="968" height="63" font="font5" id="p1_t17" reading_order_no="16" segment_no="7" tag_type="text">asymmetry  of  access-link  bandwidth  imply  that  var- </text>
+<text top="1490" left="218" width="968" height="62" font="font6" id="p1_t18" reading_order_no="17" segment_no="7" tag_type="text">ious  connections  of  the  overlay  are  likely  to  have </text>
+<text top="1547" left="218" width="968" height="54" font="font7" id="p1_t19" reading_order_no="18" segment_no="7" tag_type="text">different  bandwidth.  Therefore,  a  high-bandwidth </text>
+<text top="1593" left="218" width="970" height="62" font="font6" id="p1_t20" reading_order_no="19" segment_no="7" tag_type="text">peer  may  need  to  simultaneously  receive  streaming </text>
+<text top="1644" left="218" width="968" height="63" font="font5" id="p1_t21" reading_order_no="20" segment_no="7" tag_type="text">content  from  multiple  peers  in  order  to  obtain  the </text>
+<text top="1695" left="218" width="480" height="65" font="font4" id="p1_t22" reading_order_no="21" segment_no="7" tag_type="text">desired  streaming  quality. </text>
+<text top="1752" left="271" width="915" height="58" font="font8" id="p1_t23" reading_order_no="22" segment_no="8" tag_type="text">Dynamics  of peer participation  (churn).  Participat- </text>
+<text top="1799" left="218" width="968" height="65" font="font4" id="p1_t24" reading_order_no="23" segment_no="8" tag_type="text">ing  users  in  a  P2P  system  (and  thus  their  comput- </text>
+<text top="1853" left="218" width="970" height="63" font="font5" id="p1_t25" reading_order_no="24" segment_no="8" tag_type="text">ers)  may  join  or  leave  a  session  at  any  arbitrary </text>
+<text top="1905" left="218" width="969" height="63" font="font5" id="p1_t26" reading_order_no="25" segment_no="8" tag_type="text">point  in  time.  These  user-driven  dynamics  result  in </text>
+<text top="1958" left="218" width="969" height="63" font="font5" id="p1_t27" reading_order_no="26" segment_no="8" tag_type="text">ongoing  changes  of  the  overlay  topology  that  could </text>
+<text top="2009" left="218" width="968" height="65" font="font4" id="p1_t28" reading_order_no="27" segment_no="8" tag_type="text">disrupt  the  streaming-content  delivery  through  the </text>
+<text top="2065" left="219" width="136" height="61" font="font9" id="p1_t29" reading_order_no="28" segment_no="8" tag_type="text">overlay. </text>
+<text top="2114" left="276" width="909" height="65" font="font4" id="p1_t30" reading_order_no="29" segment_no="9" tag_type="text">Utilization  of available  resources.  While  the  aggre- </text>
+<text top="2168" left="218" width="968" height="63" font="font5" id="p1_t31" reading_order_no="30" segment_no="9" tag_type="text">gate  available  resources  scale  with  the  user  popula- </text>
+<text top="2218" left="219" width="968" height="65" font="font4" id="p1_t32" reading_order_no="31" segment_no="9" tag_type="text">tion,  the  system’s  ability  to  utilize  available </text>
+<text top="2271" left="219" width="966" height="62" font="font6" id="p1_t33" reading_order_no="32" segment_no="9" tag_type="text">resources  may  not  scale  proportionally  for  two  rea- </text>
+<text top="2324" left="218" width="968" height="62" font="font6" id="p1_t34" reading_order_no="33" segment_no="9" tag_type="text">sons:  The  structure  of  the  overlay  may  prevent  some </text>
+<text top="2374" left="219" width="966" height="65" font="font4" id="p1_t35" reading_order_no="34" segment_no="9" tag_type="text">peers  from  contributing  their  outgoing  bandwidth; </text>
+<text top="2434" left="219" width="967" height="55" font="font10" id="p1_t36" reading_order_no="35" segment_no="9" tag_type="text">for  example,  leaf  peers  in  a  tree-shaped  overlay  do </text>
+<text top="2481" left="219" width="967" height="63" font="font5" id="p1_t37" reading_order_no="36" segment_no="9" tag_type="text">not  forward  content  to  other  peers.  And  participat- </text>
+<text top="2533" left="220" width="969" height="63" font="font5" id="p1_t38" reading_order_no="37" segment_no="9" tag_type="text">ing  peers  may  lack  sufficient  useful  content  to  fully </text>
+<text top="2585" left="219" width="968" height="63" font="font5" id="p1_t39" reading_order_no="38" segment_no="9" tag_type="text">utilize  the  available  bandwidth  to  their  connected </text>
+<text top="2636" left="219" width="104" height="66" font="font11" id="p1_t40" reading_order_no="39" segment_no="9" tag_type="text">peers. </text>
+<text top="2749" left="221" width="523" height="53" font="font12" id="p1_t41" reading_order_no="40" segment_no="10" tag_type="title">MESH-BASED  P2P  STREAMING </text>
+<text top="2800" left="218" width="968" height="55" font="font10" id="p1_t42" reading_order_no="41" segment_no="11" tag_type="text">The  recent  success  of  BitTorrent,  a  P2P  file  distrib- </text>
+<text top="2846" left="220" width="968" height="63" font="font5" id="p1_t43" reading_order_no="42" segment_no="11" tag_type="text">ution  protocol,  has  inspired  a  new  and  promising </text>
+<text top="2902" left="219" width="968" height="57" font="font13" id="p1_t44" reading_order_no="43" segment_no="11" tag_type="text">approach  to  P2P  streaming  called  mesh-based,  or </text>
+<text top="2955" left="219" width="967" height="57" font="font13" id="p1_t45" reading_order_no="44" segment_no="11" tag_type="text">data-driven,  P2P  streaming.  In  mesh-based  P2P </text>
+<text top="3009" left="220" width="969" height="54" font="font7" id="p1_t46" reading_order_no="45" segment_no="11" tag_type="text">streaming,  participating  peers  form  a  randomly </text>
+<text top="3144" left="223" width="43" height="31" font="font14" id="p1_t47" reading_order_no="91" segment_no="12" tag_type="text">56 </text>
+<text top="3144" left="345" width="761" height="31" font="font14" id="p1_t48" reading_order_no="92" segment_no="13" tag_type="text">November  2006/Vol.  49,  No.  ||  COMMUNICATIONS  OF  THE  ACM </text>
+<text top="702" left="1240" width="961" height="65" font="font4" id="p1_t49" reading_order_no="46" segment_no="1" tag_type="text">connected  mesh-shaped  overlay  and  incorporate </text>
+<text top="757" left="1239" width="962" height="62" font="font6" id="p1_t50" reading_order_no="47" segment_no="1" tag_type="text">swarm-like  content  delivery  similar  to  BitTorrent </text>
+<text top="809" left="1243" width="959" height="62" font="font6" id="p1_t51" reading_order_no="48" segment_no="1" tag_type="text">[6].  This  approach  overcomes  all  three  challenges— </text>
+<text top="861" left="1240" width="961" height="62" font="font6" id="p1_t52" reading_order_no="49" segment_no="1" tag_type="text">bandwidth  heterogeneity,  peer  dynamics,  and </text>
+<text top="913" left="1240" width="960" height="63" font="font5" id="p1_t53" reading_order_no="50" segment_no="1" tag_type="text">resource  utilization—outlined  earlier,  accommodat- </text>
+<text top="964" left="1240" width="960" height="63" font="font5" id="p1_t54" reading_order_no="51" segment_no="1" tag_type="text">ing  delivery  of  good-quality  streams  to  a  large  num- </text>
+<text top="1017" left="1240" width="222" height="63" font="font5" id="p1_t55" reading_order_no="52" segment_no="1" tag_type="text">ber  of  users. </text>
+<text top="1069" left="1289" width="911" height="63" font="font5" id="p1_t56" reading_order_no="53" segment_no="2" tag_type="text">Having  multiple  neighbors  enables  each  peer  to </text>
+<text top="1122" left="1239" width="962" height="62" font="font6" id="p1_t57" reading_order_no="54" segment_no="2" tag_type="text">gracefully  cope  with  the  departure  of  any  of  them </text>
+<text top="1173" left="1239" width="961" height="63" font="font5" id="p1_t58" reading_order_no="55" segment_no="2" tag_type="text">due  to  churn.  Accommodating  bandwidth  hetero- </text>
+<text top="1224" left="1239" width="962" height="65" font="font4" id="p1_t59" reading_order_no="56" segment_no="2" tag_type="text">geneity  implies  that  the  quality  of  the  delivered </text>
+<text top="1276" left="1239" width="961" height="65" font="font4" id="p1_t60" reading_order_no="57" segment_no="2" tag_type="text">stream  to  each  peer  should  be  proportional  to  its </text>
+<text top="1329" left="1239" width="962" height="65" font="font4" id="p1_t61" reading_order_no="58" segment_no="2" tag_type="text">incoming  access-link  bandwidth.  Each  peer  could </text>
+<text top="1381" left="1239" width="961" height="65" font="font4" id="p1_t62" reading_order_no="59" segment_no="2" tag_type="text">determine  the  number  of  its  neighbors  proportional </text>
+<text top="1435" left="1240" width="960" height="63" font="font5" id="p1_t63" reading_order_no="60" segment_no="2" tag_type="text">to  its  incoming  bandwidth  to  achieve  proper  band- </text>
+<text top="1486" left="1237" width="628" height="65" font="font4" id="p1_t64" reading_order_no="61" segment_no="2" tag_type="text">width  connectivity  to  the  overlay. </text>
+<text top="1540" left="1287" width="913" height="63" font="font5" id="p1_t65" reading_order_no="62" segment_no="3" tag_type="text">An  elegant  approach  to  facilitating  bandwidth </text>
+<text top="1591" left="1239" width="962" height="63" font="font5" id="p1_t66" reading_order_no="63" segment_no="3" tag_type="text">heterogeneity  involves  encoding  a  video  stream </text>
+<text top="1642" left="1237" width="963" height="65" font="font4" id="p1_t67" reading_order_no="64" segment_no="3" tag_type="text">with  Multiple  Description  Coding  (MDC).  An </text>
+<text top="1696" left="1239" width="961" height="63" font="font5" id="p1_t68" reading_order_no="65" segment_no="3" tag_type="text">MDC  encoder  organizes  a  video  stream  into  multi- </text>
+<text top="1748" left="1239" width="961" height="62" font="font6" id="p1_t69" reading_order_no="66" segment_no="3" tag_type="text">ple  substreams  in  which  each  of  them  can  be  inde- </text>
+<text top="1801" left="1238" width="962" height="63" font="font5" id="p1_t70" reading_order_no="67" segment_no="3" tag_type="text">pendently  decoded  to  produce  a  low-quality  version </text>
+<text top="1851" left="1239" width="961" height="65" font="font4" id="p1_t71" reading_order_no="68" segment_no="3" tag_type="text">of  the  video  [5].  Decoding  several  unique  descrip- </text>
+<text top="1904" left="1240" width="960" height="63" font="font5" id="p1_t72" reading_order_no="69" segment_no="3" tag_type="text">tions  leads  to  progressively  better  quality.  With </text>
+<text top="1957" left="1239" width="963" height="63" font="font5" id="p1_t73" reading_order_no="70" segment_no="3" tag_type="text">MDC-encoded  content,  a  low-bandwidth  user  may </text>
+<text top="2009" left="1240" width="962" height="63" font="font5" id="p1_t74" reading_order_no="71" segment_no="3" tag_type="text">receive  only  one  description  of  the  video  and  view </text>
+<text top="2063" left="1239" width="962" height="62" font="font6" id="p1_t75" reading_order_no="72" segment_no="3" tag_type="text">only  a  low-quality  version  of  the  video,  while  a </text>
+<text top="2113" left="1239" width="961" height="63" font="font5" id="p1_t76" reading_order_no="73" segment_no="3" tag_type="text">high-bandwidth  peer  receives  all  descriptions  of  the </text>
+<text top="2165" left="1237" width="963" height="63" font="font5" id="p1_t77" reading_order_no="74" segment_no="3" tag_type="text">video  and  views  the  maximum  quality.  While </text>
+<text top="2217" left="1239" width="962" height="63" font="font5" id="p1_t78" reading_order_no="75" segment_no="3" tag_type="text">MDC  provides  the  flexibility  to  accommodate </text>
+<text top="2276" left="1239" width="960" height="54" font="font7" id="p1_t79" reading_order_no="76" segment_no="3" tag_type="text">bandwidth  heterogeneity  among  peers,  the  content- </text>
+<text top="2322" left="1239" width="962" height="63" font="font5" id="p1_t80" reading_order_no="77" segment_no="3" tag_type="text">delivery  mechanism  must  still  ensure  that  each  peer </text>
+<text top="2374" left="1240" width="770" height="63" font="font5" id="p1_t81" reading_order_no="78" segment_no="3" tag_type="text">receives  a  proper  number  of  descriptions. </text>
+<text top="2428" left="1289" width="910" height="62" font="font6" id="p1_t82" reading_order_no="79" segment_no="4" tag_type="text">In  swarm-like  content  delivery,  the  source  pro- </text>
+<text top="2479" left="1238" width="963" height="63" font="font5" id="p1_t83" reading_order_no="80" segment_no="4" tag_type="text">vides  various  segments  of  that  content  to  at  least </text>
+<text top="2533" left="1239" width="961" height="63" font="font5" id="p1_t84" reading_order_no="81" segment_no="4" tag_type="text">one  peer  in  the  session;  participating  peers  can  thus </text>
+<text top="2583" left="1239" width="960" height="65" font="font4" id="p1_t85" reading_order_no="82" segment_no="4" tag_type="text">exchange  their  available  segments  until  each  one  has </text>
+<text top="2636" left="1239" width="960" height="63" font="font5" id="p1_t86" reading_order_no="83" segment_no="4" tag_type="text">the  segments  it  requires.  Swarming  couples  push- </text>
+<text top="2688" left="1239" width="959" height="62" font="font6" id="p1_t87" reading_order_no="84" segment_no="4" tag_type="text">content  reporting  with  pull-content  requesting. </text>
+<text top="2740" left="1238" width="962" height="63" font="font5" id="p1_t88" reading_order_no="85" segment_no="4" tag_type="text">Each  peer  periodically  reports  its  newly  available </text>
+<text top="2793" left="1239" width="960" height="62" font="font6" id="p1_t89" reading_order_no="86" segment_no="4" tag_type="text">content  segments  to  all  its  neighbors  while  request- </text>
+<text top="2843" left="1240" width="960" height="63" font="font5" id="p1_t90" reading_order_no="87" segment_no="4" tag_type="text">ing  specific  new  segments  from  each  of  them.  The </text>
+<text top="2895" left="1238" width="962" height="65" font="font4" id="p1_t91" reading_order_no="88" segment_no="4" tag_type="text">segments  requested  by  each  peer  from  a  neighbor </text>
+<text top="2948" left="1239" width="961" height="63" font="font5" id="p1_t92" reading_order_no="89" segment_no="4" tag_type="text">are  determined  by  a  packet-scheduling  algorithm </text>
+<text top="3002" left="1239" width="961" height="63" font="font5" id="p1_t93" reading_order_no="90" segment_no="4" tag_type="text">based  on  the  available  content  and  bandwidth  from</text>
+</page>
+</pdf2xml>

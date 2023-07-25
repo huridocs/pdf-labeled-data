@@ -1,0 +1,127 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3246" width="2327">
+	<fontspec id="font0" size="91" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="101" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="102" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="82" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="46" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="48" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="47" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="45" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="44" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="24" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="32" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="28" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="33" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font15" size="29" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font16" size="34" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font17" size="30" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font18" size="31" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font19" size="3" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font20" size="35" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font21" size="25" family="GlyphLessFont" color="#000000"/>
+<text top="259" left="278" width="1816" height="123" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">The  Amorphic  system  has  been  used  to  extract  data </text>
+<text top="357" left="299" width="1774" height="136" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">relevant  to  the  study  of online  auctions.  IN  THE </text>
+<text top="464" left="279" width="1815" height="138" font="font2" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="text">FUTURE,  SIMILAR  SYSTEMS  CAN  BE </text>
+<text top="577" left="214" width="1944" height="136" font="font1" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="text">USED  TO  EXTRACT  DATA  related  to  financial </text>
+<text top="705" left="253" width="1860" height="111" font="font3" id="p1_t5" reading_order_no="4" segment_no="0" tag_type="text">markets,  online  travel,  or  benefits,  just  to  name  a  few. </text>
+<text top="885" left="191" width="969" height="62" font="font4" id="p1_t6" reading_order_no="5" segment_no="2" tag_type="text">domain.  Since  the  domain  ontology  allows  more  than </text>
+<text top="935" left="190" width="971" height="65" font="font5" id="p1_t7" reading_order_no="6" segment_no="2" tag_type="text">one  set  of  keywords  and  more  than  one  pattern  to  be </text>
+<text top="989" left="191" width="969" height="62" font="font4" id="p1_t8" reading_order_no="7" segment_no="2" tag_type="text">specified,  it  can  be  used  to  extract  data  from  several </text>
+<text top="1042" left="191" width="969" height="62" font="font4" id="p1_t9" reading_order_no="8" segment_no="2" tag_type="text">different  Web  sites  in  the  auction  domain.  Once </text>
+<text top="1093" left="191" width="969" height="63" font="font6" id="p1_t10" reading_order_no="9" segment_no="2" tag_type="text">appropriate  domain  ontologies  were  created,  the </text>
+<text top="1145" left="188" width="972" height="63" font="font6" id="p1_t11" reading_order_no="10" segment_no="2" tag_type="text">Amorphic  information  extraction  system  was  used  to </text>
+<text top="1204" left="191" width="968" height="54" font="font7" id="p1_t12" reading_order_no="11" segment_no="2" tag_type="text">extract  data  from  1,609  search-results  pages  and  626 </text>
+<text top="1249" left="191" width="969" height="65" font="font5" id="p1_t13" reading_order_no="12" segment_no="2" tag_type="text">single-item  pages  from  the  eBay,  Yahoo,  and  Amazon </text>
+<text top="1304" left="191" width="969" height="62" font="font4" id="p1_t14" reading_order_no="13" segment_no="2" tag_type="text">online  auction  sites.  Table  1  shows  the  prototype </text>
+<text top="1355" left="188" width="973" height="62" font="font4" id="p1_t15" reading_order_no="14" segment_no="2" tag_type="text">Amorphic  system  showed  excellent  performance  for </text>
+<text top="1408" left="192" width="403" height="62" font="font4" id="p1_t16" reading_order_no="15" segment_no="2" tag_type="text">three  Web  sites  tested. </text>
+<text top="1459" left="240" width="919" height="62" font="font4" id="p1_t17" reading_order_no="16" segment_no="3" tag_type="text">To  test  the  wrapper  recovery  procedures  the  Amor- </text>
+<text top="1510" left="191" width="968" height="63" font="font6" id="p1_t18" reading_order_no="17" segment_no="3" tag_type="text">phic  system  was  used  to  extract  data  from  six  addi- </text>
+<text top="1569" left="192" width="966" height="54" font="font7" id="p1_t19" reading_order_no="18" segment_no="3" tag_type="text">tional  online  auction  sites:  Bidz.com;  uBid.com; </text>
+<text top="1621" left="192" width="355" height="54" font="font7" id="p1_t20" reading_order_no="19" segment_no="3" tag_type="text">DellAuctions.com; </text>
+<text top="1621" left="675" width="483" height="54" font="font7" id="p1_t21" reading_order_no="20" segment_no="3" tag_type="text">CompUSAAuctions.com; </text>
+<text top="1667" left="191" width="969" height="63" font="font6" id="p1_t22" reading_order_no="21" segment_no="3" tag_type="text">BidVille.com;  and  ZBestOffer.com,  The  prototype </text>
+<text top="1720" left="188" width="972" height="63" font="font6" id="p1_t23" reading_order_no="22" segment_no="3" tag_type="text">Amorphic  system  demonstrated  the  ability  to  adapt </text>
+<text top="1773" left="192" width="970" height="62" font="font4" id="p1_t24" reading_order_no="23" segment_no="3" tag_type="text">to  six  additional  Web  sites  it  was  not  originally </text>
+<text top="1825" left="191" width="969" height="65" font="font5" id="p1_t25" reading_order_no="24" segment_no="3" tag_type="text">designed  to  support.  The  testing  of  the  six  additional </text>
+<text top="1877" left="191" width="969" height="63" font="font6" id="p1_t26" reading_order_no="25" segment_no="3" tag_type="text">auction  sites  did  not  require  changes  to  the  Amorphic </text>
+<text top="1930" left="191" width="966" height="62" font="font4" id="p1_t27" reading_order_no="26" segment_no="3" tag_type="text">program  or  the  online  auction  domain  ontology. </text>
+<text top="1982" left="190" width="969" height="62" font="font4" id="p1_t28" reading_order_no="27" segment_no="3" tag_type="text">Table  2  shows  the  information  extraction  results  both </text>
+<text top="2034" left="190" width="970" height="62" font="font4" id="p1_t29" reading_order_no="28" segment_no="3" tag_type="text">with  and  without  wrapper  recovery.  It  shows  the </text>
+<text top="2084" left="189" width="970" height="63" font="font6" id="p1_t30" reading_order_no="29" segment_no="3" tag_type="text">Amorphic  agent  was  able  to  extract  substantially  more </text>
+<text top="2136" left="192" width="966" height="63" font="font6" id="p1_t31" reading_order_no="30" segment_no="3" tag_type="text">information  from  the  six  new  Web  sites  using  auto- </text>
+<text top="2191" left="191" width="431" height="61" font="font8" id="p1_t32" reading_order_no="31" segment_no="3" tag_type="text">matic  wrapper  recovery. </text>
+<text top="2295" left="190" width="222" height="62" font="font4" id="p1_t33" reading_order_no="32" segment_no="14" tag_type="title">CONCLUSION </text>
+<text top="2345" left="190" width="968" height="65" font="font5" id="p1_t34" reading_order_no="33" segment_no="15" tag_type="text">The  use  of  external  information  for  business  deci- </text>
+<text top="2399" left="190" width="969" height="63" font="font6" id="p1_t35" reading_order_no="34" segment_no="15" tag_type="text">sion  making  is  not  new.  What  is  new  is  the  abun- </text>
+<text top="2450" left="192" width="967" height="65" font="font5" id="p1_t36" reading_order_no="35" segment_no="15" tag_type="text">dance  of  information  freely  available  via  the </text>
+<text top="2506" left="191" width="967" height="59" font="font9" id="p1_t37" reading_order_no="36" segment_no="15" tag_type="text">Internet.  However,  this  information  is  not  being  sys- </text>
+<text top="2556" left="191" width="969" height="62" font="font4" id="p1_t38" reading_order_no="37" segment_no="15" tag_type="text">tematically  included  in  current  decision-making </text>
+<text top="2607" left="192" width="968" height="63" font="font6" id="p1_t39" reading_order_no="38" segment_no="15" tag_type="text">applications  [8].  This  research  demonstrates  that  it </text>
+<text top="2659" left="192" width="968" height="63" font="font6" id="p1_t40" reading_order_no="39" segment_no="15" tag_type="text">is  possible  to  reliably  extract  Web  information  for </text>
+<text top="2710" left="192" width="967" height="63" font="font6" id="p1_t41" reading_order_no="40" segment_no="15" tag_type="text">use  in  Web  business  intelligence  applications.  It  will </text>
+<text top="2763" left="192" width="967" height="63" font="font6" id="p1_t42" reading_order_no="41" segment_no="15" tag_type="text">be  possible  for  organizations  to  use  a  system  like </text>
+<text top="2815" left="189" width="970" height="63" font="font6" id="p1_t43" reading_order_no="42" segment_no="15" tag_type="text">Amorphic  to  extract  information  of  interest  from </text>
+<text top="2868" left="190" width="969" height="63" font="font6" id="p1_t44" reading_order_no="43" segment_no="15" tag_type="text">Web  pages  for  a  wide  variety  of  domains.  These </text>
+<text top="2921" left="192" width="967" height="63" font="font6" id="p1_t45" reading_order_no="44" segment_no="15" tag_type="text">potential  business  intelligence  applications  will </text>
+<text top="2971" left="191" width="975" height="65" font="font5" id="p1_t46" reading_order_no="45" segment_no="15" tag_type="text">allow  a  deep  and  detailed  look  at  small  portions  of </text>
+<text top="3025" left="193" width="699" height="63" font="font6" id="p1_t47" reading_order_no="46" segment_no="15" tag_type="text">the  Web  relevant  to  specific  domains. </text>
+<text top="3163" left="193" width="41" height="32" font="font10" id="p1_t48" reading_order_no="98" segment_no="22" tag_type="text">84 </text>
+<text top="3163" left="284" width="677" height="32" font="font10" id="p1_t49" reading_order_no="99" segment_no="23" tag_type="text">May  2006/Vol.  49,  No.  5  COMMUNICATIONS  OF  THE  ACM </text>
+<text top="884" left="1261" width="913" height="62" font="font4" id="p1_t50" reading_order_no="47" segment_no="1" tag_type="text">The  Amorphic  system  has  been  used  to  extract </text>
+<text top="938" left="1212" width="962" height="62" font="font4" id="p1_t51" reading_order_no="48" segment_no="1" tag_type="text">data  relevant  to  the  study  of  online  auctions.  In  the </text>
+<text top="988" left="1213" width="962" height="62" font="font4" id="p1_t52" reading_order_no="49" segment_no="1" tag_type="text">future,  similar  systems  can  be  used  to  extract  data </text>
+<text top="1046" left="1213" width="959" height="54" font="font7" id="p1_t53" reading_order_no="50" segment_no="1" tag_type="text">related  to  financial  markets,  online  travel,  or  benefits, </text>
+<text top="1092" left="1211" width="962" height="63" font="font6" id="p1_t54" reading_order_no="51" segment_no="1" tag_type="text">just  to  name  a  few.  Use  of  an  information  extraction </text>
+<text top="1143" left="1212" width="963" height="65" font="font5" id="p1_t55" reading_order_no="52" segment_no="1" tag_type="text">system,  like  Amorphic,  has  the  potential  to  provide </text>
+<text top="1204" left="1213" width="960" height="54" font="font7" id="p1_t56" reading_order_no="53" segment_no="1" tag_type="text">businesses  with  access  to  up-to-date,  comprehensive, </text>
+<text top="1253" left="1213" width="961" height="61" font="font8" id="p1_t57" reading_order_no="54" segment_no="1" tag_type="text">and  ever-expanding  information  sources  that  can  in </text>
+<text top="1303" left="1213" width="847" height="62" font="font4" id="p1_t58" reading_order_no="55" segment_no="1" tag_type="text">turn  help  them  make  better  strategic  decisions. </text>
+<text top="1412" left="1212" width="233" height="55" font="font11" id="p1_t59" reading_order_no="56" segment_no="4" tag_type="title">REFERENCES </text>
+<text top="1458" left="1233" width="941" height="43" font="font12" id="p1_t60" reading_order_no="57" segment_no="5" tag_type="text">1.  Arasu  A.  and  Garcia-Molina,  H.  Extracting  structured  data  from  Web </text>
+<text top="1499" left="1264" width="695" height="38" font="font13" id="p1_t61" reading_order_no="58" segment_no="5" tag_type="text">pages.  ACM  SIGMOD  Record  (June  2003),  337-348. </text>
+<text top="1531" left="1231" width="944" height="45" font="font14" id="p1_t62" reading_order_no="59" segment_no="6" tag_type="text">2.  Chidloyskii,  B.  Automatic  repairing  of  Web  wrappers  by  combining </text>
+<text top="1573" left="1265" width="908" height="39" font="font15" id="p1_t63" reading_order_no="60" segment_no="6" tag_type="text">redundant  views.  In  Proceedings  of  IEEE  Conf:  Tools  with  AI  (Nov. </text>
+<text top="1610" left="1264" width="218" height="39" font="font15" id="p1_t64" reading_order_no="61" segment_no="6" tag_type="text">2002),  399-406. </text>
+<text top="1645" left="1230" width="945" height="46" font="font16" id="p1_t65" reading_order_no="62" segment_no="7" tag_type="text">3.  Cohen,  W.,  Hurst,  M.,  and  Jensen,  L.  A  flexible  learning  system  for </text>
+<text top="1682" left="1264" width="911" height="45" font="font14" id="p1_t66" reading_order_no="63" segment_no="7" tag_type="text">wrapping  tables  and  lists  in  HTML  documents.  In  Proceedings  of the </text>
+<text top="1723" left="1267" width="440" height="41" font="font17" id="p1_t67" reading_order_no="64" segment_no="7" tag_type="text">Conf.  on  WWW  (2002),  232-241. </text>
+<text top="1758" left="1230" width="944" height="45" font="font14" id="p1_t68" reading_order_no="65" segment_no="8" tag_type="text">4.  Embley,  D.,  Campbell,  D.,  Smith,  R.,  and  Liddle,  S.  Ontology-based </text>
+<text top="1795" left="1264" width="910" height="45" font="font14" id="p1_t69" reading_order_no="66" segment_no="8" tag_type="text">extraction  and  structuring  of  information  from  data-rich  unstructured </text>
+<text top="1832" left="1264" width="909" height="46" font="font16" id="p1_t70" reading_order_no="67" segment_no="8" tag_type="text">documents.  In  Proceedings  of  the  Conf.  on  Info.  and  Knowledge  Man- </text>
+<text top="1872" left="1265" width="379" height="45" font="font14" id="p1_t71" reading_order_no="68" segment_no="8" tag_type="text">agement  (Nov.  1998),  52-59. </text>
+<text top="1909" left="1232" width="942" height="45" font="font14" id="p1_t72" reading_order_no="69" segment_no="9" tag_type="text">5.  Embley,  D.W.,  Jiang,  Y.,  and  Ng,  Y.K.  Record-boundary  discovery  in </text>
+<text top="1949" left="1263" width="909" height="41" font="font17" id="p1_t73" reading_order_no="70" segment_no="9" tag_type="text">Web  documents.  ACM  SIGMOD  Record  28,  2  (June  1999),  467-478. </text>
+<text top="1988" left="1231" width="943" height="38" font="font13" id="p1_t74" reading_order_no="71" segment_no="10" tag_type="text">6.  Gregg,  D.  and  Walczak,  S.  Exploiting  the  Information  Web.  [EEE </text>
+<text top="2020" left="1269" width="858" height="46" font="font16" id="p1_t75" reading_order_no="72" segment_no="10" tag_type="text">Trans,  on  System,  Man  and  Cybernetics  Part  C  (forthcoming  2006). </text>
+<text top="2059" left="1231" width="943" height="43" font="font12" id="p1_t76" reading_order_no="73" segment_no="11" tag_type="text">7.  Knoblock,  C.,  Leramn,  K.,  Minton,  S.,  and  Muslea,  I.  Accurately  and </text>
+<text top="2095" left="1265" width="907" height="45" font="font14" id="p1_t77" reading_order_no="74" segment_no="11" tag_type="text">reliably  extracting  data  from  the  Web:  A  machine  learning  approach. </text>
+<text top="2132" left="1265" width="908" height="45" font="font14" id="p1_t78" reading_order_no="75" segment_no="11" tag_type="text">Bulletin  IEEE  Computer  Society  Technical  Committee  on  Data  Engineer- </text>
+<text top="2174" left="1266" width="317" height="39" font="font15" id="p1_t79" reading_order_no="76" segment_no="11" tag_type="text">ing  23,  4  (2000),  33-41. </text>
+<text top="2209" left="1230" width="945" height="45" font="font14" id="p1_t80" reading_order_no="77" segment_no="12" tag_type="text">8.  Kushmerick,  N.,  Weld,  D.,  and  Doorenbos,  R.  Wrapper  induction  for </text>
+<text top="2246" left="1265" width="907" height="46" font="font16" id="p1_t81" reading_order_no="78" segment_no="12" tag_type="text">information  extraction.  In  Proceedings  of  the  Conf.  on  AI  (1997), </text>
+<text top="2283" left="1264" width="121" height="46" font="font16" id="p1_t82" reading_order_no="79" segment_no="12" tag_type="text">729-735. </text>
+<text top="2327" left="1230" width="942" height="39" font="font15" id="p1_t83" reading_order_no="80" segment_no="13" tag_type="text">9.  Laender,  A.H.F.,  Ribeiro-Neto,  B.A.,  da  Silva,  A.S.,  and  Teixeira,  J.S. </text>
+<text top="2359" left="1264" width="909" height="45" font="font14" id="p1_t84" reading_order_no="81" segment_no="13" tag_type="text">Surveys:  A  brief  survey  of  web  data  extraction  tools.  ACM  SIGMOD </text>
+<text top="2402" left="1254" width="442" height="39" font="font15" id="p1_t85" reading_order_no="82" segment_no="13" tag_type="text">Record  31,  2  (June  2002),  84-93. </text>
+<text top="2436" left="1214" width="960" height="45" font="font14" id="p1_t86" reading_order_no="83" segment_no="16" tag_type="text">10.  Lerman,  K.,  Minton,  S.,  and  Knoblock,  C.  Wrapper  maintenance:  A </text>
+<text top="2472" left="1263" width="383" height="45" font="font14" id="p1_t87" reading_order_no="84" segment_no="16" tag_type="text">machine  learning  approach. </text>
+<text top="2472" left="1619" width="553" height="45" font="font14" id="p1_t88" reading_order_no="85" segment_no="16" tag_type="text">/. of AI  Research  18  (Feb.  2003),  149-181. </text>
+<text top="2510" left="1214" width="958" height="45" font="font14" id="p1_t89" reading_order_no="86" segment_no="17" tag_type="text">11.  Muslea,  I.,  Minton,  S.,  and  Knoblock,  C.  A  hierarchical  approach  to  wrap- </text>
+<text top="2547" left="1262" width="857" height="45" font="font14" id="p1_t90" reading_order_no="87" segment_no="17" tag_type="text">per  induction.  In  Proceedings  on  Autonomous  Agents  (1999),  190-197. </text>
+<text top="2586" left="1215" width="195" height="42" font="font18" id="p1_t91" reading_order_no="88" segment_no="18" tag_type="text">12.  Srivastava </text>
+<text top="2586" left="1385" width="788" height="42" font="font18" id="p1_t92" reading_order_no="89" segment_no="18" tag_type="text">J. and  Cooley,  R.  Web  business  intelligence:  Mining  the  Web </text>
+<text top="2626" left="1262" width="853" height="39" font="font15" id="p1_t93" reading_order_no="90" segment_no="18" tag_type="text">for  actionable  knowledge.  J.  on  Computing  15,  2  (2003),  191-207. </text>
+<text top="2711" left="1211" width="864" height="47" font="font20" id="p1_t94" reading_order_no="91" segment_no="19" tag_type="text">DAWN  G.  GREGG  (dawn.gregg@cudenver.edu)  is  an  assistant </text>
+<text top="2753" left="1211" width="929" height="46" font="font16" id="p1_t95" reading_order_no="92" segment_no="19" tag_type="text">professor  of  information  systems  management  in  the  Business  School </text>
+<text top="2797" left="1211" width="927" height="46" font="font16" id="p1_t96" reading_order_no="93" segment_no="19" tag_type="text">at  the  University  of  Colorado  at  Denver  and  Health  Sciences  Center. </text>
+<text top="2840" left="1211" width="944" height="42" font="font18" id="p1_t97" reading_order_no="94" segment_no="20" tag_type="text">STEVEN  WALCZAK  (swalczak@carbon.cudenver.edu)  is  an  associate </text>
+<text top="2879" left="1212" width="927" height="46" font="font16" id="p1_t98" reading_order_no="95" segment_no="20" tag_type="text">professor  of  information  systems  management  in  the  Business  School </text>
+<text top="2921" left="1211" width="927" height="46" font="font16" id="p1_t99" reading_order_no="96" segment_no="20" tag_type="text">at  the  University  of  Colorado  at  Denver  and  Health  Sciences  Center. </text>
+<text top="3045" left="1213" width="469" height="34" font="font21" id="p1_t100" reading_order_no="97" segment_no="21" tag_type="text">©  2006  ACM  0001-0782/06/0500  $5.00</text>
+</page>
+</pdf2xml>

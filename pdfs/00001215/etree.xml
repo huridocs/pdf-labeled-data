@@ -1,0 +1,130 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3233" width="2345">
+	<fontspec id="font0" size="46" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="42" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="47" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="45" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="48" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="43" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="25" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="24" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="26" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="33" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="34" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="155" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="209" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font15" size="381" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font16" size="85" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font17" size="92" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font18" size="100" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font19" size="102" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font20" size="31" family="GlyphLessFont" color="#000000"/>
+<text top="247" left="168" width="496" height="62" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">the  manual  wrapper  gener- </text>
+<text top="304" left="168" width="497" height="57" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">ation  process  [8].  The </text>
+<text top="352" left="165" width="499" height="63" font="font2" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="text">wrapper  induction  method </text>
+<text top="404" left="167" width="498" height="63" font="font2" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="text">automatically  builds  a </text>
+<text top="457" left="166" width="498" height="62" font="font0" id="p1_t5" reading_order_no="4" segment_no="0" tag_type="text">wrapper  by  learning  from </text>
+<text top="509" left="166" width="243" height="63" font="font2" id="p1_t6" reading_order_no="5" segment_no="0" tag_type="text">sample  pages. </text>
+<text top="565" left="217" width="446" height="61" font="font3" id="p1_t7" reading_order_no="6" segment_no="1" tag_type="text">Currently  there  are  two </text>
+<text top="614" left="167" width="497" height="62" font="font0" id="p1_t8" reading_order_no="7" segment_no="1" tag_type="text">principal  methods  for  iden- </text>
+<text top="665" left="167" width="498" height="63" font="font2" id="p1_t9" reading_order_no="8" segment_no="1" tag_type="text">tifying  interesting  data </text>
+<text top="717" left="165" width="498" height="63" font="font2" id="p1_t10" reading_order_no="9" segment_no="1" tag_type="text">within  Web  pages:  ontol- </text>
+<text top="768" left="167" width="498" height="63" font="font2" id="p1_t11" reading_order_no="10" segment_no="1" tag_type="text">ogy-based  extraction  and </text>
+<text top="821" left="166" width="462" height="62" font="font0" id="p1_t12" reading_order_no="11" segment_no="1" tag_type="text">position-based  extraction. </text>
+<text top="872" left="217" width="446" height="65" font="font4" id="p1_t13" reading_order_no="12" segment_no="2" tag_type="text">Ontology-based  Extrac- </text>
+<text top="925" left="166" width="497" height="63" font="font2" id="p1_t14" reading_order_no="13" segment_no="2" tag_type="text">tion.  Ontology-based  infor- </text>
+<text top="978" left="166" width="498" height="62" font="font0" id="p1_t15" reading_order_no="14" segment_no="2" tag_type="text">mation  extraction  tools </text>
+<text top="1030" left="166" width="500" height="63" font="font2" id="p1_t16" reading_order_no="15" segment_no="2" tag_type="text">feature  many  of  the  proper- </text>
+<text top="1084" left="167" width="500" height="62" font="font0" id="p1_t17" reading_order_no="16" segment_no="2" tag_type="text">ties  desired  for  an  adaptive </text>
+<text top="1135" left="165" width="968" height="62" font="font0" id="p1_t18" reading_order_no="17" segment_no="2" tag_type="text">Web  information  extraction  system.  An  ontology- </text>
+<text top="1186" left="166" width="965" height="63" font="font2" id="p1_t19" reading_order_no="18" segment_no="2" tag_type="text">based  tool  uses  domain  knowledge  to  describe  data. </text>
+<text top="1238" left="165" width="969" height="63" font="font2" id="p1_t20" reading_order_no="19" segment_no="2" tag_type="text">This  includes  relationships,  lexical  appearance,  and </text>
+<text top="1290" left="167" width="966" height="63" font="font2" id="p1_t21" reading_order_no="20" segment_no="2" tag_type="text">context  keywords.  Wrappers  generated  using  domain </text>
+<text top="1343" left="166" width="966" height="63" font="font2" id="p1_t22" reading_order_no="21" segment_no="2" tag_type="text">ontologies  are  inherently  resilient  (that  is,  they  con- </text>
+<text top="1397" left="166" width="973" height="61" font="font3" id="p1_t23" reading_order_no="22" segment_no="2" tag_type="text">tinue  to  work  properly  even  if the  formating  features  of </text>
+<text top="1450" left="167" width="967" height="58" font="font5" id="p1_t24" reading_order_no="23" segment_no="2" tag_type="text">the  source  pages  change)  and  general,  (they  work  for </text>
+<text top="1499" left="166" width="966" height="63" font="font2" id="p1_t25" reading_order_no="24" segment_no="2" tag_type="text">pages  from  many  distinct  sources  belonging  to  a  spe- </text>
+<text top="1556" left="166" width="522" height="57" font="font1" id="p1_t26" reading_order_no="25" segment_no="2" tag_type="text">cific  application  domain)  [4]. </text>
+<text top="1604" left="217" width="916" height="63" font="font2" id="p1_t27" reading_order_no="26" segment_no="3" tag_type="text">However,  ontology-based  tools  require  that  the </text>
+<text top="1657" left="166" width="966" height="62" font="font0" id="p1_t28" reading_order_no="27" segment_no="3" tag_type="text">data  be  fully  described  using  page-independent  fea- </text>
+<text top="1711" left="166" width="967" height="62" font="font0" id="p1_t29" reading_order_no="28" segment_no="3" tag_type="text">tures.  This  means  the  data  must  either  have  unique </text>
+<text top="1760" left="166" width="965" height="63" font="font2" id="p1_t30" reading_order_no="29" segment_no="3" tag_type="text">characteristics  or  be  labeled  using  context  keywords. </text>
+<text top="1813" left="167" width="966" height="62" font="font0" id="p1_t31" reading_order_no="30" segment_no="3" tag_type="text">Unfortunately,  all  interesting  Web  data  does  not  nec- </text>
+<text top="1864" left="166" width="967" height="63" font="font2" id="p1_t32" reading_order_no="31" segment_no="3" tag_type="text">essarily  meet  these  requirements.  Some  data  is </text>
+<text top="1917" left="166" width="967" height="62" font="font0" id="p1_t33" reading_order_no="32" segment_no="3" tag_type="text">freeform  and  cannot  be  identified  using  a  specific  lex- </text>
+<text top="1967" left="167" width="967" height="65" font="font4" id="p1_t34" reading_order_no="33" segment_no="3" tag_type="text">ical  pattern  and  also  is  not  labeled.  This  type  of  data </text>
+<text top="2019" left="166" width="967" height="65" font="font4" id="p1_t35" reading_order_no="34" segment_no="3" tag_type="text">can  only  be  extracted  using  its  specific  location  in  the </text>
+<text top="2075" left="167" width="241" height="62" font="font0" id="p1_t36" reading_order_no="35" segment_no="3" tag_type="text">HTML  page. </text>
+<text top="2127" left="216" width="917" height="63" font="font2" id="p1_t37" reading_order_no="36" segment_no="4" tag_type="text">Position-based  Extraction  relies  on  inherent  struc- </text>
+<text top="2178" left="166" width="967" height="63" font="font2" id="p1_t38" reading_order_no="37" segment_no="4" tag_type="text">tural  features  of  HTML  documents  to  accomplish </text>
+<text top="2232" left="166" width="967" height="63" font="font2" id="p1_t39" reading_order_no="38" segment_no="4" tag_type="text">data  extraction.  Under  a  position-based  extraction </text>
+<text top="2282" left="166" width="968" height="63" font="font2" id="p1_t40" reading_order_no="39" segment_no="4" tag_type="text">system,  a  HTML  document  is  fed  to  a  HTML  parser </text>
+<text top="2337" left="166" width="967" height="62" font="font0" id="p1_t41" reading_order_no="40" segment_no="4" tag_type="text">that  constructs  a  parsing  tree  that  reflects  its  HTML </text>
+<text top="2387" left="166" width="967" height="63" font="font2" id="p1_t42" reading_order_no="41" segment_no="4" tag_type="text">tag  hierarchy.  Extraction  rules  are  written  to  locate </text>
+<text top="2441" left="166" width="967" height="62" font="font0" id="p1_t43" reading_order_no="42" segment_no="4" tag_type="text">data  based  on  the  parse-tree  hierarchy.  If  a  collection </text>
+<text top="522" left="771" width="125" height="34" font="font6" id="p1_t44" reading_order_no="43" segment_no="7" tag_type="figure">Amorphic </text>
+<text top="552" left="760" width="148" height="32" font="font7" id="p1_t45" reading_order_no="44" segment_no="7" tag_type="figure">Information </text>
+<text top="581" left="775" width="120" height="32" font="font7" id="p1_t46" reading_order_no="45" segment_no="7" tag_type="figure">Extractor </text>
+<text top="881" left="946" width="95" height="35" font="font8" id="p1_t47" reading_order_no="51" segment_no="7" tag_type="figure">Pattern </text>
+<text top="1012" left="815" width="325" height="45" font="font9" id="p1_t48" reading_order_no="54" segment_no="9" tag_type="text">Figure  2.  The  Amorphic </text>
+<text top="1049" left="968" width="171" height="46" font="font10" id="p1_t49" reading_order_no="55" segment_no="9" tag_type="text">architecture. </text>
+<text top="881" left="1095" width="99" height="35" font="font8" id="p1_t50" reading_order_no="52" segment_no="7" tag_type="figure">Domain </text>
+<text top="909" left="935" width="269" height="35" font="font8" id="p1_t51" reading_order_no="53" segment_no="7" tag_type="figure">Ontology  Ontology </text>
+<text top="247" left="1713" width="446" height="61" font="font3" id="p1_t52" reading_order_no="56" segment_no="5" tag_type="text">of?  items  2s.  t0:-)  be </text>
+<text top="302" left="1714" width="446" height="58" font="font5" id="p1_t53" reading_order_no="57" segment_no="5" tag_type="text">retrieved  (as  from  a </text>
+<text top="351" left="1713" width="446" height="62" font="font0" id="p1_t54" reading_order_no="58" segment_no="5" tag_type="text">search  results  page),  a </text>
+<text top="403" left="1714" width="445" height="63" font="font2" id="p1_t55" reading_order_no="59" segment_no="5" tag_type="text">regular  expression  is </text>
+<text top="455" left="1714" width="447" height="63" font="font2" id="p1_t56" reading_order_no="60" segment_no="5" tag_type="text">constructed  to  allow </text>
+<text top="508" left="1713" width="446" height="63" font="font2" id="p1_t57" reading_order_no="61" segment_no="5" tag_type="text">multiple  items  to  be </text>
+<text top="561" left="1714" width="444" height="62" font="font0" id="p1_t58" reading_order_no="62" segment_no="5" tag_type="text">retrieved  for  a  hierarchi- </text>
+<text top="613" left="1714" width="200" height="62" font="font0" id="p1_t59" reading_order_no="63" segment_no="5" tag_type="text">cal  pattern. </text>
+<text top="663" left="1765" width="393" height="65" font="font4" id="p1_t60" reading_order_no="64" segment_no="6" tag_type="text">Position-based  extrac- </text>
+<text top="717" left="1714" width="445" height="61" font="font3" id="p1_t61" reading_order_no="65" segment_no="6" tag_type="text">tion  lacks  the  resilience </text>
+<text top="767" left="1714" width="445" height="63" font="font2" id="p1_t62" reading_order_no="66" segment_no="6" tag_type="text">of ontology-based  extrac- </text>
+<text top="819" left="1714" width="446" height="62" font="font0" id="p1_t63" reading_order_no="67" segment_no="6" tag_type="text">tion.  When  there  are </text>
+<text top="871" left="1713" width="446" height="63" font="font2" id="p1_t64" reading_order_no="68" segment_no="6" tag_type="text">changes  to  the  structure </text>
+<text top="924" left="1714" width="444" height="63" font="font2" id="p1_t65" reading_order_no="69" segment_no="6" tag_type="text">of  the  target  Web  pages, </text>
+<text top="977" left="1714" width="445" height="62" font="font0" id="p1_t66" reading_order_no="70" segment_no="6" tag_type="text">it  frequently  fails.  How- </text>
+<text top="1035" left="1186" width="973" height="55" font="font12" id="p1_t67" reading_order_no="71" segment_no="6" tag_type="text">ever,  it  does  guarantee  a  high  accuracy  of  information </text>
+<text top="1089" left="1186" width="972" height="54" font="font13" id="p1_t68" reading_order_no="72" segment_no="6" tag_type="text">extraction,  with  precision  and  recall  being  at  least  98% </text>
+<text top="1133" left="1190" width="970" height="63" font="font2" id="p1_t69" reading_order_no="73" segment_no="6" tag_type="text">[2].  In  addition,  it  is  possible  to  use  wrapper  induction </text>
+<text top="1186" left="1186" width="980" height="63" font="font2" id="p1_t70" reading_order_no="74" segment_no="6" tag_type="text">to  create  position-based  wrappers  based  on  a  sample  of </text>
+<text top="1237" left="1187" width="973" height="63" font="font2" id="p1_t71" reading_order_no="75" segment_no="6" tag_type="text">regularly  formatted  Web  pages.  This  can  greatly  speed </text>
+<text top="1290" left="1187" width="973" height="62" font="font0" id="p1_t72" reading_order_no="76" segment_no="6" tag_type="text">the  development  and  update  of  position-based  wrap- </text>
+<text top="1342" left="1186" width="974" height="62" font="font0" id="p1_t73" reading_order_no="77" segment_no="6" tag_type="text">pers  [11].  Thus,  position-based  extraction  can  be </text>
+<text top="1393" left="1186" width="974" height="63" font="font2" id="p1_t74" reading_order_no="78" segment_no="6" tag_type="text">appropriate  when  the  data  to  be  extracted  can  only  be </text>
+<text top="1445" left="1187" width="973" height="65" font="font4" id="p1_t75" reading_order_no="79" segment_no="6" tag_type="text">identified  based  on  its  location  within  a  Web  page  and </text>
+<text top="1499" left="1186" width="515" height="62" font="font0" id="p1_t76" reading_order_no="80" segment_no="6" tag_type="text">not  on  domain  information. </text>
+<text top="629" left="1220" width="70" height="32" font="font7" id="p1_t77" reading_order_no="46" segment_no="7" tag_type="figure">Tabular </text>
+<text top="658" left="1219" width="193" height="32" font="font7" id="p1_t78" reading_order_no="47" segment_no="7" tag_type="figure">Records  se </text>
+<text top="761" left="1246" width="77" height="32" font="font7" id="p1_t79" reading_order_no="48" segment_no="7" tag_type="figure">Multiple </text>
+<text top="784" left="1231" width="108" height="35" font="font8" id="p1_t80" reading_order_no="49" segment_no="7" tag_type="figure">Nontabular </text>
+<text top="810" left="1248" width="73" height="34" font="font6" id="p1_t81" reading_order_no="50" segment_no="7" tag_type="figure">Records </text>
+<text top="1602" left="1712" width="449" height="65" font="font4" id="p1_t82" reading_order_no="81" segment_no="10" tag_type="text">rapper  Recovery  and </text>
+<text top="1655" left="1712" width="448" height="63" font="font2" id="p1_t83" reading_order_no="82" segment_no="10" tag_type="text">Repair.  The  Web  is  a </text>
+<text top="1714" left="1711" width="447" height="55" font="font12" id="p1_t84" reading_order_no="83" segment_no="10" tag_type="text">dynamic  medium,  and, </text>
+<text top="1760" left="1712" width="448" height="62" font="font0" id="p1_t85" reading_order_no="84" segment_no="10" tag_type="text">as  such,  Web  pages  are </text>
+<text top="1811" left="1711" width="448" height="63" font="font2" id="p1_t86" reading_order_no="85" segment_no="10" tag_type="text">frequently  altered  in </text>
+<text top="1865" left="1711" width="448" height="61" font="font3" id="p1_t87" reading_order_no="86" segment_no="10" tag_type="text">structure  and  appear- </text>
+<text top="1914" left="1186" width="974" height="63" font="font2" id="p1_t88" reading_order_no="87" segment_no="10" tag_type="text">ance.  These  changes  are  made  by  ISPs  to  offer  addi- </text>
+<text top="1974" left="1187" width="972" height="54" font="font13" id="p1_t89" reading_order_no="88" segment_no="10" tag_type="text">tional  content  and  functionality,  increase  ease  of  use, </text>
+<text top="2020" left="1186" width="971" height="63" font="font2" id="p1_t90" reading_order_no="89" segment_no="10" tag_type="text">or  make  the  Web  page  more  attractive  to  new  users. </text>
+<text top="2072" left="1184" width="977" height="63" font="font2" id="p1_t91" reading_order_no="90" segment_no="10" tag_type="text">When  a  Web  page’s  structure  is  changed,  a  wrapper </text>
+<text top="2124" left="1186" width="974" height="63" font="font2" id="p1_t92" reading_order_no="91" segment_no="10" tag_type="text">can  fail  to  find  keywords  or  path  expressions  in  the </text>
+<text top="2178" left="1185" width="974" height="62" font="font0" id="p1_t93" reading_order_no="92" segment_no="10" tag_type="text">page  and  thus  cannot  complete  the  information </text>
+<text top="2234" left="1186" width="972" height="58" font="font5" id="p1_t94" reading_order_no="93" segment_no="10" tag_type="text">extraction.  In  most  information  extraction  systems, </text>
+<text top="2282" left="1186" width="974" height="63" font="font2" id="p1_t95" reading_order_no="94" segment_no="10" tag_type="text">once  a  wrapper  fails  it  must  be  manually  recreated  to </text>
+<text top="2334" left="1185" width="974" height="62" font="font0" id="p1_t96" reading_order_no="95" segment_no="10" tag_type="text">conform  to  the  new  page  structure,  which  slows  the </text>
+<text top="2392" left="1186" width="366" height="54" font="font13" id="p1_t97" reading_order_no="96" segment_no="10" tag_type="text">recovery  process  [1]. </text>
+<text top="2438" left="1234" width="925" height="62" font="font0" id="p1_t98" reading_order_no="97" segment_no="11" tag_type="text">An  important  characteristic  for  an  adaptive  infor- </text>
+<text top="2582" left="395" width="1526" height="115" font="font16" id="p1_t99" reading_order_no="98" segment_no="12" tag_type="text">An  effective  Web  information  extraction </text>
+<text top="2686" left="281" width="1758" height="124" font="font17" id="p1_t100" reading_order_no="99" segment_no="12" tag_type="text">system  must  interpret  a  wide  variety  of  HTML </text>
+<text top="2786" left="405" width="1504" height="135" font="font18" id="p1_t101" reading_order_no="100" segment_no="12" tag_type="text">pages  and  ADAPT  TO  CHANGES </text>
+<text top="2891" left="568" width="1175" height="138" font="font19" id="p1_t102" reading_order_no="101" segment_no="12" tag_type="text">WITHOUT  BREAKING. </text>
+<text top="3143" left="1383" width="677" height="42" font="font20" id="p1_t103" reading_order_no="102" segment_no="13" tag_type="text">COMMUNICATIONS OF THE  ACM  May  2006/Vol.49,No.5 </text>
+<text top="3143" left="2107" width="39" height="42" font="font20" id="p1_t104" reading_order_no="103" segment_no="8" tag_type="text">81</text>
+</page>
+</pdf2xml>

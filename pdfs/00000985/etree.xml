@@ -1,0 +1,172 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3235" width="2316">
+	<fontspec id="font0" size="47" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="48" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="45" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="46" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="26" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="33" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="79" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="49" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="51" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="21" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="32" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="18" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="22" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font15" size="19" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font16" size="43" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font17" size="44" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font18" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font19" size="24" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font20" size="30" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font21" size="29" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font22" size="86" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font23" size="23" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font24" size="2" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font25" size="55" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font26" size="38" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font27" size="31" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font28" size="37" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font29" size="36" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font30" size="1" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font31" size="42" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font32" size="28" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font33" size="34" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font34" size="35" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font35" size="69" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font36" size="16" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font37" size="15" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font38" size="53" family="GlyphLessFont" color="#000000"/>
+<text top="241" left="227" width="856" height="63" font="font0" id="p1_t1" reading_order_no="0" segment_no="2" tag_type="list">*  Metadata  elements  tightly  coupled  with  one </text>
+<text top="291" left="258" width="872" height="65" font="font1" id="p1_t2" reading_order_no="1" segment_no="2" tag_type="list">product  or  within  a  suite  of  products  from  the </text>
+<text top="352" left="258" width="935" height="53" font="font2" id="p1_t3" reading_order_no="2" segment_no="2" tag_type="list">same  vendor  (such  as  IBM,  Microsoft,  or  Oracle). </text>
+<text top="396" left="259" width="866" height="63" font="font0" id="p1_t4" reading_order_no="3" segment_no="2" tag_type="list">Limited  support  is  offered  by  way  of  common </text>
+<text top="448" left="259" width="934" height="63" font="font0" id="p1_t5" reading_order_no="4" segment_no="2" tag_type="list">interfaces  for  metadata  exchange,  hindering  meta- </text>
+<text top="500" left="259" width="928" height="65" font="font1" id="p1_t6" reading_order_no="5" segment_no="2" tag_type="list">data  integration  across  tools.  The  leading  vendors </text>
+<text top="553" left="258" width="797" height="63" font="font0" id="p1_t7" reading_order_no="6" segment_no="2" tag_type="list">of  data  warehousing  products  are  trying  to </text>
+<text top="606" left="258" width="801" height="63" font="font0" id="p1_t8" reading_order_no="7" segment_no="2" tag_type="list">address  the  need  for  more  robust  metadata </text>
+<text top="658" left="258" width="397" height="63" font="font0" id="p1_t9" reading_order_no="8" segment_no="2" tag_type="list">exchange  capabilities. </text>
+<text top="764" left="227" width="515" height="61" font="font3" id="p1_t10" reading_order_no="9" segment_no="3" tag_type="title">DESIGN  AND  IMPLEMENTATION </text>
+<text top="821" left="225" width="215" height="54" font="font4" id="p1_t11" reading_order_no="10" segment_no="3" tag_type="title">CHALLENGES </text>
+<text top="868" left="225" width="618" height="61" font="font3" id="p1_t12" reading_order_no="11" segment_no="4" tag_type="text">The  broad  and  complex  func- </text>
+<text top="918" left="226" width="618" height="63" font="font0" id="p1_t13" reading_order_no="12" segment_no="4" tag_type="text">tionality  of  metadata,  coupled </text>
+<text top="970" left="224" width="621" height="62" font="font5" id="p1_t14" reading_order_no="13" segment_no="4" tag_type="text">with  insufficient  support  for </text>
+<text top="1024" left="226" width="617" height="61" font="font3" id="p1_t15" reading_order_no="14" segment_no="4" tag_type="text">metadata  management  from  soft- </text>
+<text top="1076" left="224" width="620" height="61" font="font3" id="p1_t16" reading_order_no="15" segment_no="4" tag_type="text">ware  products  pose  several  chal- </text>
+<text top="1127" left="225" width="115" height="63" font="font0" id="p1_t17" reading_order_no="16" segment_no="4" tag_type="text">lenges </text>
+<text top="1127" left="430" width="54" height="63" font="font0" id="p1_t18" reading_order_no="17" segment_no="4" tag_type="text">for </text>
+<text top="1127" left="573" width="272" height="63" font="font0" id="p1_t19" reading_order_no="18" segment_no="4" tag_type="text">implementing </text>
+<text top="1182" left="226" width="618" height="61" font="font3" id="p1_t20" reading_order_no="19" segment_no="4" tag_type="text">metadata  solutions.  A  successful </text>
+<text top="818" left="1126" width="139" height="28" font="font11" id="p1_t21" reading_order_no="66" segment_no="7" tag_type="table">Le  Transacti </text>
+<text top="840" left="1142" width="155" height="43" font="font12" id="p1_t22" reading_order_no="68" segment_no="7" tag_type="table">|_|  Client  Code </text>
+<text top="877" left="1129" width="185" height="24" font="font13" id="p1_t23" reading_order_no="70" segment_no="7" tag_type="table">Eo  Product  Code </text>
+<text top="900" left="1141" width="168" height="30" font="font14" id="p1_t24" reading_order_no="74" segment_no="7" tag_type="table">[|  Store  Code  _ </text>
+<text top="930" left="1148" width="175" height="26" font="font15" id="p1_t25" reading_order_no="78" segment_no="7" tag_type="table">ie  Sale  Date/Time </text>
+<text top="240" left="1249" width="963" height="63" font="font0" id="p1_t26" reading_order_no="57" segment_no="0" tag_type="text">interchangeability  is  to  choose  one  format  (typically </text>
+<text top="296" left="1249" width="959" height="58" font="font16" id="p1_t27" reading_order_no="58" segment_no="0" tag_type="text">the  relational  model)  as  the  baseline  for  the  others. </text>
+<text top="345" left="1249" width="960" height="62" font="font5" id="p1_t28" reading_order_no="59" segment_no="0" tag_type="text">Figure  2  outlines  the  concept  of  format  interchange- </text>
+<text top="403" left="1249" width="961" height="54" font="font4" id="p1_t29" reading_order_no="60" segment_no="0" tag_type="text">ability.  For  example,  the  Sale  Transactions  data  in  the </text>
+<text top="451" left="1248" width="961" height="59" font="font17" id="p1_t30" reading_order_no="61" segment_no="0" tag_type="text">figure  is  abstracted  into  three  metadata  formats—tab- </text>
+<text top="506" left="1249" width="962" height="55" font="font18" id="p1_t31" reading_order_no="62" segment_no="0" tag_type="text">ular,  textual,  and  visual—each  targeting  a  different </text>
+<text top="555" left="1249" width="199" height="61" font="font3" id="p1_t32" reading_order_no="63" segment_no="0" tag_type="text">user  group. </text>
+<text top="605" left="1300" width="910" height="63" font="font0" id="p1_t33" reading_order_no="64" segment_no="1" tag_type="text">Integrating  metadata.  Without  appropriate  controls </text>
+<text top="659" left="1248" width="961" height="62" font="font5" id="p1_t34" reading_order_no="65" segment_no="1" tag_type="text">metadata  might  evolve  inconsistently  across  the  enter- </text>
+<text top="817" left="1457" width="253" height="30" font="font14" id="p1_t35" reading_order_no="67" segment_no="7" tag_type="table">__._|  Transaction  identifier </text>
+<text top="845" left="1503" width="243" height="30" font="font14" id="p1_t36" reading_order_no="69" segment_no="7" tag_type="table">| Unique client identifier _ </text>
+<text top="874" left="1373" width="27" height="28" font="font11" id="p1_t37" reading_order_no="71" segment_no="7" tag_type="table">Te: </text>
+<text top="874" left="1467" width="11" height="28" font="font11" id="p1_t38" reading_order_no="72" segment_no="7" tag_type="table">a) </text>
+<text top="874" left="1514" width="235" height="28" font="font11" id="p1_t39" reading_order_no="73" segment_no="7" tag_type="table">Unique  product  identifier </text>
+<text top="899" left="1369" width="45" height="30" font="font14" id="p1_t40" reading_order_no="75" segment_no="7" tag_type="table">Text </text>
+<text top="899" left="1515" width="239" height="30" font="font14" id="p1_t41" reading_order_no="76" segment_no="7" tag_type="table">Unique  store  identifier </text>
+<text top="899" left="1733" width="21" height="30" font="font14" id="p1_t42" reading_order_no="77" segment_no="7" tag_type="table">_ </text>
+<text top="928" left="1370" width="103" height="28" font="font11" id="p1_t43" reading_order_no="79" segment_no="7" tag_type="table">Date/Time </text>
+<text top="928" left="1522" width="162" height="28" font="font11" id="p1_t44" reading_order_no="80" segment_no="7" tag_type="table">Sale  date  and  time </text>
+<text top="949" left="1352" width="101" height="32" font="font19" id="p1_t45" reading_order_no="81" segment_no="7" tag_type="table">=  Number </text>
+<text top="949" left="1523" width="195" height="32" font="font19" id="p1_t46" reading_order_no="82" segment_no="7" tag_type="table">Number  of  items  sold </text>
+<text top="979" left="1313" width="141" height="28" font="font11" id="p1_t47" reading_order_no="83" segment_no="7" tag_type="table">~~  |  Number </text>
+<text top="979" left="1511" width="208" height="28" font="font11" id="p1_t48" reading_order_no="84" segment_no="7" tag_type="table">|  Price  per  item  in  USD </text>
+<text top="1003" left="1344" width="253" height="55" font="font18" id="p1_t49" reading_order_no="85" segment_no="7" tag_type="table">Tabular  Metadata </text>
+<text top="1202" left="1746" width="233" height="31" font="font23" id="p1_t50" reading_order_no="86" segment_no="8" tag_type="table">2/5/2004  10:11:11  AM | </text>
+<text top="1225" left="1745" width="229" height="42" font="font27" id="p1_t51" reading_order_no="87" segment_no="8" tag_type="table">2/6/2004  11:23:44  AM  | </text>
+<text top="1238" left="225" width="310" height="55" font="font18" id="p1_t52" reading_order_no="20" segment_no="4" tag_type="text">implementation </text>
+<text top="1238" left="608" width="94" height="55" font="font18" id="p1_t53" reading_order_no="21" segment_no="4" tag_type="text">must </text>
+<text top="1238" left="772" width="71" height="55" font="font18" id="p1_t54" reading_order_no="22" segment_no="4" tag_type="text">also </text>
+<text top="1292" left="225" width="618" height="54" font="font4" id="p1_t55" reading_order_no="23" segment_no="4" tag_type="text">address  other  technical  and  man- </text>
+<text top="1263" left="1686" width="260" height="42" font="font27" id="p1_t56" reading_order_no="88" segment_no="8" tag_type="table">ah  U2 WS  FISK </text>
+<text top="1344" left="225" width="469" height="54" font="font4" id="p1_t57" reading_order_no="24" segment_no="4" tag_type="text">agerial  factors,  including: </text>
+<text top="1387" left="277" width="564" height="65" font="font1" id="p1_t58" reading_order_no="25" segment_no="5" tag_type="text">Interchangeable  metadata  for- </text>
+<text top="1441" left="228" width="615" height="63" font="font0" id="p1_t59" reading_order_no="26" segment_no="5" tag_type="text">mats.  Metadata  can  be  captured </text>
+<text top="1494" left="225" width="618" height="61" font="font3" id="p1_t60" reading_order_no="27" segment_no="5" tag_type="text">and  represented  in a  variety  of  for- </text>
+<text top="1544" left="224" width="619" height="63" font="font0" id="p1_t61" reading_order_no="28" segment_no="5" tag_type="text">mats.  For  example,  textual  flat </text>
+<text top="1595" left="225" width="619" height="65" font="font1" id="p1_t62" reading_order_no="29" segment_no="5" tag_type="text">files  are  easy  to  implement  and </text>
+<text top="1648" left="225" width="618" height="65" font="font0" id="p1_t63" reading_order_no="30" segment_no="5" tag_type="text">read  but  are  less  secure  and  do  not </text>
+<text top="1701" left="225" width="618" height="63" font="font0" id="p1_t64" reading_order_no="31" segment_no="5" tag_type="text">readily  support  the  capture  of  the </text>
+<text top="1754" left="225" width="619" height="63" font="font0" id="p1_t65" reading_order_no="32" segment_no="5" tag_type="text">relationships  among  metadata </text>
+<text top="1806" left="225" width="617" height="65" font="font1" id="p1_t66" reading_order_no="33" segment_no="5" tag_type="text">components.  Relational  models </text>
+<text top="1862" left="224" width="619" height="59" font="font17" id="p1_t67" reading_order_no="34" segment_no="5" tag_type="text">are  easier  to  centralize  and  inte- </text>
+<text top="1918" left="224" width="619" height="54" font="font4" id="p1_t68" reading_order_no="35" segment_no="5" tag_type="text">grate,  relatively  secure,  and </text>
+<text top="1963" left="225" width="618" height="63" font="font0" id="p1_t69" reading_order_no="36" segment_no="5" tag_type="text">equipped  with  a  standard  access </text>
+<text top="2021" left="224" width="618" height="55" font="font18" id="p1_t70" reading_order_no="37" segment_no="5" tag_type="text">method  (SQL)  and  with  well- </text>
+<text top="2067" left="225" width="617" height="62" font="font5" id="p1_t71" reading_order_no="38" segment_no="5" tag_type="text">defined.  data-administration  utili- </text>
+<text top="2120" left="225" width="968" height="61" font="font3" id="p1_t72" reading_order_no="39" segment_no="5" tag_type="text">ties.  However,  relational  implementation  can  be </text>
+<text top="2171" left="225" width="968" height="63" font="font0" id="p1_t73" reading_order_no="40" segment_no="5" tag_type="text">complex  and  expensive  (in  terms  of  RDBMS  pur- </text>
+<text top="2224" left="224" width="969" height="63" font="font0" id="p1_t74" reading_order_no="41" segment_no="5" tag_type="text">chase  costs  and  administration  overhead).  Graphical </text>
+<text top="2276" left="224" width="970" height="63" font="font0" id="p1_t75" reading_order_no="42" segment_no="5" tag_type="text">structures  (such  as  entity  relationship  models)  are </text>
+<text top="2329" left="224" width="969" height="63" font="font0" id="p1_t76" reading_order_no="43" segment_no="5" tag_type="text">more  interpretable  but  require  user  training;  they  are </text>
+<text top="2382" left="225" width="968" height="63" font="font0" id="p1_t77" reading_order_no="44" segment_no="5" tag_type="text">also  not  easy  to  integrate  with  metadata  in  other  for- </text>
+<text top="2434" left="225" width="969" height="63" font="font0" id="p1_t78" reading_order_no="45" segment_no="5" tag_type="text">mats.  Documents  allow  business  users  to  easily </text>
+<text top="2486" left="225" width="968" height="63" font="font0" id="p1_t79" reading_order_no="46" segment_no="5" tag_type="text">understand  metadata  and  capture  complex  detail.  On </text>
+<text top="2537" left="225" width="967" height="63" font="font0" id="p1_t80" reading_order_no="47" segment_no="5" tag_type="text">the  flip  side,  integrating  documents  with  other  for- </text>
+<text top="2589" left="225" width="969" height="63" font="font0" id="p1_t81" reading_order_no="48" segment_no="5" tag_type="text">mats  is  difficult;  documents  also  require  significant </text>
+<text top="2642" left="224" width="969" height="62" font="font5" id="p1_t82" reading_order_no="49" segment_no="5" tag_type="text">administrative  overhead.  Proprietary  data  structures </text>
+<text top="2693" left="225" width="969" height="63" font="font0" id="p1_t83" reading_order_no="50" segment_no="5" tag_type="text">are  customizable  for  specific  organizational  needs,  but </text>
+<text top="2745" left="225" width="924" height="63" font="font0" id="p1_t84" reading_order_no="51" segment_no="5" tag_type="text">integrating  them  with  standard  formats  is  difficult. </text>
+<text top="2798" left="275" width="918" height="62" font="font5" id="p1_t85" reading_order_no="52" segment_no="6" tag_type="text">Metadata  implementation  is  likely  to  involve  more </text>
+<text top="2850" left="225" width="969" height="63" font="font0" id="p1_t86" reading_order_no="53" segment_no="6" tag_type="text">than  one  format.  Certain  data  entities  may  require </text>
+<text top="2907" left="225" width="967" height="57" font="font31" id="p1_t87" reading_order_no="54" segment_no="6" tag_type="text">abstraction  in  multiple  formats,  hence  efficient  inter- </text>
+<text top="2955" left="225" width="970" height="63" font="font0" id="p1_t88" reading_order_no="55" segment_no="6" tag_type="text">changeability  among  formats  is  highly  desirable.  A </text>
+<text top="3007" left="225" width="968" height="63" font="font0" id="p1_t89" reading_order_no="56" segment_no="6" tag_type="text">common  approach  for  achieving  compatibility  and </text>
+<text top="1494" left="994" width="184" height="38" font="font32" id="p1_t90" reading_order_no="90" segment_no="9" tag_type="figure">“Transaction  ID" </text>
+<text top="1866" left="1076" width="119" height="43" font="font12" id="p1_t91" reading_order_no="100" segment_no="15" tag_type="text">Figure  2. </text>
+<text top="1902" left="913" width="287" height="46" font="font33" id="p1_t92" reading_order_no="101" segment_no="15" tag_type="text">Interchangeability  of </text>
+<text top="1939" left="942" width="253" height="46" font="font33" id="p1_t93" reading_order_no="102" segment_no="15" tag_type="text">metadata  formats. </text>
+<text top="3135" left="226" width="45" height="47" font="font34" id="p1_t94" reading_order_no="126" segment_no="16" tag_type="text">92 </text>
+<text top="3148" left="350" width="727" height="31" font="font23" id="p1_t95" reading_order_no="127" segment_no="17" tag_type="text">February  2006/Vol.  49,  No.  2  COMMUNICATIONS  OF  THE  ACM </text>
+<text top="1464" left="905" width="385" height="38" font="font32" id="p1_t96" reading_order_no="89" segment_no="9" tag_type="figure">Create  Table  ‘Sale  Transactions’  as </text>
+<text top="1692" left="1087" width="251" height="38" font="font32" id="p1_t97" reading_order_no="91" segment_no="12" tag_type="text">Textual  Metadata </text>
+<text top="1475" left="1607" width="193" height="32" font="font19" id="p1_t98" reading_order_no="92" segment_no="10" tag_type="figure">||  Transaction  ID </text>
+<text top="1500" left="1622" width="129" height="31" font="font23" id="p1_t99" reading_order_no="93" segment_no="10" tag_type="figure">Client  Code </text>
+<text top="1523" left="1623" width="148" height="32" font="font19" id="p1_t100" reading_order_no="94" segment_no="10" tag_type="figure">Product  Code </text>
+<text top="1548" left="1607" width="137" height="32" font="font19" id="p1_t101" reading_order_no="95" segment_no="10" tag_type="figure">|  Store  Code </text>
+<text top="1573" left="1607" width="175" height="31" font="font23" id="p1_t102" reading_order_no="96" segment_no="10" tag_type="figure">|  Sale  Date/Time </text>
+<text top="1596" left="1607" width="71" height="32" font="font19" id="p1_t103" reading_order_no="97" segment_no="10" tag_type="figure">||  Items </text>
+<text top="1621" left="1607" width="67" height="32" font="font19" id="p1_t104" reading_order_no="98" segment_no="10" tag_type="figure">| Price </text>
+<text top="1691" left="1705" width="292" height="39" font="font21" id="p1_t105" reading_order_no="99" segment_no="11" tag_type="text">Visualized  Metadata </text>
+<text top="1860" left="1246" width="962" height="62" font="font5" id="p1_t106" reading_order_no="103" segment_no="13" tag_type="text">prise  as  complex,  isolated,  nonreusable  “pockets” </text>
+<text top="1911" left="1247" width="960" height="63" font="font0" id="p1_t107" reading_order_no="104" segment_no="13" tag_type="text">tightly  coupled  with  individual  applications  [7]. </text>
+<text top="1963" left="1246" width="964" height="63" font="font0" id="p1_t108" reading_order_no="105" segment_no="13" tag_type="text">These  pockets  might  lead  to  conflicting  standards  for </text>
+<text top="2015" left="1247" width="961" height="63" font="font0" id="p1_t109" reading_order_no="106" segment_no="13" tag_type="text">business  entities,  disable  efficient  communication </text>
+<text top="2067" left="1247" width="962" height="63" font="font0" id="p1_t110" reading_order_no="107" segment_no="13" tag_type="text">among  subsystems,  and  complicate  system  mainte- </text>
+<text top="2118" left="1247" width="962" height="63" font="font0" id="p1_t111" reading_order_no="108" segment_no="13" tag_type="text">nance  [5].  Metadata  management  is  moving  from </text>
+<text top="2171" left="1247" width="962" height="63" font="font0" id="p1_t112" reading_order_no="109" segment_no="13" tag_type="text">managing  decentralized  metadata  pockets  to  manag- </text>
+<text top="2228" left="1247" width="961" height="57" font="font31" id="p1_t113" reading_order_no="110" segment_no="13" tag_type="text">ing  centralized  repositories  [7].  The  metadata  reposi- </text>
+<text top="2282" left="1247" width="963" height="54" font="font4" id="p1_t114" reading_order_no="111" segment_no="13" tag_type="text">tory  reflects  this  trend  [3,  5,  10],  providing </text>
+<text top="2330" left="1246" width="962" height="62" font="font5" id="p1_t115" reading_order_no="112" segment_no="13" tag_type="text">enterprisewide  storage  of  metadata  that  integrates  all </text>
+<text top="2387" left="1247" width="961" height="55" font="font18" id="p1_t116" reading_order_no="113" segment_no="13" tag_type="text">components,  offers  better  control,  and  avoids  meta- </text>
+<text top="2435" left="1246" width="962" height="62" font="font5" id="p1_t117" reading_order_no="114" segment_no="13" tag_type="text">data  islands.  Unfortunately,  a  comprehensive  com- </text>
+<text top="2485" left="1247" width="961" height="63" font="font0" id="p1_t118" reading_order_no="115" segment_no="13" tag_type="text">mercial  solution  for  full-fledged  metadata  integration </text>
+<text top="2544" left="1246" width="961" height="54" font="font4" id="p1_t119" reading_order_no="116" segment_no="13" tag_type="text">does  not  exist.  A  major  obstacle  for  integration,  as </text>
+<text top="2590" left="1246" width="962" height="62" font="font5" id="p1_t120" reading_order_no="117" segment_no="13" tag_type="text">pointed  out  earlier,  is  the  lack  of  standardization </text>
+<text top="2642" left="1246" width="853" height="62" font="font5" id="p1_t121" reading_order_no="118" segment_no="13" tag_type="text">among  COTS  products  that  manage  metadata. </text>
+<text top="2693" left="1296" width="911" height="63" font="font0" id="p1_t122" reading_order_no="119" segment_no="14" tag_type="text">Efforts  to  overcome  metadata  exchange  and  inte- </text>
+<text top="2745" left="1245" width="963" height="63" font="font0" id="p1_t123" reading_order_no="120" segment_no="14" tag_type="text">gration  problems  have  been  partially  successful.  The </text>
+<text top="2804" left="1246" width="963" height="54" font="font4" id="p1_t124" reading_order_no="121" segment_no="14" tag_type="text">market,  however,  is  still  split  between  two  competing </text>
+<text top="2850" left="1246" width="962" height="63" font="font0" id="p1_t125" reading_order_no="122" segment_no="14" tag_type="text">metadata  exchange  standards:  the  Open  Integration </text>
+<text top="2906" left="1246" width="961" height="58" font="font16" id="p1_t126" reading_order_no="123" segment_no="14" tag_type="text">Model  (OIM)  and  the  Common  Warehouse  Model </text>
+<text top="2961" left="1248" width="958" height="55" font="font18" id="p1_t127" reading_order_no="124" segment_no="14" tag_type="text">(CWM).  The  Metadata  Coalition,  led  by  Microsoft, </text>
+<text top="3014" left="1246" width="961" height="54" font="font4" id="p1_t128" reading_order_no="125" segment_no="14" tag_type="text">proposed  OIM  in  1999.  At  about  the  same  time,  the</text>
+</page>
+</pdf2xml>

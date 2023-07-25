@@ -1,0 +1,96 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3228" width="2272">
+	<fontspec id="font0" size="57" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="2" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="47" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="42" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="43" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="46" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="48" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="44" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="23" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="45" family="GlyphLessFont" color="#000000"/>
+<text top="516" left="299" width="1785" height="77" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">SELF-ADAPTIVE  SOFTWARE  HAS  BEEN  SUCCESSFULLY  APPLIED </text>
+<text top="592" left="370" width="1646" height="77" font="font0" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">TO  A  VARIETY  OF  TASKS,  RANGING  FROM  ROBUST  IMAGE </text>
+<text top="667" left="315" width="1755" height="77" font="font0" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="text">INTERPRETATION  TO  AUTOMATED  CONTROLLER  SYNTHESIS. </text>
+<text top="1079" left="199" width="969" height="63" font="font2" id="p1_t4" reading_order_no="3" segment_no="1" tag_type="text">results  in  an  exception  that  disqualifies  the  current </text>
+<text top="1137" left="199" width="967" height="57" font="font3" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="text">software  component  from  looking  for  targets. </text>
+<text top="1190" left="199" width="967" height="58" font="font4" id="p1_t6" reading_order_no="5" segment_no="1" tag_type="text">Because  the  failure  is  external  to  the  rover  software, </text>
+<text top="1237" left="199" width="969" height="62" font="font5" id="p1_t7" reading_order_no="6" segment_no="1" tag_type="text">the  plan  itself  is  invalidated.  The  exception  is  resolved </text>
+<text top="1295" left="198" width="971" height="55" font="font6" id="p1_t8" reading_order_no="7" segment_no="1" tag_type="text">by  replanning,  which  allows  both  rovers  to  modify </text>
+<text top="1347" left="199" width="969" height="57" font="font3" id="p1_t9" reading_order_no="8" segment_no="1" tag_type="text">their  plans  so  that  Rover2  observes  the  obscured  site </text>
+<text top="1396" left="198" width="969" height="62" font="font5" id="p1_t10" reading_order_no="9" segment_no="1" tag_type="text">from  a  different  vantage  point.  The  rovers  continue </text>
+<text top="1446" left="197" width="970" height="63" font="font2" id="p1_t11" reading_order_no="10" segment_no="1" tag_type="text">with  the  new  plan  but  when  Rover2  attempts  to  scan </text>
+<text top="1498" left="198" width="968" height="63" font="font2" id="p1_t12" reading_order_no="11" segment_no="1" tag_type="text">the  area  for  science  targets,  the  selected  vision  algo- </text>
+<text top="1549" left="199" width="969" height="65" font="font7" id="p1_t13" reading_order_no="12" segment_no="1" tag_type="text">rithm  fails  due  to  the  deep  shadow  being  cast  by  the </text>
+<text top="1601" left="198" width="969" height="63" font="font2" id="p1_t14" reading_order_no="13" segment_no="1" tag_type="text">large  rock.  Again  an  exception  is  generated,  but  in  this </text>
+<text top="1660" left="199" width="968" height="57" font="font3" id="p1_t15" reading_order_no="14" segment_no="1" tag_type="text">case  a  redundant  method  is  found—a  vision  algo- </text>
+<text top="1710" left="199" width="968" height="58" font="font4" id="p1_t16" reading_order_no="15" segment_no="1" tag_type="text">rithm  that  works  well  in  low  light  conditions.  With </text>
+<text top="1766" left="199" width="969" height="54" font="font8" id="p1_t17" reading_order_no="16" segment_no="1" tag_type="text">this  algorithm,  the  rover  successfully  scans  the  site  for </text>
+<text top="1818" left="198" width="970" height="54" font="font8" id="p1_t18" reading_order_no="17" segment_no="1" tag_type="text">science  targets.  Both  rovers  continue  to  execute  the </text>
+<text top="1868" left="199" width="907" height="58" font="font4" id="p1_t19" reading_order_no="18" segment_no="1" tag_type="text">revised  plan  without  further  failure  (see  Figure  2). </text>
+<text top="1973" left="201" width="259" height="58" font="font4" id="p1_t20" reading_order_no="19" segment_no="5" tag_type="title">RELATED  WoRK </text>
+<text top="2022" left="199" width="969" height="62" font="font5" id="p1_t21" reading_order_no="20" segment_no="6" tag_type="text">Self-adaptive  software  has  been  successfully  applied </text>
+<text top="2073" left="199" width="968" height="63" font="font2" id="p1_t22" reading_order_no="21" segment_no="6" tag_type="text">to  a  variety  of  tasks,  ranging  from  robust  image </text>
+<text top="2126" left="199" width="967" height="62" font="font5" id="p1_t23" reading_order_no="22" segment_no="6" tag_type="text">interpretation  to  automated  controller  synthesis  [4]. </text>
+<text top="2176" left="199" width="968" height="63" font="font2" id="p1_t24" reading_order_no="23" segment_no="6" tag_type="text">Our  approach  builds  on a  successful  history  of  hard- </text>
+<text top="2229" left="197" width="971" height="62" font="font5" id="p1_t25" reading_order_no="24" segment_no="6" tag_type="text">ware  diagnosis  and  repair  [7].  In  May  1999,  the </text>
+<text top="2288" left="198" width="969" height="54" font="font8" id="p1_t26" reading_order_no="25" segment_no="6" tag_type="text">spacecraft  Deep  Space  1,  shown  in  Figure  3,  ran </text>
+<text top="2340" left="199" width="970" height="55" font="font6" id="p1_t27" reading_order_no="26" segment_no="6" tag_type="text">autonomously  for  a  period  of  one  week  [1].  During </text>
+<text top="2393" left="199" width="967" height="54" font="font8" id="p1_t28" reading_order_no="27" segment_no="6" tag_type="text">that  week,  faults  were  introduced  that  were  detected, </text>
+<text top="2438" left="199" width="969" height="65" font="font7" id="p1_t29" reading_order_no="28" segment_no="6" tag_type="text">diagnosed,  and  resolved  by  reconfiguring  the </text>
+<text top="2491" left="200" width="966" height="65" font="font7" id="p1_t30" reading_order_no="29" segment_no="6" tag_type="text">(redundant)  hardware  of  the  spacecraft.  Subse- </text>
+<text top="2545" left="199" width="968" height="62" font="font5" id="p1_t31" reading_order_no="30" segment_no="6" tag_type="text">quently,  another  satellite  (Earth  Observer  1)  has </text>
+<text top="2595" left="199" width="970" height="63" font="font2" id="p1_t32" reading_order_no="31" segment_no="6" tag_type="text">been  flying  autonomously,  planning  and  executing </text>
+<text top="2648" left="200" width="967" height="62" font="font5" id="p1_t33" reading_order_no="32" segment_no="6" tag_type="text">its  own  missions.  Extending  these  technologies  to </text>
+<text top="2701" left="199" width="970" height="63" font="font2" id="p1_t34" reading_order_no="33" segment_no="6" tag_type="text">software  systems  involves  extending  the  modeling </text>
+<text top="2751" left="199" width="969" height="63" font="font2" id="p1_t35" reading_order_no="34" segment_no="6" tag_type="text">language  to  deal  with  the  idiosyncrasies  of  software </text>
+<text top="2808" left="199" width="877" height="59" font="font9" id="p1_t36" reading_order_no="35" segment_no="6" tag_type="text">such  as  its  inherently  hierarchical  structure  [5]. </text>
+<text top="2855" left="250" width="915" height="65" font="font7" id="p1_t37" reading_order_no="36" segment_no="7" tag_type="text">Model-based  Programming  of  Hidden  States. </text>
+<text top="2908" left="200" width="967" height="63" font="font2" id="p1_t38" reading_order_no="37" segment_no="7" tag_type="text">RMPL  is  similar  to  reactive  embedded  synchronous </text>
+<text top="2962" left="199" width="966" height="62" font="font5" id="p1_t39" reading_order_no="38" segment_no="7" tag_type="text">programming  languages  such  as  Esterel.  In  particular, </text>
+<text top="3014" left="200" width="967" height="65" font="font7" id="p1_t40" reading_order_no="39" segment_no="7" tag_type="text">both  languages  support  conditional  execution,  con- </text>
+<text top="3154" left="199" width="794" height="31" font="font10" id="p1_t41" reading_order_no="78" segment_no="8" tag_type="text">46  =  March  2006/Vol.  49,  No.  3  COMMUNICATIONS  OF  THE  ACM </text>
+<text top="1079" left="1220" width="960" height="61" font="font11" id="p1_t42" reading_order_no="40" segment_no="2" tag_type="text">currency,  preemption,  and  parameter-less  recursion. </text>
+<text top="1131" left="1219" width="963" height="63" font="font2" id="p1_t43" reading_order_no="41" segment_no="2" tag_type="text">The  key  difference  is  that  in  embedded  synchronous </text>
+<text top="1183" left="1220" width="963" height="65" font="font7" id="p1_t44" reading_order_no="42" segment_no="2" tag_type="text">languages,  programs  only  read  sensed  variables  and </text>
+<text top="1236" left="1219" width="963" height="63" font="font2" id="p1_t45" reading_order_no="43" segment_no="2" tag_type="text">write  to  controlled  variables.  In  contrast,  RMPL  spec- </text>
+<text top="1288" left="1220" width="963" height="65" font="font7" id="p1_t46" reading_order_no="44" segment_no="2" tag_type="text">ifies  goals  by  allowing  the  programmer  to  read  or </text>
+<text top="1343" left="1219" width="963" height="62" font="font5" id="p1_t47" reading_order_no="45" segment_no="2" tag_type="text">write  “hidden”  state  variables.  It  is  then  the  responsi- </text>
+<text top="1394" left="1221" width="961" height="63" font="font2" id="p1_t48" reading_order_no="46" segment_no="2" tag_type="text">bility  of  the  language’s  model-based  execution  kernel </text>
+<text top="1444" left="1221" width="963" height="63" font="font2" id="p1_t49" reading_order_no="47" segment_no="2" tag_type="text">to  map  between  hidden  states  and  the  underlying </text>
+<text top="1499" left="1220" width="676" height="62" font="font5" id="p1_t50" reading_order_no="48" segment_no="2" tag_type="text">system's  sensors  and  control  variables. </text>
+<text top="1548" left="1271" width="910" height="63" font="font2" id="p1_t51" reading_order_no="49" segment_no="3" tag_type="text">Predictive  and  Decision-theoretic  Dispatch. </text>
+<text top="1605" left="1221" width="961" height="59" font="font9" id="p1_t52" reading_order_no="50" segment_no="3" tag_type="text">RMPL  supports  nondeterministic  or  decision-theo- </text>
+<text top="1658" left="1221" width="962" height="55" font="font6" id="p1_t53" reading_order_no="51" segment_no="3" tag_type="text">retic  choice,  plus  flexible  timing  constraints.  Robotic </text>
+<text top="1710" left="1220" width="963" height="58" font="font4" id="p1_t54" reading_order_no="52" segment_no="3" tag_type="text">execution  languages  such  as  RAPS  [2],  ESL  [3],  and </text>
+<text top="1762" left="1219" width="964" height="59" font="font9" id="p1_t55" reading_order_no="53" segment_no="3" tag_type="text">TDL  [6]  offer  a  form  of  decision-theoretic  choice </text>
+<text top="1810" left="1220" width="961" height="65" font="font7" id="p1_t56" reading_order_no="54" segment_no="3" tag_type="text">between  methods  and  timing  constraints.  In  RAPS, </text>
+<text top="1863" left="1220" width="964" height="65" font="font7" id="p1_t57" reading_order_no="55" segment_no="3" tag_type="text">for  example,  each  method  is  assigned  a  priority.  A </text>
+<text top="1917" left="1221" width="968" height="63" font="font2" id="p1_t58" reading_order_no="56" segment_no="3" tag_type="text">method  is  then  dispatched,  which  satisfies  a  set  of </text>
+<text top="1969" left="1220" width="960" height="63" font="font2" id="p1_t59" reading_order_no="57" segment_no="3" tag_type="text">applicability  constraints  while  maximizing  priority. </text>
+<text top="2022" left="1221" width="961" height="62" font="font5" id="p1_t60" reading_order_no="58" segment_no="3" tag_type="text">In  contrast,  RMPL  dispatches  on  a  cost  that  is  asso- </text>
+<text top="2074" left="1220" width="962" height="62" font="font5" id="p1_t61" reading_order_no="59" segment_no="3" tag_type="text">ciated  with  a  dynamically  changing  performance </text>
+<text top="2130" left="1221" width="962" height="54" font="font8" id="p1_t62" reading_order_no="60" segment_no="3" tag_type="text">measure.  In  RAPS,  timing  is  specified  as  fixed </text>
+<text top="2183" left="1220" width="963" height="54" font="font8" id="p1_t63" reading_order_no="61" segment_no="3" tag_type="text">numerical  values.  In  contrast,  RMPL  specifies  timing </text>
+<text top="2228" left="1221" width="961" height="63" font="font2" id="p1_t64" reading_order_no="62" segment_no="3" tag_type="text">in  terms  of  upper  and  lower  bound  on  valid  execu- </text>
+<text top="2281" left="1220" width="963" height="63" font="font2" id="p1_t65" reading_order_no="63" segment_no="3" tag_type="text">tion  times.  The  set  of timing  constraints  of an  RMPL </text>
+<text top="2333" left="1220" width="964" height="63" font="font2" id="p1_t66" reading_order_no="64" segment_no="3" tag_type="text">program  constitutes  a  Simple  Temporal  Network </text>
+<text top="2390" left="1222" width="959" height="58" font="font4" id="p1_t67" reading_order_no="65" segment_no="3" tag_type="text">(STN).  RMPL  execution  is  unique  in  that  it  predic- </text>
+<text top="2439" left="1221" width="960" height="63" font="font2" id="p1_t68" reading_order_no="66" segment_no="3" tag_type="text">tively  selects  a  set  of  future  methods  whose  execution </text>
+<text top="2491" left="1221" width="390" height="63" font="font2" id="p1_t69" reading_order_no="67" segment_no="3" tag_type="text">is  temporally  feasible. </text>
+<text top="2543" left="1270" width="910" height="62" font="font5" id="p1_t70" reading_order_no="68" segment_no="4" tag_type="text">Probabilistic  Concurrent  Constraint  Automata. </text>
+<text top="2596" left="1220" width="962" height="61" font="font11" id="p1_t71" reading_order_no="69" segment_no="4" tag_type="text">Probabilistic  Concurrent  Constraint  Automata </text>
+<text top="2651" left="1222" width="957" height="57" font="font3" id="p1_t72" reading_order_no="70" segment_no="4" tag_type="text">(PCCA)  extend  Hidden  Markov  Models  (HMMs) </text>
+<text top="2699" left="1220" width="962" height="63" font="font2" id="p1_t73" reading_order_no="71" segment_no="4" tag_type="text">by  introducing  four  essential  attributes.  First,  the </text>
+<text top="2751" left="1220" width="961" height="63" font="font2" id="p1_t74" reading_order_no="72" segment_no="4" tag_type="text">HMM  is  factored  into  a  set  of  concurrently  operat- </text>
+<text top="2804" left="1221" width="961" height="62" font="font5" id="p1_t75" reading_order_no="73" segment_no="4" tag_type="text">ing  automata.  Second,  probabilistic  transitions  are </text>
+<text top="2863" left="1220" width="961" height="54" font="font8" id="p1_t76" reading_order_no="74" segment_no="4" tag_type="text">treated  as  conditionally  independent.  Third,  each </text>
+<text top="2910" left="1220" width="961" height="62" font="font5" id="p1_t77" reading_order_no="75" segment_no="4" tag_type="text">state  is  labeled  with  a  logical  constraint  that  holds </text>
+<text top="2961" left="1218" width="963" height="62" font="font5" id="p1_t78" reading_order_no="76" segment_no="4" tag_type="text">whenever  the  automaton  marks  that  state.  This </text>
+<text top="3012" left="1220" width="961" height="65" font="font7" id="p1_t79" reading_order_no="77" segment_no="4" tag_type="text">allows  an  efficient  encoding  of  co-temporal</text>
+</page>
+</pdf2xml>

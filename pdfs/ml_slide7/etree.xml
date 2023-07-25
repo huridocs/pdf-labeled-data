@@ -1,0 +1,160 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font0" size="80" family="CMUSerif" color="#000000"/>
+	<fontspec id="font1" size="31" family="CMUSerif" color="#000000"/>
+<text top="193" left="112" width="827" height="81" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">Generative Adversarial </text>
+<text top="304" left="198" width="628" height="81" font="font0" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="title">Networks (GANs)</text>
+<text top="405" left="215" width="605" height="32" font="font1" id="p1_t3" reading_order_no="2" segment_no="1" tag_type="text">Ian Goodfellow, OpenAI Research Scientist </text>
+<text top="448" left="198" width="627" height="32" font="font1" id="p1_t4" reading_order_no="3" segment_no="2" tag_type="text">Presentation at AI With the Best, 2016-09-24</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font2" size="12" family="CMUSerif" color="#000000"/>
+	<fontspec id="font3" size="27" family="CMUSerif" color="#000000"/>
+	<fontspec id="font4" size="36" family="CMUSerif" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p2_t1" reading_order_no="0" segment_no="5" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="148" width="729" height="81" font="font0" id="p2_t2" reading_order_no="1" segment_no="0" tag_type="title">Generative Modeling</text>
+<text top="218" left="79" width="14" height="27" font="font3" id="p2_t3" reading_order_no="2" segment_no="1" tag_type="text">•</text>
+<text top="214" left="114" width="308" height="37" font="font4" id="p2_t4" reading_order_no="3" segment_no="1" tag_type="text">Density estimation </text>
+<text top="402" left="79" width="14" height="27" font="font3" id="p2_t5" reading_order_no="4" segment_no="2" tag_type="text">•</text>
+<text top="398" left="114" width="290" height="37" font="font4" id="p2_t6" reading_order_no="5" segment_no="2" tag_type="text">Sample generation</text>
+<text top="706" left="179" width="288" height="37" font="font4" id="p2_t7" reading_order_no="6" segment_no="3" tag_type="text">Training examples</text>
+<text top="706" left="642" width="232" height="37" font="font4" id="p2_t8" reading_order_no="7" segment_no="4" tag_type="text">Model samples</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font5" size="70" family="CMUSerif" color="#000000"/>
+	<fontspec id="font6" size="22" family="Helvetica" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p3_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2016)</text>
+<text top="91" left="79" width="866" height="71" font="font5" id="p3_t2" reading_order_no="1" segment_no="0" tag_type="title">Adversarial Nets Framework</text>
+<text top="676" left="571" width="108" height="21" font="font6" id="p3_t3" reading_order_no="2" segment_no="1" tag_type="figure">Input noise</text>
+<text top="702" left="618" width="13" height="21" font="font6" id="p3_t4" reading_order_no="3" segment_no="1" tag_type="figure">Z</text>
+<text top="560" left="561" width="135" height="21" font="font6" id="p3_t5" reading_order_no="4" segment_no="1" tag_type="figure">Differentiable </text>
+<text top="587" left="575" width="100" height="21" font="font6" id="p3_t6" reading_order_no="5" segment_no="1" tag_type="figure">function G</text>
+<text top="445" left="575" width="106" height="21" font="font6" id="p3_t7" reading_order_no="6" segment_no="1" tag_type="figure">x sampled </text>
+<text top="471" left="570" width="110" height="21" font="font6" id="p3_t8" reading_order_no="7" segment_no="1" tag_type="figure">from model</text>
+<text top="330" left="561" width="135" height="21" font="font6" id="p3_t9" reading_order_no="8" segment_no="1" tag_type="figure">Differentiable </text>
+<text top="356" left="576" width="99" height="21" font="font6" id="p3_t10" reading_order_no="9" segment_no="1" tag_type="figure">function D</text>
+<text top="215" left="581" width="94" height="21" font="font6" id="p3_t11" reading_order_no="10" segment_no="1" tag_type="figure">D tries to </text>
+<text top="241" left="585" width="80" height="21" font="font6" id="p3_t12" reading_order_no="11" segment_no="1" tag_type="figure">output 0</text>
+<text top="445" left="334" width="106" height="21" font="font6" id="p3_t13" reading_order_no="12" segment_no="1" tag_type="figure">x sampled </text>
+<text top="471" left="338" width="93" height="21" font="font6" id="p3_t14" reading_order_no="13" segment_no="1" tag_type="figure">from data</text>
+<text top="330" left="320" width="135" height="21" font="font6" id="p3_t15" reading_order_no="14" segment_no="1" tag_type="figure">Differentiable </text>
+<text top="356" left="335" width="99" height="21" font="font6" id="p3_t16" reading_order_no="15" segment_no="1" tag_type="figure">function D</text>
+<text top="215" left="340" width="94" height="21" font="font6" id="p3_t17" reading_order_no="16" segment_no="1" tag_type="figure">D tries to </text>
+<text top="241" left="344" width="80" height="21" font="font6" id="p3_t18" reading_order_no="17" segment_no="1" tag_type="figure">output 1</text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="741" left="921" width="96" height="12" font="font2" id="p4_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="130" width="764" height="81" font="font0" id="p4_t2" reading_order_no="1" segment_no="0" tag_type="title">DCGAN Architecture</text>
+<text top="673" left="663" width="321" height="37" font="font4" id="p4_t3" reading_order_no="2" segment_no="2" tag_type="text">(Radford et al 2015)</text>
+<text top="287" left="174" width="580" height="37" font="font4" id="p4_t4" reading_order_no="3" segment_no="1" tag_type="text">Most “deconvs” are batch normalized</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font7" size="64" family="CMUSerif" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p5_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2016)</text>
+<text top="93" left="83" width="857" height="65" font="font7" id="p5_t2" reading_order_no="1" segment_no="0" tag_type="title">DCGANs for LSUN Bedrooms</text>
+<text top="655" left="498" width="321" height="37" font="font4" id="p5_t3" reading_order_no="2" segment_no="1" tag_type="text">(Radford et al 2015)</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font8" size="30" family="SFRM1095" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p6_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="82" width="860" height="81" font="font0" id="p6_t2" reading_order_no="1" segment_no="0" tag_type="title">Vector Space Arithmetic</text>
+<text top="366" left="206" width="10" height="30" font="font8" id="p6_t3" reading_order_no="2" segment_no="1" tag_type="figure">-</text>
+<text top="367" left="365" width="23" height="30" font="font8" id="p6_t4" reading_order_no="3" segment_no="1" tag_type="figure">+</text>
+<text top="365" left="538" width="23" height="30" font="font8" id="p6_t5" reading_order_no="4" segment_no="1" tag_type="figure">=</text>
+<text top="467" left="81" width="83" height="37" font="font4" id="p6_t6" reading_order_no="5" segment_no="1" tag_type="figure">Man </text>
+<text top="517" left="23" width="186" height="37" font="font4" id="p6_t7" reading_order_no="6" segment_no="1" tag_type="figure">with glasses</text>
+<text top="466" left="248" width="71" height="37" font="font4" id="p6_t8" reading_order_no="7" segment_no="1" tag_type="figure">Man</text>
+<text top="466" left="394" width="120" height="37" font="font4" id="p6_t9" reading_order_no="8" segment_no="1" tag_type="figure">Woman</text>
+<text top="583" left="599" width="329" height="37" font="font4" id="p6_t10" reading_order_no="9" segment_no="1" tag_type="figure">Woman with Glasses</text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="741" left="921" width="96" height="12" font="font2" id="p7_t1" reading_order_no="0" segment_no="5" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="254" width="516" height="81" font="font0" id="p7_t2" reading_order_no="1" segment_no="0" tag_type="title">Mode Collapse</text>
+<text top="224" left="79" width="14" height="27" font="font3" id="p7_t3" reading_order_no="2" segment_no="1" tag_type="list">•</text>
+<text top="220" left="114" width="695" height="37" font="font4" id="p7_t4" reading_order_no="3" segment_no="1" tag_type="list">Fully optimizing the discriminator with the </text>
+<text top="270" left="114" width="490" height="37" font="font4" id="p7_t5" reading_order_no="4" segment_no="1" tag_type="list">generator held constant is safe </text>
+<text top="366" left="79" width="14" height="27" font="font3" id="p7_t6" reading_order_no="5" segment_no="2" tag_type="list">•</text>
+<text top="362" left="114" width="635" height="37" font="font4" id="p7_t7" reading_order_no="6" segment_no="2" tag_type="list">Fully optimizing the generator with the </text>
+<text top="412" left="114" width="797" height="37" font="font4" id="p7_t8" reading_order_no="7" segment_no="2" tag_type="list">discriminator held constant results in mapping all </text>
+<text top="462" left="114" width="666" height="37" font="font4" id="p7_t9" reading_order_no="8" segment_no="2" tag_type="list">points to the argmax of the discriminator </text>
+<text top="558" left="79" width="14" height="27" font="font3" id="p7_t10" reading_order_no="9" segment_no="3" tag_type="list">•</text>
+<text top="554" left="114" width="782" height="37" font="font4" id="p7_t11" reading_order_no="10" segment_no="3" tag_type="list">Can partially fix this by adding nearest-neighbor </text>
+<text top="604" left="114" width="814" height="37" font="font4" id="p7_t12" reading_order_no="11" segment_no="3" tag_type="list">features constructed from the current minibatch to </text>
+<text top="654" left="114" width="585" height="37" font="font4" id="p7_t13" reading_order_no="12" segment_no="3" tag_type="list">the discriminator (“minibatch GAN”)</text>
+<text top="702" left="443" width="334" height="37" font="font4" id="p7_t14" reading_order_no="13" segment_no="4" tag_type="text">(Salimans et al 2016)</text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font9" size="73" family="CMUSerif" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p8_t1" reading_order_no="0" segment_no="4" tag_type="text">(Goodfellow 2016)</text>
+<text top="89" left="79" width="865" height="74" font="font9" id="p8_t2" reading_order_no="1" segment_no="0" tag_type="title">Minibatch GAN on CIFAR</text>
+<text top="676" left="141" width="222" height="37" font="font4" id="p8_t3" reading_order_no="2" segment_no="1" tag_type="text">Training Data</text>
+<text top="676" left="698" width="128" height="37" font="font4" id="p8_t4" reading_order_no="3" segment_no="2" tag_type="text">Samples</text>
+<text top="731" left="358" width="334" height="37" font="font4" id="p8_t5" reading_order_no="4" segment_no="3" tag_type="text">(Salimans et al 2016)</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font10" size="66" family="CMUSerif" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p9_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2016)</text>
+<text top="92" left="80" width="863" height="67" font="font10" id="p9_t2" reading_order_no="1" segment_no="0" tag_type="title">Minibatch GAN on ImageNet</text>
+<text top="731" left="345" width="334" height="37" font="font4" id="p9_t3" reading_order_no="2" segment_no="1" tag_type="text">(Salimans et al 2016)</text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="741" left="921" width="96" height="12" font="font2" id="p10_t1" reading_order_no="0" segment_no="1" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="122" width="780" height="81" font="font0" id="p10_t2" reading_order_no="1" segment_no="0" tag_type="title">Cherry-Picked Results</text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font11" size="75" family="CMUSerif" color="#000000"/>
+	<fontspec id="font12" size="19" family="font000000001d96e802" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p11_t1" reading_order_no="0" segment_no="6" tag_type="text">(Goodfellow 2016)</text>
+<text top="88" left="81" width="863" height="76" font="font11" id="p11_t2" reading_order_no="1" segment_no="0" tag_type="title">Text to Image with GANs</text>
+<text top="232" left="288" width="229" height="22" font="font12" id="p11_t3" reading_order_no="2" segment_no="1" tag_type="text">this small bird has a pink </text>
+<text top="255" left="288" width="257" height="22" font="font12" id="p11_t4" reading_order_no="3" segment_no="1" tag_type="text">breast and crown, and black </text>
+<text top="278" left="288" width="242" height="22" font="font12" id="p11_t5" reading_order_no="4" segment_no="1" tag_type="text">primaries and secondaries.</text>
+<text top="480" left="288" width="230" height="22" font="font12" id="p11_t6" reading_order_no="5" segment_no="3" tag_type="text">the flower has petals that </text>
+<text top="503" left="288" width="229" height="22" font="font12" id="p11_t7" reading_order_no="6" segment_no="3" tag_type="text">are bright pinkish purple </text>
+<text top="526" left="288" width="159" height="22" font="font12" id="p11_t8" reading_order_no="7" segment_no="3" tag_type="text">with white stigma</text>
+<text top="232" left="553" width="228" height="22" font="font12" id="p11_t9" reading_order_no="8" segment_no="2" tag_type="text">this magnificent fellow is </text>
+<text top="255" left="553" width="239" height="22" font="font12" id="p11_t10" reading_order_no="9" segment_no="2" tag_type="text">almost all black with a red </text>
+<text top="278" left="553" width="258" height="22" font="font12" id="p11_t11" reading_order_no="10" segment_no="2" tag_type="text">crest, and white cheek patch.</text>
+<text top="480" left="553" width="258" height="22" font="font12" id="p11_t12" reading_order_no="11" segment_no="4" tag_type="text">this white and yellow flower </text>
+<text top="503" left="553" width="256" height="22" font="font12" id="p11_t13" reading_order_no="12" segment_no="4" tag_type="text">have thin white petals and a </text>
+<text top="526" left="553" width="188" height="22" font="font12" id="p11_t14" reading_order_no="13" segment_no="4" tag_type="text">round yellow stamen</text>
+<text top="731" left="422" width="272" height="37" font="font4" id="p11_t15" reading_order_no="14" segment_no="5" tag_type="text">(Reed et al 2016)</text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="741" left="921" width="96" height="12" font="font2" id="p12_t1" reading_order_no="2" segment_no="2" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="146" width="732" height="81" font="font0" id="p12_t2" reading_order_no="0" segment_no="0" tag_type="figure">Generating Pokémon</text>
+<text top="582" left="449" width="127" height="37" font="font4" id="p12_t3" reading_order_no="1" segment_no="0" tag_type="figure">youtube</text>
+<text top="704" left="407" width="209" height="37" font="font4" id="p12_t4" reading_order_no="3" segment_no="1" tag_type="text">(Yota Ishida)</text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="741" left="921" width="96" height="12" font="font2" id="p13_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2016)</text>
+<text top="93" left="83" width="858" height="65" font="font7" id="p13_t2" reading_order_no="1" segment_no="0" tag_type="title">Single Image Super-Resolution</text>
+<text top="668" left="372" width="280" height="37" font="font4" id="p13_t3" reading_order_no="2" segment_no="1" tag_type="text">(Ledig et al 2016)</text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="741" left="921" width="96" height="12" font="font2" id="p14_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="410" width="205" height="81" font="font0" id="p14_t2" reading_order_no="1" segment_no="0" tag_type="title">iGAN</text>
+<text top="640" left="449" width="127" height="37" font="font4" id="p14_t3" reading_order_no="2" segment_no="1" tag_type="text">youtube</text>
+<text top="714" left="385" width="255" height="37" font="font4" id="p14_t4" reading_order_no="3" segment_no="2" tag_type="text">(Zhu et al 2016)</text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font13" size="62" family="CMUSerif" color="#000000"/>
+<text top="741" left="921" width="96" height="12" font="font2" id="p15_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2016)</text>
+<text top="50" left="171" width="702" height="63" font="font13" id="p15_t2" reading_order_no="1" segment_no="0" tag_type="title">Introspective Adversarial </text>
+<text top="136" left="385" width="253" height="63" font="font13" id="p15_t3" reading_order_no="2" segment_no="0" tag_type="title">Networks</text>
+<text top="556" left="449" width="127" height="37" font="font4" id="p15_t4" reading_order_no="3" segment_no="1" tag_type="text">youtube</text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="741" left="921" width="96" height="12" font="font2" id="p16_t1" reading_order_no="0" segment_no="4" tag_type="text">(Goodfellow 2016)</text>
+<text top="87" left="321" width="382" height="81" font="font0" id="p16_t2" reading_order_no="1" segment_no="0" tag_type="title">Conclusion</text>
+<text top="299" left="79" width="14" height="27" font="font3" id="p16_t3" reading_order_no="2" segment_no="1" tag_type="list">•</text>
+<text top="295" left="114" width="788" height="37" font="font4" id="p16_t4" reading_order_no="3" segment_no="1" tag_type="list">GANs are generative models based on supervised </text>
+<text top="345" left="114" width="415" height="37" font="font4" id="p16_t5" reading_order_no="4" segment_no="1" tag_type="list">learning and game theory </text>
+<text top="441" left="79" width="14" height="27" font="font3" id="p16_t6" reading_order_no="5" segment_no="2" tag_type="list">•</text>
+<text top="437" left="114" width="655" height="37" font="font4" id="p16_t7" reading_order_no="6" segment_no="2" tag_type="list">GANs learn to generate realistic samples </text>
+<text top="533" left="79" width="14" height="27" font="font3" id="p16_t8" reading_order_no="7" segment_no="3" tag_type="list">•</text>
+<text top="529" left="114" width="822" height="37" font="font4" id="p16_t9" reading_order_no="8" segment_no="3" tag_type="list">Like other generative models, GANs still need a lot </text>
+<text top="579" left="114" width="245" height="37" font="font4" id="p16_t10" reading_order_no="9" segment_no="3" tag_type="list">of improvement</text>
+</page>
+</pdf2xml>

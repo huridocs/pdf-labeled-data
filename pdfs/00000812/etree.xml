@@ -1,0 +1,123 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3210" width="2277">
+	<fontspec id="font0" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="42" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="38" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="47" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="36" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="37" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="48" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="478" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="26" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="188" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="43" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="20" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="82" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font15" size="35" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font16" size="34" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font17" size="33" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font18" size="25" family="GlyphLessFont" color="#000000"/>
+<text top="472" left="84" width="831" height="56" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">task  uses  ASR  systems  to  transcribe  messages  that </text>
+<text top="521" left="83" width="831" height="54" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">consist  of  spontaneous  telephone  speech—sampled </text>
+<text top="568" left="84" width="829" height="56" font="font0" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="text">at  8  KHz—with a  fairly  large  vocabulary.  Con- </text>
+<text top="616" left="84" width="829" height="55" font="font0" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="text">sequently,  this  effort  represents  one  of  the  more </text>
+<text top="664" left="83" width="521" height="55" font="font0" id="p1_t5" reading_order_no="4" segment_no="0" tag_type="text">challenging  ASR  research  tasks. </text>
+<text top="712" left="120" width="793" height="56" font="font0" id="p1_t6" reading_order_no="5" segment_no="1" tag_type="text">Although  we  quantified  the  relative  improve- </text>
+<text top="760" left="83" width="830" height="56" font="font0" id="p1_t7" reading_order_no="6" segment_no="1" tag_type="text">ments  achieved  using  this  task,  we  can  apply  these </text>
+<text top="808" left="84" width="830" height="55" font="font0" id="p1_t8" reading_order_no="7" segment_no="1" tag_type="text">quite  general  methods  to  any  speech  recognition </text>
+<text top="854" left="83" width="830" height="59" font="font2" id="p1_t9" reading_order_no="8" segment_no="1" tag_type="text">task.  The  test  data  consisted  of  105  voicemail  mes- </text>
+<text top="906" left="84" width="829" height="53" font="font3" id="p1_t10" reading_order_no="9" segment_no="1" tag_type="text">sages  comprising  52  minutes  of  speech.  The  train- </text>
+<text top="953" left="84" width="829" height="54" font="font1" id="p1_t11" reading_order_no="10" segment_no="1" tag_type="text">ing  data  consists  of  4,700  voicemail  messages </text>
+<text top="1000" left="83" width="830" height="56" font="font0" id="p1_t12" reading_order_no="11" segment_no="1" tag_type="text">comprising  53  hours  of  speech.  Using  this  task  as </text>
+<text top="1048" left="83" width="831" height="55" font="font0" id="p1_t13" reading_order_no="12" segment_no="1" tag_type="text">a  baseline,  we  achieved  a  speaker-independent </text>
+<text top="1097" left="82" width="530" height="54" font="font1" id="p1_t14" reading_order_no="13" segment_no="1" tag_type="text">word  error  rate  of  40.5  percent. </text>
+<text top="1185" left="83" width="602" height="65" font="font4" id="p1_t15" reading_order_no="14" segment_no="3" tag_type="title">RECENT  ASR  SYSTEMS  ADVANCES </text>
+<text top="1241" left="121" width="792" height="55" font="font1" id="p1_t16" reading_order_no="15" segment_no="4" tag_type="text">In  the  past  few  years,  several  advances,  includ- </text>
+<text top="1289" left="84" width="829" height="55" font="font1" id="p1_t17" reading_order_no="16" segment_no="4" tag_type="text">ing  significant  enhancements  to  accuracy,  have </text>
+<text top="1336" left="84" width="829" height="56" font="font0" id="p1_t18" reading_order_no="17" segment_no="4" tag_type="text">improved  the  performance  of  individual  ASR  sys- </text>
+<text top="1384" left="83" width="831" height="56" font="font0" id="p1_t19" reading_order_no="18" segment_no="4" tag_type="text">tem  components.  The  broad  classifications  for  these </text>
+<text top="1431" left="83" width="368" height="55" font="font0" id="p1_t20" reading_order_no="19" segment_no="4" tag_type="text">improvements  include </text>
+<text top="1529" left="122" width="791" height="55" font="font1" id="p1_t21" reading_order_no="20" segment_no="8" tag_type="list">*  novel  methods  of  extracting  acoustic  observa- </text>
+<text top="1577" left="157" width="473" height="53" font="font1" id="p1_t22" reading_order_no="21" segment_no="8" tag_type="list">tions  from  the  speech  signal, </text>
+<text top="1624" left="123" width="790" height="56" font="font0" id="p1_t23" reading_order_no="22" segment_no="9" tag_type="list">¢  alternatives  to  Maximum  Likelihood  estima- </text>
+<text top="1674" left="158" width="499" height="51" font="font3" id="p1_t24" reading_order_no="23" segment_no="9" tag_type="list">tion  of  the  HMM  parameters, </text>
+<text top="1720" left="122" width="791" height="56" font="font0" id="p1_t25" reading_order_no="24" segment_no="10" tag_type="list">*  postprocessing  methods  for  hypothesizing  a </text>
+<text top="1767" left="159" width="423" height="55" font="font5" id="p1_t26" reading_order_no="25" segment_no="10" tag_type="list">better  sequence  of  words, </text>
+<text top="1816" left="122" width="791" height="56" font="font0" id="p1_t27" reading_order_no="26" segment_no="11" tag_type="list">¢  adaptation  of  the  acoustic  models  based  on </text>
+<text top="1864" left="158" width="755" height="54" font="font0" id="p1_t28" reading_order_no="27" segment_no="11" tag_type="list">limited  amounts  of  test  data  from  the  speak- </text>
+<text top="1916" left="158" width="128" height="49" font="font6" id="p1_t29" reading_order_no="28" segment_no="11" tag_type="list">ers,  and </text>
+<text top="1960" left="122" width="791" height="54" font="font0" id="p1_t30" reading_order_no="29" segment_no="12" tag_type="list">¢  methods  for  combining  the  output  of  several </text>
+<text top="2010" left="158" width="221" height="50" font="font7" id="p1_t31" reading_order_no="30" segment_no="12" tag_type="list">ASR  systems. </text>
+<text top="2103" left="83" width="830" height="56" font="font0" id="p1_t32" reading_order_no="31" segment_no="16" tag_type="text">These  improvements  have  been  incorporated  into </text>
+<text top="2152" left="83" width="693" height="54" font="font1" id="p1_t33" reading_order_no="32" segment_no="16" tag_type="text">most  commercial  and  laboratory  systems. </text>
+<text top="2239" left="83" width="337" height="65" font="font8" id="p1_t34" reading_order_no="33" segment_no="17" tag_type="title">Feature  extraction </text>
+<text top="2296" left="120" width="793" height="54" font="font0" id="p1_t35" reading_order_no="34" segment_no="18" tag_type="text">Developers  often  augment  the  feature  vector  by </text>
+<text top="2343" left="84" width="829" height="56" font="font0" id="p1_t36" reading_order_no="35" segment_no="18" tag_type="text">using  first  and  second  derivatives  to  encode  it  with </text>
+<text top="2391" left="82" width="832" height="56" font="font0" id="p1_t37" reading_order_no="36" segment_no="18" tag_type="text">temporal  trajectory  information.  If  the  extracted </text>
+<text top="2439" left="83" width="830" height="56" font="font0" id="p1_t38" reading_order_no="37" segment_no="18" tag_type="text">cepstra  are  d-dimensional,  they  can  generate  an </text>
+<text top="2487" left="83" width="830" height="56" font="font0" id="p1_t39" reading_order_no="38" segment_no="18" tag_type="text">acoustic  feature  that  has  3xd  dimensions.  A  more </text>
+<text top="2535" left="83" width="831" height="55" font="font0" id="p1_t40" reading_order_no="39" segment_no="18" tag_type="text">sophisticated  approach  uses  a  linear  discriminant </text>
+<text top="2585" left="83" width="828" height="53" font="font3" id="p1_t41" reading_order_no="40" segment_no="18" tag_type="text">transformation  to  incorporate  such  information. </text>
+<text top="2631" left="82" width="830" height="56" font="font0" id="p1_t42" reading_order_no="41" segment_no="18" tag_type="text">This  approach  concatenates  the  d-dimensional  cep- </text>
+<text top="2680" left="83" width="829" height="55" font="font1" id="p1_t43" reading_order_no="42" segment_no="18" tag_type="text">stra  from  several  adjacent  frames,  typically  nine,  to </text>
+<text top="2727" left="83" width="829" height="56" font="font0" id="p1_t44" reading_order_no="43" segment_no="18" tag_type="text">form  a  9xd-dimension  feature  vector.  It  reduces  the </text>
+<text top="2775" left="83" width="829" height="56" font="font0" id="p1_t45" reading_order_no="44" segment_no="18" tag_type="text">feature  vector’s  dimensionality  by  computing a  lin- </text>
+<text top="2823" left="83" width="830" height="56" font="font0" id="p1_t46" reading_order_no="45" segment_no="18" tag_type="text">ear  projection  that  finds  the  directions  that  maxi- </text>
+<text top="2872" left="83" width="830" height="54" font="font1" id="p1_t47" reading_order_no="46" segment_no="18" tag_type="text">mally  separate  the  phonetic  classes.  The  system </text>
+<text top="2920" left="83" width="830" height="54" font="font1" id="p1_t48" reading_order_no="47" segment_no="18" tag_type="text">then  uses  a  mixture  of  gaussians  to  model  the  prob- </text>
+<text top="2966" left="83" width="830" height="57" font="font5" id="p1_t49" reading_order_no="48" segment_no="18" tag_type="text">ability  density  function  of  each  HMM  state’s  pro- </text>
+<text top="3015" left="82" width="831" height="54" font="font0" id="p1_t50" reading_order_no="49" segment_no="18" tag_type="text">jected  feature  vectors.  Because  of  computational </text>
+<text top="996" left="1166" width="2" height="35" font="font10" id="p1_t51" reading_order_no="50" segment_no="2" tag_type="figure">| </text>
+<text top="997" left="1332" width="52" height="35" font="font10" id="p1_t52" reading_order_no="51" segment_no="2" tag_type="figure">HAVE </text>
+<text top="998" left="1516" width="17" height="35" font="font10" id="p1_t53" reading_order_no="52" segment_no="2" tag_type="figure">IT </text>
+<text top="998" left="1618" width="52" height="35" font="font10" id="p1_t54" reading_order_no="53" segment_no="2" tag_type="figure">VEAL </text>
+<text top="999" left="1765" width="43" height="35" font="font10" id="p1_t55" reading_order_no="54" segment_no="2" tag_type="figure">FINE </text>
+<text top="1291" left="969" width="830" height="56" font="font0" id="p1_t56" reading_order_no="55" segment_no="6" tag_type="text">considerations,  most  ASR  systems  assume  that </text>
+<text top="1339" left="970" width="827" height="55" font="font0" id="p1_t57" reading_order_no="56" segment_no="6" tag_type="text">these  gaussians  have  diagonal  covariance  matrices, </text>
+<text top="1386" left="969" width="829" height="56" font="font0" id="p1_t58" reading_order_no="57" segment_no="6" tag_type="text">which  in  effect  assumes  that  the  projected  feature </text>
+<text top="1435" left="969" width="630" height="54" font="font1" id="p1_t59" reading_order_no="58" segment_no="6" tag_type="text">vectors  have  independent  dimensions. </text>
+<text top="1483" left="1007" width="790" height="54" font="font0" id="p1_t60" reading_order_no="59" segment_no="7" tag_type="text">More  specifically,  we  use  the  Maximum  Likeli- </text>
+<text top="1531" left="969" width="828" height="54" font="font1" id="p1_t61" reading_order_no="60" segment_no="7" tag_type="text">hood  Discriminant  projection.*  This  method  simul- </text>
+<text top="1578" left="969" width="828" height="56" font="font0" id="p1_t62" reading_order_no="61" segment_no="7" tag_type="text">taneously  maximizes  the  log  likelihood  of  the  data </text>
+<text top="1627" left="970" width="828" height="54" font="font1" id="p1_t63" reading_order_no="62" segment_no="7" tag_type="text">in  the  projected  space  and  the  separation  between </text>
+<text top="1675" left="970" width="828" height="53" font="font1" id="p1_t64" reading_order_no="63" segment_no="7" tag_type="text">the  class  means  in  the  projected  space,  while  min- </text>
+<text top="1721" left="970" width="828" height="57" font="font5" id="p1_t65" reading_order_no="64" segment_no="7" tag_type="text">imizing  the  correlation  between  the  projected  fea- </text>
+<text top="1771" left="969" width="829" height="54" font="font1" id="p1_t66" reading_order_no="65" segment_no="7" tag_type="text">ture  vectors’  dimensions.  Using  this  projection </text>
+<text top="1820" left="969" width="829" height="51" font="font3" id="p1_t67" reading_order_no="66" segment_no="7" tag_type="text">reduces  the  baseline  system’s  word  error  rate  from </text>
+<text top="1868" left="969" width="480" height="51" font="font3" id="p1_t68" reading_order_no="67" segment_no="7" tag_type="text">40.5  percent  to  39.1  percent. </text>
+<text top="1958" left="969" width="331" height="58" font="font12" id="p1_t69" reading_order_no="68" segment_no="13" tag_type="title">Hypothesis  search </text>
+<text top="2010" left="1006" width="792" height="54" font="font1" id="p1_t70" reading_order_no="69" segment_no="14" tag_type="text">The  most  commonly  used  decoding  paradigm </text>
+<text top="2058" left="970" width="828" height="54" font="font1" id="p1_t71" reading_order_no="70" segment_no="14" tag_type="text">for  speech  recognition  is  the  maximum-a-posteri- </text>
+<text top="2107" left="970" width="828" height="53" font="font3" id="p1_t72" reading_order_no="71" segment_no="14" tag_type="text">ori  (MAP)  rule.  In  an  alternative  procedure  for </text>
+<text top="2153" left="970" width="828" height="56" font="font0" id="p1_t73" reading_order_no="72" segment_no="14" tag_type="text">scoring  the  hypothesis  search,  wy  represents  the </text>
+<text top="2203" left="970" width="827" height="53" font="font1" id="p1_t74" reading_order_no="73" segment_no="14" tag_type="text">decoded  word  sequence  and  w’  represents  the  cor- </text>
+<text top="2250" left="969" width="828" height="54" font="font0" id="p1_t75" reading_order_no="74" segment_no="14" tag_type="text">rect  word  sequence.  This  procedure  defines  a  loss </text>
+<text top="2298" left="969" width="828" height="54" font="font1" id="p1_t76" reading_order_no="75" segment_no="14" tag_type="text">function  [(w'’,  w’’)  that  quantifies  the  difference </text>
+<text top="2345" left="970" width="828" height="56" font="font0" id="p1_t77" reading_order_no="76" segment_no="14" tag_type="text">between  the  two  word  sequences,  then  further </text>
+<text top="2394" left="969" width="828" height="53" font="font1" id="p1_t78" reading_order_no="77" segment_no="14" tag_type="text">defines  the  decoding  procedure’s  objective  as  min- </text>
+<text top="2442" left="970" width="560" height="54" font="font1" id="p1_t79" reading_order_no="78" segment_no="14" tag_type="text">imizing  the  average  expected  loss. </text>
+<text top="2489" left="1006" width="544" height="54" font="font0" id="p1_t80" reading_order_no="79" segment_no="15" tag_type="text">This  procedure  can  be  written  as </text>
+<text top="2568" left="1169" width="63" height="27" font="font13" id="p1_t81" reading_order_no="80" segment_no="19" tag_type="formula">argmin </text>
+<text top="2565" left="1011" width="772" height="111" font="font14" id="p1_t82" reading_order_no="81" segment_no="19" tag_type="formula">we  =w  NX  Silws,wy"plwspl)  (6) </text>
+<text top="2729" left="969" width="828" height="56" font="font0" id="p1_t83" reading_order_no="82" segment_no="20" tag_type="text">If  Iw,  w*¥)  is  a  delta  function  that  represents  the </text>
+<text top="2777" left="969" width="828" height="56" font="font0" id="p1_t84" reading_order_no="83" segment_no="20" tag_type="text">sentence  error  rate,  then  Equation  6  reduces  to  the </text>
+<text top="2825" left="969" width="829" height="56" font="font0" id="p1_t85" reading_order_no="84" segment_no="20" tag_type="text">commonly  used  MAP  decoding  rule.  Hence,  the </text>
+<text top="2873" left="969" width="829" height="56" font="font0" id="p1_t86" reading_order_no="85" segment_no="20" tag_type="text">MAP  decoding  rule  essentially  minimizes  the  sen- </text>
+<text top="2922" left="969" width="828" height="54" font="font1" id="p1_t87" reading_order_no="86" segment_no="20" tag_type="text">tence  error  rate  in  a  hypothesis  search.  However, </text>
+<text top="2970" left="969" width="828" height="54" font="font1" id="p1_t88" reading_order_no="87" segment_no="20" tag_type="text">given  that  most  speech  recognition  applications </text>
+<text top="3018" left="969" width="828" height="53" font="font1" id="p1_t89" reading_order_no="88" segment_no="20" tag_type="text">focus  on  the  word  error  rate,  it  makes  more  sense </text>
+<text top="1275" left="1853" width="296" height="47" font="font15" id="p1_t90" reading_order_no="89" segment_no="5" tag_type="text">Figure  4.  Converting </text>
+<text top="1323" left="1853" width="264" height="47" font="font15" id="p1_t91" reading_order_no="90" segment_no="5" tag_type="text">a  word  lattice  to  a </text>
+<text top="1372" left="1854" width="270" height="46" font="font16" id="p1_t92" reading_order_no="91" segment_no="5" tag_type="text">confusion  network </text>
+<text top="1419" left="1853" width="297" height="47" font="font15" id="p1_t93" reading_order_no="92" segment_no="5" tag_type="text">by  merging  different </text>
+<text top="1468" left="1851" width="272" height="45" font="font17" id="p1_t94" reading_order_no="93" segment_no="5" tag_type="text">paths  in  the  graph. </text>
+<text top="1513" left="1857" width="188" height="47" font="font15" id="p1_t95" reading_order_no="94" segment_no="5" tag_type="text">The  resulting </text>
+<text top="1564" left="1854" width="289" height="45" font="font17" id="p1_t96" reading_order_no="95" segment_no="5" tag_type="text">chain’s  components </text>
+<text top="1611" left="1853" width="261" height="46" font="font16" id="p1_t97" reading_order_no="96" segment_no="5" tag_type="text">represent  parallel </text>
+<text top="1658" left="1856" width="240" height="46" font="font16" id="p1_t98" reading_order_no="97" segment_no="5" tag_type="text">word  sequences. </text>
+<text top="3121" left="1782" width="133" height="45" font="font17" id="p1_t99" reading_order_no="98" segment_no="21" tag_type="text">April  2002 </text>
+</page>
+</pdf2xml>

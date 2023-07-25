@@ -1,0 +1,639 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font0" size="57" family="CMUSerif" color="#000000"/>
+	<fontspec id="font1" size="57" family="CMUSerif" color="#000000"/>
+	<fontspec id="font2" size="130" family="CMUSerif" color="#000000"/>
+<text top="379" left="375" width="675" height="58" font="font0" id="p1_t1" reading_order_no="1" segment_no="1" tag_type="text">Ian Goodfellow, Senior Sta</text>
+<text top="379" left="1050" width="33" height="64" font="font1" id="p1_t2" reading_order_no="2" segment_no="1" tag_type="text">ff</text>
+<text top="379" left="1083" width="492" height="58" font="font0" id="p1_t3" reading_order_no="3" segment_no="1" tag_type="text"> Research Scientist </text>
+<text top="458" left="890" width="169" height="58" font="font0" id="p1_t4" reading_order_no="4" segment_no="2" tag_type="text">AAAI </text>
+<text top="537" left="831" width="268" height="58" font="font0" id="p1_t5" reading_order_no="5" segment_no="3" tag_type="text">2019-01-30</text>
+<text top="239" left="107" width="1706" height="132" font="font2" id="p1_t6" reading_order_no="0" segment_no="0" tag_type="title">Adversarial Machine Learning</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font3" size="16" family="CMUSerif" color="#000000"/>
+	<fontspec id="font4" size="96" family="CMMI12" color="#000000"/>
+	<fontspec id="font5" size="67" family="CMR17" color="#000000"/>
+	<fontspec id="font6" size="96" family="CMMI12" color="#000000"/>
+	<fontspec id="font7" size="67" family="CMR17" color="#000000"/>
+	<fontspec id="font8" size="96" family="CMMI12" color="#000000"/>
+	<fontspec id="font9" size="96" family="CMR17" color="#000000"/>
+	<fontspec id="font10" size="96" family="CMMI12" color="#000000"/>
+	<fontspec id="font11" size="67" family="CMR17" color="#000000"/>
+	<fontspec id="font12" size="88" family="CMUSerif" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p2_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2019)</text>
+<text top="899" left="714" width="41" height="68" font="font4" id="p2_t2" reading_order_no="1" segment_no="1" tag_type="figure">θ</text>
+<text top="943" left="751" width="29" height="67" font="font5" id="p2_t3" reading_order_no="2" segment_no="1" tag_type="figure">1</text>
+<text top="873" left="1126" width="30" height="68" font="font6" id="p2_t4" reading_order_no="3" segment_no="1" tag_type="figure">θ</text>
+<text top="869" left="1166" width="21" height="67" font="font7" id="p2_t5" reading_order_no="4" segment_no="1" tag_type="figure">2</text>
+<text top="635" left="1289" width="2" height="84" font="font8" id="p2_t6" reading_order_no="5" segment_no="1" tag_type="figure">J</text>
+<text top="568" left="1291" width="1" height="96" font="font9" id="p2_t7" reading_order_no="6" segment_no="1" tag_type="figure">(</text>
+<text top="538" left="1292" width="2" height="68" font="font10" id="p2_t8" reading_order_no="7" segment_no="1" tag_type="figure">θ</text>
+<text top="512" left="1308" width="1" height="67" font="font11" id="p2_t9" reading_order_no="8" segment_no="1" tag_type="figure">1</text>
+<text top="464" left="1295" width="1" height="84" font="font8" id="p2_t10" reading_order_no="9" segment_no="1" tag_type="figure">,</text>
+<text top="421" left="1297" width="2" height="68" font="font10" id="p2_t11" reading_order_no="10" segment_no="1" tag_type="figure">θ</text>
+<text top="395" left="1313" width="1" height="67" font="font11" id="p2_t12" reading_order_no="11" segment_no="1" tag_type="figure">2</text>
+<text top="340" left="1300" width="1" height="96" font="font9" id="p2_t13" reading_order_no="12" segment_no="1" tag_type="figure">)</text>
+<text top="70" left="456" width="1037" height="90" font="font12" id="p2_t14" reading_order_no="13" segment_no="0" tag_type="title">Most Traditional Machine </text>
+<text top="193" left="508" width="905" height="90" font="font12" id="p2_t15" reading_order_no="14" segment_no="0" tag_type="title">Learning: Optimization</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font13" size="39" family="CMR12" color="#000000"/>
+	<fontspec id="font14" size="39" family="CMMI12" color="#000000"/>
+	<fontspec id="font15" size="27" family="CMR10" color="#000000"/>
+	<fontspec id="font16" size="39" family="CMR12" color="#000000"/>
+	<fontspec id="font17" size="39" family="CMMI12" color="#000000"/>
+	<fontspec id="font18" size="27" family="CMR10" color="#000000"/>
+	<fontspec id="font19" size="39" family="CMMI12" color="#000000"/>
+	<fontspec id="font20" size="39" family="CMR12" color="#000000"/>
+	<fontspec id="font21" size="39" family="CMMI12" color="#000000"/>
+	<fontspec id="font22" size="27" family="CMR10" color="#000000"/>
+	<fontspec id="font23" size="46" family="CMR17" color="#000000"/>
+	<fontspec id="font24" size="39" family="CMR12" color="#000000"/>
+	<fontspec id="font25" size="39" family="CMMI12" color="#000000"/>
+	<fontspec id="font26" size="27" family="CMR10" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p3_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2019)</text>
+<text top="70" left="367" width="1215" height="90" font="font12" id="p3_t2" reading_order_no="1" segment_no="0" tag_type="title">Adversarial Machine Learning: </text>
+<text top="193" left="693" width="534" height="90" font="font12" id="p3_t3" reading_order_no="2" segment_no="0" tag_type="title">Game Theory</text>
+<text top="865" left="1390" width="99" height="62" font="font13" id="p3_t4" reading_order_no="3" segment_no="1" tag_type="figure">Player</text>
+<text top="902" left="1501" width="28" height="39" font="font13" id="p3_t5" reading_order_no="4" segment_no="1" tag_type="figure">1:</text>
+<text top="919" left="1545" width="17" height="28" font="font14" id="p3_t6" reading_order_no="5" segment_no="1" tag_type="figure">θ</text>
+<text top="939" left="1559" width="13" height="28" font="font15" id="p3_t7" reading_order_no="6" segment_no="1" tag_type="figure">1</text>
+<text top="919" left="1707" width="38" height="39" font="font16" id="p3_t8" reading_order_no="7" segment_no="1" tag_type="figure">Pla</text>
+<text top="880" left="1745" width="35" height="39" font="font16" id="p3_t9" reading_order_no="8" segment_no="1" tag_type="figure">yer</text>
+<text top="834" left="1788" width="20" height="39" font="font16" id="p3_t10" reading_order_no="9" segment_no="1" tag_type="figure">2:</text>
+<text top="802" left="1820" width="12" height="28" font="font17" id="p3_t11" reading_order_no="10" segment_no="1" tag_type="figure">θ</text>
+<text top="802" left="1836" width="9" height="28" font="font18" id="p3_t12" reading_order_no="11" segment_no="1" tag_type="figure">2</text>
+<text top="637" left="1874" width="1" height="34" font="font19" id="p3_t13" reading_order_no="12" segment_no="1" tag_type="figure">V</text>
+<text top="604" left="1875" width="1" height="39" font="font20" id="p3_t14" reading_order_no="13" segment_no="1" tag_type="figure">(</text>
+<text top="591" left="1876" width="1" height="28" font="font21" id="p3_t15" reading_order_no="14" segment_no="1" tag_type="figure">θ</text>
+<text top="583" left="1882" width="1" height="28" font="font22" id="p3_t16" reading_order_no="15" segment_no="1" tag_type="figure">1</text>
+<text top="560" left="1877" width="0" height="34" font="font19" id="p3_t17" reading_order_no="16" segment_no="1" tag_type="figure">,</text>
+<text top="542" left="1878" width="1" height="28" font="font21" id="p3_t18" reading_order_no="17" segment_no="1" tag_type="figure">θ</text>
+<text top="534" left="1884" width="1" height="28" font="font22" id="p3_t19" reading_order_no="18" segment_no="1" tag_type="figure">2</text>
+<text top="508" left="1879" width="1" height="39" font="font20" id="p3_t20" reading_order_no="19" segment_no="1" tag_type="figure">)</text>
+<text top="366" left="1528" width="110" height="42" font="font23" id="p3_t21" reading_order_no="20" segment_no="1" tag_type="figure">Game</text>
+<text top="910" left="242" width="147" height="39" font="font24" id="p3_t22" reading_order_no="21" segment_no="1" tag_type="figure">Player 1:</text>
+<text top="912" left="405" width="18" height="28" font="font25" id="p3_t23" reading_order_no="22" segment_no="1" tag_type="figure">θ</text>
+<text top="927" left="423" width="14" height="28" font="font26" id="p3_t24" reading_order_no="23" segment_no="1" tag_type="figure">1</text>
+<text top="677" left="57" width="0" height="34" font="font19" id="p3_t25" reading_order_no="24" segment_no="1" tag_type="figure">V</text>
+<text top="644" left="57" width="0" height="39" font="font20" id="p3_t26" reading_order_no="25" segment_no="1" tag_type="figure">(</text>
+<text top="631" left="57" width="0" height="28" font="font21" id="p3_t27" reading_order_no="26" segment_no="1" tag_type="figure">θ</text>
+<text top="622" left="63" width="0" height="28" font="font22" id="p3_t28" reading_order_no="27" segment_no="1" tag_type="figure">1</text>
+<text top="599" left="57" width="0" height="34" font="font19" id="p3_t29" reading_order_no="28" segment_no="1" tag_type="figure">,</text>
+<text top="580" left="57" width="0" height="39" font="font20" id="p3_t30" reading_order_no="29" segment_no="1" tag_type="figure">0)</text>
+<text top="323" left="199" width="279" height="42" font="font23" id="p3_t31" reading_order_no="30" segment_no="1" tag_type="figure">Player 1’s view</text>
+<text top="910" left="864" width="147" height="39" font="font24" id="p3_t32" reading_order_no="31" segment_no="1" tag_type="figure">Player 2:</text>
+<text top="912" left="1027" width="18" height="28" font="font25" id="p3_t33" reading_order_no="32" segment_no="1" tag_type="figure">θ</text>
+<text top="927" left="1045" width="14" height="28" font="font26" id="p3_t34" reading_order_no="33" segment_no="1" tag_type="figure">2</text>
+<text top="677" left="679" width="0" height="34" font="font19" id="p3_t35" reading_order_no="34" segment_no="1" tag_type="figure">V</text>
+<text top="644" left="679" width="0" height="39" font="font20" id="p3_t36" reading_order_no="35" segment_no="1" tag_type="figure">(0</text>
+<text top="613" left="679" width="0" height="34" font="font19" id="p3_t37" reading_order_no="36" segment_no="1" tag_type="figure">,</text>
+<text top="595" left="679" width="0" height="28" font="font21" id="p3_t38" reading_order_no="37" segment_no="1" tag_type="figure">θ</text>
+<text top="586" left="685" width="0" height="28" font="font22" id="p3_t39" reading_order_no="38" segment_no="1" tag_type="figure">2</text>
+<text top="561" left="679" width="0" height="39" font="font20" id="p3_t40" reading_order_no="40" segment_no="2" tag_type="not_found">)</text>
+<text top="323" left="821" width="279" height="42" font="font23" id="p3_t41" reading_order_no="39" segment_no="1" tag_type="figure">Player 2’s view</text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font27" size="50" family="CMUSerif" color="#000000"/>
+	<fontspec id="font28" size="80" family="CMUSerif" color="#000000"/>
+	<fontspec id="font29" size="50" family="CMUSerif" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p4_t1" reading_order_no="0" segment_no="11" tag_type="text">(Goodfellow 2019)</text>
+<text top="805" left="170" width="566" height="51" font="font27" id="p4_t2" reading_order_no="1" segment_no="7" tag_type="text">Model-based optimization</text>
+<text top="80" left="359" width="1229" height="81" font="font28" id="p4_t3" reading_order_no="2" segment_no="0" tag_type="title">A Cambrian Explosion of Machine </text>
+<text top="190" left="515" width="891" height="81" font="font28" id="p4_t4" reading_order_no="3" segment_no="0" tag_type="title">Learning Research Topics</text>
+<text top="463" left="793" width="334" height="51" font="font27" id="p4_t5" reading_order_no="4" segment_no="1" tag_type="text">Make ML work</text>
+<text top="865" left="773" width="68" height="51" font="font27" id="p4_t6" reading_order_no="5" segment_no="9" tag_type="text">RL</text>
+<text top="609" left="1325" width="530" height="51" font="font27" id="p4_t7" reading_order_no="6" segment_no="4" tag_type="text">Fairness, accountability </text>
+<text top="679" left="1392" width="379" height="51" font="font27" id="p4_t8" reading_order_no="7" segment_no="4" tag_type="text">and transparency</text>
+<text top="901" left="942" width="410" height="51" font="font27" id="p4_t9" reading_order_no="8" segment_no="10" tag_type="text">Extreme reliability</text>
+<text top="689" left="456" width="178" height="51" font="font27" id="p4_t10" reading_order_no="9" segment_no="5" tag_type="text">Security</text>
+<text top="562" left="152" width="451" height="51" font="font27" id="p4_t11" reading_order_no="10" segment_no="3" tag_type="text">Generative modeling</text>
+<text top="751" left="1242" width="424" height="51" font="font27" id="p4_t12" reading_order_no="11" segment_no="6" tag_type="text">Domain adaptation</text>
+<text top="840" left="1150" width="160" height="51" font="font27" id="p4_t13" reading_order_no="12" segment_no="8" tag_type="text">Label e</text>
+<text top="840" left="1310" width="42" height="56" font="font29" id="p4_t14" reading_order_no="13" segment_no="8" tag_type="text">ffi</text>
+<text top="840" left="1352" width="135" height="51" font="font27" id="p4_t15" reading_order_no="14" segment_no="8" tag_type="text">ciency</text>
+<text top="519" left="1348" width="282" height="51" font="font27" id="p4_t16" reading_order_no="15" segment_no="2" tag_type="text">Neuroscience</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font30" size="50" family="CMUSerif" color="#c82506"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p5_t1" reading_order_no="0" segment_no="11" tag_type="text">(Goodfellow 2019)</text>
+<text top="805" left="170" width="566" height="51" font="font27" id="p5_t2" reading_order_no="1" segment_no="7" tag_type="text">Model-based optimization</text>
+<text top="80" left="359" width="1229" height="81" font="font28" id="p5_t3" reading_order_no="2" segment_no="0" tag_type="title">A Cambrian Explosion of Machine </text>
+<text top="190" left="515" width="891" height="81" font="font28" id="p5_t4" reading_order_no="3" segment_no="0" tag_type="title">Learning Research Topics</text>
+<text top="463" left="793" width="334" height="51" font="font27" id="p5_t5" reading_order_no="4" segment_no="1" tag_type="text">Make ML work</text>
+<text top="865" left="773" width="68" height="51" font="font27" id="p5_t6" reading_order_no="5" segment_no="9" tag_type="text">RL</text>
+<text top="609" left="1325" width="530" height="51" font="font27" id="p5_t7" reading_order_no="6" segment_no="4" tag_type="text">Fairness, accountability </text>
+<text top="679" left="1392" width="379" height="51" font="font27" id="p5_t8" reading_order_no="7" segment_no="4" tag_type="text">and transparency</text>
+<text top="901" left="942" width="410" height="51" font="font27" id="p5_t9" reading_order_no="8" segment_no="10" tag_type="text">Extreme reliability</text>
+<text top="689" left="456" width="178" height="51" font="font27" id="p5_t10" reading_order_no="9" segment_no="5" tag_type="text">Security</text>
+<text top="562" left="152" width="451" height="51" font="font30" id="p5_t11" reading_order_no="10" segment_no="3" tag_type="text">Generative modeling</text>
+<text top="751" left="1242" width="424" height="51" font="font27" id="p5_t12" reading_order_no="11" segment_no="6" tag_type="text">Domain adaptation</text>
+<text top="840" left="1150" width="160" height="51" font="font27" id="p5_t13" reading_order_no="12" segment_no="8" tag_type="text">Label e</text>
+<text top="840" left="1310" width="42" height="56" font="font29" id="p5_t14" reading_order_no="13" segment_no="8" tag_type="text">ffi</text>
+<text top="840" left="1352" width="135" height="51" font="font27" id="p5_t15" reading_order_no="14" segment_no="8" tag_type="text">ciency</text>
+<text top="519" left="1348" width="282" height="51" font="font27" id="p5_t16" reading_order_no="15" segment_no="2" tag_type="text">Neuroscience</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p6_t1" reading_order_no="0" segment_no="5" tag_type="text">(Goodfellow 2019)</text>
+<text top="70" left="545" width="860" height="90" font="font12" id="p6_t2" reading_order_no="1" segment_no="0" tag_type="title">Generative Modeling: </text>
+<text top="193" left="591" width="737" height="90" font="font12" id="p6_t3" reading_order_no="2" segment_no="0" tag_type="title">Sample Generation</text>
+<text top="751" left="341" width="309" height="51" font="font27" id="p6_t4" reading_order_no="3" segment_no="1" tag_type="text">Training Data</text>
+<text top="751" left="1304" width="395" height="51" font="font27" id="p6_t5" reading_order_no="4" segment_no="2" tag_type="text">Sample Generator</text>
+<text top="807" left="396" width="198" height="51" font="font27" id="p6_t6" reading_order_no="5" segment_no="3" tag_type="text">(CelebA)</text>
+<text top="807" left="1286" width="431" height="51" font="font27" id="p6_t7" reading_order_no="6" segment_no="4" tag_type="text">(Karras et al, 2017)</text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font31" size="97" family="CMUSerif" color="#000000"/>
+	<fontspec id="font32" size="31" family="CMUSerif,Italic" color="#000000"/>
+	<fontspec id="font33" size="31" family="CMUSerif" color="#000000"/>
+	<fontspec id="font34" size="31" family="CMUSerif" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p7_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2019)</text>
+<text top="127" left="354" width="1212" height="99" font="font31" id="p7_t2" reading_order_no="1" segment_no="0" tag_type="title">Adversarial Nets Framework</text>
+<text top="634" left="660" width="14" height="32" font="font32" id="p7_t3" reading_order_no="2" segment_no="1" tag_type="figure"><i>x</i></text>
+<text top="634" left="674" width="206" height="32" font="font33" id="p7_t4" reading_order_no="3" segment_no="1" tag_type="figure"> sampled from </text>
+<text top="676" left="735" width="61" height="32" font="font33" id="p7_t5" reading_order_no="4" segment_no="1" tag_type="figure">data</text>
+<text top="482" left="673" width="32" height="32" font="font33" id="p7_t6" reading_order_no="5" segment_no="1" tag_type="figure">Di</text>
+<text top="482" left="706" width="18" height="35" font="font34" id="p7_t7" reading_order_no="6" segment_no="1" tag_type="figure">ff</text>
+<text top="482" left="724" width="143" height="32" font="font33" id="p7_t8" reading_order_no="7" segment_no="1" tag_type="figure">erentiable </text>
+<text top="523" left="692" width="122" height="32" font="font33" id="p7_t9" reading_order_no="8" segment_no="1" tag_type="figure">function </text>
+<text top="523" left="814" width="24" height="32" font="font32" id="p7_t10" reading_order_no="9" segment_no="1" tag_type="figure"><i>D</i></text>
+<text top="318" left="658" width="24" height="32" font="font32" id="p7_t11" reading_order_no="10" segment_no="1" tag_type="figure"><i>D</i></text>
+<text top="318" left="681" width="201" height="32" font="font33" id="p7_t12" reading_order_no="11" segment_no="1" tag_type="figure">(x) tries to be </text>
+<text top="359" left="722" width="85" height="32" font="font33" id="p7_t13" reading_order_no="12" segment_no="1" tag_type="figure">near 1</text>
+<text top="983" left="1069" width="164" height="32" font="font33" id="p7_t14" reading_order_no="13" segment_no="1" tag_type="figure">Input noise </text>
+<text top="983" left="1233" width="13" height="32" font="font32" id="p7_t15" reading_order_no="14" segment_no="1" tag_type="figure"><i>z</i></text>
+<text top="810" left="1065" width="32" height="32" font="font33" id="p7_t16" reading_order_no="15" segment_no="1" tag_type="figure">Di</text>
+<text top="810" left="1098" width="18" height="35" font="font34" id="p7_t17" reading_order_no="16" segment_no="1" tag_type="figure">ff</text>
+<text top="810" left="1116" width="143" height="32" font="font33" id="p7_t18" reading_order_no="17" segment_no="1" tag_type="figure">erentiable </text>
+<text top="851" left="1084" width="122" height="32" font="font33" id="p7_t19" reading_order_no="18" segment_no="1" tag_type="figure">function </text>
+<text top="851" left="1206" width="24" height="32" font="font32" id="p7_t20" reading_order_no="19" segment_no="1" tag_type="figure"><i>G</i></text>
+<text top="634" left="1052" width="14" height="32" font="font32" id="p7_t21" reading_order_no="20" segment_no="1" tag_type="figure"><i>x</i></text>
+<text top="634" left="1067" width="206" height="32" font="font33" id="p7_t22" reading_order_no="21" segment_no="1" tag_type="figure"> sampled from </text>
+<text top="676" left="1116" width="82" height="32" font="font33" id="p7_t23" reading_order_no="22" segment_no="1" tag_type="figure">model</text>
+<text top="503" left="1145" width="24" height="32" font="font32" id="p7_t24" reading_order_no="23" segment_no="1" tag_type="figure"><i>D</i></text>
+<text top="243" left="1051" width="24" height="32" font="font32" id="p7_t25" reading_order_no="24" segment_no="1" tag_type="figure"><i>D</i></text>
+<text top="243" left="1074" width="200" height="32" font="font33" id="p7_t26" reading_order_no="25" segment_no="1" tag_type="figure"> tries to make </text>
+<text top="284" left="1049" width="111" height="32" font="font32" id="p7_t27" reading_order_no="26" segment_no="1" tag_type="figure"><i>D(G(z))</i></text>
+<text top="284" left="1161" width="104" height="32" font="font33" id="p7_t28" reading_order_no="27" segment_no="1" tag_type="figure"> near 0,</text>
+<text top="325" left="1050" width="35" height="32" font="font32" id="p7_t29" reading_order_no="28" segment_no="1" tag_type="figure"><i>G </i></text>
+<text top="325" left="1085" width="189" height="32" font="font33" id="p7_t30" reading_order_no="29" segment_no="1" tag_type="figure">tries to make </text>
+<text top="367" left="1054" width="111" height="32" font="font32" id="p7_t31" reading_order_no="30" segment_no="1" tag_type="figure"><i>D(G(z))</i></text>
+<text top="367" left="1165" width="95" height="32" font="font33" id="p7_t32" reading_order_no="31" segment_no="1" tag_type="figure"> near 1</text>
+<text top="1003" left="380" width="542" height="51" font="font27" id="p7_t33" reading_order_no="32" segment_no="2" tag_type="text">(Goodfellow et al., 2014)</text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font35" size="95" family="CMUSerif" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p8_t1" reading_order_no="0" segment_no="6" tag_type="text">(Goodfellow 2019)</text>
+<text top="128" left="356" width="1208" height="97" font="font35" id="p8_t2" reading_order_no="1" segment_no="0" tag_type="title">4.5 years of progress on faces</text>
+<text top="716" left="98" width="100" height="51" font="font27" id="p8_t3" reading_order_no="2" segment_no="1" tag_type="text">2014</text>
+<text top="804" left="1153" width="100" height="51" font="font27" id="p8_t4" reading_order_no="3" segment_no="4" tag_type="text">2017</text>
+<text top="951" left="1623" width="100" height="51" font="font27" id="p8_t5" reading_order_no="4" segment_no="5" tag_type="text">2018</text>
+<text top="730" left="420" width="100" height="51" font="font27" id="p8_t6" reading_order_no="5" segment_no="2" tag_type="text">2015</text>
+<text top="750" left="751" width="100" height="51" font="font27" id="p8_t7" reading_order_no="6" segment_no="3" tag_type="text">2016</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font36" size="106" family="CMUSerif" color="#000000"/>
+<text top="1043" left="1539" width="128" height="16" font="font3" id="p9_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2018)</text>
+<text top="22" left="197" width="1525" height="108" font="font36" id="p9_t2" reading_order_no="1" segment_no="0" tag_type="title">2 Years of Progress on ImageNet</text>
+<text top="984" left="698" width="297" height="51" font="font27" id="p9_t3" reading_order_no="2" segment_no="1" tag_type="text">(Odena 2018)</text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font37" size="105" family="CMUSerif" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p10_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2019)</text>
+<text top="108" left="-4" width="1931" height="107" font="font37" id="p10_t2" reading_order_no="1" segment_no="0" tag_type="title">Unsupervised Image-to-Image Translation</text>
+<text top="1008" left="775" width="370" height="51" font="font27" id="p10_t3" reading_order_no="2" segment_no="2" tag_type="text">(Liu et al., 2017)</text>
+<text top="303" left="807" width="278" height="51" font="font27" id="p10_t4" reading_order_no="3" segment_no="1" tag_type="text">Day to night</text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font38" size="112" family="CMUSerif" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p11_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2019)</text>
+<text top="121" left="697" width="526" height="114" font="font38" id="p11_t2" reading_order_no="1" segment_no="0" tag_type="title">CycleGAN</text>
+<text top="1005" left="769" width="382" height="51" font="font27" id="p11_t3" reading_order_no="2" segment_no="1" tag_type="text">(Zhu et al., 2017)</text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p12_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2018)</text>
+<text top="121" left="590" width="740" height="114" font="font38" id="p12_t2" reading_order_no="1" segment_no="0" tag_type="title">Video-to-Video</text>
+<text top="1005" left="756" width="408" height="51" font="font27" id="p12_t3" reading_order_no="2" segment_no="1" tag_type="text">(Wang et al, 2018)</text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p13_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2018)</text>
+<text top="121" left="397" width="1126" height="114" font="font38" id="p13_t2" reading_order_no="1" segment_no="0" tag_type="title">Everybody Dance Now</text>
+<text top="961" left="767" width="386" height="51" font="font27" id="p13_t3" reading_order_no="2" segment_no="1" tag_type="text">(Chan et al 2018)</text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font39" size="96" family="CMUSerif" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p14_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2019)</text>
+<text top="127" left="357" width="1206" height="98" font="font39" id="p14_t2" reading_order_no="1" segment_no="0" tag_type="title">Personalized GANufacturing</text>
+<text top="998" left="810" width="419" height="51" font="font27" id="p14_t3" reading_order_no="2" segment_no="1" tag_type="text">(Hwang et al 2018)</text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p15_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2019)</text>
+<text top="121" left="618" width="684" height="114" font="font38" id="p15_t2" reading_order_no="1" segment_no="0" tag_type="title">Self-Attention</text>
+<text top="904" left="62" width="355" height="51" font="font27" id="p15_t3" reading_order_no="2" segment_no="2" tag_type="text">Use layers from </text>
+<text top="974" left="53" width="355" height="51" font="font27" id="p15_t4" reading_order_no="3" segment_no="2" tag_type="text">Wang et al 2018</text>
+<text top="643" left="151" width="433" height="51" font="font27" id="p15_t5" reading_order_no="4" segment_no="1" tag_type="text">(Zhang et al., 2018)</text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p16_t1" reading_order_no="0" segment_no="9" tag_type="text">(Goodfellow 2019)</text>
+<text top="121" left="544" width="832" height="114" font="font38" id="p16_t2" reading_order_no="1" segment_no="0" tag_type="title">Recent Advances</text>
+<text top="819" left="120" width="412" height="51" font="font27" id="p16_t3" reading_order_no="2" segment_no="4" tag_type="text">(Brock et al, 2018)</text>
+<text top="891" left="232" width="205" height="51" font="font27" id="p16_t4" reading_order_no="3" segment_no="6" tag_type="text">BigGAN </text>
+<text top="961" left="143" width="384" height="51" font="font27" id="p16_t5" reading_order_no="4" segment_no="8" tag_type="text">Large scale TPU </text>
+<text top="1031" left="156" width="340" height="51" font="font27" id="p16_t6" reading_order_no="5" segment_no="8" tag_type="text">implementation</text>
+<text top="696" left="699" width="361" height="51" font="font27" id="p16_t7" reading_order_no="6" segment_no="1" tag_type="text">Starting sample </text>
+<text top="766" left="802" width="139" height="51" font="font27" id="p16_t8" reading_order_no="7" segment_no="1" tag_type="text">(Fake)</text>
+<text top="696" left="1088" width="402" height="51" font="font27" id="p16_t9" reading_order_no="8" segment_no="2" tag_type="text">Sample for coarse </text>
+<text top="766" left="1109" width="343" height="51" font="font27" id="p16_t10" reading_order_no="9" segment_no="2" tag_type="text">style (also fake)</text>
+<text top="696" left="1632" width="156" height="51" font="font27" id="p16_t11" reading_order_no="10" segment_no="3" tag_type="text">Result </text>
+<text top="766" left="1590" width="224" height="51" font="font27" id="p16_t12" reading_order_no="11" segment_no="3" tag_type="text">(still fake)</text>
+<text top="850" left="1036" width="506" height="51" font="font27" id="p16_t13" reading_order_no="12" segment_no="5" tag_type="text">Style-based generators </text>
+<text top="920" left="1065" width="431" height="51" font="font27" id="p16_t14" reading_order_no="13" segment_no="7" tag_type="text">(Karras et al, 2018)</text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p17_t1" reading_order_no="0" segment_no="11" tag_type="text">(Goodfellow 2019)</text>
+<text top="805" left="170" width="566" height="51" font="font27" id="p17_t2" reading_order_no="1" segment_no="7" tag_type="text">Model-based optimization</text>
+<text top="80" left="359" width="1229" height="81" font="font28" id="p17_t3" reading_order_no="2" segment_no="0" tag_type="title">A Cambrian Explosion of Machine </text>
+<text top="190" left="515" width="891" height="81" font="font28" id="p17_t4" reading_order_no="3" segment_no="0" tag_type="title">Learning Research Topics</text>
+<text top="463" left="793" width="334" height="51" font="font27" id="p17_t5" reading_order_no="4" segment_no="1" tag_type="text">Make ML work</text>
+<text top="865" left="773" width="68" height="51" font="font27" id="p17_t6" reading_order_no="5" segment_no="9" tag_type="text">RL</text>
+<text top="609" left="1325" width="530" height="51" font="font27" id="p17_t7" reading_order_no="6" segment_no="4" tag_type="text">Fairness, accountability </text>
+<text top="679" left="1392" width="379" height="51" font="font27" id="p17_t8" reading_order_no="7" segment_no="4" tag_type="text">and transparency</text>
+<text top="901" left="942" width="410" height="51" font="font27" id="p17_t9" reading_order_no="8" segment_no="10" tag_type="text">Extreme reliability</text>
+<text top="689" left="456" width="178" height="51" font="font30" id="p17_t10" reading_order_no="9" segment_no="5" tag_type="text">Security</text>
+<text top="562" left="152" width="451" height="51" font="font27" id="p17_t11" reading_order_no="10" segment_no="3" tag_type="text">Generative modeling</text>
+<text top="751" left="1242" width="424" height="51" font="font27" id="p17_t12" reading_order_no="11" segment_no="6" tag_type="text">Domain adaptation</text>
+<text top="840" left="1150" width="160" height="51" font="font27" id="p17_t13" reading_order_no="12" segment_no="8" tag_type="text">Label e</text>
+<text top="840" left="1310" width="42" height="56" font="font29" id="p17_t14" reading_order_no="13" segment_no="8" tag_type="text">ffi</text>
+<text top="840" left="1352" width="135" height="51" font="font27" id="p17_t15" reading_order_no="14" segment_no="8" tag_type="text">ciency</text>
+<text top="519" left="1348" width="282" height="51" font="font27" id="p17_t16" reading_order_no="15" segment_no="2" tag_type="text">Neuroscience</text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p18_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2019)</text>
+<text top="121" left="428" width="1063" height="114" font="font38" id="p18_t2" reading_order_no="1" segment_no="0" tag_type="title">Adversarial Examples</text>
+<text top="763" left="121" width="242" height="51" font="font27" id="p18_t3" reading_order_no="2" segment_no="1" tag_type="text">58% panda</text>
+<text top="763" left="1517" width="257" height="51" font="font27" id="p18_t4" reading_order_no="3" segment_no="2" tag_type="text">99% gibbon</text>
+</page>
+<page number="19" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font40" size="103" family="CMUSerif" color="#000000"/>
+	<fontspec id="font41" size="36" family="CMUSerif" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p19_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2019)</text>
+<text top="125" left="355" width="1210" height="105" font="font40" id="p19_t2" reading_order_no="1" segment_no="0" tag_type="title">Also Adversarial Examples</text>
+<text top="852" left="343" width="328" height="37" font="font41" id="p19_t3" reading_order_no="2" segment_no="1" tag_type="text">(Eykholt et al, 2017)</text>
+<text top="862" left="1209" width="288" height="37" font="font41" id="p19_t4" reading_order_no="3" segment_no="2" tag_type="text">(Goodfellow 2018)</text>
+</page>
+<page number="20" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p20_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2019)</text>
+<text top="70" left="412" width="1125" height="90" font="font12" id="p20_t2" reading_order_no="1" segment_no="0" tag_type="title">Adversarial Examples in the </text>
+<text top="193" left="667" width="586" height="90" font="font12" id="p20_t3" reading_order_no="2" segment_no="0" tag_type="title">Physical World</text>
+<text top="1001" left="729" width="462" height="51" font="font27" id="p20_t4" reading_order_no="3" segment_no="1" tag_type="text">(Kurakin et al, 2016)</text>
+</page>
+<page number="21" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p21_t1" reading_order_no="1" segment_no="5" tag_type="text">(Goodfellow 2019)</text>
+<text top="70" left="472" width="1006" height="90" font="font12" id="p21_t2" reading_order_no="2" segment_no="0" tag_type="title">Adversarial Training as a </text>
+<text top="193" left="611" width="699" height="90" font="font12" id="p21_t3" reading_order_no="3" segment_no="0" tag_type="title">Minimax Problem</text>
+<text top="850" left="440" width="1056" height="51" font="font27" id="p21_t4" reading_order_no="4" segment_no="3" tag_type="text">Original implementation: Goodfellow et al 2014 </text>
+<text top="920" left="355" width="1209" height="51" font="font27" id="p21_t5" reading_order_no="5" segment_no="4" tag_type="text">Explicit use of “minimax”: Farley and Goodfellow, 2016</text>
+<text top="356" left="338" width="17" height="51" font="font27" id="p21_t6" reading_order_no="6" segment_no="1" tag_type="text">“</text>
+<text top="654" left="1795" width="17" height="51" font="font27" id="p21_t7" reading_order_no="0" segment_no="2" tag_type="text">”</text>
+</page>
+<page number="22" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font42" size="100" family="CMUSerif" color="#000000"/>
+	<fontspec id="font43" size="37" family="CMR8" color="#000000"/>
+	<fontspec id="font44" size="28" family="CMSY6" color="#000000"/>
+	<fontspec id="font45" size="28" family="CMR6" color="#000000"/>
+	<fontspec id="font46" size="37" family="CMR8" color="#000000"/>
+	<fontspec id="font47" size="44" family="CMR9" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p22_t1" reading_order_no="2" segment_no="3" tag_type="text">(Goodfellow 2019)</text>
+<text top="78" left="217" width="1486" height="101" font="font42" id="p22_t2" reading_order_no="4" segment_no="0" tag_type="title">Training on Adversarial Examples</text>
+<text top="813" left="437" width="20" height="37" font="font43" id="p22_t3" reading_order_no="6" segment_no="1" tag_type="figure">0</text>
+<text top="813" left="620" width="39" height="37" font="font43" id="p22_t4" reading_order_no="0" segment_no="1" tag_type="figure">50</text>
+<text top="813" left="803" width="59" height="37" font="font43" id="p22_t5" reading_order_no="7" segment_no="1" tag_type="figure">100</text>
+<text top="813" left="995" width="59" height="37" font="font43" id="p22_t6" reading_order_no="8" segment_no="1" tag_type="figure">150</text>
+<text top="813" left="1188" width="59" height="37" font="font43" id="p22_t7" reading_order_no="1" segment_no="1" tag_type="figure">200</text>
+<text top="813" left="1380" width="59" height="37" font="font43" id="p22_t8" reading_order_no="3" segment_no="1" tag_type="figure">250</text>
+<text top="813" left="1573" width="59" height="37" font="font43" id="p22_t9" reading_order_no="5" segment_no="1" tag_type="figure">300</text>
+<text top="871" left="829" width="391" height="37" font="font43" id="p22_t10" reading_order_no="9" segment_no="1" tag_type="figure">Training time (epochs)</text>
+<text top="686" left="346" width="39" height="37" font="font43" id="p22_t11" reading_order_no="10" segment_no="1" tag_type="figure">10</text>
+<text top="693" left="385" width="27" height="17" font="font44" id="p22_t12" reading_order_no="11" segment_no="1" tag_type="figure">−</text>
+<text top="682" left="412" width="17" height="19" font="font45" id="p22_t13" reading_order_no="12" segment_no="1" tag_type="figure">2</text>
+<text top="454" left="346" width="39" height="37" font="font43" id="p22_t14" reading_order_no="13" segment_no="1" tag_type="figure">10</text>
+<text top="461" left="385" width="27" height="17" font="font44" id="p22_t15" reading_order_no="14" segment_no="1" tag_type="figure">−</text>
+<text top="450" left="412" width="17" height="19" font="font45" id="p22_t16" reading_order_no="15" segment_no="1" tag_type="figure">1</text>
+<text top="222" left="373" width="39" height="37" font="font43" id="p22_t17" reading_order_no="16" segment_no="1" tag_type="figure">10</text>
+<text top="218" left="412" width="17" height="19" font="font45" id="p22_t18" reading_order_no="17" segment_no="1" tag_type="figure">0</text>
+<text top="711" left="316" width="0" height="37" font="font46" id="p22_t19" reading_order_no="18" segment_no="1" tag_type="figure">T</text>
+<text top="686" left="316" width="0" height="37" font="font46" id="p22_t20" reading_order_no="19" segment_no="1" tag_type="figure">est</text>
+<text top="625" left="316" width="0" height="37" font="font46" id="p22_t21" reading_order_no="20" segment_no="1" tag_type="figure">misclassification</text>
+<text top="338" left="316" width="0" height="37" font="font46" id="p22_t22" reading_order_no="21" segment_no="1" tag_type="figure">rate</text>
+<text top="280" left="1045" width="517" height="40" font="font47" id="p22_t23" reading_order_no="22" segment_no="1" tag_type="figure">Train=Clean, Test=Clean</text>
+<text top="342" left="1045" width="486" height="40" font="font47" id="p22_t24" reading_order_no="23" segment_no="1" tag_type="figure">Train=Clean, Test=Adv</text>
+<text top="403" left="1045" width="486" height="40" font="font47" id="p22_t25" reading_order_no="24" segment_no="1" tag_type="figure">Train=Adv, Test=Clean</text>
+<text top="465" left="1045" width="456" height="40" font="font47" id="p22_t26" reading_order_no="25" segment_no="1" tag_type="figure">Train=Adv, Test=Adv</text>
+<text top="979" left="366" width="1343" height="51" font="font27" id="p22_t27" reading_order_no="26" segment_no="2" tag_type="text">(CleverHans tutorial, using method of Goodfellow et al 2014)</text>
+</page>
+<page number="23" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p23_t1" reading_order_no="0" segment_no="11" tag_type="text">(Goodfellow 2019)</text>
+<text top="805" left="170" width="566" height="51" font="font30" id="p23_t2" reading_order_no="1" segment_no="7" tag_type="text">Model-based optimization</text>
+<text top="80" left="359" width="1229" height="81" font="font28" id="p23_t3" reading_order_no="2" segment_no="0" tag_type="title">A Cambrian Explosion of Machine </text>
+<text top="190" left="515" width="891" height="81" font="font28" id="p23_t4" reading_order_no="3" segment_no="0" tag_type="title">Learning Research Topics</text>
+<text top="463" left="793" width="334" height="51" font="font27" id="p23_t5" reading_order_no="4" segment_no="1" tag_type="text">Make ML work</text>
+<text top="865" left="773" width="68" height="51" font="font27" id="p23_t6" reading_order_no="5" segment_no="9" tag_type="text">RL</text>
+<text top="609" left="1325" width="530" height="51" font="font27" id="p23_t7" reading_order_no="6" segment_no="4" tag_type="text">Fairness, accountability </text>
+<text top="679" left="1392" width="379" height="51" font="font27" id="p23_t8" reading_order_no="7" segment_no="4" tag_type="text">and transparency</text>
+<text top="901" left="942" width="410" height="51" font="font27" id="p23_t9" reading_order_no="8" segment_no="10" tag_type="text">Extreme reliability</text>
+<text top="689" left="456" width="178" height="51" font="font27" id="p23_t10" reading_order_no="9" segment_no="5" tag_type="text">Security</text>
+<text top="562" left="152" width="451" height="51" font="font27" id="p23_t11" reading_order_no="10" segment_no="3" tag_type="text">Generative modeling</text>
+<text top="751" left="1242" width="424" height="51" font="font27" id="p23_t12" reading_order_no="11" segment_no="6" tag_type="text">Domain adaptation</text>
+<text top="840" left="1150" width="160" height="51" font="font27" id="p23_t13" reading_order_no="12" segment_no="8" tag_type="text">Label e</text>
+<text top="840" left="1310" width="42" height="56" font="font29" id="p23_t14" reading_order_no="13" segment_no="8" tag_type="text">ffi</text>
+<text top="840" left="1352" width="135" height="51" font="font27" id="p23_t15" reading_order_no="14" segment_no="8" tag_type="text">ciency</text>
+<text top="519" left="1348" width="282" height="51" font="font27" id="p23_t16" reading_order_no="15" segment_no="2" tag_type="text">Neuroscience</text>
+</page>
+<page number="24" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font48" size="25" family="CMUSerif" color="#4a86e8"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p24_t1" reading_order_no="0" segment_no="4" tag_type="text">(Goodfellow 2019)</text>
+<text top="125" left="354" width="1212" height="105" font="font40" id="p24_t2" reading_order_no="1" segment_no="0" tag_type="title">Model-Based Optimization</text>
+<text top="441" left="836" width="149" height="25" font="font48" id="p24_t3" reading_order_no="2" segment_no="2" tag_type="text">Training data</text>
+<text top="441" left="1170" width="152" height="25" font="font48" id="p24_t4" reading_order_no="3" segment_no="3" tag_type="text">Extrapolation</text>
+<text top="298" left="310" width="422" height="25" font="font48" id="p24_t5" reading_order_no="4" segment_no="1" tag_type="text">Make new inventions by finding input </text>
+<text top="332" left="310" width="376" height="25" font="font48" id="p24_t6" reading_order_no="5" segment_no="1" tag_type="text">that maximizes model’s predicted </text>
+<text top="366" left="310" width="135" height="25" font="font48" id="p24_t7" reading_order_no="6" segment_no="1" tag_type="text">performance</text>
+</page>
+<page number="25" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p25_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2019)</text>
+<text top="70" left="423" width="1103" height="90" font="font12" id="p25_t2" reading_order_no="1" segment_no="0" tag_type="title">Designing DNA to optimize </text>
+<text top="193" left="649" width="621" height="90" font="font12" id="p25_t3" reading_order_no="2" segment_no="0" tag_type="title">protein function</text>
+<text top="1006" left="252" width="461" height="51" font="font27" id="p25_t4" reading_order_no="3" segment_no="1" tag_type="text">(Killoran et al, 2017)</text>
+<text top="1006" left="1148" width="506" height="51" font="font27" id="p25_t5" reading_order_no="4" segment_no="2" tag_type="text">(Gupta and Zou, 2018)</text>
+</page>
+<page number="26" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p26_t1" reading_order_no="0" segment_no="11" tag_type="text">(Goodfellow 2019)</text>
+<text top="805" left="170" width="566" height="51" font="font27" id="p26_t2" reading_order_no="1" segment_no="7" tag_type="text">Model-based optimization</text>
+<text top="80" left="359" width="1229" height="81" font="font28" id="p26_t3" reading_order_no="2" segment_no="0" tag_type="title">A Cambrian Explosion of Machine </text>
+<text top="190" left="515" width="891" height="81" font="font28" id="p26_t4" reading_order_no="3" segment_no="0" tag_type="title">Learning Research Topics</text>
+<text top="463" left="793" width="334" height="51" font="font27" id="p26_t5" reading_order_no="4" segment_no="1" tag_type="text">Make ML work</text>
+<text top="865" left="773" width="68" height="51" font="font30" id="p26_t6" reading_order_no="5" segment_no="9" tag_type="text">RL</text>
+<text top="609" left="1325" width="530" height="51" font="font27" id="p26_t7" reading_order_no="6" segment_no="4" tag_type="text">Fairness, accountability </text>
+<text top="679" left="1392" width="379" height="51" font="font27" id="p26_t8" reading_order_no="7" segment_no="4" tag_type="text">and transparency</text>
+<text top="901" left="942" width="410" height="51" font="font27" id="p26_t9" reading_order_no="8" segment_no="10" tag_type="text">Extreme reliability</text>
+<text top="689" left="456" width="178" height="51" font="font27" id="p26_t10" reading_order_no="9" segment_no="5" tag_type="text">Security</text>
+<text top="562" left="152" width="451" height="51" font="font27" id="p26_t11" reading_order_no="10" segment_no="3" tag_type="text">Generative modeling</text>
+<text top="751" left="1242" width="424" height="51" font="font27" id="p26_t12" reading_order_no="11" segment_no="6" tag_type="text">Domain adaptation</text>
+<text top="840" left="1150" width="160" height="51" font="font27" id="p26_t13" reading_order_no="12" segment_no="8" tag_type="text">Label e</text>
+<text top="840" left="1310" width="42" height="56" font="font29" id="p26_t14" reading_order_no="13" segment_no="8" tag_type="text">ffi</text>
+<text top="840" left="1352" width="135" height="51" font="font27" id="p26_t15" reading_order_no="14" segment_no="8" tag_type="text">ciency</text>
+<text top="519" left="1348" width="282" height="51" font="font27" id="p26_t16" reading_order_no="15" segment_no="2" tag_type="text">Neuroscience</text>
+</page>
+<page number="27" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p27_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2019)</text>
+<text top="128" left="355" width="1211" height="97" font="font35" id="p27_t2" reading_order_no="1" segment_no="0" tag_type="title">Adversarial Examples for RL</text>
+<text top="951" left="740" width="440" height="51" font="font27" id="p27_t3" reading_order_no="2" segment_no="1" tag_type="text">(Huang et al., 2017)</text>
+</page>
+<page number="28" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p28_t1" reading_order_no="0" segment_no="5" tag_type="text">(Goodfellow 2019)</text>
+<text top="121" left="743" width="433" height="114" font="font38" id="p28_t2" reading_order_no="1" segment_no="0" tag_type="title">Self-Play</text>
+<text top="275" left="99" width="817" height="51" font="font27" id="p28_t3" reading_order_no="2" segment_no="1" tag_type="text">1959: Arthur Samuel’s checkers agent</text>
+<text top="991" left="333" width="405" height="51" font="font27" id="p28_t4" reading_order_no="3" segment_no="3" tag_type="text">(Silver et al, 2017)</text>
+<text top="991" left="1084" width="430" height="51" font="font27" id="p28_t5" reading_order_no="4" segment_no="4" tag_type="text">(Bansal et al, 2017)</text>
+<text top="580" left="1260" width="343" height="51" font="font27" id="p28_t6" reading_order_no="5" segment_no="2" tag_type="text">(OpenAI, 2017)</text>
+</page>
+<page number="29" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p29_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2019)</text>
+<text top="121" left="752" width="415" height="114" font="font38" id="p29_t2" reading_order_no="1" segment_no="0" tag_type="title">SPIRAL</text>
+<text top="1011" left="752" width="417" height="51" font="font27" id="p29_t3" reading_order_no="3" segment_no="2" tag_type="text">(Ganin et al, 2018)</text>
+<text top="226" left="157" width="1606" height="51" font="font27" id="p29_t4" reading_order_no="2" segment_no="1" tag_type="title">Synthesizing Programs for Images Using Reinforced Adversarial Learning</text>
+</page>
+<page number="30" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p30_t1" reading_order_no="0" segment_no="11" tag_type="text">(Goodfellow 2019)</text>
+<text top="805" left="170" width="566" height="51" font="font27" id="p30_t2" reading_order_no="1" segment_no="7" tag_type="text">Model-based optimization</text>
+<text top="80" left="359" width="1229" height="81" font="font28" id="p30_t3" reading_order_no="2" segment_no="0" tag_type="title">A Cambrian Explosion of Machine </text>
+<text top="190" left="515" width="891" height="81" font="font28" id="p30_t4" reading_order_no="3" segment_no="0" tag_type="title">Learning Research Topics</text>
+<text top="463" left="793" width="334" height="51" font="font27" id="p30_t5" reading_order_no="4" segment_no="1" tag_type="text">Make ML work</text>
+<text top="865" left="773" width="68" height="51" font="font27" id="p30_t6" reading_order_no="5" segment_no="9" tag_type="text">RL</text>
+<text top="609" left="1325" width="530" height="51" font="font27" id="p30_t7" reading_order_no="6" segment_no="4" tag_type="text">Fairness, accountability </text>
+<text top="679" left="1392" width="379" height="51" font="font27" id="p30_t8" reading_order_no="7" segment_no="4" tag_type="text">and transparency</text>
+<text top="901" left="942" width="410" height="51" font="font30" id="p30_t9" reading_order_no="8" segment_no="10" tag_type="text">Extreme reliability</text>
+<text top="689" left="456" width="178" height="51" font="font27" id="p30_t10" reading_order_no="9" segment_no="5" tag_type="text">Security</text>
+<text top="562" left="152" width="451" height="51" font="font27" id="p30_t11" reading_order_no="10" segment_no="3" tag_type="text">Generative modeling</text>
+<text top="751" left="1242" width="424" height="51" font="font27" id="p30_t12" reading_order_no="11" segment_no="6" tag_type="text">Domain adaptation</text>
+<text top="840" left="1150" width="160" height="51" font="font27" id="p30_t13" reading_order_no="12" segment_no="8" tag_type="text">Label e</text>
+<text top="840" left="1310" width="42" height="56" font="font29" id="p30_t14" reading_order_no="13" segment_no="8" tag_type="text">ffi</text>
+<text top="840" left="1352" width="135" height="51" font="font27" id="p30_t15" reading_order_no="14" segment_no="8" tag_type="text">ciency</text>
+<text top="519" left="1348" width="282" height="51" font="font27" id="p30_t16" reading_order_no="15" segment_no="2" tag_type="text">Neuroscience</text>
+</page>
+<page number="31" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font49" size="30" family="CMUSerif" color="#000000"/>
+	<fontspec id="font50" size="40" family="CMUSerif" color="#000000"/>
+	<fontspec id="font51" size="40" family="CMUSerif" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p31_t1" reading_order_no="0" segment_no="8" tag_type="text">(Goodfellow 2019)</text>
+<text top="121" left="481" width="957" height="114" font="font38" id="p31_t2" reading_order_no="1" segment_no="0" tag_type="title">Extreme Reliability</text>
+<text top="319" left="351" width="15" height="30" font="font49" id="p31_t3" reading_order_no="2" segment_no="1" tag_type="list">•</text>
+<text top="315" left="389" width="553" height="40" font="font50" id="p31_t4" reading_order_no="3" segment_no="1" tag_type="list">We want extreme reliability for </text>
+<text top="420" left="386" width="15" height="30" font="font49" id="p31_t5" reading_order_no="4" segment_no="2" tag_type="list">•</text>
+<text top="417" left="424" width="376" height="40" font="font50" id="p31_t6" reading_order_no="5" segment_no="2" tag_type="list">Autonomous vehicles </text>
+<text top="522" left="386" width="15" height="30" font="font49" id="p31_t7" reading_order_no="6" segment_no="3" tag_type="list">•</text>
+<text top="518" left="424" width="120" height="40" font="font50" id="p31_t8" reading_order_no="7" segment_no="3" tag_type="list">Air tra</text>
+<text top="518" left="544" width="33" height="44" font="font51" id="p31_t9" reading_order_no="8" segment_no="3" tag_type="list">ffi</text>
+<text top="518" left="577" width="163" height="40" font="font50" id="p31_t10" reading_order_no="9" segment_no="3" tag_type="list">c control </text>
+<text top="624" left="386" width="15" height="30" font="font49" id="p31_t11" reading_order_no="10" segment_no="4" tag_type="list">•</text>
+<text top="620" left="424" width="268" height="40" font="font50" id="p31_t12" reading_order_no="11" segment_no="4" tag_type="list">Surgery robots </text>
+<text top="725" left="386" width="15" height="30" font="font49" id="p31_t13" reading_order_no="12" segment_no="5" tag_type="list">•</text>
+<text top="722" left="424" width="403" height="40" font="font50" id="p31_t14" reading_order_no="13" segment_no="5" tag_type="list">Medical diagnosis, etc. </text>
+<text top="827" left="351" width="15" height="30" font="font49" id="p31_t15" reading_order_no="14" segment_no="6" tag_type="list">•</text>
+<text top="823" left="389" width="1185" height="40" font="font50" id="p31_t16" reading_order_no="15" segment_no="6" tag_type="list">Adversarial machine learning research techniques can help with this </text>
+<text top="929" left="386" width="15" height="30" font="font49" id="p31_t17" reading_order_no="16" segment_no="7" tag_type="list">•</text>
+<text top="925" left="424" width="931" height="40" font="font50" id="p31_t18" reading_order_no="17" segment_no="7" tag_type="list">Katz et al 2017: verification system, applied to air tra</text>
+<text top="925" left="1355" width="33" height="44" font="font51" id="p31_t19" reading_order_no="18" segment_no="7" tag_type="list">ffi</text>
+<text top="925" left="1388" width="150" height="40" font="font50" id="p31_t20" reading_order_no="19" segment_no="7" tag_type="list">c control</text>
+</page>
+<page number="32" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font52" size="50" family="CMUSerif" color="#c82506"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p32_t1" reading_order_no="0" segment_no="11" tag_type="text">(Goodfellow 2019)</text>
+<text top="805" left="170" width="566" height="51" font="font27" id="p32_t2" reading_order_no="1" segment_no="7" tag_type="text">Model-based optimization</text>
+<text top="80" left="359" width="1229" height="81" font="font28" id="p32_t3" reading_order_no="2" segment_no="0" tag_type="title">A Cambrian Explosion of Machine </text>
+<text top="190" left="515" width="891" height="81" font="font28" id="p32_t4" reading_order_no="3" segment_no="0" tag_type="title">Learning Research Topics</text>
+<text top="463" left="793" width="334" height="51" font="font27" id="p32_t5" reading_order_no="4" segment_no="1" tag_type="text">Make ML work</text>
+<text top="865" left="773" width="68" height="51" font="font27" id="p32_t6" reading_order_no="5" segment_no="9" tag_type="text">RL</text>
+<text top="609" left="1325" width="530" height="51" font="font27" id="p32_t7" reading_order_no="6" segment_no="4" tag_type="text">Fairness, accountability </text>
+<text top="679" left="1392" width="379" height="51" font="font27" id="p32_t8" reading_order_no="7" segment_no="4" tag_type="text">and transparency</text>
+<text top="901" left="942" width="410" height="51" font="font27" id="p32_t9" reading_order_no="8" segment_no="10" tag_type="text">Extreme reliability</text>
+<text top="689" left="456" width="178" height="51" font="font27" id="p32_t10" reading_order_no="9" segment_no="5" tag_type="text">Security</text>
+<text top="562" left="152" width="451" height="51" font="font27" id="p32_t11" reading_order_no="10" segment_no="3" tag_type="text">Generative modeling</text>
+<text top="751" left="1242" width="424" height="51" font="font27" id="p32_t12" reading_order_no="11" segment_no="6" tag_type="text">Domain adaptation</text>
+<text top="840" left="1150" width="160" height="51" font="font30" id="p32_t13" reading_order_no="12" segment_no="8" tag_type="text">Label e</text>
+<text top="840" left="1310" width="42" height="56" font="font52" id="p32_t14" reading_order_no="13" segment_no="8" tag_type="text">ffi</text>
+<text top="840" left="1352" width="135" height="51" font="font30" id="p32_t15" reading_order_no="14" segment_no="8" tag_type="text">ciency</text>
+<text top="519" left="1348" width="282" height="51" font="font27" id="p32_t16" reading_order_no="15" segment_no="2" tag_type="text">Neuroscience</text>
+</page>
+<page number="33" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font53" size="32" family="CMUSerif" color="#ffffff"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p33_t1" reading_order_no="0" segment_no="4" tag_type="text">(Goodfellow 2019)</text>
+<text top="64" left="471" width="1007" height="90" font="font12" id="p33_t2" reading_order_no="1" segment_no="0" tag_type="title">Supervised Discriminator </text>
+<text top="187" left="390" width="1139" height="90" font="font12" id="p33_t3" reading_order_no="2" segment_no="0" tag_type="title">for Semi-Supervised Learning</text>
+<text top="797" left="601" width="77" height="32" font="font53" id="p33_t4" reading_order_no="3" segment_no="1" tag_type="figure">Input</text>
+<text top="371" left="504" width="63" height="32" font="font53" id="p33_t5" reading_order_no="4" segment_no="1" tag_type="figure">Real</text>
+<text top="578" left="589" width="111" height="32" font="font53" id="p33_t6" reading_order_no="5" segment_no="1" tag_type="figure">Hidden </text>
+<text top="622" left="605" width="69" height="32" font="font53" id="p33_t7" reading_order_no="6" segment_no="1" tag_type="figure">units</text>
+<text top="371" left="706" width="64" height="32" font="font53" id="p33_t8" reading_order_no="7" segment_no="1" tag_type="figure">Fake</text>
+<text top="795" left="1186" width="77" height="32" font="font53" id="p33_t9" reading_order_no="8" segment_no="1" tag_type="figure">Input</text>
+<text top="369" left="1163" width="123" height="32" font="font53" id="p33_t10" reading_order_no="9" segment_no="1" tag_type="figure">Real dog</text>
+<text top="576" left="1174" width="111" height="32" font="font53" id="p33_t11" reading_order_no="10" segment_no="1" tag_type="figure">Hidden </text>
+<text top="620" left="1190" width="69" height="32" font="font53" id="p33_t12" reading_order_no="11" segment_no="1" tag_type="figure">units</text>
+<text top="369" left="1361" width="64" height="32" font="font53" id="p33_t13" reading_order_no="12" segment_no="1" tag_type="figure">Fake</text>
+<text top="369" left="998" width="116" height="32" font="font53" id="p33_t14" reading_order_no="13" segment_no="1" tag_type="figure">Real cat</text>
+<text top="1013" left="584" width="752" height="51" font="font27" id="p33_t15" reading_order_no="14" segment_no="3" tag_type="text">(Odena 2016, Salimans et al 2016)</text>
+<text top="574" left="1434" width="428" height="51" font="font27" id="p33_t16" reading_order_no="15" segment_no="2" tag_type="text">Learn to read with </text>
+<text top="644" left="1457" width="382" height="51" font="font27" id="p33_t17" reading_order_no="16" segment_no="2" tag_type="text">100 labels rather </text>
+<text top="714" left="1512" width="255" height="51" font="font27" id="p33_t18" reading_order_no="17" segment_no="2" tag_type="text">than 60,000</text>
+</page>
+<page number="34" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font54" size="36" family="CMUSerif" color="#000000"/>
+	<fontspec id="font55" size="50" family="CMUSerif,Italic" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p34_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2019)</text>
+<text top="127" left="354" width="1213" height="99" font="font31" id="p34_t2" reading_order_no="1" segment_no="0" tag_type="title">Virtual Adversarial Training</text>
+<text top="1029" left="623" width="312" height="37" font="font41" id="p34_t3" reading_order_no="2" segment_no="2" tag_type="text">(Oliver+Odena+Ra</text>
+<text top="1029" left="935" width="21" height="40" font="font54" id="p34_t4" reading_order_no="3" segment_no="2" tag_type="text">ff</text>
+<text top="1029" left="956" width="216" height="37" font="font41" id="p34_t5" reading_order_no="4" segment_no="2" tag_type="text">el et al, 2018)</text>
+<text top="247" left="45" width="1648" height="51" font="font27" id="p34_t6" reading_order_no="5" segment_no="1" tag_type="text">Miyato et al 2015: regularize for robustness to adversarial perturbations of </text>
+<text top="317" left="45" width="213" height="39" font="font55" id="p34_t7" reading_order_no="6" segment_no="1" tag_type="text"><i>unlabeled </i></text>
+<text top="317" left="258" width="97" height="51" font="font27" id="p34_t8" reading_order_no="7" segment_no="1" tag_type="text">data</text>
+</page>
+<page number="35" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p35_t1" reading_order_no="0" segment_no="11" tag_type="text">(Goodfellow 2019)</text>
+<text top="805" left="170" width="566" height="51" font="font27" id="p35_t2" reading_order_no="1" segment_no="7" tag_type="text">Model-based optimization</text>
+<text top="80" left="359" width="1229" height="81" font="font28" id="p35_t3" reading_order_no="2" segment_no="0" tag_type="title">A Cambrian Explosion of Machine </text>
+<text top="190" left="515" width="891" height="81" font="font28" id="p35_t4" reading_order_no="3" segment_no="0" tag_type="title">Learning Research Topics</text>
+<text top="463" left="793" width="334" height="51" font="font27" id="p35_t5" reading_order_no="4" segment_no="1" tag_type="text">Make ML work</text>
+<text top="865" left="773" width="68" height="51" font="font27" id="p35_t6" reading_order_no="5" segment_no="9" tag_type="text">RL</text>
+<text top="609" left="1325" width="530" height="51" font="font27" id="p35_t7" reading_order_no="6" segment_no="4" tag_type="text">Fairness, accountability </text>
+<text top="679" left="1392" width="379" height="51" font="font27" id="p35_t8" reading_order_no="7" segment_no="4" tag_type="text">and transparency</text>
+<text top="901" left="942" width="410" height="51" font="font27" id="p35_t9" reading_order_no="8" segment_no="10" tag_type="text">Extreme reliability</text>
+<text top="689" left="456" width="178" height="51" font="font27" id="p35_t10" reading_order_no="9" segment_no="5" tag_type="text">Security</text>
+<text top="562" left="152" width="451" height="51" font="font27" id="p35_t11" reading_order_no="10" segment_no="3" tag_type="text">Generative modeling</text>
+<text top="751" left="1242" width="424" height="51" font="font30" id="p35_t12" reading_order_no="11" segment_no="6" tag_type="text">Domain adaptation</text>
+<text top="840" left="1150" width="160" height="51" font="font27" id="p35_t13" reading_order_no="12" segment_no="8" tag_type="text">Label e</text>
+<text top="840" left="1310" width="42" height="56" font="font29" id="p35_t14" reading_order_no="13" segment_no="8" tag_type="text">ffi</text>
+<text top="840" left="1352" width="135" height="51" font="font27" id="p35_t15" reading_order_no="14" segment_no="8" tag_type="text">ciency</text>
+<text top="519" left="1348" width="282" height="51" font="font27" id="p35_t16" reading_order_no="15" segment_no="2" tag_type="text">Neuroscience</text>
+</page>
+<page number="36" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font56" size="38" family="CMUSerif" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p36_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2019)</text>
+<text top="121" left="473" width="975" height="114" font="font38" id="p36_t2" reading_order_no="1" segment_no="0" tag_type="title">Domain Adaptation</text>
+<text top="392" left="351" width="19" height="38" font="font56" id="p36_t3" reading_order_no="2" segment_no="1" tag_type="list">•</text>
+<text top="387" left="400" width="1105" height="51" font="font27" id="p36_t4" reading_order_no="3" segment_no="1" tag_type="list">Domain Adversarial Networks (Ganin et al, 2015) </text>
+<text top="779" left="351" width="19" height="38" font="font56" id="p36_t5" reading_order_no="4" segment_no="2" tag_type="list">•</text>
+<text top="775" left="400" width="1008" height="51" font="font27" id="p36_t6" reading_order_no="5" segment_no="2" tag_type="list">Professor forcing (Lamb et al, 2016): Domain-</text>
+<text top="845" left="400" width="912" height="51" font="font27" id="p36_t7" reading_order_no="6" segment_no="2" tag_type="list">Adversarial learning in RNN hidden state</text>
+</page>
+<page number="37" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p37_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2019)</text>
+<text top="127" left="238" width="1474" height="101" font="font42" id="p37_t2" reading_order_no="1" segment_no="0" tag_type="title">GANs for simulated training data</text>
+<text top="1005" left="686" width="548" height="51" font="font27" id="p37_t3" reading_order_no="2" segment_no="1" tag_type="text">(Shrivastava et al., 2016)</text>
+</page>
+<page number="38" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p38_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2018)</text>
+<text top="121" left="685" width="550" height="114" font="font38" id="p38_t2" reading_order_no="1" segment_no="0" tag_type="title">GraspGAN</text>
+<text top="862" left="708" width="505" height="51" font="font27" id="p38_t3" reading_order_no="2" segment_no="1" tag_type="text">(Bousmalis et al, 2017)</text>
+</page>
+<page number="39" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p39_t1" reading_order_no="0" segment_no="2" tag_type="text">(Goodfellow 2018)</text>
+<text top="121" left="685" width="550" height="114" font="font38" id="p39_t2" reading_order_no="1" segment_no="0" tag_type="title">GraspGAN</text>
+<text top="998" left="708" width="505" height="51" font="font27" id="p39_t3" reading_order_no="2" segment_no="1" tag_type="text">(Bousmalis et al, 2017)</text>
+</page>
+<page number="40" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p40_t1" reading_order_no="0" segment_no="3" tag_type="text">(Goodfellow 2018)</text>
+<text top="124" left="355" width="1209" height="108" font="font36" id="p40_t2" reading_order_no="1" segment_no="0" tag_type="title">Sim-to-real via sim-to-sim</text>
+<text top="990" left="751" width="417" height="51" font="font27" id="p40_t3" reading_order_no="2" segment_no="2" tag_type="text">(James et al, 2018)</text>
+<text top="546" left="1523" width="337" height="51" font="font27" id="p40_t4" reading_order_no="3" segment_no="1" tag_type="text">Learn to grasp </text>
+<text top="616" left="1486" width="394" height="51" font="font27" id="p40_t5" reading_order_no="4" segment_no="1" tag_type="text">without real data!</text>
+</page>
+<page number="41" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p41_t1" reading_order_no="0" segment_no="11" tag_type="text">(Goodfellow 2019)</text>
+<text top="805" left="170" width="566" height="51" font="font27" id="p41_t2" reading_order_no="1" segment_no="7" tag_type="text">Model-based optimization</text>
+<text top="80" left="359" width="1229" height="81" font="font28" id="p41_t3" reading_order_no="2" segment_no="0" tag_type="title">A Cambrian Explosion of Machine </text>
+<text top="190" left="515" width="891" height="81" font="font28" id="p41_t4" reading_order_no="3" segment_no="0" tag_type="title">Learning Research Topics</text>
+<text top="463" left="793" width="334" height="51" font="font27" id="p41_t5" reading_order_no="4" segment_no="1" tag_type="text">Make ML work</text>
+<text top="865" left="773" width="68" height="51" font="font27" id="p41_t6" reading_order_no="5" segment_no="9" tag_type="text">RL</text>
+<text top="609" left="1325" width="530" height="51" font="font30" id="p41_t7" reading_order_no="6" segment_no="4" tag_type="text">Fairness, accountability </text>
+<text top="679" left="1392" width="379" height="51" font="font30" id="p41_t8" reading_order_no="7" segment_no="4" tag_type="text">and transparency</text>
+<text top="901" left="942" width="410" height="51" font="font27" id="p41_t9" reading_order_no="8" segment_no="10" tag_type="text">Extreme reliability</text>
+<text top="689" left="456" width="178" height="51" font="font27" id="p41_t10" reading_order_no="9" segment_no="5" tag_type="text">Security</text>
+<text top="562" left="152" width="451" height="51" font="font27" id="p41_t11" reading_order_no="10" segment_no="3" tag_type="text">Generative modeling</text>
+<text top="751" left="1242" width="424" height="51" font="font27" id="p41_t12" reading_order_no="11" segment_no="6" tag_type="text">Domain adaptation</text>
+<text top="840" left="1150" width="160" height="51" font="font27" id="p41_t13" reading_order_no="12" segment_no="8" tag_type="text">Label e</text>
+<text top="840" left="1310" width="42" height="56" font="font29" id="p41_t14" reading_order_no="13" segment_no="8" tag_type="text">ffi</text>
+<text top="840" left="1352" width="135" height="51" font="font27" id="p41_t15" reading_order_no="14" segment_no="8" tag_type="text">ciency</text>
+<text top="519" left="1348" width="282" height="51" font="font27" id="p41_t16" reading_order_no="15" segment_no="2" tag_type="text">Neuroscience</text>
+</page>
+<page number="42" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p42_t1" reading_order_no="0" segment_no="5" tag_type="text">(Goodfellow 2019)</text>
+<text top="70" left="444" width="1062" height="90" font="font12" id="p42_t2" reading_order_no="1" segment_no="0" tag_type="title">Adversarially Learned Fair </text>
+<text top="193" left="653" width="614" height="90" font="font12" id="p42_t3" reading_order_no="2" segment_no="0" tag_type="title">Representations</text>
+<text top="322" left="351" width="19" height="38" font="font56" id="p42_t4" reading_order_no="3" segment_no="1" tag_type="list">•</text>
+<text top="317" left="400" width="601" height="51" font="font27" id="p42_t5" reading_order_no="4" segment_no="1" tag_type="list">Edwards and Storkey 2015 </text>
+<text top="451" left="351" width="19" height="38" font="font56" id="p42_t6" reading_order_no="5" segment_no="2" tag_type="list">•</text>
+<text top="446" left="400" width="900" height="51" font="font27" id="p42_t7" reading_order_no="6" segment_no="2" tag_type="list">Learn representations that are useful for </text>
+<text top="516" left="400" width="292" height="51" font="font27" id="p42_t8" reading_order_no="7" segment_no="2" tag_type="list">classification </text>
+<text top="650" left="351" width="19" height="38" font="font56" id="p42_t9" reading_order_no="8" segment_no="3" tag_type="list">•</text>
+<text top="646" left="400" width="1083" height="51" font="font27" id="p42_t10" reading_order_no="9" segment_no="3" tag_type="list">An adversary tries to recover a sensitive variable </text>
+<text top="646" left="1483" width="28" height="39" font="font55" id="p42_t11" reading_order_no="10" segment_no="3" tag_type="list"><i>S</i></text>
+<text top="716" left="400" width="1080" height="51" font="font27" id="p42_t12" reading_order_no="11" segment_no="3" tag_type="list">from the representation. Primary learner tries to </text>
+<text top="786" left="400" width="130" height="51" font="font27" id="p42_t13" reading_order_no="12" segment_no="3" tag_type="list">make </text>
+<text top="786" left="530" width="46" height="39" font="font55" id="p42_t14" reading_order_no="13" segment_no="3" tag_type="list"><i>S </i></text>
+<text top="786" left="576" width="475" height="51" font="font27" id="p42_t15" reading_order_no="14" segment_no="3" tag_type="list">impossible to recover </text>
+<text top="919" left="351" width="19" height="38" font="font56" id="p42_t16" reading_order_no="15" segment_no="4" tag_type="list">•</text>
+<text top="915" left="400" width="763" height="51" font="font27" id="p42_t17" reading_order_no="16" segment_no="4" tag_type="list">Final decision does not depend on </text>
+<text top="915" left="1163" width="28" height="39" font="font55" id="p42_t18" reading_order_no="17" segment_no="4" tag_type="list"><i>S</i></text>
+</page>
+<page number="43" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p43_t1" reading_order_no="0" segment_no="5" tag_type="text">(Goodfellow 2019)</text>
+<text top="82" left="192" width="1536" height="90" font="font12" id="p43_t2" reading_order_no="1" segment_no="0" tag_type="title">How do machine learning models work?</text>
+<text top="994" left="111" width="487" height="51" font="font27" id="p43_t3" reading_order_no="2" segment_no="4" tag_type="text">(Selvaraju et al, 2016)</text>
+<text top="462" left="960" width="528" height="51" font="font27" id="p43_t4" reading_order_no="3" segment_no="1" tag_type="text">(Goodfellow et al, 2014)</text>
+<text top="605" left="566" width="1213" height="51" font="font27" id="p43_t5" reading_order_no="4" segment_no="2" tag_type="text">Interpretability literature: our analysis tools show that </text>
+<text top="675" left="566" width="1192" height="51" font="font27" id="p43_t6" reading_order_no="5" segment_no="2" tag_type="text">deep nets work about how you would expect them to. </text>
+<text top="815" left="566" width="1314" height="51" font="font27" id="p43_t7" reading_order_no="6" segment_no="3" tag_type="text">Adversarial ML literature: ML models are very easy to fool </text>
+<text top="885" left="566" width="1194" height="51" font="font27" id="p43_t8" reading_order_no="7" segment_no="3" tag_type="text">and even linear models work in counter-intuitive ways.</text>
+</page>
+<page number="44" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font57" size="90" family="CMUSerif" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p44_t1" reading_order_no="0" segment_no="4" tag_type="not_found">(Goodfellow 2019)</text>
+</page>
+<page number="45" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p45_t1" reading_order_no="0" segment_no="11" tag_type="text">(Goodfellow 2019)</text>
+<text top="805" left="170" width="566" height="51" font="font27" id="p45_t2" reading_order_no="1" segment_no="7" tag_type="text">Model-based optimization</text>
+<text top="80" left="359" width="1229" height="81" font="font28" id="p45_t3" reading_order_no="2" segment_no="0" tag_type="title">A Cambrian Explosion of Machine </text>
+<text top="190" left="515" width="891" height="81" font="font28" id="p45_t4" reading_order_no="3" segment_no="0" tag_type="title">Learning Research Topics</text>
+<text top="463" left="793" width="334" height="51" font="font27" id="p45_t5" reading_order_no="4" segment_no="1" tag_type="text">Make ML work</text>
+<text top="865" left="773" width="68" height="51" font="font27" id="p45_t6" reading_order_no="5" segment_no="9" tag_type="text">RL</text>
+<text top="609" left="1325" width="530" height="51" font="font27" id="p45_t7" reading_order_no="6" segment_no="4" tag_type="text">Fairness, accountability </text>
+<text top="679" left="1392" width="379" height="51" font="font27" id="p45_t8" reading_order_no="7" segment_no="4" tag_type="text">and transparency</text>
+<text top="901" left="942" width="410" height="51" font="font27" id="p45_t9" reading_order_no="8" segment_no="10" tag_type="text">Extreme reliability</text>
+<text top="689" left="456" width="178" height="51" font="font27" id="p45_t10" reading_order_no="9" segment_no="5" tag_type="text">Security</text>
+<text top="562" left="152" width="451" height="51" font="font27" id="p45_t11" reading_order_no="10" segment_no="3" tag_type="text">Generative modeling</text>
+<text top="751" left="1242" width="424" height="51" font="font27" id="p45_t12" reading_order_no="11" segment_no="6" tag_type="text">Domain adaptation</text>
+<text top="840" left="1150" width="160" height="51" font="font27" id="p45_t13" reading_order_no="12" segment_no="8" tag_type="text">Label e</text>
+<text top="840" left="1310" width="42" height="56" font="font29" id="p45_t14" reading_order_no="13" segment_no="8" tag_type="text">ffi</text>
+<text top="840" left="1352" width="135" height="51" font="font27" id="p45_t15" reading_order_no="14" segment_no="8" tag_type="text">ciency</text>
+<text top="519" left="1348" width="282" height="51" font="font30" id="p45_t16" reading_order_no="15" segment_no="2" tag_type="text">Neuroscience</text>
+</page>
+<page number="46" position="absolute" top="0" left="0" height="1080" width="1920">
+	<fontspec id="font58" size="67" family="CMUSerif" color="#000000"/>
+	<fontspec id="font59" size="67" family="CMUSerif" color="#000000"/>
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p46_t1" reading_order_no="0" segment_no="4" tag_type="text">(Goodfellow 2019)</text>
+<text top="95" left="407" width="823" height="68" font="font58" id="p46_t2" reading_order_no="1" segment_no="0" tag_type="text">Adversarial examples that a</text>
+<text top="95" left="1230" width="39" height="75" font="font59" id="p46_t3" reading_order_no="2" segment_no="0" tag_type="text">ff</text>
+<text top="95" left="1270" width="267" height="68" font="font58" id="p46_t4" reading_order_no="3" segment_no="0" tag_type="text">ect both </text>
+<text top="188" left="359" width="1201" height="68" font="font58" id="p46_t5" reading_order_no="4" segment_no="0" tag_type="text">computer and time-limited human vision</text>
+<text top="1014" left="817" width="285" height="37" font="font41" id="p46_t6" reading_order_no="5" segment_no="3" tag_type="text">Elsayed et al 2018</text>
+<text top="782" left="1134" width="228" height="51" font="font27" id="p46_t7" reading_order_no="6" segment_no="1" tag_type="text">25% snake</text>
+<text top="782" left="1567" width="228" height="51" font="font27" id="p46_t8" reading_order_no="7" segment_no="2" tag_type="text">67% snake</text>
+</page>
+<page number="47" position="absolute" top="0" left="0" height="1080" width="1920">
+<text top="1054" left="1777" width="128" height="16" font="font3" id="p47_t1" reading_order_no="0" segment_no="1" tag_type="text">(Goodfellow 2019)</text>
+<text top="121" left="720" width="480" height="114" font="font38" id="p47_t2" reading_order_no="1" segment_no="0" tag_type="title">Questions</text>
+</page>
+</pdf2xml>

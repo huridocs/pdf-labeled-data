@@ -1,0 +1,44 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3224" width="2321">
+	<fontspec id="font0" size="149" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="349" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="549" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="412" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="148" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="249" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="231" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="104" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="93" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="43" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="62" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="52" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="57" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="31" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font15" size="48" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font16" size="58" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font17" size="119" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font18" size="994" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font19" size="24" family="GlyphLessFont" color="#000000"/>
+<text top="155" left="261" width="1902" height="200" font="font4" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">EFFECTIVE  WEB  SERVICE </text>
+<text top="838" left="442" width="934" height="336" font="font5" id="p1_t2" reading_order_no="1" segment_no="1" tag_type="title">ONITORING </text>
+<text top="1133" left="738" width="872" height="55" font="font6" id="p1_t3" reading_order_no="2" segment_no="2" tag_type="text">By  GEORGE  PORTER  and  RANDY  H.  KATZ </text>
+<text top="1788" left="1077" width="979" height="84" font="font11" id="p1_t4" reading_order_no="3" segment_no="3" tag_type="text">Toentifying  the  correlated  effects  between </text>
+<text top="1877" left="1035" width="1058" height="70" font="font12" id="p1_t5" reading_order_no="4" segment_no="3" tag_type="text">components  to  umprove  response  to  overload. </text>
+<text top="2035" left="969" width="1043" height="77" font="font13" id="p1_t6" reading_order_no="5" segment_no="4" tag_type="text">eb  services  are  increasingly  used  for  deploying </text>
+<text top="2103" left="946" width="1092" height="77" font="font13" id="p1_t7" reading_order_no="6" segment_no="4" tag_type="text">Web-based  application  portals  such  as  eBay  and </text>
+<text top="2170" left="929" width="1057" height="77" font="font13" id="p1_t8" reading_order_no="7" segment_no="4" tag_type="text">Amazon.com.  They  are  commonly  built  using </text>
+<text top="2237" left="917" width="1097" height="77" font="font13" id="p1_t9" reading_order_no="8" segment_no="4" tag_type="text">middleware,  that  is,  composable  building  blocks </text>
+<text top="2334" left="287" width="991" height="42" font="font14" id="p1_t10" reading_order_no="9" segment_no="4" tag_type="text">such  as  MIiiP  containers,  Java-based  appli- </text>
+<text top="2326" left="1358" width="810" height="42" font="font14" id="p1_t11" reading_order_no="16" segment_no="5" tag_type="text">ILLUSTRATION  BY  JEAN-FRANCOIS  PODEVIN </text>
+<text top="2383" left="287" width="1594" height="65" font="font15" id="p1_t12" reading_order_no="10" segment_no="4" tag_type="text">cation  beans,  and  persistent  state  management.  These  components  are </text>
+<text top="2440" left="286" width="1706" height="77" font="font13" id="p1_t13" reading_order_no="11" segment_no="4" tag_type="text">distributed  across  tiers  of  servers—Web,  application,  and  database.  As  Web </text>
+<text top="2507" left="286" width="1649" height="78" font="font16" id="p1_t14" reading_order_no="12" segment_no="4" tag_type="text">services  offer  newer  and  more  sophisticated  functionality,  the  underlying </text>
+<text top="2574" left="287" width="1688" height="78" font="font16" id="p1_t15" reading_order_no="13" segment_no="4" tag_type="text">realization  of  those  services  in  the  middleware  becomes  more  complicated. </text>
+<text top="2642" left="285" width="1730" height="77" font="font13" id="p1_t16" reading_order_no="14" segment_no="4" tag_type="text">Today's  Web  services  can  consist  of  dozens  or  hundreds  of  request  types  and </text>
+<text top="2710" left="286" width="565" height="77" font="font13" id="p1_t17" reading_order_no="15" segment_no="4" tag_type="text">middleware  components. </text>
+<text top="3148" left="1316" width="699" height="32" font="font19" id="p1_t18" reading_order_no="17" segment_no="7" tag_type="text">COMMUNICATIONS  OF  THE  ACM  March  2006/Vol.  49,  No.  3 </text>
+<text top="3144" left="2061" width="41" height="32" font="font19" id="p1_t19" reading_order_no="18" segment_no="6" tag_type="text">49</text>
+</page>
+</pdf2xml>

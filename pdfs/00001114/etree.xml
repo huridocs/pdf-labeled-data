@@ -1,0 +1,119 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3219" width="2273">
+	<fontspec id="font0" size="47" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="46" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="48" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="45" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="42" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="414" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="77" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="24" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="29" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="31" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="30" family="GlyphLessFont" color="#000000"/>
+<text top="234" left="188" width="967" height="63" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">the  service  model  through  the  inclusion  of  unmod- </text>
+<text top="287" left="187" width="969" height="62" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">eled  failure  modes.  It  is  used  by  a  deductive  controller </text>
+<text top="338" left="188" width="968" height="63" font="font0" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="text">to  map  sensed  variables  to  queried  states.  The  service </text>
+<text top="397" left="188" width="966" height="54" font="font2" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="text">model  is  specified  as  a  concurrent  transition  system, </text>
+<text top="442" left="188" width="968" height="63" font="font0" id="p1_t5" reading_order_no="4" segment_no="0" tag_type="text">composed  of  probabilistic  concurrent  constraint </text>
+<text top="495" left="188" width="968" height="63" font="font0" id="p1_t6" reading_order_no="5" segment_no="0" tag_type="text">automata.  Each  component  automaton  is  represented </text>
+<text top="547" left="188" width="967" height="65" font="font3" id="p1_t7" reading_order_no="6" segment_no="0" tag_type="text">by  a  set  of  component  modes,  a  set  of  constraints </text>
+<text top="607" left="188" width="974" height="54" font="font2" id="p1_t8" reading_order_no="7" segment_no="0" tag_type="text">defining  the  behavior  within  each  mode,  and  a  set  of </text>
+<text top="653" left="188" width="967" height="63" font="font0" id="p1_t9" reading_order_no="8" segment_no="0" tag_type="text">probabilistic  transitions  between  modes.  Constraints </text>
+<text top="707" left="187" width="968" height="61" font="font4" id="p1_t10" reading_order_no="9" segment_no="0" tag_type="text">are  used  to  represent  co-temporal  interactions </text>
+<text top="758" left="187" width="968" height="62" font="font1" id="p1_t11" reading_order_no="10" segment_no="0" tag_type="text">between  state  variables  and  intercommunication </text>
+<text top="811" left="188" width="967" height="61" font="font4" id="p1_t12" reading_order_no="11" segment_no="0" tag_type="text">between  components.  Constraints  on  continuous </text>
+<text top="860" left="186" width="969" height="63" font="font0" id="p1_t13" reading_order_no="12" segment_no="0" tag_type="text">variables  operate  on  qualitative  abstractions  of  the </text>
+<text top="913" left="186" width="967" height="62" font="font1" id="p1_t14" reading_order_no="13" segment_no="0" tag_type="text">variables,  characterized  by  the  variable’s  sign  (positive, </text>
+<text top="971" left="188" width="967" height="54" font="font2" id="p1_t15" reading_order_no="14" segment_no="0" tag_type="text">negative,  zero)  and  deviation  from  nominal  value </text>
+<text top="1022" left="189" width="966" height="57" font="font5" id="p1_t16" reading_order_no="15" segment_no="0" tag_type="text">(high,  nominal,  low).  Probabilistic  transitions  are </text>
+<text top="1070" left="188" width="965" height="63" font="font0" id="p1_t17" reading_order_no="16" segment_no="0" tag_type="text">used  to  model  the  stochastic  behavior  of components, </text>
+<text top="1624" left="872" width="302" height="104" font="font7" id="p1_t18" reading_order_no="17" segment_no="7" tag_type="figure">—-5s=2&gt; </text>
+<text top="1802" left="187" width="967" height="63" font="font0" id="p1_t19" reading_order_no="18" segment_no="8" tag_type="text">such  as  failure  and  intermittency.  Reward  is  used  to </text>
+<text top="1854" left="187" width="969" height="63" font="font0" id="p1_t20" reading_order_no="19" segment_no="8" tag_type="text">assess  the  costs  and  benefits  associated  with  particular </text>
+<text top="1906" left="187" width="967" height="63" font="font0" id="p1_t21" reading_order_no="20" segment_no="8" tag_type="text">component  modes.  The  component  automata  oper- </text>
+<text top="1959" left="187" width="656" height="62" font="font1" id="p1_t22" reading_order_no="21" segment_no="8" tag_type="text">ate  concurrently  and  synchronously. </text>
+<text top="2009" left="237" width="918" height="63" font="font0" id="p1_t23" reading_order_no="22" segment_no="9" tag_type="text">Self-Deprecation  and  Regeneration  through  Pre- </text>
+<text top="2061" left="187" width="967" height="63" font="font0" id="p1_t24" reading_order_no="23" segment_no="9" tag_type="text">dictive  Method  Dispatch.  In  model-based  program- </text>
+<text top="2112" left="188" width="967" height="65" font="font3" id="p1_t25" reading_order_no="24" segment_no="9" tag_type="text">ming,  the  execution  of  a  method  fails  if  one  of  the </text>
+<text top="2166" left="187" width="965" height="63" font="font0" id="p1_t26" reading_order_no="25" segment_no="9" tag_type="text">service  components  it  relies  upon  irreparably  fails. </text>
+<text top="2220" left="186" width="969" height="62" font="font1" id="p1_t27" reading_order_no="26" segment_no="9" tag_type="text">This  in  turn  can  cause  the  failure  of  any  method  that </text>
+<text top="2270" left="187" width="968" height="65" font="font3" id="p1_t28" reading_order_no="27" segment_no="9" tag_type="text">relies  upon  it,  potentially  cascading  to  a  catastrophic </text>
+<text top="2323" left="187" width="967" height="65" font="font3" id="p1_t29" reading_order_no="28" segment_no="9" tag_type="text">and  irrecoverable  systemwide  malfunction.  The  con- </text>
+<text top="2377" left="188" width="968" height="63" font="font0" id="p1_t30" reading_order_no="29" segment_no="9" tag_type="text">trol  sequencer  enhances  robustness  by  continuously </text>
+<text top="2429" left="187" width="968" height="63" font="font0" id="p1_t31" reading_order_no="30" segment_no="9" tag_type="text">searching  for,  and  deprecating,  any  requisite  method </text>
+<text top="2481" left="186" width="969" height="63" font="font0" id="p1_t32" reading_order_no="31" segment_no="9" tag_type="text">whose  successful  execution  relies  upon  a  component </text>
+<text top="2534" left="188" width="967" height="62" font="font1" id="p1_t33" reading_order_no="32" segment_no="9" tag_type="text">that  is  deemed  faulty  by  mode  estimation,  and </text>
+<text top="2585" left="187" width="821" height="63" font="font0" id="p1_t34" reading_order_no="33" segment_no="9" tag_type="text">deemed  irreparable  by  mode  reconfiguration. </text>
+<text top="2644" left="237" width="918" height="53" font="font8" id="p1_t35" reading_order_no="34" segment_no="10" tag_type="text">Without  additional  action,  a  deprecated  method </text>
+<text top="2689" left="187" width="967" height="63" font="font0" id="p1_t36" reading_order_no="35" segment_no="10" tag_type="text">causes  the  deprecation  of any  method  that  relies  upon </text>
+<text top="2741" left="188" width="967" height="63" font="font0" id="p1_t37" reading_order_no="36" segment_no="10" tag_type="text">it.  Model-based  programmers  specify  redundant </text>
+<text top="2794" left="189" width="967" height="62" font="font1" id="p1_t38" reading_order_no="37" segment_no="10" tag_type="text">methods  for  achieving  each  desired  function.  When  a </text>
+<text top="2846" left="188" width="968" height="63" font="font0" id="p1_t39" reading_order_no="38" segment_no="10" tag_type="text">requisite  method  is  deprecated,  the  control  sequencer </text>
+<text top="2899" left="188" width="968" height="63" font="font0" id="p1_t40" reading_order_no="39" segment_no="10" tag_type="text">attempts  to  regenerate  the  lost  function  proactively  by </text>
+<text top="2951" left="187" width="967" height="63" font="font0" id="p1_t41" reading_order_no="40" segment_no="10" tag_type="text">selecting  an  applicable  alternative  method,  while  ver- </text>
+<text top="3004" left="189" width="593" height="62" font="font1" id="p1_t42" reading_order_no="41" segment_no="10" tag_type="text">ifying  overall  safety  of  execution. </text>
+<text top="3141" left="187" width="48" height="32" font="font9" id="p1_t43" reading_order_no="98" segment_no="12" tag_type="text">44 </text>
+<text top="3141" left="280" width="700" height="32" font="font9" id="p1_t44" reading_order_no="99" segment_no="13" tag_type="text">March  2006/Vol.  49,  No.  3  COMMUNICATIONS  OF  THE  ACM </text>
+<text top="234" left="1258" width="912" height="63" font="font0" id="p1_t45" reading_order_no="45" segment_no="1" tag_type="text">Mote  specifically,  predictive  method  selection  first </text>
+<text top="286" left="1208" width="961" height="63" font="font0" id="p1_t46" reading_order_no="46" segment_no="1" tag_type="text">searches  until  it  finds  a  set  of  methods  that  are  con- </text>
+<text top="338" left="1208" width="961" height="63" font="font0" id="p1_t47" reading_order_no="47" segment_no="1" tag_type="text">sistent  and  schedulable.  It  then  invokes  the  dis- </text>
+<text top="390" left="1208" width="962" height="62" font="font1" id="p1_t48" reading_order_no="48" segment_no="1" tag_type="text">patcher,  which  passes  each  activity  to  the  deductive </text>
+<text top="442" left="1208" width="962" height="63" font="font0" id="p1_t49" reading_order_no="49" segment_no="1" tag_type="text">controller  as  configuration  goals,  according  to  a </text>
+<text top="493" left="1208" width="962" height="65" font="font3" id="p1_t50" reading_order_no="50" segment_no="1" tag_type="text">schedule  consistent  with  the  timing  constraints.  If  the </text>
+<text top="547" left="1208" width="961" height="63" font="font0" id="p1_t51" reading_order_no="51" segment_no="1" tag_type="text">deductive  controller  indicates  failure  in  the  activity’s </text>
+<text top="599" left="1208" width="961" height="63" font="font0" id="p1_t52" reading_order_no="52" segment_no="1" tag_type="text">execution,  or  the  dispatcher  detects  that  an  activity’s </text>
+<text top="651" left="1208" width="961" height="65" font="font3" id="p1_t53" reading_order_no="53" segment_no="1" tag_type="text">duration  bound  is  violated,  the  method  selection </text>
+<text top="705" left="1208" width="961" height="63" font="font0" id="p1_t54" reading_order_no="54" segment_no="1" tag_type="text">component  is  re-invoked.  The  control  sequencer  then </text>
+<text top="756" left="1209" width="961" height="63" font="font0" id="p1_t55" reading_order_no="55" segment_no="1" tag_type="text">updates  its  knowledge  of  any  new  constraints  and </text>
+<text top="808" left="1208" width="960" height="63" font="font0" id="p1_t56" reading_order_no="56" segment_no="1" tag_type="text">selects  an  alternative  set  of  methods  that  safely  com- </text>
+<text top="860" left="1208" width="470" height="63" font="font0" id="p1_t57" reading_order_no="57" segment_no="1" tag_type="text">plete  the  RMPL  program. </text>
+<text top="912" left="1258" width="911" height="63" font="font0" id="p1_t58" reading_order_no="58" segment_no="2" tag_type="text">Self-Optimizing  Methods  through  Safe,  Deci- </text>
+<text top="964" left="1208" width="960" height="63" font="font0" id="p1_t59" reading_order_no="59" segment_no="2" tag_type="text">sion- Theoretic  Dispatch.  In  addition  to  failure,  com- </text>
+<text top="1015" left="1208" width="960" height="65" font="font3" id="p1_t60" reading_order_no="60" segment_no="2" tag_type="text">ponent  performance  can  degrade  dramatically, </text>
+<text top="1068" left="1208" width="958" height="65" font="font3" id="p1_t61" reading_order_no="61" segment_no="2" tag_type="text">reducing  system  performance  to  unacceptable  levels. </text>
+<text top="1128" left="1529" width="639" height="54" font="font2" id="p1_t62" reading_order_no="62" segment_no="2" tag_type="text">To  maintain  optimal  performance, </text>
+<text top="1172" left="1529" width="640" height="65" font="font3" id="p1_t63" reading_order_no="63" segment_no="2" tag_type="text">predictive  method  dispatch  utilizes </text>
+<text top="1226" left="1529" width="639" height="65" font="font3" id="p1_t64" reading_order_no="64" segment_no="2" tag_type="text">decision-theoretic  method  dis- </text>
+<text top="1280" left="1529" width="639" height="62" font="font1" id="p1_t65" reading_order_no="65" segment_no="2" tag_type="text">patch,  which  continuously  moni- </text>
+<text top="1331" left="1530" width="639" height="63" font="font0" id="p1_t66" reading_order_no="66" segment_no="2" tag_type="text">tors  performance  and  selects  the </text>
+<text top="1382" left="1529" width="647" height="65" font="font3" id="p1_t67" reading_order_no="67" segment_no="2" tag_type="text">currently  optimal  available  set  of </text>
+<text top="1435" left="1530" width="639" height="63" font="font0" id="p1_t68" reading_order_no="68" segment_no="2" tag_type="text">methods  that  achieve  each  requisite </text>
+<text top="1487" left="1530" width="161" height="63" font="font0" id="p1_t69" reading_order_no="69" segment_no="2" tag_type="text">function. </text>
+<text top="1593" left="1531" width="135" height="61" font="font4" id="p1_t70" reading_order_no="70" segment_no="3" tag_type="title">RESULTS </text>
+<text top="1643" left="1530" width="638" height="63" font="font0" id="p1_t71" reading_order_no="71" segment_no="4" tag_type="text">Initial  testing  of  the  described  sys- </text>
+<text top="1696" left="1534" width="634" height="63" font="font0" id="p1_t72" reading_order_no="72" segment_no="4" tag_type="text">tem  has  been  performed  by  aug- </text>
+<text top="1748" left="1533" width="636" height="63" font="font0" id="p1_t73" reading_order_no="73" segment_no="4" tag_type="text">menting  the  MIT  Model-Based </text>
+<text top="1800" left="1533" width="635" height="65" font="font3" id="p1_t74" reading_order_no="74" segment_no="4" tag_type="text">Embedded  and  Robotic  Systems </text>
+<text top="1853" left="1533" width="635" height="63" font="font0" id="p1_t75" reading_order_no="75" segment_no="4" tag_type="text">rover  testbed.  The  rover  testbed </text>
+<text top="1905" left="1533" width="635" height="63" font="font0" id="p1_t76" reading_order_no="76" segment_no="4" tag_type="text">consists  of  a  fleet  of  all-terrain </text>
+<text top="1958" left="1534" width="635" height="62" font="font1" id="p1_t77" reading_order_no="77" segment_no="4" tag_type="text">robot  vehicles  within  a  simulated </text>
+<text top="2009" left="1207" width="962" height="63" font="font0" id="p1_t78" reading_order_no="78" segment_no="4" tag_type="text">Martian  terrain.  By  way  of example,  we  describe  one </text>
+<text top="2061" left="1208" width="960" height="63" font="font0" id="p1_t79" reading_order_no="79" segment_no="4" tag_type="text">mission  whose  robustness  has  been  enhanced  by  the </text>
+<text top="2112" left="1207" width="132" height="65" font="font3" id="p1_t80" reading_order_no="80" segment_no="4" tag_type="text">system. </text>
+<text top="2165" left="1257" width="912" height="63" font="font0" id="p1_t81" reading_order_no="81" segment_no="5" tag_type="text">Two  rovers  must  cooperatively  search  for  science </text>
+<text top="2218" left="1208" width="960" height="63" font="font0" id="p1_t82" reading_order_no="82" segment_no="5" tag_type="text">targets  in  the  simulated  Martian  terrain.  This  is  done </text>
+<text top="2269" left="1207" width="961" height="65" font="font3" id="p1_t83" reading_order_no="83" segment_no="5" tag_type="text">by  having  the  rovers  go  to  the  selected  vantage  points </text>
+<text top="2323" left="1207" width="960" height="63" font="font0" id="p1_t84" reading_order_no="84" segment_no="5" tag_type="text">looking  for  targets  of  interest  using  the  rover’s  stereo- </text>
+<text top="2377" left="1207" width="960" height="63" font="font0" id="p1_t85" reading_order_no="85" segment_no="5" tag_type="text">scopic  cameras.  The  rovers  divide  up  the  space  so </text>
+<text top="2428" left="1208" width="960" height="63" font="font0" id="p1_t86" reading_order_no="86" segment_no="5" tag_type="text">they  can  minimize  the  time  taken  in  mapping  the </text>
+<text top="2481" left="1207" width="961" height="62" font="font1" id="p1_t87" reading_order_no="87" segment_no="5" tag_type="text">available  science  targets  in  the  area.  The  paths  of  the </text>
+<text top="2540" left="1207" width="960" height="53" font="font8" id="p1_t88" reading_order_no="88" segment_no="5" tag_type="text">rovers  are  planned  in  advance,  given  existing  terrain </text>
+<text top="2584" left="1207" width="960" height="63" font="font0" id="p1_t89" reading_order_no="89" segment_no="5" tag_type="text">maps.  The  plan  runs  without  fail.  Between  them,  the </text>
+<text top="2636" left="1208" width="960" height="62" font="font1" id="p1_t90" reading_order_no="90" segment_no="5" tag_type="text">rovers  successfully  find  all  of  the  science  targets  that </text>
+<text top="2687" left="1206" width="961" height="63" font="font0" id="p1_t91" reading_order_no="91" segment_no="5" tag_type="text">we  have  placed  for  them  to  find.  The  scenario  is </text>
+<text top="2740" left="1207" width="341" height="63" font="font0" id="p1_t92" reading_order_no="92" segment_no="5" tag_type="text">shown  in  Figure  1. </text>
+<text top="2799" left="1257" width="912" height="55" font="font10" id="p1_t93" reading_order_no="93" segment_no="6" tag_type="text">In  the  test  scenario,  two  faults  are  introduced  by </text>
+<text top="2846" left="1207" width="961" height="62" font="font1" id="p1_t94" reading_order_no="94" segment_no="6" tag_type="text">placing a  large  rock  that  blocks  Roverl’s  view  of  one </text>
+<text top="2898" left="1207" width="960" height="65" font="font3" id="p1_t95" reading_order_no="95" segment_no="6" tag_type="text">of  the  designated  areas.  When  Rover!  reaches  its  ini- </text>
+<text top="2950" left="1207" width="960" height="63" font="font0" id="p1_t96" reading_order_no="96" segment_no="6" tag_type="text">tial  position  to  look  for  science  targets,  its  cameras </text>
+<text top="3002" left="1207" width="960" height="63" font="font0" id="p1_t97" reading_order_no="97" segment_no="6" tag_type="text">detect  the  unexpected  rock  obscuring  its  view.  This </text>
+<text top="1806" left="1205" width="204" height="39" font="font11" id="p1_t98" reading_order_no="42" segment_no="11" tag_type="text">Figure  1.  Rover </text>
+<text top="1842" left="1202" width="290" height="42" font="font12" id="p1_t99" reading_order_no="43" segment_no="11" tag_type="text">testbed  experimental </text>
+<text top="1881" left="1204" width="123" height="41" font="font13" id="p1_t100" reading_order_no="44" segment_no="11" tag_type="text">platform.</text>
+</page>
+</pdf2xml>

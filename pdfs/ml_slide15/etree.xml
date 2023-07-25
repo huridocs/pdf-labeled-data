@@ -1,0 +1,422 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="595" width="794">
+	<fontspec id="font0" size="14" family="NimbusRomNo9L-Medi" color="#0066cc"/>
+	<fontspec id="font1" size="44" family="NimbusRomNo9L-Medi" color="#808080"/>
+	<fontspec id="font2" size="44" family="NimbusRomNo9L-Medi" color="#ffff66"/>
+	<fontspec id="font3" size="20" family="NimbusRomNo9L-Medi" color="#808080"/>
+	<fontspec id="font4" size="20" family="NimbusRomNo9L-Medi" color="#ffff00"/>
+	<fontspec id="font5" size="24" family="NimbusRomNo9L-Regu" color="#dd4814"/>
+<text top="578" left="0" width="77" height="13" font="font0" id="p1_t1" reading_order_no="8" segment_no="6" tag_type="text">Yann LeCun</text>
+<text top="131" left="147" width="493" height="40" font="font1" id="p1_t2" reading_order_no="9" segment_no="0" tag_type="title">    Energy-Based Learning</text>
+<text top="123" left="138" width="493" height="40" font="font2" id="p1_t3" reading_order_no="10" segment_no="0" tag_type="title">    Energy-Based Learning</text>
+<text top="289" left="341" width="116" height="18" font="font3" id="p1_t4" reading_order_no="0" segment_no="1" tag_type="text"> Yann LeCun</text>
+<text top="321" left="184" width="430" height="18" font="font3" id="p1_t5" reading_order_no="2" segment_no="2" tag_type="text">    The Courant Institute of Mathematical Sciences</text>
+<text top="353" left="309" width="181" height="18" font="font3" id="p1_t6" reading_order_no="4" segment_no="3" tag_type="text">New York University</text>
+<text top="281" left="333" width="116" height="18" font="font4" id="p1_t7" reading_order_no="1" segment_no="1" tag_type="text"> Yann LeCun</text>
+<text top="313" left="175" width="430" height="18" font="font4" id="p1_t8" reading_order_no="3" segment_no="2" tag_type="text">    The Courant Institute of Mathematical Sciences</text>
+<text top="344" left="300" width="181" height="18" font="font4" id="p1_t9" reading_order_no="5" segment_no="3" tag_type="text">New York University</text>
+<text top="479" left="224" width="209" height="22" font="font5" id="p1_t10" reading_order_no="6" segment_no="4" tag_type="text">http://yann.lecun.com</text>
+<text top="513" left="224" width="284" height="22" font="font5" id="p1_t11" reading_order_no="7" segment_no="5" tag_type="text">http://www.cs.nyu.edu/~yann</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="595" width="794">
+	<fontspec id="font6" size="26" family="NimbusRomNo9L-Medi" color="#808080"/>
+	<fontspec id="font7" size="26" family="NimbusRomNo9L-Medi" color="#ffff00"/>
+	<fontspec id="font8" size="20" family="NimbusRomNo9L-Medi" color="#ff0000"/>
+	<fontspec id="font9" size="20" family="NimbusRomNo9L-Medi" color="#000000"/>
+<text top="578" left="0" width="77" height="13" font="font0" id="p2_t1" reading_order_no="0" segment_no="4" tag_type="text">Yann LeCun</text>
+<text top="46" left="44" width="469" height="23" font="font6" id="p2_t2" reading_order_no="1" segment_no="0" tag_type="title">Energy-Based Model for Decision-Making</text>
+<text top="37" left="35" width="469" height="23" font="font7" id="p2_t3" reading_order_no="2" segment_no="0" tag_type="title">Energy-Based Model for Decision-Making</text>
+<text top="126" left="391" width="66" height="18" font="font8" id="p2_t4" reading_order_no="3" segment_no="1" tag_type="text"> Model:</text>
+<text top="126" left="458" width="243" height="18" font="font9" id="p2_t5" reading_order_no="4" segment_no="1" tag_type="text"> Measures the compatibility </text>
+<text top="152" left="417" width="315" height="18" font="font9" id="p2_t6" reading_order_no="5" segment_no="1" tag_type="text">between an observed variable X and </text>
+<text top="178" left="417" width="317" height="18" font="font9" id="p2_t7" reading_order_no="6" segment_no="1" tag_type="text">a variable to be predicted Y through </text>
+<text top="204" left="417" width="236" height="18" font="font9" id="p2_t8" reading_order_no="7" segment_no="1" tag_type="text">an energy function E(Y,X). </text>
+<text top="333" left="388" width="93" height="18" font="font8" id="p2_t9" reading_order_no="8" segment_no="2" tag_type="text"> Inference:</text>
+<text top="333" left="481" width="190" height="18" font="font9" id="p2_t10" reading_order_no="9" segment_no="2" tag_type="text"> Search for the Y that </text>
+<text top="359" left="414" width="284" height="18" font="font9" id="p2_t11" reading_order_no="10" segment_no="2" tag_type="text">minimizes the energy within a set</text>
+<text top="391" left="388" width="354" height="18" font="font9" id="p2_t12" reading_order_no="11" segment_no="3" tag_type="text"> If the set has low cardinality, we can use </text>
+<text top="417" left="414" width="161" height="18" font="font9" id="p2_t13" reading_order_no="12" segment_no="3" tag_type="text">exhaustive search. </text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p3_t1" reading_order_no="0" segment_no="3" tag_type="text">Yann LeCun</text>
+<text top="46" left="44" width="441" height="23" font="font6" id="p3_t2" reading_order_no="1" segment_no="0" tag_type="title">Complex Tasks: Inference is non-trivial</text>
+<text top="37" left="35" width="441" height="23" font="font7" id="p3_t3" reading_order_no="2" segment_no="0" tag_type="title">Complex Tasks: Inference is non-trivial</text>
+<text top="126" left="577" width="88" height="18" font="font9" id="p3_t4" reading_order_no="3" segment_no="1" tag_type="text">When the </text>
+<text top="152" left="602" width="123" height="18" font="font9" id="p3_t5" reading_order_no="4" segment_no="1" tag_type="text">cardinality or </text>
+<text top="178" left="602" width="134" height="18" font="font9" id="p3_t6" reading_order_no="5" segment_no="1" tag_type="text">dimension of Y </text>
+<text top="204" left="602" width="72" height="18" font="font9" id="p3_t7" reading_order_no="6" segment_no="1" tag_type="text">is large, </text>
+<text top="231" left="602" width="95" height="18" font="font9" id="p3_t8" reading_order_no="7" segment_no="1" tag_type="text">exhaustive </text>
+<text top="257" left="602" width="79" height="18" font="font9" id="p3_t9" reading_order_no="8" segment_no="1" tag_type="text">search is </text>
+<text top="283" left="602" width="103" height="18" font="font9" id="p3_t10" reading_order_no="9" segment_no="1" tag_type="text">impractical.</text>
+<text top="315" left="577" width="149" height="18" font="font9" id="p3_t11" reading_order_no="10" segment_no="2" tag_type="text">We need to use a </text>
+<text top="341" left="602" width="75" height="18" font="font9" id="p3_t12" reading_order_no="11" segment_no="2" tag_type="text">“smart” </text>
+<text top="367" left="602" width="84" height="18" font="font9" id="p3_t13" reading_order_no="12" segment_no="2" tag_type="text">inference </text>
+<text top="393" left="602" width="100" height="18" font="font9" id="p3_t14" reading_order_no="13" segment_no="2" tag_type="text">procedure: </text>
+<text top="419" left="602" width="86" height="18" font="font9" id="p3_t15" reading_order_no="14" segment_no="2" tag_type="text">min-sum, </text>
+<text top="446" left="602" width="96" height="18" font="font9" id="p3_t16" reading_order_no="15" segment_no="2" tag_type="text">Viterbi, .....</text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="595" width="794">
+	<fontspec id="font10" size="26" family="NimbusRomNo9L-Medi" color="#c0c0c0"/>
+	<fontspec id="font11" size="22" family="NimbusRomNo9L-Medi" color="#0000ff"/>
+	<fontspec id="font12" size="20" family="Verdana" color="#000000"/>
+<text top="578" left="0" width="77" height="13" font="font0" id="p4_t1" reading_order_no="0" segment_no="17" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="433" height="23" font="font10" id="p4_t2" reading_order_no="1" segment_no="0" tag_type="title">What Questions Can a Model Answer?</text>
+<text top="39" left="49" width="433" height="23" font="font7" id="p4_t3" reading_order_no="2" segment_no="0" tag_type="title">What Questions Can a Model Answer?</text>
+<text top="91" left="36" width="349" height="20" font="font11" id="p4_t4" reading_order_no="3" segment_no="1" tag_type="title">1. Classification &amp; Decision Making: </text>
+<text top="121" left="51" width="460" height="19" font="font12" id="p4_t5" reading_order_no="4" segment_no="2" tag_type="text">“which value of Y is most compatible with X?”</text>
+<text top="149" left="51" width="350" height="19" font="font12" id="p4_t6" reading_order_no="5" segment_no="3" tag_type="text">Applications: Robot navigation,.....</text>
+<text top="177" left="51" width="547" height="19" font="font12" id="p4_t7" reading_order_no="6" segment_no="4" tag_type="text">Training: give the lowest energy to the correct answer</text>
+<text top="214" left="36" width="110" height="20" font="font11" id="p4_t8" reading_order_no="7" segment_no="5" tag_type="title">2. Ranking:</text>
+<text top="245" left="51" width="386" height="19" font="font12" id="p4_t9" reading_order_no="8" segment_no="6" tag_type="text">“Is Y1 or Y2 more compatible with X?”</text>
+<text top="272" left="51" width="291" height="19" font="font12" id="p4_t10" reading_order_no="9" segment_no="7" tag_type="text">Applications: Data-mining....</text>
+<text top="300" left="51" width="591" height="19" font="font12" id="p4_t11" reading_order_no="10" segment_no="8" tag_type="text">Training: produce energies that rank the answers correctly</text>
+<text top="337" left="36" width="118" height="20" font="font11" id="p4_t12" reading_order_no="11" segment_no="9" tag_type="title">3. Detection:</text>
+<text top="368" left="51" width="385" height="19" font="font12" id="p4_t13" reading_order_no="12" segment_no="10" tag_type="text">“Is this value of Y compatible with X”?</text>
+<text top="396" left="51" width="297" height="19" font="font12" id="p4_t14" reading_order_no="13" segment_no="11" tag_type="text">Application: face detection....</text>
+<text top="423" left="51" width="677" height="19" font="font12" id="p4_t15" reading_order_no="14" segment_no="12" tag_type="text">Training: energies that increase as the image looks less like a face.</text>
+<text top="461" left="36" width="325" height="20" font="font11" id="p4_t16" reading_order_no="15" segment_no="13" tag_type="title">4. Conditional Density Estimation:</text>
+<text top="492" left="51" width="453" height="19" font="font12" id="p4_t17" reading_order_no="16" segment_no="14" tag_type="text">“What is the conditional distribution P(Y|X)?”</text>
+<text top="519" left="51" width="470" height="19" font="font12" id="p4_t18" reading_order_no="17" segment_no="15" tag_type="text">Application: feeding a decision-making system</text>
+<text top="547" left="51" width="495" height="19" font="font12" id="p4_t19" reading_order_no="18" segment_no="16" tag_type="text">Training: differences of energies must be just so.</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="595" width="794">
+	<fontspec id="font13" size="28" family="NimbusRomNo9L-Regu" color="#000000"/>
+<text top="578" left="0" width="77" height="13" font="font0" id="p5_t1" reading_order_no="1" segment_no="10" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="527" height="23" font="font10" id="p5_t2" reading_order_no="2" segment_no="0" tag_type="title">Decision-Making versus Probabilistic Modeling</text>
+<text top="39" left="49" width="527" height="23" font="font7" id="p5_t3" reading_order_no="3" segment_no="0" tag_type="title">Decision-Making versus Probabilistic Modeling</text>
+<text top="91" left="36" width="243" height="20" font="font11" id="p5_t4" reading_order_no="4" segment_no="1" tag_type="title">Energies are uncalibrated</text>
+<text top="121" left="51" width="689" height="19" font="font12" id="p5_t5" reading_order_no="5" segment_no="2" tag_type="text">The energies of two separately-trained systems cannot be combined</text>
+<text top="149" left="51" width="599" height="19" font="font12" id="p5_t6" reading_order_no="6" segment_no="3" tag_type="text">The energies are uncalibrated (measured in arbitrary untis)</text>
+<text top="186" left="36" width="286" height="20" font="font11" id="p5_t7" reading_order_no="7" segment_no="4" tag_type="title">How do we calibrate energies?</text>
+<text top="217" left="51" width="662" height="19" font="font12" id="p5_t8" reading_order_no="8" segment_no="5" tag_type="text">We turn them into probabilities (positive numbers that sum to 1).</text>
+<text top="245" left="51" width="327" height="19" font="font12" id="p5_t9" reading_order_no="9" segment_no="6" tag_type="text">Simplest way: Gibbs distribution</text>
+<text top="272" left="51" width="695" height="19" font="font12" id="p5_t10" reading_order_no="10" segment_no="7" tag_type="text">Other ways can be reduced to Gibbs by a suitable redefinition of the </text>
+<text top="297" left="69" width="76" height="19" font="font12" id="p5_t11" reading_order_no="11" segment_no="7" tag_type="text">energy.</text>
+<text top="493" left="133" width="204" height="25" font="font13" id="p5_t12" reading_order_no="0" segment_no="9" tag_type="text">Partition function </text>
+<text top="485" left="433" width="223" height="25" font="font13" id="p5_t13" reading_order_no="12" segment_no="8" tag_type="text">Inverse temperature</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="595" width="794">
+	<fontspec id="font14" size="24" family="NimbusRomNo9L-Regu" color="#000000"/>
+<text top="578" left="0" width="77" height="13" font="font0" id="p6_t1" reading_order_no="0" segment_no="9" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="353" height="23" font="font10" id="p6_t2" reading_order_no="1" segment_no="0" tag_type="title">Architecture and Loss Function</text>
+<text top="39" left="49" width="353" height="23" font="font7" id="p6_t3" reading_order_no="2" segment_no="0" tag_type="title">Architecture and Loss Function</text>
+<text top="99" left="36" width="251" height="20" font="font11" id="p6_t4" reading_order_no="3" segment_no="1" tag_type="title">Family of energy functions</text>
+<text top="144" left="36" width="114" height="20" font="font11" id="p6_t5" reading_order_no="4" segment_no="2" tag_type="title">Training set</text>
+<text top="195" left="36" width="287" height="20" font="font11" id="p6_t6" reading_order_no="5" segment_no="3" tag_type="title">Loss functional / Loss function</text>
+<text top="226" left="51" width="432" height="19" font="font12" id="p6_t7" reading_order_no="6" segment_no="4" tag_type="text">Measures the quality of an energy function</text>
+<text top="272" left="36" width="83" height="20" font="font11" id="p6_t8" reading_order_no="7" segment_no="5" tag_type="title">Training</text>
+<text top="315" left="36" width="257" height="20" font="font11" id="p6_t9" reading_order_no="8" segment_no="6" tag_type="title">Form of the loss functional </text>
+<text top="345" left="51" width="607" height="19" font="font12" id="p6_t10" reading_order_no="9" segment_no="7" tag_type="text">invariant under permutations and repetitions of the samples</text>
+<text top="495" left="176" width="108" height="22" font="font14" id="p6_t11" reading_order_no="10" segment_no="8" tag_type="figure">Per-sample</text>
+<text top="529" left="212" width="37" height="22" font="font14" id="p6_t12" reading_order_no="11" segment_no="8" tag_type="figure">loss</text>
+<text top="493" left="332" width="75" height="22" font="font14" id="p6_t13" reading_order_no="12" segment_no="8" tag_type="figure">Desired</text>
+<text top="528" left="335" width="68" height="22" font="font14" id="p6_t14" reading_order_no="13" segment_no="8" tag_type="figure">answer</text>
+<text top="465" left="440" width="145" height="22" font="font14" id="p6_t15" reading_order_no="14" segment_no="8" tag_type="figure">Energy surface</text>
+<text top="500" left="445" width="134" height="22" font="font14" id="p6_t16" reading_order_no="15" segment_no="8" tag_type="figure">for a given Xi</text>
+<text top="535" left="459" width="107" height="22" font="font14" id="p6_t17" reading_order_no="16" segment_no="8" tag_type="figure">as Y varies</text>
+<text top="477" left="636" width="112" height="22" font="font14" id="p6_t18" reading_order_no="17" segment_no="8" tag_type="figure">Regularizer</text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="595" width="794">
+	<fontspec id="font15" size="22" family="NimbusRomNo9L-Medi" color="#ff0000"/>
+<text top="578" left="0" width="77" height="13" font="font0" id="p7_t1" reading_order_no="0" segment_no="3" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="313" height="23" font="font10" id="p7_t2" reading_order_no="1" segment_no="0" tag_type="title">Designing a Loss Functional</text>
+<text top="39" left="49" width="313" height="23" font="font7" id="p7_t3" reading_order_no="2" segment_no="0" tag_type="title">Designing a Loss Functional</text>
+<text top="493" left="36" width="356" height="20" font="font11" id="p7_t4" reading_order_no="3" segment_no="1" tag_type="text">Correct answer has the lowest energy </text>
+<text top="493" left="393" width="141" height="20" font="font15" id="p7_t5" reading_order_no="4" segment_no="1" tag_type="text">-&gt; LOW LOSS</text>
+<text top="534" left="36" width="411" height="20" font="font11" id="p7_t6" reading_order_no="5" segment_no="2" tag_type="text">Lowest energy is not for the correct answer </text>
+<text top="534" left="448" width="147" height="20" font="font15" id="p7_t7" reading_order_no="6" segment_no="2" tag_type="text">-&gt; HIGH LOSS</text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p8_t1" reading_order_no="0" segment_no="3" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="313" height="23" font="font10" id="p8_t2" reading_order_no="1" segment_no="0" tag_type="title">Designing a Loss Functional</text>
+<text top="39" left="49" width="313" height="23" font="font7" id="p8_t3" reading_order_no="2" segment_no="0" tag_type="title">Designing a Loss Functional</text>
+<text top="461" left="79" width="439" height="20" font="font11" id="p8_t4" reading_order_no="3" segment_no="1" tag_type="text">Push down on the energy of the correct answer</text>
+<text top="502" left="79" width="674" height="20" font="font11" id="p8_t5" reading_order_no="4" segment_no="2" tag_type="text">Pull up on the energies of the incorrect answers, particularly if they are </text>
+<text top="530" left="103" width="264" height="20" font="font11" id="p8_t6" reading_order_no="5" segment_no="2" tag_type="text">smaller than the correct one</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="595" width="794">
+	<fontspec id="font16" size="24" family="NimbusRomNo9L-Regu" color="#0000ff"/>
+	<fontspec id="font17" size="20" family="NimbusRomNo9L-Regu" color="#000000"/>
+	<fontspec id="font18" size="24" family="NimbusRomNo9L-Medi" color="#ff0000"/>
+	<fontspec id="font19" size="24" family="NimbusRomNo9L-Medi" color="#0000ff"/>
+<text top="578" left="0" width="77" height="13" font="font0" id="p9_t1" reading_order_no="0" segment_no="7" tag_type="text">Yann LeCun</text>
+<text top="46" left="44" width="616" height="23" font="font6" id="p9_t2" reading_order_no="1" segment_no="0" tag_type="title">Architecture + Inference Algo + Loss Function = Model</text>
+<text top="37" left="35" width="616" height="23" font="font7" id="p9_t3" reading_order_no="2" segment_no="0" tag_type="title">Architecture + Inference Algo + Loss Function = Model</text>
+<text top="333" left="78" width="17" height="22" font="font16" id="p9_t4" reading_order_no="3" segment_no="1" tag_type="figure">X</text>
+<text top="333" left="163" width="17" height="22" font="font16" id="p9_t5" reading_order_no="4" segment_no="1" tag_type="figure">Y</text>
+<text top="117" left="80" width="100" height="22" font="font16" id="p9_t6" reading_order_no="5" segment_no="1" tag_type="figure">E(W,Y,X)</text>
+<text top="222" left="90" width="23" height="22" font="font16" id="p9_t7" reading_order_no="6" segment_no="1" tag_type="figure">W</text>
+<text top="128" left="243" width="225" height="18" font="font8" id="p9_t8" reading_order_no="7" segment_no="2" tag_type="list">1. Design an architecture: </text>
+<text top="128" left="469" width="262" height="18" font="font17" id="p9_t9" reading_order_no="8" segment_no="2" tag_type="list">a particular form for E(W,Y,X). </text>
+<text top="159" left="237" width="320" height="18" font="font8" id="p9_t10" reading_order_no="9" segment_no="3" tag_type="list"> 2. Pick an inference algorithm for Y:</text>
+<text top="160" left="557" width="170" height="18" font="font17" id="p9_t11" reading_order_no="10" segment_no="3" tag_type="list"> MAP or conditional </text>
+<text top="185" left="263" width="439" height="18" font="font17" id="p9_t12" reading_order_no="11" segment_no="3" tag_type="list">distribution, belief prop, min cut, variational methods, </text>
+<text top="209" left="263" width="284" height="18" font="font17" id="p9_t13" reading_order_no="12" segment_no="3" tag_type="list">gradient descent, MCMC, HMC.....</text>
+<text top="240" left="237" width="197" height="18" font="font8" id="p9_t14" reading_order_no="13" segment_no="4" tag_type="list"> 3. Pick a loss function:</text>
+<text top="240" left="435" width="309" height="18" font="font17" id="p9_t15" reading_order_no="14" segment_no="4" tag_type="list"> in such a way that minimizing it with </text>
+<text top="265" left="263" width="449" height="18" font="font17" id="p9_t16" reading_order_no="15" segment_no="4" tag_type="list">respect to W over a training set will make the inference </text>
+<text top="290" left="263" width="341" height="18" font="font17" id="p9_t17" reading_order_no="16" segment_no="4" tag_type="list">algorithm find the correct Y for a given X.</text>
+<text top="320" left="242" width="272" height="18" font="font8" id="p9_t18" reading_order_no="17" segment_no="5" tag_type="list">4. Pick an optimization method.</text>
+<text top="420" left="41" width="135" height="22" font="font18" id="p9_t19" reading_order_no="18" segment_no="6" tag_type="text">PROBLEM: </text>
+<text top="420" left="176" width="585" height="22" font="font19" id="p9_t20" reading_order_no="19" segment_no="6" tag_type="text">What loss functions will make the machine approach the </text>
+<text top="452" left="62" width="183" height="22" font="font19" id="p9_t21" reading_order_no="20" segment_no="6" tag_type="text">desired behavior?</text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p10_t1" reading_order_no="0" segment_no="5" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="568" height="23" font="font10" id="p10_t2" reading_order_no="1" segment_no="0" tag_type="title">Several Energy Surfaces can give the same answers</text>
+<text top="39" left="49" width="568" height="23" font="font7" id="p10_t3" reading_order_no="2" segment_no="0" tag_type="title">Several Energy Surfaces can give the same answers</text>
+<text top="410" left="79" width="287" height="20" font="font11" id="p10_t4" reading_order_no="3" segment_no="2" tag_type="text">Both surfaces compute Y=X^2</text>
+<text top="451" left="79" width="191" height="20" font="font11" id="p10_t5" reading_order_no="4" segment_no="3" tag_type="text">MINy E(Y,X) = X^2</text>
+<text top="491" left="79" width="495" height="20" font="font11" id="p10_t6" reading_order_no="5" segment_no="4" tag_type="text">Minimum-energy inference gives us the same answer</text>
+<text top="306" left="316" width="17" height="22" font="font14" id="p10_t7" reading_order_no="6" segment_no="1" tag_type="figure">X</text>
+<text top="305" left="118" width="17" height="22" font="font14" id="p10_t8" reading_order_no="7" segment_no="1" tag_type="figure">Y</text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p11_t1" reading_order_no="0" segment_no="2" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="235" height="23" font="font10" id="p11_t2" reading_order_no="1" segment_no="0" tag_type="title">Simple Architectures</text>
+<text top="39" left="49" width="235" height="23" font="font7" id="p11_t3" reading_order_no="2" segment_no="0" tag_type="title">Simple Architectures</text>
+<text top="424" left="66" width="102" height="20" font="font11" id="p11_t4" reading_order_no="3" segment_no="1" tag_type="figure">Regression</text>
+<text top="424" left="304" width="197" height="20" font="font11" id="p11_t5" reading_order_no="4" segment_no="1" tag_type="figure">Binary Classification</text>
+<text top="421" left="573" width="109" height="20" font="font11" id="p11_t6" reading_order_no="5" segment_no="1" tag_type="figure">Multi-class </text>
+<text top="450" left="598" width="127" height="20" font="font11" id="p11_t7" reading_order_no="6" segment_no="1" tag_type="figure">Classification</text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p12_t1" reading_order_no="0" segment_no="9" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="455" height="23" font="font10" id="p12_t2" reading_order_no="1" segment_no="0" tag_type="title">Simple Architecture: Implicit Regression</text>
+<text top="39" left="49" width="455" height="23" font="font7" id="p12_t3" reading_order_no="2" segment_no="0" tag_type="title">Simple Architecture: Implicit Regression</text>
+<text top="173" left="39" width="350" height="20" font="font11" id="p12_t4" reading_order_no="3" segment_no="1" tag_type="title">The Implicit Regression architecture </text>
+<text top="204" left="53" width="370" height="19" font="font12" id="p12_t5" reading_order_no="4" segment_no="2" tag_type="text">allows multiple answers to have low </text>
+<text top="228" left="72" width="76" height="19" font="font12" id="p12_t6" reading_order_no="5" segment_no="2" tag_type="text">energy.</text>
+<text top="256" left="53" width="392" height="19" font="font12" id="p12_t7" reading_order_no="6" segment_no="3" tag_type="text">Encodes a constraint between X and Y </text>
+<text top="280" left="72" width="336" height="19" font="font12" id="p12_t8" reading_order_no="7" segment_no="3" tag_type="text">rather than an explicit functional </text>
+<text top="305" left="72" width="117" height="19" font="font12" id="p12_t9" reading_order_no="8" segment_no="3" tag_type="text">relationship</text>
+<text top="333" left="53" width="355" height="19" font="font12" id="p12_t10" reading_order_no="9" segment_no="4" tag_type="text">This is useful for many applications</text>
+<text top="360" left="53" width="378" height="19" font="font12" id="p12_t11" reading_order_no="10" segment_no="5" tag_type="text">Example: sentence completion: “The </text>
+<text top="385" left="72" width="116" height="19" font="font12" id="p12_t12" reading_order_no="11" segment_no="5" tag_type="text">cat ate the </text>
+<text top="409" left="72" width="289" height="19" font="font12" id="p12_t13" reading_order_no="12" segment_no="6" tag_type="text">{mouse,bird,homework,...}”</text>
+<text top="437" left="53" width="203" height="19" font="font12" id="p12_t14" reading_order_no="13" segment_no="7" tag_type="text">[Bengio et al. 2003]</text>
+<text top="464" left="53" width="311" height="19" font="font12" id="p12_t15" reading_order_no="14" segment_no="8" tag_type="text">But, inference may be difficult.</text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="595" width="794">
+	<fontspec id="font20" size="24" family="NimbusRomNo9L-Medi" color="#ff0000"/>
+<text top="578" left="0" width="77" height="13" font="font0" id="p13_t1" reading_order_no="0" segment_no="5" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="463" height="23" font="font10" id="p13_t2" reading_order_no="1" segment_no="0" tag_type="title">Examples of Loss Functions: Energy Loss</text>
+<text top="39" left="49" width="463" height="23" font="font7" id="p13_t3" reading_order_no="2" segment_no="0" tag_type="title">Examples of Loss Functions: Energy Loss</text>
+<text top="116" left="36" width="117" height="20" font="font11" id="p13_t4" reading_order_no="3" segment_no="1" tag_type="title">Energy Loss</text>
+<text top="147" left="51" width="576" height="19" font="font12" id="p13_t5" reading_order_no="4" segment_no="2" tag_type="text">Simply pushes down on the energy of the correct answer</text>
+<text top="538" left="609" width="12" height="22" font="font20" id="p13_t6" reading_order_no="5" segment_no="4" tag_type="figure">C</text>
+<text top="526" left="621" width="13" height="22" font="font20" id="p13_t7" reading_order_no="6" segment_no="4" tag_type="figure">O</text>
+<text top="513" left="634" width="11" height="22" font="font20" id="p13_t8" reading_order_no="7" segment_no="4" tag_type="figure">L</text>
+<text top="502" left="645" width="11" height="22" font="font20" id="p13_t9" reading_order_no="8" segment_no="4" tag_type="figure">L</text>
+<text top="490" left="657" width="12" height="22" font="font20" id="p13_t10" reading_order_no="9" segment_no="4" tag_type="figure">A</text>
+<text top="478" left="669" width="20" height="22" font="font20" id="p13_t11" reading_order_no="10" segment_no="4" tag_type="figure">PS</text>
+<text top="458" left="688" width="11" height="22" font="font20" id="p13_t12" reading_order_no="11" segment_no="4" tag_type="figure">E</text>
+<text top="447" left="700" width="15" height="22" font="font20" id="p13_t13" reading_order_no="12" segment_no="4" tag_type="figure">S!</text>
+<text top="432" left="715" width="11" height="22" font="font20" id="p13_t14" reading_order_no="13" segment_no="4" tag_type="figure">!!</text>
+<text top="264" left="64" width="17" height="22" font="font20" id="p13_t15" reading_order_no="14" segment_no="3" tag_type="figure">W</text>
+<text top="248" left="80" width="13" height="22" font="font20" id="p13_t16" reading_order_no="15" segment_no="3" tag_type="figure">O</text>
+<text top="234" left="94" width="12" height="22" font="font20" id="p13_t17" reading_order_no="16" segment_no="3" tag_type="figure">R</text>
+<text top="222" left="106" width="13" height="22" font="font20" id="p13_t18" reading_order_no="17" segment_no="3" tag_type="figure">K</text>
+<text top="209" left="119" width="15" height="22" font="font20" id="p13_t19" reading_order_no="18" segment_no="3" tag_type="figure">S!</text>
+<text top="194" left="134" width="11" height="22" font="font20" id="p13_t20" reading_order_no="19" segment_no="3" tag_type="figure">!!</text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p14_t1" reading_order_no="0" segment_no="7" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="500" height="23" font="font10" id="p14_t2" reading_order_no="1" segment_no="0" tag_type="title">Examples of Loss Functions:Perceptron Loss</text>
+<text top="39" left="49" width="500" height="23" font="font7" id="p14_t3" reading_order_no="2" segment_no="0" tag_type="title">Examples of Loss Functions:Perceptron Loss</text>
+<text top="207" left="36" width="159" height="20" font="font11" id="p14_t4" reading_order_no="3" segment_no="1" tag_type="title">Perceptron Loss </text>
+<text top="238" left="51" width="500" height="19" font="font12" id="p14_t5" reading_order_no="4" segment_no="2" tag_type="text">Pushes down on the energy of the correct answer</text>
+<text top="265" left="51" width="479" height="19" font="font12" id="p14_t6" reading_order_no="5" segment_no="3" tag_type="text">Pulls up on the energy of the machine's answer</text>
+<text top="293" left="51" width="453" height="19" font="font12" id="p14_t7" reading_order_no="6" segment_no="4" tag_type="text">Always positive. Zero when answer is correct</text>
+<text top="320" left="51" width="681" height="19" font="font12" id="p14_t8" reading_order_no="7" segment_no="5" tag_type="text">No “margin”: technically does not prevent the energy surface from </text>
+<text top="345" left="70" width="176" height="19" font="font12" id="p14_t9" reading_order_no="8" segment_no="5" tag_type="text">being almost flat.</text>
+<text top="373" left="51" width="556" height="19" font="font12" id="p14_t10" reading_order_no="9" segment_no="6" tag_type="text">Works pretty well in practice, particularly if the energy </text>
+<text top="397" left="70" width="460" height="19" font="font12" id="p14_t11" reading_order_no="10" segment_no="6" tag_type="text">parameterization does not allow flat surfaces.</text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p15_t1" reading_order_no="0" segment_no="6" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="461" height="23" font="font10" id="p15_t2" reading_order_no="1" segment_no="0" tag_type="title">Perceptron Loss for Binary Classification</text>
+<text top="39" left="49" width="461" height="23" font="font7" id="p15_t3" reading_order_no="2" segment_no="0" tag_type="title">Perceptron Loss for Binary Classification</text>
+<text top="193" left="36" width="81" height="20" font="font11" id="p15_t4" reading_order_no="3" segment_no="1" tag_type="title">Energy: </text>
+<text top="252" left="36" width="102" height="20" font="font11" id="p15_t5" reading_order_no="4" segment_no="2" tag_type="title">Inference: </text>
+<text top="317" left="36" width="55" height="20" font="font11" id="p15_t6" reading_order_no="5" segment_no="3" tag_type="title">Loss: </text>
+<text top="388" left="36" width="149" height="20" font="font11" id="p15_t7" reading_order_no="6" segment_no="4" tag_type="title">Learning Rule: </text>
+<text top="453" left="37" width="229" height="20" font="font11" id="p15_t8" reading_order_no="7" segment_no="5" tag_type="title">If Gw(X) is linear in W: </text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p16_t1" reading_order_no="0" segment_no="4" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="629" height="23" font="font10" id="p16_t2" reading_order_no="1" segment_no="0" tag_type="title">Examples of Loss Functions: Generalized Margin Losses</text>
+<text top="39" left="49" width="629" height="23" font="font7" id="p16_t3" reading_order_no="2" segment_no="0" tag_type="title">Examples of Loss Functions: Generalized Margin Losses</text>
+<text top="190" left="36" width="449" height="20" font="font11" id="p16_t4" reading_order_no="3" segment_no="2" tag_type="title">Most Offending Incorrect Answer: discrete case</text>
+<text top="366" left="36" width="479" height="20" font="font11" id="p16_t5" reading_order_no="4" segment_no="3" tag_type="title">Most Offending Incorrect Answer: continuous case</text>
+<text top="116" left="36" width="258" height="20" font="font11" id="p16_t6" reading_order_no="5" segment_no="1" tag_type="text">First, we need to define the </text>
+<text top="116" left="295" width="319" height="20" font="font15" id="p16_t7" reading_order_no="6" segment_no="1" tag_type="text">Most Offending Incorrect Answer</text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="595" width="794">
+	<fontspec id="font21" size="20" family="Verdana" color="#ff0000"/>
+<text top="578" left="0" width="77" height="13" font="font0" id="p17_t1" reading_order_no="0" segment_no="5" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="629" height="23" font="font10" id="p17_t2" reading_order_no="1" segment_no="0" tag_type="title">Examples of Loss Functions: Generalized Margin Losses</text>
+<text top="39" left="49" width="629" height="23" font="font7" id="p17_t3" reading_order_no="2" segment_no="0" tag_type="title">Examples of Loss Functions: Generalized Margin Losses</text>
+<text top="176" left="479" width="238" height="20" font="font11" id="p17_t4" reading_order_no="3" segment_no="1" tag_type="title">Generalized Margin Loss</text>
+<text top="206" left="493" width="232" height="19" font="font12" id="p17_t5" reading_order_no="4" segment_no="2" tag_type="text">Qm increases with the </text>
+<text top="231" left="512" width="219" height="19" font="font12" id="p17_t6" reading_order_no="5" segment_no="2" tag_type="text">energy of the correct </text>
+<text top="255" left="512" width="72" height="19" font="font12" id="p17_t7" reading_order_no="6" segment_no="2" tag_type="text">answer</text>
+<text top="283" left="493" width="238" height="19" font="font12" id="p17_t8" reading_order_no="7" segment_no="3" tag_type="text">Qm decreases with the </text>
+<text top="308" left="512" width="142" height="19" font="font12" id="p17_t9" reading_order_no="8" segment_no="3" tag_type="text">energy of the </text>
+<text top="308" left="654" width="57" height="19" font="font21" id="p17_t10" reading_order_no="9" segment_no="3" tag_type="text">most </text>
+<text top="332" left="512" width="196" height="19" font="font21" id="p17_t11" reading_order_no="10" segment_no="3" tag_type="text">offending incorrect </text>
+<text top="357" left="512" width="72" height="19" font="font21" id="p17_t12" reading_order_no="11" segment_no="3" tag_type="text">answer</text>
+<text top="384" left="493" width="246" height="19" font="font12" id="p17_t13" reading_order_no="12" segment_no="4" tag_type="text">whenever it is less than </text>
+<text top="409" left="512" width="182" height="19" font="font12" id="p17_t14" reading_order_no="13" segment_no="4" tag_type="text">the energy of the </text>
+<text top="433" left="512" width="223" height="19" font="font12" id="p17_t15" reading_order_no="14" segment_no="4" tag_type="text">correct answer plus a </text>
+<text top="458" left="512" width="104" height="19" font="font21" id="p17_t16" reading_order_no="15" segment_no="4" tag_type="text">margin m.</text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p18_t1" reading_order_no="0" segment_no="6" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="446" height="23" font="font10" id="p18_t2" reading_order_no="1" segment_no="0" tag_type="title">Examples of Generalized Margin Losses</text>
+<text top="39" left="49" width="446" height="23" font="font7" id="p18_t3" reading_order_no="2" segment_no="0" tag_type="title">Examples of Generalized Margin Losses</text>
+<text top="170" left="55" width="110" height="20" font="font11" id="p18_t4" reading_order_no="3" segment_no="1" tag_type="title">Hinge Loss </text>
+<text top="200" left="69" width="396" height="19" font="font12" id="p18_t5" reading_order_no="4" segment_no="2" tag_type="text">With the linearly-parameterized binary </text>
+<text top="225" left="88" width="422" height="19" font="font12" id="p18_t6" reading_order_no="5" segment_no="2" tag_type="text">classifier architecture, we get linear SVMs</text>
+<text top="405" left="55" width="90" height="20" font="font11" id="p18_t7" reading_order_no="6" segment_no="3" tag_type="title">Log Loss </text>
+<text top="436" left="69" width="164" height="19" font="font12" id="p18_t8" reading_order_no="7" segment_no="4" tag_type="text">“soft hinge” loss</text>
+<text top="463" left="69" width="396" height="19" font="font12" id="p18_t9" reading_order_no="8" segment_no="5" tag_type="text">With the linearly-parameterized binary </text>
+<text top="488" left="88" width="367" height="19" font="font12" id="p18_t10" reading_order_no="9" segment_no="5" tag_type="text">classifier architecture, we get linear </text>
+<text top="512" left="88" width="192" height="19" font="font12" id="p18_t11" reading_order_no="10" segment_no="5" tag_type="text">Logistic Regression</text>
+</page>
+<page number="19" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p19_t1" reading_order_no="0" segment_no="6" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="546" height="23" font="font10" id="p19_t2" reading_order_no="1" segment_no="0" tag_type="title">Examples of Margin Losses: Square-Square Loss</text>
+<text top="39" left="49" width="546" height="23" font="font7" id="p19_t3" reading_order_no="2" segment_no="0" tag_type="title">Examples of Margin Losses: Square-Square Loss</text>
+<text top="170" left="45" width="195" height="20" font="font11" id="p19_t4" reading_order_no="3" segment_no="1" tag_type="title">Square-Square Loss </text>
+<text top="200" left="59" width="213" height="19" font="font12" id="p19_t5" reading_order_no="4" segment_no="2" tag_type="text">[LeCun-Huang 2005]</text>
+<text top="228" left="59" width="320" height="19" font="font12" id="p19_t6" reading_order_no="5" segment_no="3" tag_type="text">Appropriate for positive energy </text>
+<text top="252" left="78" width="92" height="19" font="font12" id="p19_t7" reading_order_no="6" segment_no="3" tag_type="text">functions</text>
+<text top="352" left="303" width="176" height="22" font="font14" id="p19_t8" reading_order_no="7" segment_no="4" tag_type="text">Learning Y = X^2</text>
+<text top="521" left="606" width="12" height="22" font="font20" id="p19_t9" reading_order_no="8" segment_no="5" tag_type="figure">N</text>
+<text top="509" left="618" width="13" height="22" font="font20" id="p19_t10" reading_order_no="9" segment_no="5" tag_type="figure">O</text>
+<text top="496" left="631" width="16" height="22" font="font20" id="p19_t11" reading_order_no="10" segment_no="5" tag_type="figure"> C</text>
+<text top="479" left="648" width="13" height="22" font="font20" id="p19_t12" reading_order_no="11" segment_no="5" tag_type="figure">O</text>
+<text top="466" left="661" width="11" height="22" font="font20" id="p19_t13" reading_order_no="12" segment_no="5" tag_type="figure">L</text>
+<text top="455" left="672" width="11" height="22" font="font20" id="p19_t14" reading_order_no="13" segment_no="5" tag_type="figure">L</text>
+<text top="444" left="683" width="12" height="22" font="font20" id="p19_t15" reading_order_no="14" segment_no="5" tag_type="figure">A</text>
+<text top="431" left="696" width="20" height="22" font="font20" id="p19_t16" reading_order_no="15" segment_no="5" tag_type="figure">PS</text>
+<text top="412" left="715" width="11" height="22" font="font20" id="p19_t17" reading_order_no="16" segment_no="5" tag_type="figure">E</text>
+<text top="400" left="727" width="11" height="22" font="font20" id="p19_t18" reading_order_no="17" segment_no="5" tag_type="figure">!!</text>
+<text top="389" left="738" width="6" height="22" font="font20" id="p19_t19" reading_order_no="18" segment_no="5" tag_type="figure">!</text>
+</page>
+<page number="20" position="absolute" top="0" left="0" height="595" width="794">
+	<fontspec id="font22" size="22" family="NimbusRomNo9L-Regu" color="#000000"/>
+<text top="578" left="0" width="77" height="13" font="font0" id="p20_t1" reading_order_no="0" segment_no="4" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="295" height="23" font="font10" id="p20_t2" reading_order_no="1" segment_no="0" tag_type="title">Other Margin-Like Losses</text>
+<text top="39" left="49" width="295" height="23" font="font7" id="p20_t3" reading_order_no="2" segment_no="0" tag_type="title">Other Margin-Like Losses</text>
+<text top="126" left="43" width="112" height="20" font="font11" id="p20_t4" reading_order_no="3" segment_no="1" tag_type="text">LVQ2 Loss </text>
+<text top="126" left="156" width="369" height="20" font="font22" id="p20_t5" reading_order_no="4" segment_no="1" tag_type="text">[Kohonen, Oja], Driancourt-Bottou 1991]</text>
+<text top="254" left="43" width="340" height="20" font="font11" id="p20_t6" reading_order_no="5" segment_no="2" tag_type="text">Minimum Classification Error Loss </text>
+<text top="254" left="384" width="218" height="20" font="font22" id="p20_t7" reading_order_no="6" segment_no="2" tag_type="text">[Juang, Chou, Lee 1997]</text>
+<text top="412" left="43" width="242" height="20" font="font11" id="p20_t8" reading_order_no="7" segment_no="3" tag_type="text">Square-Exponential Loss </text>
+<text top="413" left="285" width="278" height="20" font="font22" id="p20_t9" reading_order_no="8" segment_no="3" tag_type="text">[Osadchy, Miller, LeCun 2004]</text>
+</page>
+<page number="21" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p21_t1" reading_order_no="1" segment_no="5" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="333" height="23" font="font10" id="p21_t2" reading_order_no="2" segment_no="0" tag_type="title">Negative Log-Likelihood Loss</text>
+<text top="39" left="49" width="333" height="23" font="font7" id="p21_t3" reading_order_no="3" segment_no="0" tag_type="title">Negative Log-Likelihood Loss</text>
+<text top="103" left="43" width="602" height="20" font="font11" id="p21_t4" reading_order_no="4" segment_no="1" tag_type="text">Conditional probability of the samples (assuming independence)</text>
+<text top="285" left="43" width="180" height="20" font="font11" id="p21_t5" reading_order_no="5" segment_no="2" tag_type="text">Gibbs distribution:</text>
+<text top="418" left="43" width="446" height="20" font="font11" id="p21_t6" reading_order_no="0" segment_no="3" tag_type="formula">We get the NLL loss by dividing by P and Beta:</text>
+<text top="523" left="43" width="477" height="20" font="font11" id="p21_t7" reading_order_no="6" segment_no="4" tag_type="text">Reduces to the perceptron loss when Beta-&gt;infinity</text>
+</page>
+<page number="22" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p22_t1" reading_order_no="0" segment_no="3" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="333" height="23" font="font10" id="p22_t2" reading_order_no="1" segment_no="0" tag_type="title">Negative Log-Likelihood Loss</text>
+<text top="39" left="49" width="333" height="23" font="font7" id="p22_t3" reading_order_no="2" segment_no="0" tag_type="title">Negative Log-Likelihood Loss</text>
+<text top="112" left="43" width="458" height="20" font="font11" id="p22_t4" reading_order_no="3" segment_no="1" tag_type="text">Pushes down on the energy of the correct answer</text>
+<text top="152" left="43" width="673" height="20" font="font11" id="p22_t5" reading_order_no="4" segment_no="2" tag_type="text">Pulls up on the energies of all answers in proportion to their probability</text>
+</page>
+<page number="23" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p23_t1" reading_order_no="2" segment_no="4" tag_type="text">Yann LeCun</text>
+<text top="48" left="58" width="581" height="23" font="font10" id="p23_t2" reading_order_no="3" segment_no="0" tag_type="title">Negative Log-Likelihood Loss: Binary Classification</text>
+<text top="39" left="49" width="581" height="23" font="font7" id="p23_t3" reading_order_no="4" segment_no="0" tag_type="title">Negative Log-Likelihood Loss: Binary Classification</text>
+<text top="118" left="43" width="291" height="20" font="font11" id="p23_t4" reading_order_no="0" segment_no="1" tag_type="title">Binary Classifier Architecture:</text>
+<text top="316" left="43" width="360" height="20" font="font11" id="p23_t5" reading_order_no="1" segment_no="2" tag_type="title">Linear Binary Classifier Architecture:</text>
+<text top="449" left="43" width="317" height="20" font="font11" id="p23_t6" reading_order_no="5" segment_no="3" tag_type="title">Learning Rule: logistic regression</text>
+</page>
+<page number="24" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p24_t1" reading_order_no="0" segment_no="3" tag_type="text">Yann LeCun</text>
+<text top="57" left="58" width="262" height="23" font="font10" id="p24_t2" reading_order_no="1" segment_no="0" tag_type="title">What Makes a “Good” </text>
+<text top="91" left="58" width="157" height="23" font="font10" id="p24_t3" reading_order_no="3" segment_no="0" tag_type="title">Loss Function</text>
+<text top="49" left="49" width="262" height="23" font="font7" id="p24_t4" reading_order_no="2" segment_no="0" tag_type="title">What Makes a “Good” </text>
+<text top="82" left="49" width="157" height="23" font="font7" id="p24_t5" reading_order_no="4" segment_no="0" tag_type="title">Loss Function</text>
+<text top="149" left="38" width="280" height="20" font="font11" id="p24_t6" reading_order_no="5" segment_no="1" tag_type="text">Good loss functions make the </text>
+<text top="177" left="62" width="274" height="20" font="font11" id="p24_t7" reading_order_no="6" segment_no="1" tag_type="text">machine produce the correct </text>
+<text top="206" left="62" width="67" height="20" font="font11" id="p24_t8" reading_order_no="7" segment_no="1" tag_type="text">answer</text>
+<text top="237" left="52" width="243" height="19" font="font12" id="p24_t9" reading_order_no="8" segment_no="2" tag_type="text">Avoid collapses and flat </text>
+<text top="261" left="71" width="160" height="19" font="font12" id="p24_t10" reading_order_no="9" segment_no="2" tag_type="text">energy surfaces</text>
+</page>
+<page number="25" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p25_t1" reading_order_no="0" segment_no="2" tag_type="text">Yann LeCun</text>
+<text top="57" left="58" width="409" height="23" font="font10" id="p25_t2" reading_order_no="1" segment_no="0" tag_type="title">What Make a “Good” Loss Function</text>
+<text top="48" left="49" width="409" height="23" font="font7" id="p25_t3" reading_order_no="2" segment_no="0" tag_type="title">What Make a “Good” Loss Function</text>
+<text top="107" left="38" width="265" height="20" font="font11" id="p25_t4" reading_order_no="3" segment_no="1" tag_type="title">Good and bad loss functions</text>
+</page>
+<page number="26" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p26_t1" reading_order_no="0" segment_no="8" tag_type="text">Yann LeCun</text>
+<text top="57" left="58" width="484" height="23" font="font10" id="p26_t2" reading_order_no="1" segment_no="0" tag_type="title">Advantages/Disadvantages of various losses</text>
+<text top="48" left="49" width="484" height="23" font="font7" id="p26_t3" reading_order_no="2" segment_no="0" tag_type="title">Advantages/Disadvantages of various losses</text>
+<text top="107" left="38" width="687" height="20" font="font11" id="p26_t4" reading_order_no="3" segment_no="1" tag_type="text">Loss functions differ in how they pick the point(s) whose energy is pulled </text>
+<text top="136" left="62" width="345" height="20" font="font11" id="p26_t5" reading_order_no="4" segment_no="1" tag_type="text">up, and how much they pull them up</text>
+<text top="177" left="38" width="656" height="20" font="font11" id="p26_t6" reading_order_no="5" segment_no="2" tag_type="text">Losses with a log partition function in the contrastive term pull up all </text>
+<text top="205" left="62" width="308" height="20" font="font11" id="p26_t7" reading_order_no="6" segment_no="2" tag_type="text">the bad answers simultaneously. </text>
+<text top="236" left="52" width="647" height="19" font="font12" id="p26_t8" reading_order_no="7" segment_no="3" tag_type="text">This may be good if the gradient of the contrastive term can be </text>
+<text top="261" left="71" width="204" height="19" font="font12" id="p26_t9" reading_order_no="8" segment_no="3" tag_type="text">computed efficiently</text>
+<text top="288" left="52" width="656" height="19" font="font12" id="p26_t10" reading_order_no="9" segment_no="4" tag_type="text">This may be bad if it cannot, in which case we might as well use </text>
+<text top="313" left="71" width="487" height="19" font="font12" id="p26_t11" reading_order_no="10" segment_no="4" tag_type="text">a loss with a single point in the contrastive term</text>
+<text top="350" left="38" width="660" height="20" font="font11" id="p26_t12" reading_order_no="11" segment_no="5" tag_type="text">Variational methods pull up many points, but not as many as with the </text>
+<text top="379" left="62" width="243" height="20" font="font11" id="p26_t13" reading_order_no="12" segment_no="5" tag_type="text">full log partition function.</text>
+<text top="419" left="38" width="302" height="20" font="font15" id="p26_t14" reading_order_no="13" segment_no="6" tag_type="text">Efficiency of a loss/architecture:</text>
+<text top="419" left="340" width="371" height="20" font="font11" id="p26_t15" reading_order_no="14" segment_no="6" tag_type="text"> how many energies are pulled up for a </text>
+<text top="448" left="62" width="292" height="20" font="font11" id="p26_t16" reading_order_no="15" segment_no="6" tag_type="text">given amount of computation? </text>
+<text top="479" left="52" width="378" height="19" font="font12" id="p26_t17" reading_order_no="16" segment_no="7" tag_type="text">The theory for this is to be developed</text>
+</page>
+<page number="27" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p27_t1" reading_order_no="0" segment_no="0" tag_type="text">Yann LeCun</text>
+</page>
+<page number="28" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p28_t1" reading_order_no="0" segment_no="0" tag_type="text">Yann LeCun</text>
+</page>
+<page number="29" position="absolute" top="0" left="0" height="595" width="794">
+<text top="578" left="0" width="77" height="13" font="font0" id="p29_t1" reading_order_no="0" segment_no="0" tag_type="text">Yann LeCun</text>
+</page>
+<outline>
+<item page="1">Slide 1</item>
+<item page="2">Slide 2</item>
+<item page="3">Slide 3</item>
+<item page="4">Slide 4</item>
+<item page="5">Slide 5</item>
+<item page="6">Slide 6</item>
+<item page="7">Slide 7</item>
+<item page="8">Slide 8</item>
+<item page="9">Slide 9</item>
+<item page="10">Slide 10</item>
+<item page="11">Slide 11</item>
+<item page="12">Slide 12</item>
+<item page="13">Slide 13</item>
+<item page="14">Slide 14</item>
+<item page="15">Slide 15</item>
+<item page="16">Slide 16</item>
+<item page="17">Slide 17</item>
+<item page="18">Slide 18</item>
+<item page="19">Slide 19</item>
+<item page="20">Slide 20</item>
+<item page="21">Slide 21</item>
+<item page="22">Slide 22</item>
+<item page="23">Slide 23</item>
+<item page="24">Slide 24</item>
+<item page="25">Slide 25</item>
+<item page="26">Slide 26</item>
+<item page="27">Slide 27</item>
+<item page="28">Slide 28</item>
+<item page="29">Slide 29</item>
+</outline>
+</pdf2xml>

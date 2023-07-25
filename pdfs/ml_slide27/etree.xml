@@ -1,0 +1,809 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font0" size="15" family="HelveticaNeue" color="#929292"/>
+	<fontspec id="font1" size="15" family="HelveticaNeue-Thin" color="#000000"/>
+	<fontspec id="font2" size="42" family="HelveticaNeue-Medium" color="#000000"/>
+	<fontspec id="font3" size="37" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font4" size="24" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font5" size="24" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font6" size="31" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font7" size="31" family="HelveticaNeue" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p1_t1" reading_order_no="6" segment_no="5" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="992" width="8" height="16" font="font1" id="p1_t2" reading_order_no="7" segment_no="6" tag_type="text">1</text>
+<text top="615" left="188" width="672" height="39" font="font2" id="p1_t3" reading_order_no="4" segment_no="4" tag_type="title">A Brief Summary of the History of  </text>
+<text top="666" left="161" width="703" height="39" font="font2" id="p1_t4" reading_order_no="5" segment_no="4" tag_type="title">Neural Networks and Deep Learning</text>
+<text top="492" left="424" width="175" height="35" font="font3" id="p1_t5" reading_order_no="3" segment_no="3" tag_type="title">Lecture 02</text>
+<text top="100" left="409" width="206" height="23" font="font4" id="p1_t6" reading_order_no="1" segment_no="1" tag_type="text">Sebastian Raschka</text>
+<text top="135" left="299" width="426" height="23" font="font4" id="p1_t7" reading_order_no="2" segment_no="2" tag_type="text">http://stat.wisc.edu/~sraschka/teaching</text>
+<text top="45" left="80" width="892" height="29" font="font6" id="p1_t8" reading_order_no="0" segment_no="0" tag_type="title">STAT 453: Introduction to Deep Learning and Generative Models</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font8" size="41" family="HelveticaNeue,Bold" color="#000000"/>
+	<fontspec id="font9" size="41" family="HelveticaNeue" color="#929292"/>
+	<fontspec id="font10" size="41" family="HelveticaNeue" color="#929292"/>
+	<fontspec id="font11" size="80" family="HelveticaNeue-Medium" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p2_t1" reading_order_no="0" segment_no="6" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="992" width="8" height="16" font="font1" id="p2_t2" reading_order_no="1" segment_no="7" tag_type="text">2</text>
+<text top="264" left="87" width="395" height="38" font="font8" id="p2_t3" reading_order_no="2" segment_no="1" tag_type="list"><b>1. Artiﬁcial neurons </b></text>
+<text top="336" left="87" width="531" height="39" font="font9" id="p2_t4" reading_order_no="3" segment_no="2" tag_type="list">2. Multilayer neural networks</text>
+<text top="408" left="87" width="306" height="39" font="font9" id="p2_t5" reading_order_no="4" segment_no="3" tag_type="list">3. Deep learning</text>
+<text top="480" left="87" width="771" height="39" font="font9" id="p2_t6" reading_order_no="5" segment_no="4" tag_type="list">4. The DL hardware &amp; software landscape</text>
+<text top="552" left="87" width="484" height="39" font="font9" id="p2_t7" reading_order_no="6" segment_no="5" tag_type="list">5. Current research trends</text>
+<text top="81" left="239" width="541" height="75" font="font11" id="p2_t8" reading_order_no="7" segment_no="0" tag_type="title">Lecture Topics</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font12" size="15" family="HelveticaNeue-Light" color="#000000"/>
+	<fontspec id="font13" size="38" family="HelveticaNeue,Bold" color="#000000"/>
+	<fontspec id="font14" size="35" family="HelveticaNeue,Bold" color="#000000"/>
+	<fontspec id="font15" size="13" family="HelveticaNeue,Italic" color="#333333"/>
+	<fontspec id="font16" size="8" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font17" size="13" family="ArialMT" color="#222222"/>
+	<fontspec id="font18" size="13" family="Arial,Italic" color="#222222"/>
+	<fontspec id="font19" size="14" family="GillSans-Light" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p3_t1" reading_order_no="0" segment_no="7" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="992" width="8" height="11" font="font12" id="p3_t2" reading_order_no="1" segment_no="8" tag_type="text">3</text>
+<text top="36" left="62" width="900" height="35" font="font13" id="p3_t3" reading_order_no="2" segment_no="0" tag_type="title"><b>Neural Networks and Deep Learning -- A Timeline</b></text>
+<text top="121" left="171" width="656" height="32" font="font14" id="p3_t4" reading_order_no="3" segment_no="1" tag_type="title"><b>McCulloch &amp; Pitt's neuron model (1943)</b></text>
+<text top="379" left="78" width="107" height="12" font="font15" id="p3_t5" reading_order_no="4" segment_no="3" tag_type="figure"><i>Warren McCulloch</i></text>
+<text top="379" left="278" width="66" height="12" font="font15" id="p3_t6" reading_order_no="5" segment_no="3" tag_type="figure"><i>Walter Pitts</i></text>
+<text top="414" left="54" width="372" height="8" font="font16" id="p3_t7" reading_order_no="6" segment_no="4" tag_type="text">Image Source: https://www.i-programmer.info/babbages-bag/325-mcculloch-pitts-neural-networks.html</text>
+<text top="187" left="62" width="558" height="12" font="font17" id="p3_t8" reading_order_no="7" segment_no="2" tag_type="text">McCulloch, W. S., &amp; Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. </text>
+<text top="187" left="620" width="230" height="12" font="font18" id="p3_t9" reading_order_no="8" segment_no="2" tag_type="text"><i>The Bulletin of Mathematical Biophysics</i></text>
+<text top="187" left="850" width="7" height="12" font="font17" id="p3_t10" reading_order_no="9" segment_no="2" tag_type="text">, </text>
+<text top="187" left="857" width="7" height="12" font="font18" id="p3_t11" reading_order_no="10" segment_no="2" tag_type="text"><i>5</i></text>
+<text top="187" left="864" width="73" height="12" font="font17" id="p3_t12" reading_order_no="11" segment_no="2" tag_type="text">(4), 115-133.</text>
+<text top="465" left="595" width="326" height="23" font="font4" id="p3_t13" reading_order_no="12" segment_no="5" tag_type="text">Mathematical formulation of a </text>
+<text top="494" left="595" width="190" height="23" font="font4" id="p3_t14" reading_order_no="13" segment_no="5" tag_type="text">biological neuron,</text>
+<text top="523" left="595" width="296" height="23" font="font4" id="p3_t15" reading_order_no="14" segment_no="5" tag_type="text">could solve AND, OR, NOT </text>
+<text top="552" left="595" width="100" height="23" font="font4" id="p3_t16" reading_order_no="15" segment_no="5" tag_type="text">problems</text>
+<text top="475" left="427" width="34" height="14" font="font19" id="p3_t17" reading_order_no="16" segment_no="6" tag_type="figure">Axon </text>
+<text top="491" left="427" width="49" height="14" font="font19" id="p3_t18" reading_order_no="17" segment_no="6" tag_type="figure">terminals</text>
+<text top="513" left="293" width="74" height="14" font="font19" id="p3_t19" reading_order_no="18" segment_no="6" tag_type="figure">Myelin sheath</text>
+<text top="467" left="167" width="65" height="14" font="font19" id="p3_t20" reading_order_no="19" segment_no="6" tag_type="figure">Cell nucleus</text>
+<text top="601" left="84" width="54" height="14" font="font19" id="p3_t21" reading_order_no="20" segment_no="6" tag_type="figure">Dendrites</text>
+<text top="670" left="334" width="30" height="14" font="font19" id="p3_t22" reading_order_no="21" segment_no="6" tag_type="figure">Axon</text>
+<text top="496" left="39" width="28" height="14" font="font19" id="p3_t23" reading_order_no="22" segment_no="6" tag_type="figure">Input</text>
+<text top="513" left="38" width="35" height="14" font="font19" id="p3_t24" reading_order_no="23" segment_no="6" tag_type="figure">Signals</text>
+<text top="548" left="515" width="40" height="14" font="font19" id="p3_t25" reading_order_no="24" segment_no="6" tag_type="figure">Output</text>
+<text top="564" left="519" width="35" height="14" font="font19" id="p3_t26" reading_order_no="25" segment_no="6" tag_type="figure">Signals</text>
+<text top="643" left="50" width="28" height="14" font="font19" id="p3_t27" reading_order_no="26" segment_no="6" tag_type="figure">Input</text>
+<text top="660" left="48" width="35" height="14" font="font19" id="p3_t28" reading_order_no="27" segment_no="6" tag_type="figure">Signals</text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font20" size="12" family="GillSans-Light" color="#000000"/>
+	<fontspec id="font21" size="19" family="CMUSerif,Italic" color="#000000"/>
+	<fontspec id="font22" size="13" family="CMUSerif,Italic" color="#000000"/>
+	<fontspec id="font23" size="13" family="Arial,Italic" color="#000000"/>
+	<fontspec id="font24" size="12" family="ArialMT" color="#000000"/>
+	<fontspec id="font25" size="19" family="ArialMT" color="#000000"/>
+	<fontspec id="font26" size="15" family="CambriaMath" color="#000000"/>
+	<fontspec id="font27" size="8" family="CMUSerif,Italic" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p4_t1" reading_order_no="10" segment_no="4" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="992" width="8" height="11" font="font12" id="p4_t2" reading_order_no="11" segment_no="5" tag_type="text">4</text>
+<text top="158" left="16" width="326" height="23" font="font4" id="p4_t3" reading_order_no="12" segment_no="1" tag_type="text">Mathematical formulation of a </text>
+<text top="187" left="16" width="190" height="23" font="font4" id="p4_t4" reading_order_no="13" segment_no="1" tag_type="text">biological neuron,</text>
+<text top="216" left="16" width="296" height="23" font="font4" id="p4_t5" reading_order_no="14" segment_no="1" tag_type="text">could solve AND, OR, NOT </text>
+<text top="245" left="16" width="100" height="23" font="font4" id="p4_t6" reading_order_no="15" segment_no="1" tag_type="text">problems</text>
+<text top="361" left="362" width="29" height="12" font="font20" id="p4_t7" reading_order_no="16" segment_no="3" tag_type="figure">Axon </text>
+<text top="375" left="362" width="42" height="12" font="font20" id="p4_t8" reading_order_no="17" segment_no="3" tag_type="figure">terminals</text>
+<text top="394" left="247" width="63" height="12" font="font20" id="p4_t9" reading_order_no="18" segment_no="3" tag_type="figure">Myelin sheath</text>
+<text top="354" left="139" width="56" height="12" font="font20" id="p4_t10" reading_order_no="19" segment_no="3" tag_type="figure">Cell nucleus</text>
+<text top="469" left="67" width="46" height="12" font="font20" id="p4_t11" reading_order_no="20" segment_no="3" tag_type="figure">Dendrites</text>
+<text top="529" left="282" width="26" height="12" font="font20" id="p4_t12" reading_order_no="21" segment_no="3" tag_type="figure">Axon</text>
+<text top="379" left="30" width="24" height="12" font="font20" id="p4_t13" reading_order_no="22" segment_no="3" tag_type="figure">Input</text>
+<text top="393" left="28" width="30" height="12" font="font20" id="p4_t14" reading_order_no="23" segment_no="3" tag_type="figure">Signals</text>
+<text top="423" left="437" width="35" height="12" font="font20" id="p4_t15" reading_order_no="24" segment_no="3" tag_type="figure">Output</text>
+<text top="437" left="441" width="30" height="12" font="font20" id="p4_t16" reading_order_no="25" segment_no="3" tag_type="figure">Signals</text>
+<text top="505" left="38" width="24" height="12" font="font20" id="p4_t17" reading_order_no="26" segment_no="3" tag_type="figure">Input</text>
+<text top="519" left="37" width="30" height="12" font="font20" id="p4_t18" reading_order_no="27" segment_no="3" tag_type="figure">Signals</text>
+<text top="192" left="606" width="13" height="19" font="font21" id="p4_t19" reading_order_no="28" segment_no="2" tag_type="figure"><i>w</i></text>
+<text top="201" left="619" width="7" height="13" font="font22" id="p4_t20" reading_order_no="29" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="192" left="626" width="25" height="19" font="font21" id="p4_t21" reading_order_no="30" segment_no="2" tag_type="figure"><i>=1</i></text>
+<text top="192" left="564" width="9" height="19" font="font21" id="p4_t22" reading_order_no="31" segment_no="2" tag_type="figure"><i>x</i></text>
+<text top="201" left="572" width="7" height="13" font="font22" id="p4_t23" reading_order_no="32" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="231" left="679" width="36" height="10" font="font23" id="p4_t24" reading_order_no="33" segment_no="2" tag_type="figure"><i>t = 1.5</i></text>
+<text top="259" left="610" width="13" height="19" font="font21" id="p4_t25" reading_order_no="34" segment_no="2" tag_type="figure"><i>w</i></text>
+<text top="268" left="622" width="7" height="13" font="font22" id="p4_t26" reading_order_no="35" segment_no="2" tag_type="figure"><i>2</i></text>
+<text top="259" left="629" width="25" height="19" font="font21" id="p4_t27" reading_order_no="36" segment_no="2" tag_type="figure"><i>=1</i></text>
+<text top="255" left="561" width="9" height="19" font="font21" id="p4_t28" reading_order_no="37" segment_no="2" tag_type="figure"><i>x</i></text>
+<text top="264" left="570" width="7" height="13" font="font22" id="p4_t29" reading_order_no="38" segment_no="2" tag_type="figure"><i>2</i></text>
+<text top="262" left="521" width="26" height="11" font="font24" id="p4_t30" reading_order_no="39" segment_no="2" tag_type="figure">Input</text>
+<text top="259" left="782" width="35" height="11" font="font24" id="p4_t31" reading_order_no="40" segment_no="2" tag_type="figure">Output</text>
+<text top="224" left="793" width="9" height="19" font="font21" id="p4_t32" reading_order_no="41" segment_no="2" tag_type="figure"><i>y</i></text>
+<text top="196" left="523" width="26" height="11" font="font24" id="p4_t33" reading_order_no="42" segment_no="2" tag_type="figure">Input</text>
+<text top="171" left="810" width="41" height="14" font="font25" id="p4_t34" reading_order_no="43" segment_no="2" tag_type="figure">AND</text>
+<text top="356" left="609" width="13" height="19" font="font21" id="p4_t35" reading_order_no="44" segment_no="2" tag_type="figure"><i>w</i></text>
+<text top="365" left="621" width="7" height="13" font="font22" id="p4_t36" reading_order_no="45" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="356" left="628" width="25" height="19" font="font21" id="p4_t37" reading_order_no="46" segment_no="2" tag_type="figure"><i>=1</i></text>
+<text top="356" left="566" width="9" height="19" font="font21" id="p4_t38" reading_order_no="47" segment_no="2" tag_type="figure"><i>x</i></text>
+<text top="365" left="575" width="7" height="13" font="font22" id="p4_t39" reading_order_no="48" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="395" left="681" width="36" height="10" font="font23" id="p4_t40" reading_order_no="49" segment_no="2" tag_type="figure"><i>t = 0.5</i></text>
+<text top="423" left="612" width="13" height="19" font="font21" id="p4_t41" reading_order_no="50" segment_no="2" tag_type="figure"><i>w</i></text>
+<text top="432" left="625" width="7" height="13" font="font22" id="p4_t42" reading_order_no="51" segment_no="2" tag_type="figure"><i>2</i></text>
+<text top="423" left="631" width="25" height="19" font="font21" id="p4_t43" reading_order_no="52" segment_no="2" tag_type="figure"><i>=1</i></text>
+<text top="419" left="564" width="9" height="19" font="font21" id="p4_t44" reading_order_no="53" segment_no="2" tag_type="figure"><i>x</i></text>
+<text top="428" left="573" width="7" height="13" font="font22" id="p4_t45" reading_order_no="54" segment_no="2" tag_type="figure"><i>2</i></text>
+<text top="426" left="524" width="26" height="11" font="font24" id="p4_t46" reading_order_no="55" segment_no="2" tag_type="figure">Input</text>
+<text top="422" left="784" width="35" height="11" font="font24" id="p4_t47" reading_order_no="56" segment_no="2" tag_type="figure">Output</text>
+<text top="388" left="796" width="9" height="19" font="font21" id="p4_t48" reading_order_no="57" segment_no="2" tag_type="figure"><i>y</i></text>
+<text top="359" left="525" width="26" height="11" font="font24" id="p4_t49" reading_order_no="58" segment_no="2" tag_type="figure">Input</text>
+<text top="352" left="819" width="29" height="14" font="font25" id="p4_t50" reading_order_no="59" segment_no="2" tag_type="figure">OR</text>
+<text top="569" left="593" width="13" height="19" font="font21" id="p4_t51" reading_order_no="60" segment_no="2" tag_type="figure"><i>w</i></text>
+<text top="578" left="605" width="7" height="13" font="font22" id="p4_t52" reading_order_no="61" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="569" left="612" width="22" height="19" font="font21" id="p4_t53" reading_order_no="62" segment_no="2" tag_type="figure"><i>= </i></text>
+<text top="573" left="634" width="11" height="15" font="font26" id="p4_t54" reading_order_no="63" segment_no="2" tag_type="figure">−</text>
+<text top="569" left="645" width="10" height="19" font="font21" id="p4_t55" reading_order_no="64" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="551" left="569" width="9" height="19" font="font21" id="p4_t56" reading_order_no="65" segment_no="2" tag_type="figure"><i>x</i></text>
+<text top="559" left="578" width="7" height="13" font="font22" id="p4_t57" reading_order_no="66" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="558" left="677" width="48" height="10" font="font23" id="p4_t58" reading_order_no="67" segment_no="2" tag_type="figure"><i>t = -0.49</i></text>
+<text top="586" left="785" width="35" height="11" font="font24" id="p4_t59" reading_order_no="68" segment_no="2" tag_type="figure">Output</text>
+<text top="552" left="797" width="9" height="19" font="font21" id="p4_t60" reading_order_no="69" segment_no="2" tag_type="figure"><i>y</i></text>
+<text top="554" left="529" width="26" height="11" font="font24" id="p4_t61" reading_order_no="70" segment_no="2" tag_type="figure">Input</text>
+<text top="527" left="811" width="41" height="14" font="font25" id="p4_t62" reading_order_no="71" segment_no="2" tag_type="figure">NOT</text>
+<text top="172" left="868" width="6" height="13" font="font22" id="p4_t63" reading_order_no="0" segment_no="2" tag_type="figure"><i>x</i></text>
+<text top="178" left="874" width="4" height="6" font="font27" id="p4_t64" reading_order_no="1" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="172" left="903" width="6" height="13" font="font22" id="p4_t65" reading_order_no="72" segment_no="2" tag_type="figure"><i>x</i></text>
+<text top="178" left="909" width="4" height="6" font="font27" id="p4_t66" reading_order_no="73" segment_no="2" tag_type="figure"><i>2</i></text>
+<text top="172" left="940" width="6" height="13" font="font22" id="p4_t67" reading_order_no="74" segment_no="2" tag_type="figure"><i>y</i></text>
+<text top="198" left="870" width="7" height="13" font="font22" id="p4_t68" reading_order_no="75" segment_no="2" tag_type="figure"><i>0</i></text>
+<text top="198" left="905" width="7" height="13" font="font22" id="p4_t69" reading_order_no="2" segment_no="2" tag_type="figure"><i>0</i></text>
+<text top="198" left="940" width="7" height="13" font="font22" id="p4_t70" reading_order_no="76" segment_no="2" tag_type="figure"><i>0</i></text>
+<text top="225" left="870" width="7" height="13" font="font22" id="p4_t71" reading_order_no="77" segment_no="2" tag_type="figure"><i>0</i></text>
+<text top="225" left="905" width="7" height="13" font="font22" id="p4_t72" reading_order_no="3" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="225" left="940" width="7" height="13" font="font22" id="p4_t73" reading_order_no="78" segment_no="2" tag_type="figure"><i>0</i></text>
+<text top="251" left="870" width="7" height="13" font="font22" id="p4_t74" reading_order_no="79" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="251" left="905" width="7" height="13" font="font22" id="p4_t75" reading_order_no="4" segment_no="2" tag_type="figure"><i>0</i></text>
+<text top="251" left="940" width="7" height="13" font="font22" id="p4_t76" reading_order_no="80" segment_no="2" tag_type="figure"><i>0</i></text>
+<text top="274" left="870" width="7" height="13" font="font22" id="p4_t77" reading_order_no="81" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="274" left="905" width="7" height="13" font="font22" id="p4_t78" reading_order_no="5" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="274" left="940" width="7" height="13" font="font22" id="p4_t79" reading_order_no="82" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="352" left="868" width="6" height="13" font="font22" id="p4_t80" reading_order_no="83" segment_no="2" tag_type="figure"><i>x</i></text>
+<text top="358" left="874" width="4" height="6" font="font27" id="p4_t81" reading_order_no="84" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="352" left="903" width="6" height="13" font="font22" id="p4_t82" reading_order_no="85" segment_no="2" tag_type="figure"><i>x</i></text>
+<text top="358" left="909" width="4" height="6" font="font27" id="p4_t83" reading_order_no="86" segment_no="2" tag_type="figure"><i>2</i></text>
+<text top="352" left="939" width="6" height="13" font="font22" id="p4_t84" reading_order_no="87" segment_no="2" tag_type="figure"><i>y</i></text>
+<text top="378" left="870" width="7" height="13" font="font22" id="p4_t85" reading_order_no="88" segment_no="2" tag_type="figure"><i>0</i></text>
+<text top="378" left="905" width="7" height="13" font="font22" id="p4_t86" reading_order_no="6" segment_no="2" tag_type="figure"><i>0</i></text>
+<text top="378" left="939" width="7" height="13" font="font22" id="p4_t87" reading_order_no="89" segment_no="2" tag_type="figure"><i>0</i></text>
+<text top="405" left="870" width="7" height="13" font="font22" id="p4_t88" reading_order_no="90" segment_no="2" tag_type="figure"><i>0</i></text>
+<text top="405" left="905" width="7" height="13" font="font22" id="p4_t89" reading_order_no="7" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="405" left="939" width="7" height="13" font="font22" id="p4_t90" reading_order_no="91" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="431" left="870" width="7" height="13" font="font22" id="p4_t91" reading_order_no="92" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="431" left="905" width="7" height="13" font="font22" id="p4_t92" reading_order_no="8" segment_no="2" tag_type="figure"><i>0</i></text>
+<text top="431" left="939" width="7" height="13" font="font22" id="p4_t93" reading_order_no="93" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="454" left="870" width="7" height="13" font="font22" id="p4_t94" reading_order_no="94" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="454" left="905" width="7" height="13" font="font22" id="p4_t95" reading_order_no="9" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="454" left="939" width="7" height="13" font="font22" id="p4_t96" reading_order_no="95" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="530" left="869" width="6" height="13" font="font22" id="p4_t97" reading_order_no="96" segment_no="2" tag_type="figure"><i>x</i></text>
+<text top="535" left="875" width="4" height="6" font="font27" id="p4_t98" reading_order_no="97" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="530" left="941" width="6" height="13" font="font22" id="p4_t99" reading_order_no="98" segment_no="2" tag_type="figure"><i>y</i></text>
+<text top="553" left="871" width="7" height="13" font="font22" id="p4_t100" reading_order_no="99" segment_no="2" tag_type="figure"><i>0</i></text>
+<text top="553" left="940" width="7" height="13" font="font22" id="p4_t101" reading_order_no="100" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="580" left="871" width="7" height="13" font="font22" id="p4_t102" reading_order_no="101" segment_no="2" tag_type="figure"><i>1</i></text>
+<text top="580" left="940" width="7" height="13" font="font22" id="p4_t103" reading_order_no="102" segment_no="2" tag_type="figure"><i>0</i></text>
+<text top="60" left="184" width="656" height="32" font="font14" id="p4_t104" reading_order_no="103" segment_no="0" tag_type="title"><b>McCulloch &amp; Pitt's neuron model (1943)</b></text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font28" size="24" family="HelveticaNeue,Bold" color="#000000"/>
+	<fontspec id="font29" size="20" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font30" size="13" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font31" size="13" family="HelveticaNeue" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p5_t1" reading_order_no="0" segment_no="8" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="992" width="8" height="11" font="font12" id="p5_t2" reading_order_no="1" segment_no="9" tag_type="text">5</text>
+<text top="125" left="287" width="424" height="22" font="font28" id="p5_t3" reading_order_no="2" segment_no="1" tag_type="text"><b>Frank Rosenblatt's Perceptron (1957)</b></text>
+<text top="362" left="74" width="453" height="12" font="font17" id="p5_t4" reading_order_no="3" segment_no="6" tag_type="text">Hebb, D. O. (1949). The organization of behavior. A neuropsychological theory.</text>
+<text top="322" left="73" width="558" height="12" font="font17" id="p5_t5" reading_order_no="4" segment_no="5" tag_type="text">McCulloch, W. S., &amp; Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. </text>
+<text top="322" left="631" width="26" height="12" font="font18" id="p5_t6" reading_order_no="5" segment_no="5" tag_type="text"><i>The </i></text>
+<text top="337" left="73" width="201" height="12" font="font18" id="p5_t7" reading_order_no="6" segment_no="5" tag_type="text"><i>bulletin of mathematical biophysics</i></text>
+<text top="337" left="274" width="7" height="12" font="font17" id="p5_t8" reading_order_no="7" segment_no="5" tag_type="text">, </text>
+<text top="337" left="281" width="7" height="12" font="font18" id="p5_t9" reading_order_no="8" segment_no="5" tag_type="text"><i>5</i></text>
+<text top="337" left="289" width="73" height="12" font="font17" id="p5_t10" reading_order_no="9" segment_no="5" tag_type="text">(4), 115-133.</text>
+<text top="290" left="74" width="99" height="19" font="font29" id="p5_t11" reading_order_no="10" segment_no="4" tag_type="title">Inspired by</text>
+<text top="162" left="272" width="445" height="23" font="font4" id="p5_t12" reading_order_no="11" segment_no="2" tag_type="text">A learning algorithm for the neuron model</text>
+<text top="574" left="699" width="86" height="12" font="font30" id="p5_t13" reading_order_no="12" segment_no="7" tag_type="text">Image source: </text>
+<text top="589" left="699" width="168" height="12" font="font30" id="p5_t14" reading_order_no="13" segment_no="7" tag_type="text">https://en.wikipedia.org/wiki/</text>
+<text top="604" left="699" width="116" height="12" font="font30" id="p5_t15" reading_order_no="14" segment_no="7" tag_type="text">Perceptron#/media/</text>
+<text top="619" left="699" width="162" height="12" font="font30" id="p5_t16" reading_order_no="15" segment_no="7" tag_type="text">File:Mark_I_perceptron.jpeg</text>
+<text top="198" left="138" width="128" height="12" font="font17" id="p5_t17" reading_order_no="16" segment_no="3" tag_type="text">Rosenblatt, F. (1957). </text>
+<text top="198" left="266" width="401" height="12" font="font18" id="p5_t18" reading_order_no="17" segment_no="3" tag_type="text"><i>The perceptron, a perceiving and recognizing automaton Project Para</i></text>
+<text top="198" left="667" width="192" height="12" font="font17" id="p5_t19" reading_order_no="18" segment_no="3" tag_type="text">. Cornell Aeronautical Laboratory.</text>
+<text top="36" left="62" width="900" height="35" font="font13" id="p5_t20" reading_order_no="19" segment_no="0" tag_type="title"><b>Neural Networks and Deep Learning -- A Timeline</b></text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font32" size="24" family="HelveticaNeue,Bold" color="#000000"/>
+	<fontspec id="font33" size="9" family="HelveticaNeue" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p6_t1" reading_order_no="0" segment_no="6" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="992" width="8" height="11" font="font12" id="p6_t2" reading_order_no="1" segment_no="7" tag_type="text">6</text>
+<text top="125" left="301" width="175" height="22" font="font28" id="p6_t3" reading_order_no="2" segment_no="1" tag_type="text"><b>Widrow and Ho</b></text>
+<text top="125" left="476" width="15" height="26" font="font32" id="p6_t4" reading_order_no="3" segment_no="1" tag_type="text"><b>ﬀ</b></text>
+<text top="125" left="491" width="206" height="22" font="font28" id="p6_t5" reading_order_no="4" segment_no="1" tag_type="text"><b>'s ADALINE (1960)</b></text>
+<text top="163" left="308" width="110" height="23" font="font4" id="p6_t6" reading_order_no="5" segment_no="2" tag_type="text">A nicely di</text>
+<text top="163" left="418" width="14" height="26" font="font5" id="p6_t7" reading_order_no="6" segment_no="2" tag_type="text">ﬀ</text>
+<text top="163" left="432" width="266" height="23" font="font4" id="p6_t8" reading_order_no="7" segment_no="2" tag_type="text">erentiable neuron model </text>
+<text top="213" left="85" width="191" height="12" font="font17" id="p6_t9" reading_order_no="8" segment_no="3" tag_type="text">Widrow, B., &amp; Hoff, M. E. (1960). </text>
+<text top="213" left="276" width="152" height="12" font="font18" id="p6_t10" reading_order_no="9" segment_no="3" tag_type="text"><i>Adaptive switching circuits</i></text>
+<text top="213" left="428" width="360" height="12" font="font17" id="p6_t11" reading_order_no="10" segment_no="3" tag_type="text"> (No. TR-1553-1). Stanford Univ Ca Stanford Electronics Labs.</text>
+<text top="237" left="85" width="111" height="12" font="font17" id="p6_t12" reading_order_no="11" segment_no="4" tag_type="text">Widrow, B. (1960). </text>
+<text top="237" left="196" width="323" height="12" font="font18" id="p6_t13" reading_order_no="12" segment_no="4" tag_type="text"><i>Adaptive" adaline" Neuron Using Chemical" memistors."</i></text>
+<text top="237" left="519" width="4" height="12" font="font17" id="p6_t14" reading_order_no="13" segment_no="4" tag_type="text">.</text>
+<text top="614" left="165" width="295" height="8" font="font33" id="p6_t15" reading_order_no="14" segment_no="5" tag_type="text">Image source: https://www.researchgate.net/proﬁle/Alexander_Magoun2/</text>
+<text top="625" left="165" width="303" height="8" font="font33" id="p6_t16" reading_order_no="15" segment_no="5" tag_type="text">publication/265789430/ﬁgure/ﬁg2/AS:392335251787780@1470551421849/</text>
+<text top="636" left="165" width="309" height="8" font="font33" id="p6_t17" reading_order_no="16" segment_no="5" tag_type="text">ADALINE-An-adaptive-linear-neuron-Manually-adapted-synapses-Designed-</text>
+<text top="647" left="165" width="85" height="8" font="font33" id="p6_t18" reading_order_no="17" segment_no="5" tag_type="text">and-built-by-Ted.png</text>
+<text top="36" left="62" width="900" height="35" font="font13" id="p6_t19" reading_order_no="18" segment_no="0" tag_type="title"><b>Neural Networks and Deep Learning -- A Timeline</b></text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font34" size="33" family="HelveticaNeue,Bold" color="#000000"/>
+	<fontspec id="font35" size="33" family="HelveticaNeue,Bold" color="#ee220c"/>
+	<fontspec id="font36" size="13" family="Arial,Bold" color="#000000"/>
+	<fontspec id="font37" size="17" family="BookAntiqua" color="#000000"/>
+	<fontspec id="font38" size="29" family="Arial,Bold" color="#000000"/>
+	<fontspec id="font39" size="17" family="CambriaMath" color="#000000"/>
+	<fontspec id="font40" size="12" family="CambriaMath" color="#000000"/>
+	<fontspec id="font41" size="17" family="Calibri" color="#000000"/>
+	<fontspec id="font42" size="13" family="HelveticaNeue,BoldItalic" color="#000000"/>
+	<fontspec id="font43" size="13" family="HelveticaNeue,Italic" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p7_t1" reading_order_no="0" segment_no="9" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="992" width="8" height="11" font="font12" id="p7_t2" reading_order_no="1" segment_no="10" tag_type="text">7</text>
+<text top="96" left="48" width="175" height="22" font="font28" id="p7_t3" reading_order_no="2" segment_no="0" tag_type="text"><b>Widrow and Ho</b></text>
+<text top="97" left="223" width="15" height="26" font="font32" id="p7_t4" reading_order_no="3" segment_no="0" tag_type="text"><b>ﬀ</b></text>
+<text top="96" left="238" width="206" height="22" font="font28" id="p7_t5" reading_order_no="4" segment_no="0" tag_type="text"><b>'s ADALINE (1960)</b></text>
+<text top="134" left="47" width="110" height="23" font="font4" id="p7_t6" reading_order_no="5" segment_no="2" tag_type="text">A nicely di</text>
+<text top="134" left="157" width="14" height="26" font="font5" id="p7_t7" reading_order_no="6" segment_no="2" tag_type="text">ﬀ</text>
+<text top="134" left="171" width="266" height="23" font="font4" id="p7_t8" reading_order_no="7" segment_no="2" tag_type="text">erentiable neuron model </text>
+<text top="178" left="48" width="191" height="12" font="font17" id="p7_t9" reading_order_no="8" segment_no="3" tag_type="text">Widrow, B., &amp; Hoff, M. E. (1960). </text>
+<text top="178" left="239" width="152" height="12" font="font18" id="p7_t10" reading_order_no="9" segment_no="3" tag_type="text"><i>Adaptive switching circuits</i></text>
+<text top="178" left="391" width="360" height="12" font="font17" id="p7_t11" reading_order_no="10" segment_no="3" tag_type="text"> (No. TR-1553-1). Stanford Univ Ca Stanford Electronics Labs.</text>
+<text top="202" left="48" width="111" height="12" font="font17" id="p7_t12" reading_order_no="11" segment_no="4" tag_type="text">Widrow, B. (1960). </text>
+<text top="202" left="159" width="323" height="12" font="font18" id="p7_t13" reading_order_no="12" segment_no="4" tag_type="text"><i>Adaptive" adaline" Neuron Using Chemical" memistors."</i></text>
+<text top="202" left="482" width="4" height="12" font="font17" id="p7_t14" reading_order_no="13" segment_no="4" tag_type="text">.</text>
+<text top="104" left="487" width="487" height="31" font="font34" id="p7_t15" reading_order_no="15" segment_no="1" tag_type="text"><b>A "single layer neural network"</b></text>
+<text top="241" left="419" width="588" height="31" font="font35" id="p7_t16" reading_order_no="16" segment_no="6" tag_type="text"><b>Does the ﬁgure below remind you of  </b></text>
+<text top="281" left="453" width="520" height="31" font="font35" id="p7_t17" reading_order_no="18" segment_no="6" tag_type="text"><b>something you know from other  </b></text>
+<text top="321" left="560" width="289" height="31" font="font35" id="p7_t18" reading_order_no="21" segment_no="6" tag_type="text"><b>statistics classes?</b></text>
+<text top="213" left="355" width="512" height="23" font="font37" id="p7_t19" reading_order_no="14" segment_no="5" tag_type="text">DWKUHVKROGIXQFWLRQWRPDNHWKHÀQDOSUHGLFWLRQZKLFKLVVLPLODUWR</text>
+<text top="288" left="355" width="172" height="23" font="font37" id="p7_t20" reading_order_no="19" segment_no="6" tag_type="text">LQWKHIROORZLQJÀJXUH</text>
+<text top="819" left="355" width="552" height="41" font="font38" id="p7_t21" reading_order_no="17" segment_no="11" tag_type="not_found"><b>0LQLPL]LQJFRVWIXQFWLRQVZLWKJUDGLHQW</b></text>
+<text top="891" left="468" width="504" height="23" font="font37" id="p7_t22" reading_order_no="20" segment_no="12" tag_type="not_found">LQJUHGLHQWVRIVXSHUYLVHGPDFKLQHOHDUQLQJDOJRULWKPVLVDGHÀQHG</text>
+<text top="952" left="355" width="240" height="23" font="font37" id="p7_t23" reading_order_no="22" segment_no="13" tag_type="not_found">ZHFDQGHÀQHWKHFRVWIXQFWLRQ</text>
+<text top="1021" left="564" width="58" height="23" font="font39" id="p7_t24" reading_order_no="23" segment_no="18" tag_type="not_found">ܬሺ࢝ሻ ൌ </text>
+<text top="1008" left="624" width="9" height="23" font="font39" id="p7_t25" reading_order_no="25" segment_no="14" tag_type="not_found">ͳ</text>
+<text top="1032" left="624" width="55" height="23" font="font39" id="p7_t26" reading_order_no="27" segment_no="21" tag_type="not_found">ʹ ෍ ቀݕ</text>
+<text top="1019" left="680" width="15" height="17" font="font40" id="p7_t27" reading_order_no="29" segment_no="16" tag_type="not_found">ሺ௜ሻ</text>
+<text top="1021" left="699" width="44" height="23" font="font39" id="p7_t28" reading_order_no="31" segment_no="19" tag_type="not_found">െ ߶൫ݖ</text>
+<text top="1019" left="744" width="15" height="17" font="font40" id="p7_t29" reading_order_no="35" segment_no="17" tag_type="not_found">ሺ௜ሻ</text>
+<text top="1021" left="760" width="16" height="23" font="font39" id="p7_t30" reading_order_no="36" segment_no="20" tag_type="not_found">൯ቁ</text>
+<text top="1047" left="645" width="4" height="16" font="font40" id="p7_t31" reading_order_no="37" segment_no="22" tag_type="not_found">௜</text>
+<text top="1008" left="775" width="7" height="16" font="font40" id="p7_t32" reading_order_no="38" segment_no="15" tag_type="not_found">ଶ</text>
+<text top="527" left="55" width="295" height="8" font="font33" id="p7_t33" reading_order_no="24" segment_no="7" tag_type="text">Image source: https://www.researchgate.net/proﬁle/Alexander_Magoun2/</text>
+<text top="538" left="55" width="303" height="8" font="font33" id="p7_t34" reading_order_no="26" segment_no="7" tag_type="text">publication/265789430/ﬁgure/ﬁg2/AS:392335251787780@1470551421849/</text>
+<text top="549" left="55" width="327" height="8" font="font33" id="p7_t35" reading_order_no="28" segment_no="7" tag_type="text">ADALINE-An-adaptive-linear-neuron-Manually-adapted-synapses-Designed-and-</text>
+<text top="560" left="55" width="66" height="8" font="font33" id="p7_t36" reading_order_no="30" segment_no="7" tag_type="text">built-by-Ted.png</text>
+<text top="694" left="466" width="51" height="10" font="font42" id="p7_t37" reading_order_no="32" segment_no="8" tag_type="text"><i><b>Source: </b></i></text>
+<text top="694" left="517" width="170" height="12" font="font30" id="p7_t38" reading_order_no="33" segment_no="8" tag_type="text">Raschka and Mirjalily (2019). </text>
+<text top="694" left="686" width="218" height="12" font="font43" id="p7_t39" reading_order_no="34" segment_no="8" tag_type="text"><i>Python Machine Learning, 3rd Edition</i></text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font44" size="26" family="HelveticaNeue,Bold" color="#000000"/>
+	<fontspec id="font45" size="26" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font46" size="26" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font47" size="15" family="ArialMT" color="#222222"/>
+	<fontspec id="font48" size="15" family="Arial,Italic" color="#222222"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p8_t1" reading_order_no="0" segment_no="6" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="992" width="8" height="11" font="font12" id="p8_t2" reading_order_no="1" segment_no="7" tag_type="text">8</text>
+<text top="36" left="62" width="900" height="35" font="font13" id="p8_t3" reading_order_no="2" segment_no="0" tag_type="title"><b>Neural Networks and Deep Learning -- A Timeline</b></text>
+<text top="451" left="608" width="10" height="22" font="font28" id="p8_t4" reading_order_no="3" segment_no="5" tag_type="figure"><b>-</b></text>
+<text top="483" left="592" width="10" height="22" font="font28" id="p8_t5" reading_order_no="4" segment_no="5" tag_type="figure"><b>-</b></text>
+<text top="474" left="624" width="10" height="22" font="font28" id="p8_t6" reading_order_no="5" segment_no="5" tag_type="figure"><b>-</b></text>
+<text top="462" left="748" width="14" height="22" font="font28" id="p8_t7" reading_order_no="6" segment_no="5" tag_type="figure"><b>+</b></text>
+<text top="483" left="726" width="36" height="31" font="font28" id="p8_t8" reading_order_no="7" segment_no="5" tag_type="figure"><b>+ +</b></text>
+<text top="560" left="605" width="14" height="22" font="font28" id="p8_t9" reading_order_no="8" segment_no="5" tag_type="figure"><b>+</b></text>
+<text top="546" left="634" width="14" height="22" font="font28" id="p8_t10" reading_order_no="9" segment_no="5" tag_type="figure"><b>+</b></text>
+<text top="551" left="715" width="10" height="22" font="font28" id="p8_t11" reading_order_no="10" segment_no="5" tag_type="figure"><b>-</b></text>
+<text top="555" left="751" width="10" height="22" font="font28" id="p8_t12" reading_order_no="11" segment_no="5" tag_type="figure"><b>-</b></text>
+<text top="572" left="703" width="10" height="22" font="font28" id="p8_t13" reading_order_no="13" segment_no="5" tag_type="figure"><b>-</b></text>
+<text top="580" left="737" width="10" height="22" font="font28" id="p8_t14" reading_order_no="12" segment_no="5" tag_type="figure"><b>-</b></text>
+<text top="175" left="101" width="327" height="24" font="font44" id="p8_t15" reading_order_no="14" segment_no="1" tag_type="text"><b>Minsky and Pappert (1969)</b></text>
+<text top="175" left="429" width="244" height="24" font="font45" id="p8_t16" reading_order_no="15" segment_no="1" tag_type="text">: "Perceptrons" book</text>
+<text top="220" left="101" width="852" height="24" font="font45" id="p8_t17" reading_order_no="16" segment_no="2" tag_type="text">=&gt; Problem: Perceptrons (and ADALINEs) could not solve XOR problems!</text>
+<text top="265" left="101" width="619" height="24" font="font45" id="p8_t18" reading_order_no="17" segment_no="3" tag_type="text">=&gt; Neurons, a dead end? Start of the ﬁrst "AI Winter"</text>
+<text top="318" left="108" width="626" height="14" font="font47" id="p8_t19" reading_order_no="18" segment_no="4" tag_type="text">Minsky, M. L., &amp; Papert, S. A. (1969). Perceptrons: an introduction to computational geometry. </text>
+<text top="318" left="734" width="181" height="14" font="font48" id="p8_t20" reading_order_no="19" segment_no="4" tag_type="text"><i>MA: MIT Press, Cambridge</i></text>
+<text top="318" left="915" width="4" height="14" font="font47" id="p8_t21" reading_order_no="20" segment_no="4" tag_type="text">.</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font49" size="28" family="HelveticaNeue" color="#929292"/>
+	<fontspec id="font50" size="28" family="HelveticaNeue" color="#929292"/>
+	<fontspec id="font51" size="28" family="HelveticaNeue,Bold" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p9_t1" reading_order_no="0" segment_no="6" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="992" width="8" height="11" font="font12" id="p9_t2" reading_order_no="1" segment_no="7" tag_type="text">9</text>
+<text top="62" left="61" width="925" height="75" font="font11" id="p9_t3" reading_order_no="2" segment_no="0" tag_type="title">Training neural networks </text>
+<text top="159" left="156" width="711" height="75" font="font11" id="p9_t4" reading_order_no="3" segment_no="0" tag_type="title">with multiple layers</text>
+<text top="442" left="26" width="23" height="26" font="font49" id="p9_t5" reading_order_no="4" segment_no="1" tag_type="list">1.</text>
+<text top="442" left="77" width="208" height="26" font="font49" id="p9_t6" reading_order_no="5" segment_no="1" tag_type="list">Artiﬁcial neurons</text>
+<text top="491" left="26" width="23" height="26" font="font51" id="p9_t7" reading_order_no="6" segment_no="2" tag_type="list"><b>2.</b></text>
+<text top="491" left="77" width="362" height="26" font="font51" id="p9_t8" reading_order_no="7" segment_no="2" tag_type="list"><b>Multilayer neural networks </b></text>
+<text top="540" left="26" width="23" height="26" font="font49" id="p9_t9" reading_order_no="8" segment_no="3" tag_type="list">3.</text>
+<text top="540" left="77" width="174" height="26" font="font49" id="p9_t10" reading_order_no="9" segment_no="3" tag_type="list">Deep learning</text>
+<text top="589" left="26" width="23" height="26" font="font49" id="p9_t11" reading_order_no="10" segment_no="4" tag_type="list">4.</text>
+<text top="589" left="77" width="491" height="26" font="font49" id="p9_t12" reading_order_no="11" segment_no="4" tag_type="list">The DL hardware &amp; software landscape</text>
+<text top="638" left="26" width="23" height="26" font="font49" id="p9_t13" reading_order_no="12" segment_no="5" tag_type="list">5.</text>
+<text top="638" left="77" width="295" height="26" font="font49" id="p9_t14" reading_order_no="13" segment_no="5" tag_type="list">Current research trends</text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font52" size="18" family="HelveticaNeue,Italic" color="#000000"/>
+	<fontspec id="font53" size="18" family="HelveticaNeue,Italic" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p10_t1" reading_order_no="0" segment_no="3" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p10_t2" reading_order_no="1" segment_no="4" tag_type="text">10</text>
+<text top="670" left="592" width="363" height="19" font="font29" id="p10_t3" reading_order_no="2" segment_no="2" tag_type="text">https://alexlenail.me/NN-SVG/index.html</text>
+<text top="36" left="31" width="961" height="35" font="font13" id="p10_t4" reading_order_no="3" segment_no="0" tag_type="title"><b>Multilayer Neural Networks Can Solve XOR Problems</b></text>
+<text top="405" left="258" width="238" height="17" font="font52" id="p10_t5" reading_order_no="4" segment_no="1" tag_type="text"><i>Decision boundaries of two di</i></text>
+<text top="405" left="496" width="10" height="19" font="font53" id="p10_t6" reading_order_no="5" segment_no="1" tag_type="text"><i>ﬀ</i></text>
+<text top="405" left="506" width="376" height="17" font="font52" id="p10_t7" reading_order_no="6" segment_no="1" tag_type="text"><i>erent multilayer perceptrons on simulated data </i></text>
+<text top="427" left="258" width="200" height="17" font="font52" id="p10_t8" reading_order_no="7" segment_no="1" tag_type="text"><i>solving the XOR problem</i></text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font54" size="35" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font55" size="21" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font56" size="13" family="Arial,Bold" color="#222222"/>
+	<fontspec id="font57" size="13" family="Arial,BoldItalic" color="#222222"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p11_t1" reading_order_no="0" segment_no="10" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p11_t2" reading_order_no="1" segment_no="11" tag_type="text">11</text>
+<text top="113" left="65" width="12" height="37" font="font54" id="p11_t3" reading_order_no="2" segment_no="1" tag_type="list">•</text>
+<text top="117" left="91" width="742" height="23" font="font4" id="p11_t4" reading_order_no="3" segment_no="1" tag_type="list">Solution to the XOR problem: hidden layers and non-linear activation </text>
+<text top="146" left="91" width="99" height="23" font="font4" id="p11_t5" reading_order_no="4" segment_no="1" tag_type="list">functions</text>
+<text top="171" left="65" width="12" height="37" font="font54" id="p11_t6" reading_order_no="6" segment_no="2" tag_type="list">•</text>
+<text top="175" left="91" width="291" height="23" font="font4" id="p11_t7" reading_order_no="5" segment_no="2" tag_type="list">New problem: Hard to train</text>
+<text top="200" left="65" width="12" height="37" font="font54" id="p11_t8" reading_order_no="7" segment_no="3" tag_type="list">•</text>
+<text top="204" left="91" width="285" height="23" font="font4" id="p11_t9" reading_order_no="8" segment_no="3" tag_type="list">Solution: Backpropagation</text>
+<text top="360" left="66" width="637" height="20" font="font55" id="p11_t10" reading_order_no="9" segment_no="5" tag_type="text">http://people.idsia.ch/~juergen/who-invented-backpropagation.html</text>
+<text top="292" left="65" width="558" height="23" font="font4" id="p11_t11" reading_order_no="10" segment_no="4" tag_type="text">Note that backpropagation has been independently </text>
+<text top="321" left="65" width="273" height="23" font="font4" id="p11_t12" reading_order_no="11" segment_no="4" tag_type="text">formulated many times ...</text>
+<text top="421" left="65" width="715" height="23" font="font4" id="p11_t13" reading_order_no="12" segment_no="6" tag_type="text">Rumelhart and Hinton (1986) formulated it independently and then </text>
+<text top="450" left="65" width="723" height="23" font="font4" id="p11_t14" reading_order_no="13" segment_no="6" tag_type="text">showed that it really works (and formed the basis of all consequent </text>
+<text top="479" left="65" width="356" height="23" font="font4" id="p11_t15" reading_order_no="14" segment_no="6" tag_type="text">neural network and DL progress):</text>
+<text top="523" left="67" width="677" height="12" font="font56" id="p11_t16" reading_order_no="15" segment_no="7" tag_type="text"><b>Rumelhart, D. E., Hinton, G. E., &amp; Williams, R. J. (1986). Learning representations by back-propagating errors. </b></text>
+<text top="523" left="744" width="41" height="9" font="font57" id="p11_t17" reading_order_no="16" segment_no="7" tag_type="text"><i><b>Nature</b></i></text>
+<text top="523" left="785" width="7" height="12" font="font56" id="p11_t18" reading_order_no="17" segment_no="7" tag_type="text"><b>, </b></text>
+<text top="523" left="793" width="22" height="9" font="font57" id="p11_t19" reading_order_no="18" segment_no="7" tag_type="text"><i><b>323</b></i></text>
+<text top="523" left="814" width="70" height="12" font="font56" id="p11_t20" reading_order_no="19" segment_no="7" tag_type="text"><b>(6088), 533.</b></text>
+<text top="620" left="64" width="680" height="12" font="font56" id="p11_t21" reading_order_no="20" segment_no="9" tag_type="text"><b>Hornik, K., Stinchcombe, M., &amp; White, H. (1989). Multilayer feedforward networks are universal approximators. </b></text>
+<text top="620" left="745" width="101" height="9" font="font57" id="p11_t22" reading_order_no="21" segment_no="9" tag_type="text"><i><b>Neural networks</b></i></text>
+<text top="620" left="846" width="7" height="12" font="font56" id="p11_t23" reading_order_no="22" segment_no="9" tag_type="text"><b>, </b></text>
+<text top="620" left="853" width="7" height="9" font="font57" id="p11_t24" reading_order_no="23" segment_no="9" tag_type="text"><i><b>2</b></i></text>
+<text top="620" left="860" width="74" height="12" font="font56" id="p11_t25" reading_order_no="24" segment_no="9" tag_type="text"><b>(5), 359-366.</b></text>
+<text top="579" left="66" width="844" height="23" font="font4" id="p11_t26" reading_order_no="25" segment_no="8" tag_type="text">Also, it was later shown that "neural nets" are universal function approximators</text>
+<text top="36" left="145" width="734" height="35" font="font13" id="p11_t27" reading_order_no="26" segment_no="0" tag_type="title"><b>Multilayer Neural Networks -- A Timeline</b></text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="744" left="314" width="438" height="14" font="font0" id="p12_t1" reading_order_no="0" segment_no="4" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p12_t2" reading_order_no="1" segment_no="5" tag_type="text">12</text>
+<text top="36" left="62" width="900" height="35" font="font13" id="p12_t3" reading_order_no="2" segment_no="0" tag_type="title"><b>Neural Networks and Deep Learning -- A Timeline</b></text>
+<text top="99" left="67" width="715" height="23" font="font4" id="p12_t4" reading_order_no="3" segment_no="1" tag_type="text">Rumelhart and Hinton (1986) formulated it independently and then </text>
+<text top="128" left="67" width="723" height="23" font="font4" id="p12_t5" reading_order_no="4" segment_no="1" tag_type="text">showed that it really works (and formed the basis of all consequent </text>
+<text top="157" left="67" width="356" height="23" font="font4" id="p12_t6" reading_order_no="5" segment_no="1" tag_type="text">neural network and DL progress):</text>
+<text top="202" left="65" width="677" height="12" font="font56" id="p12_t7" reading_order_no="6" segment_no="2" tag_type="text"><b>Rumelhart, D. E., Hinton, G. E., &amp; Williams, R. J. (1986). Learning representations by back-propagating errors. </b></text>
+<text top="202" left="742" width="41" height="9" font="font57" id="p12_t8" reading_order_no="7" segment_no="2" tag_type="text"><i><b>Nature</b></i></text>
+<text top="202" left="783" width="7" height="12" font="font56" id="p12_t9" reading_order_no="8" segment_no="2" tag_type="text"><b>, </b></text>
+<text top="202" left="791" width="22" height="9" font="font57" id="p12_t10" reading_order_no="9" segment_no="2" tag_type="text"><i><b>323</b></i></text>
+<text top="202" left="812" width="70" height="12" font="font56" id="p12_t11" reading_order_no="10" segment_no="2" tag_type="text"><b>(6088), 533.</b></text>
+<text top="608" left="159" width="48" height="17" font="font52" id="p12_t12" reading_order_no="11" segment_no="3" tag_type="text"><i>– Geo</i></text>
+<text top="609" left="207" width="10" height="19" font="font53" id="p12_t13" reading_order_no="12" segment_no="3" tag_type="text"><i>ﬀ</i></text>
+<text top="608" left="217" width="570" height="17" font="font52" id="p12_t14" reading_order_no="13" segment_no="3" tag_type="text"><i>rey Hinton in Talking Nets - An Oral History of Neural Networks, pg. 380</i></text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="744" left="314" width="438" height="14" font="font0" id="p13_t1" reading_order_no="0" segment_no="1" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p13_t2" reading_order_no="1" segment_no="2" tag_type="text">13</text>
+<text top="31" left="306" width="434" height="35" font="font13" id="p13_t3" reading_order_no="2" segment_no="0" tag_type="title"><b>Interview with Experts:  </b></text>
+<text top="77" left="205" width="615" height="35" font="font13" id="p13_t4" reading_order_no="3" segment_no="0" tag_type="title"><b>Suggestions for Pleasure Reading</b></text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font58" size="17" family="ArialMT" color="#222222"/>
+	<fontspec id="font59" size="17" family="Arial,Italic" color="#222222"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p14_t1" reading_order_no="0" segment_no="1" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p14_t2" reading_order_no="1" segment_no="2" tag_type="text">14</text>
+<text top="621" left="49" width="800" height="16" font="font58" id="p14_t3" reading_order_no="2" segment_no="0" tag_type="text">Lillicrap, T. P., Santoro, A., Marris, L., Akerman, C. J., &amp; Hinton, G. (2020). Backpropagation and the brain. </text>
+<text top="621" left="849" width="125" height="16" font="font59" id="p14_t4" reading_order_no="3" segment_no="0" tag_type="text"><i>Nature Reviews </i></text>
+<text top="641" left="49" width="104" height="16" font="font59" id="p14_t5" reading_order_no="4" segment_no="0" tag_type="text"><i>Neuroscience</i></text>
+<text top="641" left="153" width="9" height="16" font="font58" id="p14_t6" reading_order_no="5" segment_no="0" tag_type="text">, </text>
+<text top="641" left="163" width="19" height="16" font="font59" id="p14_t7" reading_order_no="6" segment_no="0" tag_type="text"><i>21</i></text>
+<text top="641" left="182" width="97" height="16" font="font58" id="p14_t8" reading_order_no="7" segment_no="0" tag_type="text">(6), 335-346.</text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font60" size="24" family="ArialMT" color="#000000"/>
+	<fontspec id="font61" size="16" family="ArialMT" color="#000000"/>
+	<fontspec id="font62" size="16" family="HelveticaNeue" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p15_t1" reading_order_no="0" segment_no="2" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p15_t2" reading_order_no="1" segment_no="3" tag_type="text">15</text>
+<text top="654" left="114" width="8" height="22" font="font60" id="p15_t3" reading_order_no="2" segment_no="1" tag_type="text">•</text>
+<text top="657" left="139" width="597" height="15" font="font61" id="p15_t4" reading_order_no="3" segment_no="1" tag_type="text">"inductive biases stipulate the properties that we believe our model should have in </text>
+<text top="676" left="139" width="602" height="15" font="font61" id="p15_t5" reading_order_no="4" segment_no="1" tag_type="text">order to generalize to future data; they thus encode our key assumptions about the </text>
+<text top="695" left="139" width="112" height="15" font="font61" id="p15_t6" reading_order_no="5" segment_no="1" tag_type="text">problem itself." </text>
+<text top="574" left="565" width="415" height="15" font="font62" id="p15_t7" reading_order_no="6" segment_no="0" tag_type="text">Source: https://sgﬁn.github.io/2020/06/22/Induction-Intro/</text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="740" left="314" width="438" height="14" font="font0" id="p16_t1" reading_order_no="0" segment_no="7" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="742" left="988" width="17" height="11" font="font12" id="p16_t2" reading_order_no="1" segment_no="8" tag_type="text">16</text>
+<text top="28" left="38" width="562" height="75" font="font11" id="p16_t3" reading_order_no="2" segment_no="0" tag_type="title">The Origins of  </text>
+<text top="125" left="38" width="541" height="75" font="font11" id="p16_t4" reading_order_no="3" segment_no="0" tag_type="title">Deep Learning</text>
+<text top="427" left="28" width="23" height="26" font="font49" id="p16_t5" reading_order_no="4" segment_no="2" tag_type="list">1.</text>
+<text top="427" left="80" width="208" height="26" font="font49" id="p16_t6" reading_order_no="5" segment_no="2" tag_type="list">Artiﬁcial neurons</text>
+<text top="476" left="28" width="23" height="26" font="font49" id="p16_t7" reading_order_no="6" segment_no="3" tag_type="list">2.</text>
+<text top="476" left="80" width="328" height="26" font="font49" id="p16_t8" reading_order_no="7" segment_no="3" tag_type="list">Multilayer neural networks</text>
+<text top="525" left="28" width="23" height="26" font="font51" id="p16_t9" reading_order_no="8" segment_no="4" tag_type="list"><b>3.</b></text>
+<text top="525" left="80" width="194" height="26" font="font51" id="p16_t10" reading_order_no="9" segment_no="4" tag_type="list"><b>Deep learning </b></text>
+<text top="574" left="28" width="23" height="26" font="font49" id="p16_t11" reading_order_no="10" segment_no="5" tag_type="list">4.</text>
+<text top="574" left="80" width="491" height="26" font="font49" id="p16_t12" reading_order_no="11" segment_no="5" tag_type="list">The DL hardware &amp; software landscape</text>
+<text top="623" left="28" width="23" height="26" font="font49" id="p16_t13" reading_order_no="12" segment_no="6" tag_type="list">5.</text>
+<text top="623" left="80" width="295" height="26" font="font49" id="p16_t14" reading_order_no="13" segment_no="6" tag_type="list">Current research trends</text>
+<text top="247" left="42" width="802" height="29" font="font6" id="p16_t15" reading_order_no="14" segment_no="1" tag_type="text">Representation learning with advanced architectures with </text>
+<text top="285" left="42" width="706" height="29" font="font6" id="p16_t16" reading_order_no="15" segment_no="1" tag_type="text">many layers &amp; algorithmic improvements for better </text>
+<text top="323" left="42" width="223" height="29" font="font6" id="p16_t17" reading_order_no="16" segment_no="1" tag_type="text">computational e</text>
+<text top="324" left="265" width="25" height="33" font="font7" id="p16_t18" reading_order_no="17" segment_no="1" tag_type="text">ﬃ</text>
+<text top="323" left="290" width="337" height="29" font="font6" id="p16_t19" reading_order_no="18" segment_no="1" tag_type="text">ciency and convergence</text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font63" size="38" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font64" size="16" family="ArialMT" color="#222222"/>
+	<fontspec id="font65" size="16" family="Arial,Italic" color="#222222"/>
+	<fontspec id="font66" size="19" family="HelveticaNeue" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p17_t1" reading_order_no="0" segment_no="9" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p17_t2" reading_order_no="1" segment_no="10" tag_type="text">17</text>
+<text top="92" left="65" width="749" height="24" font="font45" id="p17_t3" reading_order_no="2" segment_no="1" tag_type="text">Shortly after followed a breakthrough in image recognition using </text>
+<text top="124" left="65" width="356" height="24" font="font45" id="p17_t4" reading_order_no="3" segment_no="1" tag_type="text">some clever enhancements to </text>
+<text top="188" left="65" width="282" height="24" font="font45" id="p17_t5" reading_order_no="4" segment_no="2" tag_type="list">a) make training more e</text>
+<text top="188" left="348" width="21" height="28" font="font46" id="p17_t6" reading_order_no="5" segment_no="2" tag_type="list">ﬃ</text>
+<text top="188" left="368" width="56" height="24" font="font45" id="p17_t7" reading_order_no="6" segment_no="2" tag_type="list">cient</text>
+<text top="220" left="65" width="604" height="24" font="font45" id="p17_t8" reading_order_no="7" segment_no="3" tag_type="list">b) extract local features (and better capture feature </text>
+<text top="252" left="103" width="151" height="24" font="font45" id="p17_t9" reading_order_no="8" segment_no="3" tag_type="list">dependency)</text>
+<text top="316" left="65" width="36" height="24" font="font45" id="p17_t10" reading_order_no="9" segment_no="4" tag_type="text">by </text>
+<text top="376" left="65" width="13" height="40" font="font63" id="p17_t11" reading_order_no="10" segment_no="5" tag_type="list">•</text>
+<text top="380" left="92" width="172" height="24" font="font45" id="p17_t12" reading_order_no="11" segment_no="5" tag_type="list">Weight sharing</text>
+<text top="408" left="65" width="13" height="40" font="font63" id="p17_t13" reading_order_no="12" segment_no="5" tag_type="list">•</text>
+<text top="412" left="92" width="88" height="24" font="font45" id="p17_t14" reading_order_no="13" segment_no="5" tag_type="list">Pooling</text>
+<text top="440" left="65" width="13" height="40" font="font63" id="p17_t15" reading_order_no="14" segment_no="6" tag_type="text">•</text>
+<text top="452" left="57" width="449" height="15" font="font64" id="p17_t16" reading_order_no="15" segment_no="6" tag_type="text">LeCun, Y., Boser, B., Denker, J. S., Henderson, D., Howard, R. </text>
+<text top="470" left="57" width="409" height="15" font="font64" id="p17_t17" reading_order_no="16" segment_no="6" tag_type="text">E., Hubbard, W., &amp; Jackel, L. D. (1989). Backpropagation </text>
+<text top="488" left="57" width="312" height="15" font="font64" id="p17_t18" reading_order_no="17" segment_no="7" tag_type="text">applied to handwritten zip code recognition. </text>
+<text top="488" left="370" width="139" height="15" font="font65" id="p17_t19" reading_order_no="18" segment_no="7" tag_type="text"><i>Neural computation</i></text>
+<text top="488" left="508" width="9" height="15" font="font64" id="p17_t20" reading_order_no="19" segment_no="7" tag_type="text">, </text>
+<text top="506" left="57" width="9" height="15" font="font65" id="p17_t21" reading_order_no="20" segment_no="7" tag_type="text"><i>1</i></text>
+<text top="506" left="66" width="92" height="15" font="font64" id="p17_t22" reading_order_no="21" segment_no="7" tag_type="text">(4), 541-551.</text>
+<text top="562" left="60" width="480" height="18" font="font66" id="p17_t23" reading_order_no="22" segment_no="8" tag_type="text">(the origin of Convolutional Neural Networks and MNIST)</text>
+<text top="36" left="239" width="564" height="35" font="font13" id="p17_t24" reading_order_no="23" segment_no="0" tag_type="title"><b>Convolutional Neural Networks</b></text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font67" size="29" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font68" size="21" family="HelveticaNeue,Italic" color="#000000"/>
+	<fontspec id="font69" size="21" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font70" size="19" family="ArialMT" color="#222222"/>
+	<fontspec id="font71" size="19" family="Arial,Italic" color="#222222"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p18_t1" reading_order_no="1" segment_no="8" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p18_t2" reading_order_no="0" segment_no="3" tag_type="text">18</text>
+<text top="135" left="90" width="810" height="27" font="font67" id="p18_t3" reading_order_no="2" segment_no="1" tag_type="text">Recurrent Neural Networks and Backpropagation through time</text>
+<text top="430" left="70" width="274" height="20" font="font55" id="p18_t4" reading_order_no="3" segment_no="5" tag_type="text">Schmidhuber, Jürgen (1993). </text>
+<text top="430" left="345" width="499" height="20" font="font68" id="p18_t5" reading_order_no="4" segment_no="5" tag_type="text"><i>Habilitation thesis: System modeling and optimization</i></text>
+<text top="430" left="844" width="12" height="20" font="font55" id="p18_t6" reading_order_no="5" segment_no="5" tag_type="text">. </text>
+<text top="455" left="70" width="95" height="20" font="font55" id="p18_t7" reading_order_no="6" segment_no="5" tag_type="text">Page 150 </text>
+<text top="455" left="165" width="12" height="23" font="font69" id="p18_t8" reading_order_no="7" segment_no="5" tag_type="text">ﬀ</text>
+<text top="455" left="177" width="685" height="20" font="font55" id="p18_t9" reading_order_no="8" segment_no="5" tag_type="text"> demonstrates credit assignment across the equivalent of 1,200 layers in </text>
+<text top="480" left="70" width="168" height="20" font="font55" id="p18_t10" reading_order_no="9" segment_no="5" tag_type="text">an unfolded RNN.</text>
+<text top="175" left="88" width="568" height="20" font="font55" id="p18_t11" reading_order_no="10" segment_no="2" tag_type="text">Some time created in the 1980's based on Rumelhart's work</text>
+<text top="374" left="69" width="655" height="27" font="font67" id="p18_t12" reading_order_no="11" segment_no="4" tag_type="text">New problems: vanishing and exploding gradients!</text>
+<text top="555" left="68" width="659" height="27" font="font67" id="p18_t13" reading_order_no="12" segment_no="6" tag_type="text">Solution: LSTMs (still popular and commonly used)</text>
+<text top="608" left="70" width="568" height="18" font="font70" id="p18_t14" reading_order_no="13" segment_no="7" tag_type="text">Hochreiter, S., &amp; Schmidhuber, J. (1997). Long short-term memory. </text>
+<text top="608" left="637" width="165" height="18" font="font71" id="p18_t15" reading_order_no="14" segment_no="7" tag_type="text"><i>Neural computation</i></text>
+<text top="608" left="802" width="11" height="18" font="font70" id="p18_t16" reading_order_no="15" segment_no="7" tag_type="text">, </text>
+<text top="608" left="813" width="11" height="18" font="font71" id="p18_t17" reading_order_no="16" segment_no="7" tag_type="text"><i>9</i></text>
+<text top="608" left="823" width="130" height="18" font="font70" id="p18_t18" reading_order_no="17" segment_no="7" tag_type="text">(8), 1735-1780.</text>
+<text top="36" left="265" width="495" height="35" font="font13" id="p18_t19" reading_order_no="18" segment_no="0" tag_type="title"><b>Recurrent Neural Networks</b></text>
+</page>
+<page number="19" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font72" size="28" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font73" size="28" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font74" size="28" family="HelveticaNeue,Italic" color="#000000"/>
+	<fontspec id="font75" size="28" family="HelveticaNeue,Italic" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p19_t1" reading_order_no="0" segment_no="4" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p19_t2" reading_order_no="1" segment_no="5" tag_type="text">19</text>
+<text top="36" left="200" width="625" height="35" font="font13" id="p19_t3" reading_order_no="2" segment_no="0" tag_type="title"><b>About the term "Deep Learning" ...</b></text>
+<text top="205" left="34" width="856" height="26" font="font72" id="p19_t4" reading_order_no="3" segment_no="1" tag_type="text">Representation learning is a set of methods that allows a machine to</text>
+<text top="249" left="34" width="880" height="26" font="font72" id="p19_t5" reading_order_no="4" segment_no="1" tag_type="text">be fed with raw data and to automatically discover the representations</text>
+<text top="293" left="34" width="817" height="26" font="font72" id="p19_t6" reading_order_no="5" segment_no="1" tag_type="text">needed for detection or classiﬁcation. Deep learning methods are</text>
+<text top="337" left="34" width="917" height="26" font="font72" id="p19_t7" reading_order_no="6" segment_no="1" tag_type="text">representation-learning methods with multiple levels of representation [...]</text>
+<text top="415" left="34" width="557" height="26" font="font74" id="p19_t8" reading_order_no="7" segment_no="2" tag_type="text"><i>-- LeCun, Y., Bengio, Y., &amp; Hinton, G. (2015). </i></text>
+<text top="449" left="34" width="512" height="26" font="font74" id="p19_t9" reading_order_no="8" segment_no="3" tag_type="text"><i>   Deep learning. Nature, 521(7553), 436. </i></text>
+</page>
+<page number="20" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font76" size="29" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font77" size="18" family="ArialMT" color="#222222"/>
+	<fontspec id="font78" size="18" family="Arial,Italic" color="#222222"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p20_t1" reading_order_no="0" segment_no="8" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p20_t2" reading_order_no="1" segment_no="9" tag_type="text">20</text>
+<text top="128" left="61" width="10" height="31" font="font76" id="p20_t3" reading_order_no="2" segment_no="1" tag_type="list">•</text>
+<text top="128" left="79" width="582" height="27" font="font67" id="p20_t4" reading_order_no="3" segment_no="1" tag_type="list">2nd "AI Winter" in the late 1990's and 2000's</text>
+<text top="185" left="61" width="10" height="31" font="font76" id="p20_t5" reading_order_no="4" segment_no="2" tag_type="list">•</text>
+<text top="185" left="79" width="385" height="27" font="font67" id="p20_t6" reading_order_no="5" segment_no="2" tag_type="list">Probably due to popularity of </text>
+<text top="220" left="79" width="608" height="27" font="font67" id="p20_t7" reading_order_no="6" segment_no="2" tag_type="list">Support Vector Machines and Random Forests</text>
+<text top="277" left="61" width="10" height="31" font="font76" id="p20_t8" reading_order_no="7" segment_no="3" tag_type="list">•</text>
+<text top="277" left="79" width="872" height="27" font="font67" id="p20_t9" reading_order_no="8" segment_no="3" tag_type="list">Also, neural networks were still expensive to train, until GPUs came</text>
+<text top="312" left="79" width="110" height="27" font="font67" id="p20_t10" reading_order_no="9" segment_no="3" tag_type="list">into play</text>
+<text top="651" left="484" width="150" height="18" font="font66" id="p20_t11" reading_order_no="10" segment_no="6" tag_type="text">(data from ~2017)</text>
+<text top="677" left="54" width="369" height="15" font="font62" id="p20_t12" reading_order_no="11" segment_no="7" tag_type="text">Image source: https://www.amax.com/blog/?p=907</text>
+<text top="402" left="59" width="797" height="17" font="font77" id="p20_t13" reading_order_no="12" segment_no="5" tag_type="text">Krizhevsky, A., Sutskever, I., &amp; Hinton, G. E. (2012). Imagenet classification with deep convolutional </text>
+<text top="423" left="59" width="157" height="17" font="font77" id="p20_t14" reading_order_no="13" segment_no="5" tag_type="text">neural networks. In </text>
+<text top="423" left="216" width="410" height="17" font="font78" id="p20_t15" reading_order_no="14" segment_no="5" tag_type="text"><i>Advances in neural information processing systems</i></text>
+<text top="423" left="626" width="137" height="17" font="font77" id="p20_t16" reading_order_no="15" segment_no="5" tag_type="text"> (pp. 1097-1105).</text>
+<text top="366" left="58" width="561" height="17" font="font77" id="p20_t17" reading_order_no="16" segment_no="4" tag_type="text">Oh, K. S., &amp; Jung, K. (2004). GPU implementation of neural networks. </text>
+<text top="366" left="619" width="158" height="17" font="font78" id="p20_t18" reading_order_no="17" segment_no="4" tag_type="text"><i>Pattern Recognition</i></text>
+<text top="366" left="777" width="10" height="17" font="font77" id="p20_t19" reading_order_no="18" segment_no="4" tag_type="text">, </text>
+<text top="366" left="787" width="20" height="17" font="font78" id="p20_t20" reading_order_no="19" segment_no="4" tag_type="text"><i>37</i></text>
+<text top="366" left="807" width="122" height="17" font="font77" id="p20_t21" reading_order_no="20" segment_no="4" tag_type="text">(6), 1311-1314.</text>
+<text top="36" left="62" width="900" height="35" font="font13" id="p20_t22" reading_order_no="21" segment_no="0" tag_type="title"><b>Neural Networks and Deep Learning -- A Timeline</b></text>
+</page>
+<page number="21" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font79" size="20" family="ArialMT" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p21_t1" reading_order_no="0" segment_no="4" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p21_t2" reading_order_no="1" segment_no="5" tag_type="text">21</text>
+<text top="674" left="119" width="349" height="18" font="font66" id="p21_t3" reading_order_no="2" segment_no="3" tag_type="text">(Excerpt from "Architects of Intelligence")</text>
+<text top="36" left="62" width="899" height="35" font="font13" id="p21_t4" reading_order_no="3" segment_no="0" tag_type="title"><b>When did Deep Learning Become Really Popular?</b></text>
+<text top="318" left="795" width="164" height="19" font="font79" id="p21_t5" reading_order_no="4" segment_no="1" tag_type="text">AlexNet achieved </text>
+<text top="341" left="795" width="192" height="19" font="font79" id="p21_t6" reading_order_no="5" segment_no="1" tag_type="text">15.4% error on top-5 </text>
+<text top="364" left="795" width="72" height="19" font="font79" id="p21_t7" reading_order_no="6" segment_no="1" tag_type="text">in 2012 </text>
+<text top="387" left="795" width="159" height="19" font="font79" id="p21_t8" reading_order_no="7" segment_no="2" tag_type="text">2nd best was not </text>
+<text top="410" left="795" width="172" height="19" font="font79" id="p21_t9" reading_order_no="8" segment_no="2" tag_type="text">even close: 26.2% </text>
+<text top="433" left="795" width="199" height="19" font="font79" id="p21_t10" reading_order_no="9" segment_no="2" tag_type="text">(nowadays ~3% error </text>
+<text top="456" left="795" width="129" height="19" font="font79" id="p21_t11" reading_order_no="10" segment_no="2" tag_type="text">on ImageNet) </text>
+</page>
+<page number="22" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="744" left="314" width="438" height="14" font="font0" id="p22_t1" reading_order_no="0" segment_no="13" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p22_t2" reading_order_no="1" segment_no="14" tag_type="text">22</text>
+<text top="36" left="23" width="979" height="35" font="font13" id="p22_t3" reading_order_no="2" segment_no="0" tag_type="title"><b>Evolution of Benchmark Datasets for Computer Vision</b></text>
+<text top="339" left="458" width="313" height="22" font="font28" id="p22_t4" reading_order_no="3" segment_no="5" tag_type="title"><b>CIFAR-10/CIFAR-100 (2009)</b></text>
+<text top="398" left="458" width="8" height="26" font="font5" id="p22_t5" reading_order_no="4" segment_no="6" tag_type="list">•</text>
+<text top="398" left="476" width="385" height="23" font="font4" id="p22_t6" reading_order_no="5" segment_no="6" tag_type="list">60,000 examples, 10 or 100 classes</text>
+<text top="427" left="458" width="8" height="26" font="font5" id="p22_t7" reading_order_no="6" segment_no="7" tag_type="list">•</text>
+<text top="427" left="476" width="198" height="23" font="font4" id="p22_t8" reading_order_no="7" segment_no="7" tag_type="list">features: 32x32x3,</text>
+<text top="456" left="458" width="8" height="26" font="font5" id="p22_t9" reading_order_no="8" segment_no="8" tag_type="list">•</text>
+<text top="456" left="477" width="458" height="23" font="font4" id="p22_t10" reading_order_no="9" segment_no="8" tag_type="list">https://www.cs.toronto.edu/~kriz/cifar.html</text>
+<text top="131" left="459" width="151" height="22" font="font28" id="p22_t11" reading_order_no="10" segment_no="1" tag_type="title"><b>MNIST (1998)</b></text>
+<text top="189" left="459" width="8" height="26" font="font5" id="p22_t12" reading_order_no="11" segment_no="2" tag_type="list">•</text>
+<text top="189" left="477" width="310" height="23" font="font4" id="p22_t13" reading_order_no="12" segment_no="2" tag_type="list">60,000 examples, 10 classes</text>
+<text top="218" left="459" width="8" height="26" font="font5" id="p22_t14" reading_order_no="13" segment_no="3" tag_type="list">•</text>
+<text top="218" left="477" width="191" height="23" font="font4" id="p22_t15" reading_order_no="14" segment_no="3" tag_type="list">features: 28x28x1</text>
+<text top="247" left="459" width="8" height="26" font="font5" id="p22_t16" reading_order_no="15" segment_no="4" tag_type="list">•</text>
+<text top="247" left="477" width="372" height="23" font="font4" id="p22_t17" reading_order_no="16" segment_no="4" tag_type="list">http://yann.lecun.com/exdb/mnist/</text>
+<text top="530" left="461" width="200" height="22" font="font28" id="p22_t18" reading_order_no="17" segment_no="9" tag_type="title"><b>ImageNet (~2010)</b></text>
+<text top="589" left="461" width="8" height="26" font="font5" id="p22_t19" reading_order_no="18" segment_no="10" tag_type="list">•</text>
+<text top="589" left="479" width="201" height="23" font="font4" id="p22_t20" reading_order_no="19" segment_no="10" tag_type="list">~14 million images</text>
+<text top="618" left="461" width="8" height="26" font="font5" id="p22_t21" reading_order_no="20" segment_no="11" tag_type="list">•</text>
+<text top="618" left="479" width="242" height="23" font="font4" id="p22_t22" reading_order_no="21" segment_no="11" tag_type="list">features: full resolution</text>
+<text top="647" left="461" width="8" height="26" font="font5" id="p22_t23" reading_order_no="22" segment_no="12" tag_type="list">•</text>
+<text top="647" left="479" width="275" height="23" font="font4" id="p22_t24" reading_order_no="23" segment_no="12" tag_type="list">http://www.image-net.org</text>
+</page>
+<page number="23" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font80" size="30" family="HelveticaNeue" color="#000000"/>
+	<fontspec id="font81" size="30" family="HelveticaNeue" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p23_t1" reading_order_no="0" segment_no="12" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p23_t2" reading_order_no="1" segment_no="13" tag_type="text">23</text>
+<text top="115" left="68" width="11" height="32" font="font80" id="p23_t3" reading_order_no="2" segment_no="1" tag_type="list">•</text>
+<text top="114" left="86" width="865" height="28" font="font81" id="p23_t4" reading_order_no="3" segment_no="1" tag_type="list">Many enhancements where developed to make neural networks </text>
+<text top="150" left="86" width="528" height="28" font="font81" id="p23_t5" reading_order_no="4" segment_no="1" tag_type="list">perform better and solve new problems</text>
+<text top="241" left="82" width="277" height="27" font="font67" id="p23_t6" reading_order_no="5" segment_no="2" tag_type="title">Rectiﬁed Linear Units</text>
+<text top="241" left="553" width="148" height="27" font="font67" id="p23_t7" reading_order_no="6" segment_no="3" tag_type="title">BatchNorm</text>
+<text top="391" left="82" width="105" height="27" font="font67" id="p23_t8" reading_order_no="7" segment_no="6" tag_type="title">Dropout</text>
+<text top="391" left="554" width="76" height="27" font="font67" id="p23_t9" reading_order_no="8" segment_no="7" tag_type="title">GANs</text>
+<text top="645" left="421" width="142" height="23" font="font4" id="p23_t10" reading_order_no="9" segment_no="11" tag_type="text">&amp; many more</text>
+<text top="433" left="86" width="333" height="12" font="font17" id="p23_t11" reading_order_no="10" segment_no="8" tag_type="text">Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., &amp; </text>
+<text top="448" left="86" width="383" height="12" font="font17" id="p23_t12" reading_order_no="11" segment_no="8" tag_type="text">Salakhutdinov, R. (2014). Dropout: a simple way to prevent neural </text>
+<text top="463" left="86" width="149" height="12" font="font17" id="p23_t13" reading_order_no="12" segment_no="8" tag_type="text">networks from overfitting. </text>
+<text top="463" left="235" width="194" height="12" font="font18" id="p23_t14" reading_order_no="13" segment_no="8" tag_type="text"><i>The Journal of Machine Learning </i></text>
+<text top="478" left="86" width="56" height="12" font="font18" id="p23_t15" reading_order_no="14" segment_no="8" tag_type="text"><i>Research</i></text>
+<text top="478" left="142" width="7" height="12" font="font17" id="p23_t16" reading_order_no="15" segment_no="8" tag_type="text">, </text>
+<text top="478" left="149" width="14" height="12" font="font18" id="p23_t17" reading_order_no="16" segment_no="8" tag_type="text"><i>15</i></text>
+<text top="478" left="163" width="89" height="12" font="font17" id="p23_t18" reading_order_no="17" segment_no="8" tag_type="text">(1), 1929-1958.</text>
+<text top="283" left="84" width="354" height="12" font="font17" id="p23_t19" reading_order_no="18" segment_no="4" tag_type="text">Nair, V., &amp; Hinton, G. E. (2010). Rectified linear units improve </text>
+<text top="298" left="84" width="198" height="12" font="font17" id="p23_t20" reading_order_no="19" segment_no="4" tag_type="text">restricted boltzmann machines. In </text>
+<text top="298" left="282" width="141" height="12" font="font18" id="p23_t21" reading_order_no="20" segment_no="4" tag_type="text"><i>Proceedings of the 27th </i></text>
+<text top="313" left="84" width="322" height="12" font="font18" id="p23_t22" reading_order_no="21" segment_no="4" tag_type="text"><i>international conference on machine learning (ICML-10)</i></text>
+<text top="313" left="405" width="30" height="12" font="font17" id="p23_t23" reading_order_no="22" segment_no="4" tag_type="text"> (pp. </text>
+<text top="328" left="84" width="56" height="12" font="font17" id="p23_t24" reading_order_no="23" segment_no="4" tag_type="text">807-814).</text>
+<text top="283" left="555" width="341" height="12" font="font17" id="p23_t25" reading_order_no="24" segment_no="5" tag_type="text">Ioffe, S., &amp; Szegedy, C. (2015, June). Batch Normalization: </text>
+<text top="298" left="555" width="334" height="12" font="font17" id="p23_t26" reading_order_no="25" segment_no="5" tag_type="text">Accelerating Deep Network Training by Reducing Internal </text>
+<text top="313" left="555" width="107" height="12" font="font17" id="p23_t27" reading_order_no="26" segment_no="5" tag_type="text">Covariate Shift. In </text>
+<text top="313" left="662" width="267" height="12" font="font18" id="p23_t28" reading_order_no="27" segment_no="5" tag_type="text"><i>International Conference on Machine Learning</i></text>
+<text top="328" left="555" width="82" height="12" font="font17" id="p23_t29" reading_order_no="28" segment_no="5" tag_type="text">(pp. 448-456).</text>
+<text top="433" left="556" width="384" height="12" font="font17" id="p23_t30" reading_order_no="29" segment_no="9" tag_type="text">Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, </text>
+<text top="448" left="556" width="391" height="12" font="font17" id="p23_t31" reading_order_no="30" segment_no="9" tag_type="text">D., Ozair, S., ... &amp; Bengio, Y. (2014). Generative adversarial nets. In </text>
+<text top="463" left="556" width="296" height="12" font="font18" id="p23_t32" reading_order_no="31" segment_no="9" tag_type="text"><i>Advances in neural information processing systems</i></text>
+<text top="463" left="852" width="30" height="12" font="font17" id="p23_t33" reading_order_no="32" segment_no="9" tag_type="text"> (pp. </text>
+<text top="478" left="556" width="70" height="12" font="font17" id="p23_t34" reading_order_no="33" segment_no="9" tag_type="text">2672-2680).</text>
+<text top="36" left="62" width="900" height="35" font="font13" id="p23_t35" reading_order_no="34" segment_no="0" tag_type="title"><b>Neural Networks and Deep Learning -- A Timeline</b></text>
+<text top="587" left="313" width="352" height="28" font="font81" id="p23_t36" reading_order_no="35" segment_no="10" tag_type="text">(All covered in this course)</text>
+</page>
+<page number="24" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="740" left="314" width="438" height="14" font="font0" id="p24_t1" reading_order_no="0" segment_no="6" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="742" left="988" width="17" height="11" font="font12" id="p24_t2" reading_order_no="1" segment_no="7" tag_type="text">24</text>
+<text top="62" left="23" width="723" height="75" font="font11" id="p24_t3" reading_order_no="2" segment_no="0" tag_type="title">The Deep Learning </text>
+<text top="159" left="23" width="891" height="75" font="font11" id="p24_t4" reading_order_no="3" segment_no="0" tag_type="title">Hardware and Software </text>
+<text top="256" left="23" width="409" height="75" font="font11" id="p24_t5" reading_order_no="4" segment_no="0" tag_type="title">Landscape</text>
+<text top="427" left="28" width="23" height="26" font="font49" id="p24_t6" reading_order_no="5" segment_no="1" tag_type="list">1.</text>
+<text top="427" left="80" width="208" height="26" font="font49" id="p24_t7" reading_order_no="6" segment_no="1" tag_type="list">Artiﬁcial neurons</text>
+<text top="476" left="28" width="23" height="26" font="font49" id="p24_t8" reading_order_no="7" segment_no="2" tag_type="list">2.</text>
+<text top="476" left="80" width="328" height="26" font="font49" id="p24_t9" reading_order_no="8" segment_no="2" tag_type="list">Multilayer neural networks</text>
+<text top="525" left="28" width="23" height="26" font="font49" id="p24_t10" reading_order_no="9" segment_no="3" tag_type="list">3.</text>
+<text top="525" left="80" width="174" height="26" font="font49" id="p24_t11" reading_order_no="10" segment_no="3" tag_type="list">Deep learning</text>
+<text top="574" left="28" width="23" height="26" font="font51" id="p24_t12" reading_order_no="11" segment_no="4" tag_type="list"><b>4.</b></text>
+<text top="574" left="80" width="533" height="26" font="font51" id="p24_t13" reading_order_no="12" segment_no="4" tag_type="list"><b>The DL hardware &amp; software landscape </b></text>
+<text top="623" left="28" width="23" height="26" font="font49" id="p24_t14" reading_order_no="13" segment_no="5" tag_type="list">5.</text>
+<text top="623" left="80" width="295" height="26" font="font49" id="p24_t15" reading_order_no="14" segment_no="5" tag_type="list">Current research trends</text>
+</page>
+<page number="25" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font82" size="60" family="HelveticaNeue-Medium" color="#000000"/>
+	<fontspec id="font83" size="14" family="HelveticaNeue" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p25_t1" reading_order_no="0" segment_no="5" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p25_t2" reading_order_no="1" segment_no="6" tag_type="text">25</text>
+<text top="429" left="128" width="284" height="12" font="font30" id="p25_t3" reading_order_no="2" segment_no="1" tag_type="text">https://arstechnica.com/gadgets/2018/07/the-ai-</text>
+<text top="444" left="128" width="287" height="12" font="font30" id="p25_t4" reading_order_no="3" segment_no="1" tag_type="text">revolution-has-spawned-a-new-chips-arms-race/</text>
+<text top="29" left="46" width="932" height="56" font="font82" id="p25_t5" reading_order_no="4" segment_no="0" tag_type="title">Developing Specialized Hardware</text>
+<text top="647" left="24" width="530" height="13" font="font83" id="p25_t6" reading_order_no="5" segment_no="4" tag_type="text">https://developer.arm.com/products/processors/machine-learning/arm-ml-processor</text>
+<text top="645" left="593" width="352" height="13" font="font83" id="p25_t7" reading_order_no="6" segment_no="3" tag_type="text">https://www.reuters.com/article/us-amazon-com-nvidia/</text>
+<text top="661" left="593" width="327" height="13" font="font83" id="p25_t8" reading_order_no="7" segment_no="3" tag_type="text">amazon-launches-machine-learning-chip-taking-on-</text>
+<text top="677" left="593" width="186" height="13" font="font83" id="p25_t9" reading_order_no="8" segment_no="3" tag_type="text">nvidia-intel-idUSKCN1NX2PY</text>
+<text top="431" left="549" width="339" height="13" font="font83" id="p25_t10" reading_order_no="9" segment_no="2" tag_type="text">https://www.marketwatch.com/story/new-nvidia-chip-</text>
+<text top="447" left="549" width="312" height="13" font="font83" id="p25_t11" reading_order_no="10" segment_no="2" tag_type="text">extends-the-companys-lead-in-graphics-artiﬁcial-</text>
+<text top="463" left="549" width="149" height="13" font="font83" id="p25_t12" reading_order_no="11" segment_no="2" tag_type="text">intelligence-2018-08-14</text>
+</page>
+<page number="26" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font84" size="21" family="Helvetica" color="#292929"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p26_t1" reading_order_no="0" segment_no="2" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p26_t2" reading_order_no="1" segment_no="3" tag_type="text">26</text>
+<text top="471" left="717" width="265" height="20" font="font84" id="p26_t3" reading_order_no="2" segment_no="1" tag_type="text">Intelligence Processing Unit </text>
+<text top="496" left="717" width="49" height="20" font="font84" id="p26_t4" reading_order_no="3" segment_no="1" tag_type="text">(IPU)</text>
+<text top="126" left="708" width="153" height="12" font="font30" id="p26_t5" reading_order_no="4" segment_no="0" tag_type="text">Image credit: Graphcore &amp;</text>
+<text top="141" left="708" width="289" height="12" font="font30" id="p26_t6" reading_order_no="5" segment_no="0" tag_type="text">https://towardsdatascience.com/predictions-and-</text>
+<text top="156" left="708" width="251" height="12" font="font30" id="p26_t7" reading_order_no="6" segment_no="0" tag_type="text">hopes-for-graph-ml-in-2021-6af2121c3e3d</text>
+</page>
+<page number="27" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font85" size="17" family="NewBaskerville" color="#262626"/>
+	<fontspec id="font86" size="15" family="Wingdings2" color="#c8a560"/>
+	<fontspec id="font87" size="17" family="NewBaskerville,Italic" color="#262626"/>
+	<fontspec id="font88" size="14" family="HelveticaNeue" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p27_t1" reading_order_no="0" segment_no="19" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p27_t2" reading_order_no="1" segment_no="20" tag_type="text">27</text>
+<text top="49" left="250" width="317" height="17" font="font85" id="p27_t3" reading_order_no="2" segment_no="0" tag_type="text">At the time of PyTorch’s first beta release:</text>
+<text top="78" left="277" width="8" height="15" font="font86" id="p27_t4" reading_order_no="3" segment_no="1" tag_type="list"></text>
+<text top="79" left="298" width="599" height="17" font="font85" id="p27_t5" reading_order_no="4" segment_no="1" tag_type="list">Theano and TensorFlow were the premiere low-level libraries, working with a</text>
+<text top="101" left="298" width="568" height="17" font="font85" id="p27_t6" reading_order_no="5" segment_no="1" tag_type="list">model that had the user define a computational graph and then execute it.</text>
+<text top="125" left="277" width="8" height="15" font="font86" id="p27_t7" reading_order_no="7" segment_no="3" tag_type="list"></text>
+<text top="126" left="298" width="599" height="17" font="font85" id="p27_t8" reading_order_no="6" segment_no="3" tag_type="list">Lasagne and Keras were high-level wrappers around Theano, with Keras wrap-</text>
+<text top="148" left="298" width="271" height="17" font="font85" id="p27_t9" reading_order_no="8" segment_no="3" tag_type="list">ping TensorFlow and CNTK as well.</text>
+<text top="172" left="277" width="8" height="15" font="font86" id="p27_t10" reading_order_no="11" segment_no="5" tag_type="list"></text>
+<text top="172" left="298" width="599" height="17" font="font85" id="p27_t11" reading_order_no="9" segment_no="5" tag_type="list">Caffe, Chainer, DyNet,  Torch (the Lua-based  precursor to PyTorch),  MXNet,</text>
+<text top="195" left="298" width="474" height="17" font="font85" id="p27_t12" reading_order_no="10" segment_no="5" tag_type="list">CNTK, DL4J, and others filled various niches in the ecosystem.</text>
+<text top="226" left="250" width="647" height="17" font="font85" id="p27_t13" reading_order_no="12" segment_no="2" tag_type="text">In the roughly two years that followed, the landscape changed drastically. The com-</text>
+<text top="249" left="250" width="647" height="17" font="font85" id="p27_t14" reading_order_no="13" segment_no="2" tag_type="text">munity largely consolidated behind either PyTorch or TensorFlow, with the adoption</text>
+<text top="272" left="250" width="610" height="17" font="font85" id="p27_t15" reading_order_no="14" segment_no="2" tag_type="text">of other libraries dwindling, except for those filling specific niches. In a nutshell:</text>
+<text top="301" left="277" width="8" height="15" font="font86" id="p27_t16" reading_order_no="18" segment_no="7" tag_type="list"></text>
+<text top="301" left="298" width="599" height="17" font="font85" id="p27_t17" reading_order_no="15" segment_no="7" tag_type="list">Theano, one of the first deep learning frameworks, has ceased active development.</text>
+<text top="325" left="277" width="8" height="15" font="font86" id="p27_t18" reading_order_no="21" segment_no="9" tag_type="list"></text>
+<text top="325" left="298" width="93" height="17" font="font85" id="p27_t19" reading_order_no="16" segment_no="9" tag_type="list">TensorFlow:</text>
+<text top="350" left="298" width="453" height="17" font="font85" id="p27_t20" reading_order_no="17" segment_no="4" tag_type="list">– Consumed Keras entirely, promoting it to a first-class API</text>
+<text top="374" left="298" width="599" height="17" font="font85" id="p27_t21" reading_order_no="19" segment_no="11" tag_type="list">– Provided an immediate-execution “eager mode” that is somewhat similar to</text>
+<text top="397" left="319" width="293" height="17" font="font85" id="p27_t22" reading_order_no="20" segment_no="11" tag_type="list">how PyTorch approaches computation</text>
+<text top="421" left="298" width="350" height="17" font="font85" id="p27_t23" reading_order_no="22" segment_no="12" tag_type="list">– Released TF 2.0 with eager mode by default</text>
+<text top="445" left="277" width="8" height="15" font="font86" id="p27_t24" reading_order_no="28" segment_no="6" tag_type="list"></text>
+<text top="445" left="298" width="599" height="17" font="font85" id="p27_t25" reading_order_no="23" segment_no="6" tag_type="list">JAX, a library by Google that was developed independently from TensorFlow,</text>
+<text top="468" left="298" width="599" height="17" font="font85" id="p27_t26" reading_order_no="24" segment_no="6" tag_type="list">has started gaining traction as a NumPy equivalent with GPU, autograd and JIT</text>
+<text top="491" left="298" width="89" height="17" font="font85" id="p27_t27" reading_order_no="25" segment_no="6" tag_type="list">capabilities.</text>
+<text top="514" left="277" width="8" height="15" font="font86" id="p27_t28" reading_order_no="34" segment_no="13" tag_type="list"></text>
+<text top="515" left="298" width="68" height="17" font="font85" id="p27_t29" reading_order_no="26" segment_no="13" tag_type="list">PyTorch:</text>
+<text top="539" left="298" width="273" height="17" font="font85" id="p27_t30" reading_order_no="27" segment_no="14" tag_type="list">– Consumed Caffe2 for its backend</text>
+<text top="564" left="298" width="599" height="17" font="font85" id="p27_t31" reading_order_no="29" segment_no="15" tag_type="list">– Replaced most of the low-level code reused from the Lua-based Torch project</text>
+<text top="588" left="298" width="599" height="17" font="font85" id="p27_t32" reading_order_no="30" segment_no="16" tag_type="list">– Added  support  for  ONNX,  a  vendor-neutral  model  description  and</text>
+<text top="611" left="319" width="128" height="17" font="font85" id="p27_t33" reading_order_no="31" segment_no="16" tag_type="list">exchange format</text>
+<text top="635" left="298" width="457" height="17" font="font85" id="p27_t34" reading_order_no="32" segment_no="17" tag_type="list">– Added a delayed-execution “graph mode” runtime called </text>
+<text top="635" left="755" width="78" height="16" font="font87" id="p27_t35" reading_order_no="33" segment_no="17" tag_type="list"><i>TorchScript</i></text>
+<text top="659" left="298" width="174" height="17" font="font85" id="p27_t36" reading_order_no="35" segment_no="8" tag_type="list">– Released version 1.0</text>
+<text top="684" left="298" width="599" height="17" font="font85" id="p27_t37" reading_order_no="36" segment_no="18" tag_type="list">– Replaced CNTK and Chainer as the framework of choice by their respective</text>
+<text top="706" left="319" width="144" height="17" font="font85" id="p27_t38" reading_order_no="37" segment_no="18" tag_type="list">corporate sponsors</text>
+<text top="722" left="91" width="136" height="13" font="font83" id="p27_t39" reading_order_no="38" segment_no="10" tag_type="text">From Stevens et al.'s </text>
+<text top="738" left="63" width="187" height="13" font="font83" id="p27_t40" reading_order_no="39" segment_no="10" tag_type="text">"Deep Learning with PyTorch"</text>
+</page>
+<page number="28" position="absolute" top="0" left="0" height="768" width="1024">
+<text top="740" left="314" width="438" height="14" font="font0" id="p28_t1" reading_order_no="0" segment_no="7" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="742" left="988" width="17" height="11" font="font12" id="p28_t2" reading_order_no="1" segment_no="3" tag_type="text">28</text>
+<text top="82" left="34" width="677" height="75" font="font11" id="p28_t3" reading_order_no="2" segment_no="0" tag_type="title">Current Trends in  </text>
+<text top="179" left="34" width="541" height="75" font="font11" id="p28_t4" reading_order_no="3" segment_no="0" tag_type="title">Deep Learning</text>
+<text top="427" left="28" width="23" height="26" font="font49" id="p28_t5" reading_order_no="4" segment_no="1" tag_type="list">1.</text>
+<text top="427" left="80" width="208" height="26" font="font49" id="p28_t6" reading_order_no="5" segment_no="1" tag_type="list">Artiﬁcial neurons</text>
+<text top="476" left="28" width="23" height="26" font="font49" id="p28_t7" reading_order_no="6" segment_no="2" tag_type="list">2.</text>
+<text top="476" left="80" width="328" height="26" font="font49" id="p28_t8" reading_order_no="7" segment_no="2" tag_type="list">Multilayer neural networks</text>
+<text top="525" left="28" width="23" height="26" font="font49" id="p28_t9" reading_order_no="8" segment_no="4" tag_type="list">3.</text>
+<text top="525" left="80" width="174" height="26" font="font49" id="p28_t10" reading_order_no="9" segment_no="4" tag_type="list">Deep learning</text>
+<text top="574" left="28" width="23" height="26" font="font49" id="p28_t11" reading_order_no="10" segment_no="5" tag_type="list">4.</text>
+<text top="574" left="80" width="491" height="26" font="font49" id="p28_t12" reading_order_no="11" segment_no="5" tag_type="list">The DL hardware &amp; software landscape</text>
+<text top="623" left="28" width="23" height="26" font="font51" id="p28_t13" reading_order_no="12" segment_no="6" tag_type="list"><b>5.</b></text>
+<text top="623" left="80" width="318" height="26" font="font51" id="p28_t14" reading_order_no="13" segment_no="6" tag_type="list"><b>Current research trends</b></text>
+</page>
+<page number="29" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font89" size="38" family="HelveticaNeue-Medium" color="#000000"/>
+	<fontspec id="font90" size="28" family="HelveticaNeue-Medium" color="#000000"/>
+	<fontspec id="font91" size="9" family="ArialMT" color="#222222"/>
+	<fontspec id="font92" size="9" family="Arial,Italic" color="#222222"/>
+	<fontspec id="font93" size="20" family="ArialMT" color="#313b3f"/>
+	<fontspec id="font94" size="15" family="ArialMT" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p29_t1" reading_order_no="0" segment_no="6" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p29_t2" reading_order_no="1" segment_no="7" tag_type="text">29</text>
+<text top="51" left="23" width="436" height="36" font="font89" id="p29_t3" reading_order_no="2" segment_no="0" tag_type="title">Self-supervised learning </text>
+<text top="141" left="23" width="945" height="26" font="font90" id="p29_t4" reading_order_no="3" segment_no="1" tag_type="text">Self-supervised learning and computer vision by Jeremy Howard; https://</text>
+<text top="175" left="23" width="525" height="26" font="font90" id="p29_t5" reading_order_no="4" segment_no="1" tag_type="text">www.fast.ai/2020/01/13/self_supervised/</text>
+<text top="581" left="43" width="287" height="8" font="font91" id="p29_t6" reading_order_no="5" segment_no="4" tag_type="text">Lee, H. Y., Huang, J. B., Singh, M., &amp; Yang, M. H. (2017). Unsupervised </text>
+<text top="591" left="43" width="195" height="8" font="font91" id="p29_t7" reading_order_no="6" segment_no="4" tag_type="text">representation learning by sorting sequences. In </text>
+<text top="591" left="237" width="101" height="8" font="font92" id="p29_t8" reading_order_no="7" segment_no="4" tag_type="text"><i>Proceedings of the IEEE </i></text>
+<text top="601" left="43" width="180" height="8" font="font92" id="p29_t9" reading_order_no="8" segment_no="4" tag_type="text"><i>International Conference on Computer Vision</i></text>
+<text top="601" left="223" width="59" height="8" font="font91" id="p29_t10" reading_order_no="9" segment_no="4" tag_type="text"> (pp. 667-676).</text>
+<text top="500" left="473" width="364" height="19" font="font93" id="p29_t11" reading_order_no="10" segment_no="2" tag_type="text">contrastive learning gained popularity in  </text>
+<text top="523" left="473" width="345" height="19" font="font93" id="p29_t12" reading_order_no="11" segment_no="2" tag_type="text">self-supervised representation learning</text>
+<text top="632" left="486" width="485" height="14" font="font94" id="p29_t13" reading_order_no="12" segment_no="5" tag_type="text">Instance discrimination compares features from different transformations </text>
+<text top="649" left="486" width="223" height="14" font="font94" id="p29_t14" reading_order_no="13" segment_no="5" tag_type="text">of the same images to each other</text>
+<text top="566" left="476" width="441" height="12" font="font17" id="p29_t15" reading_order_no="14" segment_no="3" tag_type="text">Caron, M., Misra, I., Mairal, J., Goyal, P., Bojanowski, P., &amp; Joulin, A. (2020). </text>
+<text top="581" left="476" width="442" height="12" font="font17" id="p29_t16" reading_order_no="15" segment_no="3" tag_type="text">Unsupervised learning of visual features by contrasting cluster assignments. </text>
+<text top="581" left="917" width="33" height="12" font="font18" id="p29_t17" reading_order_no="16" segment_no="3" tag_type="text"><i>arXiv </i></text>
+<text top="596" left="476" width="150" height="12" font="font18" id="p29_t18" reading_order_no="17" segment_no="3" tag_type="text"><i>preprint arXiv:2006.09882</i></text>
+<text top="596" left="625" width="4" height="12" font="font17" id="p29_t19" reading_order_no="18" segment_no="3" tag_type="text">.</text>
+</page>
+<page number="30" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font95" size="27" family="HelveticaNeue-Medium" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p30_t1" reading_order_no="0" segment_no="2" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p30_t2" reading_order_no="1" segment_no="3" tag_type="text">30</text>
+<text top="53" left="19" width="410" height="36" font="font89" id="p30_t3" reading_order_no="2" segment_no="0" tag_type="title">Graph neural networks </text>
+<text top="143" left="19" width="609" height="25" font="font95" id="p30_t4" reading_order_no="3" segment_no="1" tag_type="text">(A gentle introduction to graph neural networks:  </text>
+<text top="176" left="19" width="976" height="25" font="font95" id="p30_t5" reading_order_no="4" segment_no="1" tag_type="text">https://heartbeat.fritz.ai/introduction-to-graph-neural-networks-c5a9f4aa9e99)</text>
+</page>
+<page number="31" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font96" size="15" family="HelveticaNeue" color="#5d7179"/>
+	<fontspec id="font97" size="15" family="HelveticaNeue" color="#15171a"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p31_t1" reading_order_no="0" segment_no="3" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p31_t2" reading_order_no="1" segment_no="4" tag_type="text">31</text>
+<text top="165" left="203" width="529" height="36" font="font89" id="p31_t3" reading_order_no="2" segment_no="0" tag_type="title">Large-scale language models </text>
+<text top="644" left="218" width="386" height="14" font="font96" id="p31_t4" reading_order_no="3" segment_no="2" tag_type="text">Model sizes of language models from 2018–2020 (Credit: </text>
+<text top="644" left="604" width="158" height="14" font="font97" id="p31_t5" reading_order_no="4" segment_no="2" tag_type="text">State of AI Report 2020</text>
+<text top="644" left="762" width="4" height="14" font="font96" id="p31_t6" reading_order_no="5" segment_no="2" tag_type="text">)</text>
+<text top="265" left="212" width="441" height="23" font="font4" id="p31_t7" reading_order_no="6" segment_no="1" tag_type="text">https://ruder.io/research-highlights-2020/</text>
+</page>
+<page number="32" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font98" size="24" family="Times" color="#000000"/>
+	<fontspec id="font99" size="24" family="Times,Italic" color="#000000"/>
+	<fontspec id="font100" size="24" family="Times" color="#01ff00"/>
+	<fontspec id="font101" size="23" family="Times" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p32_t1" reading_order_no="0" segment_no="2" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p32_t2" reading_order_no="1" segment_no="3" tag_type="text">32</text>
+<text top="220" left="21" width="350" height="23" font="font4" id="p32_t3" reading_order_no="2" segment_no="0" tag_type="text">https://arxiv.org/abs/2101.01169</text>
+<text top="370" left="560" width="375" height="22" font="font98" id="p32_t4" reading_order_no="3" segment_no="1" tag_type="text">"Transformer is data-hungry in nature </text>
+<text top="400" left="560" width="35" height="21" font="font99" id="p32_t5" reading_order_no="4" segment_no="1" tag_type="text"><i>e.g.</i></text>
+<text top="399" left="595" width="262" height="22" font="font98" id="p32_t6" reading_order_no="5" segment_no="1" tag_type="text">, a large- scale dataset like </text>
+<text top="428" left="560" width="360" height="22" font="font98" id="p32_t7" reading_order_no="6" segment_no="1" tag_type="text">ImageNet [14 million images] is not </text>
+<text top="457" left="560" width="339" height="22" font="font98" id="p32_t8" reading_order_no="7" segment_no="1" tag_type="text">enough to train vision transformer </text>
+<text top="486" left="560" width="164" height="22" font="font98" id="p32_t9" reading_order_no="8" segment_no="1" tag_type="text">from scratch so [</text>
+<text top="486" left="724" width="24" height="22" font="font100" id="p32_t10" reading_order_no="9" segment_no="1" tag_type="text">10</text>
+<text top="486" left="749" width="132" height="22" font="font98" id="p32_t11" reading_order_no="10" segment_no="1" tag_type="text">] proposes to </text>
+<text top="487" left="880" width="27" height="21" font="font101" id="p32_t12" reading_order_no="11" segment_no="1" tag_type="text">..."</text>
+</page>
+<page number="33" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font102" size="58" family="HelveticaNeue-Medium" color="#000000"/>
+	<fontspec id="font103" size="46" family="HelveticaNeue-Medium" color="#000000"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p33_t1" reading_order_no="0" segment_no="2" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p33_t2" reading_order_no="1" segment_no="3" tag_type="text">33</text>
+<text top="332" left="333" width="375" height="54" font="font102" id="p33_t3" reading_order_no="2" segment_no="0" tag_type="title">Next Lecture: </text>
+<text top="436" left="348" width="327" height="43" font="font103" id="p33_t4" reading_order_no="3" segment_no="1" tag_type="title">The Perceptron</text>
+</page>
+<page number="34" position="absolute" top="0" left="0" height="768" width="1024">
+	<fontspec id="font104" size="24" family="HelveticaNeue,Bold" color="#b51700"/>
+<text top="744" left="314" width="438" height="14" font="font0" id="p34_t1" reading_order_no="0" segment_no="3" tag_type="text">Sebastian Raschka           STAT 453: Intro to Deep Learning          </text>
+<text top="745" left="987" width="17" height="11" font="font12" id="p34_t2" reading_order_no="1" segment_no="4" tag_type="text">34</text>
+<text top="36" left="67" width="889" height="35" font="font13" id="p34_t3" reading_order_no="2" segment_no="0" tag_type="title"><b>Important: Homework for next lecture (ungraded)</b></text>
+<text top="230" left="304" width="349" height="22" font="font104" id="p34_t4" reading_order_no="3" segment_no="1" tag_type="text"><b>As preparation for next lecture</b></text>
+<text top="566" left="165" width="627" height="23" font="font4" id="p34_t5" reading_order_no="4" segment_no="2" tag_type="text">https://sebastianraschka.com/blog/2020/numpy-intro.html</text>
+</page>
+</pdf2xml>

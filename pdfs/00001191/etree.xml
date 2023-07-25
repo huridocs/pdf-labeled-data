@@ -1,0 +1,105 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3223" width="2347">
+	<fontspec id="font0" size="47" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="46" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="42" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="49" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="43" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="45" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="48" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="69" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="76" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="77" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="78" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="31" family="GlyphLessFont" color="#000000"/>
+<text top="246" left="144" width="967" height="63" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">piece.  Historically,  theme  databases  have  been  built  by </text>
+<text top="298" left="145" width="966" height="62" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">highly  skilled  musicians,  a  labor-intensive  process  that </text>
+<text top="357" left="145" width="966" height="54" font="font2" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="text">does  not  scale  well.  However,  automatic  thematic </text>
+<text top="401" left="144" width="965" height="62" font="font1" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="text">extraction  methods  have  also  been  shown  to  be  effec- </text>
+<text top="458" left="144" width="137" height="57" font="font3" id="p1_t5" reading_order_no="4" segment_no="0" tag_type="text">tive  [7]. </text>
+<text top="555" left="144" width="386" height="66" font="font4" id="p1_t6" reading_order_no="5" segment_no="1" tag_type="title">Wuat  Is  THAT  Noise? </text>
+<text top="610" left="145" width="965" height="62" font="font1" id="p1_t7" reading_order_no="6" segment_no="2" tag_type="text">Query  quality  is  wide  ranging,  and  even  trained </text>
+<text top="661" left="144" width="966" height="63" font="font0" id="p1_t8" reading_order_no="7" segment_no="2" tag_type="text">musicians  do  not  necessarily  present  “better”  queries </text>
+<text top="717" left="145" width="966" height="58" font="font5" id="p1_t9" reading_order_no="8" segment_no="2" tag_type="text">to  QBH  systems  [9].  Individuals  may  not  recall  the </text>
+<text top="773" left="145" width="965" height="54" font="font2" id="p1_t10" reading_order_no="9" segment_no="2" tag_type="text">theme  correctly,  may  mix  themes,  or  mix  voices </text>
+<text top="822" left="146" width="964" height="58" font="font5" id="p1_t11" reading_order_no="10" segment_no="2" tag_type="text">(such  as  lead  guitar  and  vocalist)  into  a  composite </text>
+<text top="870" left="143" width="966" height="63" font="font0" id="p1_t12" reading_order_no="11" segment_no="2" tag_type="text">query.  Individuals  also  have  production  problems; </text>
+<text top="922" left="145" width="966" height="63" font="font0" id="p1_t13" reading_order_no="12" segment_no="2" tag_type="text">they  may  be  unable  to  sing  the  desired  pitch  and </text>
+<text top="974" left="144" width="964" height="63" font="font0" id="p1_t14" reading_order_no="13" segment_no="2" tag_type="text">may  laugh  and  cough,  all  while  presenting  the  query. </text>
+<text top="1027" left="143" width="967" height="62" font="font1" id="p1_t15" reading_order_no="14" segment_no="2" tag_type="text">The  computer  “hears”  all  the  unintended  artifacts </text>
+<text top="1078" left="144" width="694" height="63" font="font0" id="p1_t16" reading_order_no="15" segment_no="2" tag_type="text">and  considers  them  part  of  the  query. </text>
+<text top="1132" left="193" width="917" height="61" font="font6" id="p1_t17" reading_order_no="16" segment_no="3" tag_type="text">‘Transcription,  or  converting  audio  to  musical  nota- </text>
+<text top="1183" left="144" width="966" height="62" font="font1" id="p1_t18" reading_order_no="17" segment_no="3" tag_type="text">tion,  is  another  source  of  noise.  Transcribers  often </text>
+<text top="1235" left="144" width="963" height="63" font="font0" id="p1_t19" reading_order_no="18" segment_no="3" tag_type="text">introduce  artifacts,  drop  notes,  and  botch  rhythms. </text>
+<text top="1287" left="142" width="969" height="63" font="font0" id="p1_t20" reading_order_no="19" segment_no="3" tag_type="text">Thus,  even  a  “perfect”  query  may  not  appear  perfect </text>
+<text top="1339" left="144" width="967" height="65" font="font7" id="p1_t21" reading_order_no="20" segment_no="3" tag_type="text">after  transcription.  The  transcription  portion  of  the </text>
+<text top="1392" left="144" width="965" height="63" font="font0" id="p1_t22" reading_order_no="21" segment_no="3" tag_type="text">figure  is  an  example  of  what  the  transcription  of  sev- </text>
+<text top="1444" left="143" width="967" height="63" font="font0" id="p1_t23" reading_order_no="22" segment_no="3" tag_type="text">eral  well-sung  notes  looks  like.  The  blue  dots  at  the </text>
+<text top="1496" left="145" width="965" height="63" font="font0" id="p1_t24" reading_order_no="23" segment_no="3" tag_type="text">top  of  the  figure  represent  a  sequence  of  fundamental </text>
+<text top="1550" left="144" width="966" height="62" font="font1" id="p1_t25" reading_order_no="24" segment_no="3" tag_type="text">frequency  estimates  of  the  sung  query;  note  the  pitch </text>
+<text top="1599" left="143" width="967" height="63" font="font0" id="p1_t26" reading_order_no="25" segment_no="3" tag_type="text">glides  and  wavering  pitch.  The  red  lines  represent  the </text>
+<text top="1657" left="144" width="965" height="57" font="font3" id="p1_t27" reading_order_no="26" segment_no="3" tag_type="text">transcriber’s  note  estimates  (pitch  and  duration)  quan- </text>
+<text top="1704" left="145" width="965" height="63" font="font0" id="p1_t28" reading_order_no="27" segment_no="3" tag_type="text">tized  to  the  nearest  piano  key;  note  the  quantization </text>
+<text top="1759" left="144" width="966" height="62" font="font1" id="p1_t29" reading_order_no="28" segment_no="3" tag_type="text">error  on  the  fourth  note,  raising  what  should  be  a  C </text>
+<text top="1810" left="144" width="230" height="63" font="font0" id="p1_t30" reading_order_no="29" segment_no="3" tag_type="text">to  a  C  sharp. </text>
+<text top="1860" left="194" width="915" height="65" font="font7" id="p1_t31" reading_order_no="30" segment_no="4" tag_type="text">Such  errors,  whether  due  to  the  poor  pitch  of  an </text>
+<text top="1916" left="145" width="966" height="61" font="font6" id="p1_t32" reading_order_no="31" segment_no="4" tag_type="text">untrained  singer  or  to  a  poor  transcription  must  be </text>
+<text top="1965" left="144" width="966" height="63" font="font0" id="p1_t33" reading_order_no="32" segment_no="4" tag_type="text">included  when  matching  the  transcribed  query  to  tar- </text>
+<text top="2017" left="143" width="966" height="63" font="font0" id="p1_t34" reading_order_no="33" segment_no="4" tag_type="text">gets  in  the  database.  One  approach  to  handling  quan- </text>
+<text top="2069" left="144" width="966" height="63" font="font0" id="p1_t35" reading_order_no="34" segment_no="4" tag_type="text">tization  error  is  to  avoid  it  altogether  by  matching  the </text>
+<text top="2121" left="144" width="967" height="63" font="font0" id="p1_t36" reading_order_no="35" segment_no="4" tag_type="text">pitch  contour  directly  to  database  themes  without </text>
+<text top="2179" left="144" width="967" height="55" font="font8" id="p1_t37" reading_order_no="36" segment_no="4" tag_type="text">quantization  [5].  VocalSearch  handles  transcriber  and </text>
+<text top="2226" left="144" width="965" height="63" font="font0" id="p1_t38" reading_order_no="37" segment_no="4" tag_type="text">singer  error  through  prior  estimation  of  error  likeli- </text>
+<text top="2279" left="144" width="972" height="62" font="font1" id="p1_t39" reading_order_no="38" segment_no="4" tag_type="text">hood.  It  does  this  by  training  the  system  on  a  set  of </text>
+<text top="2330" left="144" width="967" height="63" font="font0" id="p1_t40" reading_order_no="39" segment_no="4" tag_type="text">sung  melodies  of  known  pieces.  The  transcribed </text>
+<text top="2383" left="145" width="964" height="62" font="font1" id="p1_t41" reading_order_no="40" segment_no="4" tag_type="text">melodies  are  compared  to  the  original,  and  the  differ- </text>
+<text top="2434" left="144" width="967" height="63" font="font0" id="p1_t42" reading_order_no="41" segment_no="4" tag_type="text">ences  are  recorded.  Training  builds  a  probabilistic </text>
+<text top="2487" left="145" width="741" height="63" font="font0" id="p1_t43" reading_order_no="42" segment_no="4" tag_type="text">model  of  the  singer  and  transcriber  error. </text>
+<text top="2597" left="146" width="202" height="55" font="font8" id="p1_t44" reading_order_no="43" segment_no="10" tag_type="title">Best  GUEss </text>
+<text top="2642" left="144" width="965" height="63" font="font0" id="p1_t45" reading_order_no="44" segment_no="11" tag_type="text">Many  researchers  have  looked  into  melodic-compar- </text>
+<text top="2702" left="145" width="966" height="53" font="font9" id="p1_t46" reading_order_no="45" segment_no="11" tag_type="text">ison  techniques  [3,  6,  12],  while  others  have  looked </text>
+<text top="2748" left="145" width="966" height="61" font="font6" id="p1_t47" reading_order_no="46" segment_no="11" tag_type="text">into  polyphonic  comparison  techniques  [8,  11].  See </text>
+<text top="2798" left="148" width="963" height="63" font="font0" id="p1_t48" reading_order_no="47" segment_no="11" tag_type="text">[1]  for  a  comparative  analysis  of  the  most  popular </text>
+<text top="2856" left="144" width="967" height="55" font="font8" id="p1_t49" reading_order_no="48" segment_no="11" tag_type="text">melodic-similarity  measures  for  QBH,  including </text>
+<text top="2910" left="145" width="964" height="54" font="font2" id="p1_t50" reading_order_no="49" segment_no="11" tag_type="text">n-grams,  dynamic  time  warping,  Markov  models, </text>
+<text top="2955" left="145" width="966" height="63" font="font0" id="p1_t51" reading_order_no="50" segment_no="11" tag_type="text">and  string  alignment.  Many  articles  on  the  subject </text>
+<text top="3013" left="144" width="966" height="58" font="font5" id="p1_t52" reading_order_no="51" segment_no="11" tag_type="text">are  also  available  in  the  International  Conference  on </text>
+<text top="847" left="1177" width="942" height="93" font="font10" id="p1_t53" reading_order_no="52" segment_no="5" tag_type="text">MANY  RESEARCHERS  HAVE </text>
+<text top="944" left="1253" width="792" height="103" font="font11" id="p1_t54" reading_order_no="53" segment_no="5" tag_type="text">reported  results  showing </text>
+<text top="1048" left="1307" width="678" height="104" font="font12" id="p1_t55" reading_order_no="54" segment_no="5" tag_type="text">good  performance  in </text>
+<text top="1151" left="1240" width="810" height="105" font="font13" id="p1_t56" reading_order_no="55" segment_no="5" tag_type="text">terms  of  processing  time, </text>
+<text top="1258" left="1306" width="681" height="103" font="font11" id="p1_t57" reading_order_no="56" segment_no="5" tag_type="text">precision,  and  recall. </text>
+<text top="1703" left="1163" width="973" height="63" font="font0" id="p1_t58" reading_order_no="57" segment_no="6" tag_type="text">Music  Information  Retrieval  research  paper  reposi- </text>
+<text top="1758" left="1164" width="707" height="62" font="font1" id="p1_t59" reading_order_no="58" segment_no="6" tag_type="text">tory  at  www.ismir.net/all-papers.  html. </text>
+<text top="1811" left="1212" width="924" height="58" font="font5" id="p1_t60" reading_order_no="59" segment_no="7" tag_type="text">VocalSearch  [9]  uses  a  probabilistic  string-align- </text>
+<text top="1861" left="1163" width="973" height="63" font="font0" id="p1_t61" reading_order_no="60" segment_no="7" tag_type="text">ment  algorithm  to  measure  similarity  between  targets </text>
+<text top="1913" left="1163" width="975" height="63" font="font0" id="p1_t62" reading_order_no="61" segment_no="7" tag_type="text">and  queries.  String-alignment  systems  determine  how </text>
+<text top="1966" left="1163" width="974" height="62" font="font1" id="p1_t63" reading_order_no="62" segment_no="7" tag_type="text">similar  the  query  is  to  each  of  the  targets  based  on  edit </text>
+<text top="2025" left="1163" width="974" height="54" font="font2" id="p1_t64" reading_order_no="63" segment_no="7" tag_type="text">distance;  the  “cost”  (such  as  number  of  character </text>
+<text top="2073" left="1162" width="974" height="57" font="font3" id="p1_t65" reading_order_no="64" segment_no="7" tag_type="text">changes)  is  what  it  takes  to  transform  one  string  (the </text>
+<text top="2122" left="1163" width="974" height="61" font="font6" id="p1_t66" reading_order_no="65" segment_no="7" tag_type="text">query  transcription)  into  another  string  (the  database </text>
+<text top="2177" left="1163" width="972" height="57" font="font3" id="p1_t67" reading_order_no="66" segment_no="7" tag_type="text">theme).  The  theme  with  the  lowest-cost  transforma- </text>
+<text top="2224" left="1163" width="884" height="63" font="font0" id="p1_t68" reading_order_no="67" segment_no="7" tag_type="text">tion  into  the  query  is  considered  the  best  match. </text>
+<text top="2284" left="1214" width="923" height="54" font="font2" id="p1_t69" reading_order_no="68" segment_no="8" tag_type="text">In  VocalSearch,  these  costs  are  based  on  the </text>
+<text top="2330" left="1163" width="973" height="62" font="font1" id="p1_t70" reading_order_no="69" segment_no="8" tag_type="text">trained  error  model  discussed  earlier,  which  involves </text>
+<text top="2381" left="1163" width="974" height="63" font="font0" id="p1_t71" reading_order_no="70" segment_no="8" tag_type="text">the  type  of  errors  singers  make  when  singing.  For </text>
+<text top="2433" left="1163" width="972" height="65" font="font7" id="p1_t72" reading_order_no="71" segment_no="8" tag_type="text">example,  it  is  very  likely  that  when  attempting  to </text>
+<text top="2487" left="1161" width="976" height="62" font="font1" id="p1_t73" reading_order_no="72" segment_no="8" tag_type="text">jump  the  interval  of  a  minor  3rd,  a  singer  will  instead </text>
+<text top="2539" left="1161" width="975" height="62" font="font1" id="p1_t74" reading_order_no="73" segment_no="8" tag_type="text">jump  a  major  3rd;  it  is  very  unlikely  the  singer  will </text>
+<text top="2589" left="1161" width="975" height="63" font="font0" id="p1_t75" reading_order_no="74" segment_no="8" tag_type="text">jump  a  major  7th.  Thus,  if  we  are  trying  to  match  a </text>
+<text top="2649" left="1163" width="973" height="54" font="font2" id="p1_t76" reading_order_no="75" segment_no="8" tag_type="text">query  to  two  themes,  one  with  a  minor  3rd  and  one </text>
+<text top="2694" left="1162" width="972" height="63" font="font0" id="p1_t77" reading_order_no="76" segment_no="8" tag_type="text">with  a  major  7th,  and  the  query  presents  a  major  3rd, </text>
+<text top="2745" left="1162" width="975" height="63" font="font0" id="p1_t78" reading_order_no="77" segment_no="8" tag_type="text">we  would  consider  the  first  query  to  have  the  lower </text>
+<text top="2798" left="1163" width="162" height="63" font="font0" id="p1_t79" reading_order_no="78" segment_no="8" tag_type="text">edit  cost. </text>
+<text top="2849" left="1212" width="923" height="65" font="font7" id="p1_t80" reading_order_no="79" segment_no="9" tag_type="text">The  melodic  encoding  used  for  queries  and  targets </text>
+<text top="2902" left="1163" width="972" height="62" font="font1" id="p1_t81" reading_order_no="80" segment_no="9" tag_type="text">has  a  strong  effect  on  the  kinds  of  errors  a  QBH  sys- </text>
+<text top="2954" left="1164" width="971" height="63" font="font0" id="p1_t82" reading_order_no="81" segment_no="9" tag_type="text">tem  can  handle.  For  example,  to  get  around  the  prob- </text>
+<text top="3007" left="1162" width="972" height="63" font="font0" id="p1_t83" reading_order_no="82" segment_no="9" tag_type="text">lem  of  key  mismatch  between  query  and  target(s), </text>
+<text top="3139" left="1332" width="705" height="42" font="font14" id="p1_t84" reading_order_no="83" segment_no="12" tag_type="text">COMMUNICATIONS  OF  THE  ACM  August  2006/Vol.49,No.8 </text>
+<text top="3139" left="2086" width="36" height="42" font="font14" id="p1_t85" reading_order_no="84" segment_no="13" tag_type="text">51</text>
+</page>
+</pdf2xml>

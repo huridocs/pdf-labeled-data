@@ -1,0 +1,139 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3247" width="2332">
+	<fontspec id="font0" size="44" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="46" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="47" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="42" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="43" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="68" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="32" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="33" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="31" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="30" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="29" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="48" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font15" size="126" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font16" size="24" family="GlyphLessFont" color="#000000"/>
+<text top="241" left="201" width="962" height="62" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">number  of  references)  follows  a  geometric  distribu- </text>
+<text top="291" left="200" width="423" height="64" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">tion  with  parameter  p;. </text>
+<text top="349" left="250" width="913" height="57" font="font2" id="p1_t3" reading_order_no="2" segment_no="1" tag_type="text">If  accesses  to  an  object  are  in  fact  correlated,  then </text>
+<text top="395" left="200" width="964" height="66" font="font3" id="p1_t4" reading_order_no="3" segment_no="1" tag_type="text">the  object’s  IAT  distribution  will  deviate  from  the </text>
+<text top="452" left="200" width="964" height="60" font="font4" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="text">geometric;  so  to  measure  correlation  we  introduce  a </text>
+<text top="499" left="201" width="963" height="66" font="font3" id="p1_t6" reading_order_no="5" segment_no="1" tag_type="text">metric  that  is  very  sensitive  to  this  deviation.  The </text>
+<text top="556" left="201" width="962" height="59" font="font4" id="p1_t7" reading_order_no="6" segment_no="1" tag_type="text">coefficient  of  variation  (CV)  of  a  distribution  is  its </text>
+<text top="603" left="199" width="964" height="66" font="font3" id="p1_t8" reading_order_no="7" segment_no="1" tag_type="text">standard  deviation  divided  by  its  mean.  To  form  a </text>
+<text top="663" left="199" width="963" height="55" font="font5" id="p1_t9" reading_order_no="8" segment_no="1" tag_type="text">metric  for  a  given  trace,  we  take  an  average  of  IAT- </text>
+<text top="713" left="200" width="960" height="58" font="font6" id="p1_t10" reading_order_no="9" segment_no="1" tag_type="text">CV  over  all  references  in  the  trace,  as  described  in  [4]. </text>
+<text top="760" left="250" width="911" height="66" font="font3" id="p1_t11" reading_order_no="10" segment_no="2" tag_type="text">For  the  geometric  distribution  with  parameter  p, </text>
+<text top="812" left="200" width="174" height="63" font="font3" id="p1_t12" reading_order_no="11" segment_no="2" tag_type="text">the  CV  is </text>
+<text top="889" left="618" width="173" height="59" font="font7" id="p1_t13" reading_order_no="12" segment_no="6" tag_type="formula">V  1-9;. </text>
+<text top="973" left="200" width="963" height="60" font="font4" id="p1_t14" reading_order_no="13" segment_no="7" tag_type="text">In  Web  reference  streams,  in  which  even  the  most </text>
+<text top="1021" left="199" width="970" height="66" font="font1" id="p1_t15" reading_order_no="14" segment_no="7" tag_type="text">heavily  accessed  objects  have  a  very  low  probability  of </text>
+<text top="1077" left="200" width="963" height="60" font="font4" id="p1_t16" reading_order_no="15" segment_no="7" tag_type="text">reference  (generally  much  less  than  1%),  the  expected </text>
+<text top="1126" left="200" width="965" height="65" font="font1" id="p1_t17" reading_order_no="16" segment_no="7" tag_type="text">IAT-CV  in  the  case  of  no  temporal  correlation  is  very </text>
+<text top="1183" left="200" width="961" height="58" font="font6" id="p1_t18" reading_order_no="17" segment_no="7" tag_type="text">close  to  one.  Therefore,  in  Web  reference  streams, </text>
+<text top="1229" left="200" width="962" height="66" font="font3" id="p1_t19" reading_order_no="18" segment_no="7" tag_type="text">CV  values  close  to  unity  suggest  that  reference  pat- </text>
+<text top="1281" left="200" width="962" height="66" font="font3" id="p1_t20" reading_order_no="19" segment_no="7" tag_type="text">terns  are  close  to  the  IRM  (contain  little  temporal </text>
+<text top="1701" left="560" width="604" height="62" font="font1" id="p1_t21" reading_order_no="36" segment_no="11" tag_type="text">correlation);  while  values  larger </text>
+<text top="1752" left="560" width="603" height="63" font="font3" id="p1_t22" reading_order_no="37" segment_no="11" tag_type="text">than  one  represent a  distribution </text>
+<text top="1805" left="558" width="606" height="62" font="font1" id="p1_t23" reading_order_no="38" segment_no="11" tag_type="text">with  large  relative  variance,  and </text>
+<text top="1858" left="559" width="606" height="62" font="font1" id="p1_t24" reading_order_no="39" segment_no="11" tag_type="text">so  suggest  the  presence  of  strong </text>
+<text top="1910" left="560" width="495" height="62" font="font1" id="p1_t25" reading_order_no="40" segment_no="11" tag_type="text">inter-reference  correlations. </text>
+<text top="1959" left="250" width="915" height="65" font="font3" id="p1_t26" reading_order_no="41" segment_no="12" tag_type="text">Thus,  IAT-CV  is  an  effective  metric  for  capturing </text>
+<text top="2012" left="201" width="962" height="64" font="font1" id="p1_t27" reading_order_no="42" segment_no="12" tag_type="text">temporal  correlation.  In  a  manner  similar  to  nor- </text>
+<text top="2064" left="200" width="964" height="64" font="font1" id="p1_t28" reading_order_no="43" segment_no="12" tag_type="text">malized  entropy,  the  importance  of  correlation  in  a </text>
+<text top="2116" left="200" width="964" height="64" font="font1" id="p1_t29" reading_order_no="44" segment_no="12" tag_type="text">reference  stream  can  be  measured  by  its  effect  on  hit </text>
+<text top="2168" left="200" width="964" height="65" font="font1" id="p1_t30" reading_order_no="45" segment_no="12" tag_type="text">ratio  in  a  LRU  cache.  When a trace  is  scrambled </text>
+<text top="2225" left="202" width="961" height="58" font="font4" id="p1_t31" reading_order_no="46" segment_no="12" tag_type="text">(removing  correlations)  the  resulting  hit  ratio  tends </text>
+<text top="2272" left="200" width="965" height="65" font="font3" id="p1_t32" reading_order_no="47" segment_no="12" tag_type="text">to  decrease;  in  [4]  we  find  this  decrease  is  strongly </text>
+<text top="2324" left="200" width="443" height="65" font="font3" id="p1_t33" reading_order_no="48" segment_no="12" tag_type="text">correlated  with  IAT-CV. </text>
+<text top="1716" left="200" width="229" height="43" font="font9" id="p1_t34" reading_order_no="31" segment_no="13" tag_type="text">Summary  of  the </text>
+<text top="1754" left="201" width="318" height="43" font="font9" id="p1_t35" reading_order_no="32" segment_no="13" tag_type="text">effects  of  the  different </text>
+<text top="1790" left="200" width="324" height="46" font="font10" id="p1_t36" reading_order_no="33" segment_no="13" tag_type="text">transformations  on  the </text>
+<text top="1828" left="200" width="275" height="45" font="font10" id="p1_t37" reading_order_no="34" segment_no="13" tag_type="text">two  components  of </text>
+<text top="1867" left="200" width="246" height="43" font="font9" id="p1_t38" reading_order_no="35" segment_no="13" tag_type="text">temporal  locality. </text>
+<text top="2428" left="202" width="609" height="65" font="font3" id="p1_t39" reading_order_no="49" segment_no="14" tag_type="title">Exploring  Stream  Locality </text>
+<text top="2480" left="200" width="963" height="66" font="font3" id="p1_t40" reading_order_no="50" segment_no="15" tag_type="text">So  far,  we  have  been  devoted  to  decomposing  the </text>
+<text top="2533" left="200" width="963" height="65" font="font1" id="p1_t41" reading_order_no="51" segment_no="15" tag_type="text">complexity  of Web  systems  along  two  axes:  the  trans- </text>
+<text top="2586" left="200" width="963" height="64" font="font1" id="p1_t42" reading_order_no="52" segment_no="15" tag_type="text">formations  operating  on  Web  streams  have  been </text>
+<text top="2637" left="200" width="964" height="65" font="font3" id="p1_t43" reading_order_no="53" segment_no="15" tag_type="text">decomposed  into  aggregation,  disaggregation,  and </text>
+<text top="2689" left="200" width="963" height="65" font="font3" id="p1_t44" reading_order_no="54" segment_no="15" tag_type="text">filtering;  and  the  locality  property  of  request  streams </text>
+<text top="2741" left="200" width="963" height="66" font="font3" id="p1_t45" reading_order_no="55" segment_no="15" tag_type="text">has  been  decomposed  into  popularity  and  correla- </text>
+<text top="2794" left="201" width="962" height="65" font="font3" id="p1_t46" reading_order_no="56" segment_no="15" tag_type="text">tion.  Using  this  decomposition,  we  can  begin  to </text>
+<text top="2847" left="200" width="963" height="64" font="font1" id="p1_t47" reading_order_no="57" segment_no="15" tag_type="text">attack  the  underlying  problem,  namely  the  sys- </text>
+<text top="2898" left="201" width="962" height="65" font="font3" id="p1_t48" reading_order_no="58" segment_no="15" tag_type="text">temwide  engineering  of the  Web.  Organizing  the  var- </text>
+<text top="2951" left="201" width="962" height="63" font="font3" id="p1_t49" reading_order_no="59" segment_no="15" tag_type="text">ious  processes  of  the  system  along  these  two  axes </text>
+<text top="3002" left="199" width="965" height="65" font="font3" id="p1_t50" reading_order_no="60" segment_no="15" tag_type="text">yields  a  set  of  tractable  analyses  that  can  ultimately  be </text>
+<text top="1496" left="241" width="136" height="43" font="font9" id="p1_t51" reading_order_no="20" segment_no="10" tag_type="table">Popularity </text>
+<text top="1497" left="486" width="113" height="43" font="font9" id="p1_t52" reading_order_no="21" segment_no="10" tag_type="table">Increases </text>
+<text top="1497" left="654" width="50" height="43" font="font9" id="p1_t53" reading_order_no="22" segment_no="10" tag_type="table">ee </text>
+<text top="1498" left="835" width="235" height="44" font="font9" id="p1_t54" reading_order_no="23" segment_no="10" tag_type="table">Decreases  entropy, </text>
+<text top="1499" left="1268" width="140" height="43" font="font9" id="p1_t55" reading_order_no="25" segment_no="10" tag_type="table">Little  effect </text>
+<text top="1530" left="814" width="278" height="42" font="font11" id="p1_t56" reading_order_no="24" segment_no="10" tag_type="table">especially  near  servers </text>
+<text top="1591" left="232" width="153" height="41" font="font12" id="p1_t57" reading_order_no="26" segment_no="10" tag_type="table">Correlation </text>
+<text top="1591" left="484" width="223" height="41" font="font12" id="p1_t58" reading_order_no="27" segment_no="10" tag_type="table">Decreases  IAT-CV </text>
+<text top="1592" left="885" width="137" height="41" font="font12" id="p1_t59" reading_order_no="28" segment_no="10" tag_type="table">Little  effect </text>
+<text top="1593" left="1227" width="223" height="41" font="font12" id="p1_t60" reading_order_no="29" segment_no="10" tag_type="table">Decreases  IAT-CV </text>
+<text top="1626" left="1206" width="263" height="39" font="font13" id="p1_t61" reading_order_no="30" segment_no="10" tag_type="table">especially  near  clients </text>
+<text top="242" left="1216" width="963" height="65" font="font1" id="p1_t62" reading_order_no="61" segment_no="3" tag_type="text">recombined  into  a  systemwide  view.  The  idea  is  to </text>
+<text top="293" left="1216" width="964" height="66" font="font3" id="p1_t63" reading_order_no="62" segment_no="3" tag_type="text">consider  how  each  transformation  operates  on  each </text>
+<text top="347" left="1216" width="964" height="65" font="font1" id="p1_t64" reading_order_no="63" segment_no="3" tag_type="text">source  of  locality;  we  organize  our  findings  in  the </text>
+<text top="398" left="1216" width="963" height="66" font="font3" id="p1_t65" reading_order_no="64" segment_no="3" tag_type="text">table  here.  The  results  in  this  table  are  derived  from </text>
+<text top="451" left="1216" width="963" height="65" font="font1" id="p1_t66" reading_order_no="65" segment_no="3" tag_type="text">measurements  of  Web  traces,  experimental  evalua- </text>
+<text top="502" left="1216" width="965" height="66" font="font3" id="p1_t67" reading_order_no="66" segment_no="3" tag_type="text">tion  of  transformations  of  Web  traces,  and  analytic </text>
+<text top="561" left="1216" width="629" height="56" font="font2" id="p1_t68" reading_order_no="67" segment_no="3" tag_type="text">considerations,  as  described  in  [4]. </text>
+<text top="606" left="1264" width="918" height="67" font="font3" id="p1_t69" reading_order_no="68" segment_no="4" tag_type="text">Filtering.  Filtering  by  a  cache,  under  commonly </text>
+<text top="659" left="1216" width="964" height="66" font="font3" id="p1_t70" reading_order_no="69" segment_no="4" tag_type="text">used  cache  replacement  policies  like  LRU  and  least </text>
+<text top="715" left="1215" width="963" height="60" font="font4" id="p1_t71" reading_order_no="70" segment_no="4" tag_type="text">frequently  used  (LFU),  tends  to  remove  both  com- </text>
+<text top="764" left="1215" width="963" height="64" font="font1" id="p1_t72" reading_order_no="71" segment_no="4" tag_type="text">ponents  of  locality.  It  removes  popularity  (increases </text>
+<text top="816" left="1215" width="964" height="66" font="font1" id="p1_t73" reading_order_no="72" segment_no="4" tag_type="text">entropy)  because  highly  popular  objects  are  more </text>
+<text top="868" left="1215" width="963" height="66" font="font1" id="p1_t74" reading_order_no="73" segment_no="4" tag_type="text">likely  to  be  found  in  the  cache;  and  it  tends  to </text>
+<text top="924" left="1216" width="963" height="60" font="font4" id="p1_t75" reading_order_no="74" segment_no="4" tag_type="text">remove  correlation  (decreases  IAT-CV)  because </text>
+<text top="972" left="1216" width="963" height="66" font="font3" id="p1_t76" reading_order_no="75" segment_no="4" tag_type="text">recently  referenced  objects  are  more  likely  to  be </text>
+<text top="1024" left="1215" width="355" height="63" font="font3" id="p1_t77" reading_order_no="76" segment_no="4" tag_type="text">found  in  the  cache. </text>
+<text top="1077" left="1261" width="918" height="65" font="font1" id="p1_t78" reading_order_no="77" segment_no="5" tag_type="text">Aggregation.  Aggregation  of  streams  coming  from </text>
+<text top="1135" left="1215" width="962" height="57" font="font2" id="p1_t79" reading_order_no="78" segment_no="5" tag_type="text">distinct  upstream  sources  tends  to  increase  locality, </text>
+<text top="1181" left="1215" width="966" height="65" font="font1" id="p1_t80" reading_order_no="79" segment_no="5" tag_type="text">especially  near  servers.  This  occurs  because  entropy </text>
+<text top="1232" left="1215" width="966" height="67" font="font3" id="p1_t81" reading_order_no="80" segment_no="5" tag_type="text">decreases,  while  IAT-CV  changes  very  little.  Entropy </text>
+<text top="1286" left="1215" width="965" height="65" font="font1" id="p1_t82" reading_order_no="81" segment_no="5" tag_type="text">decreases  because  the  popularity  of  documents  in  the </text>
+<text top="1337" left="1567" width="613" height="66" font="font3" id="p1_t83" reading_order_no="82" segment_no="5" tag_type="text">merged  stream  is  generally  more </text>
+<text top="1389" left="1566" width="614" height="65" font="font3" id="p1_t84" reading_order_no="83" segment_no="5" tag_type="text">skewed  than  in  the  component </text>
+<text top="1442" left="1566" width="613" height="65" font="font3" id="p1_t85" reading_order_no="84" segment_no="5" tag_type="text">streams  being  merged.  This  sur- </text>
+<text top="1494" left="1567" width="612" height="64" font="font1" id="p1_t86" reading_order_no="85" segment_no="5" tag_type="text">prising  effect,  observed  in  empir- </text>
+<text top="1544" left="1568" width="612" height="67" font="font14" id="p1_t87" reading_order_no="86" segment_no="5" tag_type="text">ical  traces,  occurs  because </text>
+<text top="1597" left="1567" width="613" height="66" font="font3" id="p1_t88" reading_order_no="87" segment_no="5" tag_type="text">globally  popular  documents  tend </text>
+<text top="1649" left="1568" width="613" height="65" font="font3" id="p1_t89" reading_order_no="88" segment_no="5" tag_type="text">to  occur  in  each  component </text>
+<text top="1702" left="1216" width="964" height="64" font="font1" id="p1_t90" reading_order_no="89" segment_no="5" tag_type="text">stream,  while  unpopular  documents  do  not.  This </text>
+<text top="1759" left="1216" width="964" height="58" font="font6" id="p1_t91" reading_order_no="90" segment_no="5" tag_type="text">effect is  most  pronounced  near  servers,  where  the </text>
+<text top="1805" left="1216" width="966" height="66" font="font3" id="p1_t92" reading_order_no="91" segment_no="5" tag_type="text">largest  number  of  independent  streams  are  being </text>
+<text top="1857" left="1216" width="145" height="63" font="font3" id="p1_t93" reading_order_no="92" segment_no="5" tag_type="text">merged. </text>
+<text top="1913" left="1265" width="915" height="61" font="font0" id="p1_t94" reading_order_no="93" segment_no="8" tag_type="text">Disaggregation.  Disaggregation  into  separate </text>
+<text top="1969" left="1216" width="966" height="56" font="font2" id="p1_t95" reading_order_no="94" segment_no="8" tag_type="text">streams  tends  to  reduce  locality,  but  its  effect  is  only </text>
+<text top="2014" left="1215" width="966" height="65" font="font3" id="p1_t96" reading_order_no="95" segment_no="8" tag_type="text">pronounced  near  clients.  Disaggregation  has  little </text>
+<text top="2073" left="1215" width="965" height="56" font="font2" id="p1_t97" reading_order_no="96" segment_no="8" tag_type="text">effect  on  entropy;  this  seems  to  be  because  resulting </text>
+<text top="2118" left="1215" width="964" height="65" font="font3" id="p1_t98" reading_order_no="97" segment_no="8" tag_type="text">downstream  components  tend  to  maintain  skewed </text>
+<text top="2170" left="1215" width="964" height="65" font="font3" id="p1_t99" reading_order_no="98" segment_no="8" tag_type="text">object  popularity  approximately  like  the  original </text>
+<text top="2222" left="1215" width="965" height="65" font="font3" id="p1_t100" reading_order_no="99" segment_no="8" tag_type="text">stream.  This  is  consistent  with  the  many  studies  that </text>
+<text top="2274" left="1215" width="964" height="66" font="font3" id="p1_t101" reading_order_no="100" segment_no="8" tag_type="text">have  shown  that  even  among  objects  on  a  single  Web </text>
+<text top="2326" left="1215" width="964" height="66" font="font3" id="p1_t102" reading_order_no="101" segment_no="8" tag_type="text">server,  Zipf’s  Law  is  quite  pronounced.  Disaggrega- </text>
+<text top="2378" left="1216" width="963" height="67" font="font14" id="p1_t103" reading_order_no="102" segment_no="8" tag_type="text">tion  does  tend  to  reduce  IAT-CV,  but  this  effect  is </text>
+<text top="2431" left="1216" width="964" height="65" font="font3" id="p1_t104" reading_order_no="103" segment_no="8" tag_type="text">only  pronounced  when  disaggregation  occurs  close </text>
+<text top="2484" left="1216" width="963" height="64" font="font1" id="p1_t105" reading_order_no="104" segment_no="8" tag_type="text">to  the  client.  At  most  other  places  in  the  Web  system </text>
+<text top="2536" left="1216" width="963" height="64" font="font1" id="p1_t106" reading_order_no="105" segment_no="8" tag_type="text">there  is  little  correlation  in  either  incoming  or  out- </text>
+<text top="2591" left="1215" width="262" height="58" font="font7" id="p1_t107" reading_order_no="106" segment_no="8" tag_type="text">going  streams. </text>
+<text top="2639" left="1265" width="915" height="67" font="font14" id="p1_t108" reading_order_no="107" segment_no="9" tag_type="text">Location  in  the  Web  of  Streams.  Applying  these </text>
+<text top="2692" left="1216" width="963" height="65" font="font1" id="p1_t109" reading_order_no="108" segment_no="9" tag_type="text">insights  to  the  Web  system,  we  can  begin  to  under- </text>
+<text top="2744" left="1216" width="964" height="65" font="font3" id="p1_t110" reading_order_no="109" segment_no="9" tag_type="text">stand  how  locality  changes  as  a  function  of  location </text>
+<text top="2800" left="1217" width="964" height="60" font="font7" id="p1_t111" reading_order_no="110" segment_no="9" tag_type="text">in  the  system.  Referring  back  to  Figure  1(b),  we  say </text>
+<text top="2848" left="1216" width="963" height="66" font="font3" id="p1_t112" reading_order_no="111" segment_no="9" tag_type="text">that  a  component  is  near  clients  if  it  receives  requests </text>
+<text top="2901" left="1216" width="963" height="65" font="font1" id="p1_t113" reading_order_no="112" segment_no="9" tag_type="text">from  relatively  few  clients,  and  sends  requests  to  rel- </text>
+<text top="2953" left="1216" width="962" height="65" font="font3" id="p1_t114" reading_order_no="113" segment_no="9" tag_type="text">atively  many  servers;  and  if  the  situation  is  reversed, </text>
+<text top="3005" left="1216" width="965" height="65" font="font3" id="p1_t115" reading_order_no="114" segment_no="9" tag_type="text">the  component  is  near  servers.  We  can  then  ask  how </text>
+<text top="3144" left="1378" width="701" height="34" font="font16" id="p1_t116" reading_order_no="115" segment_no="16" tag_type="text">COMMUNICATIONS  OF  THE  ACM  January  2005/Vol.  48,  No.  | </text>
+<text top="3146" left="2128" width="45" height="32" font="font16" id="p1_t117" reading_order_no="116" segment_no="17" tag_type="text">87</text>
+</page>
+</pdf2xml>

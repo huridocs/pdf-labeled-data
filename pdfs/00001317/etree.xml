@@ -1,0 +1,197 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3413" width="2354">
+	<fontspec id="font0" size="113" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="82" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="79" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="80" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="81" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="27" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="31" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="30" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="32" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="36" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="83" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="893" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="28" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="33" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="29" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font15" size="35" family="GlyphLessFont" color="#000000"/>
+<text top="84" left="519" width="626" height="111" font="font1" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">‘Programmable  logic </text>
+<text top="170" left="607" width="534" height="107" font="font2" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">controllers  (PLCs) </text>
+<text top="247" left="365" width="781" height="110" font="font3" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="text">traditionally  used  for  plant </text>
+<text top="330" left="446" width="693" height="109" font="font4" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="text">control  do  not  offer the </text>
+<text top="411" left="409" width="732" height="108" font="font3" id="p1_t5" reading_order_no="4" segment_no="0" tag_type="text">high-speed  |/O  required </text>
+<text top="787" left="98" width="244" height="36" font="font5" id="p1_t6" reading_order_no="7" segment_no="11" tag_type="title">CompactDAQ  Rack </text>
+<text top="2536" left="70" width="469" height="42" font="font6" id="p1_t7" reading_order_no="8" segment_no="19" tag_type="text">acquisition  as  it  often  involves </text>
+<text top="2575" left="70" width="401" height="42" font="font6" id="p1_t8" reading_order_no="9" segment_no="19" tag_type="text">multiple  I/O  tasks  such  as </text>
+<text top="2616" left="70" width="391" height="41" font="font7" id="p1_t9" reading_order_no="10" segment_no="19" tag_type="text">analogue  input,  analogue </text>
+<text top="2656" left="70" width="487" height="41" font="font7" id="p1_t10" reading_order_no="11" segment_no="19" tag_type="text">output,  digital  input  and  digital </text>
+<text top="2693" left="70" width="394" height="43" font="font8" id="p1_t11" reading_order_no="12" segment_no="19" tag_type="text">output  as  well  as  multiple </text>
+<text top="2734" left="70" width="505" height="42" font="font6" id="p1_t12" reading_order_no="13" segment_no="19" tag_type="text">counter/timers.  To  operate  all  of </text>
+<text top="2774" left="70" width="446" height="42" font="font6" id="p1_t13" reading_order_no="14" segment_no="19" tag_type="text">these  tasks  simultaneously,  a </text>
+<text top="2814" left="70" width="443" height="42" font="font6" id="p1_t14" reading_order_no="15" segment_no="19" tag_type="text">data  acquisition  device  must </text>
+<text top="2855" left="70" width="481" height="41" font="font7" id="p1_t15" reading_order_no="16" segment_no="19" tag_type="text">process  multiple  streams  at  the </text>
+<text top="2894" left="70" width="500" height="41" font="font7" id="p1_t16" reading_order_no="17" segment_no="19" tag_type="text">same  time  and  be  able  to  quickly </text>
+<text top="2933" left="70" width="390" height="42" font="font6" id="p1_t17" reading_order_no="18" segment_no="19" tag_type="text">move  data  to  and  from  PC </text>
+<text top="2971" left="70" width="126" height="43" font="font8" id="p1_t18" reading_order_no="19" segment_no="19" tag_type="text">memory. </text>
+<text top="3046" left="72" width="317" height="49" font="font9" id="p1_t19" reading_order_no="20" segment_no="23" tag_type="title">NEW  APPROACH </text>
+<text top="3091" left="70" width="362" height="41" font="font7" id="p1_t20" reading_order_no="21" segment_no="24" tag_type="text">What  is  needed  is  anew </text>
+<text top="3130" left="70" width="469" height="41" font="font7" id="p1_t21" reading_order_no="22" segment_no="24" tag_type="text">approach  to  handling  multiple </text>
+<text top="3170" left="70" width="381" height="41" font="font7" id="p1_t22" reading_order_no="23" segment_no="24" tag_type="text">streams  of  data,  one  that </text>
+<text top="3210" left="71" width="396" height="41" font="font7" id="p1_t23" reading_order_no="24" segment_no="24" tag_type="text">delivers  some  of  the  same </text>
+<text top="3248" left="71" width="367" height="42" font="font6" id="p1_t24" reading_order_no="25" segment_no="24" tag_type="text">characteristics  as  using </text>
+<text top="3290" left="71" width="458" height="41" font="font7" id="p1_t25" reading_order_no="26" segment_no="24" tag_type="text">DMA  on  PCI  and  PCI  Express. </text>
+<text top="490" left="626" width="516" height="111" font="font1" id="p1_t26" reading_order_no="5" segment_no="0" tag_type="text">for  diagnosis  and </text>
+<text top="571" left="635" width="507" height="112" font="font10" id="p1_t27" reading_order_no="6" segment_no="0" tag_type="text">monitoring  tasks’ </text>
+<text top="2535" left="632" width="366" height="42" font="font6" id="p1_t28" reading_order_no="27" segment_no="16" tag_type="text">NI  has  developed  signal </text>
+<text top="2576" left="631" width="412" height="41" font="font7" id="p1_t29" reading_order_no="28" segment_no="16" tag_type="text">streaming  technology  that </text>
+<text top="2614" left="631" width="454" height="42" font="font6" id="p1_t30" reading_order_no="29" segment_no="16" tag_type="text">enables  sustained  high-speed </text>
+<text top="2654" left="631" width="476" height="43" font="font8" id="p1_t31" reading_order_no="30" segment_no="16" tag_type="text">and  bidirectional  data  streams </text>
+<text top="2695" left="632" width="151" height="41" font="font7" id="p1_t32" reading_order_no="31" segment_no="16" tag_type="text">over  USB. </text>
+<text top="2734" left="671" width="427" height="42" font="font6" id="p1_t33" reading_order_no="32" segment_no="17" tag_type="text">Before  explaining  NI  signal </text>
+<text top="2774" left="631" width="439" height="42" font="font6" id="p1_t34" reading_order_no="33" segment_no="17" tag_type="text">streaming,  it  is  important  to </text>
+<text top="2813" left="631" width="503" height="42" font="font6" id="p1_t35" reading_order_no="34" segment_no="17" tag_type="text">review  USB  communication  and </text>
+<text top="2853" left="631" width="390" height="42" font="font6" id="p1_t36" reading_order_no="35" segment_no="17" tag_type="text">legacy  USB  DAQ  designs. </text>
+<text top="2892" left="671" width="432" height="42" font="font6" id="p1_t37" reading_order_no="36" segment_no="18" tag_type="text">USB  isa  serial  protocol  that </text>
+<text top="2933" left="631" width="507" height="41" font="font7" id="p1_t38" reading_order_no="37" segment_no="18" tag_type="text">transfers  data  such  as  addresses, </text>
+<text top="2972" left="631" width="470" height="41" font="font7" id="p1_t39" reading_order_no="38" segment_no="18" tag_type="text">requests  and  confirmations  in </text>
+<text top="3011" left="632" width="473" height="41" font="font7" id="p1_t40" reading_order_no="39" segment_no="18" tag_type="text">packets  and  it  shares  available </text>
+<text top="3050" left="632" width="445" height="42" font="font6" id="p1_t41" reading_order_no="40" segment_no="18" tag_type="text">bandwidth  across  all  devices </text>
+<text top="3092" left="631" width="125" height="38" font="font12" id="p1_t42" reading_order_no="41" segment_no="18" tag_type="text">present. </text>
+<text top="3130" left="671" width="394" height="41" font="font7" id="p1_t43" reading_order_no="42" segment_no="25" tag_type="text">USB  systems  incorporate </text>
+<text top="3170" left="631" width="435" height="41" font="font7" id="p1_t44" reading_order_no="43" segment_no="25" tag_type="text">three  components  —  the  host </text>
+<text top="3208" left="632" width="494" height="43" font="font8" id="p1_t45" reading_order_no="44" segment_no="25" tag_type="text">(typically  a  PC  or  laptop),  a  USB </text>
+<text top="3248" left="632" width="462" height="43" font="font8" id="p1_t46" reading_order_no="45" segment_no="25" tag_type="text">device  and  the  USB  cable.  The </text>
+<text top="3289" left="632" width="402" height="41" font="font7" id="p1_t47" reading_order_no="46" segment_no="25" tag_type="text">USB  host  initiates  all  data </text>
+<text top="754" left="1195" width="471" height="41" font="font7" id="p1_t48" reading_order_no="47" segment_no="1" tag_type="text">transfers  to  a  USB  device,  thus </text>
+<text top="793" left="1195" width="462" height="41" font="font7" id="p1_t49" reading_order_no="48" segment_no="1" tag_type="text">requiring  the  transmission  of </text>
+<text top="832" left="1195" width="413" height="41" font="font7" id="p1_t50" reading_order_no="49" segment_no="1" tag_type="text">three  or  more  packets  for  a </text>
+<text top="871" left="1196" width="389" height="41" font="font7" id="p1_t51" reading_order_no="50" segment_no="1" tag_type="text">simple  transaction  —  host </text>
+<text top="911" left="1195" width="479" height="41" font="font7" id="p1_t52" reading_order_no="51" segment_no="1" tag_type="text">request,  data  transfer,  and  host </text>
+<text top="951" left="1195" width="215" height="41" font="font7" id="p1_t53" reading_order_no="52" segment_no="1" tag_type="text">confirmation. </text>
+<text top="991" left="1235" width="400" height="41" font="font7" id="p1_t54" reading_order_no="53" segment_no="2" tag_type="text">Information  is  sent  to  and </text>
+<text top="1030" left="1195" width="462" height="41" font="font7" id="p1_t55" reading_order_no="54" segment_no="2" tag_type="text">from  a  USB  device  through  its </text>
+<text top="1069" left="1195" width="398" height="41" font="font7" id="p1_t56" reading_order_no="55" segment_no="2" tag_type="text">endpoints.  An  endpoint  is </text>
+<text top="1109" left="1195" width="434" height="42" font="font6" id="p1_t57" reading_order_no="56" segment_no="2" tag_type="text">equivalent  to  a  gate  through </text>
+<text top="1150" left="1195" width="470" height="41" font="font7" id="p1_t58" reading_order_no="57" segment_no="2" tag_type="text">which  all  data  must  pass  to  get </text>
+<text top="1187" left="1196" width="497" height="43" font="font8" id="p1_t59" reading_order_no="58" segment_no="2" tag_type="text">on  or  off  the  USB  device.  Endpo- </text>
+<text top="1229" left="1196" width="508" height="41" font="font7" id="p1_t60" reading_order_no="59" segment_no="2" tag_type="text">ints  can  transfer  data  only  in  one </text>
+<text top="1268" left="1195" width="470" height="41" font="font7" id="p1_t61" reading_order_no="60" segment_no="2" tag_type="text">direction,  requiring  devices  to </text>
+<text top="1306" left="1195" width="411" height="42" font="font6" id="p1_t62" reading_order_no="61" segment_no="2" tag_type="text">have  multiple  endpoints  to </text>
+<text top="1347" left="1196" width="464" height="41" font="font7" id="p1_t63" reading_order_no="62" segment_no="2" tag_type="text">achieve  both  input  and  output </text>
+<text top="1384" left="1195" width="495" height="43" font="font8" id="p1_t64" reading_order_no="63" segment_no="2" tag_type="text">functions.  Data  is  transferred  to </text>
+<text top="1425" left="1195" width="479" height="42" font="font6" id="p1_t65" reading_order_no="64" segment_no="2" tag_type="text">or  from  the  device  endpoints  to </text>
+<text top="1463" left="1195" width="454" height="43" font="font8" id="p1_t66" reading_order_no="65" segment_no="2" tag_type="text">the  host  controller  using  four </text>
+<text top="1504" left="1195" width="486" height="42" font="font6" id="p1_t67" reading_order_no="66" segment_no="2" tag_type="text">basic  types  of  transfers,  one  for </text>
+<text top="1544" left="1195" width="511" height="42" font="font6" id="p1_t68" reading_order_no="67" segment_no="2" tag_type="text">USB  bus  control  and  three  others </text>
+<text top="1585" left="1194" width="256" height="41" font="font7" id="p1_t69" reading_order_no="68" segment_no="2" tag_type="text">for  data  transfer. </text>
+<text top="1622" left="1235" width="356" height="43" font="font8" id="p1_t70" reading_order_no="69" segment_no="3" tag_type="text">Interrupt  data  transfer </text>
+<text top="1662" left="1195" width="476" height="43" font="font8" id="p1_t71" reading_order_no="70" segment_no="3" tag_type="text">provides  low-volume  data  with </text>
+<text top="1703" left="1195" width="478" height="42" font="font6" id="p1_t72" reading_order_no="71" segment_no="3" tag_type="text">timely  and  reliable  data  transf- </text>
+<text top="1744" left="1195" width="473" height="41" font="font7" id="p1_t73" reading_order_no="72" segment_no="3" tag_type="text">ers;  often  used  for  a  peripheral </text>
+<text top="1783" left="1195" width="440" height="41" font="font7" id="p1_t74" reading_order_no="73" segment_no="3" tag_type="text">device  such  as  a  keyboard  or </text>
+<text top="1821" left="1195" width="107" height="43" font="font8" id="p1_t75" reading_order_no="74" segment_no="3" tag_type="text">mouse. </text>
+<text top="1862" left="1235" width="402" height="41" font="font7" id="p1_t76" reading_order_no="75" segment_no="4" tag_type="text">Isochronous  data  transfer </text>
+<text top="1901" left="1195" width="499" height="42" font="font6" id="p1_t77" reading_order_no="76" segment_no="4" tag_type="text">offers  pre-negotiated  bandwidth </text>
+<text top="1941" left="1195" width="443" height="41" font="font7" id="p1_t78" reading_order_no="77" segment_no="4" tag_type="text">with  possible  data  loss;  often </text>
+<text top="1979" left="1195" width="500" height="42" font="font6" id="p1_t79" reading_order_no="78" segment_no="4" tag_type="text">used  when  on-time  data  delivery </text>
+<text top="2019" left="1197" width="434" height="42" font="font6" id="p1_t80" reading_order_no="79" segment_no="4" tag_type="text">is  more  important  than  data </text>
+<text top="2058" left="1195" width="433" height="43" font="font8" id="p1_t81" reading_order_no="80" segment_no="4" tag_type="text">accuracy,  such  as  streaming </text>
+<text top="2100" left="1195" width="252" height="41" font="font7" id="p1_t82" reading_order_no="81" segment_no="4" tag_type="text">audio  and  video. </text>
+<text top="2138" left="1235" width="414" height="42" font="font6" id="p1_t83" reading_order_no="82" segment_no="5" tag_type="text">Bulk  data  transfer  delivers </text>
+<text top="2178" left="1194" width="429" height="42" font="font6" id="p1_t84" reading_order_no="83" segment_no="5" tag_type="text">large  data  transfers  with  no </text>
+<text top="2217" left="1195" width="403" height="42" font="font6" id="p1_t85" reading_order_no="84" segment_no="5" tag_type="text">loss  of  data;  often  used  for </text>
+<text top="2258" left="1195" width="476" height="42" font="font6" id="p1_t86" reading_order_no="85" segment_no="5" tag_type="text">applications  where  lots  of  data </text>
+<text top="2296" left="1195" width="432" height="43" font="font8" id="p1_t87" reading_order_no="86" segment_no="5" tag_type="text">must  be  transferred  with  no </text>
+<text top="2337" left="1194" width="438" height="42" font="font6" id="p1_t88" reading_order_no="87" segment_no="5" tag_type="text">loss  of  data  such  as  external </text>
+<text top="2378" left="1195" width="184" height="41" font="font7" id="p1_t89" reading_order_no="88" segment_no="5" tag_type="text">hard  drives. </text>
+<text top="2416" left="1235" width="438" height="42" font="font6" id="p1_t90" reading_order_no="89" segment_no="6" tag_type="text">With  built-in  error  checking </text>
+<text top="2455" left="1195" width="460" height="42" font="font6" id="p1_t91" reading_order_no="90" segment_no="6" tag_type="text">and  large  data  transfer  capab- </text>
+<text top="2496" left="1196" width="475" height="41" font="font7" id="p1_t92" reading_order_no="91" segment_no="6" tag_type="text">ilities,  bulk  data  transfer  is  the </text>
+<text top="2534" left="1195" width="414" height="42" font="font6" id="p1_t93" reading_order_no="92" segment_no="6" tag_type="text">logical  choice  for  USB  data </text>
+<text top="2575" left="1196" width="430" height="41" font="font7" id="p1_t94" reading_order_no="93" segment_no="6" tag_type="text">acquisition.  But  in  practice, </text>
+<text top="2615" left="1195" width="408" height="41" font="font7" id="p1_t95" reading_order_no="94" segment_no="6" tag_type="text">bulk  transfers  can  achieve </text>
+<text top="2655" left="1194" width="459" height="41" font="font7" id="p1_t96" reading_order_no="95" segment_no="6" tag_type="text">fast  performance  when  only  a </text>
+<text top="2693" left="1196" width="432" height="42" font="font6" id="p1_t97" reading_order_no="96" segment_no="6" tag_type="text">single  stream  of  data  is  sent </text>
+<text top="2733" left="1196" width="412" height="42" font="font6" id="p1_t98" reading_order_no="97" segment_no="6" tag_type="text">through  the  USB  port.  Any </text>
+<text top="2773" left="1195" width="473" height="42" font="font6" id="p1_t99" reading_order_no="98" segment_no="6" tag_type="text">additional  streams  can  consid- </text>
+<text top="2814" left="1195" width="438" height="41" font="font7" id="p1_t100" reading_order_no="99" segment_no="6" tag_type="text">erably  reduce  transfer  rates, </text>
+<text top="2852" left="1196" width="454" height="42" font="font6" id="p1_t101" reading_order_no="100" segment_no="6" tag_type="text">especially  if  the  transfers  are </text>
+<text top="2893" left="1195" width="211" height="41" font="font7" id="p1_t102" reading_order_no="101" segment_no="6" tag_type="text">bidirectional. </text>
+<text top="2968" left="1195" width="494" height="45" font="font13" id="p1_t103" reading_order_no="102" segment_no="20" tag_type="title">TRADITIONAL  APPROACH </text>
+<text top="3011" left="1195" width="486" height="41" font="font7" id="p1_t104" reading_order_no="103" segment_no="21" tag_type="text">Using  the  traditional  approach, </text>
+<text top="3048" left="1195" width="484" height="43" font="font8" id="p1_t105" reading_order_no="104" segment_no="21" tag_type="text">there  are  three  technical  issues </text>
+<text top="3088" left="1195" width="472" height="42" font="font6" id="p1_t106" reading_order_no="105" segment_no="21" tag_type="text">that  contribute  to  the  inability </text>
+<text top="3127" left="1195" width="481" height="43" font="font8" id="p1_t107" reading_order_no="106" segment_no="21" tag_type="text">of  USB  to  meet  throughput  and </text>
+<text top="3167" left="1195" width="458" height="43" font="font8" id="p1_t108" reading_order_no="107" segment_no="21" tag_type="text">latency  expectations  for  high- </text>
+<text top="3207" left="1195" width="468" height="43" font="font8" id="p1_t109" reading_order_no="108" segment_no="21" tag_type="text">performance  data  acquisition. </text>
+<text top="3246" left="1235" width="429" height="43" font="font8" id="p1_t110" reading_order_no="109" segment_no="22" tag_type="text">The  first  issue  is  the  ineffic- </text>
+<text top="3287" left="1196" width="472" height="42" font="font6" id="p1_t111" reading_order_no="110" segment_no="22" tag_type="text">ient  use  of  a  processor  for  data </text>
+<text top="754" left="1757" width="406" height="39" font="font14" id="p1_t112" reading_order_no="111" segment_no="7" tag_type="text">management.  The  current </text>
+<text top="793" left="1757" width="474" height="41" font="font7" id="p1_t113" reading_order_no="112" segment_no="7" tag_type="text">standard  for  data  management </text>
+<text top="831" left="1756" width="445" height="41" font="font7" id="p1_t114" reading_order_no="113" segment_no="7" tag_type="text">between  the  data  acquisition </text>
+<text top="870" left="1756" width="443" height="42" font="font6" id="p1_t115" reading_order_no="114" segment_no="7" tag_type="text">front  end  and  USB  endpoints </text>
+<text top="910" left="1758" width="440" height="41" font="font7" id="p1_t116" reading_order_no="115" segment_no="7" tag_type="text">is  aslow,  commercial  off-the- </text>
+<text top="949" left="1757" width="410" height="42" font="font6" id="p1_t117" reading_order_no="116" segment_no="7" tag_type="text">shelf  (COTS)  processor.  Its </text>
+<text top="991" left="1756" width="507" height="41" font="font7" id="p1_t118" reading_order_no="117" segment_no="7" tag_type="text">purpose  is  to  divert  the  appropri- </text>
+<text top="1028" left="1757" width="457" height="42" font="font6" id="p1_t119" reading_order_no="118" segment_no="7" tag_type="text">ate  information  to  each  indiv- </text>
+<text top="1068" left="1758" width="477" height="41" font="font7" id="p1_t120" reading_order_no="119" segment_no="7" tag_type="text">idual  USB  endpoint.  Compared </text>
+<text top="1107" left="1757" width="403" height="43" font="font8" id="p1_t121" reading_order_no="120" segment_no="7" tag_type="text">toa  custom  design,  it  isan </text>
+<text top="1147" left="1757" width="424" height="43" font="font8" id="p1_t122" reading_order_no="121" segment_no="7" tag_type="text">inexpensive  solution  witha </text>
+<text top="1188" left="1756" width="428" height="41" font="font7" id="p1_t123" reading_order_no="122" segment_no="7" tag_type="text">fairly  easy  implementation. </text>
+<text top="1228" left="1796" width="324" height="39" font="font14" id="p1_t124" reading_order_no="123" segment_no="8" tag_type="text">These  processors  are </text>
+<text top="1267" left="1757" width="394" height="41" font="font7" id="p1_t125" reading_order_no="124" segment_no="8" tag_type="text">instruction-based,  single- </text>
+<text top="1305" left="1756" width="467" height="42" font="font6" id="p1_t126" reading_order_no="125" segment_no="8" tag_type="text">threaded  pieces  of  silicon  that </text>
+<text top="1346" left="1757" width="467" height="41" font="font7" id="p1_t127" reading_order_no="126" segment_no="8" tag_type="text">create  a  switch-like  behaviour. </text>
+<text top="1385" left="1757" width="412" height="41" font="font7" id="p1_t128" reading_order_no="127" segment_no="8" tag_type="text">Only  able  to  run  one  single </text>
+<text top="1425" left="1758" width="453" height="41" font="font7" id="p1_t129" reading_order_no="128" segment_no="8" tag_type="text">instruction  at  any  given  time, </text>
+<text top="1463" left="1756" width="442" height="43" font="font8" id="p1_t130" reading_order_no="129" segment_no="8" tag_type="text">they  are  the  bottleneck  of  all </text>
+<text top="1503" left="1756" width="442" height="42" font="font6" id="p1_t131" reading_order_no="130" segment_no="8" tag_type="text">typical  USB  data  acquisition </text>
+<text top="1545" left="1757" width="121" height="41" font="font7" id="p1_t132" reading_order_no="131" segment_no="8" tag_type="text">devices. </text>
+<text top="1584" left="1796" width="405" height="41" font="font7" id="p1_t133" reading_order_no="132" segment_no="9" tag_type="text">Any  higher-priority  tasks, </text>
+<text top="1622" left="1757" width="485" height="42" font="font6" id="p1_t134" reading_order_no="133" segment_no="9" tag_type="text">such  as  handling  control  reque- </text>
+<text top="1661" left="1757" width="483" height="43" font="font8" id="p1_t135" reading_order_no="134" segment_no="9" tag_type="text">sts  from  the  host,  may  delay  the </text>
+<text top="1703" left="1757" width="511" height="41" font="font7" id="p1_t136" reading_order_no="135" segment_no="9" tag_type="text">processor  in  handling  data  trans- </text>
+<text top="1742" left="1756" width="510" height="41" font="font7" id="p1_t137" reading_order_no="136" segment_no="9" tag_type="text">fers,  causing  low  throughput  and </text>
+<text top="1782" left="1756" width="491" height="41" font="font7" id="p1_t138" reading_order_no="137" segment_no="9" tag_type="text">possible  buffer  underflow/over- </text>
+<text top="1820" left="1756" width="477" height="43" font="font8" id="p1_t139" reading_order_no="138" segment_no="9" tag_type="text">flow  errors.  Due  to  its  architec- </text>
+<text top="1861" left="1757" width="415" height="41" font="font7" id="p1_t140" reading_order_no="139" segment_no="9" tag_type="text">ture,  this  type  of  processor </text>
+<text top="1901" left="1757" width="485" height="41" font="font7" id="p1_t141" reading_order_no="140" segment_no="9" tag_type="text">cannot  simultaneously  manage </text>
+<text top="1940" left="1757" width="495" height="41" font="font7" id="p1_t142" reading_order_no="141" segment_no="9" tag_type="text">several  data  streams  and  handle </text>
+<text top="1979" left="1757" width="414" height="41" font="font7" id="p1_t143" reading_order_no="142" segment_no="9" tag_type="text">incoming  control  requests, </text>
+<text top="2018" left="1757" width="482" height="42" font="font6" id="p1_t144" reading_order_no="143" segment_no="9" tag_type="text">making  high-performance  data </text>
+<text top="2058" left="1757" width="359" height="42" font="font6" id="p1_t145" reading_order_no="144" segment_no="9" tag_type="text">acquisition  impossible. </text>
+<text top="2099" left="1796" width="422" height="41" font="font7" id="p1_t146" reading_order_no="145" segment_no="10" tag_type="text">In  other  words,  USB  cannot </text>
+<text top="2136" left="1756" width="493" height="43" font="font8" id="p1_t147" reading_order_no="146" segment_no="10" tag_type="text">achieve  the  PCI  DMA-like  perfo- </text>
+<text top="2178" left="1757" width="467" height="41" font="font7" id="p1_t148" reading_order_no="147" segment_no="10" tag_type="text">rmance  of  streaming  multiple </text>
+<text top="2217" left="1757" width="394" height="42" font="font6" id="p1_t149" reading_order_no="148" segment_no="10" tag_type="text">I/O  types  simultaneously. </text>
+<text top="2292" left="1756" width="234" height="47" font="font15" id="p1_t150" reading_order_no="149" segment_no="12" tag_type="title">TIME  DELAY </text>
+<text top="2338" left="1756" width="507" height="41" font="font7" id="p1_t151" reading_order_no="150" segment_no="13" tag_type="text">Another  issue  is  latency.  Latency </text>
+<text top="2375" left="1757" width="414" height="42" font="font6" id="p1_t152" reading_order_no="151" segment_no="13" tag_type="text">is  defined  as  the  time  delay </text>
+<text top="2414" left="1756" width="486" height="42" font="font6" id="p1_t153" reading_order_no="152" segment_no="13" tag_type="text">between  initiating  a  request  for </text>
+<text top="2454" left="1757" width="500" height="42" font="font6" id="p1_t154" reading_order_no="153" segment_no="13" tag_type="text">data  and  the  beginning  of  actual </text>
+<text top="2495" left="1756" width="204" height="41" font="font7" id="p1_t155" reading_order_no="154" segment_no="13" tag_type="text">data  transfer. </text>
+<text top="2533" left="1796" width="440" height="42" font="font6" id="p1_t156" reading_order_no="155" segment_no="14" tag_type="text">USB  has  higher  latency  than </text>
+<text top="2574" left="1756" width="427" height="41" font="font7" id="p1_t157" reading_order_no="156" segment_no="14" tag_type="text">PCI  because  of  its  OS-based </text>
+<text top="2613" left="1756" width="411" height="42" font="font6" id="p1_t158" reading_order_no="157" segment_no="14" tag_type="text">access  and  serial  nature.  A </text>
+<text top="2654" left="1756" width="419" height="41" font="font7" id="p1_t159" reading_order_no="158" segment_no="14" tag_type="text">typical  single-point  voltage </text>
+<text top="2693" left="1757" width="393" height="41" font="font7" id="p1_t160" reading_order_no="159" segment_no="14" tag_type="text">acquisition  could  require </text>
+<text top="2733" left="1757" width="360" height="42" font="font6" id="p1_t161" reading_order_no="160" segment_no="14" tag_type="text">dozens  of  register-level </text>
+<text top="2772" left="1757" width="404" height="41" font="font7" id="p1_t162" reading_order_no="161" segment_no="14" tag_type="text">instructions,  which,  when </text>
+<text top="2812" left="1756" width="447" height="42" font="font6" id="p1_t163" reading_order_no="162" segment_no="14" tag_type="text">multiplied  by  1  ms  of  latency, </text>
+<text top="2852" left="1757" width="246" height="42" font="font6" id="p1_t164" reading_order_no="163" segment_no="14" tag_type="text">is  unacceptable. </text>
+<text top="2892" left="1797" width="406" height="41" font="font7" id="p1_t165" reading_order_no="164" segment_no="15" tag_type="text">Finally,  there  is  a  trade-off </text>
+<text top="2931" left="1756" width="454" height="41" font="font7" id="p1_t166" reading_order_no="165" segment_no="15" tag_type="text">between  data  throughput  and </text>
+<text top="2969" left="1756" width="404" height="42" font="font6" id="p1_t167" reading_order_no="166" segment_no="15" tag_type="text">latency.  To  have a  fast  data </text>
+<text top="3009" left="1757" width="416" height="41" font="font7" id="p1_t168" reading_order_no="167" segment_no="15" tag_type="text">throughput  rate,  engineers </text>
+<text top="3047" left="1756" width="443" height="43" font="font8" id="p1_t169" reading_order_no="168" segment_no="15" tag_type="text">need  to  move  larger  data  sets </text>
+<text top="3088" left="1756" width="401" height="42" font="font6" id="p1_t170" reading_order_no="169" segment_no="15" tag_type="text">at  every  transfer.  Doing  so </text>
+<text top="3127" left="1756" width="460" height="42" font="font6" id="p1_t171" reading_order_no="170" segment_no="15" tag_type="text">reduces  the  responsiveness  of </text>
+<text top="3167" left="1756" width="501" height="42" font="font6" id="p1_t172" reading_order_no="171" segment_no="15" tag_type="text">the  system  and  increases  system </text>
+<text top="3206" left="1756" width="476" height="42" font="font6" id="p1_t173" reading_order_no="172" segment_no="15" tag_type="text">latency,  thus  leaving  the  device </text>
+<text top="3247" left="1756" width="488" height="41" font="font7" id="p1_t174" reading_order_no="173" segment_no="15" tag_type="text">unresponsive  during  each  large </text>
+<text top="3287" left="1756" width="160" height="42" font="font6" id="p1_t175" reading_order_no="174" segment_no="15" tag_type="text">transfer.  &gt; </text>
+<text top="3369" left="1486" width="781" height="36" font="font5" id="p1_t176" reading_order_no="175" segment_no="26" tag_type="text">www.theiet.org/control  August/September  2007  Control  &amp;  Automation</text>
+</page>
+</pdf2xml>

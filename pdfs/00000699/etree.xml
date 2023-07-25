@@ -1,0 +1,65 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3207" width="2262">
+	<fontspec id="font0" size="64" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="427" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="139" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="30" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="2" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="1" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="958" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="32" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="33" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="47" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="38" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="45" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font15" size="46" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font16" size="25" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font17" size="89" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font18" size="36" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font19" size="37" family="GlyphLessFont" color="#000000"/>
+<text top="106" left="107" width="690" height="41" font="font3" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">AEL:  COARSE-TO-FINE  DYNAMIC  PROGRAMMING </text>
+<text top="108" left="2090" width="56" height="41" font="font3" id="p1_t2" reading_order_no="1" segment_no="1" tag_type="text">1381 </text>
+<text top="2192" left="42" width="2116" height="43" font="font7" id="p1_t3" reading_order_no="2" segment_no="2" tag_type="text">Fig.  1.  The  upper-left  figure  is  the  original  dynamic  programming  setup.  The  five  remaining  figures  show  a  possible  progression  of  our  coarse-to-fine </text>
+<text top="2236" left="43" width="2115" height="45" font="font8" id="p1_t4" reading_order_no="3" segment_no="2" tag_type="text">dynamic  programming  algorithm.  The  optimal  path  (shown  in  bold  lines)  in  the  final  figure  in  the  lower-right  must  also  be  the  optimal  path  in  the </text>
+<text top="2367" left="247" width="92" height="53" font="font9" id="p1_t5" reading_order_no="4" segment_no="3" tag_type="formula">OCS </text>
+<text top="2367" left="445" width="460" height="53" font="font9" id="p1_t6" reading_order_no="5" segment_no="3" tag_type="formula">miny(s1):s¢9,teT,(s,t)&lt;€}  C(S, </text>
+<text top="2368" left="869" width="41" height="53" font="font9" id="p1_t7" reading_order_no="6" segment_no="3" tag_type="formula">t) </text>
+<text top="2369" left="1116" width="1042" height="55" font="font9" id="p1_t8" reading_order_no="23" segment_no="4" tag_type="text">Proof.  Since  |S|  &lt;  co  only  a  finite  number  of  iterations  are </text>
+<text top="2420" left="1165" width="993" height="54" font="font10" id="p1_t9" reading_order_no="24" segment_no="4" tag_type="text">possible  before  S*  is  composed  entirely  of  singleton  sets </text>
+<text top="2465" left="176" width="612" height="63" font="font11" id="p1_t10" reading_order_no="7" segment_no="6" tag_type="formula">(Sp,  -+-,Sh)  =  argmings </text>
+<text top="2464" left="644" width="404" height="63" font="font11" id="p1_t11" reading_order_no="8" segment_no="6" tag_type="formula">5. yen(ghy}  C*(Sos---»  Sn) </text>
+<text top="2464" left="1166" width="369" height="63" font="font11" id="p1_t12" reading_order_no="25" segment_no="4" tag_type="text">so  k*  is  well-defined. </text>
+<text top="2520" left="1215" width="943" height="51" font="font12" id="p1_t13" reading_order_no="26" segment_no="5" tag_type="text">Let  (s0,...,  $v)  €  7(G).  Then,  there  exist  S,  €  S”,  n= </text>
+<text top="2566" left="33" width="1029" height="61" font="font13" id="p1_t14" reading_order_no="9" segment_no="7" tag_type="text">where  P(S*)  is  any  partition  of  S*.  Note  that  (Si,...,  9%) </text>
+<text top="2566" left="1166" width="993" height="61" font="font13" id="p1_t15" reading_order_no="27" segment_no="5" tag_type="formula">0,...,.N  such  that  s,  €  S;,  since  S*  partitions  S.  Also, </text>
+<text top="2620" left="30" width="788" height="55" font="font14" id="p1_t16" reading_order_no="10" segment_no="7" tag_type="text">defined  above  can  be  computed  through  DP. </text>
+<text top="2618" left="1165" width="994" height="55" font="font14" id="p1_t17" reading_order_no="28" segment_no="5" tag_type="formula">note  that  (8n,5n41)€&amp;  for  n=0,...,N—1  implies </text>
+<text top="2657" left="1169" width="833" height="62" font="font15" id="p1_t18" reading_order_no="29" segment_no="5" tag_type="text">(Sn,8nu)  €  €  -and  (Sp)...  Sn)  €  a(@  ).  Then, </text>
+<text top="2721" left="31" width="209" height="55" font="font14" id="p1_t19" reading_order_no="11" segment_no="9" tag_type="formula">Proposition. </text>
+<text top="2719" left="445" width="37" height="55" font="font14" id="p1_t20" reading_order_no="12" segment_no="9" tag_type="formula">let </text>
+<text top="2715" left="1669" width="7" height="55" font="font14" id="p1_t21" reading_order_no="31" segment_no="8" tag_type="not_found">5 </text>
+<text top="2766" left="173" width="255" height="34" font="font16" id="p1_t22" reading_order_no="13" segment_no="9" tag_type="formula">on  FfIs|  —— </text>
+<text top="2763" left="1349" width="430" height="34" font="font16" id="p1_t23" reading_order_no="30" segment_no="8" tag_type="formula">Clso;..  4'sy)  =  Gr  (Sc </text>
+<text top="2761" left="1815" width="111" height="34" font="font16" id="p1_t24" reading_order_no="32" segment_no="11" tag_type="formula">oN)  = </text>
+<text top="2774" left="240" width="608" height="120" font="font17" id="p1_t25" reading_order_no="14" segment_no="10" tag_type="formula">kt  = min{k  [Sf]  =1,n=0,...,N} </text>
+<text top="2774" left="1349" width="578" height="120" font="font17" id="p1_t26" reading_order_no="33" segment_no="12" tag_type="formula">OF (Sf... SK)  = Clot... </text>
+<text top="2774" left="1854" width="57" height="120" font="font17" id="p1_t27" reading_order_no="34" segment_no="12" tag_type="formula">58) </text>
+<text top="2901" left="80" width="659" height="54" font="font10" id="p1_t28" reading_order_no="15" segment_no="13" tag_type="formula">mad  let  S*  =  {s¥},n=0,...,.N.  Then, </text>
+<text top="2901" left="2137" width="22" height="54" font="font10" id="p1_t29" reading_order_no="35" segment_no="14" tag_type="not_found">ee </text>
+<text top="2962" left="256" width="7" height="49" font="font18" id="p1_t30" reading_order_no="17" segment_no="15" tag_type="not_found">a </text>
+<text top="2962" left="388" width="7" height="49" font="font18" id="p1_t31" reading_order_no="18" segment_no="15" tag_type="not_found">- </text>
+<text top="2962" left="1167" width="993" height="49" font="font18" id="p1_t32" reading_order_no="36" segment_no="16" tag_type="text">It  is  worth  noting  that  one  can  substitute  a  lower  bound, </text>
+<text top="2989" left="180" width="275" height="50" font="font19" id="p1_t33" reading_order_no="16" segment_no="15" tag_type="formula">Clak  eae  = </text>
+<text top="2988" left="525" width="82" height="50" font="font19" id="p1_t34" reading_order_no="19" segment_no="15" tag_type="formula">min </text>
+<text top="2988" left="690" width="220" height="50" font="font19" id="p1_t35" reading_order_no="21" segment_no="15" tag_type="formula">C(s0,---, </text>
+<text top="2988" left="870" width="32" height="50" font="font19" id="p1_t36" reading_order_no="22" segment_no="15" tag_type="formula">nv) </text>
+<text top="2987" left="1462" width="20" height="50" font="font19" id="p1_t37" reading_order_no="38" segment_no="16" tag_type="text">8 </text>
+<text top="3008" left="471" width="208" height="54" font="font10" id="p1_t38" reading_order_no="20" segment_no="15" tag_type="formula">{eo:.- 8 omy </text>
+<text top="3008" left="1119" width="1042" height="54" font="font10" id="p1_t39" reading_order_no="37" segment_no="16" tag_type="text">C*(S,T),  for  the  true  minimum  arc  cost,  C*(S,T),  between </text>
+<text top="3058" left="1119" width="1042" height="55" font="font14" id="p1_t40" reading_order_no="39" segment_no="16" tag_type="text">two  superstates  without  affecting  the  correctness  of  the</text>
+</page>
+</pdf2xml>

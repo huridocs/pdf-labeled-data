@@ -1,0 +1,159 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3215" width="2262">
+	<fontspec id="font0" size="45" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="40" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="39" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="42" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="43" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="796" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="37" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="44" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="36" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="1377" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="34" family="GlyphLessFont" color="#000000"/>
+<text top="56" left="293" width="266" height="61" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">IN  OUR  TIME </text>
+<text top="245" left="100" width="651" height="54" font="font1" id="p1_t2" reading_order_no="1" segment_no="3" tag_type="text">language.”  “This  puts  severe  restric- </text>
+<text top="294" left="98" width="653" height="55" font="font2" id="p1_t3" reading_order_no="2" segment_no="3" tag_type="text">tions  on  the  types  of  debugging  pro- </text>
+<text top="346" left="98" width="653" height="53" font="font3" id="p1_t4" reading_order_no="3" segment_no="3" tag_type="text">cedures  that  may  be  used,  and,  in  fact, </text>
+<text top="393" left="99" width="653" height="57" font="font2" id="p1_t5" reading_order_no="4" segment_no="3" tag_type="text">restricts  them  to  debugging  at  the </text>
+<text top="443" left="98" width="654" height="57" font="font4" id="p1_t6" reading_order_no="5" segment_no="3" tag_type="text">compiler  language  level.”  Such  judg- </text>
+<text top="489" left="98" width="654" height="61" font="font0" id="p1_t7" reading_order_no="6" segment_no="3" tag_type="text">ment  was  harsh  and  shortsighted.  In </text>
+<text top="544" left="101" width="651" height="55" font="font2" id="p1_t8" reading_order_no="7" segment_no="3" tag_type="text">1963,  several  systems  had  symbolic </text>
+<text top="593" left="98" width="654" height="57" font="font4" id="p1_t9" reading_order_no="8" segment_no="3" tag_type="text">debuggers,  software  that  would  con- </text>
+<text top="642" left="98" width="654" height="58" font="font5" id="p1_t10" reading_order_no="9" segment_no="3" tag_type="text">nect  user  programs  to  the  operations </text>
+<text top="695" left="98" width="653" height="54" font="font1" id="p1_t11" reading_order_no="10" segment_no="3" tag_type="text">of  the  machines.  Within  a  decade, </text>
+<text top="743" left="97" width="655" height="57" font="font4" id="p1_t12" reading_order_no="11" segment_no="3" tag_type="text">symbolic  debuggers  would  be  com- </text>
+<text top="792" left="97" width="439" height="58" font="font5" id="p1_t13" reading_order_no="12" segment_no="3" tag_type="text">mon  on  most  computers. </text>
+<text top="843" left="134" width="617" height="57" font="font4" id="p1_t14" reading_order_no="13" segment_no="4" tag_type="text">During  the  1980s,  the  debugging  lit- </text>
+<text top="895" left="96" width="655" height="55" font="font2" id="p1_t15" reading_order_no="14" segment_no="4" tag_type="text">erature  expanded  for  a  second  time </text>
+<text top="943" left="96" width="655" height="58" font="font4" id="p1_t16" reading_order_no="15" segment_no="4" tag_type="text">with  the  introduction  of  more  sophis- </text>
+<text top="994" left="96" width="655" height="55" font="font2" id="p1_t17" reading_order_no="16" segment_no="4" tag_type="text">ticated  programming  ideas  such  as </text>
+<text top="1043" left="96" width="655" height="57" font="font4" id="p1_t18" reading_order_no="17" segment_no="4" tag_type="text">concurrency,  parallelism,  distributed </text>
+<text top="1096" left="97" width="654" height="53" font="font3" id="p1_t19" reading_order_no="18" segment_no="4" tag_type="text">programming,  and  optimizing  com- </text>
+<text top="1144" left="96" width="655" height="55" font="font2" id="p1_t20" reading_order_no="19" segment_no="4" tag_type="text">pilers.  For  programs  that  used  these </text>
+<text top="1195" left="97" width="654" height="55" font="font2" id="p1_t21" reading_order_no="20" segment_no="4" tag_type="text">ideas,  the  old  symbolic  debuggers  no </text>
+<text top="1244" left="97" width="654" height="55" font="font2" id="p1_t22" reading_order_no="21" segment_no="4" tag_type="text">longer  gave  a  clear  picture  of  machine </text>
+<text top="1295" left="97" width="654" height="55" font="font2" id="p1_t23" reading_order_no="22" segment_no="4" tag_type="text">operation.  Such  ideas  complicate  “the </text>
+<text top="1345" left="97" width="655" height="55" font="font2" id="p1_t24" reading_order_no="23" segment_no="4" tag_type="text">mapping  between  the  source  code  and </text>
+<text top="1394" left="97" width="655" height="57" font="font4" id="p1_t25" reading_order_no="24" segment_no="4" tag_type="text">the  object  code  due  to  code  duplica- </text>
+<text top="1446" left="97" width="653" height="54" font="font1" id="p1_t26" reading_order_no="25" segment_no="4" tag_type="text">tion,  elimination,  and  reordering,” </text>
+<text top="1496" left="98" width="654" height="54" font="font1" id="p1_t27" reading_order_no="26" segment_no="4" tag_type="text">observed  one  research  team.  They  also </text>
+<text top="1545" left="98" width="654" height="55" font="font2" id="p1_t28" reading_order_no="27" segment_no="4" tag_type="text">make  “reporting  values  of  source  vari- </text>
+<text top="1595" left="98" width="654" height="55" font="font2" id="p1_t29" reading_order_no="28" segment_no="4" tag_type="text">ables  either  inconsistent  with  what  the </text>
+<text top="1644" left="98" width="621" height="57" font="font4" id="p1_t30" reading_order_no="29" segment_no="4" tag_type="text">user  expects  or  simply  impossible.” </text>
+<text top="1693" left="135" width="617" height="58" font="font5" id="p1_t31" reading_order_no="30" segment_no="5" tag_type="text">However,  the  problem  of  connect- </text>
+<text top="1744" left="98" width="654" height="57" font="font4" id="p1_t32" reading_order_no="31" segment_no="5" tag_type="text">ing  a  program  to  the  machine’s  under- </text>
+<text top="1795" left="98" width="657" height="57" font="font4" id="p1_t33" reading_order_no="32" segment_no="5" tag_type="text">lying  state  is  only  a  small  part  of </text>
+<text top="1944" left="98" width="510" height="57" font="font4" id="p1_t34" reading_order_no="119" segment_no="13" tag_type="text">Note  on  the  January  column: </text>
+<text top="243" left="808" width="656" height="60" font="font4" id="p1_t35" reading_order_no="33" segment_no="1" tag_type="text">debugging.  The  bigger  task,  that  of </text>
+<text top="294" left="807" width="654" height="59" font="font4" id="p1_t36" reading_order_no="34" segment_no="1" tag_type="text">hypothesizing  the  machine’s  state  and </text>
+<text top="344" left="808" width="654" height="58" font="font2" id="p1_t37" reading_order_no="35" segment_no="1" tag_type="text">reasoning  from  the  actual  state  back </text>
+<text top="395" left="808" width="654" height="57" font="font2" id="p1_t38" reading_order_no="36" segment_no="1" tag_type="text">to  the  program’s  logic,  defies  a  general </text>
+<text top="445" left="808" width="652" height="57" font="font2" id="p1_t39" reading_order_no="37" segment_no="1" tag_type="text">engineering  solution.  “Debugging,” </text>
+<text top="499" left="808" width="654" height="52" font="font7" id="p1_t40" reading_order_no="38" segment_no="1" tag_type="text">wrote  one  author  in  2001,  remains </text>
+<text top="544" left="810" width="653" height="59" font="font4" id="p1_t41" reading_order_no="39" segment_no="1" tag_type="text">“as  labor-intensive  and  painful  as  it </text>
+<text top="594" left="807" width="396" height="57" font="font4" id="p1_t42" reading_order_no="40" segment_no="1" tag_type="text">was  five  decades  ago.” </text>
+<text top="645" left="846" width="616" height="57" font="font2" id="p1_t43" reading_order_no="41" segment_no="2" tag_type="text">Some  researchers  have  developed </text>
+<text top="695" left="808" width="654" height="58" font="font2" id="p1_t44" reading_order_no="42" segment_no="2" tag_type="text">algorithms  to  handle  some  of  the </text>
+<text top="745" left="808" width="654" height="58" font="font2" id="p1_t45" reading_order_no="43" segment_no="2" tag_type="text">debugging  work  or  to  automate  the </text>
+<text top="795" left="808" width="654" height="59" font="font4" id="p1_t46" reading_order_no="44" segment_no="2" tag_type="text">task  of  checking  all  possible  paths </text>
+<text top="844" left="807" width="654" height="59" font="font4" id="p1_t47" reading_order_no="45" segment_no="2" tag_type="text">through  the  code,  but  the  basic  work </text>
+<text top="898" left="808" width="654" height="55" font="font3" id="p1_t48" reading_order_no="46" segment_no="2" tag_type="text">remains  unchanged.  It  is  no  easier  to </text>
+<text top="945" left="808" width="653" height="59" font="font2" id="p1_t49" reading_order_no="47" segment_no="2" tag_type="text">find  the  bugs  in  a  program  than  it  is </text>
+<text top="996" left="807" width="655" height="57" font="font2" id="p1_t50" reading_order_no="48" segment_no="2" tag_type="text">to  discern  the  activities  inside  a  home </text>
+<text top="1045" left="808" width="653" height="59" font="font4" id="p1_t51" reading_order_no="49" segment_no="2" tag_type="text">by  standing  on  the  lawn  and  obsery- </text>
+<text top="1093" left="808" width="644" height="60" font="font5" id="p1_t52" reading_order_no="50" segment_no="2" tag_type="text">ing  the  shadows  inside  the  windows. </text>
+<text top="1196" left="904" width="557" height="57" font="font2" id="p1_t53" reading_order_no="51" segment_no="12" tag_type="text">t  Bagley  Avenue  Systems,  the </text>
+<text top="1245" left="905" width="556" height="59" font="font4" id="p1_t54" reading_order_no="52" segment_no="12" tag_type="text">debugging  took  four  days.  The </text>
+<text top="1296" left="904" width="557" height="57" font="font2" id="p1_t55" reading_order_no="53" segment_no="12" tag_type="text">hardware  was  the  easiest  part  to </text>
+<text top="1345" left="808" width="654" height="58" font="font4" id="p1_t56" reading_order_no="54" segment_no="12" tag_type="text">fix.  The  software  was  considerably </text>
+<text top="1395" left="808" width="654" height="58" font="font4" id="p1_t57" reading_order_no="55" segment_no="12" tag_type="text">harder.  It  controlled  two  processors, </text>
+<text top="1446" left="808" width="654" height="57" font="font2" id="p1_t58" reading_order_no="56" segment_no="12" tag_type="text">one  that  handled  the  incoming  data </text>
+<text top="1495" left="809" width="652" height="59" font="font4" id="p1_t59" reading_order_no="57" segment_no="12" tag_type="text">and  another  that  prepared  the  output. </text>
+<text top="1544" left="846" width="617" height="58" font="font5" id="p1_t60" reading_order_no="58" segment_no="12" tag_type="text">At  each  step  of  the  code,  Kai </text>
+<text top="1595" left="809" width="654" height="57" font="font4" id="p1_t61" reading_order_no="59" segment_no="12" tag_type="text">demanded  to  know  how  the  machine </text>
+<text top="1645" left="808" width="654" height="57" font="font4" id="p1_t62" reading_order_no="60" segment_no="12" tag_type="text">was  to  transform  the  flows  of  infor- </text>
+<text top="1696" left="808" width="654" height="57" font="font2" id="p1_t63" reading_order_no="61" segment_no="12" tag_type="text">mation  and  asked  Les  to  demonstrate </text>
+<text top="1746" left="808" width="654" height="57" font="font2" id="p1_t64" reading_order_no="62" segment_no="12" tag_type="text">that  the  processors  were  behaving  cor- </text>
+<text top="1796" left="808" width="654" height="57" font="font2" id="p1_t65" reading_order_no="63" segment_no="12" tag_type="text">rectly.  Les  responded  to  each  request, </text>
+<text top="1997" left="98" width="1339" height="55" font="font3" id="p1_t66" reading_order_no="120" segment_no="14" tag_type="text">Russell  Kirsch  of  Portland,  Ore.,  has  written  me  to  say  that  the  National  Bureau </text>
+<text top="2045" left="98" width="1339" height="58" font="font2" id="p1_t67" reading_order_no="121" segment_no="14" tag_type="text">of  Standards  did  not  terminate  most  computer  research  in  1954,  as  the  column </text>
+<text top="2095" left="98" width="1340" height="58" font="font2" id="p1_t68" reading_order_no="122" segment_no="14" tag_type="text">implied,  but  continued  to  be  a  major  source  of  innovation  for  at  least  the  next </text>
+<text top="2144" left="97" width="223" height="57" font="font4" id="p1_t69" reading_order_no="123" segment_no="14" tag_type="text">two  decades. </text>
+<text top="2193" left="135" width="1302" height="61" font="font5" id="p1_t70" reading_order_no="124" segment_no="15" tag_type="text">Mt.  Kirsch  is  indeed  correct.  The  unit  that  was  terminated  in  1954  was  the </text>
+<text top="2244" left="98" width="1339" height="59" font="font4" id="p1_t71" reading_order_no="125" segment_no="15" tag_type="text">Machine  Development  Laboratory  in  the  Mathematics  Division.  This  group </text>
+<text top="2294" left="98" width="1339" height="60" font="font5" id="p1_t72" reading_order_no="126" segment_no="15" tag_type="text">oversaw  the  design  and  construction  of  four  major  machines  for  the  US  gov- </text>
+<text top="2345" left="97" width="1342" height="58" font="font4" id="p1_t73" reading_order_no="127" segment_no="15" tag_type="text">ernment  between  1948  and  1954,  including  the  SEAC  and  the  Univac  I.  It </text>
+<text top="2394" left="98" width="1340" height="60" font="font5" id="p1_t74" reading_order_no="128" segment_no="15" tag_type="text">was  less  a  true  research  laboratory  and  more  a  contracting  unit.  “There  is  no </text>
+<text top="2445" left="98" width="1340" height="58" font="font4" id="p1_t75" reading_order_no="129" segment_no="15" tag_type="text">way  to  learn  how  to  build  computers  except  by  building  them,”  noted  one  lab </text>
+<text top="2494" left="98" width="1340" height="59" font="font4" id="p1_t76" reading_order_no="130" segment_no="15" tag_type="text">report.  By  1954,  other  parts  of  the  government  knew  how  to  oversee  the  spec- </text>
+<text top="2544" left="98" width="1343" height="59" font="font4" id="p1_t77" reading_order_no="131" segment_no="15" tag_type="text">ification  and  design  of  machines,  hence  there  was  no  need  for  the  Bureau  of </text>
+<text top="2595" left="98" width="590" height="57" font="font4" id="p1_t78" reading_order_no="132" segment_no="15" tag_type="text">Standards  to  provide  that  service. </text>
+<text top="2644" left="135" width="1303" height="59" font="font4" id="p1_t79" reading_order_no="133" segment_no="16" tag_type="text">Mr.  Kirsch  also  noted  that  he  worked  with  Ida  Rhodes  and  that  she  was </text>
+<text top="2695" left="98" width="1340" height="58" font="font4" id="p1_t80" reading_order_no="134" segment_no="16" tag_type="text">doing  programming  well  into  the  1960s.  His  comments  reminded  me  of  an </text>
+<text top="2745" left="98" width="1340" height="59" font="font4" id="p1_t81" reading_order_no="135" segment_no="16" tag_type="text">interview  that  I  had  long  forgotten  in  which  a  coworker  characterized  Rhodes </text>
+<text top="2797" left="98" width="473" height="54" font="font1" id="p1_t82" reading_order_no="136" segment_no="16" tag_type="text">as  a  “genius  programmer.” </text>
+<text top="2845" left="135" width="1303" height="59" font="font4" id="p1_t83" reading_order_no="137" segment_no="17" tag_type="text">Iam  most  grateful  for  Mr.  Kirsch’s  comments  and  welcome  the  comments </text>
+<text top="2895" left="98" width="288" height="57" font="font4" id="p1_t84" reading_order_no="138" segment_no="17" tag_type="text">of  other  readers. </text>
+<text top="2944" left="1087" width="352" height="61" font="font8" id="p1_t85" reading_order_no="139" segment_no="23" tag_type="text">—David  Alan  Grier </text>
+<text top="3101" left="9" width="59" height="49" font="font9" id="p1_t86" reading_order_no="140" segment_no="24" tag_type="figure">ee </text>
+<text top="3101" left="134" width="126" height="49" font="font9" id="p1_t87" reading_order_no="141" segment_no="25" tag_type="text">Computer </text>
+<text top="245" left="1517" width="655" height="58" font="font4" id="p1_t88" reading_order_no="64" segment_no="6" tag_type="text">but  he  was  no  more  patient  with  this </text>
+<text top="296" left="1516" width="656" height="57" font="font2" id="p1_t89" reading_order_no="65" segment_no="6" tag_type="text">process  than  he  had  been  during  his </text>
+<text top="346" left="1517" width="463" height="57" font="font2" id="p1_t90" reading_order_no="66" segment_no="6" tag_type="text">initial  encounter  with  Kai. </text>
+<text top="395" left="1554" width="619" height="59" font="font4" id="p1_t91" reading_order_no="67" segment_no="7" tag_type="text">As  they  came  to  the  end  of  the </text>
+<text top="446" left="1517" width="656" height="59" font="font4" id="p1_t92" reading_order_no="68" segment_no="7" tag_type="text">debugging,  they  were  no  closer  to </text>
+<text top="495" left="1516" width="657" height="59" font="font4" id="p1_t93" reading_order_no="69" segment_no="7" tag_type="text">working  as  a  team  than  they  had  been </text>
+<text top="545" left="1517" width="657" height="59" font="font4" id="p1_t94" reading_order_no="70" segment_no="7" tag_type="text">on  the  first  day.  Kai  continued  to  make </text>
+<text top="596" left="1517" width="656" height="58" font="font2" id="p1_t95" reading_order_no="71" segment_no="7" tag_type="text">his  requests,  often  punctuating  his </text>
+<text top="647" left="1517" width="656" height="57" font="font2" id="p1_t96" reading_order_no="72" segment_no="7" tag_type="text">questions  with  comments  that  irri- </text>
+<text top="697" left="1516" width="657" height="57" font="font2" id="p1_t97" reading_order_no="73" segment_no="7" tag_type="text">tated  Les.  Les  did  all  that  was  asked </text>
+<text top="748" left="1517" width="655" height="56" font="font1" id="p1_t98" reading_order_no="74" segment_no="7" tag_type="text">of  him,  but  he  still  resented  the  idea </text>
+<text top="797" left="1516" width="657" height="58" font="font2" id="p1_t99" reading_order_no="75" segment_no="7" tag_type="text">that  he  was  working  with  someone </text>
+<text top="846" left="1516" width="656" height="59" font="font4" id="p1_t100" reading_order_no="76" segment_no="7" tag_type="text">who  couldn’t  understand  the  details </text>
+<text top="897" left="1517" width="228" height="55" font="font2" id="p1_t101" reading_order_no="77" segment_no="7" tag_type="text">of  his  design. </text>
+<text top="946" left="1554" width="619" height="58" font="font4" id="p1_t102" reading_order_no="78" segment_no="8" tag_type="text">By  the  end  of  the  last  day,  the  rolling </text>
+<text top="997" left="1516" width="656" height="57" font="font2" id="p1_t103" reading_order_no="79" segment_no="8" tag_type="text">stars  had  vanished  from  the  oscillo- </text>
+<text top="1047" left="1516" width="656" height="57" font="font2" id="p1_t104" reading_order_no="80" segment_no="8" tag_type="text">scope.  In  their  place  were  a  gentle </text>
+<text top="1096" left="1516" width="656" height="58" font="font4" id="p1_t105" reading_order_no="81" segment_no="8" tag_type="text">wave  and  a  few  dots  that  would </text>
+<text top="1147" left="1516" width="656" height="57" font="font2" id="p1_t106" reading_order_no="82" segment_no="8" tag_type="text">appear  at  random  moments  and </text>
+<text top="1195" left="1516" width="656" height="60" font="font5" id="p1_t107" reading_order_no="83" segment_no="8" tag_type="text">quickly  vanish.  Les  was  not  pleased </text>
+<text top="1247" left="1516" width="656" height="57" font="font2" id="p1_t108" reading_order_no="84" segment_no="8" tag_type="text">with  the  picture  and  turned  on  his </text>
+<text top="1297" left="1516" width="656" height="58" font="font2" id="p1_t109" reading_order_no="85" segment_no="8" tag_type="text">partner.  “You’ve  added  a  new  error  to </text>
+<text top="1349" left="1516" width="656" height="55" font="font1" id="p1_t110" reading_order_no="86" segment_no="8" tag_type="text">the  code,”  he  claimed  in  frustration. </text>
+<text top="1398" left="1520" width="525" height="55" font="font2" id="p1_t111" reading_order_no="87" segment_no="8" tag_type="text">“It’s  supposed  to  be  straight.” </text>
+<text top="1448" left="1557" width="468" height="55" font="font1" id="p1_t112" reading_order_no="88" segment_no="9" tag_type="text">“Prove  it,”  Kai  responded. </text>
+<text top="1496" left="1555" width="618" height="59" font="font4" id="p1_t113" reading_order_no="89" segment_no="10" tag_type="text">Les  pushed  a  pile  of  cables  to  one </text>
+<text top="1547" left="1517" width="659" height="57" font="font2" id="p1_t114" reading_order_no="90" segment_no="10" tag_type="text">corner  of  the  table,  found  a  piece  of </text>
+<text top="1597" left="1517" width="656" height="57" font="font2" id="p1_t115" reading_order_no="91" segment_no="10" tag_type="text">paper,  and  started  to  write  the  equa- </text>
+<text top="1647" left="1517" width="656" height="57" font="font2" id="p1_t116" reading_order_no="92" segment_no="10" tag_type="text">tions  that  described  the  system’s  oper- </text>
+<text top="1697" left="1517" width="656" height="57" font="font2" id="p1_t117" reading_order_no="93" segment_no="10" tag_type="text">ation.  When  he  reached  the  end  of  the </text>
+<text top="1747" left="1517" width="656" height="57" font="font2" id="p1_t118" reading_order_no="94" segment_no="10" tag_type="text">page,  he  started  to  search  for  a  second </text>
+<text top="1797" left="1517" width="657" height="57" font="font4" id="p1_t119" reading_order_no="95" segment_no="10" tag_type="text">sheet,  but  Kai  stopped  him.  Pointing </text>
+<text top="1849" left="1517" width="657" height="54" font="font3" id="p1_t120" reading_order_no="96" segment_no="10" tag_type="text">to  one  line,  Kai  said,  “This  statement </text>
+<text top="1897" left="1517" width="478" height="56" font="font2" id="p1_t121" reading_order_no="97" segment_no="10" tag_type="text">is  only  an  approximation.” </text>
+<text top="1947" left="1557" width="614" height="57" font="font2" id="p1_t122" reading_order_no="98" segment_no="11" tag_type="text">“But  it’s  good  enough,”  blurted  Les. </text>
+<text top="1997" left="1557" width="616" height="57" font="font2" id="p1_t123" reading_order_no="99" segment_no="18" tag_type="text">“Perhaps,”  said  Kai,  “but  if  you  add </text>
+<text top="2047" left="1517" width="655" height="57" font="font2" id="p1_t124" reading_order_no="100" segment_no="18" tag_type="text">a  second  term,  you’ll  see  that  there’s  a </text>
+<text top="2099" left="1516" width="298" height="53" font="font3" id="p1_t125" reading_order_no="101" segment_no="18" tag_type="text">wave  in  output.” </text>
+<text top="2145" left="1554" width="619" height="58" font="font4" id="p1_t126" reading_order_no="102" segment_no="19" tag_type="text">Kai  paused  to  let  Les  fully  compre- </text>
+<text top="2195" left="1517" width="656" height="59" font="font4" id="p1_t127" reading_order_no="103" segment_no="19" tag_type="text">hend  the  issue.  Then  he  said,  “If  you </text>
+<text top="2247" left="1517" width="359" height="55" font="font2" id="p1_t128" reading_order_no="104" segment_no="19" tag_type="text">add  a  third  term...” </text>
+<text top="2297" left="1557" width="483" height="55" font="font2" id="p1_t129" reading_order_no="105" segment_no="20" tag_type="text">“What  ...”  Les  interrupted. </text>
+<text top="2347" left="1556" width="617" height="57" font="font2" id="p1_t130" reading_order_no="106" segment_no="21" tag_type="text">“Tf  you  add  a  third  term,  you'll  see </text>
+<text top="2397" left="1517" width="654" height="57" font="font2" id="p1_t131" reading_order_no="107" segment_no="21" tag_type="text">that  it  is  sensitive  to  small  changes.” </text>
+<text top="2446" left="1517" width="656" height="57" font="font2" id="p1_t132" reading_order_no="108" segment_no="21" tag_type="text">Kai  hesitated  and  then  corrected  him- </text>
+<text top="2496" left="1518" width="611" height="57" font="font4" id="p1_t133" reading_order_no="109" segment_no="21" tag_type="text">self,  “Sensitive  to  dirty  electricity.” </text>
+<text top="2599" left="1516" width="656" height="54" font="font3" id="p1_t134" reading_order_no="110" segment_no="22" tag_type="text">David  Alan  Grier  is  the  editor  in  chief, </text>
+<text top="2648" left="1517" width="656" height="54" font="font1" id="p1_t135" reading_order_no="111" segment_no="22" tag_type="text">IEEE  Annals of the  History  of  Comput- </text>
+<text top="2699" left="1517" width="657" height="54" font="font3" id="p1_t136" reading_order_no="112" segment_no="22" tag_type="text">ing,  and  the  author  of  When  Computers </text>
+<text top="2751" left="1521" width="653" height="51" font="font7" id="p1_t137" reading_order_no="113" segment_no="22" tag_type="text">Were  Human  (Princeton  University </text>
+<text top="2804" left="1517" width="656" height="48" font="font11" id="p1_t138" reading_order_no="114" segment_no="22" tag_type="text">Press,  2005).  Grier  is  an  associate  pro- </text>
+<text top="2850" left="1516" width="657" height="53" font="font3" id="p1_t139" reading_order_no="115" segment_no="22" tag_type="text">fessor  in  the  Center  for  International  Sci- </text>
+<text top="2898" left="1517" width="657" height="56" font="font1" id="p1_t140" reading_order_no="116" segment_no="22" tag_type="text">ence  and  Technology  Policy  at  the </text>
+<text top="2951" left="1519" width="656" height="52" font="font7" id="p1_t141" reading_order_no="117" segment_no="22" tag_type="text">George  Washington  University.  Contact </text>
+<text top="2999" left="1517" width="375" height="53" font="font3" id="p1_t142" reading_order_no="118" segment_no="22" tag_type="text">him  at  grier@gwu.edu.</text>
+</page>
+</pdf2xml>

@@ -1,0 +1,159 @@
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+<pdf2xml producer="poppler" version="23.04.0">
+<page number="1" position="absolute" top="0" left="0" height="3108" width="2293">
+	<fontspec id="font0" size="59" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font1" size="24" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font2" size="64" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font3" size="70" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font4" size="479" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font5" size="455" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font6" size="31" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font7" size="32" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font8" size="29" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font9" size="30" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font10" size="15" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font11" size="27" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font12" size="72" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font13" size="45" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font14" size="154" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font15" size="75" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font16" size="351" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font17" size="41" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font18" size="365" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font19" size="28" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font20" size="22" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font21" size="35" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font22" size="34" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font23" size="36" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font24" size="33" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font25" size="20" family="GlyphLessFont" color="#000000"/>
+	<fontspec id="font26" size="20" family="GlyphLessFont" color="#000000"/>
+<text top="155" left="290" width="446" height="95" font="font3" id="p1_t1" reading_order_no="0" segment_no="1" tag_type="title">CHESS  VS.  GO </text>
+<text top="688" left="461" width="142" height="42" font="font6" id="p1_t2" reading_order_no="1" segment_no="5" tag_type="title">GRID  SIZE </text>
+<text top="729" left="371" width="65" height="42" font="font6" id="p1_t3" reading_order_no="2" segment_no="6" tag_type="text">8x8 </text>
+<text top="729" left="642" width="83" height="42" font="font6" id="p1_t4" reading_order_no="3" segment_no="6" tag_type="text">19x19 </text>
+<text top="829" left="170" width="711" height="43" font="font7" id="p1_t5" reading_order_no="4" segment_no="7" tag_type="title">AVERAGE  NUMBER  OF  MOVE  CHOICES  PER  TURN </text>
+<text top="872" left="401" width="35" height="43" font="font7" id="p1_t6" reading_order_no="5" segment_no="7" tag_type="text">35 </text>
+<text top="871" left="639" width="135" height="43" font="font7" id="p1_t7" reading_order_no="6" segment_no="7" tag_type="text">200-300 </text>
+<text top="973" left="330" width="394" height="42" font="font6" id="p1_t8" reading_order_no="7" segment_no="9" tag_type="title">LENGTH  OF  TYPICAL  GAME </text>
+<text top="1016" left="301" width="135" height="39" font="font8" id="p1_t9" reading_order_no="8" segment_no="10" tag_type="text">60  moves </text>
+<text top="1016" left="640" width="154" height="39" font="font8" id="p1_t10" reading_order_no="9" segment_no="10" tag_type="text">200  moves </text>
+<text top="1115" left="231" width="592" height="41" font="font9" id="p1_t11" reading_order_no="10" segment_no="11" tag_type="title">NUMBER  OF  POSSIBLE  GAME  POSITIONS </text>
+<text top="1160" left="378" width="58" height="20" font="font10" id="p1_t12" reading_order_no="11" segment_no="12" tag_type="text">1G)  22 </text>
+<text top="1160" left="641" width="58" height="20" font="font10" id="p1_t13" reading_order_no="12" segment_no="12" tag_type="text">Ove </text>
+<text top="1258" left="350" width="353" height="39" font="font8" id="p1_t14" reading_order_no="13" segment_no="13" tag_type="title">EXPLOSION  OF  CHOICES </text>
+<text top="1294" left="266" width="525" height="36" font="font11" id="p1_t15" reading_order_no="14" segment_no="13" tag_type="title">(starting  from  average  game  position) </text>
+<text top="1333" left="402" width="34" height="41" font="font9" id="p1_t16" reading_order_no="15" segment_no="16" tag_type="text">35 </text>
+<text top="1333" left="489" width="89" height="41" font="font9" id="p1_t17" reading_order_no="16" segment_no="16" tag_type="text">Movel </text>
+<text top="1331" left="786" width="57" height="41" font="font9" id="p1_t18" reading_order_no="17" segment_no="16" tag_type="text">200 </text>
+<text top="1331" left="1025" width="206" height="41" font="font9" id="p1_t19" reading_order_no="49" segment_no="17" tag_type="text">Here,  with  one </text>
+<text top="1366" left="374" width="61" height="39" font="font8" id="p1_t20" reading_order_no="18" segment_no="16" tag_type="text">1225 </text>
+<text top="1366" left="489" width="99" height="39" font="font8" id="p1_t21" reading_order_no="19" segment_no="16" tag_type="text">Move2 </text>
+<text top="1366" left="736" width="105" height="39" font="font8" id="p1_t22" reading_order_no="20" segment_no="16" tag_type="text">40  000 </text>
+<text top="1366" left="1025" width="209" height="39" font="font8" id="p1_t23" reading_order_no="50" segment_no="17" tag_type="text">more  move  the </text>
+<text top="1400" left="337" width="98" height="41" font="font9" id="p1_t24" reading_order_no="21" segment_no="16" tag_type="text">42875 </text>
+<text top="1400" left="489" width="99" height="41" font="font9" id="p1_t25" reading_order_no="22" segment_no="16" tag_type="text">Move3 </text>
+<text top="1400" left="688" width="153" height="41" font="font9" id="p1_t26" reading_order_no="23" segment_no="16" tag_type="text">8  000  000 </text>
+<text top="1400" left="1023" width="266" height="41" font="font9" id="p1_t27" reading_order_no="51" segment_no="17" tag_type="text">white  stone  will  be </text>
+<text top="1434" left="299" width="137" height="39" font="font8" id="p1_t28" reading_order_no="24" segment_no="16" tag_type="text">1500625 </text>
+<text top="1434" left="489" width="351" height="39" font="font8" id="p1_t29" reading_order_no="25" segment_no="16" tag_type="text">Move4  1600000000 </text>
+<text top="1435" left="1024" width="189" height="39" font="font8" id="p1_t30" reading_order_no="52" segment_no="17" tag_type="text">surrounded... </text>
+<text top="154" left="1020" width="550" height="97" font="font12" id="p1_t31" reading_order_no="26" segment_no="0" tag_type="title">THE  GOAL  OF  GO </text>
+<text top="265" left="1025" width="492" height="41" font="font9" id="p1_t32" reading_order_no="27" segment_no="2" tag_type="text">The  object  of  Go  is  to  enlarge  your </text>
+<text top="301" left="1027" width="534" height="39" font="font8" id="p1_t33" reading_order_no="28" segment_no="2" tag_type="text">territory  at  your  opponent’s  expense. </text>
+<text top="335" left="1028" width="451" height="41" font="font9" id="p1_t34" reading_order_no="29" segment_no="2" tag_type="text">One  way  is  by  surrounding  your </text>
+<text top="371" left="1027" width="493" height="39" font="font8" id="p1_t35" reading_order_no="30" segment_no="2" tag_type="text">opponent’s  stones  by  putting  your </text>
+<text top="406" left="1028" width="501" height="39" font="font8" id="p1_t36" reading_order_no="31" segment_no="2" tag_type="text">own  stones  on  the  adjacent  points, </text>
+<text top="439" left="1027" width="528" height="42" font="font6" id="p1_t37" reading_order_no="32" segment_no="2" tag_type="text">which  are  known  as  “liberties.”  Once </text>
+<text top="475" left="1028" width="542" height="41" font="font9" id="p1_t38" reading_order_no="33" segment_no="2" tag_type="text">surrounded,  stones  are  removed  from </text>
+<text top="511" left="1027" width="546" height="39" font="font8" id="p1_t39" reading_order_no="34" segment_no="2" tag_type="text">the  board  and  become  your  prisoners, </text>
+<text top="545" left="1028" width="274" height="41" font="font9" id="p1_t40" reading_order_no="35" segment_no="2" tag_type="text">each  worth  a  point. </text>
+<text top="579" left="1077" width="463" height="41" font="font9" id="p1_t41" reading_order_no="36" segment_no="3" tag_type="text">Another  way  to  claim  territory  is </text>
+<text top="615" left="1029" width="496" height="39" font="font8" id="p1_t42" reading_order_no="37" segment_no="3" tag_type="text">by  surrounding  empty  space—that </text>
+<text top="652" left="1029" width="531" height="36" font="font11" id="p1_t43" reading_order_no="38" segment_no="3" tag_type="text">is,  unoccupied  intersections,  each  of </text>
+<text top="682" left="1027" width="527" height="41" font="font9" id="p1_t44" reading_order_no="39" segment_no="3" tag_type="text">which  is  also  worth  a  point.  Here,  for </text>
+<text top="718" left="1029" width="548" height="41" font="font9" id="p1_t45" reading_order_no="40" segment_no="3" tag_type="text">instance,  the  two  groups  in  the  corner </text>
+<text top="753" left="1028" width="510" height="39" font="font8" id="p1_t46" reading_order_no="41" segment_no="3" tag_type="text">each  enclose  nine  spaces,  worth  as </text>
+<text top="787" left="1029" width="545" height="41" font="font9" id="p1_t47" reading_order_no="42" segment_no="3" tag_type="text">many  points.  Obviously,  it  takes  fewer </text>
+<text top="821" left="1027" width="539" height="41" font="font9" id="p1_t48" reading_order_no="43" segment_no="3" tag_type="text">stones  to  enclose  territory  at  the  cor- </text>
+<text top="855" left="1028" width="519" height="42" font="font6" id="p1_t49" reading_order_no="44" segment_no="3" tag_type="text">ners  than  in  the  middle  of  the  board. </text>
+<text top="284" left="1690" width="120" height="61" font="font13" id="p1_t50" reading_order_no="45" segment_no="4" tag_type="figure">4  Lit </text>
+<text top="308" left="1602" width="307" height="208" font="font14" id="p1_t51" reading_order_no="46" segment_no="4" tag_type="figure">gee </text>
+<text top="454" left="1643" width="59" height="101" font="font15" id="p1_t52" reading_order_no="47" segment_no="4" tag_type="figure">° </text>
+<text top="958" left="1034" width="325" height="55" font="font17" id="p1_t53" reading_order_no="48" segment_no="8" tag_type="title">CAPTURING  STONES </text>
+<text top="1329" left="1959" width="268" height="38" font="font19" id="p1_t54" reading_order_no="56" segment_no="14" tag_type="text">If  it  were  white’s  turn </text>
+<text top="1363" left="1957" width="231" height="38" font="font19" id="p1_t55" reading_order_no="57" segment_no="14" tag_type="text">to  move,  however, </text>
+<text top="1395" left="1957" width="206" height="39" font="font8" id="p1_t56" reading_order_no="58" segment_no="14" tag_type="text">the  player  could </text>
+<text top="1430" left="1959" width="203" height="38" font="font19" id="p1_t57" reading_order_no="59" segment_no="14" tag_type="text">block  the  above </text>
+<text top="1464" left="1959" width="206" height="36" font="font11" id="p1_t58" reading_order_no="60" segment_no="14" tag_type="text">maneuver,  thus. </text>
+<text top="1330" left="1327" width="530" height="39" font="font8" id="p1_t59" reading_order_no="53" segment_no="15" tag_type="text">..leaving  it  “dead”...  ...so  that  it  may </text>
+<text top="1365" left="1647" width="224" height="39" font="font8" id="p1_t60" reading_order_no="54" segment_no="18" tag_type="text">be  taken  off  the </text>
+<text top="1400" left="1647" width="89" height="39" font="font8" id="p1_t61" reading_order_no="55" segment_no="18" tag_type="text">board. </text>
+<text top="1613" left="106" width="1041" height="47" font="font21" id="p1_t62" reading_order_no="61" segment_no="20" tag_type="text">made  progress.  The  reason  is  that  humans  are  extremely  good  at </text>
+<text top="1661" left="106" width="968" height="46" font="font22" id="p1_t63" reading_order_no="62" segment_no="20" tag_type="text">recognizing  patterns;  it  is  one  of  the  things  that  we  do  best. </text>
+<text top="1707" left="156" width="990" height="43" font="font7" id="p1_t64" reading_order_no="63" segment_no="23" tag_type="text">It  was  only  in  the  late  1970s,  with  the  success  of  Northwestern </text>
+<text top="1753" left="105" width="1043" height="46" font="font22" id="p1_t65" reading_order_no="64" segment_no="23" tag_type="text">University’s  Chess  4.x  program,  written  by  David  Slate  and  Larry </text>
+<text top="1796" left="101" width="1050" height="47" font="font21" id="p1_t66" reading_order_no="65" segment_no="23" tag_type="text">Atkins,  that  the  engineering  school  of  thought  became  dominant. </text>
+<text top="1842" left="104" width="1051" height="49" font="font23" id="p1_t67" reading_order_no="66" segment_no="23" tag_type="text">The  idea  was  to  let  computers  do  what  they  do  best,  namely,  cal- </text>
+<text top="1889" left="106" width="1039" height="47" font="font21" id="p1_t68" reading_order_no="67" segment_no="23" tag_type="text">culate.  A  simple  legal-move  generator  finds  all  the  permissible </text>
+<text top="1935" left="106" width="1039" height="46" font="font22" id="p1_t69" reading_order_no="68" segment_no="23" tag_type="text">moves  in  a  position,  considers  all  the  possible  responses,  and </text>
+<text top="1979" left="106" width="1040" height="49" font="font23" id="p1_t70" reading_order_no="69" segment_no="23" tag_type="text">then  repeats  the  cycle.  Each  cycle  is  called  a  ply,  each  generation </text>
+<text top="2026" left="107" width="1041" height="47" font="font21" id="p1_t71" reading_order_no="70" segment_no="23" tag_type="text">of  new  possibilities  is  called  a  node—that  is,  a  branching  point </text>
+<text top="2071" left="106" width="1039" height="49" font="font23" id="p1_t72" reading_order_no="71" segment_no="23" tag_type="text">in  a  rapidly  widening  tree  of  analysis.  The  branches  terminate </text>
+<text top="2119" left="106" width="434" height="47" font="font21" id="p1_t73" reading_order_no="72" segment_no="23" tag_type="text">in  “leaf,”  or  end  positions. </text>
+<text top="2165" left="156" width="991" height="49" font="font23" id="p1_t74" reading_order_no="73" segment_no="24" tag_type="text">Carried  to  its  logical  extreme,  the  tree  would  grow  until  it </text>
+<text top="2212" left="106" width="1041" height="47" font="font21" id="p1_t75" reading_order_no="74" segment_no="24" tag_type="text">exhausted  every  legal  continuation,  leaving  the  program  nothing </text>
+<text top="2258" left="106" width="1039" height="47" font="font21" id="p1_t76" reading_order_no="75" segment_no="24" tag_type="text">to  do  but  examine  the  end  positions  to  see  which  of  them  were </text>
+<text top="2305" left="104" width="1044" height="43" font="font7" id="p1_t77" reading_order_no="76" segment_no="24" tag_type="text">wins—that  is,  checkmates—and  which  were  draws,  then  work </text>
+<text top="2350" left="106" width="1041" height="47" font="font21" id="p1_t78" reading_order_no="77" segment_no="24" tag_type="text">backward  along  the  branching  structure  to  choose  the  line  that </text>
+<text top="2394" left="106" width="1045" height="49" font="font23" id="p1_t79" reading_order_no="78" segment_no="24" tag_type="text">led  to  the  best  outcome,  assuming  that  both  sides  play  perfectly. </text>
+<text top="2440" left="107" width="1038" height="49" font="font23" id="p1_t80" reading_order_no="79" segment_no="24" tag_type="text">Such  exhaustive  analysis  is  impractical,  though,  because  it  would </text>
+<text top="2487" left="107" width="1039" height="47" font="font21" id="p1_t81" reading_order_no="80" segment_no="24" tag_type="text">produce  a  tree  containing  about  10°°  positions.  That’s  about  a </text>
+<text top="2531" left="106" width="958" height="49" font="font23" id="p1_t82" reading_order_no="81" segment_no="24" tag_type="text">thousand  times  the  number  of  hydrogen  atoms  in  the  sun. </text>
+<text top="2578" left="155" width="991" height="47" font="font21" id="p1_t83" reading_order_no="82" segment_no="25" tag_type="text">There  is,  however,  a  course  midway  between  selectivity  and </text>
+<text top="2624" left="107" width="1039" height="47" font="font21" id="p1_t84" reading_order_no="83" segment_no="25" tag_type="text">exhaustiveness.  Instead  of  analyzing  to  the  end,  the  program  can </text>
+<text top="2671" left="106" width="1044" height="49" font="font23" id="p1_t85" reading_order_no="84" segment_no="25" tag_type="text">merely  look  a  few  moves  further  ahead  than  a  human  could  manage. </text>
+<text top="2716" left="105" width="1041" height="49" font="font23" id="p1_t86" reading_order_no="85" segment_no="25" tag_type="text">Deep  Blue  typically  looked  12  plies  ahead  in  all  variations  (and  40 </text>
+<text top="2764" left="108" width="1042" height="47" font="font21" id="p1_t87" reading_order_no="86" segment_no="25" tag_type="text">or  more  plies  in  selective  lines),  generating  around  170  million  leaf </text>
+<text top="2807" left="107" width="1038" height="49" font="font23" id="p1_t88" reading_order_no="87" segment_no="25" tag_type="text">nodes  per  second.  Next,  the  program  would  evaluate  each  of  these </text>
+<text top="2856" left="107" width="1038" height="46" font="font22" id="p1_t89" reading_order_no="88" segment_no="25" tag_type="text">positions  by  counting  “material,”  that  is,  the  standard  values  of  the </text>
+<text top="2901" left="107" width="1041" height="47" font="font21" id="p1_t90" reading_order_no="89" segment_no="25" tag_type="text">chess  pieces.  For  example,  a  pawn  is  worth  one  point,  a  knight  or </text>
+<text top="2945" left="106" width="1049" height="47" font="font21" id="p1_t91" reading_order_no="90" segment_no="25" tag_type="text">bishop  three,  and  so  on.  Then  it  added  points  for  a  range  of  posi- </text>
+<text top="3028" left="106" width="632" height="45" font="font24" id="p1_t92" reading_order_no="125" segment_no="31" tag_type="text">46  IEEE  Spectrum!  October  2007  |  INT </text>
+<text top="1612" left="1198" width="950" height="49" font="font23" id="p1_t93" reading_order_no="91" segment_no="19" tag_type="text">tional  factors,  chosen  with  the  help  of  human  grandmasters. </text>
+<text top="1659" left="1247" width="986" height="46" font="font22" id="p1_t94" reading_order_no="92" segment_no="21" tag_type="text">The  resulting  evaluation  function  probably  was  no  better </text>
+<text top="1703" left="1199" width="1034" height="49" font="font23" id="p1_t95" reading_order_no="93" segment_no="21" tag_type="text">than  a  middling  amateur’s  ability  to  grade  a  single  position.  But </text>
+<text top="1750" left="1199" width="1033" height="47" font="font21" id="p1_t96" reading_order_no="94" segment_no="21" tag_type="text">by  grading  200  million  of  them,  it  was  able  to  do  very  well </text>
+<text top="1796" left="1199" width="427" height="47" font="font21" id="p1_t97" reading_order_no="95" segment_no="21" tag_type="text">indeed.  Just  ask  Kasparov. </text>
+<text top="1839" left="1247" width="984" height="49" font="font23" id="p1_t98" reading_order_no="96" segment_no="22" tag_type="text">This  substitution  of  search  for  judgment  is  the  essence  of  the </text>
+<text top="1890" left="1198" width="1042" height="45" font="font24" id="p1_t99" reading_order_no="97" segment_no="22" tag_type="text">brute-force  method,  and  it  turned  out  to  have  two  critical  advan- </text>
+<text top="1934" left="1198" width="1032" height="47" font="font21" id="p1_t100" reading_order_no="98" segment_no="22" tag_type="text">tages  over  selective  search.  To  begin  with,  the  program  became </text>
+<text top="1981" left="1200" width="1034" height="46" font="font22" id="p1_t101" reading_order_no="99" segment_no="22" tag_type="text">easier  to  write,  had  far  fewer  bugs,  and  did  not  have  so  many </text>
+<text top="2026" left="1199" width="1032" height="47" font="font21" id="p1_t102" reading_order_no="100" segment_no="22" tag_type="text">blind  spots.  And  crucially,  the  program  played  significantly  and </text>
+<text top="2071" left="1199" width="1031" height="49" font="font23" id="p1_t103" reading_order_no="101" segment_no="22" tag_type="text">measurably  better  as  the  processing  power  increased,  once  the </text>
+<text top="2117" left="1200" width="603" height="49" font="font23" id="p1_t104" reading_order_no="102" segment_no="22" tag_type="text">switch  to  brute  force  had  been  made. </text>
+<text top="2165" left="1250" width="983" height="47" font="font21" id="p1_t105" reading_order_no="103" segment_no="26" tag_type="text">Slate  and  Atkins  believed  their  program  was  playing  at  only </text>
+<text top="2210" left="1199" width="1041" height="47" font="font21" id="p1_t106" reading_order_no="104" segment_no="26" tag_type="text">Class  C  level—that  is,  about  the  level  of  the  typical  avid  tourna- </text>
+<text top="2255" left="1199" width="1031" height="49" font="font23" id="p1_t107" reading_order_no="105" segment_no="26" tag_type="text">ment  player,  who  is  rated  between  1400  and  1600  on  the  U.S.  Chess </text>
+<text top="2302" left="1199" width="1032" height="47" font="font21" id="p1_t108" reading_order_no="106" segment_no="26" tag_type="text">Federation’s  rating  scale.  However,  when  they  moved  their  program </text>
+<text top="2348" left="1199" width="1033" height="47" font="font21" id="p1_t109" reading_order_no="107" segment_no="26" tag_type="text">to  a  supercomputer,  it  shocked  everyone  by  winning  a  tournament </text>
+<text top="2394" left="1199" width="1036" height="47" font="font21" id="p1_t110" reading_order_no="108" segment_no="26" tag_type="text">among  Class  A  players,  with  ratings  between  1800  and  2000.  A </text>
+<text top="2439" left="1199" width="1032" height="47" font="font21" id="p1_t111" reading_order_no="109" segment_no="26" tag_type="text">Class  A  player  is  good  enough  to  beat  a  Class  C  player  9  times  out </text>
+<text top="2487" left="1200" width="264" height="45" font="font24" id="p1_t112" reading_order_no="110" segment_no="26" tag_type="text">of  10,  on  average. </text>
+<text top="2531" left="1249" width="981" height="49" font="font23" id="p1_t113" reading_order_no="111" segment_no="27" tag_type="text">Moving  to  a  supercomputer  made  this  enormous  difference </text>
+<text top="2578" left="1199" width="1037" height="47" font="font21" id="p1_t114" reading_order_no="112" segment_no="27" tag_type="text">because  it  allowed  the  program  to  look  just  a  little  further  ahead. </text>
+<text top="2623" left="1198" width="1032" height="49" font="font23" id="p1_t115" reading_order_no="113" segment_no="27" tag_type="text">Detailed  measurements  later  showed  that  when  a  brute-force </text>
+<text top="2669" left="1199" width="1031" height="49" font="font23" id="p1_t116" reading_order_no="114" segment_no="27" tag_type="text">program  searched  just  one  ply  deeper,  its  strength  improved </text>
+<text top="2716" left="1198" width="1031" height="49" font="font23" id="p1_t117" reading_order_no="115" segment_no="27" tag_type="text">by  between  200  and  300  rating  points.  When  two  players  are </text>
+<text top="2762" left="1201" width="1030" height="47" font="font21" id="p1_t118" reading_order_no="116" segment_no="27" tag_type="text">separated  by  that  big  a  gap,  the  higher-rated  player  will  win,  on </text>
+<text top="2811" left="1199" width="415" height="43" font="font7" id="p1_t119" reading_order_no="117" segment_no="27" tag_type="text">average,  4  out  of  5  games. </text>
+<text top="2852" left="1248" width="982" height="49" font="font23" id="p1_t120" reading_order_no="118" segment_no="28" tag_type="text">It  was  this  almost  linear  relationship  between  search  depth </text>
+<text top="2899" left="1199" width="1031" height="47" font="font21" id="p1_t121" reading_order_no="119" segment_no="28" tag_type="text">and  playing  strength  that  first  made  me  believe  chess  could </text>
+<text top="2944" left="1198" width="1031" height="49" font="font23" id="p1_t122" reading_order_no="120" segment_no="28" tag_type="text">be  solved.  I  wondered  whether  the  relationship  would  continue </text>
+<text top="3027" left="1861" width="367" height="42" font="font6" id="p1_t123" reading_order_no="126" segment_no="30" tag_type="text">www.spectrum.ieee.org </text>
+<text top="2957" left="2283" width="0" height="27" font="font25" id="p1_t124" reading_order_no="121" segment_no="29" tag_type="title">DIAGRAMS: </text>
+<text top="2847" left="2283" width="0" height="27" font="font25" id="p1_t125" reading_order_no="122" segment_no="29" tag_type="title">BRYAN </text>
+<text top="2780" left="2284" width="0" height="27" font="font25" id="p1_t126" reading_order_no="123" segment_no="29" tag_type="title">CHRISTIE </text>
+<text top="2688" left="2284" width="0" height="27" font="font26" id="p1_t127" reading_order_no="124" segment_no="29" tag_type="title">DESIGN</text>
+</page>
+</pdf2xml>

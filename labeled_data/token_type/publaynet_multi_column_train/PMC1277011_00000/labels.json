@@ -1,0 +1,541 @@
+{
+    "pages": [
+        {
+            "number": 1,
+            "labels": [
+                {
+                    "top": 44,
+                    "left": 508,
+                    "width": 16,
+                    "height": 9,
+                    "tag_type": "TITLE"
+                },
+                {
+                    "top": 44,
+                    "left": 525,
+                    "width": 22,
+                    "height": 9,
+                    "tag_type": "TITLE"
+                },
+                {
+                    "top": 44,
+                    "left": 548,
+                    "width": 27,
+                    "height": 9,
+                    "tag_type": "TITLE"
+                },
+                {
+                    "top": 756,
+                    "left": 508,
+                    "width": 46,
+                    "height": 10,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 769,
+                    "left": 432,
+                    "width": 122,
+                    "height": 8,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 35,
+                    "left": 55,
+                    "width": 82,
+                    "height": 23,
+                    "tag_type": "TITLE"
+                },
+                {
+                    "top": 86,
+                    "left": 502,
+                    "width": 79,
+                    "height": 10,
+                    "tag_type": "TITLE"
+                },
+                {
+                    "top": 87,
+                    "left": 55,
+                    "width": 40,
+                    "height": 13,
+                    "tag_type": "TITLE"
+                },
+                {
+                    "top": 105,
+                    "left": 55,
+                    "width": 475,
+                    "height": 15,
+                    "tag_type": "TITLE"
+                },
+                {
+                    "top": 122,
+                    "left": 55,
+                    "width": 103,
+                    "height": 14,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 158,
+                    "left": 55,
+                    "width": 406,
+                    "height": 8,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 172,
+                    "left": 55,
+                    "width": 165,
+                    "height": 8,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 184,
+                    "left": 55,
+                    "width": 92,
+                    "height": 8,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 332,
+                    "left": 55,
+                    "width": 129,
+                    "height": 8,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 360,
+                    "left": 112,
+                    "width": 44,
+                    "height": 10,
+                    "tag_type": "TITLE"
+                },
+                {
+                    "top": 375,
+                    "left": 112,
+                    "width": 386,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 387,
+                    "left": 112,
+                    "width": 385,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 399,
+                    "left": 112,
+                    "width": 386,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 410,
+                    "left": 112,
+                    "width": 386,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 422,
+                    "left": 112,
+                    "width": 386,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 434,
+                    "left": 112,
+                    "width": 385,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 446,
+                    "left": 112,
+                    "width": 385,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 457,
+                    "left": 112,
+                    "width": 92,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 507,
+                    "left": 55,
+                    "width": 63,
+                    "height": 10,
+                    "tag_type": "TITLE"
+                },
+                {
+                    "top": 518,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 530,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 542,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 553,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 565,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 577,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 589,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 600,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 612,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 624,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 636,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 647,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 659,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 671,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 683,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 694,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 706,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 718,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 730,
+                    "left": 55,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 506,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 518,
+                    "left": 313,
+                    "width": 217,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 542,
+                    "left": 313,
+                    "width": 194,
+                    "height": 10,
+                    "tag_type": "TITLE"
+                },
+                {
+                    "top": 553,
+                    "left": 313,
+                    "width": 223,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 553,
+                    "left": 536,
+                    "width": 18,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 565,
+                    "left": 313,
+                    "width": 31,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 565,
+                    "left": 344,
+                    "width": 210,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 577,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 589,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 600,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 612,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 624,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 636,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 647,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 659,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 671,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 683,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 694,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 706,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 718,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 730,
+                    "left": 313,
+                    "width": 241,
+                    "height": 9,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 226,
+                    "left": 55,
+                    "width": 98,
+                    "height": 7,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 241,
+                    "left": 55,
+                    "width": 19,
+                    "height": 7,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 241,
+                    "left": 74,
+                    "width": 22,
+                    "height": 7,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 241,
+                    "left": 96,
+                    "width": 4,
+                    "height": 7,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 241,
+                    "left": 101,
+                    "width": 6,
+                    "height": 7,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 241,
+                    "left": 115,
+                    "width": 88,
+                    "height": 7,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 226,
+                    "left": 310,
+                    "width": 82,
+                    "height": 7,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 236,
+                    "left": 310,
+                    "width": 98,
+                    "height": 7,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 255,
+                    "left": 55,
+                    "width": 236,
+                    "height": 7,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 269,
+                    "left": 55,
+                    "width": 160,
+                    "height": 7,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 279,
+                    "left": 55,
+                    "width": 492,
+                    "height": 7,
+                    "tag_type": "TEXT"
+                },
+                {
+                    "top": 288,
+                    "left": 55,
+                    "width": 400,
+                    "height": 7,
+                    "tag_type": "TEXT"
+                }
+            ]
+        }
+    ]
+}
