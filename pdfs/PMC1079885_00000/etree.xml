@@ -20,71 +20,63 @@
 	<fontspec id="font16" size="8" family="GillSans" color="#000000"/>
 	<fontspec id="font17" size="8" family="GillSans,Italic" color="#000000"/>
 	<fontspec id="font18" size="8" family="GillSans,Bold" color="#000000"/>
-<text top="44" left="508" width="16" height="9" font="font0" id="p1_t1" reading_order_no="1" segment_no="1" tag_type="title"><a href="http://www.biomedcentral.com/"><b>Bio</b></a></text>
-<text top="44" left="525" width="22" height="9" font="font1" id="p1_t2" reading_order_no="2" segment_no="1" tag_type="title"><a href="http://www.biomedcentral.com/"><b>Med</b></a></text>
-<text top="44" left="548" width="27" height="9" font="font3" id="p1_t3" reading_order_no="3" segment_no="1" tag_type="title"><a href="http://www.biomedcentral.com/">Central</a></text>
-<text top="756" left="508" width="46" height="10" font="font4" id="p1_t4" reading_order_no="64" segment_no="25" tag_type="text">Page 1 of 9</text>
-<text top="769" left="432" width="122" height="8" font="font5" id="p1_t5" reading_order_no="65" segment_no="26" tag_type="text"><i>(page number not for citation purposes)</i></text>
-<text top="35" left="55" width="214" height="23" font="font6" id="p1_t6" reading_order_no="0" segment_no="0" tag_type="title"><b>BMC Physiology</b></text>
-<text top="86" left="502" width="79" height="10" font="font7" id="p1_t7" reading_order_no="4" segment_no="2" tag_type="title"><a href="http://www.biomedcentral.com/info/about/charter/"><b>Open Access</b></a></text>
-<text top="87" left="55" width="86" height="13" font="font8" id="p1_t8" reading_order_no="5" segment_no="3" tag_type="title">Research article</text>
-<text top="105" left="55" width="499" height="15" font="font9" id="p1_t9" reading_order_no="6" segment_no="4" tag_type="title"><b>Exercise responsive genes measured in peripheral blood of women </b></text>
-<text top="123" left="55" width="464" height="15" font="font9" id="p1_t10" reading_order_no="7" segment_no="4" tag_type="title"><b>with Chronic Fatigue Syndrome and matched control subjects</b></text>
-<text top="140" left="55" width="473" height="14" font="font10" id="p1_t11" reading_order_no="8" segment_no="5" tag_type="text">Toni Whistler, James F Jones, Elizabeth R Unger and Suzanne D Vernon*</text>
-<text top="176" left="55" width="414" height="8" font="font11" id="p1_t12" reading_order_no="9" segment_no="6" tag_type="text">Address: Viral Exanthems and Herpesvirus Branch, Centers for Disease Control and Prevention, Atlanta, GA 30333, USA</text>
-<text top="190" left="55" width="486" height="8" font="font11" id="p1_t13" reading_order_no="10" segment_no="7" tag_type="text">Email: Toni Whistler - taw6@cdc.gov; James F Jones - jaj9@cdc.gov; Elizabeth R Unger - eru0@cdc.gov; Suzanne D Vernon* - sdv2@cdc.gov</text>
-<text top="202" left="55" width="92" height="8" font="font11" id="p1_t14" reading_order_no="11" segment_no="8" tag_type="text">* Corresponding author  <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=15790422">  </a></text>
-<text top="350" left="112" width="44" height="10" font="font12" id="p1_t15" reading_order_no="24" segment_no="16" tag_type="title"><b>Abstract</b></text>
-<text top="365" left="112" width="60" height="9" font="font13" id="p1_t16" reading_order_no="25" segment_no="17" tag_type="text"><b>Background: </b></text>
-<text top="365" left="171" width="326" height="9" font="font14" id="p1_t17" reading_order_no="26" segment_no="17" tag_type="text">Chronic fatigue syndrome (CFS) is defined by debilitating fatigue that is exacerbated</text>
-<text top="376" left="112" width="386" height="9" font="font14" id="p1_t18" reading_order_no="27" segment_no="17" tag_type="text">by physical or mental exertion. To search for markers of CFS-associated post-exertional fatigue,</text>
-<text top="388" left="112" width="385" height="9" font="font14" id="p1_t19" reading_order_no="28" segment_no="17" tag_type="text">we measured peripheral blood gene expression profiles of women with CFS and matched controls</text>
-<text top="400" left="112" width="140" height="9" font="font14" id="p1_t20" reading_order_no="29" segment_no="17" tag_type="text">before and after exercise challenge.</text>
-<text top="417" left="112" width="38" height="9" font="font13" id="p1_t21" reading_order_no="30" segment_no="18" tag_type="text"><b>Results: </b></text>
-<text top="417" left="151" width="347" height="9" font="font14" id="p1_t22" reading_order_no="31" segment_no="18" tag_type="text">Women with CFS and healthy, age-matched, sedentary controls were exercised on a</text>
-<text top="428" left="112" width="386" height="9" font="font14" id="p1_t23" reading_order_no="32" segment_no="18" tag_type="text">stationary bicycle at 70% of their predicted maximum workload. Blood was obtained before and</text>
-<text top="440" left="112" width="386" height="9" font="font14" id="p1_t24" reading_order_no="33" segment_no="18" tag_type="text">after the challenge, total RNA was extracted from mononuclear cells, and signal intensity of the</text>
-<text top="452" left="112" width="386" height="9" font="font14" id="p1_t25" reading_order_no="34" segment_no="18" tag_type="text">labeled cDNA hybridized to a 3800-gene oligonucleotide microarray was measured. We identified</text>
-<text top="464" left="112" width="386" height="9" font="font14" id="p1_t26" reading_order_no="35" segment_no="18" tag_type="text">differences in gene expression among and between subject groups before and after exercise</text>
-<text top="475" left="112" width="293" height="9" font="font14" id="p1_t27" reading_order_no="36" segment_no="18" tag_type="text">challenge and evaluated differences in terms of Gene Ontology categories.</text>
-<text top="492" left="112" width="386" height="9" font="font14" id="p1_t28" reading_order_no="37" segment_no="19" tag_type="text">Exercise-responsive genes differed between CFS patients and controls. These were in genes</text>
-<text top="504" left="112" width="386" height="9" font="font14" id="p1_t29" reading_order_no="38" segment_no="19" tag_type="text">classified in chromatin and nucleosome assembly, cytoplasmic vesicles, membrane transport, and G</text>
-<text top="516" left="112" width="386" height="9" font="font14" id="p1_t30" reading_order_no="39" segment_no="19" tag_type="text">protein-coupled receptor ontologies. Differences in ion transport and ion channel activity were</text>
-<text top="527" left="112" width="386" height="9" font="font14" id="p1_t31" reading_order_no="40" segment_no="19" tag_type="text">evident at baseline and were exaggerated after exercise, as evidenced by greater numbers of</text>
-<text top="539" left="112" width="231" height="9" font="font14" id="p1_t32" reading_order_no="41" segment_no="19" tag_type="text">differentially expressed genes in these molecular functions.</text>
-<text top="556" left="112" width="56" height="9" font="font13" id="p1_t33" reading_order_no="42" segment_no="20" tag_type="text"><b>Conclusion: </b></text>
-<text top="556" left="169" width="329" height="9" font="font14" id="p1_t34" reading_order_no="43" segment_no="20" tag_type="text">These results highlight the potential use of an exercise challenge combined with</text>
-<text top="568" left="112" width="343" height="9" font="font14" id="p1_t35" reading_order_no="44" segment_no="20" tag_type="text">microarray gene expression analysis in identifying gene ontologies associated with CFS.</text>
-<text top="617" left="55" width="60" height="10" font="font12" id="p1_t36" reading_order_no="45" segment_no="21" tag_type="title"><b>Background</b></text>
-<text top="629" left="55" width="241" height="9" font="font15" id="p1_t37" reading_order_no="46" segment_no="23" tag_type="text">In a state of health, physical exercise has a quantifiable</text>
-<text top="640" left="55" width="241" height="9" font="font15" id="p1_t38" reading_order_no="47" segment_no="23" tag_type="text">effect on neuroendocrine, autonomic, and immune sys-</text>
-<text top="652" left="55" width="241" height="9" font="font15" id="p1_t39" reading_order_no="48" segment_no="23" tag_type="text">tems influencing metabolic and immune responses. How-</text>
-<text top="664" left="55" width="241" height="9" font="font15" id="p1_t40" reading_order_no="49" segment_no="23" tag_type="text">ever, in the initial phase of acute illness, there is an</text>
-<text top="676" left="55" width="241" height="9" font="font15" id="p1_t41" reading_order_no="50" segment_no="23" tag_type="text">avoidance of physical stressors so energy can be dedicated</text>
-<text top="687" left="55" width="241" height="9" font="font15" id="p1_t42" reading_order_no="51" segment_no="23" tag_type="text">to healing and a return to homeostasis. While physiologic</text>
-<text top="699" left="55" width="241" height="9" font="font15" id="p1_t43" reading_order_no="52" segment_no="23" tag_type="text">disturbance in acute illness is transient, chronic illnesses,</text>
-<text top="711" left="55" width="241" height="9" font="font15" id="p1_t44" reading_order_no="53" segment_no="23" tag_type="text">such as chronic fatigue syndrome (CFS), have prolonged</text>
-<text top="722" left="55" width="241" height="9" font="font15" id="p1_t45" reading_order_no="54" segment_no="23" tag_type="text">disturbances that have a debilitating effect both physio-</text>
-<text top="617" left="313" width="241" height="9" font="font15" id="p1_t46" reading_order_no="55" segment_no="22" tag_type="text">logically and psychologically. Consequently, activities</text>
-<text top="629" left="313" width="241" height="9" font="font15" id="p1_t47" reading_order_no="56" segment_no="22" tag_type="text">that are physiologic stressors, such as physical exercise,</text>
-<text top="640" left="313" width="175" height="9" font="font15" id="p1_t48" reading_order_no="57" segment_no="22" tag_type="text">exacerbate the symptoms that define CFS.</text>
-<text top="664" left="313" width="241" height="9" font="font15" id="p1_t49" reading_order_no="58" segment_no="24" tag_type="text">CFS is a complex, multifactorial illness whose etiology</text>
-<text top="676" left="313" width="241" height="9" font="font15" id="p1_t50" reading_order_no="59" segment_no="24" tag_type="text">and pathophysiology remain un<a href="">clear [1]. CFS is define</a>d</text>
-<text top="687" left="313" width="241" height="9" font="font15" id="p1_t51" reading_order_no="60" segment_no="24" tag_type="text">by a characteristic symptom complex in the absence of</text>
-<text top="699" left="313" width="241" height="9" font="font15" id="p1_t52" reading_order_no="61" segment_no="24" tag_type="text">other medical or psychiatric conditions with similar clini-</text>
-<text top="711" left="313" width="241" height="9" font="font15" id="p1_t53" reading_order_no="62" segment_no="24" tag_type="text">cal charac<a href="">teristics [2,3]. Subtle</a> differences in hypotha-</text>
-<text top="722" left="313" width="241" height="9" font="font15" id="p1_t54" reading_order_no="63" segment_no="24" tag_type="text">lamic-pituitary-adrenal axis function <a href="">[4</a>], immune system</text>
-<text top="244" left="55" width="83" height="7" font="font16" id="p1_t55" reading_order_no="12" segment_no="9" tag_type="text">Published: 24 March 2005</text>
-<text top="259" left="55" width="47" height="7" font="font17" id="p1_t56" reading_order_no="13" segment_no="12" tag_type="text"><i>BMC Physiology</i></text>
-<text top="259" left="102" width="22" height="7" font="font16" id="p1_t57" reading_order_no="14" segment_no="12" tag_type="text"> 2005, </text>
-<text top="259" left="124" width="4" height="7" font="font18" id="p1_t58" reading_order_no="15" segment_no="12" tag_type="text"><b>5</b></text>
-<text top="259" left="129" width="6" height="7" font="font16" id="p1_t59" reading_order_no="16" segment_no="12" tag_type="text">:5</text>
-<text top="259" left="143" width="88" height="7" font="font16" id="p1_t60" reading_order_no="17" segment_no="12" tag_type="text">doi:10.1186/1472-6793-5-5</text>
-<text top="244" left="310" width="97" height="7" font="font16" id="p1_t61" reading_order_no="22" segment_no="10" tag_type="text">Received: 13 September 2004</text>
-<text top="254" left="310" width="84" height="7" font="font16" id="p1_t62" reading_order_no="23" segment_no="11" tag_type="text">Accepted: 24 March 2005</text>
-<text top="273" left="55" width="244" height="7" font="font16" id="p1_t63" reading_order_no="18" segment_no="13" tag_type="text"><a href="http://www.biomedcentral.com/1472-6793/5/5">This article is available from: http://www.biomedcentral.com/1472-6793/5/5</a></text>
-<text top="287" left="55" width="171" height="7" font="font16" id="p1_t64" reading_order_no="19" segment_no="14" tag_type="text">© 2005 Whistler et al; licensee BioMed Central Ltd. </text>
-<text top="297" left="55" width="492" height="7" font="font16" id="p1_t65" reading_order_no="20" segment_no="15" tag_type="text">This is an Open Access article distributed under the terms of the Creative Commons Attribution Licens<a href="http://creativecommons.org/licenses/by/2.0">e (http://creativecommons.org/licenses/by/2.0), </a></text>
-<text top="306" left="55" width="400" height="7" font="font16" id="p1_t66" reading_order_no="21" segment_no="15" tag_type="text">which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</text>
+<text top="44" left="508" width="67" height="9" font="font0" id="p1_t1" reading_order_no="1" segment_no="1" tag_type="title">Bio Med Central<a href="http://www.biomedcentral.com/"><b>Bio</b></a></text>
+<text top="756" left="508" width="46" height="10" font="font4" id="p1_t2" reading_order_no="56" segment_no="25" tag_type="text">Page 1 of 9<a href="http://www.biomedcentral.com/"><b>Med</b></a></text>
+<text top="769" left="432" width="122" height="8" font="font5" id="p1_t3" reading_order_no="57" segment_no="26" tag_type="text">(page number not for citation purposes)<a href="http://www.biomedcentral.com/">Central</a></text>
+<text top="35" left="55" width="214" height="23" font="font6" id="p1_t4" reading_order_no="0" segment_no="0" tag_type="title">BMC Physiology</text>
+<text top="86" left="502" width="79" height="10" font="font7" id="p1_t5" reading_order_no="2" segment_no="2" tag_type="title">Open Access<i>(page number not for citation purposes)</i></text>
+<text top="87" left="55" width="86" height="13" font="font8" id="p1_t6" reading_order_no="3" segment_no="3" tag_type="title">Research article<b>BMC Physiology</b></text>
+<text top="105" left="55" width="499" height="15" font="font9" id="p1_t7" reading_order_no="4" segment_no="4" tag_type="title">Exercise responsive genes measured in peripheral blood of women<a href="http://www.biomedcentral.com/info/about/charter/"><b>Open Access</b></a></text>
+<text top="123" left="55" width="464" height="15" font="font9" id="p1_t8" reading_order_no="5" segment_no="4" tag_type="title">with Chronic Fatigue Syndrome and matched control subjects</text>
+<text top="140" left="55" width="473" height="14" font="font10" id="p1_t9" reading_order_no="6" segment_no="5" tag_type="text">Toni Whistler, James F Jones, Elizabeth R Unger and Suzanne D Vernon*<b>Exercise responsive genes measured in peripheral blood of women </b></text>
+<text top="176" left="55" width="414" height="8" font="font11" id="p1_t10" reading_order_no="7" segment_no="6" tag_type="text">Address: Viral Exanthems and Herpesvirus Branch, Centers for Disease Control and Prevention, Atlanta, GA 30333, USA<b>with Chronic Fatigue Syndrome and matched control subjects</b></text>
+<text top="190" left="55" width="486" height="8" font="font11" id="p1_t11" reading_order_no="8" segment_no="7" tag_type="text">Email: Toni Whistler - taw6@cdc.gov; James F Jones - jaj9@cdc.gov; Elizabeth R Unger - eru0@cdc.gov; Suzanne D Vernon* - sdv2@cdc.gov</text>
+<text top="202" left="55" width="92" height="8" font="font11" id="p1_t12" reading_order_no="9" segment_no="8" tag_type="text">* Corresponding author</text>
+<text top="350" left="112" width="44" height="10" font="font12" id="p1_t13" reading_order_no="19" segment_no="16" tag_type="title">Abstract</text>
+<text top="365" left="112" width="385" height="9" font="font13" id="p1_t14" reading_order_no="20" segment_no="17" tag_type="text">Background: Chronic fatigue syndrome (CFS) is defined by debilitating fatigue that is exacerbated<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=15790422">  </a></text>
+<text top="376" left="112" width="386" height="9" font="font14" id="p1_t15" reading_order_no="21" segment_no="17" tag_type="text">by physical or mental exertion. To search for markers of CFS-associated post-exertional fatigue,<b>Abstract</b></text>
+<text top="388" left="112" width="385" height="9" font="font14" id="p1_t16" reading_order_no="22" segment_no="17" tag_type="text">we measured peripheral blood gene expression profiles of women with CFS and matched controls<b>Background: </b></text>
+<text top="400" left="112" width="140" height="9" font="font14" id="p1_t17" reading_order_no="23" segment_no="17" tag_type="text">before and after exercise challenge.</text>
+<text top="417" left="112" width="386" height="9" font="font13" id="p1_t18" reading_order_no="24" segment_no="18" tag_type="text">Results: Women with CFS and healthy, age-matched, sedentary controls were exercised on a</text>
+<text top="428" left="112" width="386" height="9" font="font14" id="p1_t19" reading_order_no="25" segment_no="18" tag_type="text">stationary bicycle at 70% of their predicted maximum workload. Blood was obtained before and</text>
+<text top="440" left="112" width="386" height="9" font="font14" id="p1_t20" reading_order_no="26" segment_no="18" tag_type="text">after the challenge, total RNA was extracted from mononuclear cells, and signal intensity of the</text>
+<text top="452" left="112" width="386" height="9" font="font14" id="p1_t21" reading_order_no="27" segment_no="18" tag_type="text">labeled cDNA hybridized to a 3800-gene oligonucleotide microarray was measured. We identified<b>Results: </b></text>
+<text top="464" left="112" width="386" height="9" font="font14" id="p1_t22" reading_order_no="28" segment_no="18" tag_type="text">differences in gene expression among and between subject groups before and after exercise</text>
+<text top="475" left="112" width="293" height="9" font="font14" id="p1_t23" reading_order_no="29" segment_no="18" tag_type="text">challenge and evaluated differences in terms of Gene Ontology categories.</text>
+<text top="492" left="112" width="386" height="9" font="font14" id="p1_t24" reading_order_no="30" segment_no="19" tag_type="text">Exercise-responsive genes differed between CFS patients and controls. These were in genes</text>
+<text top="504" left="112" width="386" height="9" font="font14" id="p1_t25" reading_order_no="31" segment_no="19" tag_type="text">classified in chromatin and nucleosome assembly, cytoplasmic vesicles, membrane transport, and G</text>
+<text top="516" left="112" width="386" height="9" font="font14" id="p1_t26" reading_order_no="32" segment_no="19" tag_type="text">protein-coupled receptor ontologies. Differences in ion transport and ion channel activity were</text>
+<text top="527" left="112" width="386" height="9" font="font14" id="p1_t27" reading_order_no="33" segment_no="19" tag_type="text">evident at baseline and were exaggerated after exercise, as evidenced by greater numbers of</text>
+<text top="539" left="112" width="231" height="9" font="font14" id="p1_t28" reading_order_no="34" segment_no="19" tag_type="text">differentially expressed genes in these molecular functions.</text>
+<text top="556" left="112" width="386" height="9" font="font13" id="p1_t29" reading_order_no="35" segment_no="20" tag_type="text">Conclusion: These results highlight the potential use of an exercise challenge combined with</text>
+<text top="568" left="112" width="343" height="9" font="font14" id="p1_t30" reading_order_no="36" segment_no="20" tag_type="text">microarray gene expression analysis in identifying gene ontologies associated with CFS.</text>
+<text top="617" left="55" width="60" height="10" font="font12" id="p1_t31" reading_order_no="37" segment_no="21" tag_type="title">Background</text>
+<text top="629" left="55" width="241" height="9" font="font15" id="p1_t32" reading_order_no="38" segment_no="23" tag_type="text">In a state of health, physical exercise has a quantifiable</text>
+<text top="640" left="55" width="241" height="9" font="font15" id="p1_t33" reading_order_no="39" segment_no="23" tag_type="text">effect on neuroendocrine, autonomic, and immune sys-<b>Conclusion: </b></text>
+<text top="652" left="55" width="241" height="9" font="font15" id="p1_t34" reading_order_no="40" segment_no="23" tag_type="text">tems influencing metabolic and immune responses. How-</text>
+<text top="664" left="55" width="241" height="9" font="font15" id="p1_t35" reading_order_no="41" segment_no="23" tag_type="text">ever, in the initial phase of acute illness, there is an</text>
+<text top="676" left="55" width="241" height="9" font="font15" id="p1_t36" reading_order_no="42" segment_no="23" tag_type="text">avoidance of physical stressors so energy can be dedicated<b>Background</b></text>
+<text top="687" left="55" width="241" height="9" font="font15" id="p1_t37" reading_order_no="43" segment_no="23" tag_type="text">to healing and a return to homeostasis. While physiologic</text>
+<text top="699" left="55" width="241" height="9" font="font15" id="p1_t38" reading_order_no="44" segment_no="23" tag_type="text">disturbance in acute illness is transient, chronic illnesses,</text>
+<text top="711" left="55" width="241" height="9" font="font15" id="p1_t39" reading_order_no="45" segment_no="23" tag_type="text">such as chronic fatigue syndrome (CFS), have prolonged</text>
+<text top="722" left="55" width="241" height="9" font="font15" id="p1_t40" reading_order_no="46" segment_no="23" tag_type="text">disturbances that have a debilitating effect both physio-</text>
+<text top="617" left="313" width="241" height="9" font="font15" id="p1_t41" reading_order_no="47" segment_no="22" tag_type="text">logically and psychologically. Consequently, activities</text>
+<text top="629" left="313" width="241" height="9" font="font15" id="p1_t42" reading_order_no="48" segment_no="22" tag_type="text">that are physiologic stressors, such as physical exercise,</text>
+<text top="640" left="313" width="175" height="9" font="font15" id="p1_t43" reading_order_no="49" segment_no="22" tag_type="text">exacerbate the symptoms that define CFS.</text>
+<text top="664" left="313" width="241" height="9" font="font15" id="p1_t44" reading_order_no="50" segment_no="24" tag_type="text">CFS is a complex, multifactorial illness whose etiology</text>
+<text top="676" left="313" width="241" height="9" font="font15" id="p1_t45" reading_order_no="51" segment_no="24" tag_type="text">and pathophysiology remain unclear [1]. CFS is defined</text>
+<text top="687" left="313" width="241" height="9" font="font15" id="p1_t46" reading_order_no="52" segment_no="24" tag_type="text">by a characteristic symptom complex in the absence of</text>
+<text top="699" left="313" width="241" height="9" font="font15" id="p1_t47" reading_order_no="53" segment_no="24" tag_type="text">other medical or psychiatric conditions with similar clini-</text>
+<text top="711" left="313" width="241" height="9" font="font15" id="p1_t48" reading_order_no="54" segment_no="24" tag_type="text">cal characteristics [2,3]. Subtle differences in hypotha-</text>
+<text top="722" left="313" width="241" height="9" font="font15" id="p1_t49" reading_order_no="55" segment_no="24" tag_type="text">lamic-pituitary-adrenal axis function [4], immune system</text>
+<text top="244" left="55" width="83" height="7" font="font16" id="p1_t50" reading_order_no="10" segment_no="9" tag_type="text">Published: 24 March 2005<a href="">clear [1]. CFS is define</a>d</text>
+<text top="259" left="55" width="80" height="7" font="font17" id="p1_t51" reading_order_no="11" segment_no="12" tag_type="text">BMC Physiology 2005, 5 :5</text>
+<text top="259" left="143" width="88" height="7" font="font16" id="p1_t52" reading_order_no="12" segment_no="12" tag_type="text">doi:10.1186/1472-6793-5-5</text>
+<text top="244" left="310" width="97" height="7" font="font16" id="p1_t53" reading_order_no="17" segment_no="10" tag_type="text">Received: 13 September 2004<a href="">teristics [2,3]. Subtle</a> differences in hypotha-</text>
+<text top="254" left="310" width="84" height="7" font="font16" id="p1_t54" reading_order_no="18" segment_no="11" tag_type="text">Accepted: 24 March 2005<a href="">[4</a>], immune system</text>
+<text top="273" left="55" width="244" height="7" font="font16" id="p1_t55" reading_order_no="13" segment_no="13" tag_type="text">This article is available from: http://www.biomedcentral.com/1472-6793/5/5</text>
+<text top="287" left="55" width="171" height="7" font="font16" id="p1_t56" reading_order_no="14" segment_no="14" tag_type="text">© 2005 Whistler et al; licensee BioMed Central Ltd.<i>BMC Physiology</i></text>
+<text top="297" left="55" width="492" height="7" font="font16" id="p1_t57" reading_order_no="15" segment_no="15" tag_type="text">This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0),</text>
+<text top="306" left="55" width="400" height="7" font="font16" id="p1_t58" reading_order_no="16" segment_no="15" tag_type="text">which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.<b>5</b></text>
 </page>
 </pdf2xml>

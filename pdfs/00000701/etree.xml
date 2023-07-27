@@ -20,94 +20,94 @@
 	<fontspec id="font16" size="35" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font17" size="34" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font18" size="42" family="GlyphLessFont" color="#000000"/>
-<text top="101" left="118" width="46" height="41" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">964 </text>
-<text top="102" left="618" width="1629" height="44" font="font0" id="p1_t2" reading_order_no="1" segment_no="1" tag_type="text">IEEE  TRANSACTIONS  ON  PATTERN  ANALYSIS  AND  MACHINE  INTELLIGENCE,  VOL.  23,  NO.9,  SEPTEMBER  2001 </text>
-<text top="201" left="391" width="1587" height="132" font="font1" id="p1_t3" reading_order_no="2" segment_no="2" tag_type="title">A  Fast  Nearest-Neighbor  Algorithm </text>
-<text top="320" left="311" width="1755" height="132" font="font2" id="p1_t4" reading_order_no="3" segment_no="2" tag_type="title">Based  on  a  Principal  Axis  Search  Tree </text>
-<text top="484" left="836" width="707" height="53" font="font3" id="p1_t5" reading_order_no="4" segment_no="3" tag_type="text">James  McNames,  Member,  [EEE </text>
-<text top="608" left="219" width="1935" height="47" font="font4" id="p1_t6" reading_order_no="5" segment_no="4" tag_type="text">Abstract—A  new  fast  nearest-neighbor  algorithm  is  described  that  uses  principal  component  analysis  to  build  an  efficient  search  tree. </text>
-<text top="652" left="218" width="1937" height="47" font="font4" id="p1_t7" reading_order_no="6" segment_no="4" tag_type="text">At  each  node  in  the  tree,  the  data  set  is  partitioned  along  the  direction  of  maximum  variance.  The  search  algorithm  efficiently  uses  a </text>
-<text top="695" left="219" width="1935" height="47" font="font4" id="p1_t8" reading_order_no="7" segment_no="4" tag_type="text">depth-first  search  and  a  new  elimination  criterion.  The  new  algorithm  was  compared  to  16  other  fast  nearest-neighbor  algorithms  on </text>
-<text top="739" left="218" width="1888" height="47" font="font4" id="p1_t9" reading_order_no="8" segment_no="4" tag_type="text">three  types  of  common  benchmark  data  sets  including  problems  from  time  series  prediction  and  image  vector  quantization.  This </text>
-<text top="783" left="218" width="1937" height="47" font="font4" id="p1_t10" reading_order_no="9" segment_no="4" tag_type="text">comparative  study  illustrates  the  strengths  and  weaknesses  of  all  of  the  leading  algorithms.  The  new  algorithm  performed  very  well  on </text>
-<text top="826" left="219" width="1184" height="46" font="font4" id="p1_t11" reading_order_no="10" segment_no="4" tag_type="text">all  of  the  data  sets  and  was  consistently  ranked  among  the  top  three  algorithms. </text>
-<text top="921" left="219" width="1937" height="46" font="font5" id="p1_t12" reading_order_no="11" segment_no="5" tag_type="text">Index  Terms—Nearest  neighbor,  vector  quantization  encoding,  principal  components  analysis,  closest  point,  intrinsic  dimension,  post </text>
-<text top="962" left="219" width="214" height="45" font="font6" id="p1_t13" reading_order_no="12" segment_no="5" tag_type="text">office  problem. </text>
-<text top="1150" left="122" width="15" height="54" font="font8" id="p1_t14" reading_order_no="13" segment_no="6" tag_type="title">1. </text>
-<text top="1150" left="196" width="284" height="54" font="font8" id="p1_t15" reading_order_no="14" segment_no="6" tag_type="title">INTRODUCTION </text>
-<text top="1219" left="204" width="957" height="51" font="font9" id="p1_t16" reading_order_no="15" segment_no="8" tag_type="text">IVEN  a  data  set  of  np,  points,  {x1,22,...,%n,},  the </text>
-<text top="1262" left="204" width="957" height="58" font="font10" id="p1_t17" reading_order_no="16" segment_no="8" tag_type="text">k-nearest-neighbors  problem  is  to  find  the  k  points </text>
-<text top="1312" left="119" width="1041" height="54" font="font3" id="p1_t18" reading_order_no="17" segment_no="8" tag_type="text">that  are  closest  to  a  query  point,  g,  where  q,  z;  €  #”  Vi.  This </text>
-<text top="1358" left="119" width="1042" height="57" font="font10" id="p1_t19" reading_order_no="18" segment_no="8" tag_type="text">problem  is  encountered  in  a  wide  range  of  applications </text>
-<text top="1406" left="120" width="1041" height="56" font="font8" id="p1_t20" reading_order_no="19" segment_no="8" tag_type="text">including  density  estimation,  pattern  recognition  [1], </text>
-<text top="1454" left="120" width="1041" height="55" font="font10" id="p1_t21" reading_order_no="20" segment_no="8" tag_type="text">clustering  [2],  function  approximation  [3],  time  series </text>
-<text top="1505" left="120" width="1042" height="52" font="font11" id="p1_t22" reading_order_no="21" segment_no="8" tag_type="text">prediction  [4],  document  retrieval  [5],  optical  character </text>
-<text top="1552" left="120" width="1043" height="52" font="font11" id="p1_t23" reading_order_no="22" segment_no="8" tag_type="text">recognition  [6],  and  vector  quantization  [2],  [7].  In  many  of </text>
-<text top="1597" left="120" width="1041" height="56" font="font8" id="p1_t24" reading_order_no="23" segment_no="8" tag_type="text">these  applications,  the  computational  cost  of  finding  the </text>
-<text top="1645" left="120" width="1042" height="55" font="font10" id="p1_t25" reading_order_no="24" segment_no="8" tag_type="text">nearest  neighbors  imposes  practical  limits  on  the  data  set </text>
-<text top="1693" left="120" width="1042" height="56" font="font8" id="p1_t26" reading_order_no="25" segment_no="8" tag_type="text">size  and  the  rate  at  which  the  application  can  operate.  This </text>
-<text top="1740" left="119" width="1042" height="57" font="font10" id="p1_t27" reading_order_no="26" segment_no="8" tag_type="text">has  motivated  the  development  of  many  fast  nearest- </text>
-<text top="1788" left="120" width="365" height="55" font="font10" id="p1_t28" reading_order_no="27" segment_no="8" tag_type="text">neighbor  algorithms. </text>
-<text top="1836" left="170" width="992" height="55" font="font10" id="p1_t29" reading_order_no="28" segment_no="9" tag_type="text">This  article  introduces  a  new  algorithm  based  on </text>
-<text top="1887" left="120" width="1042" height="54" font="font3" id="p1_t30" reading_order_no="29" segment_no="9" tag_type="text">principal  axis  trees  called  PAT  and  compares  it  with  other </text>
-<text top="1935" left="121" width="1041" height="57" font="font10" id="p1_t31" reading_order_no="30" segment_no="9" tag_type="text">leading  algorithms.  Only  algorithms  that  use  the  Euclidean </text>
-<text top="1987" left="120" width="118" height="51" font="font12" id="p1_t32" reading_order_no="31" segment_no="9" tag_type="text">metric, </text>
-<text top="2074" left="635" width="26" height="28" font="font13" id="p1_t33" reading_order_no="32" segment_no="12" tag_type="formula">Na </text>
-<text top="2087" left="434" width="407" height="78" font="font14" id="p1_t34" reading_order_no="33" segment_no="12" tag_type="formula">D’(z,q)  =  &gt;  (ai  -  4%)", </text>
-<text top="2154" left="627" width="41" height="35" font="font15" id="p1_t35" reading_order_no="34" segment_no="12" tag_type="formula">i=1 </text>
-<text top="2214" left="121" width="1042" height="47" font="font16" id="p1_t36" reading_order_no="35" segment_no="13" tag_type="text">to  measure  the  distance  between  two  points,  are  included  in </text>
-<text top="2259" left="120" width="182" height="54" font="font8" id="p1_t37" reading_order_no="36" segment_no="13" tag_type="text">this  study. </text>
-<text top="2307" left="170" width="992" height="54" font="font8" id="p1_t38" reading_order_no="37" segment_no="14" tag_type="text">The  performance  of  nearest-neighbor  algorithms  is </text>
-<text top="2355" left="121" width="1042" height="55" font="font10" id="p1_t39" reading_order_no="38" segment_no="14" tag_type="text">usually  specified  by  the  preprocessing  time,  memory </text>
-<text top="2405" left="120" width="1041" height="55" font="font10" id="p1_t40" reading_order_no="39" segment_no="14" tag_type="text">required,  and  average  query  time.  For  most  applications, </text>
-<text top="2455" left="121" width="1041" height="55" font="font10" id="p1_t41" reading_order_no="40" segment_no="14" tag_type="text">a  moderate  amount  of  preprocessing  and  memory  alloca- </text>
-<text top="2505" left="120" width="1041" height="54" font="font8" id="p1_t42" reading_order_no="41" segment_no="14" tag_type="text">tion  are  acceptable  if  the  average  query  time  is  small </text>
-<text top="2554" left="120" width="138" height="54" font="font8" id="p1_t43" reading_order_no="42" segment_no="14" tag_type="text">enough. </text>
-<text top="2603" left="170" width="993" height="54" font="font8" id="p1_t44" reading_order_no="43" segment_no="15" tag_type="text">The  following  section  reviews  some  of  the  most  popular </text>
-<text top="2652" left="121" width="1040" height="55" font="font10" id="p1_t45" reading_order_no="44" segment_no="15" tag_type="text">and  effective  methods  of  reducing  query  time.  Section  3 </text>
-<text top="2783" left="120" width="1042" height="48" font="font17" id="p1_t46" reading_order_no="78" segment_no="18" tag_type="footnote">e  The  author  is  with  the  Department  of  Electrical  &amp;  Computer  Engineering, </text>
-<text top="2821" left="162" width="1000" height="46" font="font17" id="p1_t47" reading_order_no="79" segment_no="18" tag_type="footnote">Portland  State  University,  PO  Box  751,  Portland  State  University, </text>
-<text top="2858" left="162" width="777" height="46" font="font17" id="p1_t48" reading_order_no="80" segment_no="18" tag_type="footnote">Portland,  OR  97207-0751.  E-mail:  mcnames@ee.pdx.edu, </text>
-<text top="2913" left="119" width="1041" height="45" font="font6" id="p1_t49" reading_order_no="81" segment_no="19" tag_type="footnote">Manuscript  received  24  Jan.  2000;  revised  13  Oct.  2000;  accepted  20  Feb. </text>
-<text top="2948" left="121" width="70" height="47" font="font16" id="p1_t50" reading_order_no="82" segment_no="19" tag_type="footnote">2001. </text>
-<text top="2987" left="121" width="594" height="46" font="font17" id="p1_t51" reading_order_no="83" segment_no="20" tag_type="footnote">Recommended  for  acceptance  by  C.  Brodley. </text>
-<text top="3024" left="120" width="1042" height="46" font="font17" id="p1_t52" reading_order_no="84" segment_no="21" tag_type="footnote">For  information  on  obtaining  reprints  of  this  article,  please  send  e-mail  to: </text>
-<text top="3062" left="121" width="897" height="46" font="font17" id="p1_t53" reading_order_no="85" segment_no="21" tag_type="footnote">tpami@computer.org,  and  reference  IEEECS  Log  Number  111291. </text>
-<text top="1218" left="1213" width="1041" height="56" font="font8" id="p1_t54" reading_order_no="45" segment_no="7" tag_type="text">discusses  how  the  dimension  of  the  data  set  affects  these </text>
-<text top="1268" left="1213" width="1042" height="59" font="font18" id="p1_t55" reading_order_no="46" segment_no="7" tag_type="text">methods.  Section  4  describes  principal  axis  trees  (PAT)  in </text>
-<text top="1321" left="1213" width="1041" height="56" font="font8" id="p1_t56" reading_order_no="47" segment_no="7" tag_type="text">detail.  Section  5  specifies  the  other  algorithms  included  in  a </text>
-<text top="1373" left="1213" width="1042" height="54" font="font8" id="p1_t57" reading_order_no="48" segment_no="7" tag_type="text">comparative  empirical  study,  discusses  how  the  query  time </text>
-<text top="1429" left="1213" width="1043" height="49" font="font16" id="p1_t58" reading_order_no="49" segment_no="7" tag_type="text">was  measured,  and  describes  how  user-specified  para- </text>
-<text top="1477" left="1213" width="1043" height="53" font="font3" id="p1_t59" reading_order_no="50" segment_no="7" tag_type="text">meters  were  chosen.  Section  6  reports  the  performance  of </text>
-<text top="1527" left="1213" width="1043" height="56" font="font8" id="p1_t60" reading_order_no="51" segment_no="7" tag_type="text">PAT  and  the  other  algorithms  on  a  variety  of  benchmark </text>
-<text top="1579" left="1213" width="1042" height="54" font="font8" id="p1_t61" reading_order_no="52" segment_no="7" tag_type="text">problems.  PAT  is  shown  to  have  excellent  performance </text>
-<text top="1632" left="1213" width="590" height="53" font="font3" id="p1_t62" reading_order_no="53" segment_no="7" tag_type="text">across  a  broad  range  of  data  sets. </text>
-<text top="1749" left="1213" width="522" height="55" font="font10" id="p1_t63" reading_order_no="54" segment_no="10" tag_type="title">2  ELIMINATION  CRITERIA </text>
-<text top="1816" left="1213" width="1043" height="56" font="font8" id="p1_t64" reading_order_no="55" segment_no="11" tag_type="text">Many  nearest-neighbor  algorithms  have  been  proposed  to </text>
-<text top="1867" left="1213" width="1042" height="55" font="font10" id="p1_t65" reading_order_no="56" segment_no="11" tag_type="text">overcome  the  large  computational  cost  of  the  obvious  brute </text>
-<text top="1918" left="1213" width="1042" height="57" font="font10" id="p1_t66" reading_order_no="57" segment_no="11" tag_type="text">force  approach.  Typically,  these  algorithms  employ  one  or </text>
-<text top="1970" left="1213" width="1042" height="55" font="font10" id="p1_t67" reading_order_no="58" segment_no="11" tag_type="text">more  elimination  criteria.  Each  estimates  a  lower  bound  on </text>
-<text top="2021" left="1213" width="1043" height="57" font="font10" id="p1_t68" reading_order_no="59" segment_no="11" tag_type="text">the  distance  between  a  query  point  and  a  point,  or  set  of </text>
-<text top="2080" left="1213" width="1042" height="46" font="font17" id="p1_t69" reading_order_no="60" segment_no="11" tag_type="text">points,  in  the  data  set.  If  the  lower  bound  is  greater  than  the </text>
-<text top="2125" left="1213" width="1043" height="55" font="font10" id="p1_t70" reading_order_no="61" segment_no="11" tag_type="text">distance  to  the  kth  nearest  neighbor  found  so  far,  the  point </text>
-<text top="2177" left="1214" width="1041" height="54" font="font8" id="p1_t71" reading_order_no="62" segment_no="11" tag_type="text">can  be  eliminated  without  explicitly  calculating  the  distance </text>
-<text top="2227" left="1214" width="1042" height="57" font="font18" id="p1_t72" reading_order_no="63" segment_no="11" tag_type="text">to  that  point.  This  section  describes  three  of  these  elimina- </text>
-<text top="2281" left="1214" width="1038" height="54" font="font8" id="p1_t73" reading_order_no="64" segment_no="11" tag_type="text">tion  criteria  that  are  included  in  principal  axis  trees  (PAT).' </text>
-<text top="2364" left="1213" width="51" height="49" font="font9" id="p1_t74" reading_order_no="65" segment_no="16" tag_type="title">2.1 </text>
-<text top="2364" left="1314" width="461" height="49" font="font9" id="p1_t75" reading_order_no="66" segment_no="16" tag_type="title">Partial  Distance  Search </text>
-<text top="2416" left="1213" width="1042" height="54" font="font8" id="p1_t76" reading_order_no="67" segment_no="17" tag_type="text">Full-search  improvements  apply  an  elimination  criterion  to </text>
-<text top="2468" left="1214" width="1042" height="54" font="font8" id="p1_t77" reading_order_no="68" segment_no="17" tag_type="text">every  point  in  the  data  set.  Cheng  et  al.  [7]  originally </text>
-<text top="2519" left="1213" width="1041" height="54" font="font8" id="p1_t78" reading_order_no="69" segment_no="17" tag_type="text">proposed  an  algorithm  called  partial  distance  search  (PDS) </text>
-<text top="2570" left="1214" width="1040" height="55" font="font10" id="p1_t79" reading_order_no="70" segment_no="17" tag_type="text">that  is  arguably  the  most  popular  full-search  improvement. </text>
-<text top="2622" left="1214" width="1042" height="55" font="font10" id="p1_t80" reading_order_no="71" segment_no="17" tag_type="text">The  algorithm  consists  of  a  simple  modification  of  the  brute </text>
-<text top="2675" left="1213" width="1042" height="54" font="font8" id="p1_t81" reading_order_no="72" segment_no="17" tag_type="text">force  search:  during  the  calculation  of  the  distance,  if  the </text>
-<text top="2724" left="1213" width="1043" height="57" font="font18" id="p1_t82" reading_order_no="73" segment_no="17" tag_type="text">partial  sum  of  square  differences  exceeds  the  distance  to  the </text>
-<text top="2783" left="1213" width="1041" height="47" font="font16" id="p1_t83" reading_order_no="74" segment_no="17" tag_type="text">nearest  neighbor  found  so  far,  the  calculation  is  aborted. </text>
-<text top="2831" left="1213" width="1043" height="53" font="font3" id="p1_t84" reading_order_no="75" segment_no="17" tag_type="text">Like  the  brute  force  search,  PDS  does  not  require  any </text>
-<text top="2880" left="1213" width="1065" height="55" font="font10" id="p1_t85" reading_order_no="76" segment_no="17" tag_type="text">preprocessing  or  storage  and  the  performance  of  PDS  is’ </text>
-<text top="2932" left="1214" width="608" height="54" font="font8" id="p1_t86" reading_order_no="77" segment_no="17" tag_type="text">almost  always  substantially  better. </text>
-<text top="3030" left="1257" width="999" height="42" font="font5" id="p1_t87" reading_order_no="86" segment_no="22" tag_type="footnote">1.  More  thorough  reviews  of  common  elimination  criteria  are  given  in </text>
-<text top="3063" left="1215" width="94" height="53" font="font3" id="p1_t88" reading_order_no="87" segment_no="22" tag_type="footnote">[8],  [9]. </text>
+<text top="101" left="118" width="46" height="41" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">964</text>
+<text top="102" left="618" width="1629" height="44" font="font0" id="p1_t2" reading_order_no="1" segment_no="1" tag_type="text">IEEE  TRANSACTIONS  ON  PATTERN  ANALYSIS  AND  MACHINE  INTELLIGENCE,  VOL.  23,  NO.9,  SEPTEMBER  2001</text>
+<text top="201" left="391" width="1587" height="132" font="font1" id="p1_t3" reading_order_no="2" segment_no="2" tag_type="title">A  Fast  Nearest-Neighbor  Algorithm</text>
+<text top="320" left="311" width="1755" height="132" font="font2" id="p1_t4" reading_order_no="3" segment_no="2" tag_type="title">Based  on  a  Principal  Axis  Search  Tree</text>
+<text top="484" left="836" width="707" height="53" font="font3" id="p1_t5" reading_order_no="4" segment_no="3" tag_type="text">James  McNames,  Member,  [EEE</text>
+<text top="608" left="219" width="1935" height="47" font="font4" id="p1_t6" reading_order_no="5" segment_no="4" tag_type="text">Abstract—A  new  fast  nearest-neighbor  algorithm  is  described  that  uses  principal  component  analysis  to  build  an  efficient  search  tree.</text>
+<text top="652" left="218" width="1937" height="47" font="font4" id="p1_t7" reading_order_no="6" segment_no="4" tag_type="text">At  each  node  in  the  tree,  the  data  set  is  partitioned  along  the  direction  of  maximum  variance.  The  search  algorithm  efficiently  uses  a</text>
+<text top="695" left="219" width="1935" height="47" font="font4" id="p1_t8" reading_order_no="7" segment_no="4" tag_type="text">depth-first  search  and  a  new  elimination  criterion.  The  new  algorithm  was  compared  to  16  other  fast  nearest-neighbor  algorithms  on</text>
+<text top="739" left="218" width="1888" height="47" font="font4" id="p1_t9" reading_order_no="8" segment_no="4" tag_type="text">three  types  of  common  benchmark  data  sets  including  problems  from  time  series  prediction  and  image  vector  quantization.  This</text>
+<text top="783" left="218" width="1937" height="47" font="font4" id="p1_t10" reading_order_no="9" segment_no="4" tag_type="text">comparative  study  illustrates  the  strengths  and  weaknesses  of  all  of  the  leading  algorithms.  The  new  algorithm  performed  very  well  on</text>
+<text top="826" left="219" width="1184" height="46" font="font4" id="p1_t11" reading_order_no="10" segment_no="4" tag_type="text">all  of  the  data  sets  and  was  consistently  ranked  among  the  top  three  algorithms.</text>
+<text top="921" left="219" width="1937" height="46" font="font5" id="p1_t12" reading_order_no="11" segment_no="5" tag_type="text">Index  Terms—Nearest  neighbor,  vector  quantization  encoding,  principal  components  analysis,  closest  point,  intrinsic  dimension,  post</text>
+<text top="962" left="219" width="214" height="45" font="font6" id="p1_t13" reading_order_no="12" segment_no="5" tag_type="text">office  problem.</text>
+<text top="1150" left="122" width="15" height="54" font="font8" id="p1_t14" reading_order_no="13" segment_no="6" tag_type="title">1.</text>
+<text top="1150" left="196" width="284" height="54" font="font8" id="p1_t15" reading_order_no="14" segment_no="6" tag_type="title">INTRODUCTION</text>
+<text top="1219" left="204" width="957" height="51" font="font9" id="p1_t16" reading_order_no="15" segment_no="8" tag_type="text">IVEN  a  data  set  of  np,  points,  {x1,22,...,%n,},  the</text>
+<text top="1262" left="204" width="957" height="58" font="font10" id="p1_t17" reading_order_no="16" segment_no="8" tag_type="text">k-nearest-neighbors  problem  is  to  find  the  k  points</text>
+<text top="1312" left="119" width="1041" height="54" font="font3" id="p1_t18" reading_order_no="17" segment_no="8" tag_type="text">that  are  closest  to  a  query  point,  g,  where  q,  z;  €  #”  Vi.  This</text>
+<text top="1358" left="119" width="1042" height="57" font="font10" id="p1_t19" reading_order_no="18" segment_no="8" tag_type="text">problem  is  encountered  in  a  wide  range  of  applications</text>
+<text top="1406" left="120" width="1041" height="56" font="font8" id="p1_t20" reading_order_no="19" segment_no="8" tag_type="text">including  density  estimation,  pattern  recognition  [1],</text>
+<text top="1454" left="120" width="1041" height="55" font="font10" id="p1_t21" reading_order_no="20" segment_no="8" tag_type="text">clustering  [2],  function  approximation  [3],  time  series</text>
+<text top="1505" left="120" width="1042" height="52" font="font11" id="p1_t22" reading_order_no="21" segment_no="8" tag_type="text">prediction  [4],  document  retrieval  [5],  optical  character</text>
+<text top="1552" left="120" width="1043" height="52" font="font11" id="p1_t23" reading_order_no="22" segment_no="8" tag_type="text">recognition  [6],  and  vector  quantization  [2],  [7].  In  many  of</text>
+<text top="1597" left="120" width="1041" height="56" font="font8" id="p1_t24" reading_order_no="23" segment_no="8" tag_type="text">these  applications,  the  computational  cost  of  finding  the</text>
+<text top="1645" left="120" width="1042" height="55" font="font10" id="p1_t25" reading_order_no="24" segment_no="8" tag_type="text">nearest  neighbors  imposes  practical  limits  on  the  data  set</text>
+<text top="1693" left="120" width="1042" height="56" font="font8" id="p1_t26" reading_order_no="25" segment_no="8" tag_type="text">size  and  the  rate  at  which  the  application  can  operate.  This</text>
+<text top="1740" left="119" width="1042" height="57" font="font10" id="p1_t27" reading_order_no="26" segment_no="8" tag_type="text">has  motivated  the  development  of  many  fast  nearest-</text>
+<text top="1788" left="120" width="365" height="55" font="font10" id="p1_t28" reading_order_no="27" segment_no="8" tag_type="text">neighbor  algorithms.</text>
+<text top="1836" left="170" width="992" height="55" font="font10" id="p1_t29" reading_order_no="28" segment_no="11" tag_type="text">This  article  introduces  a  new  algorithm  based  on</text>
+<text top="1887" left="120" width="1042" height="54" font="font3" id="p1_t30" reading_order_no="29" segment_no="11" tag_type="text">principal  axis  trees  called  PAT  and  compares  it  with  other</text>
+<text top="1935" left="121" width="1041" height="57" font="font10" id="p1_t31" reading_order_no="30" segment_no="11" tag_type="text">leading  algorithms.  Only  algorithms  that  use  the  Euclidean</text>
+<text top="1987" left="120" width="118" height="51" font="font12" id="p1_t32" reading_order_no="31" segment_no="11" tag_type="text">metric,</text>
+<text top="2074" left="635" width="26" height="28" font="font13" id="p1_t33" reading_order_no="32" segment_no="12" tag_type="formula">Na</text>
+<text top="2087" left="434" width="407" height="78" font="font14" id="p1_t34" reading_order_no="33" segment_no="12" tag_type="formula">D’(z,q)  =  &gt;  (ai  -  4%)",</text>
+<text top="2154" left="627" width="41" height="35" font="font15" id="p1_t35" reading_order_no="34" segment_no="12" tag_type="formula">i=1</text>
+<text top="2214" left="121" width="1042" height="47" font="font16" id="p1_t36" reading_order_no="35" segment_no="13" tag_type="text">to  measure  the  distance  between  two  points,  are  included  in</text>
+<text top="2259" left="120" width="182" height="54" font="font8" id="p1_t37" reading_order_no="36" segment_no="13" tag_type="text">this  study.</text>
+<text top="2307" left="170" width="992" height="54" font="font8" id="p1_t38" reading_order_no="37" segment_no="14" tag_type="text">The  performance  of  nearest-neighbor  algorithms  is</text>
+<text top="2355" left="121" width="1042" height="55" font="font10" id="p1_t39" reading_order_no="38" segment_no="14" tag_type="text">usually  specified  by  the  preprocessing  time,  memory</text>
+<text top="2405" left="120" width="1041" height="55" font="font10" id="p1_t40" reading_order_no="39" segment_no="14" tag_type="text">required,  and  average  query  time.  For  most  applications,</text>
+<text top="2455" left="121" width="1041" height="55" font="font10" id="p1_t41" reading_order_no="40" segment_no="14" tag_type="text">a  moderate  amount  of  preprocessing  and  memory  alloca-</text>
+<text top="2505" left="120" width="1041" height="54" font="font8" id="p1_t42" reading_order_no="41" segment_no="14" tag_type="text">tion  are  acceptable  if  the  average  query  time  is  small</text>
+<text top="2554" left="120" width="138" height="54" font="font8" id="p1_t43" reading_order_no="42" segment_no="14" tag_type="text">enough.</text>
+<text top="2603" left="170" width="993" height="54" font="font8" id="p1_t44" reading_order_no="43" segment_no="17" tag_type="text">The  following  section  reviews  some  of  the  most  popular</text>
+<text top="2652" left="121" width="1040" height="55" font="font10" id="p1_t45" reading_order_no="44" segment_no="17" tag_type="text">and  effective  methods  of  reducing  query  time.  Section  3</text>
+<text top="2783" left="120" width="1042" height="48" font="font17" id="p1_t46" reading_order_no="78" segment_no="18" tag_type="footnote">e  The  author  is  with  the  Department  of  Electrical  &amp;  Computer  Engineering,</text>
+<text top="2821" left="162" width="1000" height="46" font="font17" id="p1_t47" reading_order_no="79" segment_no="18" tag_type="footnote">Portland  State  University,  PO  Box  751,  Portland  State  University,</text>
+<text top="2858" left="162" width="777" height="46" font="font17" id="p1_t48" reading_order_no="80" segment_no="18" tag_type="footnote">Portland,  OR  97207-0751.  E-mail:  mcnames@ee.pdx.edu,</text>
+<text top="2913" left="119" width="1041" height="45" font="font6" id="p1_t49" reading_order_no="81" segment_no="19" tag_type="footnote">Manuscript  received  24  Jan.  2000;  revised  13  Oct.  2000;  accepted  20  Feb.</text>
+<text top="2948" left="121" width="70" height="47" font="font16" id="p1_t50" reading_order_no="82" segment_no="19" tag_type="footnote">2001.</text>
+<text top="2987" left="121" width="594" height="46" font="font17" id="p1_t51" reading_order_no="83" segment_no="20" tag_type="footnote">Recommended  for  acceptance  by  C.  Brodley.</text>
+<text top="3024" left="120" width="1042" height="46" font="font17" id="p1_t52" reading_order_no="84" segment_no="21" tag_type="footnote">For  information  on  obtaining  reprints  of  this  article,  please  send  e-mail  to:</text>
+<text top="3062" left="121" width="897" height="46" font="font17" id="p1_t53" reading_order_no="85" segment_no="21" tag_type="footnote">tpami@computer.org,  and  reference  IEEECS  Log  Number  111291.</text>
+<text top="1218" left="1213" width="1041" height="56" font="font8" id="p1_t54" reading_order_no="45" segment_no="7" tag_type="text">discusses  how  the  dimension  of  the  data  set  affects  these</text>
+<text top="1268" left="1213" width="1042" height="59" font="font18" id="p1_t55" reading_order_no="46" segment_no="7" tag_type="text">methods.  Section  4  describes  principal  axis  trees  (PAT)  in</text>
+<text top="1321" left="1213" width="1041" height="56" font="font8" id="p1_t56" reading_order_no="47" segment_no="7" tag_type="text">detail.  Section  5  specifies  the  other  algorithms  included  in  a</text>
+<text top="1373" left="1213" width="1042" height="54" font="font8" id="p1_t57" reading_order_no="48" segment_no="7" tag_type="text">comparative  empirical  study,  discusses  how  the  query  time</text>
+<text top="1429" left="1213" width="1043" height="49" font="font16" id="p1_t58" reading_order_no="49" segment_no="7" tag_type="text">was  measured,  and  describes  how  user-specified  para-</text>
+<text top="1477" left="1213" width="1043" height="53" font="font3" id="p1_t59" reading_order_no="50" segment_no="7" tag_type="text">meters  were  chosen.  Section  6  reports  the  performance  of</text>
+<text top="1527" left="1213" width="1043" height="56" font="font8" id="p1_t60" reading_order_no="51" segment_no="7" tag_type="text">PAT  and  the  other  algorithms  on  a  variety  of  benchmark</text>
+<text top="1579" left="1213" width="1042" height="54" font="font8" id="p1_t61" reading_order_no="52" segment_no="7" tag_type="text">problems.  PAT  is  shown  to  have  excellent  performance</text>
+<text top="1632" left="1213" width="590" height="53" font="font3" id="p1_t62" reading_order_no="53" segment_no="7" tag_type="text">across  a  broad  range  of  data  sets.</text>
+<text top="1749" left="1213" width="522" height="55" font="font10" id="p1_t63" reading_order_no="54" segment_no="9" tag_type="title">2  ELIMINATION  CRITERIA</text>
+<text top="1816" left="1213" width="1043" height="56" font="font8" id="p1_t64" reading_order_no="55" segment_no="10" tag_type="text">Many  nearest-neighbor  algorithms  have  been  proposed  to</text>
+<text top="1867" left="1213" width="1042" height="55" font="font10" id="p1_t65" reading_order_no="56" segment_no="10" tag_type="text">overcome  the  large  computational  cost  of  the  obvious  brute</text>
+<text top="1918" left="1213" width="1042" height="57" font="font10" id="p1_t66" reading_order_no="57" segment_no="10" tag_type="text">force  approach.  Typically,  these  algorithms  employ  one  or</text>
+<text top="1970" left="1213" width="1042" height="55" font="font10" id="p1_t67" reading_order_no="58" segment_no="10" tag_type="text">more  elimination  criteria.  Each  estimates  a  lower  bound  on</text>
+<text top="2021" left="1213" width="1043" height="57" font="font10" id="p1_t68" reading_order_no="59" segment_no="10" tag_type="text">the  distance  between  a  query  point  and  a  point,  or  set  of</text>
+<text top="2080" left="1213" width="1042" height="46" font="font17" id="p1_t69" reading_order_no="60" segment_no="10" tag_type="text">points,  in  the  data  set.  If  the  lower  bound  is  greater  than  the</text>
+<text top="2125" left="1213" width="1043" height="55" font="font10" id="p1_t70" reading_order_no="61" segment_no="10" tag_type="text">distance  to  the  kth  nearest  neighbor  found  so  far,  the  point</text>
+<text top="2177" left="1214" width="1041" height="54" font="font8" id="p1_t71" reading_order_no="62" segment_no="10" tag_type="text">can  be  eliminated  without  explicitly  calculating  the  distance</text>
+<text top="2227" left="1214" width="1042" height="57" font="font18" id="p1_t72" reading_order_no="63" segment_no="10" tag_type="text">to  that  point.  This  section  describes  three  of  these  elimina-</text>
+<text top="2281" left="1214" width="1038" height="54" font="font8" id="p1_t73" reading_order_no="64" segment_no="10" tag_type="text">tion  criteria  that  are  included  in  principal  axis  trees  (PAT).'</text>
+<text top="2364" left="1213" width="51" height="49" font="font9" id="p1_t74" reading_order_no="65" segment_no="15" tag_type="title">2.1</text>
+<text top="2364" left="1314" width="461" height="49" font="font9" id="p1_t75" reading_order_no="66" segment_no="15" tag_type="title">Partial  Distance  Search</text>
+<text top="2416" left="1213" width="1042" height="54" font="font8" id="p1_t76" reading_order_no="67" segment_no="16" tag_type="text">Full-search  improvements  apply  an  elimination  criterion  to</text>
+<text top="2468" left="1214" width="1042" height="54" font="font8" id="p1_t77" reading_order_no="68" segment_no="16" tag_type="text">every  point  in  the  data  set.  Cheng  et  al.  [7]  originally</text>
+<text top="2519" left="1213" width="1041" height="54" font="font8" id="p1_t78" reading_order_no="69" segment_no="16" tag_type="text">proposed  an  algorithm  called  partial  distance  search  (PDS)</text>
+<text top="2570" left="1214" width="1040" height="55" font="font10" id="p1_t79" reading_order_no="70" segment_no="16" tag_type="text">that  is  arguably  the  most  popular  full-search  improvement.</text>
+<text top="2622" left="1214" width="1042" height="55" font="font10" id="p1_t80" reading_order_no="71" segment_no="16" tag_type="text">The  algorithm  consists  of  a  simple  modification  of  the  brute</text>
+<text top="2675" left="1213" width="1042" height="54" font="font8" id="p1_t81" reading_order_no="72" segment_no="16" tag_type="text">force  search:  during  the  calculation  of  the  distance,  if  the</text>
+<text top="2724" left="1213" width="1043" height="57" font="font18" id="p1_t82" reading_order_no="73" segment_no="16" tag_type="text">partial  sum  of  square  differences  exceeds  the  distance  to  the</text>
+<text top="2783" left="1213" width="1041" height="47" font="font16" id="p1_t83" reading_order_no="74" segment_no="16" tag_type="text">nearest  neighbor  found  so  far,  the  calculation  is  aborted.</text>
+<text top="2831" left="1213" width="1043" height="53" font="font3" id="p1_t84" reading_order_no="75" segment_no="16" tag_type="text">Like  the  brute  force  search,  PDS  does  not  require  any</text>
+<text top="2880" left="1213" width="1065" height="55" font="font10" id="p1_t85" reading_order_no="76" segment_no="16" tag_type="text">preprocessing  or  storage  and  the  performance  of  PDS  is’</text>
+<text top="2932" left="1214" width="608" height="54" font="font8" id="p1_t86" reading_order_no="77" segment_no="16" tag_type="text">almost  always  substantially  better.</text>
+<text top="3030" left="1257" width="999" height="42" font="font5" id="p1_t87" reading_order_no="86" segment_no="22" tag_type="footnote">1.  More  thorough  reviews  of  common  elimination  criteria  are  given  in</text>
+<text top="3063" left="1215" width="94" height="53" font="font3" id="p1_t88" reading_order_no="87" segment_no="22" tag_type="footnote">[8],  [9].</text>
 <text top="3139" left="991" width="388" height="35" font="font15" id="p1_t89" reading_order_no="88" segment_no="23" tag_type="text">0162-8828/01/$10.00  ©  2001  IEEE</text>
 </page>
 </pdf2xml>

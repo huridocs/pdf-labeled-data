@@ -18,118 +18,95 @@
 	<fontspec id="font14" size="11" family="ArialMT" color="#000000"/>
 	<fontspec id="font15" size="9" family="ArialMT" color="#000000"/>
 	<fontspec id="font16" size="15" family="ArialMT" color="#000000"/>
-<text top="41" left="55" width="92" height="10" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title"><i>BMC Chemical Biology</i></text>
-<text top="41" left="147" width="28" height="10" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="title"> 2005, </text>
-<text top="41" left="174" width="5" height="10" font="font2" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="title"><b>5</b></text>
-<text top="41" left="180" width="7" height="10" font="font1" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="title">:1</text>
-<text top="41" left="373" width="181" height="10" font="font1" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="text">http://www.biomedcentral.com/1472-6769/5/1</text>
-<text top="756" left="508" width="46" height="10" font="font1" id="p1_t6" reading_order_no="111" segment_no="7" tag_type="text">Page 6 of 8</text>
-<text top="769" left="432" width="122" height="8" font="font3" id="p1_t7" reading_order_no="112" segment_no="8" tag_type="text"><i>(page number not for citation purposes)</i></text>
-<text top="580" left="55" width="241" height="9" font="font4" id="p1_t8" reading_order_no="84" segment_no="5" tag_type="text">confirmed by using known substrates specific for each</text>
-<text top="592" left="55" width="241" height="9" font="font4" id="p1_t9" reading_order_no="85" segment_no="5" tag_type="text">ki<a href="">nase (Figure 4B). MBP</a> was used in conjuction with</text>
-<text top="604" left="55" width="241" height="9" font="font4" id="p1_t10" reading_order_no="86" segment_no="5" tag_type="text">pERK2, GST-ATF2 with pp38, and GST-c-Jun with pSAPK/</text>
-<text top="615" left="55" width="241" height="9" font="font4" id="p1_t11" reading_order_no="87" segment_no="5" tag_type="text">JNK. Specificity of these kinases for EAS-3 was also con-</text>
-<text top="627" left="55" width="241" height="9" font="font4" id="p1_t12" reading_order_no="88" segment_no="5" tag_type="text">firmed by FRET in a fluorimet<a href="">er (Figure 4C). It is cl</a>ear that</text>
-<text top="639" left="55" width="241" height="9" font="font4" id="p1_t13" reading_order_no="89" segment_no="5" tag_type="text">the change in FRET was dramatic when EAS-3 was incu-</text>
-<text top="651" left="55" width="241" height="9" font="font4" id="p1_t14" reading_order_no="90" segment_no="5" tag_type="text">bated with pERK2, but showed little or no response when</text>
-<text top="662" left="55" width="241" height="9" font="font4" id="p1_t15" reading_order_no="91" segment_no="5" tag_type="text">incubated with pp38 or pSAPK/JNK. This is consistent</text>
-<text top="674" left="55" width="241" height="9" font="font4" id="p1_t16" reading_order_no="92" segment_no="5" tag_type="text">with the results found in 4A. Given the similarity of these</text>
-<text top="686" left="55" width="241" height="9" font="font4" id="p1_t17" reading_order_no="93" segment_no="5" tag_type="text">kinases, this also suggests that EAS-3 would be specifically</text>
-<text top="698" left="55" width="241" height="9" font="font4" id="p1_t18" reading_order_no="94" segment_no="5" tag_type="text">acted upon by pERK2 even in the presence of other acti-</text>
-<text top="709" left="55" width="111" height="9" font="font4" id="p1_t19" reading_order_no="95" segment_no="5" tag_type="text">vated intracellular kinases.</text>
-<text top="580" left="313" width="241" height="9" font="font4" id="p1_t20" reading_order_no="96" segment_no="6" tag_type="text">The demonstrated specificity of pERK2 for EAS-3 phos-</text>
-<text top="592" left="313" width="233" height="9" font="font4" id="p1_t21" reading_order_no="97" segment_no="6" tag_type="text">phorylation suggests that this sensor is a candidate for </text>
-<text top="592" left="546" width="8" height="9" font="font5" id="p1_t22" reading_order_no="98" segment_no="6" tag_type="text"><i>in</i></text>
-<text top="604" left="313" width="18" height="9" font="font5" id="p1_t23" reading_order_no="99" segment_no="6" tag_type="text"><i>vivo </i></text>
-<text top="604" left="332" width="222" height="9" font="font4" id="p1_t24" reading_order_no="100" segment_no="6" tag_type="text">studies of ERK signaling. However, our preliminary</text>
-<text top="615" left="313" width="241" height="9" font="font4" id="p1_t25" reading_order_no="101" segment_no="6" tag_type="text">experiments in NIH-3T3 cells indicated that EAS-3 was</text>
-<text top="627" left="313" width="241" height="9" font="font4" id="p1_t26" reading_order_no="102" segment_no="6" tag_type="text">susceptible to intracellular phosphatase activity (data not</text>
-<text top="639" left="313" width="241" height="9" font="font4" id="p1_t27" reading_order_no="103" segment_no="6" tag_type="text">shown). We surmise that this is due to the absence of a</text>
-<text top="651" left="313" width="241" height="9" font="font4" id="p1_t28" reading_order_no="104" segment_no="6" tag_type="text">protective phospho-specific binding domain within the</text>
-<text top="662" left="313" width="241" height="9" font="font4" id="p1_t29" reading_order_no="105" segment_no="6" tag_type="text">EAS-3 construct. Such binding domains have been crucial</text>
-<text top="674" left="313" width="241" height="9" font="font4" id="p1_t30" reading_order_no="106" segment_no="6" tag_type="text">in the development of other FRET-based signaling sensors</text>
-<text top="686" left="313" width="241" height="9" font="font4" id="p1_t31" reading_order_no="107" segment_no="6" tag_type="text"><a href="">of kinase activity [2-4,6,7]. These</a> binding domains, how-</text>
-<text top="698" left="313" width="241" height="9" font="font4" id="p1_t32" reading_order_no="108" segment_no="6" tag_type="text">ever, are taken from naturally occurring domains that are</text>
-<text top="709" left="313" width="241" height="9" font="font4" id="p1_t33" reading_order_no="109" segment_no="6" tag_type="text">specific for each target sequence. Unfortunately, no</text>
-<text top="721" left="313" width="241" height="9" font="font4" id="p1_t34" reading_order_no="110" segment_no="6" tag_type="text">known phospho-specific binding domain exists for Elk1</text>
-<text top="438" left="55" width="175" height="9" font="font6" id="p1_t35" reading_order_no="67" segment_no="3" tag_type="title">Determination of ERK2 specificity for EAS-3</text>
-<text top="438" left="55" width="37" height="9" font="font7" id="p1_t36" reading_order_no="66" segment_no="3" tag_type="title"><b>Figure 4</b></text>
-<text top="449" left="55" width="201" height="9" font="font7" id="p1_t37" reading_order_no="68" segment_no="4" tag_type="text"><b>Determination of ERK2 specificity for EAS-3</b></text>
-<text top="449" left="256" width="284" height="9" font="font8" id="p1_t38" reading_order_no="69" segment_no="4" tag_type="text">. (A) Phosphorylation of EAS-3 is efficient with pERK2, but not pp38 or </text>
-<text top="460" left="55" width="196" height="9" font="font8" id="p1_t39" reading_order_no="70" segment_no="4" tag_type="text">pSAPK. pp38 and pSAPK incorporates little or no </text>
-<text top="459" left="251" width="7" height="6" font="font9" id="p1_t40" reading_order_no="71" segment_no="4" tag_type="text">32</text>
-<text top="460" left="258" width="296" height="9" font="font8" id="p1_t41" reading_order_no="72" segment_no="4" tag_type="text">P into EAS-3 at the same relative specific activity as pERK2. Band intensities </text>
-<text top="470" left="55" width="496" height="9" font="font8" id="p1_t42" reading_order_no="73" segment_no="4" tag_type="text">were quantitated by densitometry and are shown graphically. Equal protein loading of EAS-3 is shown by Coomassie staining. </text>
-<text top="481" left="55" width="499" height="9" font="font8" id="p1_t43" reading_order_no="74" segment_no="4" tag_type="text">(B) Specific targets for pERK2 (MBP), pp38 (GST-ATF2), and pSAPK (GST-cJun) are efficiently phosphorylated in the presence </text>
-<text top="492" left="55" width="11" height="9" font="font8" id="p1_t44" reading_order_no="75" segment_no="4" tag_type="text">of </text>
-<text top="489" left="66" width="4" height="13" font="font10" id="p1_t45" reading_order_no="76" segment_no="4" tag_type="text">γ</text>
-<text top="492" left="70" width="6" height="9" font="font8" id="p1_t46" reading_order_no="77" segment_no="4" tag_type="text">-[</text>
-<text top="491" left="76" width="7" height="6" font="font9" id="p1_t47" reading_order_no="78" segment_no="4" tag_type="text">32</text>
-<text top="492" left="83" width="364" height="9" font="font8" id="p1_t48" reading_order_no="79" segment_no="4" tag_type="text">P]ATP. The amounts of active kinase used in A were based on the relative incorporation of </text>
-<text top="491" left="446" width="7" height="6" font="font9" id="p1_t49" reading_order_no="80" segment_no="4" tag_type="text">32</text>
-<text top="492" left="453" width="97" height="9" font="font8" id="p1_t50" reading_order_no="81" segment_no="4" tag_type="text">P into each cognate sub-</text>
-<text top="503" left="55" width="488" height="9" font="font8" id="p1_t51" reading_order_no="82" segment_no="4" tag_type="text">strate by the respective kinase. (C) Fluorimetry of EAS-3 with MAPKs shows that the FRET efficiency change is significantly </text>
-<text top="513" left="55" width="493" height="9" font="font8" id="p1_t52" reading_order_no="83" segment_no="4" tag_type="text">diminished in the presence of pp38 or pSAPK as compared to pERK2. This is consistent with the phosphorylation assay in A.</text>
-<text top="342" left="90" width="6" height="10" font="font11" id="p1_t53" reading_order_no="26" segment_no="2" tag_type="figure">0</text>
-<text top="322" left="81" width="14" height="10" font="font11" id="p1_t54" reading_order_no="25" segment_no="2" tag_type="figure">0.5</text>
-<text top="302" left="90" width="6" height="10" font="font11" id="p1_t55" reading_order_no="24" segment_no="2" tag_type="figure">1</text>
-<text top="283" left="81" width="14" height="10" font="font11" id="p1_t56" reading_order_no="23" segment_no="2" tag_type="figure">1.5</text>
-<text top="262" left="90" width="6" height="10" font="font11" id="p1_t57" reading_order_no="22" segment_no="2" tag_type="figure">2</text>
-<text top="243" left="81" width="14" height="10" font="font11" id="p1_t58" reading_order_no="21" segment_no="2" tag_type="figure">2.5</text>
-<text top="223" left="90" width="6" height="10" font="font11" id="p1_t59" reading_order_no="20" segment_no="2" tag_type="figure">3</text>
-<text top="203" left="81" width="14" height="10" font="font11" id="p1_t60" reading_order_no="19" segment_no="2" tag_type="figure">3.5</text>
-<text top="311" left="70" width="0" height="9" font="font12" id="p1_t61" reading_order_no="18" segment_no="2" tag_type="figure">In</text>
-<text top="303" left="70" width="0" height="9" font="font12" id="p1_t62" reading_order_no="17" segment_no="2" tag_type="figure">te</text>
-<text top="295" left="70" width="0" height="9" font="font12" id="p1_t63" reading_order_no="16" segment_no="2" tag_type="figure">n</text>
-<text top="290" left="70" width="0" height="9" font="font12" id="p1_t64" reading_order_no="15" segment_no="2" tag_type="figure">s</text>
-<text top="285" left="70" width="0" height="9" font="font12" id="p1_t65" reading_order_no="14" segment_no="2" tag_type="figure">ity x 1</text>
-<text top="260" left="70" width="0" height="9" font="font12" id="p1_t66" reading_order_no="13" segment_no="2" tag_type="figure">0</text>
-<text top="257" left="64" width="0" height="8" font="font13" id="p1_t67" reading_order_no="12" segment_no="2" tag_type="figure">-6</text>
-<text top="249" left="70" width="0" height="9" font="font12" id="p1_t68" reading_order_no="11" segment_no="2" tag_type="figure"> (AU</text>
-<text top="230" left="70" width="0" height="9" font="font12" id="p1_t69" reading_order_no="10" segment_no="2" tag_type="figure">)</text>
-<text top="384" left="362" width="18" height="10" font="font14" id="p1_t70" reading_order_no="55" segment_no="2" tag_type="figure">-0.7</text>
-<text top="368" left="362" width="18" height="10" font="font14" id="p1_t71" reading_order_no="54" segment_no="2" tag_type="figure">-0.6</text>
-<text top="350" left="362" width="18" height="10" font="font14" id="p1_t72" reading_order_no="53" segment_no="2" tag_type="figure">-0.5</text>
-<text top="334" left="362" width="18" height="10" font="font14" id="p1_t73" reading_order_no="52" segment_no="2" tag_type="figure">-0.4</text>
-<text top="317" left="362" width="18" height="10" font="font14" id="p1_t74" reading_order_no="51" segment_no="2" tag_type="figure">-0.3</text>
-<text top="300" left="362" width="18" height="10" font="font14" id="p1_t75" reading_order_no="50" segment_no="2" tag_type="figure">-0.2</text>
-<text top="284" left="362" width="18" height="10" font="font14" id="p1_t76" reading_order_no="49" segment_no="2" tag_type="figure">-0.1</text>
-<text top="267" left="374" width="6" height="10" font="font14" id="p1_t77" reading_order_no="48" segment_no="2" tag_type="figure">0</text>
-<text top="250" left="366" width="15" height="10" font="font14" id="p1_t78" reading_order_no="47" segment_no="2" tag_type="figure">0.1</text>
-<text top="400" left="387" width="6" height="10" font="font14" id="p1_t79" reading_order_no="56" segment_no="2" tag_type="figure">0</text>
-<text top="400" left="418" width="6" height="10" font="font14" id="p1_t80" reading_order_no="57" segment_no="2" tag_type="figure">3</text>
-<text top="400" left="449" width="6" height="10" font="font14" id="p1_t81" reading_order_no="58" segment_no="2" tag_type="figure">6</text>
-<text top="400" left="481" width="6" height="10" font="font14" id="p1_t82" reading_order_no="59" segment_no="2" tag_type="figure">9</text>
-<text top="400" left="508" width="12" height="10" font="font14" id="p1_t83" reading_order_no="60" segment_no="2" tag_type="figure">12</text>
-<text top="400" left="540" width="12" height="10" font="font14" id="p1_t84" reading_order_no="61" segment_no="2" tag_type="figure">15</text>
-<text top="418" left="442" width="51" height="10" font="font14" id="p1_t85" reading_order_no="65" segment_no="2" tag_type="figure">Time (min)</text>
-<text top="383" left="349" width="0" height="10" font="font12" id="p1_t86" reading_order_no="46" segment_no="2" tag_type="figure">E</text>
-<text top="376" left="349" width="0" height="10" font="font12" id="p1_t87" reading_order_no="45" segment_no="2" tag_type="figure">m</text>
-<text top="367" left="349" width="0" height="10" font="font12" id="p1_t88" reading_order_no="44" segment_no="2" tag_type="figure">m</text>
-<text top="358" left="349" width="0" height="10" font="font12" id="p1_t89" reading_order_no="43" segment_no="2" tag_type="figure">is</text>
-<text top="351" left="349" width="0" height="10" font="font12" id="p1_t90" reading_order_no="42" segment_no="2" tag_type="figure">s</text>
-<text top="345" left="349" width="0" height="10" font="font12" id="p1_t91" reading_order_no="41" segment_no="2" tag_type="figure">ion R</text>
-<text top="322" left="349" width="0" height="10" font="font12" id="p1_t92" reading_order_no="40" segment_no="2" tag_type="figure">a</text>
-<text top="316" left="349" width="0" height="10" font="font12" id="p1_t93" reading_order_no="39" segment_no="2" tag_type="figure">tio C</text>
-<text top="296" left="349" width="0" height="10" font="font12" id="p1_t94" reading_order_no="38" segment_no="2" tag_type="figure">hange (</text>
-<text top="262" left="349" width="0" height="10" font="font12" id="p1_t95" reading_order_no="37" segment_no="2" tag_type="figure">A</text>
-<text top="255" left="349" width="0" height="10" font="font12" id="p1_t96" reading_order_no="36" segment_no="2" tag_type="figure">U</text>
-<text top="248" left="349" width="0" height="10" font="font12" id="p1_t97" reading_order_no="35" segment_no="2" tag_type="figure">)</text>
-<text top="121" left="470" width="20" height="9" font="font15" id="p1_t98" reading_order_no="29" segment_no="2" tag_type="figure">MBP</text>
-<text top="159" left="468" width="44" height="9" font="font15" id="p1_t99" reading_order_no="31" segment_no="2" tag_type="figure">GST-ATF2</text>
-<text top="199" left="468" width="41" height="9" font="font15" id="p1_t100" reading_order_no="33" segment_no="2" tag_type="figure">GST-cJun</text>
-<text top="115" left="117" width="35" height="10" font="font14" id="p1_t101" reading_order_no="6" segment_no="2" tag_type="figure">pERK2</text>
-<text top="115" left="174" width="100" height="10" font="font14" id="p1_t102" reading_order_no="7" segment_no="2" tag_type="figure">pp38 pSAPK </text>
-<text top="91" left="64" width="10" height="14" font="font16" id="p1_t103" reading_order_no="5" segment_no="2" tag_type="figure">A</text>
-<text top="91" left="335" width="10" height="14" font="font16" id="p1_t104" reading_order_no="27" segment_no="2" tag_type="figure">B</text>
-<text top="230" left="335" width="11" height="14" font="font16" id="p1_t105" reading_order_no="34" segment_no="2" tag_type="figure">C</text>
-<text top="143" left="287" width="26" height="9" font="font15" id="p1_t106" reading_order_no="8" segment_no="2" tag_type="figure">EAS-3</text>
-<text top="182" left="287" width="26" height="9" font="font15" id="p1_t107" reading_order_no="9" segment_no="2" tag_type="figure">EAS-3</text>
-<text top="262" left="514" width="29" height="9" font="font15" id="p1_t108" reading_order_no="64" segment_no="2" tag_type="figure">pSAPK</text>
-<text top="251" left="514" width="20" height="9" font="font15" id="p1_t109" reading_order_no="63" segment_no="2" tag_type="figure">pp38</text>
-<text top="239" left="514" width="29" height="9" font="font15" id="p1_t110" reading_order_no="62" segment_no="2" tag_type="figure">pERK2</text>
-<text top="103" left="422" width="29" height="9" font="font15" id="p1_t111" reading_order_no="28" segment_no="2" tag_type="figure">pERK2</text>
-<text top="142" left="425" width="20" height="9" font="font15" id="p1_t112" reading_order_no="30" segment_no="2" tag_type="figure">pp38</text>
-<text top="181" left="421" width="29" height="9" font="font15" id="p1_t113" reading_order_no="32" segment_no="2" tag_type="figure">pSAPK</text>
+<text top="41" left="55" width="132" height="10" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">BMC Chemical Biology 2005, 5 :1<i>BMC Chemical Biology</i></text>
+<text top="41" left="373" width="181" height="10" font="font1" id="p1_t2" reading_order_no="1" segment_no="1" tag_type="text">http://www.biomedcentral.com/1472-6769/5/1</text>
+<text top="756" left="508" width="46" height="10" font="font1" id="p1_t3" reading_order_no="88" segment_no="7" tag_type="text">Page 6 of 8<b>5</b></text>
+<text top="769" left="432" width="122" height="8" font="font3" id="p1_t4" reading_order_no="89" segment_no="8" tag_type="text">(page number not for citation purposes)</text>
+<text top="580" left="55" width="241" height="9" font="font4" id="p1_t5" reading_order_no="63" segment_no="5" tag_type="text">confirmed by using known substrates specific for each</text>
+<text top="592" left="55" width="241" height="9" font="font4" id="p1_t6" reading_order_no="64" segment_no="5" tag_type="text">kinase (Figure 4B). MBP was used in conjuction with</text>
+<text top="604" left="55" width="241" height="9" font="font4" id="p1_t7" reading_order_no="65" segment_no="5" tag_type="text">pERK2, GST-ATF2 with pp38, and GST-c-Jun with pSAPK/<i>(page number not for citation purposes)</i></text>
+<text top="615" left="55" width="241" height="9" font="font4" id="p1_t8" reading_order_no="66" segment_no="5" tag_type="text">JNK. Specificity of these kinases for EAS-3 was also con-</text>
+<text top="627" left="55" width="241" height="9" font="font4" id="p1_t9" reading_order_no="67" segment_no="5" tag_type="text">firmed by FRET in a fluorimeter (Figure 4C). It is clear that<a href="">nase (Figure 4B). MBP</a> was used in conjuction with</text>
+<text top="639" left="55" width="241" height="9" font="font4" id="p1_t10" reading_order_no="68" segment_no="5" tag_type="text">the change in FRET was dramatic when EAS-3 was incu-</text>
+<text top="651" left="55" width="241" height="9" font="font4" id="p1_t11" reading_order_no="69" segment_no="5" tag_type="text">bated with pERK2, but showed little or no response when</text>
+<text top="662" left="55" width="241" height="9" font="font4" id="p1_t12" reading_order_no="70" segment_no="5" tag_type="text">incubated with pp38 or pSAPK/JNK. This is consistent<a href="">er (Figure 4C). It is cl</a>ear that</text>
+<text top="674" left="55" width="241" height="9" font="font4" id="p1_t13" reading_order_no="71" segment_no="5" tag_type="text">with the results found in 4A. Given the similarity of these</text>
+<text top="686" left="55" width="241" height="9" font="font4" id="p1_t14" reading_order_no="72" segment_no="5" tag_type="text">kinases, this also suggests that EAS-3 would be specifically</text>
+<text top="698" left="55" width="241" height="9" font="font4" id="p1_t15" reading_order_no="73" segment_no="5" tag_type="text">acted upon by pERK2 even in the presence of other acti-</text>
+<text top="709" left="55" width="111" height="9" font="font4" id="p1_t16" reading_order_no="74" segment_no="5" tag_type="text">vated intracellular kinases.</text>
+<text top="580" left="313" width="241" height="9" font="font4" id="p1_t17" reading_order_no="75" segment_no="6" tag_type="text">The demonstrated specificity of pERK2 for EAS-3 phos-</text>
+<text top="592" left="313" width="241" height="9" font="font4" id="p1_t18" reading_order_no="76" segment_no="6" tag_type="text">phorylation suggests that this sensor is a candidate for in</text>
+<text top="604" left="313" width="241" height="9" font="font5" id="p1_t19" reading_order_no="77" segment_no="6" tag_type="text">vivo studies of ERK signaling. However, our preliminary</text>
+<text top="615" left="313" width="241" height="9" font="font4" id="p1_t20" reading_order_no="78" segment_no="6" tag_type="text">experiments in NIH-3T3 cells indicated that EAS-3 was</text>
+<text top="627" left="313" width="241" height="9" font="font4" id="p1_t21" reading_order_no="79" segment_no="6" tag_type="text">susceptible to intracellular phosphatase activity (data not</text>
+<text top="639" left="313" width="241" height="9" font="font4" id="p1_t22" reading_order_no="80" segment_no="6" tag_type="text">shown). We surmise that this is due to the absence of a<i>in</i></text>
+<text top="651" left="313" width="241" height="9" font="font4" id="p1_t23" reading_order_no="81" segment_no="6" tag_type="text">protective phospho-specific binding domain within the<i>vivo </i></text>
+<text top="662" left="313" width="241" height="9" font="font4" id="p1_t24" reading_order_no="82" segment_no="6" tag_type="text">EAS-3 construct. Such binding domains have been crucial</text>
+<text top="674" left="313" width="241" height="9" font="font4" id="p1_t25" reading_order_no="83" segment_no="6" tag_type="text">in the development of other FRET-based signaling sensors</text>
+<text top="686" left="313" width="241" height="9" font="font4" id="p1_t26" reading_order_no="84" segment_no="6" tag_type="text">of kinase activity [2-4,6,7]. These binding domains, how-</text>
+<text top="698" left="313" width="241" height="9" font="font4" id="p1_t27" reading_order_no="85" segment_no="6" tag_type="text">ever, are taken from naturally occurring domains that are</text>
+<text top="709" left="313" width="241" height="9" font="font4" id="p1_t28" reading_order_no="86" segment_no="6" tag_type="text">specific for each target sequence. Unfortunately, no</text>
+<text top="721" left="313" width="241" height="9" font="font4" id="p1_t29" reading_order_no="87" segment_no="6" tag_type="text">known phospho-specific binding domain exists for Elk1</text>
+<text top="438" left="55" width="175" height="9" font="font6" id="p1_t30" reading_order_no="55" segment_no="3" tag_type="title">Determination of ERK2 specificity for EAS-3</text>
+<text top="438" left="55" width="37" height="9" font="font7" id="p1_t31" reading_order_no="54" segment_no="3" tag_type="title">Figure 4<a href="">of kinase activity [2-4,6,7]. These</a> binding domains, how-</text>
+<text top="449" left="55" width="485" height="9" font="font7" id="p1_t32" reading_order_no="56" segment_no="4" tag_type="text">Determination of ERK2 specificity for EAS-3 . (A) Phosphorylation of EAS-3 is efficient with pERK2, but not pp38 or</text>
+<text top="459" left="55" width="499" height="10" font="font8" id="p1_t33" reading_order_no="57" segment_no="4" tag_type="text">pSAPK. pp38 and pSAPK incorporates little or no 32 P into EAS-3 at the same relative specific activity as pERK2. Band intensities</text>
+<text top="470" left="55" width="496" height="9" font="font8" id="p1_t34" reading_order_no="58" segment_no="4" tag_type="text">were quantitated by densitometry and are shown graphically. Equal protein loading of EAS-3 is shown by Coomassie staining.</text>
+<text top="481" left="55" width="499" height="9" font="font8" id="p1_t35" reading_order_no="59" segment_no="4" tag_type="text">(B) Specific targets for pERK2 (MBP), pp38 (GST-ATF2), and pSAPK (GST-cJun) are efficiently phosphorylated in the presence</text>
+<text top="489" left="55" width="495" height="13" font="font8" id="p1_t36" reading_order_no="60" segment_no="4" tag_type="text">of γ -[ 32 P]ATP. The amounts of active kinase used in A were based on the relative incorporation of 32 P into each cognate sub-<b>Figure 4</b></text>
+<text top="503" left="55" width="488" height="9" font="font8" id="p1_t37" reading_order_no="61" segment_no="4" tag_type="text">strate by the respective kinase. (C) Fluorimetry of EAS-3 with MAPKs shows that the FRET efficiency change is significantly<b>Determination of ERK2 specificity for EAS-3</b></text>
+<text top="513" left="55" width="493" height="9" font="font8" id="p1_t38" reading_order_no="62" segment_no="4" tag_type="text">diminished in the presence of pp38 or pSAPK as compared to pERK2. This is consistent with the phosphorylation assay in A.</text>
+<text top="342" left="90" width="6" height="10" font="font11" id="p1_t39" reading_order_no="20" segment_no="2" tag_type="figure">0</text>
+<text top="322" left="81" width="14" height="10" font="font11" id="p1_t40" reading_order_no="19" segment_no="2" tag_type="figure">0.5</text>
+<text top="302" left="90" width="6" height="10" font="font11" id="p1_t41" reading_order_no="18" segment_no="2" tag_type="figure">1</text>
+<text top="283" left="81" width="14" height="10" font="font11" id="p1_t42" reading_order_no="17" segment_no="2" tag_type="figure">1.5</text>
+<text top="262" left="90" width="6" height="10" font="font11" id="p1_t43" reading_order_no="16" segment_no="2" tag_type="figure">2</text>
+<text top="243" left="81" width="14" height="10" font="font11" id="p1_t44" reading_order_no="15" segment_no="2" tag_type="figure">2.5</text>
+<text top="223" left="90" width="6" height="10" font="font11" id="p1_t45" reading_order_no="14" segment_no="2" tag_type="figure">3</text>
+<text top="203" left="81" width="14" height="10" font="font11" id="p1_t46" reading_order_no="13" segment_no="2" tag_type="figure">3.5</text>
+<text top="311" left="70" width="0" height="9" font="font12" id="p1_t47" reading_order_no="12" segment_no="2" tag_type="figure">In</text>
+<text top="303" left="70" width="0" height="9" font="font12" id="p1_t48" reading_order_no="11" segment_no="2" tag_type="figure">te</text>
+<text top="285" left="70" width="0" height="19" font="font12" id="p1_t49" reading_order_no="10" segment_no="2" tag_type="figure">ity x 1 s n</text>
+<text top="257" left="64" width="6" height="12" font="font12" id="p1_t50" reading_order_no="9" segment_no="2" tag_type="figure">-6 0</text>
+<text top="249" left="70" width="0" height="9" font="font12" id="p1_t51" reading_order_no="8" segment_no="2" tag_type="figure">(AU</text>
+<text top="230" left="70" width="0" height="9" font="font12" id="p1_t52" reading_order_no="7" segment_no="2" tag_type="figure">)</text>
+<text top="384" left="362" width="18" height="10" font="font14" id="p1_t53" reading_order_no="43" segment_no="2" tag_type="figure">-0.7</text>
+<text top="368" left="362" width="18" height="10" font="font14" id="p1_t54" reading_order_no="42" segment_no="2" tag_type="figure">-0.6</text>
+<text top="350" left="362" width="18" height="10" font="font14" id="p1_t55" reading_order_no="41" segment_no="2" tag_type="figure">-0.5</text>
+<text top="334" left="362" width="18" height="10" font="font14" id="p1_t56" reading_order_no="40" segment_no="2" tag_type="figure">-0.4</text>
+<text top="317" left="362" width="18" height="10" font="font14" id="p1_t57" reading_order_no="39" segment_no="2" tag_type="figure">-0.3</text>
+<text top="300" left="362" width="18" height="10" font="font14" id="p1_t58" reading_order_no="38" segment_no="2" tag_type="figure">-0.2</text>
+<text top="284" left="362" width="18" height="10" font="font14" id="p1_t59" reading_order_no="37" segment_no="2" tag_type="figure">-0.1</text>
+<text top="267" left="374" width="6" height="10" font="font14" id="p1_t60" reading_order_no="36" segment_no="2" tag_type="figure">0</text>
+<text top="250" left="366" width="15" height="10" font="font14" id="p1_t61" reading_order_no="35" segment_no="2" tag_type="figure">0.1</text>
+<text top="400" left="387" width="6" height="10" font="font14" id="p1_t62" reading_order_no="44" segment_no="2" tag_type="figure">0</text>
+<text top="400" left="418" width="6" height="10" font="font14" id="p1_t63" reading_order_no="45" segment_no="2" tag_type="figure">3</text>
+<text top="400" left="449" width="6" height="10" font="font14" id="p1_t64" reading_order_no="46" segment_no="2" tag_type="figure">6</text>
+<text top="400" left="481" width="6" height="10" font="font14" id="p1_t65" reading_order_no="47" segment_no="2" tag_type="figure">9</text>
+<text top="400" left="508" width="12" height="10" font="font14" id="p1_t66" reading_order_no="48" segment_no="2" tag_type="figure">12</text>
+<text top="400" left="540" width="12" height="10" font="font14" id="p1_t67" reading_order_no="49" segment_no="2" tag_type="figure">15</text>
+<text top="418" left="442" width="51" height="10" font="font14" id="p1_t68" reading_order_no="53" segment_no="2" tag_type="figure">Time (min)</text>
+<text top="376" left="349" width="0" height="17" font="font12" id="p1_t69" reading_order_no="34" segment_no="2" tag_type="figure">m E</text>
+<text top="367" left="349" width="0" height="10" font="font12" id="p1_t70" reading_order_no="33" segment_no="2" tag_type="figure">m</text>
+<text top="345" left="349" width="0" height="23" font="font12" id="p1_t71" reading_order_no="32" segment_no="2" tag_type="figure">ion R s is</text>
+<text top="316" left="349" width="0" height="16" font="font12" id="p1_t72" reading_order_no="31" segment_no="2" tag_type="figure">tio C a</text>
+<text top="296" left="349" width="0" height="10" font="font12" id="p1_t73" reading_order_no="30" segment_no="2" tag_type="figure">hange (</text>
+<text top="248" left="349" width="0" height="24" font="font12" id="p1_t74" reading_order_no="29" segment_no="2" tag_type="figure">) U A</text>
+<text top="121" left="470" width="20" height="9" font="font15" id="p1_t75" reading_order_no="23" segment_no="2" tag_type="figure">MBP</text>
+<text top="159" left="468" width="44" height="9" font="font15" id="p1_t76" reading_order_no="25" segment_no="2" tag_type="figure">GST-ATF2</text>
+<text top="199" left="468" width="41" height="9" font="font15" id="p1_t77" reading_order_no="27" segment_no="2" tag_type="figure">GST-cJun</text>
+<text top="115" left="117" width="35" height="10" font="font14" id="p1_t78" reading_order_no="3" segment_no="2" tag_type="figure">pERK2</text>
+<text top="115" left="174" width="100" height="10" font="font14" id="p1_t79" reading_order_no="4" segment_no="2" tag_type="figure">pp38 pSAPK</text>
+<text top="91" left="64" width="10" height="14" font="font16" id="p1_t80" reading_order_no="2" segment_no="2" tag_type="figure">A</text>
+<text top="91" left="335" width="10" height="14" font="font16" id="p1_t81" reading_order_no="21" segment_no="2" tag_type="figure">B</text>
+<text top="230" left="335" width="11" height="14" font="font16" id="p1_t82" reading_order_no="28" segment_no="2" tag_type="figure">C</text>
+<text top="143" left="287" width="26" height="9" font="font15" id="p1_t83" reading_order_no="5" segment_no="2" tag_type="figure">EAS-3</text>
+<text top="182" left="287" width="26" height="9" font="font15" id="p1_t84" reading_order_no="6" segment_no="2" tag_type="figure">EAS-3</text>
+<text top="262" left="514" width="29" height="9" font="font15" id="p1_t85" reading_order_no="52" segment_no="2" tag_type="figure">pSAPK</text>
+<text top="251" left="514" width="20" height="9" font="font15" id="p1_t86" reading_order_no="51" segment_no="2" tag_type="figure">pp38</text>
+<text top="239" left="514" width="29" height="9" font="font15" id="p1_t87" reading_order_no="50" segment_no="2" tag_type="figure">pERK2</text>
+<text top="103" left="422" width="29" height="9" font="font15" id="p1_t88" reading_order_no="22" segment_no="2" tag_type="figure">pERK2</text>
+<text top="142" left="425" width="20" height="9" font="font15" id="p1_t89" reading_order_no="24" segment_no="2" tag_type="figure">pp38</text>
+<text top="181" left="421" width="29" height="9" font="font15" id="p1_t90" reading_order_no="26" segment_no="2" tag_type="figure">pSAPK</text>
 </page>
 </pdf2xml>

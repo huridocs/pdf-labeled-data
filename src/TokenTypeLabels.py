@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
-from src.Page import Page
+from src.TokenTypePage import TokenTypePage
 
 
 class TokenTypeLabels(BaseModel):
-    pages: list[Page] = list()
+    pages: list[TokenTypePage] = list()

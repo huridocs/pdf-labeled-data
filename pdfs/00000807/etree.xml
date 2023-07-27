@@ -24,108 +24,108 @@
 	<fontspec id="font20" size="381" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font21" size="82" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font22" size="176" family="GlyphLessFont" color="#000000"/>
-<text top="83" left="43" width="1089" height="41" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">IEEE  TRANSACTIONS  ON  PATTERN  ANALYSIS  AND  MACHINE  INTELLIGENCE, </text>
-<text top="169" left="147" width="838" height="64" font="font1" id="p1_t2" reading_order_no="3" segment_no="3" tag_type="title">Equivalence  of  Different  Methods  for </text>
-<text top="222" left="150" width="830" height="65" font="font2" id="p1_t3" reading_order_no="4" segment_no="3" tag_type="title">Slant  and  Skew  Corrections  in  Word </text>
-<text top="277" left="279" width="573" height="63" font="font1" id="p1_t4" reading_order_no="5" segment_no="3" tag_type="title">Recognition  Applications </text>
-<text top="382" left="466" width="198" height="53" font="font3" id="p1_t5" reading_order_no="6" segment_no="4" tag_type="text">Petr  Slavik </text>
-<text top="430" left="154" width="840" height="54" font="font4" id="p1_t6" reading_order_no="7" segment_no="5" tag_type="text">and  Venu  Govindaraju,  Senior  Member,  IEEE </text>
-<text top="553" left="43" width="1015" height="42" font="font0" id="p1_t7" reading_order_no="8" segment_no="6" tag_type="text">Abstract—Normailization  of  slant  and  skew  is  often  used  in  processing  a  word </text>
-<text top="594" left="44" width="1027" height="40" font="font5" id="p1_t8" reading_order_no="9" segment_no="6" tag_type="text">image  before  recognition.  In  this  paper,  we  prove  the  theoretical  equivalence  of </text>
-<text top="633" left="44" width="983" height="40" font="font5" id="p1_t9" reading_order_no="10" segment_no="6" tag_type="text">different  methods  for  slant  and  skew  corrections.  In  particular,  we  show  that </text>
-<text top="674" left="43" width="1041" height="38" font="font6" id="p1_t10" reading_order_no="11" segment_no="6" tag_type="text">correcting  first  for  skew  by  rotation  and  then  for  slant  by  a  shear  transformation  in </text>
-<text top="712" left="43" width="954" height="41" font="font5" id="p1_t11" reading_order_no="12" segment_no="6" tag_type="text">the  horizontal  direction  is  equivalent  to  first  correcting  for  slant  by  a  shear </text>
-<text top="753" left="42" width="912" height="38" font="font6" id="p1_t12" reading_order_no="13" segment_no="6" tag_type="text">transformation  in  the  horizontal  direction  and  then  for  skew  by  a  shear </text>
-<text top="791" left="43" width="1042" height="41" font="font5" id="p1_t13" reading_order_no="14" segment_no="6" tag_type="text">transformation  in  the  vertical  direction.  Our  proof  can  be  easily  modified  to  prove </text>
-<text top="832" left="44" width="822" height="38" font="font5" id="p1_t14" reading_order_no="15" segment_no="6" tag_type="text">equivalence  of  other  methods  for  correcting  the  slant  and  skew. </text>
-<text top="921" left="44" width="1002" height="39" font="font6" id="p1_t15" reading_order_no="16" segment_no="7" tag_type="text">Index  Terms—Image  preprocessing,  slant  normalization,  skew  normalization, </text>
-<text top="959" left="44" width="303" height="39" font="font0" id="p1_t16" reading_order_no="17" segment_no="7" tag_type="text">handwriting  recognition. </text>
-<text top="1014" left="549" width="31" height="49" font="font8" id="p1_t17" reading_order_no="18" segment_no="9" tag_type="not_found">+ </text>
-<text top="1096" left="45" width="14" height="49" font="font8" id="p1_t18" reading_order_no="19" segment_no="11" tag_type="title">1 </text>
-<text top="1096" left="119" width="268" height="49" font="font8" id="p1_t19" reading_order_no="20" segment_no="11" tag_type="title">INTRODUCTION </text>
-<text top="1157" left="44" width="1041" height="51" font="font8" id="p1_t20" reading_order_no="21" segment_no="12" tag_type="text">IN  most  handwritten  word  applications,  correcting  the  skew </text>
-<text top="1203" left="44" width="1040" height="50" font="font9" id="p1_t21" reading_order_no="22" segment_no="12" tag_type="text">(deviation  of  the  baseline  from  the  horizontal  direction—Fig.  1) </text>
-<text top="1248" left="43" width="1042" height="52" font="font8" id="p1_t22" reading_order_no="23" segment_no="12" tag_type="text">and  the  slant  (deviation  of  average  near-vertical  strokes  from  the </text>
-<text top="1294" left="43" width="1040" height="51" font="font8" id="p1_t23" reading_order_no="24" segment_no="12" tag_type="text">vertical  direction—Fig.  2)  is  an  important  preprocessing  step. </text>
-<text top="1341" left="43" width="1042" height="49" font="font9" id="p1_t24" reading_order_no="25" segment_no="12" tag_type="text">Typically,  first  the  skew  angle  and  then  the  slant  angle  are </text>
-<text top="1390" left="43" width="1042" height="45" font="font10" id="p1_t25" reading_order_no="26" segment_no="12" tag_type="text">corrected  [1],  [3],  [7].  In  some  cases,  however,  it  might  be  more </text>
-<text top="1433" left="43" width="1042" height="48" font="font11" id="p1_t26" reading_order_no="27" segment_no="12" tag_type="text">convenient  to  first  correct  the  slant  and  then  the  skew  [8].  In  this </text>
-<text top="1477" left="43" width="1041" height="50" font="font9" id="p1_t27" reading_order_no="28" segment_no="12" tag_type="text">paper,  we  prove  the  theoretical  equivalence  of  these  approaches </text>
-<text top="1523" left="44" width="1041" height="49" font="font8" id="p1_t28" reading_order_no="29" segment_no="12" tag_type="text">showing  that  the  order  and  the  method  in  which  the  slant  and </text>
-<text top="1569" left="44" width="1041" height="49" font="font9" id="p1_t29" reading_order_no="30" segment_no="12" tag_type="text">skew  angles  are  corrected  is  not  important  for  word  recognition </text>
-<text top="1613" left="43" width="196" height="49" font="font8" id="p1_t30" reading_order_no="31" segment_no="12" tag_type="text">applications. </text>
-<text top="1659" left="93" width="993" height="50" font="font12" id="p1_t31" reading_order_no="32" segment_no="13" tag_type="text">Specifically,  we  consider  the  following  two  methods  of </text>
-<text top="1705" left="44" width="1041" height="52" font="font12" id="p1_t32" reading_order_no="33" segment_no="13" tag_type="text">correcting  both  the  slant  and  skew  angles:  1)  the  first  standard </text>
-<text top="1752" left="44" width="1041" height="53" font="font12" id="p1_t33" reading_order_no="34" segment_no="13" tag_type="text">method  corrects  the  skew  angle  by  rotation  and  then  corrects  the </text>
-<text top="1801" left="44" width="1041" height="49" font="font8" id="p1_t34" reading_order_no="35" segment_no="13" tag_type="text">slant  angle  by  a  shear  transformation  in  the  horizontal  direction </text>
-<text top="1850" left="45" width="1040" height="46" font="font13" id="p1_t35" reading_order_no="36" segment_no="13" tag_type="text">[1],  [3]  2)  the  second  method  first  corrects  the  slant  angle  by  shear- </text>
-<text top="1895" left="44" width="1042" height="49" font="font8" id="p1_t36" reading_order_no="37" segment_no="13" tag_type="text">transforming  the  entire  image  in  the  horizontal  direction  and  then </text>
-<text top="1942" left="43" width="1043" height="51" font="font8" id="p1_t37" reading_order_no="38" segment_no="13" tag_type="text">corrects  the  skew  angle  by  shear-transforming  the  entire  image  in </text>
-<text top="1993" left="43" width="386" height="43" font="font10" id="p1_t38" reading_order_no="39" segment_no="13" tag_type="text">the  vertical  direction  [8]. </text>
-<text top="2035" left="93" width="992" height="49" font="font8" id="p1_t39" reading_order_no="40" segment_no="14" tag_type="text">Assuming  that  the  pixel  coordinates  are  real  numbers,  we  will </text>
-<text top="2082" left="43" width="1042" height="49" font="font8" id="p1_t40" reading_order_no="41" segment_no="14" tag_type="text">prove  that  the  two  images  produced  1)  by  rotation  followed  by  a </text>
-<text top="2130" left="44" width="1041" height="49" font="font9" id="p1_t41" reading_order_no="42" segment_no="14" tag_type="text">shear  transformation  in  «-direction  and  2)  by  a  shear  transforma- </text>
-<text top="2176" left="44" width="1041" height="49" font="font8" id="p1_t42" reading_order_no="43" segment_no="14" tag_type="text">tion  in  x-direction  followed  by  a  shear  transformation  in  y-direction </text>
-<text top="2222" left="43" width="1042" height="52" font="font12" id="p1_t43" reading_order_no="44" segment_no="14" tag_type="text">differ  only  in  their  aspect  ratios.  And  if  reasonable  limits  are </text>
-<text top="2275" left="44" width="1041" height="42" font="font14" id="p1_t44" reading_order_no="45" segment_no="14" tag_type="text">imposed  on  the  possible  values  of  skew  and  slant  angles,  the </text>
-<text top="2317" left="43" width="1042" height="50" font="font12" id="p1_t45" reading_order_no="46" segment_no="14" tag_type="text">changes  in  the  aspect  ratio  are  negligible.  For  example,  if  the  skew </text>
-<text top="2365" left="43" width="1041" height="49" font="font9" id="p1_t46" reading_order_no="47" segment_no="14" tag_type="text">angle  is  10°  and  the  slant  angle  is  30°,  the  two  aspect  ratios  would </text>
-<text top="2411" left="43" width="700" height="49" font="font8" id="p1_t47" reading_order_no="48" segment_no="14" tag_type="text">differ  by  only  a  multiplicative  factor  of  0.85. </text>
-<text top="2456" left="93" width="993" height="52" font="font12" id="p1_t48" reading_order_no="49" segment_no="15" tag_type="text">Rounding  of  coordinates  will  ultimately  produce  slightly </text>
-<text top="2509" left="43" width="1041" height="43" font="font10" id="p1_t49" reading_order_no="50" segment_no="15" tag_type="text">different  images.  This,  however,  should  not  influence  a  word </text>
-<text top="2555" left="43" width="1040" height="45" font="font13" id="p1_t50" reading_order_no="51" segment_no="15" tag_type="text">recognizer  in  any  significant  way.  High-level  features  [1],  [2] </text>
-<text top="2599" left="44" width="1040" height="49" font="font8" id="p1_t51" reading_order_no="52" segment_no="15" tag_type="text">(loops,  ascenders,  descenders,  etc.)  will  remain  unchanged  while </text>
-<text top="2725" left="43" width="1043" height="48" font="font11" id="p1_t52" reading_order_no="93" segment_no="28" tag_type="footnote">e  The  authors  are  with  the  Center  of  Excellence  for  Document  Analysis  and </text>
-<text top="2764" left="84" width="1000" height="45" font="font13" id="p1_t53" reading_order_no="94" segment_no="28" tag_type="footnote">Recognition  (CEDAR),  Department  of  Computer  Science  and  Engineering, </text>
-<text top="2800" left="86" width="1000" height="48" font="font11" id="p1_t54" reading_order_no="95" segment_no="28" tag_type="footnote">State  Unversity  of  New  York  at  Buffalo,  226  Bell  Hall,  Amherst,  NY </text>
-<text top="2837" left="86" width="676" height="47" font="font9" id="p1_t55" reading_order_no="96" segment_no="28" tag_type="footnote">14260.  E-mail:  {slavik,  govind}@cedar.buffalo.edu. </text>
-<text top="2892" left="43" width="1040" height="45" font="font13" id="p1_t56" reading_order_no="97" segment_no="29" tag_type="footnote">Manuscript  received  2  Sept.  1999;  revised  7  Sept.  2000;  accepted  28  Sept. </text>
-<text top="2927" left="43" width="70" height="47" font="font9" id="p1_t57" reading_order_no="98" segment_no="29" tag_type="footnote">2000. </text>
-<text top="2967" left="43" width="557" height="45" font="font13" id="p1_t58" reading_order_no="99" segment_no="30" tag_type="footnote">Recommended  for  acceptance  by  D.  Dori. </text>
-<text top="3003" left="43" width="1042" height="48" font="font11" id="p1_t59" reading_order_no="100" segment_no="32" tag_type="footnote">For  information  on  obtaining  reprints  of  this  article,  please  send  e-mail  to: </text>
-<text top="3041" left="44" width="897" height="46" font="font11" id="p1_t60" reading_order_no="101" segment_no="32" tag_type="footnote">tpami@computer.org,  and  reference  IEEECS  Log  Number  110536. </text>
-<text top="3119" left="364" width="389" height="34" font="font15" id="p1_t61" reading_order_no="102" segment_no="34" tag_type="text">0162-8828/01/$10.00  ©  2001  IEEE </text>
-<text top="85" left="1164" width="434" height="41" font="font16" id="p1_t62" reading_order_no="1" segment_no="1" tag_type="text">VOL.  23,  NO.  3,  MARCH  2001 </text>
-<text top="87" left="2130" width="46" height="41" font="font16" id="p1_t63" reading_order_no="2" segment_no="2" tag_type="text">323 </text>
-<text top="995" left="1138" width="840" height="41" font="font0" id="p1_t64" reading_order_no="53" segment_no="8" tag_type="text">Fig.  1.  Handwritten  word  image  before  and  after  skew  correction. </text>
-<text top="1087" left="1136" width="1044" height="48" font="font13" id="p1_t65" reading_order_no="54" segment_no="10" tag_type="text">low-level  features  [4],  [5],  [6],  [9]  (various  moments,  distribution  of </text>
-<text top="1130" left="1136" width="1042" height="54" font="font12" id="p1_t66" reading_order_no="55" segment_no="10" tag_type="text">slopes,  or  pixels  in  subregions  of  each  segment,  etc.)  will  change </text>
-<text top="1178" left="1137" width="203" height="50" font="font12" id="p1_t67" reading_order_no="56" segment_no="10" tag_type="text">only  slightly. </text>
-<text top="1295" left="1137" width="21" height="49" font="font8" id="p1_t68" reading_order_no="57" segment_no="16" tag_type="title">2 </text>
-<text top="1295" left="1213" width="565" height="50" font="font8" id="p1_t69" reading_order_no="58" segment_no="16" tag_type="title">MATHEMATICAL  FORMULATION </text>
-<text top="1363" left="1137" width="1041" height="52" font="font8" id="p1_t70" reading_order_no="59" segment_no="17" tag_type="text">To  justify  the  above  claims,  let  us  consider  a  general  image  of  a </text>
-<text top="1413" left="1136" width="1043" height="53" font="font12" id="p1_t71" reading_order_no="60" segment_no="17" tag_type="text">handwritten  word  where  the  deviation  of  the  baseline  from  the </text>
-<text top="1466" left="1136" width="1044" height="52" font="font8" id="p1_t72" reading_order_no="61" segment_no="17" tag_type="text">horizontal  axis  is  a  and  the  deviation  of  the  average  direction  of </text>
-<text top="1517" left="1136" width="1043" height="52" font="font12" id="p1_t73" reading_order_no="62" segment_no="17" tag_type="text">near-vertical  strokes  from  the  line  perpendicular  to  the  baseline  is </text>
-<text top="1569" left="1137" width="1042" height="52" font="font12" id="p1_t74" reading_order_no="63" segment_no="17" tag_type="text">(—see  the  top  image  in  Fig.  3.  Assume  that  the  baseline  intersects </text>
-<text top="1620" left="1137" width="1042" height="53" font="font12" id="p1_t75" reading_order_no="64" segment_no="17" tag_type="text">the  origin  of  the  coordinate  system.  This  assumption  will  only </text>
-<text top="1672" left="1137" width="1041" height="53" font="font12" id="p1_t76" reading_order_no="65" segment_no="17" tag_type="text">simplify  our  formulas  and  has  certainly  no  effect  on  the  generality </text>
-<text top="1724" left="1137" width="218" height="49" font="font8" id="p1_t77" reading_order_no="66" segment_no="17" tag_type="text">of  our  results. </text>
-<text top="1801" left="1137" width="44" height="46" font="font11" id="p1_t78" reading_order_no="67" segment_no="18" tag_type="title">2.1. </text>
-<text top="1801" left="1238" width="221" height="46" font="font11" id="p1_t79" reading_order_no="68" segment_no="18" tag_type="title">First  Method </text>
-<text top="1858" left="1136" width="1041" height="50" font="font9" id="p1_t80" reading_order_no="69" segment_no="19" tag_type="text">Images  in  Fig.  3  show  the  individual  steps  of  the  first  (traditional) </text>
-<text top="1909" left="1137" width="1042" height="51" font="font8" id="p1_t81" reading_order_no="70" segment_no="19" tag_type="text">method  of  correcting  first  the  skew  angle  by  rotation  and  then  the </text>
-<text top="1961" left="1137" width="1040" height="50" font="font9" id="p1_t82" reading_order_no="71" segment_no="19" tag_type="text">slant  angle  by  shear  transformation  in  the  horizontal  direction. </text>
-<text top="2013" left="1136" width="1042" height="49" font="font9" id="p1_t83" reading_order_no="72" segment_no="19" tag_type="text">Given  a  point  (x,y),  its  new  coordinates  (a’,y/)  after  rotating  the </text>
-<text top="2064" left="1136" width="1010" height="51" font="font8" id="p1_t84" reading_order_no="73" segment_no="19" tag_type="text">entire  image  around  the  origin  by  angle  —a  (negative  a)  satisfy </text>
-<text top="2138" left="1714" width="195" height="111" font="font21" id="p1_t85" reading_order_no="74" segment_no="20" tag_type="formula">ee). </text>
-<text top="2257" left="1136" width="1043" height="52" font="font12" id="p1_t86" reading_order_no="75" segment_no="21" tag_type="text">After  shear-transforming  the  point  in  the  horizontal  direction  by </text>
-<text top="2307" left="1137" width="914" height="47" font="font13" id="p1_t87" reading_order_no="76" segment_no="21" tag_type="text">angle  —G  (negative  (),  its  new  coordinates  (”,y")  will  be </text>
-<text top="2298" left="1348" width="618" height="238" font="font22" id="p1_t88" reading_order_no="77" segment_no="22" tag_type="formula">@)-(  -PVG)-r6) </text>
-<text top="2582" left="1301" width="338" height="43" font="font10" id="p1_t89" reading_order_no="79" segment_no="24" tag_type="formula">T=  Teas  ators </text>
-<text top="2503" left="1136" width="96" height="42" font="font14" id="p1_t90" reading_order_no="78" segment_no="23" tag_type="text">where </text>
-<text top="2598" left="2138" width="38" height="62" font="font1" id="p1_t91" reading_order_no="83" segment_no="25" tag_type="text">(1) </text>
-<text top="2628" left="1491" width="99" height="39" font="font0" id="p1_t92" reading_order_no="81" segment_no="24" tag_type="formula">—sina </text>
-<text top="2583" left="1712" width="271" height="43" font="font10" id="p1_t93" reading_order_no="80" segment_no="24" tag_type="formula">sina  —  cosatan  G </text>
-<text top="2623" left="1810" width="73" height="46" font="font11" id="p1_t94" reading_order_no="82" segment_no="24" tag_type="formula">cos  @ </text>
-<text top="2693" left="1136" width="1043" height="49" font="font8" id="p1_t95" reading_order_no="84" segment_no="26" tag_type="text">is  the  matrix  of  the  composition  of  rotation  and  shear </text>
-<text top="2738" left="1137" width="238" height="49" font="font8" id="p1_t96" reading_order_no="85" segment_no="26" tag_type="text">transformation. </text>
-<text top="2786" left="1186" width="992" height="48" font="font11" id="p1_t97" reading_order_no="86" segment_no="27" tag_type="text">Define  y=  -— a;  that  is,  y  is  the  deviation  of  the  average </text>
-<text top="2832" left="1136" width="1043" height="49" font="font8" id="p1_t98" reading_order_no="87" segment_no="27" tag_type="text">near-vertical  stroke  from  vertical  direction—see  Fig.  4.  Using  the </text>
-<text top="2881" left="1137" width="128" height="46" font="font11" id="p1_t99" reading_order_no="88" segment_no="27" tag_type="text">fact  that </text>
-<text top="2959" left="1326" width="491" height="49" font="font8" id="p1_t100" reading_order_no="89" segment_no="31" tag_type="formula">tan 6 —  tana  =  (1+  tanatan </text>
-<text top="2959" left="1780" width="207" height="49" font="font8" id="p1_t101" reading_order_no="90" segment_no="31" tag_type="formula">Z)  tan(3  —  a) </text>
-<text top="3014" left="1536" width="282" height="46" font="font11" id="p1_t102" reading_order_no="91" segment_no="33" tag_type="formula">=  (1+  tanatan </text>
-<text top="3014" left="1782" width="128" height="46" font="font11" id="p1_t103" reading_order_no="92" segment_no="33" tag_type="formula">#)  tany,</text>
+<text top="83" left="43" width="1089" height="41" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">IEEE  TRANSACTIONS  ON  PATTERN  ANALYSIS  AND  MACHINE  INTELLIGENCE,</text>
+<text top="169" left="147" width="838" height="64" font="font1" id="p1_t2" reading_order_no="3" segment_no="3" tag_type="title">Equivalence  of  Different  Methods  for</text>
+<text top="222" left="150" width="830" height="65" font="font2" id="p1_t3" reading_order_no="4" segment_no="3" tag_type="title">Slant  and  Skew  Corrections  in  Word</text>
+<text top="277" left="279" width="573" height="63" font="font1" id="p1_t4" reading_order_no="5" segment_no="3" tag_type="title">Recognition  Applications</text>
+<text top="382" left="466" width="198" height="53" font="font3" id="p1_t5" reading_order_no="6" segment_no="4" tag_type="text">Petr  Slavik</text>
+<text top="430" left="154" width="840" height="54" font="font4" id="p1_t6" reading_order_no="7" segment_no="5" tag_type="text">and  Venu  Govindaraju,  Senior  Member,  IEEE</text>
+<text top="553" left="43" width="1015" height="42" font="font0" id="p1_t7" reading_order_no="8" segment_no="6" tag_type="text">Abstract—Normailization  of  slant  and  skew  is  often  used  in  processing  a  word</text>
+<text top="594" left="44" width="1027" height="40" font="font5" id="p1_t8" reading_order_no="9" segment_no="6" tag_type="text">image  before  recognition.  In  this  paper,  we  prove  the  theoretical  equivalence  of</text>
+<text top="633" left="44" width="983" height="40" font="font5" id="p1_t9" reading_order_no="10" segment_no="6" tag_type="text">different  methods  for  slant  and  skew  corrections.  In  particular,  we  show  that</text>
+<text top="674" left="43" width="1041" height="38" font="font6" id="p1_t10" reading_order_no="11" segment_no="6" tag_type="text">correcting  first  for  skew  by  rotation  and  then  for  slant  by  a  shear  transformation  in</text>
+<text top="712" left="43" width="954" height="41" font="font5" id="p1_t11" reading_order_no="12" segment_no="6" tag_type="text">the  horizontal  direction  is  equivalent  to  first  correcting  for  slant  by  a  shear</text>
+<text top="753" left="42" width="912" height="38" font="font6" id="p1_t12" reading_order_no="13" segment_no="6" tag_type="text">transformation  in  the  horizontal  direction  and  then  for  skew  by  a  shear</text>
+<text top="791" left="43" width="1042" height="41" font="font5" id="p1_t13" reading_order_no="14" segment_no="6" tag_type="text">transformation  in  the  vertical  direction.  Our  proof  can  be  easily  modified  to  prove</text>
+<text top="832" left="44" width="822" height="38" font="font5" id="p1_t14" reading_order_no="15" segment_no="6" tag_type="text">equivalence  of  other  methods  for  correcting  the  slant  and  skew.</text>
+<text top="921" left="44" width="1002" height="39" font="font6" id="p1_t15" reading_order_no="16" segment_no="7" tag_type="text">Index  Terms—Image  preprocessing,  slant  normalization,  skew  normalization,</text>
+<text top="959" left="44" width="303" height="39" font="font0" id="p1_t16" reading_order_no="17" segment_no="7" tag_type="text">handwriting  recognition.</text>
+<text top="1014" left="549" width="31" height="49" font="font8" id="p1_t17" reading_order_no="18" segment_no="9" tag_type="text">+</text>
+<text top="1096" left="45" width="14" height="49" font="font8" id="p1_t18" reading_order_no="19" segment_no="11" tag_type="title">1</text>
+<text top="1096" left="119" width="268" height="49" font="font8" id="p1_t19" reading_order_no="20" segment_no="11" tag_type="title">INTRODUCTION</text>
+<text top="1157" left="44" width="1041" height="51" font="font8" id="p1_t20" reading_order_no="21" segment_no="12" tag_type="text">IN  most  handwritten  word  applications,  correcting  the  skew</text>
+<text top="1203" left="44" width="1040" height="50" font="font9" id="p1_t21" reading_order_no="22" segment_no="12" tag_type="text">(deviation  of  the  baseline  from  the  horizontal  direction—Fig.  1)</text>
+<text top="1248" left="43" width="1042" height="52" font="font8" id="p1_t22" reading_order_no="23" segment_no="12" tag_type="text">and  the  slant  (deviation  of  average  near-vertical  strokes  from  the</text>
+<text top="1294" left="43" width="1040" height="51" font="font8" id="p1_t23" reading_order_no="24" segment_no="12" tag_type="text">vertical  direction—Fig.  2)  is  an  important  preprocessing  step.</text>
+<text top="1341" left="43" width="1042" height="49" font="font9" id="p1_t24" reading_order_no="25" segment_no="12" tag_type="text">Typically,  first  the  skew  angle  and  then  the  slant  angle  are</text>
+<text top="1390" left="43" width="1042" height="45" font="font10" id="p1_t25" reading_order_no="26" segment_no="12" tag_type="text">corrected  [1],  [3],  [7].  In  some  cases,  however,  it  might  be  more</text>
+<text top="1433" left="43" width="1042" height="48" font="font11" id="p1_t26" reading_order_no="27" segment_no="12" tag_type="text">convenient  to  first  correct  the  slant  and  then  the  skew  [8].  In  this</text>
+<text top="1477" left="43" width="1041" height="50" font="font9" id="p1_t27" reading_order_no="28" segment_no="12" tag_type="text">paper,  we  prove  the  theoretical  equivalence  of  these  approaches</text>
+<text top="1523" left="44" width="1041" height="49" font="font8" id="p1_t28" reading_order_no="29" segment_no="12" tag_type="text">showing  that  the  order  and  the  method  in  which  the  slant  and</text>
+<text top="1569" left="44" width="1041" height="49" font="font9" id="p1_t29" reading_order_no="30" segment_no="12" tag_type="text">skew  angles  are  corrected  is  not  important  for  word  recognition</text>
+<text top="1613" left="43" width="196" height="49" font="font8" id="p1_t30" reading_order_no="31" segment_no="12" tag_type="text">applications.</text>
+<text top="1659" left="93" width="993" height="50" font="font12" id="p1_t31" reading_order_no="32" segment_no="15" tag_type="text">Specifically,  we  consider  the  following  two  methods  of</text>
+<text top="1705" left="44" width="1041" height="52" font="font12" id="p1_t32" reading_order_no="33" segment_no="15" tag_type="text">correcting  both  the  slant  and  skew  angles:  1)  the  first  standard</text>
+<text top="1752" left="44" width="1041" height="53" font="font12" id="p1_t33" reading_order_no="34" segment_no="15" tag_type="text">method  corrects  the  skew  angle  by  rotation  and  then  corrects  the</text>
+<text top="1801" left="44" width="1041" height="49" font="font8" id="p1_t34" reading_order_no="35" segment_no="15" tag_type="text">slant  angle  by  a  shear  transformation  in  the  horizontal  direction</text>
+<text top="1850" left="45" width="1040" height="46" font="font13" id="p1_t35" reading_order_no="36" segment_no="15" tag_type="text">[1],  [3]  2)  the  second  method  first  corrects  the  slant  angle  by  shear-</text>
+<text top="1895" left="44" width="1042" height="49" font="font8" id="p1_t36" reading_order_no="37" segment_no="15" tag_type="text">transforming  the  entire  image  in  the  horizontal  direction  and  then</text>
+<text top="1942" left="43" width="1043" height="51" font="font8" id="p1_t37" reading_order_no="38" segment_no="15" tag_type="text">corrects  the  skew  angle  by  shear-transforming  the  entire  image  in</text>
+<text top="1993" left="43" width="386" height="43" font="font10" id="p1_t38" reading_order_no="39" segment_no="15" tag_type="text">the  vertical  direction  [8].</text>
+<text top="2035" left="93" width="992" height="49" font="font8" id="p1_t39" reading_order_no="40" segment_no="18" tag_type="text">Assuming  that  the  pixel  coordinates  are  real  numbers,  we  will</text>
+<text top="2082" left="43" width="1042" height="49" font="font8" id="p1_t40" reading_order_no="41" segment_no="18" tag_type="text">prove  that  the  two  images  produced  1)  by  rotation  followed  by  a</text>
+<text top="2130" left="44" width="1041" height="49" font="font9" id="p1_t41" reading_order_no="42" segment_no="18" tag_type="text">shear  transformation  in  «-direction  and  2)  by  a  shear  transforma-</text>
+<text top="2176" left="44" width="1041" height="49" font="font8" id="p1_t42" reading_order_no="43" segment_no="18" tag_type="text">tion  in  x-direction  followed  by  a  shear  transformation  in  y-direction</text>
+<text top="2222" left="43" width="1042" height="52" font="font12" id="p1_t43" reading_order_no="44" segment_no="18" tag_type="text">differ  only  in  their  aspect  ratios.  And  if  reasonable  limits  are</text>
+<text top="2275" left="44" width="1041" height="42" font="font14" id="p1_t44" reading_order_no="45" segment_no="18" tag_type="text">imposed  on  the  possible  values  of  skew  and  slant  angles,  the</text>
+<text top="2317" left="43" width="1042" height="50" font="font12" id="p1_t45" reading_order_no="46" segment_no="18" tag_type="text">changes  in  the  aspect  ratio  are  negligible.  For  example,  if  the  skew</text>
+<text top="2365" left="43" width="1041" height="49" font="font9" id="p1_t46" reading_order_no="47" segment_no="18" tag_type="text">angle  is  10°  and  the  slant  angle  is  30°,  the  two  aspect  ratios  would</text>
+<text top="2411" left="43" width="700" height="49" font="font8" id="p1_t47" reading_order_no="48" segment_no="18" tag_type="text">differ  by  only  a  multiplicative  factor  of  0.85.</text>
+<text top="2456" left="93" width="993" height="52" font="font12" id="p1_t48" reading_order_no="49" segment_no="22" tag_type="text">Rounding  of  coordinates  will  ultimately  produce  slightly</text>
+<text top="2509" left="43" width="1041" height="43" font="font10" id="p1_t49" reading_order_no="50" segment_no="22" tag_type="text">different  images.  This,  however,  should  not  influence  a  word</text>
+<text top="2555" left="43" width="1040" height="45" font="font13" id="p1_t50" reading_order_no="51" segment_no="22" tag_type="text">recognizer  in  any  significant  way.  High-level  features  [1],  [2]</text>
+<text top="2599" left="44" width="1040" height="49" font="font8" id="p1_t51" reading_order_no="52" segment_no="22" tag_type="text">(loops,  ascenders,  descenders,  etc.)  will  remain  unchanged  while</text>
+<text top="2725" left="43" width="1043" height="48" font="font11" id="p1_t52" reading_order_no="93" segment_no="26" tag_type="footnote">e  The  authors  are  with  the  Center  of  Excellence  for  Document  Analysis  and</text>
+<text top="2764" left="84" width="1000" height="45" font="font13" id="p1_t53" reading_order_no="94" segment_no="26" tag_type="footnote">Recognition  (CEDAR),  Department  of  Computer  Science  and  Engineering,</text>
+<text top="2800" left="86" width="1000" height="48" font="font11" id="p1_t54" reading_order_no="95" segment_no="26" tag_type="footnote">State  Unversity  of  New  York  at  Buffalo,  226  Bell  Hall,  Amherst,  NY</text>
+<text top="2837" left="86" width="676" height="47" font="font9" id="p1_t55" reading_order_no="96" segment_no="26" tag_type="footnote">14260.  E-mail:  {slavik,  govind}@cedar.buffalo.edu.</text>
+<text top="2892" left="43" width="1040" height="45" font="font13" id="p1_t56" reading_order_no="97" segment_no="28" tag_type="footnote">Manuscript  received  2  Sept.  1999;  revised  7  Sept.  2000;  accepted  28  Sept.</text>
+<text top="2927" left="43" width="70" height="47" font="font9" id="p1_t57" reading_order_no="98" segment_no="28" tag_type="footnote">2000.</text>
+<text top="2967" left="43" width="557" height="45" font="font13" id="p1_t58" reading_order_no="99" segment_no="30" tag_type="footnote">Recommended  for  acceptance  by  D.  Dori.</text>
+<text top="3003" left="43" width="1042" height="48" font="font11" id="p1_t59" reading_order_no="100" segment_no="31" tag_type="footnote">For  information  on  obtaining  reprints  of  this  article,  please  send  e-mail  to:</text>
+<text top="3041" left="44" width="897" height="46" font="font11" id="p1_t60" reading_order_no="101" segment_no="31" tag_type="footnote">tpami@computer.org,  and  reference  IEEECS  Log  Number  110536.</text>
+<text top="3119" left="364" width="389" height="34" font="font15" id="p1_t61" reading_order_no="102" segment_no="32" tag_type="text">0162-8828/01/$10.00  ©  2001  IEEE</text>
+<text top="85" left="1164" width="434" height="41" font="font16" id="p1_t62" reading_order_no="1" segment_no="1" tag_type="text">VOL.  23,  NO.  3,  MARCH  2001</text>
+<text top="87" left="2130" width="46" height="41" font="font16" id="p1_t63" reading_order_no="2" segment_no="2" tag_type="text">323</text>
+<text top="995" left="1138" width="840" height="41" font="font0" id="p1_t64" reading_order_no="53" segment_no="8" tag_type="text">Fig.  1.  Handwritten  word  image  before  and  after  skew  correction.</text>
+<text top="1087" left="1136" width="1044" height="48" font="font13" id="p1_t65" reading_order_no="54" segment_no="10" tag_type="text">low-level  features  [4],  [5],  [6],  [9]  (various  moments,  distribution  of</text>
+<text top="1130" left="1136" width="1042" height="54" font="font12" id="p1_t66" reading_order_no="55" segment_no="10" tag_type="text">slopes,  or  pixels  in  subregions  of  each  segment,  etc.)  will  change</text>
+<text top="1178" left="1137" width="203" height="50" font="font12" id="p1_t67" reading_order_no="56" segment_no="10" tag_type="text">only  slightly.</text>
+<text top="1295" left="1137" width="21" height="49" font="font8" id="p1_t68" reading_order_no="57" segment_no="13" tag_type="title">2</text>
+<text top="1295" left="1213" width="565" height="50" font="font8" id="p1_t69" reading_order_no="58" segment_no="13" tag_type="title">MATHEMATICAL  FORMULATION</text>
+<text top="1363" left="1137" width="1041" height="52" font="font8" id="p1_t70" reading_order_no="59" segment_no="14" tag_type="text">To  justify  the  above  claims,  let  us  consider  a  general  image  of  a</text>
+<text top="1413" left="1136" width="1043" height="53" font="font12" id="p1_t71" reading_order_no="60" segment_no="14" tag_type="text">handwritten  word  where  the  deviation  of  the  baseline  from  the</text>
+<text top="1466" left="1136" width="1044" height="52" font="font8" id="p1_t72" reading_order_no="61" segment_no="14" tag_type="text">horizontal  axis  is  a  and  the  deviation  of  the  average  direction  of</text>
+<text top="1517" left="1136" width="1043" height="52" font="font12" id="p1_t73" reading_order_no="62" segment_no="14" tag_type="text">near-vertical  strokes  from  the  line  perpendicular  to  the  baseline  is</text>
+<text top="1569" left="1137" width="1042" height="52" font="font12" id="p1_t74" reading_order_no="63" segment_no="14" tag_type="text">(—see  the  top  image  in  Fig.  3.  Assume  that  the  baseline  intersects</text>
+<text top="1620" left="1137" width="1042" height="53" font="font12" id="p1_t75" reading_order_no="64" segment_no="14" tag_type="text">the  origin  of  the  coordinate  system.  This  assumption  will  only</text>
+<text top="1672" left="1137" width="1041" height="53" font="font12" id="p1_t76" reading_order_no="65" segment_no="14" tag_type="text">simplify  our  formulas  and  has  certainly  no  effect  on  the  generality</text>
+<text top="1724" left="1137" width="218" height="49" font="font8" id="p1_t77" reading_order_no="66" segment_no="14" tag_type="text">of  our  results.</text>
+<text top="1801" left="1137" width="44" height="46" font="font11" id="p1_t78" reading_order_no="67" segment_no="16" tag_type="title">2.1.</text>
+<text top="1801" left="1238" width="221" height="46" font="font11" id="p1_t79" reading_order_no="68" segment_no="16" tag_type="title">First  Method</text>
+<text top="1858" left="1136" width="1041" height="50" font="font9" id="p1_t80" reading_order_no="69" segment_no="17" tag_type="text">Images  in  Fig.  3  show  the  individual  steps  of  the  first  (traditional)</text>
+<text top="1909" left="1137" width="1042" height="51" font="font8" id="p1_t81" reading_order_no="70" segment_no="17" tag_type="text">method  of  correcting  first  the  skew  angle  by  rotation  and  then  the</text>
+<text top="1961" left="1137" width="1040" height="50" font="font9" id="p1_t82" reading_order_no="71" segment_no="17" tag_type="text">slant  angle  by  shear  transformation  in  the  horizontal  direction.</text>
+<text top="2013" left="1136" width="1042" height="49" font="font9" id="p1_t83" reading_order_no="72" segment_no="17" tag_type="text">Given  a  point  (x,y),  its  new  coordinates  (a’,y/)  after  rotating  the</text>
+<text top="2064" left="1136" width="1010" height="51" font="font8" id="p1_t84" reading_order_no="73" segment_no="17" tag_type="text">entire  image  around  the  origin  by  angle  —a  (negative  a)  satisfy</text>
+<text top="2138" left="1714" width="195" height="111" font="font21" id="p1_t85" reading_order_no="74" segment_no="19" tag_type="formula">ee).</text>
+<text top="2257" left="1136" width="1043" height="52" font="font12" id="p1_t86" reading_order_no="75" segment_no="20" tag_type="text">After  shear-transforming  the  point  in  the  horizontal  direction  by</text>
+<text top="2307" left="1137" width="914" height="47" font="font13" id="p1_t87" reading_order_no="76" segment_no="20" tag_type="text">angle  —G  (negative  (),  its  new  coordinates  (”,y")  will  be</text>
+<text top="2298" left="1348" width="618" height="238" font="font22" id="p1_t88" reading_order_no="77" segment_no="21" tag_type="formula">@)-(  -PVG)-r6)</text>
+<text top="2582" left="1301" width="338" height="43" font="font10" id="p1_t89" reading_order_no="79" segment_no="24" tag_type="formula">T=  Teas  ators</text>
+<text top="2503" left="1136" width="96" height="42" font="font14" id="p1_t90" reading_order_no="78" segment_no="23" tag_type="text">where</text>
+<text top="2598" left="2138" width="38" height="62" font="font1" id="p1_t91" reading_order_no="83" segment_no="24" tag_type="text">(1)</text>
+<text top="2628" left="1491" width="99" height="39" font="font0" id="p1_t92" reading_order_no="81" segment_no="24" tag_type="formula">—sina</text>
+<text top="2583" left="1712" width="271" height="43" font="font10" id="p1_t93" reading_order_no="80" segment_no="24" tag_type="formula">sina  —  cosatan  G</text>
+<text top="2623" left="1810" width="73" height="46" font="font11" id="p1_t94" reading_order_no="82" segment_no="24" tag_type="formula">cos  @</text>
+<text top="2693" left="1136" width="1043" height="49" font="font8" id="p1_t95" reading_order_no="84" segment_no="25" tag_type="text">is  the  matrix  of  the  composition  of  rotation  and  shear</text>
+<text top="2738" left="1137" width="238" height="49" font="font8" id="p1_t96" reading_order_no="85" segment_no="25" tag_type="text">transformation.</text>
+<text top="2786" left="1186" width="992" height="48" font="font11" id="p1_t97" reading_order_no="86" segment_no="27" tag_type="text">Define  y=  -— a;  that  is,  y  is  the  deviation  of  the  average</text>
+<text top="2832" left="1136" width="1043" height="49" font="font8" id="p1_t98" reading_order_no="87" segment_no="27" tag_type="text">near-vertical  stroke  from  vertical  direction—see  Fig.  4.  Using  the</text>
+<text top="2881" left="1137" width="128" height="46" font="font11" id="p1_t99" reading_order_no="88" segment_no="27" tag_type="text">fact  that</text>
+<text top="2959" left="1326" width="491" height="49" font="font8" id="p1_t100" reading_order_no="89" segment_no="29" tag_type="formula">tan 6 —  tana  =  (1+  tanatan</text>
+<text top="2959" left="1780" width="207" height="49" font="font8" id="p1_t101" reading_order_no="90" segment_no="29" tag_type="formula">Z)  tan(3  —  a)</text>
+<text top="3014" left="1536" width="282" height="46" font="font11" id="p1_t102" reading_order_no="91" segment_no="29" tag_type="formula">=  (1+  tanatan</text>
+<text top="3014" left="1782" width="128" height="46" font="font11" id="p1_t103" reading_order_no="92" segment_no="29" tag_type="formula">#)  tany,</text>
 </page>
 </pdf2xml>

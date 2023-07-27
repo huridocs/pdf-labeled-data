@@ -10,177 +10,115 @@
 	<fontspec id="font6" size="9" family="AkzidenzGroteskBE-It,Italic" color="#000000"/>
 	<fontspec id="font7" size="9" family="SymbolMT" color="#000000"/>
 	<fontspec id="font8" size="8" family="AkzidenzGroteskBE-It,Italic" color="#000000"/>
-<text top="42" left="315" width="62" height="7" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title"><b>Available online</b></text>
-<text top="42" left="380" width="176" height="7" font="font2" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="title">http://breast-cancer-research.com/content/8/5/R56</text>
-<text top="758" left="511" width="45" height="7" font="font2" id="p1_t3" reading_order_no="170" segment_no="10" tag_type="text">Page 9 of 15</text>
-<text top="769" left="436" width="120" height="6" font="font3" id="p1_t4" reading_order_no="171" segment_no="11" tag_type="text"><i>(page number not for citation purposes)</i></text>
-<text top="238" left="57" width="224" height="8" font="font4" id="p1_t5" reading_order_no="25" segment_no="5" tag_type="title"><b>Enrichment of luminal and myoepithelial genes and </b></text>
-<text top="250" left="57" width="197" height="8" font="font4" id="p1_t6" reading_order_no="26" segment_no="5" tag_type="title"><b>gene sets in the differential tumour epithelial </b></text>
-<text top="261" left="57" width="60" height="8" font="font4" id="p1_t7" reading_order_no="27" segment_no="5" tag_type="title"><b>transcriptome</b></text>
-<text top="273" left="57" width="240" height="9" font="font5" id="p1_t8" reading_order_no="28" segment_no="7" tag_type="text">To identify functionally related gene sets of luminal or myoepi-</text>
-<text top="285" left="57" width="240" height="9" font="font5" id="p1_t9" reading_order_no="29" segment_no="7" tag_type="text">thelial phenotype within the DTET, GSEA was carried out on</text>
-<text top="297" left="57" width="240" height="9" font="font5" id="p1_t10" reading_order_no="30" segment_no="7" tag_type="text">the perturbed biological processes that were statistically sig-</text>
-<text top="308" left="57" width="34" height="9" font="font5" id="p1_t11" reading_order_no="31" segment_no="7" tag_type="text">nificant (</text>
-<text top="308" left="91" width="9" height="9" font="font6" id="p1_t12" reading_order_no="32" segment_no="7" tag_type="text"><i>P </i></text>
-<text top="306" left="100" width="5" height="11" font="font7" id="p1_t13" reading_order_no="33" segment_no="7" tag_type="text">≤</text>
-<text top="308" left="105" width="192" height="9" font="font5" id="p1_t14" reading_order_no="34" segment_no="7" tag_type="text"> 0.05) and composed of <a href="">at least 10 genes [31].</a></text>
-<text top="320" left="57" width="240" height="9" font="font5" id="p1_t15" reading_order_no="35" segment_no="7" tag_type="text">This resulted in a total of 72 gene sets, 53 and 19 for the up-</text>
-<text top="332" left="57" width="240" height="9" font="font5" id="p1_t16" reading_order_no="36" segment_no="7" tag_type="text">and down-regulated modules, respectively (Additional file 8).</text>
-<text top="344" left="57" width="240" height="9" font="font5" id="p1_t17" reading_order_no="37" segment_no="7" tag_type="text">In the top 20, four categories showed enrichment of genes</text>
-<text top="355" left="57" width="240" height="9" font="font5" id="p1_t18" reading_order_no="38" segment_no="7" tag_type="text">belonging to our luminal transcriptome, including protein mod-</text>
-<text top="367" left="57" width="240" height="9" font="font5" id="p1_t19" reading_order_no="39" segment_no="7" tag_type="text">ification (GO:0006464), cell motility (GO:0006928) and pro-</text>
-<text top="379" left="57" width="240" height="9" font="font5" id="p1_t20" reading_order_no="40" segment_no="7" tag_type="text">tein dephosphorylation (GO:0006470), as down-regulated</text>
-<text top="391" left="57" width="240" height="9" font="font5" id="p1_t21" reading_order_no="41" segment_no="7" tag_type="text">modules, as well as antimicrobial immune response</text>
-<text top="402" left="57" width="240" height="9" font="font5" id="p1_t22" reading_order_no="42" segment_no="7" tag_type="text">(GO:0019735) as an up-regulated <a href="">one (Figure 4a). </a>Overall,</text>
-<text top="414" left="57" width="240" height="9" font="font5" id="p1_t23" reading_order_no="43" segment_no="7" tag_type="text">GSEA analysis showed marked enrichment for the expression</text>
-<text top="426" left="57" width="240" height="9" font="font5" id="p1_t24" reading_order_no="44" segment_no="7" tag_type="text">of myoepithelial genes in the functional groups of the tumour</text>
-<text top="438" left="57" width="240" height="9" font="font5" id="p1_t25" reading_order_no="45" segment_no="7" tag_type="text">overexpressed transcripts compared to the luminal epithelial</text>
-<text top="449" left="57" width="240" height="9" font="font5" id="p1_t26" reading_order_no="46" segment_no="7" tag_type="text">transcriptome (Figur<a href="">e 4a</a>). The gene set with the most statisti-</text>
-<text top="461" left="57" width="240" height="9" font="font5" id="p1_t27" reading_order_no="47" segment_no="7" tag_type="text">cally significant representation of myoepithelial type genes</text>
-<text top="473" left="57" width="240" height="9" font="font5" id="p1_t28" reading_order_no="48" segment_no="7" tag_type="text">consisted of members of the collagenase family</text>
-<text top="485" left="57" width="102" height="9" font="font5" id="p1_t29" reading_order_no="49" segment_no="7" tag_type="text">(GO:0006817), with </text>
-<text top="485" left="159" width="36" height="9" font="font6" id="p1_t30" reading_order_no="50" segment_no="7" tag_type="text"><i>COL3A1</i></text>
-<text top="485" left="195" width="5" height="9" font="font5" id="p1_t31" reading_order_no="51" segment_no="7" tag_type="text">, </text>
-<text top="485" left="209" width="36" height="9" font="font6" id="p1_t32" reading_order_no="52" segment_no="7" tag_type="text"><i>COL6A1</i></text>
-<text top="485" left="245" width="5" height="9" font="font5" id="p1_t33" reading_order_no="53" segment_no="7" tag_type="text">, </text>
-<text top="485" left="259" width="36" height="9" font="font6" id="p1_t34" reading_order_no="54" segment_no="7" tag_type="text"><i>COL1A1</i></text>
-<text top="485" left="295" width="2" height="9" font="font5" id="p1_t35" reading_order_no="55" segment_no="7" tag_type="text">,</text>
-<text top="496" left="57" width="42" height="9" font="font6" id="p1_t36" reading_order_no="56" segment_no="7" tag_type="text"><i>COL5A12</i></text>
-<text top="496" left="99" width="5" height="9" font="font5" id="p1_t37" reading_order_no="57" segment_no="7" tag_type="text">, </text>
-<text top="496" left="103" width="42" height="9" font="font6" id="p1_t38" reading_order_no="58" segment_no="7" tag_type="text"><i>COL15A2</i></text>
-<text top="496" left="145" width="5" height="9" font="font5" id="p1_t39" reading_order_no="59" segment_no="7" tag_type="text">, </text>
-<text top="496" left="149" width="39" height="9" font="font6" id="p1_t40" reading_order_no="60" segment_no="7" tag_type="text"><i>COL1A1 </i></text>
-<text top="496" left="187" width="17" height="9" font="font5" id="p1_t41" reading_order_no="61" segment_no="7" tag_type="text">and </text>
-<text top="496" left="204" width="45" height="9" font="font6" id="p1_t42" reading_order_no="62" segment_no="7" tag_type="text"><i>COL12A1 </i></text>
-<text top="496" left="248" width="49" height="9" font="font5" id="p1_t43" reading_order_no="63" segment_no="7" tag_type="text">representing</text>
-<text top="508" left="57" width="240" height="9" font="font5" id="p1_t44" reading_order_no="64" segment_no="7" tag_type="text">the discriminator genes. The second most statistically signifi-</text>
-<text top="520" left="57" width="240" height="9" font="font5" id="p1_t45" reading_order_no="65" segment_no="7" tag_type="text">cant enrichment of expression in myoepithelial type genes with</text>
-<text top="532" left="57" width="240" height="9" font="font5" id="p1_t46" reading_order_no="66" segment_no="7" tag_type="text">higher abundance in the malignant breast epithelium was</text>
-<text top="543" left="57" width="240" height="9" font="font5" id="p1_t47" reading_order_no="67" segment_no="7" tag_type="text">found in the functional category of skeletal development</text>
-<text top="555" left="57" width="240" height="9" font="font5" id="p1_t48" reading_order_no="68" segment_no="7" tag_type="text">(GO:0001<a href="">501; Figure 4a,b). This</a> set of bone related genes</text>
-<text top="567" left="57" width="36" height="9" font="font5" id="p1_t49" reading_order_no="69" segment_no="7" tag_type="text">included </text>
-<text top="567" left="95" width="36" height="9" font="font6" id="p1_t50" reading_order_no="70" segment_no="7" tag_type="text"><i>COL1A2</i></text>
-<text top="567" left="132" width="5" height="9" font="font5" id="p1_t51" reading_order_no="71" segment_no="7" tag_type="text">, </text>
-<text top="567" left="139" width="36" height="9" font="font6" id="p1_t52" reading_order_no="72" segment_no="7" tag_type="text"><i>COL1A1</i></text>
-<text top="567" left="175" width="5" height="9" font="font5" id="p1_t53" reading_order_no="73" segment_no="7" tag_type="text">, </text>
-<text top="567" left="183" width="20" height="9" font="font6" id="p1_t54" reading_order_no="74" segment_no="7" tag_type="text"><i>GHR</i></text>
-<text top="567" left="203" width="5" height="9" font="font5" id="p1_t55" reading_order_no="75" segment_no="7" tag_type="text">, </text>
-<text top="567" left="210" width="42" height="9" font="font6" id="p1_t56" reading_order_no="76" segment_no="7" tag_type="text"><i>COL12A1</i></text>
-<text top="567" left="252" width="5" height="9" font="font5" id="p1_t57" reading_order_no="77" segment_no="7" tag_type="text">, </text>
-<text top="567" left="259" width="36" height="9" font="font6" id="p1_t58" reading_order_no="78" segment_no="7" tag_type="text"><i>PAPSS2</i></text>
-<text top="567" left="295" width="2" height="9" font="font5" id="p1_t59" reading_order_no="79" segment_no="7" tag_type="text">,</text>
-<text top="579" left="57" width="22" height="9" font="font6" id="p1_t60" reading_order_no="80" segment_no="7" tag_type="text"><i>TBX3</i></text>
-<text top="579" left="79" width="5" height="9" font="font5" id="p1_t61" reading_order_no="81" segment_no="7" tag_type="text">, </text>
-<text top="579" left="84" width="23" height="9" font="font6" id="p1_t62" reading_order_no="82" segment_no="7" tag_type="text"><i>FRZB</i></text>
-<text top="579" left="108" width="5" height="9" font="font5" id="p1_t63" reading_order_no="83" segment_no="7" tag_type="text">, </text>
-<text top="579" left="113" width="22" height="9" font="font6" id="p1_t64" reading_order_no="84" segment_no="7" tag_type="text"><i>EXT1</i></text>
-<text top="579" left="134" width="5" height="9" font="font5" id="p1_t65" reading_order_no="85" segment_no="7" tag_type="text">, </text>
-<text top="579" left="139" width="25" height="9" font="font6" id="p1_t66" reading_order_no="86" segment_no="7" tag_type="text"><i>MSX1</i></text>
-<text top="579" left="164" width="5" height="9" font="font5" id="p1_t67" reading_order_no="87" segment_no="7" tag_type="text">, </text>
-<text top="579" left="169" width="18" height="9" font="font6" id="p1_t68" reading_order_no="88" segment_no="7" tag_type="text"><i>EN1</i></text>
-<text top="579" left="187" width="5" height="9" font="font5" id="p1_t69" reading_order_no="89" segment_no="7" tag_type="text">, </text>
-<text top="579" left="192" width="36" height="9" font="font6" id="p1_t70" reading_order_no="90" segment_no="7" tag_type="text"><i>TWIST1 </i></text>
-<text top="579" left="229" width="17" height="9" font="font5" id="p1_t71" reading_order_no="91" segment_no="7" tag_type="text">and </text>
-<text top="579" left="246" width="30" height="9" font="font6" id="p1_t72" reading_order_no="92" segment_no="7" tag_type="text"><i>AEBP1</i></text>
-<text top="579" left="276" width="21" height="9" font="font5" id="p1_t73" reading_order_no="93" segment_no="7" tag_type="text">, with</text>
-<text top="590" left="57" width="34" height="9" font="font6" id="p1_t74" reading_order_no="94" segment_no="7" tag_type="text"><i>POSTN </i></text>
-<text top="590" left="91" width="206" height="9" font="font5" id="p1_t75" reading_order_no="95" segment_no="7" tag_type="text">being the most prominent discriminator of this gene</text>
-<text top="602" left="57" width="60" height="9" font="font5" id="p1_t76" reading_order_no="96" segment_no="7" tag_type="text">set (Figur<a href="">e 4b).</a></text>
-<text top="626" left="57" width="236" height="8" font="font4" id="p1_t77" reading_order_no="97" segment_no="8" tag_type="title"><b>Clinical significance of POSTN using tissue microarray </b></text>
-<text top="637" left="57" width="35" height="8" font="font4" id="p1_t78" reading_order_no="98" segment_no="8" tag_type="title"><b>analysis</b></text>
-<text top="649" left="57" width="240" height="9" font="font5" id="p1_t79" reading_order_no="99" segment_no="9" tag_type="text">To evaluate whether the luminal and myoepithelial annotations</text>
-<text top="661" left="57" width="240" height="9" font="font5" id="p1_t80" reading_order_no="100" segment_no="9" tag_type="text">of our epithelial deregulated transcriptome identify genes with</text>
-<text top="673" left="57" width="240" height="9" font="font5" id="p1_t81" reading_order_no="101" segment_no="9" tag_type="text">any correlation with clinical outcome in breast cancer, we per-</text>
-<text top="684" left="57" width="240" height="9" font="font5" id="p1_t82" reading_order_no="102" segment_no="9" tag_type="text">formed immunohistochemical analysis POSTN on a tissue</text>
-<text top="696" left="57" width="240" height="9" font="font5" id="p1_t83" reading_order_no="103" segment_no="9" tag_type="text">microarray consisting of 245 primary breast tumours. POSTN,</text>
-<text top="708" left="57" width="240" height="9" font="font5" id="p1_t84" reading_order_no="104" segment_no="9" tag_type="text">usually expressed in mesenchymal cells, was chosen, not only</text>
-<text top="720" left="57" width="240" height="9" font="font5" id="p1_t85" reading_order_no="105" segment_no="9" tag_type="text">because it was one of the most highly differentially expressed</text>
-<text top="238" left="315" width="240" height="9" font="font5" id="p1_t86" reading_order_no="106" segment_no="6" tag_type="text">genes in normal myoepithelial cells over all microarray plat-</text>
-<text top="250" left="315" width="240" height="9" font="font5" id="p1_t87" reading_order_no="107" segment_no="6" tag_type="text">forms <a href="">(Figure 3), bu</a>t also because it belongs to the functional</text>
-<text top="261" left="315" width="240" height="9" font="font5" id="p1_t88" reading_order_no="108" segment_no="6" tag_type="text">group of skeletal development that showed overall myoepithe-</text>
-<text top="273" left="315" width="240" height="9" font="font5" id="p1_t89" reading_order_no="109" segment_no="6" tag_type="text">lial-specificity and up-regulation in the malignant breast epithe-</text>
-<text top="285" left="315" width="240" height="9" font="font5" id="p1_t90" reading_order_no="110" segment_no="6" tag_type="text">lium (Figur<a href="">e 4b)</a>. When POSTN expression was examined at</text>
-<text top="297" left="315" width="240" height="9" font="font5" id="p1_t91" reading_order_no="111" segment_no="6" tag_type="text">the protein level, no detectable expression was observed in</text>
-<text top="308" left="315" width="240" height="9" font="font5" id="p1_t92" reading_order_no="112" segment_no="6" tag_type="text">the normal breast epithelium, but only in the stroma, in</text>
-<text top="320" left="315" width="240" height="9" font="font5" id="p1_t93" reading_order_no="113" segment_no="6" tag_type="text">concordance with its known mesenchymal expression (not</text>
-<text top="332" left="315" width="240" height="9" font="font5" id="p1_t94" reading_order_no="114" segment_no="6" tag_type="text">shown). However, 42/224 (18.75%) invasive breast carcino-</text>
-<text top="344" left="315" width="240" height="9" font="font5" id="p1_t95" reading_order_no="115" segment_no="6" tag_type="text">mas clearly showed epithelial expression (Figur<a href="">e 5a)</a>, whereas</text>
-<text top="355" left="315" width="240" height="9" font="font5" id="p1_t96" reading_order_no="116" segment_no="6" tag_type="text">the remainder showed the expected expression pattern only in</text>
-<text top="367" left="315" width="240" height="9" font="font5" id="p1_t97" reading_order_no="117" segment_no="6" tag_type="text">the stroma (Figur<a href="">e 5b). P</a>OSTN expression in neoplastic cells</text>
-<text top="379" left="315" width="240" height="9" font="font5" id="p1_t98" reading_order_no="118" segment_no="6" tag_type="text">was significantly correlated with positivity for progesterone</text>
-<text top="391" left="315" width="58" height="9" font="font5" id="p1_t99" reading_order_no="119" segment_no="6" tag_type="text">receptor (PR) (</text>
-<text top="391" left="373" width="9" height="9" font="font6" id="p1_t100" reading_order_no="120" segment_no="6" tag_type="text"><i>P </i></text>
-<text top="391" left="381" width="174" height="9" font="font5" id="p1_t101" reading_order_no="121" segment_no="6" tag_type="text">&lt; 0.05) and low proliferation rates as defined</text>
-<text top="402" left="315" width="99" height="9" font="font5" id="p1_t102" reading_order_no="122" segment_no="6" tag_type="text">by Ki67 (MIB1) staining (</text>
-<text top="402" left="414" width="9" height="9" font="font6" id="p1_t103" reading_order_no="123" segment_no="6" tag_type="text"><i>P </i></text>
-<text top="402" left="423" width="133" height="9" font="font5" id="p1_t104" reading_order_no="124" segment_no="6" tag_type="text">&lt; 0.05) (Additional file 10). When</text>
-<text top="414" left="315" width="240" height="9" font="font5" id="p1_t105" reading_order_no="125" segment_no="6" tag_type="text">the whole cohort was analysed, POSTN-positive breast can-</text>
-<text top="426" left="315" width="240" height="9" font="font5" id="p1_t106" reading_order_no="126" segment_no="6" tag_type="text">cers showed a trend towards a poorer outcome, although this</text>
-<text top="438" left="315" width="240" height="9" font="font5" id="p1_t107" reading_order_no="127" segment_no="6" tag_type="text">did not reach statistical significance (Additional file 11a,b).</text>
-<text top="449" left="315" width="240" height="9" font="font5" id="p1_t108" reading_order_no="128" segment_no="6" tag_type="text">Since the estrogen receptor (ER) status is the most important</text>
-<text top="461" left="315" width="240" height="9" font="font5" id="p1_t109" reading_order_no="129" segment_no="6" tag_type="text">marker in defining the prognosis and treatment of breast can-</text>
-<text top="473" left="315" width="240" height="9" font="font5" id="p1_t110" reading_order_no="130" segment_no="6" tag_type="text">cer, the correlation of POSTN expression with overall survival</text>
-<text top="485" left="315" width="240" height="9" font="font5" id="p1_t111" reading_order_no="131" segment_no="6" tag_type="text">and disease free survival was analysed in ER-positive and ER-</text>
-<text top="496" left="315" width="240" height="9" font="font5" id="p1_t112" reading_order_no="132" segment_no="6" tag_type="text">negative subgroups. No significant correlation was observed</text>
-<text top="508" left="315" width="241" height="9" font="font5" id="p1_t113" reading_order_no="133" segment_no="6" tag_type="text">in the ER-negative cohort. However, within the ER-positive</text>
-<text top="520" left="315" width="241" height="9" font="font5" id="p1_t114" reading_order_no="134" segment_no="6" tag_type="text">subgroup, 20.8% (37/178) of breast tumours were positive</text>
-<text top="532" left="315" width="240" height="9" font="font5" id="p1_t115" reading_order_no="135" segment_no="6" tag_type="text">and there was a significant correlation with both overall sur-</text>
-<text top="543" left="315" width="22" height="9" font="font5" id="p1_t116" reading_order_no="136" segment_no="6" tag_type="text">vival (</text>
-<text top="543" left="337" width="9" height="9" font="font6" id="p1_t117" reading_order_no="137" segment_no="6" tag_type="text"><i>P </i></text>
-<text top="543" left="345" width="143" height="9" font="font5" id="p1_t118" reading_order_no="138" segment_no="6" tag_type="text">= 0.0083) and disease-free survival (</text>
-<text top="543" left="488" width="9" height="9" font="font6" id="p1_t119" reading_order_no="139" segment_no="6" tag_type="text"><i>P </i></text>
-<text top="543" left="496" width="60" height="9" font="font5" id="p1_t120" reading_order_no="140" segment_no="6" tag_type="text">= 0.0136) (Fig-</text>
-<text top="555" left="315" width="240" height="9" font="font5" id="p1_t121" reading_order_no="141" segment_no="6" tag_type="text">ur<a href="">e 6a,b, r</a>espectively). In this cohort, modified Bloom-</text>
-<text top="567" left="315" width="75" height="9" font="font5" id="p1_t122" reading_order_no="142" segment_no="6" tag_type="text">Richardson grade (</text>
-<text top="567" left="391" width="9" height="9" font="font6" id="p1_t123" reading_order_no="143" segment_no="6" tag_type="text"><i>P </i></text>
-<text top="567" left="399" width="156" height="9" font="font5" id="p1_t124" reading_order_no="144" segment_no="6" tag_type="text">&lt; 0.01), lymph node status at diagnosis</text>
-<text top="579" left="315" width="3" height="9" font="font5" id="p1_t125" reading_order_no="145" segment_no="6" tag_type="text">(</text>
-<text top="579" left="318" width="9" height="9" font="font6" id="p1_t126" reading_order_no="146" segment_no="6" tag_type="text"><i>P </i></text>
-<text top="579" left="327" width="137" height="9" font="font5" id="p1_t127" reading_order_no="147" segment_no="6" tag_type="text">&lt; 0.005) and POSTN expression (</text>
-<text top="579" left="464" width="9" height="9" font="font6" id="p1_t128" reading_order_no="148" segment_no="6" tag_type="text"><i>P </i></text>
-<text top="579" left="473" width="83" height="9" font="font5" id="p1_t129" reading_order_no="149" segment_no="6" tag_type="text">&lt; 0.05) were statisti-</text>
-<text top="590" left="315" width="241" height="9" font="font5" id="p1_t130" reading_order_no="150" segment_no="6" tag_type="text">cally significant predictors of disease-free survival in univariate</text>
-<text top="602" left="315" width="225" height="9" font="font5" id="p1_t131" reading_order_no="151" segment_no="6" tag_type="text">analysis, whereas only lymph node status at diagnosis (</text>
-<text top="602" left="540" width="9" height="9" font="font6" id="p1_t132" reading_order_no="152" segment_no="6" tag_type="text"><i>P </i></text>
-<text top="602" left="550" width="6" height="9" font="font5" id="p1_t133" reading_order_no="153" segment_no="6" tag_type="text">&lt;</text>
-<text top="614" left="315" width="131" height="9" font="font5" id="p1_t134" reading_order_no="154" segment_no="6" tag_type="text">0.001) and POSTN expression (</text>
-<text top="614" left="446" width="9" height="9" font="font6" id="p1_t135" reading_order_no="155" segment_no="6" tag_type="text"><i>P </i></text>
-<text top="614" left="456" width="100" height="9" font="font5" id="p1_t136" reading_order_no="156" segment_no="6" tag_type="text">&lt; 0.01) were associated</text>
-<text top="626" left="315" width="240" height="9" font="font5" id="p1_t137" reading_order_no="157" segment_no="6" tag_type="text">with overall survival in univariate analysis. By multivariate anal-</text>
-<text top="637" left="315" width="240" height="9" font="font5" id="p1_t138" reading_order_no="158" segment_no="6" tag_type="text">ysis of disease-free survival in the ER-positive cohort, POSTN</text>
-<text top="649" left="315" width="240" height="9" font="font5" id="p1_t139" reading_order_no="159" segment_no="6" tag_type="text">did not reach formal statistical significance as an independent</text>
-<text top="661" left="315" width="28" height="9" font="font5" id="p1_t140" reading_order_no="160" segment_no="6" tag_type="text">factor (</text>
-<text top="661" left="343" width="9" height="9" font="font6" id="p1_t141" reading_order_no="161" segment_no="6" tag_type="text"><i>P </i></text>
-<text top="661" left="351" width="205" height="9" font="font5" id="p1_t142" reading_order_no="162" segment_no="6" tag_type="text">= 0.0833<a href="">) (Table 2, </a>italics), although it did constitute</text>
-<text top="673" left="315" width="223" height="9" font="font5" id="p1_t143" reading_order_no="163" segment_no="6" tag_type="text">an independent prognostic factor for overall survival (</text>
-<text top="673" left="539" width="9" height="9" font="font6" id="p1_t144" reading_order_no="164" segment_no="6" tag_type="text"><i>P </i></text>
-<text top="673" left="550" width="6" height="9" font="font5" id="p1_t145" reading_order_no="165" segment_no="6" tag_type="text">=</text>
-<text top="684" left="315" width="240" height="9" font="font5" id="p1_t146" reading_order_no="166" segment_no="6" tag_type="text">0.0<a href="">168) (Table 2, bold). Two ot</a>her genes that showed up-reg-</text>
-<text top="696" left="315" width="240" height="9" font="font5" id="p1_t147" reading_order_no="167" segment_no="6" tag_type="text">ulation in the malignant breast epithelium were also analysed</text>
-<text top="708" left="315" width="240" height="9" font="font5" id="p1_t148" reading_order_no="168" segment_no="6" tag_type="text">on the protein level by tissue microarray, namely those encod-</text>
-<text top="720" left="315" width="241" height="9" font="font5" id="p1_t149" reading_order_no="169" segment_no="6" tag_type="text">ing COMP<a href=""> [38],</a> a skeletal developmental protein that was not</text>
-<text top="85" left="57" width="28" height="7" font="font0" id="p1_t150" reading_order_no="2" segment_no="1" tag_type="title"><b>Table 2</b></text>
-<text top="104" left="57" width="158" height="7" font="font0" id="p1_t151" reading_order_no="3" segment_no="2" tag_type="text"><b>Multivariant proportional-hazard analysis</b></text>
-<text top="123" left="123" width="35" height="7" font="font2" id="p1_t152" reading_order_no="4" segment_no="3" tag_type="table">Parameter</text>
-<text top="123" left="241" width="131" height="7" font="font2" id="p1_t153" reading_order_no="5" segment_no="3" tag_type="table">Hazard ratio (95% confidence interval)</text>
-<text top="123" left="460" width="8" height="7" font="font8" id="p1_t154" reading_order_no="6" segment_no="3" tag_type="table"><i>P </i></text>
-<text top="123" left="467" width="19" height="7" font="font2" id="p1_t155" reading_order_no="7" segment_no="3" tag_type="table">(Cox)</text>
-<text top="139" left="129" width="21" height="7" font="font8" id="p1_t156" reading_order_no="8" segment_no="3" tag_type="table"><i>Grade</i></text>
-<text top="139" left="262" width="88" height="7" font="font8" id="p1_t157" reading_order_no="9" segment_no="3" tag_type="table"><i>2.6434 (1.3935–5.0144)</i></text>
-<text top="139" left="460" width="25" height="7" font="font8" id="p1_t158" reading_order_no="10" segment_no="3" tag_type="table"><i>0.0029</i></text>
-<text top="154" left="124" width="33" height="7" font="font8" id="p1_t159" reading_order_no="11" segment_no="3" tag_type="table"><i>LN status</i></text>
-<text top="154" left="262" width="88" height="7" font="font8" id="p1_t160" reading_order_no="12" segment_no="3" tag_type="table"><i>3.6408 (1.5264–8.6840)</i></text>
-<text top="154" left="460" width="25" height="7" font="font8" id="p1_t161" reading_order_no="13" segment_no="3" tag_type="table"><i>0.0036</i></text>
-<text top="170" left="126" width="27" height="7" font="font8" id="p1_t162" reading_order_no="14" segment_no="3" tag_type="table"><i>POSTN</i></text>
-<text top="170" left="262" width="88" height="7" font="font8" id="p1_t163" reading_order_no="15" segment_no="3" tag_type="table"><i>1.8099 (0.9247–3.5422)</i></text>
-<text top="170" left="460" width="25" height="7" font="font8" id="p1_t164" reading_order_no="16" segment_no="3" tag_type="table"><i>0.0833</i></text>
-<text top="185" left="123" width="34" height="7" font="font1" id="p1_t165" reading_order_no="17" segment_no="3" tag_type="table"><b>LN status</b></text>
-<text top="185" left="262" width="89" height="7" font="font1" id="p1_t166" reading_order_no="18" segment_no="3" tag_type="table"><b>5.6924 (1.3331–24.3076)</b></text>
-<text top="185" left="461" width="24" height="7" font="font1" id="p1_t167" reading_order_no="19" segment_no="3" tag_type="table"><b>0.0189</b></text>
-<text top="201" left="127" width="27" height="7" font="font1" id="p1_t168" reading_order_no="20" segment_no="3" tag_type="table"><b>POSTN</b></text>
-<text top="201" left="264" width="85" height="7" font="font1" id="p1_t169" reading_order_no="21" segment_no="3" tag_type="table"><b>2.8151 (1.2048–6.5775)</b></text>
-<text top="201" left="461" width="24" height="7" font="font1" id="p1_t170" reading_order_no="22" segment_no="3" tag_type="table"><b>0.0168</b></text>
-<text top="217" left="61" width="484" height="7" font="font2" id="p1_t171" reading_order_no="23" segment_no="4" tag_type="text">The tissue microarray cohort was analysed using the Cox proportional hazards model for disease-free survival (italic) and overall survival (bold). </text>
-<text top="225" left="61" width="480" height="7" font="font2" id="p1_t172" reading_order_no="24" segment_no="4" tag_type="text">Only those statistically significant independent prognostic factors as determined by the model are shown. LN, lymph node status at diagnosis.</text>
+<text top="42" left="315" width="241" height="7" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">Available online http://breast-cancer-research.com/content/8/5/R56<b>Available online</b></text>
+<text top="758" left="511" width="45" height="7" font="font2" id="p1_t2" reading_order_no="108" segment_no="10" tag_type="text">Page 9 of 15</text>
+<text top="769" left="436" width="120" height="6" font="font3" id="p1_t3" reading_order_no="109" segment_no="11" tag_type="text">(page number not for citation purposes)</text>
+<text top="238" left="57" width="224" height="8" font="font4" id="p1_t4" reading_order_no="23" segment_no="5" tag_type="title">Enrichment of luminal and myoepithelial genes and<i>(page number not for citation purposes)</i></text>
+<text top="250" left="57" width="197" height="8" font="font4" id="p1_t5" reading_order_no="24" segment_no="5" tag_type="title">gene sets in the differential tumour epithelial<b>Enrichment of luminal and myoepithelial genes and </b></text>
+<text top="261" left="57" width="60" height="8" font="font4" id="p1_t6" reading_order_no="25" segment_no="5" tag_type="title">transcriptome<b>gene sets in the differential tumour epithelial </b></text>
+<text top="273" left="57" width="240" height="9" font="font5" id="p1_t7" reading_order_no="26" segment_no="7" tag_type="text">To identify functionally related gene sets of luminal or myoepi-<b>transcriptome</b></text>
+<text top="285" left="57" width="240" height="9" font="font5" id="p1_t8" reading_order_no="27" segment_no="7" tag_type="text">thelial phenotype within the DTET, GSEA was carried out on</text>
+<text top="297" left="57" width="240" height="9" font="font5" id="p1_t9" reading_order_no="28" segment_no="7" tag_type="text">the perturbed biological processes that were statistically sig-</text>
+<text top="306" left="57" width="240" height="11" font="font5" id="p1_t10" reading_order_no="29" segment_no="7" tag_type="text">nificant ( P ≤ 0.05) and composed of at least 10 genes [31].</text>
+<text top="320" left="57" width="240" height="9" font="font5" id="p1_t11" reading_order_no="30" segment_no="7" tag_type="text">This resulted in a total of 72 gene sets, 53 and 19 for the up-</text>
+<text top="332" left="57" width="240" height="9" font="font5" id="p1_t12" reading_order_no="31" segment_no="7" tag_type="text">and down-regulated modules, respectively (Additional file 8).<i>P </i></text>
+<text top="344" left="57" width="240" height="9" font="font5" id="p1_t13" reading_order_no="32" segment_no="7" tag_type="text">In the top 20, four categories showed enrichment of genes</text>
+<text top="355" left="57" width="240" height="9" font="font5" id="p1_t14" reading_order_no="33" segment_no="7" tag_type="text">belonging to our luminal transcriptome, including protein mod-<a href="">at least 10 genes [31].</a></text>
+<text top="367" left="57" width="240" height="9" font="font5" id="p1_t15" reading_order_no="34" segment_no="7" tag_type="text">ification (GO:0006464), cell motility (GO:0006928) and pro-</text>
+<text top="379" left="57" width="240" height="9" font="font5" id="p1_t16" reading_order_no="35" segment_no="7" tag_type="text">tein dephosphorylation (GO:0006470), as down-regulated</text>
+<text top="391" left="57" width="240" height="9" font="font5" id="p1_t17" reading_order_no="36" segment_no="7" tag_type="text">modules, as well as antimicrobial immune response</text>
+<text top="402" left="57" width="240" height="9" font="font5" id="p1_t18" reading_order_no="37" segment_no="7" tag_type="text">(GO:0019735) as an up-regulated one (Figure 4a). Overall,</text>
+<text top="414" left="57" width="240" height="9" font="font5" id="p1_t19" reading_order_no="38" segment_no="7" tag_type="text">GSEA analysis showed marked enrichment for the expression</text>
+<text top="426" left="57" width="240" height="9" font="font5" id="p1_t20" reading_order_no="39" segment_no="7" tag_type="text">of myoepithelial genes in the functional groups of the tumour</text>
+<text top="438" left="57" width="240" height="9" font="font5" id="p1_t21" reading_order_no="40" segment_no="7" tag_type="text">overexpressed transcripts compared to the luminal epithelial</text>
+<text top="449" left="57" width="240" height="9" font="font5" id="p1_t22" reading_order_no="41" segment_no="7" tag_type="text">transcriptome (Figure 4a). The gene set with the most statisti-<a href="">one (Figure 4a). </a>Overall,</text>
+<text top="461" left="57" width="240" height="9" font="font5" id="p1_t23" reading_order_no="42" segment_no="7" tag_type="text">cally significant representation of myoepithelial type genes</text>
+<text top="473" left="57" width="240" height="9" font="font5" id="p1_t24" reading_order_no="43" segment_no="7" tag_type="text">consisted of members of the collagenase family</text>
+<text top="485" left="57" width="143" height="9" font="font5" id="p1_t25" reading_order_no="44" segment_no="7" tag_type="text">(GO:0006817), with COL3A1 ,</text>
+<text top="485" left="209" width="41" height="9" font="font6" id="p1_t26" reading_order_no="45" segment_no="7" tag_type="text">COL6A1 ,<a href="">e 4a</a>). The gene set with the most statisti-</text>
+<text top="485" left="259" width="38" height="9" font="font6" id="p1_t27" reading_order_no="46" segment_no="7" tag_type="text">COL1A1 ,</text>
+<text top="496" left="57" width="240" height="9" font="font6" id="p1_t28" reading_order_no="47" segment_no="7" tag_type="text">COL5A12 , COL15A2 , COL1A1 and COL12A1 representing</text>
+<text top="508" left="57" width="240" height="9" font="font5" id="p1_t29" reading_order_no="48" segment_no="7" tag_type="text">the discriminator genes. The second most statistically signifi-</text>
+<text top="520" left="57" width="240" height="9" font="font5" id="p1_t30" reading_order_no="49" segment_no="7" tag_type="text">cant enrichment of expression in myoepithelial type genes with<i>COL3A1</i></text>
+<text top="532" left="57" width="240" height="9" font="font5" id="p1_t31" reading_order_no="50" segment_no="7" tag_type="text">higher abundance in the malignant breast epithelium was</text>
+<text top="543" left="57" width="240" height="9" font="font5" id="p1_t32" reading_order_no="51" segment_no="7" tag_type="text">found in the functional category of skeletal development<i>COL6A1</i></text>
+<text top="555" left="57" width="240" height="9" font="font5" id="p1_t33" reading_order_no="52" segment_no="7" tag_type="text">(GO:0001501; Figure 4a,b). This set of bone related genes</text>
+<text top="567" left="57" width="240" height="9" font="font5" id="p1_t34" reading_order_no="53" segment_no="7" tag_type="text">included COL1A2 , COL1A1 , GHR , COL12A1 , PAPSS2 ,<i>COL1A1</i></text>
+<text top="579" left="57" width="240" height="9" font="font6" id="p1_t35" reading_order_no="54" segment_no="7" tag_type="text">TBX3 , FRZB , EXT1 , MSX1 , EN1 , TWIST1 and AEBP1 , with</text>
+<text top="590" left="57" width="240" height="9" font="font6" id="p1_t36" reading_order_no="55" segment_no="7" tag_type="text">POSTN being the most prominent discriminator of this gene<i>COL5A12</i></text>
+<text top="602" left="57" width="60" height="9" font="font5" id="p1_t37" reading_order_no="56" segment_no="7" tag_type="text">set (Figure 4b).</text>
+<text top="626" left="57" width="236" height="8" font="font4" id="p1_t38" reading_order_no="57" segment_no="8" tag_type="title">Clinical significance of POSTN using tissue microarray<i>COL15A2</i></text>
+<text top="637" left="57" width="35" height="8" font="font4" id="p1_t39" reading_order_no="58" segment_no="8" tag_type="title">analysis</text>
+<text top="649" left="57" width="240" height="9" font="font5" id="p1_t40" reading_order_no="59" segment_no="9" tag_type="text">To evaluate whether the luminal and myoepithelial annotations<i>COL1A1 </i></text>
+<text top="661" left="57" width="240" height="9" font="font5" id="p1_t41" reading_order_no="60" segment_no="9" tag_type="text">of our epithelial deregulated transcriptome identify genes with</text>
+<text top="673" left="57" width="240" height="9" font="font5" id="p1_t42" reading_order_no="61" segment_no="9" tag_type="text">any correlation with clinical outcome in breast cancer, we per-<i>COL12A1 </i></text>
+<text top="684" left="57" width="240" height="9" font="font5" id="p1_t43" reading_order_no="62" segment_no="9" tag_type="text">formed immunohistochemical analysis POSTN on a tissue</text>
+<text top="696" left="57" width="240" height="9" font="font5" id="p1_t44" reading_order_no="63" segment_no="9" tag_type="text">microarray consisting of 245 primary breast tumours. POSTN,</text>
+<text top="708" left="57" width="240" height="9" font="font5" id="p1_t45" reading_order_no="64" segment_no="9" tag_type="text">usually expressed in mesenchymal cells, was chosen, not only</text>
+<text top="720" left="57" width="240" height="9" font="font5" id="p1_t46" reading_order_no="65" segment_no="9" tag_type="text">because it was one of the most highly differentially expressed</text>
+<text top="238" left="315" width="240" height="9" font="font5" id="p1_t47" reading_order_no="66" segment_no="6" tag_type="text">genes in normal myoepithelial cells over all microarray plat-</text>
+<text top="250" left="315" width="240" height="9" font="font5" id="p1_t48" reading_order_no="67" segment_no="6" tag_type="text">forms (Figure 3), but also because it belongs to the functional<a href="">501; Figure 4a,b). This</a> set of bone related genes</text>
+<text top="261" left="315" width="240" height="9" font="font5" id="p1_t49" reading_order_no="68" segment_no="6" tag_type="text">group of skeletal development that showed overall myoepithe-</text>
+<text top="273" left="315" width="240" height="9" font="font5" id="p1_t50" reading_order_no="69" segment_no="6" tag_type="text">lial-specificity and up-regulation in the malignant breast epithe-<i>COL1A2</i></text>
+<text top="285" left="315" width="240" height="9" font="font5" id="p1_t51" reading_order_no="70" segment_no="6" tag_type="text">lium (Figure 4b). When POSTN expression was examined at</text>
+<text top="297" left="315" width="240" height="9" font="font5" id="p1_t52" reading_order_no="71" segment_no="6" tag_type="text">the protein level, no detectable expression was observed in<i>COL1A1</i></text>
+<text top="308" left="315" width="240" height="9" font="font5" id="p1_t53" reading_order_no="72" segment_no="6" tag_type="text">the normal breast epithelium, but only in the stroma, in</text>
+<text top="320" left="315" width="240" height="9" font="font5" id="p1_t54" reading_order_no="73" segment_no="6" tag_type="text">concordance with its known mesenchymal expression (not<i>GHR</i></text>
+<text top="332" left="315" width="240" height="9" font="font5" id="p1_t55" reading_order_no="74" segment_no="6" tag_type="text">shown). However, 42/224 (18.75%) invasive breast carcino-</text>
+<text top="344" left="315" width="240" height="9" font="font5" id="p1_t56" reading_order_no="75" segment_no="6" tag_type="text">mas clearly showed epithelial expression (Figure 5a), whereas<i>COL12A1</i></text>
+<text top="355" left="315" width="240" height="9" font="font5" id="p1_t57" reading_order_no="76" segment_no="6" tag_type="text">the remainder showed the expected expression pattern only in</text>
+<text top="367" left="315" width="240" height="9" font="font5" id="p1_t58" reading_order_no="77" segment_no="6" tag_type="text">the stroma (Figure 5b). POSTN expression in neoplastic cells<i>PAPSS2</i></text>
+<text top="379" left="315" width="240" height="9" font="font5" id="p1_t59" reading_order_no="78" segment_no="6" tag_type="text">was significantly correlated with positivity for progesterone</text>
+<text top="391" left="315" width="240" height="9" font="font5" id="p1_t60" reading_order_no="79" segment_no="6" tag_type="text">receptor (PR) ( P &lt; 0.05) and low proliferation rates as defined<i>TBX3</i></text>
+<text top="402" left="315" width="241" height="9" font="font5" id="p1_t61" reading_order_no="80" segment_no="6" tag_type="text">by Ki67 (MIB1) staining ( P &lt; 0.05) (Additional file 10). When</text>
+<text top="414" left="315" width="240" height="9" font="font5" id="p1_t62" reading_order_no="81" segment_no="6" tag_type="text">the whole cohort was analysed, POSTN-positive breast can-<i>FRZB</i></text>
+<text top="426" left="315" width="240" height="9" font="font5" id="p1_t63" reading_order_no="82" segment_no="6" tag_type="text">cers showed a trend towards a poorer outcome, although this</text>
+<text top="438" left="315" width="240" height="9" font="font5" id="p1_t64" reading_order_no="83" segment_no="6" tag_type="text">did not reach statistical significance (Additional file 11a,b).<i>EXT1</i></text>
+<text top="449" left="315" width="240" height="9" font="font5" id="p1_t65" reading_order_no="84" segment_no="6" tag_type="text">Since the estrogen receptor (ER) status is the most important</text>
+<text top="461" left="315" width="240" height="9" font="font5" id="p1_t66" reading_order_no="85" segment_no="6" tag_type="text">marker in defining the prognosis and treatment of breast can-<i>MSX1</i></text>
+<text top="473" left="315" width="240" height="9" font="font5" id="p1_t67" reading_order_no="86" segment_no="6" tag_type="text">cer, the correlation of POSTN expression with overall survival</text>
+<text top="485" left="315" width="240" height="9" font="font5" id="p1_t68" reading_order_no="87" segment_no="6" tag_type="text">and disease free survival was analysed in ER-positive and ER-<i>EN1</i></text>
+<text top="496" left="315" width="240" height="9" font="font5" id="p1_t69" reading_order_no="88" segment_no="6" tag_type="text">negative subgroups. No significant correlation was observed</text>
+<text top="508" left="315" width="241" height="9" font="font5" id="p1_t70" reading_order_no="89" segment_no="6" tag_type="text">in the ER-negative cohort. However, within the ER-positive<i>TWIST1 </i></text>
+<text top="520" left="315" width="241" height="9" font="font5" id="p1_t71" reading_order_no="90" segment_no="6" tag_type="text">subgroup, 20.8% (37/178) of breast tumours were positive</text>
+<text top="532" left="315" width="240" height="9" font="font5" id="p1_t72" reading_order_no="91" segment_no="6" tag_type="text">and there was a significant correlation with both overall sur-<i>AEBP1</i></text>
+<text top="543" left="315" width="241" height="9" font="font5" id="p1_t73" reading_order_no="92" segment_no="6" tag_type="text">vival ( P = 0.0083) and disease-free survival ( P = 0.0136) (Fig-</text>
+<text top="555" left="315" width="240" height="9" font="font5" id="p1_t74" reading_order_no="93" segment_no="6" tag_type="text">ure 6a,b, respectively). In this cohort, modified Bloom-<i>POSTN </i></text>
+<text top="567" left="315" width="240" height="9" font="font5" id="p1_t75" reading_order_no="94" segment_no="6" tag_type="text">Richardson grade ( P &lt; 0.01), lymph node status at diagnosis</text>
+<text top="579" left="315" width="241" height="9" font="font5" id="p1_t76" reading_order_no="95" segment_no="6" tag_type="text">( P &lt; 0.005) and POSTN expression ( P &lt; 0.05) were statisti-<a href="">e 4b).</a></text>
+<text top="590" left="315" width="241" height="9" font="font5" id="p1_t77" reading_order_no="96" segment_no="6" tag_type="text">cally significant predictors of disease-free survival in univariate<b>Clinical significance of POSTN using tissue microarray </b></text>
+<text top="602" left="315" width="241" height="9" font="font5" id="p1_t78" reading_order_no="97" segment_no="6" tag_type="text">analysis, whereas only lymph node status at diagnosis ( P &lt;<b>analysis</b></text>
+<text top="614" left="315" width="241" height="9" font="font5" id="p1_t79" reading_order_no="98" segment_no="6" tag_type="text">0.001) and POSTN expression ( P &lt; 0.01) were associated</text>
+<text top="626" left="315" width="240" height="9" font="font5" id="p1_t80" reading_order_no="99" segment_no="6" tag_type="text">with overall survival in univariate analysis. By multivariate anal-</text>
+<text top="637" left="315" width="240" height="9" font="font5" id="p1_t81" reading_order_no="100" segment_no="6" tag_type="text">ysis of disease-free survival in the ER-positive cohort, POSTN</text>
+<text top="649" left="315" width="240" height="9" font="font5" id="p1_t82" reading_order_no="101" segment_no="6" tag_type="text">did not reach formal statistical significance as an independent</text>
+<text top="661" left="315" width="241" height="9" font="font5" id="p1_t83" reading_order_no="102" segment_no="6" tag_type="text">factor ( P = 0.0833) (Table 2, italics), although it did constitute</text>
+<text top="673" left="315" width="241" height="9" font="font5" id="p1_t84" reading_order_no="103" segment_no="6" tag_type="text">an independent prognostic factor for overall survival ( P =</text>
+<text top="684" left="315" width="240" height="9" font="font5" id="p1_t85" reading_order_no="104" segment_no="6" tag_type="text">0.0168) (Table 2, bold). Two other genes that showed up-reg-</text>
+<text top="696" left="315" width="240" height="9" font="font5" id="p1_t86" reading_order_no="105" segment_no="6" tag_type="text">ulation in the malignant breast epithelium were also analysed</text>
+<text top="708" left="315" width="240" height="9" font="font5" id="p1_t87" reading_order_no="106" segment_no="6" tag_type="text">on the protein level by tissue microarray, namely those encod-<a href="">(Figure 3), bu</a>t also because it belongs to the functional</text>
+<text top="720" left="315" width="241" height="9" font="font5" id="p1_t88" reading_order_no="107" segment_no="6" tag_type="text">ing COMP [38], a skeletal developmental protein that was not</text>
+<text top="85" left="57" width="28" height="7" font="font0" id="p1_t89" reading_order_no="1" segment_no="1" tag_type="title">Table 2</text>
+<text top="104" left="57" width="158" height="7" font="font0" id="p1_t90" reading_order_no="2" segment_no="2" tag_type="text">Multivariant proportional-hazard analysis<a href="">e 4b)</a>. When POSTN expression was examined at</text>
+<text top="123" left="123" width="35" height="7" font="font2" id="p1_t91" reading_order_no="3" segment_no="3" tag_type="table">Parameter</text>
+<text top="123" left="241" width="131" height="7" font="font2" id="p1_t92" reading_order_no="4" segment_no="3" tag_type="table">Hazard ratio (95% confidence interval)</text>
+<text top="123" left="460" width="26" height="7" font="font8" id="p1_t93" reading_order_no="5" segment_no="3" tag_type="table">P (Cox)</text>
+<text top="139" left="129" width="21" height="7" font="font8" id="p1_t94" reading_order_no="6" segment_no="3" tag_type="table">Grade</text>
+<text top="139" left="262" width="88" height="7" font="font8" id="p1_t95" reading_order_no="7" segment_no="3" tag_type="table">2.6434 (1.3935–5.0144)<a href="">e 5a)</a>, whereas</text>
+<text top="139" left="460" width="25" height="7" font="font8" id="p1_t96" reading_order_no="8" segment_no="3" tag_type="table">0.0029</text>
+<text top="154" left="124" width="33" height="7" font="font8" id="p1_t97" reading_order_no="9" segment_no="3" tag_type="table">LN status<a href="">e 5b). P</a>OSTN expression in neoplastic cells</text>
+<text top="154" left="262" width="88" height="7" font="font8" id="p1_t98" reading_order_no="10" segment_no="3" tag_type="table">3.6408 (1.5264–8.6840)</text>
+<text top="154" left="460" width="25" height="7" font="font8" id="p1_t99" reading_order_no="11" segment_no="3" tag_type="table">0.0036</text>
+<text top="170" left="126" width="27" height="7" font="font8" id="p1_t100" reading_order_no="12" segment_no="3" tag_type="table">POSTN<i>P </i></text>
+<text top="170" left="262" width="88" height="7" font="font8" id="p1_t101" reading_order_no="13" segment_no="3" tag_type="table">1.8099 (0.9247–3.5422)</text>
+<text top="170" left="460" width="25" height="7" font="font8" id="p1_t102" reading_order_no="14" segment_no="3" tag_type="table">0.0833</text>
+<text top="185" left="123" width="34" height="7" font="font1" id="p1_t103" reading_order_no="15" segment_no="3" tag_type="table">LN status<i>P </i></text>
+<text top="185" left="262" width="89" height="7" font="font1" id="p1_t104" reading_order_no="16" segment_no="3" tag_type="table">5.6924 (1.3331–24.3076)</text>
+<text top="185" left="461" width="24" height="7" font="font1" id="p1_t105" reading_order_no="17" segment_no="3" tag_type="table">0.0189</text>
+<text top="201" left="127" width="27" height="7" font="font1" id="p1_t106" reading_order_no="18" segment_no="3" tag_type="table">POSTN</text>
+<text top="201" left="264" width="85" height="7" font="font1" id="p1_t107" reading_order_no="19" segment_no="3" tag_type="table">2.8151 (1.2048–6.5775)</text>
+<text top="201" left="461" width="24" height="7" font="font1" id="p1_t108" reading_order_no="20" segment_no="3" tag_type="table">0.0168</text>
+<text top="217" left="61" width="484" height="7" font="font2" id="p1_t109" reading_order_no="21" segment_no="4" tag_type="text">The tissue microarray cohort was analysed using the Cox proportional hazards model for disease-free survival (italic) and overall survival (bold).</text>
+<text top="225" left="61" width="480" height="7" font="font2" id="p1_t110" reading_order_no="22" segment_no="4" tag_type="text">Only those statistically significant independent prognostic factors as determined by the model are shown. LN, lymph node status at diagnosis.</text>
 </page>
 </pdf2xml>

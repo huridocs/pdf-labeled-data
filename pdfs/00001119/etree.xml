@@ -19,96 +19,96 @@
 	<fontspec id="font15" size="34" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font16" size="29" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font17" size="39" family="GlyphLessFont" color="#000000"/>
-<text top="626" left="259" width="1887" height="77" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">WE  NEED  A  MORE  SOPHISTICATED  WAY  OF  LOOKING  THROUGH </text>
-<text top="703" left="281" width="1844" height="77" font="font0" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">THE  LARGE  AMOUNT  OF  DATA  COLLECTED  AT  EACH  POINT  TO </text>
-<text top="776" left="454" width="1499" height="77" font="font0" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="text">DISCERN  CORRELATIONS  BETWEEN  COMPONENTS. </text>
-<text top="1240" left="445" width="734" height="66" font="font2" id="p1_t4" reading_order_no="3" segment_no="1" tag_type="text">his  separation  and  replication  of  compo- </text>
-<text top="1294" left="446" width="733" height="65" font="font3" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="text">nents  allows  Web  services  to  scale  in </text>
-<text top="1348" left="446" width="733" height="62" font="font4" id="p1_t6" reading_order_no="5" segment_no="1" tag_type="text">response  to  new  resource  demands.  This </text>
-<text top="1398" left="446" width="735" height="65" font="font3" id="p1_t7" reading_order_no="6" segment_no="1" tag_type="text">is  accomplished  by  introducing  new </text>
-<text top="1449" left="445" width="735" height="66" font="font2" id="p1_t8" reading_order_no="7" segment_no="1" tag_type="text">servers  hosting  the  particular,  needed </text>
-<text top="1502" left="211" width="968" height="65" font="font3" id="p1_t9" reading_order_no="8" segment_no="1" tag_type="text">component.  Despite  this  scalability,  flash  traffic  pat- </text>
-<text top="1554" left="211" width="968" height="63" font="font5" id="p1_t10" reading_order_no="9" segment_no="1" tag_type="text">terns  can  drive  a  Web  system’s  middleware  compo- </text>
-<text top="1607" left="211" width="508" height="63" font="font5" id="p1_t11" reading_order_no="10" segment_no="1" tag_type="text">nent  (or  components)  into </text>
-<text top="1659" left="210" width="534" height="65" font="font3" id="p1_t12" reading_order_no="11" segment_no="1" tag_type="text">overload.  This  leads  to  poor | </text>
-<text top="1710" left="210" width="509" height="66" font="font2" id="p1_t13" reading_order_no="12" segment_no="1" tag_type="text">performance  as  the  system </text>
-<text top="1764" left="210" width="510" height="65" font="font3" id="p1_t14" reading_order_no="13" segment_no="1" tag_type="text">is  unable  to  keep  up  with </text>
-<text top="1817" left="210" width="507" height="65" font="font3" id="p1_t15" reading_order_no="14" segment_no="1" tag_type="text">the  demands  placed  on  it, </text>
-<text top="1870" left="210" width="510" height="63" font="font5" id="p1_t16" reading_order_no="15" segment_no="1" tag_type="text">and  users  see  increased </text>
-<text top="1921" left="210" width="510" height="65" font="font3" id="p1_t17" reading_order_no="16" segment_no="1" tag_type="text">response  times  for  their </text>
-<text top="1974" left="210" width="507" height="63" font="font5" id="p1_t18" reading_order_no="17" segment_no="1" tag_type="text">requests  (see  Figure  1). </text>
-<text top="2025" left="210" width="509" height="65" font="font3" id="p1_t19" reading_order_no="18" segment_no="1" tag_type="text">Experiments  have  indicated </text>
-<text top="2077" left="210" width="509" height="65" font="font3" id="p1_t20" reading_order_no="19" segment_no="1" tag_type="text">that  users  can _  tolerate </text>
-<text top="2129" left="210" width="515" height="63" font="font5" id="p1_t21" reading_order_no="20" segment_no="1" tag_type="text">roughly  eight  seconds  of </text>
-<text top="2181" left="211" width="510" height="65" font="font3" id="p1_t22" reading_order_no="21" segment_no="1" tag_type="text">delay  before  they  either </text>
-<text top="2233" left="211" width="509" height="65" font="font3" id="p1_t23" reading_order_no="22" segment_no="1" tag_type="text">retry  their  request  or  leave </text>
-<text top="2293" left="211" width="205" height="55" font="font6" id="p1_t24" reading_order_no="23" segment_no="1" tag_type="text">the  site  [2]. </text>
-<text top="2337" left="259" width="920" height="66" font="font2" id="p1_t25" reading_order_no="24" segment_no="2" tag_type="text">While  the  need  for  an  admission  control  scheme  is </text>
-<text top="2389" left="210" width="970" height="68" font="font7" id="p1_t26" reading_order_no="25" segment_no="2" tag_type="text">clear,  formulating  an  effective  system  is  daunting  and </text>
-<text top="2443" left="210" width="976" height="65" font="font3" id="p1_t27" reading_order_no="26" segment_no="2" tag_type="text">error-prone.  This  is  due  to  the  large  number  of </text>
-<text top="2496" left="211" width="969" height="63" font="font5" id="p1_t28" reading_order_no="27" segment_no="2" tag_type="text">request  types  and  middleware  components.  Different </text>
-<text top="2548" left="211" width="968" height="63" font="font5" id="p1_t29" reading_order_no="28" segment_no="2" tag_type="text">requests  to  a  Web  service  stress  different  middleware </text>
-<text top="2602" left="210" width="971" height="63" font="font5" id="p1_t30" reading_order_no="29" segment_no="2" tag_type="text">components  [1,  3].  It  is  advantageous  to  preferentially </text>
-<text top="2652" left="210" width="968" height="63" font="font5" id="p1_t31" reading_order_no="30" segment_no="2" tag_type="text">throttle  those  requests  most  correlated  with  the  bot- </text>
-<text top="2709" left="210" width="968" height="55" font="font6" id="p1_t32" reading_order_no="31" segment_no="2" tag_type="text">tleneck.  To  do  that,  better  visibility  into  the  relation- </text>
-<text top="2755" left="210" width="967" height="65" font="font3" id="p1_t33" reading_order_no="32" segment_no="2" tag_type="text">ship  between  requests  and  their  effects  is  necessary. </text>
-<text top="2806" left="210" width="968" height="66" font="font2" id="p1_t34" reading_order_no="33" segment_no="2" tag_type="text">Unfortunately,  current  system  software  and  site-mon- </text>
-<text top="2860" left="211" width="968" height="66" font="font2" id="p1_t35" reading_order_no="34" segment_no="2" tag_type="text">itoring  tools  do  not  provide  the  operator  with  this  vis- </text>
-<text top="2911" left="212" width="970" height="66" font="font2" id="p1_t36" reading_order_no="35" segment_no="2" tag_type="text">ibility.  For  Web  services  to  be  more  self-adaptive,  they </text>
-<text top="2964" left="212" width="968" height="66" font="font2" id="p1_t37" reading_order_no="36" segment_no="2" tag_type="text">need  to  be  more  introspective,  identifying  correlated </text>
-<text top="3017" left="211" width="969" height="65" font="font3" id="p1_t38" reading_order_no="37" segment_no="2" tag_type="text">effects  between  internal  components,  so  that  the </text>
-<text top="3145" left="215" width="44" height="50" font="font8" id="p1_t39" reading_order_no="89" segment_no="7" tag_type="text">50 </text>
-<text top="3157" left="303" width="701" height="34" font="font9" id="p1_t40" reading_order_no="90" segment_no="6" tag_type="text">March  2006/Vol.  49,  No.  3  COMMUNICATIONS  OF  THE  ACM </text>
-<text top="1241" left="1232" width="962" height="65" font="font3" id="p1_t41" reading_order_no="46" segment_no="3" tag_type="text">operator  can  act  to  shed  load  from  overloaded  com- </text>
-<text top="1296" left="1231" width="949" height="63" font="font5" id="p1_t42" reading_order_no="47" segment_no="3" tag_type="text">ponents  without  penalizing  all  users  of  the  Web  site. </text>
-<text top="1345" left="1281" width="913" height="66" font="font2" id="p1_t43" reading_order_no="48" segment_no="4" tag_type="text">To  design  such  self-adaptive  Web  services  able  to </text>
-<text top="1398" left="1231" width="964" height="63" font="font5" id="p1_t44" reading_order_no="49" segment_no="4" tag_type="text">gracefully  respond  to  overload,  we  propose  four </text>
-<text top="1450" left="1231" width="964" height="63" font="font5" id="p1_t45" reading_order_no="50" segment_no="4" tag_type="text">design  mechanisms:  simple  statistical  techniques  for </text>
-<text top="1511" left="1233" width="963" height="51" font="font11" id="p1_t46" reading_order_no="51" segment_no="4" tag_type="text">uncovering  request  effects  in  multi-tier  systems;  a </text>
-<text top="1555" left="1232" width="962" height="63" font="font5" id="p1_t47" reading_order_no="52" segment_no="4" tag_type="text">black-box  approach  to  middleware  component  mon- </text>
-<text top="1612" left="1752" width="442" height="55" font="font6" id="p1_t48" reading_order_no="53" segment_no="4" tag_type="text">itoring;  a  visualization </text>
-<text top="1658" left="1752" width="442" height="65" font="font3" id="p1_t49" reading_order_no="54" segment_no="4" tag_type="text">tool  summarizing  statis- </text>
-<text top="1710" left="1752" width="442" height="65" font="font3" id="p1_t50" reading_order_no="55" segment_no="4" tag_type="text">tical  findings  to  facilitate </text>
-<text top="1768" left="1751" width="441" height="57" font="font12" id="p1_t51" reading_order_no="56" segment_no="4" tag_type="text">human  decision  making; </text>
-<text top="1815" left="1751" width="443" height="66" font="font2" id="p1_t52" reading_order_no="57" segment_no="4" tag_type="text">and  efficient  techniques </text>
-<text top="1867" left="1751" width="443" height="66" font="font2" id="p1_t53" reading_order_no="58" segment_no="4" tag_type="text">for  operators  to  invoke </text>
-<text top="1920" left="1751" width="443" height="65" font="font3" id="p1_t54" reading_order_no="59" segment_no="4" tag_type="text">admission  control  deci- </text>
-<text top="1972" left="1751" width="443" height="65" font="font3" id="p1_t55" reading_order_no="60" segment_no="4" tag_type="text">sions  based  on  those </text>
-<text top="2023" left="1751" width="442" height="65" font="font3" id="p1_t56" reading_order_no="61" segment_no="4" tag_type="text">findings.  We  will  also </text>
-<text top="2076" left="1751" width="444" height="63" font="font5" id="p1_t57" reading_order_no="62" segment_no="4" tag_type="text">argue  that  including </text>
-<text top="2128" left="1750" width="443" height="63" font="font5" id="p1_t58" reading_order_no="63" segment_no="4" tag_type="text">humans  in  the  loop </text>
-<text top="2179" left="1752" width="261" height="65" font="font3" id="p1_t59" reading_order_no="64" segment_no="4" tag_type="text">complements, </text>
-<text top="2179" left="2085" width="111" height="65" font="font3" id="p1_t60" reading_order_no="65" segment_no="4" tag_type="text">rather </text>
-<text top="2239" left="1752" width="442" height="55" font="font6" id="p1_t61" reading_order_no="66" segment_no="4" tag_type="text">than  detracts  from,  self- </text>
-<text top="2285" left="1751" width="441" height="65" font="font3" id="p1_t62" reading_order_no="67" segment_no="4" tag_type="text">adaptive  design  goals. </text>
-<text top="2341" left="1230" width="396" height="45" font="font13" id="p1_t63" reading_order_no="38" segment_no="5" tag_type="text">Figure  1.  Selectively  applying </text>
-<text top="2342" left="1290" width="43" height="58" font="font14" id="p1_t64" reading_order_no="39" segment_no="5" tag_type="text">rey </text>
-<text top="2342" left="1748" width="448" height="58" font="font14" id="p1_t65" reading_order_no="68" segment_no="4" tag_type="text">We  present  ongoing </text>
-<text top="2380" left="1229" width="370" height="46" font="font15" id="p1_t66" reading_order_no="40" segment_no="5" tag_type="text">admission  control  to  those </text>
-<text top="2377" left="1818" width="23" height="46" font="font15" id="p1_t67" reading_order_no="69" segment_no="4" tag_type="text">E </text>
-<text top="2377" left="1970" width="83" height="46" font="font15" id="p1_t68" reading_order_no="70" segment_no="4" tag_type="text">Web </text>
-<text top="2376" left="2149" width="5" height="46" font="font15" id="p1_t69" reading_order_no="71" segment_no="4" tag_type="text">; </text>
-<text top="2419" left="1229" width="721" height="45" font="font13" id="p1_t70" reading_order_no="41" segment_no="5" tag_type="text">requests  correlated  with  the  system  Work  On  a </text>
-<text top="2417" left="2013" width="17" height="45" font="font13" id="p1_t71" reading_order_no="72" segment_no="4" tag_type="text">WED </text>
-<text top="2416" left="2076" width="118" height="45" font="font13" id="p1_t72" reading_order_no="73" segment_no="4" tag_type="text">service </text>
-<text top="2456" left="1229" width="442" height="45" font="font13" id="p1_t73" reading_order_no="42" segment_no="5" tag_type="text">bottleneck  substantially  reduces </text>
-<text top="2456" left="1749" width="103" height="45" font="font13" id="p1_t74" reading_order_no="74" segment_no="4" tag_type="text">based </text>
-<text top="2456" left="1900" width="47" height="45" font="font13" id="p1_t75" reading_order_no="75" segment_no="4" tag_type="text">on </text>
-<text top="2456" left="1997" width="57" height="45" font="font13" id="p1_t76" reading_order_no="76" segment_no="4" tag_type="text">the </text>
-<text top="2456" left="2103" width="91" height="45" font="font13" id="p1_t77" reading_order_no="77" segment_no="4" tag_type="text">open </text>
-<text top="2497" left="1228" width="426" height="39" font="font16" id="p1_t78" reading_order_no="43" segment_no="5" tag_type="text">average  request  latency  for  the </text>
-<text top="2506" left="1358" width="4" height="53" font="font17" id="p1_t79" reading_order_no="44" segment_no="5" tag_type="text">: </text>
-<text top="2504" left="1749" width="445" height="53" font="font17" id="p1_t80" reading_order_no="78" segment_no="4" tag_type="text">source  RUBiS  auction </text>
-<text top="2535" left="1227" width="174" height="39" font="font16" id="p1_t81" reading_order_no="45" segment_no="5" tag_type="text">Web  service. </text>
-<text top="2552" left="1749" width="443" height="57" font="font12" id="p1_t82" reading_order_no="79" segment_no="4" tag_type="text">site  (see  rubis.objectweb. </text>
-<text top="2600" left="1231" width="964" height="63" font="font5" id="p1_t83" reading_order_no="80" segment_no="4" tag_type="text">org)  that  embodies  these  mechanisms.  RUBiS  is  a </text>
-<text top="2650" left="1230" width="963" height="65" font="font3" id="p1_t84" reading_order_no="81" segment_no="4" tag_type="text">Web-service  benchmark  designed  to  profile  the  per- </text>
-<text top="2702" left="1231" width="962" height="65" font="font3" id="p1_t85" reading_order_no="82" segment_no="4" tag_type="text">formance  of  an  auction  site  like  eBay.  Our  approach </text>
-<text top="2756" left="1231" width="962" height="65" font="font3" id="p1_t86" reading_order_no="83" segment_no="4" tag_type="text">leads  to  a  Web  service  that  is  able  to  serve  70%  more </text>
-<text top="2808" left="1231" width="962" height="65" font="font3" id="p1_t87" reading_order_no="84" segment_no="4" tag_type="text">requests  per  second.  Additionally,  the  maximum </text>
-<text top="2858" left="1232" width="960" height="66" font="font2" id="p1_t88" reading_order_no="85" segment_no="4" tag_type="text">request  latency  seen  by  the  user  is  reduced  by  78%. </text>
-<text top="2912" left="1231" width="962" height="65" font="font3" id="p1_t89" reading_order_no="86" segment_no="4" tag_type="text">These  initial  results  show  promise  that  middleware- </text>
-<text top="2964" left="1232" width="962" height="68" font="font7" id="p1_t90" reading_order_no="87" segment_no="4" tag_type="text">based  Web  services  can  greatly  benefit  from  more </text>
+<text top="626" left="259" width="1887" height="77" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">WE  NEED  A  MORE  SOPHISTICATED  WAY  OF  LOOKING  THROUGH</text>
+<text top="703" left="281" width="1844" height="77" font="font0" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">THE  LARGE  AMOUNT  OF  DATA  COLLECTED  AT  EACH  POINT  TO</text>
+<text top="776" left="454" width="1499" height="77" font="font0" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="text">DISCERN  CORRELATIONS  BETWEEN  COMPONENTS.</text>
+<text top="1240" left="445" width="734" height="66" font="font2" id="p1_t4" reading_order_no="3" segment_no="1" tag_type="text">his  separation  and  replication  of  compo-</text>
+<text top="1294" left="446" width="733" height="65" font="font3" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="text">nents  allows  Web  services  to  scale  in</text>
+<text top="1348" left="446" width="733" height="62" font="font4" id="p1_t6" reading_order_no="5" segment_no="1" tag_type="text">response  to  new  resource  demands.  This</text>
+<text top="1398" left="446" width="735" height="65" font="font3" id="p1_t7" reading_order_no="6" segment_no="1" tag_type="text">is  accomplished  by  introducing  new</text>
+<text top="1449" left="445" width="735" height="66" font="font2" id="p1_t8" reading_order_no="7" segment_no="1" tag_type="text">servers  hosting  the  particular,  needed</text>
+<text top="1502" left="211" width="968" height="65" font="font3" id="p1_t9" reading_order_no="8" segment_no="1" tag_type="text">component.  Despite  this  scalability,  flash  traffic  pat-</text>
+<text top="1554" left="211" width="968" height="63" font="font5" id="p1_t10" reading_order_no="9" segment_no="1" tag_type="text">terns  can  drive  a  Web  system’s  middleware  compo-</text>
+<text top="1607" left="211" width="508" height="63" font="font5" id="p1_t11" reading_order_no="10" segment_no="1" tag_type="text">nent  (or  components)  into</text>
+<text top="1659" left="210" width="534" height="65" font="font3" id="p1_t12" reading_order_no="11" segment_no="1" tag_type="text">overload.  This  leads  to  poor |</text>
+<text top="1710" left="210" width="509" height="66" font="font2" id="p1_t13" reading_order_no="12" segment_no="1" tag_type="text">performance  as  the  system</text>
+<text top="1764" left="210" width="510" height="65" font="font3" id="p1_t14" reading_order_no="13" segment_no="1" tag_type="text">is  unable  to  keep  up  with</text>
+<text top="1817" left="210" width="507" height="65" font="font3" id="p1_t15" reading_order_no="14" segment_no="1" tag_type="text">the  demands  placed  on  it,</text>
+<text top="1870" left="210" width="510" height="63" font="font5" id="p1_t16" reading_order_no="15" segment_no="1" tag_type="text">and  users  see  increased</text>
+<text top="1921" left="210" width="510" height="65" font="font3" id="p1_t17" reading_order_no="16" segment_no="1" tag_type="text">response  times  for  their</text>
+<text top="1974" left="210" width="507" height="63" font="font5" id="p1_t18" reading_order_no="17" segment_no="1" tag_type="text">requests  (see  Figure  1).</text>
+<text top="2025" left="210" width="509" height="65" font="font3" id="p1_t19" reading_order_no="18" segment_no="1" tag_type="text">Experiments  have  indicated</text>
+<text top="2077" left="210" width="509" height="65" font="font3" id="p1_t20" reading_order_no="19" segment_no="1" tag_type="text">that  users  can _  tolerate</text>
+<text top="2129" left="210" width="515" height="63" font="font5" id="p1_t21" reading_order_no="20" segment_no="1" tag_type="text">roughly  eight  seconds  of</text>
+<text top="2181" left="211" width="510" height="65" font="font3" id="p1_t22" reading_order_no="21" segment_no="1" tag_type="text">delay  before  they  either</text>
+<text top="2233" left="211" width="509" height="65" font="font3" id="p1_t23" reading_order_no="22" segment_no="1" tag_type="text">retry  their  request  or  leave</text>
+<text top="2293" left="211" width="205" height="55" font="font6" id="p1_t24" reading_order_no="23" segment_no="1" tag_type="text">the  site  [2].</text>
+<text top="2337" left="259" width="920" height="66" font="font2" id="p1_t25" reading_order_no="24" segment_no="2" tag_type="text">While  the  need  for  an  admission  control  scheme  is</text>
+<text top="2389" left="210" width="970" height="68" font="font7" id="p1_t26" reading_order_no="25" segment_no="2" tag_type="text">clear,  formulating  an  effective  system  is  daunting  and</text>
+<text top="2443" left="210" width="976" height="65" font="font3" id="p1_t27" reading_order_no="26" segment_no="2" tag_type="text">error-prone.  This  is  due  to  the  large  number  of</text>
+<text top="2496" left="211" width="969" height="63" font="font5" id="p1_t28" reading_order_no="27" segment_no="2" tag_type="text">request  types  and  middleware  components.  Different</text>
+<text top="2548" left="211" width="968" height="63" font="font5" id="p1_t29" reading_order_no="28" segment_no="2" tag_type="text">requests  to  a  Web  service  stress  different  middleware</text>
+<text top="2602" left="210" width="971" height="63" font="font5" id="p1_t30" reading_order_no="29" segment_no="2" tag_type="text">components  [1,  3].  It  is  advantageous  to  preferentially</text>
+<text top="2652" left="210" width="968" height="63" font="font5" id="p1_t31" reading_order_no="30" segment_no="2" tag_type="text">throttle  those  requests  most  correlated  with  the  bot-</text>
+<text top="2709" left="210" width="968" height="55" font="font6" id="p1_t32" reading_order_no="31" segment_no="2" tag_type="text">tleneck.  To  do  that,  better  visibility  into  the  relation-</text>
+<text top="2755" left="210" width="967" height="65" font="font3" id="p1_t33" reading_order_no="32" segment_no="2" tag_type="text">ship  between  requests  and  their  effects  is  necessary.</text>
+<text top="2806" left="210" width="968" height="66" font="font2" id="p1_t34" reading_order_no="33" segment_no="2" tag_type="text">Unfortunately,  current  system  software  and  site-mon-</text>
+<text top="2860" left="211" width="968" height="66" font="font2" id="p1_t35" reading_order_no="34" segment_no="2" tag_type="text">itoring  tools  do  not  provide  the  operator  with  this  vis-</text>
+<text top="2911" left="212" width="970" height="66" font="font2" id="p1_t36" reading_order_no="35" segment_no="2" tag_type="text">ibility.  For  Web  services  to  be  more  self-adaptive,  they</text>
+<text top="2964" left="212" width="968" height="66" font="font2" id="p1_t37" reading_order_no="36" segment_no="2" tag_type="text">need  to  be  more  introspective,  identifying  correlated</text>
+<text top="3017" left="211" width="969" height="65" font="font3" id="p1_t38" reading_order_no="37" segment_no="2" tag_type="text">effects  between  internal  components,  so  that  the</text>
+<text top="3145" left="215" width="44" height="50" font="font8" id="p1_t39" reading_order_no="89" segment_no="7" tag_type="text">50</text>
+<text top="3157" left="303" width="701" height="34" font="font9" id="p1_t40" reading_order_no="90" segment_no="6" tag_type="text">March  2006/Vol.  49,  No.  3  COMMUNICATIONS  OF  THE  ACM</text>
+<text top="1241" left="1232" width="962" height="65" font="font3" id="p1_t41" reading_order_no="46" segment_no="3" tag_type="text">operator  can  act  to  shed  load  from  overloaded  com-</text>
+<text top="1296" left="1231" width="949" height="63" font="font5" id="p1_t42" reading_order_no="47" segment_no="3" tag_type="text">ponents  without  penalizing  all  users  of  the  Web  site.</text>
+<text top="1345" left="1281" width="913" height="66" font="font2" id="p1_t43" reading_order_no="48" segment_no="4" tag_type="text">To  design  such  self-adaptive  Web  services  able  to</text>
+<text top="1398" left="1231" width="964" height="63" font="font5" id="p1_t44" reading_order_no="49" segment_no="4" tag_type="text">gracefully  respond  to  overload,  we  propose  four</text>
+<text top="1450" left="1231" width="964" height="63" font="font5" id="p1_t45" reading_order_no="50" segment_no="4" tag_type="text">design  mechanisms:  simple  statistical  techniques  for</text>
+<text top="1511" left="1233" width="963" height="51" font="font11" id="p1_t46" reading_order_no="51" segment_no="4" tag_type="text">uncovering  request  effects  in  multi-tier  systems;  a</text>
+<text top="1555" left="1232" width="962" height="63" font="font5" id="p1_t47" reading_order_no="52" segment_no="4" tag_type="text">black-box  approach  to  middleware  component  mon-</text>
+<text top="1612" left="1752" width="442" height="55" font="font6" id="p1_t48" reading_order_no="53" segment_no="4" tag_type="text">itoring;  a  visualization</text>
+<text top="1658" left="1752" width="442" height="65" font="font3" id="p1_t49" reading_order_no="54" segment_no="4" tag_type="text">tool  summarizing  statis-</text>
+<text top="1710" left="1752" width="442" height="65" font="font3" id="p1_t50" reading_order_no="55" segment_no="4" tag_type="text">tical  findings  to  facilitate</text>
+<text top="1768" left="1751" width="441" height="57" font="font12" id="p1_t51" reading_order_no="56" segment_no="4" tag_type="text">human  decision  making;</text>
+<text top="1815" left="1751" width="443" height="66" font="font2" id="p1_t52" reading_order_no="57" segment_no="4" tag_type="text">and  efficient  techniques</text>
+<text top="1867" left="1751" width="443" height="66" font="font2" id="p1_t53" reading_order_no="58" segment_no="4" tag_type="text">for  operators  to  invoke</text>
+<text top="1920" left="1751" width="443" height="65" font="font3" id="p1_t54" reading_order_no="59" segment_no="4" tag_type="text">admission  control  deci-</text>
+<text top="1972" left="1751" width="443" height="65" font="font3" id="p1_t55" reading_order_no="60" segment_no="4" tag_type="text">sions  based  on  those</text>
+<text top="2023" left="1751" width="442" height="65" font="font3" id="p1_t56" reading_order_no="61" segment_no="4" tag_type="text">findings.  We  will  also</text>
+<text top="2076" left="1751" width="444" height="63" font="font5" id="p1_t57" reading_order_no="62" segment_no="4" tag_type="text">argue  that  including</text>
+<text top="2128" left="1750" width="443" height="63" font="font5" id="p1_t58" reading_order_no="63" segment_no="4" tag_type="text">humans  in  the  loop</text>
+<text top="2179" left="1752" width="261" height="65" font="font3" id="p1_t59" reading_order_no="64" segment_no="4" tag_type="text">complements,</text>
+<text top="2179" left="2085" width="111" height="65" font="font3" id="p1_t60" reading_order_no="65" segment_no="4" tag_type="text">rather</text>
+<text top="2239" left="1752" width="442" height="55" font="font6" id="p1_t61" reading_order_no="66" segment_no="4" tag_type="text">than  detracts  from,  self-</text>
+<text top="2285" left="1751" width="441" height="65" font="font3" id="p1_t62" reading_order_no="67" segment_no="4" tag_type="text">adaptive  design  goals.</text>
+<text top="2341" left="1230" width="396" height="45" font="font13" id="p1_t63" reading_order_no="38" segment_no="5" tag_type="text">Figure  1.  Selectively  applying</text>
+<text top="2342" left="1290" width="43" height="58" font="font14" id="p1_t64" reading_order_no="39" segment_no="5" tag_type="text">rey</text>
+<text top="2342" left="1748" width="448" height="58" font="font14" id="p1_t65" reading_order_no="68" segment_no="4" tag_type="text">We  present  ongoing</text>
+<text top="2380" left="1229" width="370" height="46" font="font15" id="p1_t66" reading_order_no="40" segment_no="5" tag_type="text">admission  control  to  those</text>
+<text top="2377" left="1818" width="23" height="46" font="font15" id="p1_t67" reading_order_no="69" segment_no="4" tag_type="text">E</text>
+<text top="2377" left="1970" width="83" height="46" font="font15" id="p1_t68" reading_order_no="70" segment_no="4" tag_type="text">Web</text>
+<text top="2376" left="2149" width="5" height="46" font="font15" id="p1_t69" reading_order_no="71" segment_no="4" tag_type="text">;</text>
+<text top="2419" left="1229" width="721" height="45" font="font13" id="p1_t70" reading_order_no="41" segment_no="5" tag_type="text">requests  correlated  with  the  system  Work  On  a</text>
+<text top="2417" left="2013" width="17" height="45" font="font13" id="p1_t71" reading_order_no="72" segment_no="4" tag_type="text">WED</text>
+<text top="2416" left="2076" width="118" height="45" font="font13" id="p1_t72" reading_order_no="73" segment_no="4" tag_type="text">service</text>
+<text top="2456" left="1229" width="442" height="45" font="font13" id="p1_t73" reading_order_no="42" segment_no="5" tag_type="text">bottleneck  substantially  reduces</text>
+<text top="2456" left="1749" width="103" height="45" font="font13" id="p1_t74" reading_order_no="74" segment_no="4" tag_type="text">based</text>
+<text top="2456" left="1900" width="47" height="45" font="font13" id="p1_t75" reading_order_no="75" segment_no="4" tag_type="text">on</text>
+<text top="2456" left="1997" width="57" height="45" font="font13" id="p1_t76" reading_order_no="76" segment_no="4" tag_type="text">the</text>
+<text top="2456" left="2103" width="91" height="45" font="font13" id="p1_t77" reading_order_no="77" segment_no="4" tag_type="text">open</text>
+<text top="2497" left="1228" width="426" height="39" font="font16" id="p1_t78" reading_order_no="43" segment_no="5" tag_type="text">average  request  latency  for  the</text>
+<text top="2506" left="1358" width="4" height="53" font="font17" id="p1_t79" reading_order_no="44" segment_no="5" tag_type="text">:</text>
+<text top="2504" left="1749" width="445" height="53" font="font17" id="p1_t80" reading_order_no="78" segment_no="4" tag_type="text">source  RUBiS  auction</text>
+<text top="2535" left="1227" width="174" height="39" font="font16" id="p1_t81" reading_order_no="45" segment_no="5" tag_type="text">Web  service.</text>
+<text top="2552" left="1749" width="443" height="57" font="font12" id="p1_t82" reading_order_no="79" segment_no="4" tag_type="text">site  (see  rubis.objectweb.</text>
+<text top="2600" left="1231" width="964" height="63" font="font5" id="p1_t83" reading_order_no="80" segment_no="4" tag_type="text">org)  that  embodies  these  mechanisms.  RUBiS  is  a</text>
+<text top="2650" left="1230" width="963" height="65" font="font3" id="p1_t84" reading_order_no="81" segment_no="4" tag_type="text">Web-service  benchmark  designed  to  profile  the  per-</text>
+<text top="2702" left="1231" width="962" height="65" font="font3" id="p1_t85" reading_order_no="82" segment_no="4" tag_type="text">formance  of  an  auction  site  like  eBay.  Our  approach</text>
+<text top="2756" left="1231" width="962" height="65" font="font3" id="p1_t86" reading_order_no="83" segment_no="4" tag_type="text">leads  to  a  Web  service  that  is  able  to  serve  70%  more</text>
+<text top="2808" left="1231" width="962" height="65" font="font3" id="p1_t87" reading_order_no="84" segment_no="4" tag_type="text">requests  per  second.  Additionally,  the  maximum</text>
+<text top="2858" left="1232" width="960" height="66" font="font2" id="p1_t88" reading_order_no="85" segment_no="4" tag_type="text">request  latency  seen  by  the  user  is  reduced  by  78%.</text>
+<text top="2912" left="1231" width="962" height="65" font="font3" id="p1_t89" reading_order_no="86" segment_no="4" tag_type="text">These  initial  results  show  promise  that  middleware-</text>
+<text top="2964" left="1232" width="962" height="68" font="font7" id="p1_t90" reading_order_no="87" segment_no="4" tag_type="text">based  Web  services  can  greatly  benefit  from  more</text>
 <text top="3017" left="1232" width="359" height="65" font="font3" id="p1_t91" reading_order_no="88" segment_no="4" tag_type="text">self-adaptive  design.</text>
 </page>
 </pdf2xml>

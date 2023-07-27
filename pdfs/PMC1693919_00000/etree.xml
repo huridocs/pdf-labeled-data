@@ -22,85 +22,65 @@
 	<fontspec id="font18" size="8" family="GillSans" color="#000000"/>
 	<fontspec id="font19" size="8" family="GillSans,Italic" color="#000000"/>
 	<fontspec id="font20" size="8" family="GillSans,Bold" color="#000000"/>
-<text top="44" left="508" width="16" height="9" font="font0" id="p1_t1" reading_order_no="1" segment_no="1" tag_type="title"><a href="http://www.biomedcentral.com/"><b>Bio</b></a></text>
-<text top="44" left="525" width="22" height="9" font="font1" id="p1_t2" reading_order_no="2" segment_no="1" tag_type="title"><a href="http://www.biomedcentral.com/"><b>Med</b></a></text>
-<text top="44" left="548" width="27" height="9" font="font3" id="p1_t3" reading_order_no="3" segment_no="1" tag_type="title"><a href="http://www.biomedcentral.com/">Central</a></text>
-<text top="756" left="508" width="46" height="10" font="font4" id="p1_t4" reading_order_no="78" segment_no="23" tag_type="text">Page 1 of 9</text>
-<text top="769" left="432" width="122" height="8" font="font5" id="p1_t5" reading_order_no="79" segment_no="24" tag_type="text"><i>(page number not for citation purposes)</i></text>
-<text top="35" left="55" width="244" height="23" font="font6" id="p1_t6" reading_order_no="0" segment_no="0" tag_type="title"><b>BMC Neuroscience</b></text>
-<text top="86" left="502" width="79" height="10" font="font7" id="p1_t7" reading_order_no="4" segment_no="2" tag_type="title"><a href="http://www.biomedcentral.com/info/about/charter/"><b>Open Access</b></a></text>
-<text top="87" left="55" width="86" height="13" font="font8" id="p1_t8" reading_order_no="5" segment_no="3" tag_type="title">Research article</text>
-<text top="105" left="55" width="499" height="15" font="font9" id="p1_t9" reading_order_no="6" segment_no="4" tag_type="title"><b>Berberine chloride can ameliorate the spatial memory impairment </b></text>
-<text top="123" left="55" width="499" height="15" font="font9" id="p1_t10" reading_order_no="7" segment_no="4" tag_type="title"><b>and increase the expression of interleukin-1beta and inducible nitric </b></text>
-<text top="141" left="55" width="406" height="15" font="font9" id="p1_t11" reading_order_no="8" segment_no="4" tag_type="title"><b>oxide synthase in the rat model of Alzheimer's disease</b></text>
-<text top="158" left="55" width="186" height="14" font="font10" id="p1_t12" reading_order_no="9" segment_no="5" tag_type="text">Feiqi Zhu and Caiyun Qian*</text>
-<text top="194" left="55" width="496" height="8" font="font11" id="p1_t13" reading_order_no="10" segment_no="6" tag_type="text">Address: The neurology department of the first affiliated hospital, Sun Yet-Sen University, Guangzhou, Guangdong province, 510080, PR China</text>
-<text top="208" left="55" width="312" height="8" font="font11" id="p1_t14" reading_order_no="11" segment_no="7" tag_type="text">Email: Feiqi Zhu - zfqzsu2004@yahoo.com.cn; Caiyun Qian* - qiancyzsu@yahoo.com.cn</text>
-<text top="220" left="55" width="92" height="8" font="font11" id="p1_t15" reading_order_no="12" segment_no="8" tag_type="text">* Corresponding author  <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=17137520">  </a></text>
-<text top="368" left="112" width="44" height="10" font="font12" id="p1_t16" reading_order_no="25" segment_no="16" tag_type="title"><b>Abstract</b></text>
-<text top="383" left="112" width="60" height="9" font="font13" id="p1_t17" reading_order_no="26" segment_no="17" tag_type="text"><b>Background: </b></text>
-<text top="383" left="172" width="192" height="9" font="font14" id="p1_t18" reading_order_no="27" segment_no="17" tag_type="text">Berberine is the major alkaloidal component of </text>
-<text top="383" left="365" width="63" height="9" font="font15" id="p1_t19" reading_order_no="28" segment_no="17" tag_type="text"><i>Rhizoma coptidis</i></text>
-<text top="383" left="427" width="70" height="9" font="font14" id="p1_t20" reading_order_no="29" segment_no="17" tag_type="text">, and has multiple</text>
-<text top="394" left="112" width="386" height="9" font="font14" id="p1_t21" reading_order_no="30" segment_no="17" tag_type="text">pharmacological effects including inhibiting acetylcholinesterase, reducing cholesterol and glucose,</text>
-<text top="406" left="112" width="386" height="9" font="font14" id="p1_t22" reading_order_no="31" segment_no="17" tag_type="text">lowering mortality in patients with chronic congestive heart failure and anti-inflammation etc. Thus</text>
-<text top="418" left="112" width="386" height="9" font="font14" id="p1_t23" reading_order_no="32" segment_no="17" tag_type="text">berberine is a promising drug for diabetes, hyperlipemia, coronary artery disease and ischemic</text>
-<text top="430" left="112" width="386" height="9" font="font14" id="p1_t24" reading_order_no="33" segment_no="17" tag_type="text">stroke etc. The present study was carried out to investigate the effect of berberine chloride on the</text>
-<text top="441" left="112" width="386" height="9" font="font14" id="p1_t25" reading_order_no="34" segment_no="17" tag_type="text">spatial memory, inflammation factors interleukin-1 beta (IL-1beta) and inducible nitric oxide</text>
-<text top="453" left="112" width="386" height="9" font="font14" id="p1_t26" reading_order_no="35" segment_no="17" tag_type="text">synthase (iNOS) expression in the rat model of Alzheimer's disease (AD) which was established by</text>
-<text top="465" left="112" width="303" height="9" font="font14" id="p1_t27" reading_order_no="36" segment_no="17" tag_type="text">injecting Abeta (1–40) (5 microgram) into the rats hippocampuses bilaterally.</text>
-<text top="482" left="112" width="38" height="9" font="font13" id="p1_t28" reading_order_no="37" segment_no="18" tag_type="text"><b>Results: </b></text>
-<text top="482" left="150" width="347" height="9" font="font14" id="p1_t29" reading_order_no="38" segment_no="18" tag_type="text">The rats were given berberine chloride (50 mg/kg) by intragastric administration once</text>
-<text top="493" left="112" width="385" height="9" font="font14" id="p1_t30" reading_order_no="39" segment_no="18" tag_type="text">daily for 14 days. The spatial memory was assayed by Morris water maze test, IL-1beta and iNOS</text>
-<text top="505" left="112" width="386" height="9" font="font14" id="p1_t31" reading_order_no="40" segment_no="18" tag_type="text">in the hippocampus were assayed by immunohistochemistry and real time polymerase chain</text>
-<text top="517" left="112" width="386" height="9" font="font14" id="p1_t32" reading_order_no="41" segment_no="18" tag_type="text">reaction (PCR). Intragastric administration of berberine significantly ameliorated the spatial</text>
-<text top="529" left="112" width="367" height="9" font="font14" id="p1_t33" reading_order_no="42" segment_no="18" tag_type="text">memory impairment and increased the expression of IL-1beta, iNOS in the rat model of AD.</text>
-<text top="545" left="112" width="56" height="9" font="font13" id="p1_t34" reading_order_no="43" segment_no="19" tag_type="text"><b>Conclusion: </b></text>
-<text top="545" left="168" width="329" height="9" font="font14" id="p1_t35" reading_order_no="44" segment_no="19" tag_type="text">Berberine might be beneficial to AD by intragastric administration though it might</text>
-<text top="557" left="112" width="149" height="9" font="font14" id="p1_t36" reading_order_no="45" segment_no="19" tag_type="text">exaggerate the inflammation reaction.</text>
-<text top="607" left="55" width="60" height="10" font="font12" id="p1_t37" reading_order_no="46" segment_no="21" tag_type="title"><b>Background</b></text>
-<text top="618" left="55" width="241" height="9" font="font16" id="p1_t38" reading_order_no="47" segment_no="22" tag_type="text">AD is the most prominent dementia in senile population</text>
-<text top="630" left="55" width="241" height="9" font="font16" id="p1_t39" reading_order_no="48" segment_no="22" tag_type="text">affecting approximately 5% of the over 65-year old popu-</text>
-<text top="641" left="55" width="241" height="9" font="font16" id="p1_t40" reading_order_no="49" segment_no="22" tag_type="text">lations, but the cause of AD remains largely unknown. In</text>
-<text top="653" left="55" width="241" height="9" font="font16" id="p1_t41" reading_order_no="50" segment_no="22" tag_type="text">the pathogenesis of AD, the inflammation mechanism is</text>
-<text top="665" left="55" width="241" height="9" font="font16" id="p1_t42" reading_order_no="51" segment_no="22" tag_type="text">seemed to play an important role <a href="">[1]. The senile plaque</a> is</text>
-<text top="677" left="55" width="241" height="9" font="font16" id="p1_t43" reading_order_no="52" segment_no="22" tag_type="text">the hallmark of AD. The core of the senile plaque is the</text>
-<text top="689" left="55" width="59" height="9" font="font16" id="p1_t44" reading_order_no="53" segment_no="22" tag_type="text">deposition of </text>
-<text top="686" left="114" width="5" height="12" font="font17" id="p1_t45" reading_order_no="54" segment_no="22" tag_type="text">β</text>
-<text top="689" left="119" width="51" height="9" font="font16" id="p1_t46" reading_order_no="55" segment_no="22" tag_type="text">-amyloid (A</text>
-<text top="686" left="170" width="5" height="12" font="font17" id="p1_t47" reading_order_no="56" segment_no="22" tag_type="text">β</text>
-<text top="689" left="175" width="121" height="9" font="font16" id="p1_t48" reading_order_no="57" segment_no="22" tag_type="text">) and the activated microglia</text>
-<text top="700" left="55" width="241" height="9" font="font16" id="p1_t49" reading_order_no="58" segment_no="22" tag_type="text">and astroglia are around the senile plaque. In these glias,</text>
-<text top="712" left="55" width="206" height="9" font="font16" id="p1_t50" reading_order_no="59" segment_no="22" tag_type="text">numerous inflammation factors including IL-1</text>
-<text top="709" left="261" width="5" height="12" font="font17" id="p1_t51" reading_order_no="60" segment_no="22" tag_type="text">β</text>
-<text top="712" left="266" width="30" height="9" font="font16" id="p1_t52" reading_order_no="61" segment_no="22" tag_type="text">, inter-</text>
-<text top="724" left="55" width="173" height="9" font="font16" id="p1_t53" reading_order_no="62" segment_no="22" tag_type="text">leukin -6(IL-6), tumor necrosis factor-</text>
-<text top="721" left="228" width="6" height="12" font="font17" id="p1_t54" reading_order_no="63" segment_no="22" tag_type="text">α</text>
-<text top="724" left="234" width="30" height="9" font="font16" id="p1_t55" reading_order_no="64" segment_no="22" tag_type="text"> (TNF-</text>
-<text top="721" left="264" width="6" height="12" font="font17" id="p1_t56" reading_order_no="65" segment_no="22" tag_type="text">α</text>
-<text top="724" left="270" width="26" height="9" font="font16" id="p1_t57" reading_order_no="66" segment_no="22" tag_type="text">) and</text>
-<text top="606" left="313" width="241" height="9" font="font16" id="p1_t58" reading_order_no="67" segment_no="20" tag_type="text">iNOS etc, are overexpressed. These inflammation factors</text>
-<text top="618" left="313" width="241" height="9" font="font16" id="p1_t59" reading_order_no="68" segment_no="20" tag_type="text">have been seemed to be neurotoxic. At the same time,</text>
-<text top="630" left="313" width="241" height="9" font="font16" id="p1_t60" reading_order_no="69" segment_no="20" tag_type="text">some epidemiological studies demonstrated that long-</text>
-<text top="641" left="313" width="241" height="9" font="font16" id="p1_t61" reading_order_no="70" segment_no="20" tag_type="text">term use of nonsteroidal anti-inflammatory drugs</text>
-<text top="653" left="313" width="241" height="9" font="font16" id="p1_t62" reading_order_no="71" segment_no="20" tag_type="text">(NSAIDs) could prominently delay the onset of AD<a href=""> [2-5].</a></text>
-<text top="665" left="313" width="241" height="9" font="font16" id="p1_t63" reading_order_no="72" segment_no="20" tag_type="text">The current drugs for AD treatment including cholineste-</text>
-<text top="677" left="313" width="241" height="9" font="font16" id="p1_t64" reading_order_no="73" segment_no="20" tag_type="text">rase inhibitors (donepezil, rivastigmine and galan-</text>
-<text top="689" left="313" width="241" height="9" font="font16" id="p1_t65" reading_order_no="74" segment_no="20" tag_type="text">thamin) and N-methyl-D-aspartate (NMDA) receptor</text>
-<text top="700" left="313" width="241" height="9" font="font16" id="p1_t66" reading_order_no="75" segment_no="20" tag_type="text">antagonist (memantine) which were approved by Food</text>
-<text top="712" left="313" width="241" height="9" font="font16" id="p1_t67" reading_order_no="76" segment_no="20" tag_type="text">and Drug Administration of USA (FDA) are symptomatic</text>
-<text top="724" left="313" width="241" height="9" font="font16" id="p1_t68" reading_order_no="77" segment_no="20" tag_type="text">treatment, but these drugs usually can not delay the devel-</text>
-<text top="262" left="55" width="97" height="7" font="font18" id="p1_t69" reading_order_no="13" segment_no="9" tag_type="text">Published: 01 December 2006</text>
-<text top="277" left="55" width="57" height="7" font="font19" id="p1_t70" reading_order_no="14" segment_no="12" tag_type="text"><i>BMC Neuroscience</i></text>
-<text top="277" left="112" width="22" height="7" font="font18" id="p1_t71" reading_order_no="15" segment_no="12" tag_type="text"> 2006, </text>
-<text top="277" left="135" width="4" height="7" font="font20" id="p1_t72" reading_order_no="16" segment_no="12" tag_type="text"><b>7</b></text>
-<text top="277" left="139" width="10" height="7" font="font18" id="p1_t73" reading_order_no="17" segment_no="12" tag_type="text">:78</text>
-<text top="277" left="158" width="92" height="7" font="font18" id="p1_t74" reading_order_no="18" segment_no="12" tag_type="text">doi:10.1186/1471-2202-7-78</text>
-<text top="262" left="310" width="84" height="7" font="font18" id="p1_t75" reading_order_no="23" segment_no="10" tag_type="text">Received: 26 August 2006</text>
-<text top="272" left="310" width="97" height="7" font="font18" id="p1_t76" reading_order_no="24" segment_no="11" tag_type="text">Accepted: 01 December 2006</text>
-<text top="291" left="55" width="248" height="7" font="font18" id="p1_t77" reading_order_no="19" segment_no="13" tag_type="text"><a href="http://www.biomedcentral.com/1471-2202/7/78">This article is available from: http://www.biomedcentral.com/1471-2202/7/78</a></text>
-<text top="305" left="55" width="171" height="7" font="font18" id="p1_t78" reading_order_no="20" segment_no="14" tag_type="text">© 2006 Zhu and Qian; licensee BioMed Central Ltd. </text>
-<text top="315" left="55" width="492" height="7" font="font18" id="p1_t79" reading_order_no="21" segment_no="15" tag_type="text">This is an Open Access article distributed under the terms of the Creative Commons Attribution Licens<a href="http://creativecommons.org/licenses/by/2.0">e (http://creativecommons.org/licenses/by/2.0), </a></text>
-<text top="324" left="55" width="400" height="7" font="font18" id="p1_t80" reading_order_no="22" segment_no="15" tag_type="text">which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</text>
+<text top="44" left="508" width="67" height="9" font="font0" id="p1_t1" reading_order_no="1" segment_no="1" tag_type="title">Bio Med Central<a href="http://www.biomedcentral.com/"><b>Bio</b></a></text>
+<text top="756" left="508" width="46" height="10" font="font4" id="p1_t2" reading_order_no="58" segment_no="23" tag_type="text">Page 1 of 9<a href="http://www.biomedcentral.com/"><b>Med</b></a></text>
+<text top="769" left="432" width="122" height="8" font="font5" id="p1_t3" reading_order_no="59" segment_no="24" tag_type="text">(page number not for citation purposes)<a href="http://www.biomedcentral.com/">Central</a></text>
+<text top="35" left="55" width="244" height="23" font="font6" id="p1_t4" reading_order_no="0" segment_no="0" tag_type="title">BMC Neuroscience</text>
+<text top="86" left="502" width="79" height="10" font="font7" id="p1_t5" reading_order_no="2" segment_no="2" tag_type="title">Open Access<i>(page number not for citation purposes)</i></text>
+<text top="87" left="55" width="86" height="13" font="font8" id="p1_t6" reading_order_no="3" segment_no="3" tag_type="title">Research article<b>BMC Neuroscience</b></text>
+<text top="105" left="55" width="499" height="15" font="font9" id="p1_t7" reading_order_no="4" segment_no="4" tag_type="title">Berberine chloride can ameliorate the spatial memory impairment<a href="http://www.biomedcentral.com/info/about/charter/"><b>Open Access</b></a></text>
+<text top="123" left="55" width="499" height="15" font="font9" id="p1_t8" reading_order_no="5" segment_no="4" tag_type="title">and increase the expression of interleukin-1beta and inducible nitric</text>
+<text top="141" left="55" width="406" height="15" font="font9" id="p1_t9" reading_order_no="6" segment_no="4" tag_type="title">oxide synthase in the rat model of Alzheimer's disease<b>Berberine chloride can ameliorate the spatial memory impairment </b></text>
+<text top="158" left="55" width="186" height="14" font="font10" id="p1_t10" reading_order_no="7" segment_no="5" tag_type="text">Feiqi Zhu and Caiyun Qian*<b>and increase the expression of interleukin-1beta and inducible nitric </b></text>
+<text top="194" left="55" width="496" height="8" font="font11" id="p1_t11" reading_order_no="8" segment_no="6" tag_type="text">Address: The neurology department of the first affiliated hospital, Sun Yet-Sen University, Guangzhou, Guangdong province, 510080, PR China<b>oxide synthase in the rat model of Alzheimer's disease</b></text>
+<text top="208" left="55" width="312" height="8" font="font11" id="p1_t12" reading_order_no="9" segment_no="7" tag_type="text">Email: Feiqi Zhu - zfqzsu2004@yahoo.com.cn; Caiyun Qian* - qiancyzsu@yahoo.com.cn</text>
+<text top="220" left="55" width="92" height="8" font="font11" id="p1_t13" reading_order_no="10" segment_no="8" tag_type="text">* Corresponding author</text>
+<text top="368" left="112" width="44" height="10" font="font12" id="p1_t14" reading_order_no="20" segment_no="16" tag_type="title">Abstract</text>
+<text top="383" left="112" width="385" height="9" font="font13" id="p1_t15" reading_order_no="21" segment_no="17" tag_type="text">Background: Berberine is the major alkaloidal component of Rhizoma coptidis , and has multiple<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=17137520">  </a></text>
+<text top="394" left="112" width="386" height="9" font="font14" id="p1_t16" reading_order_no="22" segment_no="17" tag_type="text">pharmacological effects including inhibiting acetylcholinesterase, reducing cholesterol and glucose,<b>Abstract</b></text>
+<text top="406" left="112" width="386" height="9" font="font14" id="p1_t17" reading_order_no="23" segment_no="17" tag_type="text">lowering mortality in patients with chronic congestive heart failure and anti-inflammation etc. Thus<b>Background: </b></text>
+<text top="418" left="112" width="386" height="9" font="font14" id="p1_t18" reading_order_no="24" segment_no="17" tag_type="text">berberine is a promising drug for diabetes, hyperlipemia, coronary artery disease and ischemic</text>
+<text top="430" left="112" width="386" height="9" font="font14" id="p1_t19" reading_order_no="25" segment_no="17" tag_type="text">stroke etc. The present study was carried out to investigate the effect of berberine chloride on the<i>Rhizoma coptidis</i></text>
+<text top="441" left="112" width="386" height="9" font="font14" id="p1_t20" reading_order_no="26" segment_no="17" tag_type="text">spatial memory, inflammation factors interleukin-1 beta (IL-1beta) and inducible nitric oxide</text>
+<text top="453" left="112" width="386" height="9" font="font14" id="p1_t21" reading_order_no="27" segment_no="17" tag_type="text">synthase (iNOS) expression in the rat model of Alzheimer's disease (AD) which was established by</text>
+<text top="465" left="112" width="303" height="9" font="font14" id="p1_t22" reading_order_no="28" segment_no="17" tag_type="text">injecting Abeta (1–40) (5 microgram) into the rats hippocampuses bilaterally.</text>
+<text top="482" left="112" width="385" height="9" font="font13" id="p1_t23" reading_order_no="29" segment_no="18" tag_type="text">Results: The rats were given berberine chloride (50 mg/kg) by intragastric administration once</text>
+<text top="493" left="112" width="385" height="9" font="font14" id="p1_t24" reading_order_no="30" segment_no="18" tag_type="text">daily for 14 days. The spatial memory was assayed by Morris water maze test, IL-1beta and iNOS</text>
+<text top="505" left="112" width="386" height="9" font="font14" id="p1_t25" reading_order_no="31" segment_no="18" tag_type="text">in the hippocampus were assayed by immunohistochemistry and real time polymerase chain</text>
+<text top="517" left="112" width="386" height="9" font="font14" id="p1_t26" reading_order_no="32" segment_no="18" tag_type="text">reaction (PCR). Intragastric administration of berberine significantly ameliorated the spatial</text>
+<text top="529" left="112" width="367" height="9" font="font14" id="p1_t27" reading_order_no="33" segment_no="18" tag_type="text">memory impairment and increased the expression of IL-1beta, iNOS in the rat model of AD.</text>
+<text top="545" left="112" width="385" height="9" font="font13" id="p1_t28" reading_order_no="34" segment_no="19" tag_type="text">Conclusion: Berberine might be beneficial to AD by intragastric administration though it might<b>Results: </b></text>
+<text top="557" left="112" width="149" height="9" font="font14" id="p1_t29" reading_order_no="35" segment_no="19" tag_type="text">exaggerate the inflammation reaction.</text>
+<text top="607" left="55" width="60" height="10" font="font12" id="p1_t30" reading_order_no="36" segment_no="21" tag_type="title">Background</text>
+<text top="618" left="55" width="241" height="9" font="font16" id="p1_t31" reading_order_no="37" segment_no="22" tag_type="text">AD is the most prominent dementia in senile population</text>
+<text top="630" left="55" width="241" height="9" font="font16" id="p1_t32" reading_order_no="38" segment_no="22" tag_type="text">affecting approximately 5% of the over 65-year old popu-</text>
+<text top="641" left="55" width="241" height="9" font="font16" id="p1_t33" reading_order_no="39" segment_no="22" tag_type="text">lations, but the cause of AD remains largely unknown. In</text>
+<text top="653" left="55" width="241" height="9" font="font16" id="p1_t34" reading_order_no="40" segment_no="22" tag_type="text">the pathogenesis of AD, the inflammation mechanism is<b>Conclusion: </b></text>
+<text top="665" left="55" width="241" height="9" font="font16" id="p1_t35" reading_order_no="41" segment_no="22" tag_type="text">seemed to play an important role [1]. The senile plaque is</text>
+<text top="677" left="55" width="241" height="9" font="font16" id="p1_t36" reading_order_no="42" segment_no="22" tag_type="text">the hallmark of AD. The core of the senile plaque is the</text>
+<text top="686" left="55" width="241" height="12" font="font16" id="p1_t37" reading_order_no="43" segment_no="22" tag_type="text">deposition of β -amyloid (A β ) and the activated microglia<b>Background</b></text>
+<text top="700" left="55" width="241" height="9" font="font16" id="p1_t38" reading_order_no="44" segment_no="22" tag_type="text">and astroglia are around the senile plaque. In these glias,</text>
+<text top="709" left="55" width="241" height="12" font="font16" id="p1_t39" reading_order_no="45" segment_no="22" tag_type="text">numerous inflammation factors including IL-1 β , inter-</text>
+<text top="721" left="55" width="241" height="12" font="font16" id="p1_t40" reading_order_no="46" segment_no="22" tag_type="text">leukin -6(IL-6), tumor necrosis factor- α (TNF- α ) and</text>
+<text top="606" left="313" width="241" height="9" font="font16" id="p1_t41" reading_order_no="47" segment_no="20" tag_type="text">iNOS etc, are overexpressed. These inflammation factors</text>
+<text top="618" left="313" width="241" height="9" font="font16" id="p1_t42" reading_order_no="48" segment_no="20" tag_type="text">have been seemed to be neurotoxic. At the same time,<a href="">[1]. The senile plaque</a> is</text>
+<text top="630" left="313" width="241" height="9" font="font16" id="p1_t43" reading_order_no="49" segment_no="20" tag_type="text">some epidemiological studies demonstrated that long-</text>
+<text top="641" left="313" width="241" height="9" font="font16" id="p1_t44" reading_order_no="50" segment_no="20" tag_type="text">term use of nonsteroidal anti-inflammatory drugs</text>
+<text top="653" left="313" width="241" height="9" font="font16" id="p1_t45" reading_order_no="51" segment_no="20" tag_type="text">(NSAIDs) could prominently delay the onset of AD [2-5].</text>
+<text top="665" left="313" width="241" height="9" font="font16" id="p1_t46" reading_order_no="52" segment_no="20" tag_type="text">The current drugs for AD treatment including cholineste-</text>
+<text top="677" left="313" width="241" height="9" font="font16" id="p1_t47" reading_order_no="53" segment_no="20" tag_type="text">rase inhibitors (donepezil, rivastigmine and galan-</text>
+<text top="689" left="313" width="241" height="9" font="font16" id="p1_t48" reading_order_no="54" segment_no="20" tag_type="text">thamin) and N-methyl-D-aspartate (NMDA) receptor</text>
+<text top="700" left="313" width="241" height="9" font="font16" id="p1_t49" reading_order_no="55" segment_no="20" tag_type="text">antagonist (memantine) which were approved by Food</text>
+<text top="712" left="313" width="241" height="9" font="font16" id="p1_t50" reading_order_no="56" segment_no="20" tag_type="text">and Drug Administration of USA (FDA) are symptomatic</text>
+<text top="724" left="313" width="241" height="9" font="font16" id="p1_t51" reading_order_no="57" segment_no="20" tag_type="text">treatment, but these drugs usually can not delay the devel-</text>
+<text top="262" left="55" width="97" height="7" font="font18" id="p1_t52" reading_order_no="11" segment_no="9" tag_type="text">Published: 01 December 2006</text>
+<text top="277" left="55" width="94" height="7" font="font19" id="p1_t53" reading_order_no="12" segment_no="12" tag_type="text">BMC Neuroscience 2006, 7 :78</text>
+<text top="277" left="158" width="92" height="7" font="font18" id="p1_t54" reading_order_no="13" segment_no="12" tag_type="text">doi:10.1186/1471-2202-7-78</text>
+<text top="262" left="310" width="84" height="7" font="font18" id="p1_t55" reading_order_no="18" segment_no="10" tag_type="text">Received: 26 August 2006</text>
+<text top="272" left="310" width="97" height="7" font="font18" id="p1_t56" reading_order_no="19" segment_no="11" tag_type="text">Accepted: 01 December 2006</text>
+<text top="291" left="55" width="248" height="7" font="font18" id="p1_t57" reading_order_no="14" segment_no="13" tag_type="text">This article is available from: http://www.biomedcentral.com/1471-2202/7/78</text>
+<text top="305" left="55" width="171" height="7" font="font18" id="p1_t58" reading_order_no="15" segment_no="14" tag_type="text">© 2006 Zhu and Qian; licensee BioMed Central Ltd.</text>
+<text top="315" left="55" width="492" height="7" font="font18" id="p1_t59" reading_order_no="16" segment_no="15" tag_type="text">This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0),</text>
+<text top="324" left="55" width="400" height="7" font="font18" id="p1_t60" reading_order_no="17" segment_no="15" tag_type="text">which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</text>
 </page>
 </pdf2xml>

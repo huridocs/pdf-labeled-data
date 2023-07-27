@@ -9,112 +9,112 @@
 	<fontspec id="font5" size="42" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font6" size="45" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font7" size="24" family="GlyphLessFont" color="#000000"/>
-<text top="243" left="130" width="966" height="55" font="font0" id="p1_t1" reading_order_no="0" segment_no="3" tag_type="text">of  the  monitoring,  diagnosis,  and  recovery  must  be </text>
-<text top="289" left="130" width="966" height="65" font="font1" id="p1_t2" reading_order_no="1" segment_no="3" tag_type="text">considered.  In  some  systems,  the  memory  footprint </text>
-<text top="341" left="129" width="965" height="65" font="font1" id="p1_t3" reading_order_no="2" segment_no="3" tag_type="text">and  processor  speed  prohibit  this  approach.  However, </text>
-<text top="394" left="130" width="966" height="65" font="font1" id="p1_t4" reading_order_no="3" segment_no="3" tag_type="text">memory  is  increasingly  becoming  cheap  enough  for </text>
-<text top="447" left="130" width="967" height="62" font="font2" id="p1_t5" reading_order_no="4" segment_no="3" tag_type="text">memory  footprint  not  to  be  an  issue;  processor  power </text>
-<text top="498" left="130" width="965" height="63" font="font3" id="p1_t6" reading_order_no="5" segment_no="3" tag_type="text">is  similarly  becoming  less  restrictive.  While  the  mod- </text>
-<text top="556" left="129" width="966" height="54" font="font4" id="p1_t7" reading_order_no="6" segment_no="3" tag_type="text">eling  effort  adds  an  extra  cost,  there  are  benefits  to </text>
-<text top="600" left="130" width="966" height="65" font="font1" id="p1_t8" reading_order_no="7" segment_no="3" tag_type="text">doing  the  modeling  that  offset  its  cost.  Making  the </text>
-<text top="652" left="129" width="967" height="65" font="font1" id="p1_t9" reading_order_no="8" segment_no="3" tag_type="text">modeling  effort  explicit  can  often  cause  faults  to  be </text>
-<text top="706" left="129" width="967" height="62" font="font2" id="p1_t10" reading_order_no="9" segment_no="3" tag_type="text">found  earlier  than  would  otherwise  be  the  case,  and </text>
-<text top="758" left="130" width="964" height="63" font="font3" id="p1_t11" reading_order_no="10" segment_no="3" tag_type="text">the  developers  can  choose  the  fidelity  of  the  models. </text>
-<text top="810" left="129" width="968" height="65" font="font1" id="p1_t12" reading_order_no="11" segment_no="3" tag_type="text">More  detailed  models  take  more  time  to  develop  but </text>
-<text top="870" left="129" width="967" height="54" font="font4" id="p1_t13" reading_order_no="12" segment_no="3" tag_type="text">allow  for  greater  fault  identification,  diagnosis,  and </text>
-<text top="917" left="130" width="965" height="62" font="font2" id="p1_t14" reading_order_no="13" segment_no="3" tag_type="text">recovery.  Finally,  our  approach  to  recovery  assumes </text>
-<text top="971" left="130" width="965" height="62" font="font2" id="p1_t15" reading_order_no="14" segment_no="3" tag_type="text">there  is  more  than  one  way  of  achieving  a  task.  The </text>
-<text top="1021" left="129" width="973" height="63" font="font3" id="p1_t16" reading_order_no="15" segment_no="3" tag_type="text">developer,  therefore,  must  provide  a  variety  of ways  of </text>
-<text top="1074" left="129" width="586" height="62" font="font2" id="p1_t17" reading_order_no="16" segment_no="3" tag_type="text">achieving  the  intended  behavior. </text>
-<text top="1132" left="178" width="917" height="54" font="font4" id="p1_t18" reading_order_no="17" segment_no="4" tag_type="text">The  added  costs  of  building  robust  software  in  this </text>
-<text top="1176" left="127" width="969" height="63" font="font3" id="p1_t19" reading_order_no="18" segment_no="4" tag_type="text">way  are  small  when  compared  to  the  benefits.  Among </text>
-<text top="1234" left="129" width="846" height="55" font="font0" id="p1_t20" reading_order_no="19" segment_no="4" tag_type="text">the  benefits,  it  allows  us  to  build  software  that: </text>
-<text top="1333" left="130" width="825" height="63" font="font3" id="p1_t21" reading_order_no="20" segment_no="5" tag_type="list">*  Operates  autonomously  to  achieve  goals  in </text>
-<text top="1393" left="161" width="695" height="54" font="font4" id="p1_t22" reading_order_no="21" segment_no="5" tag_type="list">complex  and  changing  environments; </text>
-<text top="1443" left="129" width="931" height="57" font="font5" id="p1_t23" reading_order_no="22" segment_no="6" tag_type="list">¢  Detects  and  works  around  “bugs”  resulting  from </text>
-<text top="1496" left="161" width="575" height="55" font="font0" id="p1_t24" reading_order_no="23" segment_no="6" tag_type="list">incompatible  software  changes; </text>
-<text top="1549" left="130" width="914" height="55" font="font0" id="p1_t25" reading_order_no="24" segment_no="7" tag_type="list">¢  Detects  and  recovers  from  software  attacks;  and </text>
-<text top="1597" left="129" width="804" height="61" font="font6" id="p1_t26" reading_order_no="25" segment_no="8" tag_type="list">¢  Automatically  improves  as  better  software </text>
-<text top="1654" left="161" width="654" height="54" font="font4" id="p1_t27" reading_order_no="26" segment_no="8" tag_type="list">components  and  models  are  added. </text>
-<text top="1752" left="382" width="713" height="62" font="font2" id="p1_t28" reading_order_no="27" segment_no="9" tag_type="text">t  the  heart  of  our  system  is  Reactive </text>
-<text top="1803" left="382" width="713" height="62" font="font2" id="p1_t29" reading_order_no="28" segment_no="9" tag_type="text">Model-based  Programming  Language </text>
-<text top="1854" left="384" width="711" height="65" font="font1" id="p1_t30" reading_order_no="29" segment_no="9" tag_type="text">(RMPL),  a  language  for  specifying  cor- </text>
-<text top="1907" left="381" width="713" height="63" font="font3" id="p1_t31" reading_order_no="30" segment_no="9" tag_type="text">rect  and  faulty  behavior  of  the  system’s </text>
-<text top="1961" left="381" width="713" height="62" font="font2" id="p1_t32" reading_order_no="31" segment_no="9" tag_type="text">software  components.  The  novel  ideas </text>
-<text top="2012" left="130" width="963" height="65" font="font1" id="p1_t33" reading_order_no="32" segment_no="9" tag_type="text">in  our  approach  include  the  use  of  method deprecation </text>
-<text top="2066" left="128" width="967" height="62" font="font2" id="p1_t34" reading_order_no="33" segment_no="9" tag_type="text">and  method  regeneration  in  tandem  with  an  intelligent </text>
-<text top="2119" left="129" width="965" height="62" font="font2" id="p1_t35" reading_order_no="34" segment_no="9" tag_type="text">runtime  model-based  executive  that  performs  auto- </text>
-<text top="2171" left="133" width="960" height="63" font="font3" id="p1_t36" reading_order_no="35" segment_no="9" tag_type="text">mated  fault  management  from  engineering  models, </text>
-<text top="2221" left="129" width="963" height="63" font="font3" id="p1_t37" reading_order_no="36" segment_no="9" tag_type="text">and  that  utilizes  decision-theoretic  method  dispatch. </text>
-<text top="2274" left="129" width="965" height="62" font="font2" id="p1_t38" reading_order_no="37" segment_no="9" tag_type="text">Once  a  system  has  been  enhanced  by  abstract  models </text>
-<text top="2326" left="129" width="965" height="62" font="font2" id="p1_t39" reading_order_no="38" segment_no="9" tag_type="text">of  the  nominal  and  faulty  behavior  of  its  compo- </text>
-<text top="2384" left="129" width="965" height="54" font="font4" id="p1_t40" reading_order_no="39" segment_no="9" tag_type="text">nents,  the  model-based  executive  monitors  the  state </text>
-<text top="2429" left="129" width="965" height="63" font="font3" id="p1_t41" reading_order_no="40" segment_no="9" tag_type="text">of  the  individual  components  according  to  the  mod- </text>
-<text top="2481" left="129" width="965" height="63" font="font3" id="p1_t42" reading_order_no="41" segment_no="9" tag_type="text">els.  If  faults  in  a  system  render  some  methods  inap- </text>
-<text top="2536" left="128" width="966" height="62" font="font2" id="p1_t43" reading_order_no="42" segment_no="9" tag_type="text">plicable,  method  deprecation  removes  them  from </text>
-<text top="2587" left="129" width="963" height="62" font="font2" id="p1_t44" reading_order_no="43" segment_no="9" tag_type="text">consideration  by  the  decision-theoretic  dispatch. </text>
-<text top="2639" left="129" width="965" height="63" font="font3" id="p1_t45" reading_order_no="44" segment_no="9" tag_type="text">Method  regeneration  involves  repairing  or  reconfig- </text>
-<text top="2693" left="129" width="965" height="62" font="font2" id="p1_t46" reading_order_no="45" segment_no="9" tag_type="text">uring  the  underlying  services  that  are  causing  some </text>
-<text top="2744" left="129" width="965" height="62" font="font2" id="p1_t47" reading_order_no="46" segment_no="9" tag_type="text">method  to  be  inapplicable.  This  regeneration  is </text>
-<text top="2796" left="129" width="972" height="62" font="font2" id="p1_t48" reading_order_no="47" segment_no="9" tag_type="text">achieved  by  reasoning  about  the  consequences  of </text>
-<text top="2847" left="129" width="964" height="63" font="font3" id="p1_t49" reading_order_no="48" segment_no="9" tag_type="text">actions  using  the  component  models,  and  by  exploit- </text>
-<text top="2899" left="129" width="965" height="62" font="font2" id="p1_t50" reading_order_no="49" segment_no="9" tag_type="text">ing  functional  redundancies  in  the  specified  meth- </text>
-<text top="2951" left="129" width="966" height="63" font="font3" id="p1_t51" reading_order_no="50" segment_no="9" tag_type="text">ods.  In  addition,  decision-theoretic  dispatch </text>
-<text top="3003" left="129" width="965" height="63" font="font3" id="p1_t52" reading_order_no="51" segment_no="9" tag_type="text">continually  monitors  method  performance  and </text>
-<text top="235" left="1148" width="973" height="65" font="font1" id="p1_t53" reading_order_no="52" segment_no="0" tag_type="text">dynamically  selects  the  applicable  method  that </text>
-<text top="288" left="1149" width="972" height="63" font="font3" id="p1_t54" reading_order_no="53" segment_no="0" tag_type="text">accomplishes  the  intended  goals  with  maximum </text>
-<text top="341" left="1148" width="572" height="63" font="font3" id="p1_t55" reading_order_no="54" segment_no="0" tag_type="text">safety,  timeliness,  and  accuracy. </text>
-<text top="394" left="1199" width="923" height="62" font="font2" id="p1_t56" reading_order_no="55" segment_no="1" tag_type="text">Beyond  simply  modeling  existing  software  and </text>
-<text top="445" left="1148" width="980" height="65" font="font1" id="p1_t57" reading_order_no="56" segment_no="1" tag_type="text">hardware  components,  we  allow  the  specification  of </text>
-<text top="498" left="1147" width="974" height="62" font="font2" id="p1_t58" reading_order_no="57" segment_no="1" tag_type="text">high-level  methods.  A  method  defines  the  intended </text>
-<text top="549" left="1148" width="972" height="63" font="font3" id="p1_t59" reading_order_no="58" segment_no="1" tag_type="text">state  evolution  of  a  system  in  terms  of  goals  and  fun- </text>
-<text top="608" left="1149" width="971" height="54" font="font4" id="p1_t60" reading_order_no="59" segment_no="1" tag_type="text">damental  control  constructs  (iteration,  parallelism, </text>
-<text top="660" left="1148" width="973" height="54" font="font4" id="p1_t61" reading_order_no="60" segment_no="1" tag_type="text">and  conditionals).  Over  time,  the  more  a  system's </text>
-<text top="705" left="1148" width="973" height="63" font="font3" id="p1_t62" reading_order_no="61" segment_no="1" tag_type="text">behavior  is  specified  in  terms  of  model-based  meth- </text>
-<text top="764" left="1148" width="980" height="55" font="font0" id="p1_t63" reading_order_no="62" segment_no="1" tag_type="text">ods,  the  more  it  will  be  able  to  take  full  advantage  of </text>
-<text top="811" left="1149" width="973" height="63" font="font3" id="p1_t64" reading_order_no="63" segment_no="1" tag_type="text">the  benefits  of  model-based  programming  and  the </text>
-<text top="863" left="1148" width="973" height="63" font="font3" id="p1_t65" reading_order_no="64" segment_no="1" tag_type="text">runtime  model-based  executive.  Implementing  func- </text>
-<text top="915" left="1149" width="972" height="65" font="font1" id="p1_t66" reading_order_no="65" segment_no="1" tag_type="text">tionality  in  terms  of  methods  enables  method  prog- </text>
-<text top="967" left="1148" width="973" height="65" font="font1" id="p1_t67" reading_order_no="66" segment_no="1" tag_type="text">nosis,  which  involves  proactive  method  deprecation </text>
-<text top="1021" left="1148" width="974" height="62" font="font2" id="p1_t68" reading_order_no="67" segment_no="1" tag_type="text">and  regeneration,  by  looking  ahead  in  time  through  a </text>
-<text top="1072" left="1148" width="826" height="63" font="font3" id="p1_t69" reading_order_no="68" segment_no="1" tag_type="text">temporal  plan  for  future  method  invocations. </text>
-<text top="1124" left="1198" width="923" height="63" font="font3" id="p1_t70" reading_order_no="69" segment_no="2" tag_type="text">Our  approach  has  the  benefit  that  every  additional </text>
-<text top="1176" left="1148" width="973" height="63" font="font3" id="p1_t71" reading_order_no="70" segment_no="2" tag_type="text">modeling  task  performed  on  an  existing  system  makes </text>
-<text top="1229" left="1149" width="972" height="61" font="font6" id="p1_t72" reading_order_no="71" segment_no="2" tag_type="text">the  system  more  robust,  resulting  in  substantial </text>
-<text top="1279" left="1148" width="973" height="65" font="font1" id="p1_t73" reading_order_no="72" segment_no="2" tag_type="text">improvements  over  time.  As  many  faults  and  intru- </text>
-<text top="1339" left="1147" width="973" height="54" font="font4" id="p1_t74" reading_order_no="73" segment_no="2" tag_type="text">sions  have  negative  impact  on  system  performance, </text>
-<text top="1385" left="1148" width="973" height="63" font="font3" id="p1_t75" reading_order_no="74" segment_no="2" tag_type="text">our  approach  also  improves  the  performance  of  sys- </text>
-<text top="1437" left="1148" width="972" height="63" font="font3" id="p1_t76" reading_order_no="75" segment_no="2" tag_type="text">tems  under  stress.  It  provides  a  well-grounded  tech- </text>
-<text top="1489" left="1148" width="980" height="63" font="font3" id="p1_t77" reading_order_no="76" segment_no="2" tag_type="text">nology  for  incrementally  increasing  the  robustness  of </text>
-<text top="1542" left="1148" width="973" height="63" font="font3" id="p1_t78" reading_order_no="77" segment_no="2" tag_type="text">complex,  concurrent,  critical  applications.  When </text>
-<text top="1595" left="1147" width="974" height="63" font="font3" id="p1_t79" reading_order_no="78" segment_no="2" tag_type="text">applied  pervasively,  model-based  execution  can  dra- </text>
-<text top="1646" left="1148" width="973" height="63" font="font3" id="p1_t80" reading_order_no="79" segment_no="2" tag_type="text">matically  increase  the  security  and  reliability  of  these </text>
-<text top="1699" left="1148" width="973" height="62" font="font2" id="p1_t81" reading_order_no="80" segment_no="2" tag_type="text">systems,  as  well  as  improve  overall  performance,  espe- </text>
-<text top="1750" left="1147" width="684" height="63" font="font3" id="p1_t82" reading_order_no="81" segment_no="2" tag_type="text">cially  when  the  system  is  under  stress. </text>
-<text top="1856" left="1150" width="861" height="61" font="font6" id="p1_t83" reading_order_no="82" segment_no="10" tag_type="title">FAULT-AWARE  PROCESSES  THROUGH  MODEL-BASED </text>
-<text top="1909" left="1149" width="254" height="61" font="font6" id="p1_t84" reading_order_no="83" segment_no="10" tag_type="title">PROGRAMMING </text>
-<text top="1961" left="1146" width="975" height="62" font="font2" id="p1_t85" reading_order_no="84" segment_no="11" tag_type="text">To  achieve  robustness  pervasively,  fault-adaptive </text>
-<text top="2012" left="1148" width="973" height="63" font="font3" id="p1_t86" reading_order_no="85" segment_no="11" tag_type="text">processes  must  be  created  with  minimal  program- </text>
-<text top="2064" left="1147" width="973" height="65" font="font1" id="p1_t87" reading_order_no="86" segment_no="11" tag_type="text">ming  overhead.  Model-based  programming  elevates </text>
-<text top="2117" left="1148" width="973" height="63" font="font3" id="p1_t88" reading_order_no="87" segment_no="11" tag_type="text">this  task  to  the  specification  of  the  intended  state </text>
-<text top="2169" left="1148" width="975" height="63" font="font3" id="p1_t89" reading_order_no="88" segment_no="11" tag_type="text">evolutions  of  each  process.  A  model-based  executive </text>
-<text top="2220" left="1147" width="975" height="63" font="font3" id="p1_t90" reading_order_no="89" segment_no="11" tag_type="text">automatically  synthesizes  fault  adaptive  processes  for </text>
-<text top="2272" left="1147" width="974" height="63" font="font3" id="p1_t91" reading_order_no="90" segment_no="11" tag_type="text">achieving  these  state  evolutions,  by  reasoning  from </text>
-<text top="2324" left="1148" width="974" height="63" font="font3" id="p1_t92" reading_order_no="91" segment_no="11" tag_type="text">models  of  correct  and  faulty  behavior  of  supporting </text>
-<text top="2375" left="1147" width="236" height="65" font="font1" id="p1_t93" reading_order_no="92" segment_no="11" tag_type="text">components. </text>
-<text top="2428" left="1197" width="924" height="63" font="font3" id="p1_t94" reading_order_no="93" segment_no="12" tag_type="text">Each  model-based  program  implements  a  system </text>
-<text top="2481" left="1148" width="972" height="63" font="font3" id="p1_t95" reading_order_no="94" segment_no="12" tag_type="text">that  provides  some  service  (such  as  secure  data  trans- </text>
-<text top="2534" left="1147" width="971" height="62" font="font2" id="p1_t96" reading_order_no="95" segment_no="12" tag_type="text">mission)  used  as  a  component  within  a  larger  system. </text>
-<text top="2586" left="1146" width="975" height="63" font="font3" id="p1_t97" reading_order_no="96" segment_no="12" tag_type="text">The  model-based  program  in  turn  builds  upon a set </text>
-<text top="2639" left="1147" width="973" height="63" font="font3" id="p1_t98" reading_order_no="97" segment_no="12" tag_type="text">of  services,  such  as  name  space  servers  and  data  repos- </text>
-<text top="2692" left="1147" width="974" height="62" font="font2" id="p1_t99" reading_order_no="98" segment_no="12" tag_type="text">itories,  implemented  through  a  set  of  concurrently </text>
-<text top="2743" left="1147" width="974" height="63" font="font3" id="p1_t100" reading_order_no="99" segment_no="12" tag_type="text">operating  components  that  consist  of  software  and </text>
-<text top="2796" left="1147" width="174" height="62" font="font2" id="p1_t101" reading_order_no="100" segment_no="12" tag_type="text">hardware. </text>
-<text top="2846" left="1197" width="922" height="65" font="font1" id="p1_t102" reading_order_no="101" segment_no="13" tag_type="text">Component  Service  Model.  The  service  model  rep- </text>
-<text top="2900" left="1147" width="974" height="61" font="font6" id="p1_t103" reading_order_no="102" segment_no="13" tag_type="text">resents  the  normal  behavior  and  the  known  aberrant </text>
-<text top="2951" left="1147" width="971" height="62" font="font2" id="p1_t104" reading_order_no="103" segment_no="13" tag_type="text">behaviors  of  the  program’s  component  services. </text>
-<text top="3001" left="1147" width="974" height="65" font="font1" id="p1_t105" reading_order_no="104" segment_no="13" tag_type="text">Unknown  aberrant  behaviors  are  also  supported  by </text>
-<text top="3142" left="1321" width="699" height="32" font="font7" id="p1_t106" reading_order_no="105" segment_no="14" tag_type="text">COMMUNICATIONS  OF  THE  ACM  March  2006/Vol.49,No.3 </text>
+<text top="243" left="130" width="966" height="55" font="font0" id="p1_t1" reading_order_no="0" segment_no="3" tag_type="text">of  the  monitoring,  diagnosis,  and  recovery  must  be</text>
+<text top="289" left="130" width="966" height="65" font="font1" id="p1_t2" reading_order_no="1" segment_no="3" tag_type="text">considered.  In  some  systems,  the  memory  footprint</text>
+<text top="341" left="129" width="965" height="65" font="font1" id="p1_t3" reading_order_no="2" segment_no="3" tag_type="text">and  processor  speed  prohibit  this  approach.  However,</text>
+<text top="394" left="130" width="966" height="65" font="font1" id="p1_t4" reading_order_no="3" segment_no="3" tag_type="text">memory  is  increasingly  becoming  cheap  enough  for</text>
+<text top="447" left="130" width="967" height="62" font="font2" id="p1_t5" reading_order_no="4" segment_no="3" tag_type="text">memory  footprint  not  to  be  an  issue;  processor  power</text>
+<text top="498" left="130" width="965" height="63" font="font3" id="p1_t6" reading_order_no="5" segment_no="3" tag_type="text">is  similarly  becoming  less  restrictive.  While  the  mod-</text>
+<text top="556" left="129" width="966" height="54" font="font4" id="p1_t7" reading_order_no="6" segment_no="3" tag_type="text">eling  effort  adds  an  extra  cost,  there  are  benefits  to</text>
+<text top="600" left="130" width="966" height="65" font="font1" id="p1_t8" reading_order_no="7" segment_no="3" tag_type="text">doing  the  modeling  that  offset  its  cost.  Making  the</text>
+<text top="652" left="129" width="967" height="65" font="font1" id="p1_t9" reading_order_no="8" segment_no="3" tag_type="text">modeling  effort  explicit  can  often  cause  faults  to  be</text>
+<text top="706" left="129" width="967" height="62" font="font2" id="p1_t10" reading_order_no="9" segment_no="3" tag_type="text">found  earlier  than  would  otherwise  be  the  case,  and</text>
+<text top="758" left="130" width="964" height="63" font="font3" id="p1_t11" reading_order_no="10" segment_no="3" tag_type="text">the  developers  can  choose  the  fidelity  of  the  models.</text>
+<text top="810" left="129" width="968" height="65" font="font1" id="p1_t12" reading_order_no="11" segment_no="3" tag_type="text">More  detailed  models  take  more  time  to  develop  but</text>
+<text top="870" left="129" width="967" height="54" font="font4" id="p1_t13" reading_order_no="12" segment_no="3" tag_type="text">allow  for  greater  fault  identification,  diagnosis,  and</text>
+<text top="917" left="130" width="965" height="62" font="font2" id="p1_t14" reading_order_no="13" segment_no="3" tag_type="text">recovery.  Finally,  our  approach  to  recovery  assumes</text>
+<text top="971" left="130" width="965" height="62" font="font2" id="p1_t15" reading_order_no="14" segment_no="3" tag_type="text">there  is  more  than  one  way  of  achieving  a  task.  The</text>
+<text top="1021" left="129" width="973" height="63" font="font3" id="p1_t16" reading_order_no="15" segment_no="3" tag_type="text">developer,  therefore,  must  provide  a  variety  of ways  of</text>
+<text top="1074" left="129" width="586" height="62" font="font2" id="p1_t17" reading_order_no="16" segment_no="3" tag_type="text">achieving  the  intended  behavior.</text>
+<text top="1132" left="178" width="917" height="54" font="font4" id="p1_t18" reading_order_no="17" segment_no="4" tag_type="text">The  added  costs  of  building  robust  software  in  this</text>
+<text top="1176" left="127" width="969" height="63" font="font3" id="p1_t19" reading_order_no="18" segment_no="4" tag_type="text">way  are  small  when  compared  to  the  benefits.  Among</text>
+<text top="1234" left="129" width="846" height="55" font="font0" id="p1_t20" reading_order_no="19" segment_no="4" tag_type="text">the  benefits,  it  allows  us  to  build  software  that:</text>
+<text top="1333" left="130" width="825" height="63" font="font3" id="p1_t21" reading_order_no="20" segment_no="5" tag_type="list">*  Operates  autonomously  to  achieve  goals  in</text>
+<text top="1393" left="161" width="695" height="54" font="font4" id="p1_t22" reading_order_no="21" segment_no="5" tag_type="list">complex  and  changing  environments;</text>
+<text top="1443" left="129" width="931" height="57" font="font5" id="p1_t23" reading_order_no="22" segment_no="6" tag_type="list">¢  Detects  and  works  around  “bugs”  resulting  from</text>
+<text top="1496" left="161" width="575" height="55" font="font0" id="p1_t24" reading_order_no="23" segment_no="6" tag_type="list">incompatible  software  changes;</text>
+<text top="1549" left="130" width="914" height="55" font="font0" id="p1_t25" reading_order_no="24" segment_no="7" tag_type="list">¢  Detects  and  recovers  from  software  attacks;  and</text>
+<text top="1597" left="129" width="804" height="61" font="font6" id="p1_t26" reading_order_no="25" segment_no="8" tag_type="list">¢  Automatically  improves  as  better  software</text>
+<text top="1654" left="161" width="654" height="54" font="font4" id="p1_t27" reading_order_no="26" segment_no="8" tag_type="list">components  and  models  are  added.</text>
+<text top="1752" left="382" width="713" height="62" font="font2" id="p1_t28" reading_order_no="27" segment_no="9" tag_type="text">t  the  heart  of  our  system  is  Reactive</text>
+<text top="1803" left="382" width="713" height="62" font="font2" id="p1_t29" reading_order_no="28" segment_no="9" tag_type="text">Model-based  Programming  Language</text>
+<text top="1854" left="384" width="711" height="65" font="font1" id="p1_t30" reading_order_no="29" segment_no="9" tag_type="text">(RMPL),  a  language  for  specifying  cor-</text>
+<text top="1907" left="381" width="713" height="63" font="font3" id="p1_t31" reading_order_no="30" segment_no="9" tag_type="text">rect  and  faulty  behavior  of  the  system’s</text>
+<text top="1961" left="381" width="713" height="62" font="font2" id="p1_t32" reading_order_no="31" segment_no="9" tag_type="text">software  components.  The  novel  ideas</text>
+<text top="2012" left="130" width="963" height="65" font="font1" id="p1_t33" reading_order_no="32" segment_no="9" tag_type="text">in  our  approach  include  the  use  of  method deprecation</text>
+<text top="2066" left="128" width="967" height="62" font="font2" id="p1_t34" reading_order_no="33" segment_no="9" tag_type="text">and  method  regeneration  in  tandem  with  an  intelligent</text>
+<text top="2119" left="129" width="965" height="62" font="font2" id="p1_t35" reading_order_no="34" segment_no="9" tag_type="text">runtime  model-based  executive  that  performs  auto-</text>
+<text top="2171" left="133" width="960" height="63" font="font3" id="p1_t36" reading_order_no="35" segment_no="9" tag_type="text">mated  fault  management  from  engineering  models,</text>
+<text top="2221" left="129" width="963" height="63" font="font3" id="p1_t37" reading_order_no="36" segment_no="9" tag_type="text">and  that  utilizes  decision-theoretic  method  dispatch.</text>
+<text top="2274" left="129" width="965" height="62" font="font2" id="p1_t38" reading_order_no="37" segment_no="9" tag_type="text">Once  a  system  has  been  enhanced  by  abstract  models</text>
+<text top="2326" left="129" width="965" height="62" font="font2" id="p1_t39" reading_order_no="38" segment_no="9" tag_type="text">of  the  nominal  and  faulty  behavior  of  its  compo-</text>
+<text top="2384" left="129" width="965" height="54" font="font4" id="p1_t40" reading_order_no="39" segment_no="9" tag_type="text">nents,  the  model-based  executive  monitors  the  state</text>
+<text top="2429" left="129" width="965" height="63" font="font3" id="p1_t41" reading_order_no="40" segment_no="9" tag_type="text">of  the  individual  components  according  to  the  mod-</text>
+<text top="2481" left="129" width="965" height="63" font="font3" id="p1_t42" reading_order_no="41" segment_no="9" tag_type="text">els.  If  faults  in  a  system  render  some  methods  inap-</text>
+<text top="2536" left="128" width="966" height="62" font="font2" id="p1_t43" reading_order_no="42" segment_no="9" tag_type="text">plicable,  method  deprecation  removes  them  from</text>
+<text top="2587" left="129" width="963" height="62" font="font2" id="p1_t44" reading_order_no="43" segment_no="9" tag_type="text">consideration  by  the  decision-theoretic  dispatch.</text>
+<text top="2639" left="129" width="965" height="63" font="font3" id="p1_t45" reading_order_no="44" segment_no="9" tag_type="text">Method  regeneration  involves  repairing  or  reconfig-</text>
+<text top="2693" left="129" width="965" height="62" font="font2" id="p1_t46" reading_order_no="45" segment_no="9" tag_type="text">uring  the  underlying  services  that  are  causing  some</text>
+<text top="2744" left="129" width="965" height="62" font="font2" id="p1_t47" reading_order_no="46" segment_no="9" tag_type="text">method  to  be  inapplicable.  This  regeneration  is</text>
+<text top="2796" left="129" width="972" height="62" font="font2" id="p1_t48" reading_order_no="47" segment_no="9" tag_type="text">achieved  by  reasoning  about  the  consequences  of</text>
+<text top="2847" left="129" width="964" height="63" font="font3" id="p1_t49" reading_order_no="48" segment_no="9" tag_type="text">actions  using  the  component  models,  and  by  exploit-</text>
+<text top="2899" left="129" width="965" height="62" font="font2" id="p1_t50" reading_order_no="49" segment_no="9" tag_type="text">ing  functional  redundancies  in  the  specified  meth-</text>
+<text top="2951" left="129" width="966" height="63" font="font3" id="p1_t51" reading_order_no="50" segment_no="9" tag_type="text">ods.  In  addition,  decision-theoretic  dispatch</text>
+<text top="3003" left="129" width="965" height="63" font="font3" id="p1_t52" reading_order_no="51" segment_no="9" tag_type="text">continually  monitors  method  performance  and</text>
+<text top="235" left="1148" width="973" height="65" font="font1" id="p1_t53" reading_order_no="52" segment_no="0" tag_type="text">dynamically  selects  the  applicable  method  that</text>
+<text top="288" left="1149" width="972" height="63" font="font3" id="p1_t54" reading_order_no="53" segment_no="0" tag_type="text">accomplishes  the  intended  goals  with  maximum</text>
+<text top="341" left="1148" width="572" height="63" font="font3" id="p1_t55" reading_order_no="54" segment_no="0" tag_type="text">safety,  timeliness,  and  accuracy.</text>
+<text top="394" left="1199" width="923" height="62" font="font2" id="p1_t56" reading_order_no="55" segment_no="1" tag_type="text">Beyond  simply  modeling  existing  software  and</text>
+<text top="445" left="1148" width="980" height="65" font="font1" id="p1_t57" reading_order_no="56" segment_no="1" tag_type="text">hardware  components,  we  allow  the  specification  of</text>
+<text top="498" left="1147" width="974" height="62" font="font2" id="p1_t58" reading_order_no="57" segment_no="1" tag_type="text">high-level  methods.  A  method  defines  the  intended</text>
+<text top="549" left="1148" width="972" height="63" font="font3" id="p1_t59" reading_order_no="58" segment_no="1" tag_type="text">state  evolution  of  a  system  in  terms  of  goals  and  fun-</text>
+<text top="608" left="1149" width="971" height="54" font="font4" id="p1_t60" reading_order_no="59" segment_no="1" tag_type="text">damental  control  constructs  (iteration,  parallelism,</text>
+<text top="660" left="1148" width="973" height="54" font="font4" id="p1_t61" reading_order_no="60" segment_no="1" tag_type="text">and  conditionals).  Over  time,  the  more  a  system's</text>
+<text top="705" left="1148" width="973" height="63" font="font3" id="p1_t62" reading_order_no="61" segment_no="1" tag_type="text">behavior  is  specified  in  terms  of  model-based  meth-</text>
+<text top="764" left="1148" width="980" height="55" font="font0" id="p1_t63" reading_order_no="62" segment_no="1" tag_type="text">ods,  the  more  it  will  be  able  to  take  full  advantage  of</text>
+<text top="811" left="1149" width="973" height="63" font="font3" id="p1_t64" reading_order_no="63" segment_no="1" tag_type="text">the  benefits  of  model-based  programming  and  the</text>
+<text top="863" left="1148" width="973" height="63" font="font3" id="p1_t65" reading_order_no="64" segment_no="1" tag_type="text">runtime  model-based  executive.  Implementing  func-</text>
+<text top="915" left="1149" width="972" height="65" font="font1" id="p1_t66" reading_order_no="65" segment_no="1" tag_type="text">tionality  in  terms  of  methods  enables  method  prog-</text>
+<text top="967" left="1148" width="973" height="65" font="font1" id="p1_t67" reading_order_no="66" segment_no="1" tag_type="text">nosis,  which  involves  proactive  method  deprecation</text>
+<text top="1021" left="1148" width="974" height="62" font="font2" id="p1_t68" reading_order_no="67" segment_no="1" tag_type="text">and  regeneration,  by  looking  ahead  in  time  through  a</text>
+<text top="1072" left="1148" width="826" height="63" font="font3" id="p1_t69" reading_order_no="68" segment_no="1" tag_type="text">temporal  plan  for  future  method  invocations.</text>
+<text top="1124" left="1198" width="923" height="63" font="font3" id="p1_t70" reading_order_no="69" segment_no="2" tag_type="text">Our  approach  has  the  benefit  that  every  additional</text>
+<text top="1176" left="1148" width="973" height="63" font="font3" id="p1_t71" reading_order_no="70" segment_no="2" tag_type="text">modeling  task  performed  on  an  existing  system  makes</text>
+<text top="1229" left="1149" width="972" height="61" font="font6" id="p1_t72" reading_order_no="71" segment_no="2" tag_type="text">the  system  more  robust,  resulting  in  substantial</text>
+<text top="1279" left="1148" width="973" height="65" font="font1" id="p1_t73" reading_order_no="72" segment_no="2" tag_type="text">improvements  over  time.  As  many  faults  and  intru-</text>
+<text top="1339" left="1147" width="973" height="54" font="font4" id="p1_t74" reading_order_no="73" segment_no="2" tag_type="text">sions  have  negative  impact  on  system  performance,</text>
+<text top="1385" left="1148" width="973" height="63" font="font3" id="p1_t75" reading_order_no="74" segment_no="2" tag_type="text">our  approach  also  improves  the  performance  of  sys-</text>
+<text top="1437" left="1148" width="972" height="63" font="font3" id="p1_t76" reading_order_no="75" segment_no="2" tag_type="text">tems  under  stress.  It  provides  a  well-grounded  tech-</text>
+<text top="1489" left="1148" width="980" height="63" font="font3" id="p1_t77" reading_order_no="76" segment_no="2" tag_type="text">nology  for  incrementally  increasing  the  robustness  of</text>
+<text top="1542" left="1148" width="973" height="63" font="font3" id="p1_t78" reading_order_no="77" segment_no="2" tag_type="text">complex,  concurrent,  critical  applications.  When</text>
+<text top="1595" left="1147" width="974" height="63" font="font3" id="p1_t79" reading_order_no="78" segment_no="2" tag_type="text">applied  pervasively,  model-based  execution  can  dra-</text>
+<text top="1646" left="1148" width="973" height="63" font="font3" id="p1_t80" reading_order_no="79" segment_no="2" tag_type="text">matically  increase  the  security  and  reliability  of  these</text>
+<text top="1699" left="1148" width="973" height="62" font="font2" id="p1_t81" reading_order_no="80" segment_no="2" tag_type="text">systems,  as  well  as  improve  overall  performance,  espe-</text>
+<text top="1750" left="1147" width="684" height="63" font="font3" id="p1_t82" reading_order_no="81" segment_no="2" tag_type="text">cially  when  the  system  is  under  stress.</text>
+<text top="1856" left="1150" width="861" height="61" font="font6" id="p1_t83" reading_order_no="82" segment_no="10" tag_type="title">FAULT-AWARE  PROCESSES  THROUGH  MODEL-BASED</text>
+<text top="1909" left="1149" width="254" height="61" font="font6" id="p1_t84" reading_order_no="83" segment_no="10" tag_type="title">PROGRAMMING</text>
+<text top="1961" left="1146" width="975" height="62" font="font2" id="p1_t85" reading_order_no="84" segment_no="11" tag_type="text">To  achieve  robustness  pervasively,  fault-adaptive</text>
+<text top="2012" left="1148" width="973" height="63" font="font3" id="p1_t86" reading_order_no="85" segment_no="11" tag_type="text">processes  must  be  created  with  minimal  program-</text>
+<text top="2064" left="1147" width="973" height="65" font="font1" id="p1_t87" reading_order_no="86" segment_no="11" tag_type="text">ming  overhead.  Model-based  programming  elevates</text>
+<text top="2117" left="1148" width="973" height="63" font="font3" id="p1_t88" reading_order_no="87" segment_no="11" tag_type="text">this  task  to  the  specification  of  the  intended  state</text>
+<text top="2169" left="1148" width="975" height="63" font="font3" id="p1_t89" reading_order_no="88" segment_no="11" tag_type="text">evolutions  of  each  process.  A  model-based  executive</text>
+<text top="2220" left="1147" width="975" height="63" font="font3" id="p1_t90" reading_order_no="89" segment_no="11" tag_type="text">automatically  synthesizes  fault  adaptive  processes  for</text>
+<text top="2272" left="1147" width="974" height="63" font="font3" id="p1_t91" reading_order_no="90" segment_no="11" tag_type="text">achieving  these  state  evolutions,  by  reasoning  from</text>
+<text top="2324" left="1148" width="974" height="63" font="font3" id="p1_t92" reading_order_no="91" segment_no="11" tag_type="text">models  of  correct  and  faulty  behavior  of  supporting</text>
+<text top="2375" left="1147" width="236" height="65" font="font1" id="p1_t93" reading_order_no="92" segment_no="11" tag_type="text">components.</text>
+<text top="2428" left="1197" width="924" height="63" font="font3" id="p1_t94" reading_order_no="93" segment_no="12" tag_type="text">Each  model-based  program  implements  a  system</text>
+<text top="2481" left="1148" width="972" height="63" font="font3" id="p1_t95" reading_order_no="94" segment_no="12" tag_type="text">that  provides  some  service  (such  as  secure  data  trans-</text>
+<text top="2534" left="1147" width="971" height="62" font="font2" id="p1_t96" reading_order_no="95" segment_no="12" tag_type="text">mission)  used  as  a  component  within  a  larger  system.</text>
+<text top="2586" left="1146" width="975" height="63" font="font3" id="p1_t97" reading_order_no="96" segment_no="12" tag_type="text">The  model-based  program  in  turn  builds  upon a set</text>
+<text top="2639" left="1147" width="973" height="63" font="font3" id="p1_t98" reading_order_no="97" segment_no="12" tag_type="text">of  services,  such  as  name  space  servers  and  data  repos-</text>
+<text top="2692" left="1147" width="974" height="62" font="font2" id="p1_t99" reading_order_no="98" segment_no="12" tag_type="text">itories,  implemented  through  a  set  of  concurrently</text>
+<text top="2743" left="1147" width="974" height="63" font="font3" id="p1_t100" reading_order_no="99" segment_no="12" tag_type="text">operating  components  that  consist  of  software  and</text>
+<text top="2796" left="1147" width="174" height="62" font="font2" id="p1_t101" reading_order_no="100" segment_no="12" tag_type="text">hardware.</text>
+<text top="2846" left="1197" width="922" height="65" font="font1" id="p1_t102" reading_order_no="101" segment_no="13" tag_type="text">Component  Service  Model.  The  service  model  rep-</text>
+<text top="2900" left="1147" width="974" height="61" font="font6" id="p1_t103" reading_order_no="102" segment_no="13" tag_type="text">resents  the  normal  behavior  and  the  known  aberrant</text>
+<text top="2951" left="1147" width="971" height="62" font="font2" id="p1_t104" reading_order_no="103" segment_no="13" tag_type="text">behaviors  of  the  program’s  component  services.</text>
+<text top="3001" left="1147" width="974" height="65" font="font1" id="p1_t105" reading_order_no="104" segment_no="13" tag_type="text">Unknown  aberrant  behaviors  are  also  supported  by</text>
+<text top="3142" left="1321" width="699" height="32" font="font7" id="p1_t106" reading_order_no="105" segment_no="14" tag_type="text">COMMUNICATIONS  OF  THE  ACM  March  2006/Vol.49,No.3</text>
 <text top="3142" left="2065" width="45" height="32" font="font7" id="p1_t107" reading_order_no="106" segment_no="15" tag_type="text">4  3</text>
 </page>
 </pdf2xml>

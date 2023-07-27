@@ -17,121 +17,121 @@
 	<fontspec id="font13" size="34" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font14" size="39" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font15" size="30" family="GlyphLessFont" color="#000000"/>
-<text top="246" left="122" width="255" height="62" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">RELATED  WorK </text>
-<text top="298" left="119" width="973" height="65" font="font1" id="p1_t2" reading_order_no="1" segment_no="1" tag_type="text">We  can  study  the  performance  and  operation  of </text>
-<text top="351" left="117" width="968" height="63" font="font2" id="p1_t3" reading_order_no="2" segment_no="1" tag_type="text">Java-based  middleware  systems  using  the  RUBiS  sys- </text>
-<text top="404" left="120" width="965" height="62" font="font0" id="p1_t4" reading_order_no="3" segment_no="1" tag_type="text">tem.  The  authors  of RUBiS  showed  that  the  mixture </text>
-<text top="455" left="119" width="966" height="65" font="font1" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="text">of  requests—the  workload—plays  a  significant  role </text>
-<text top="514" left="120" width="762" height="54" font="font3" id="p1_t6" reading_order_no="5" segment_no="1" tag_type="text">in  determining  system  bottlenecks  [1,  3]. </text>
-<text top="613" left="390" width="695" height="62" font="font0" id="p1_t7" reading_order_no="6" segment_no="3" tag_type="text">ur  approach  differs  from  previous </text>
-<text top="664" left="389" width="696" height="62" font="font0" id="p1_t8" reading_order_no="7" segment_no="3" tag_type="text">attempts  to  apply  control  theory  to </text>
-<text top="715" left="389" width="695" height="63" font="font2" id="p1_t9" reading_order_no="8" segment_no="3" tag_type="text">operating  systems  and  three-tier  sys- </text>
-<text top="768" left="390" width="696" height="63" font="font2" id="p1_t10" reading_order_no="9" segment_no="3" tag_type="text">tems,  which  have  assumed  that </text>
-<text top="819" left="390" width="695" height="62" font="font0" id="p1_t11" reading_order_no="10" segment_no="3" tag_type="text">requests  to  the  system  are  homoge- </text>
-<text top="873" left="119" width="967" height="63" font="font2" id="p1_t12" reading_order_no="11" segment_no="3" tag_type="text">neous  (affect  the  system  in  the  same  way).  The </text>
-<text top="931" left="119" width="966" height="57" font="font4" id="p1_t13" reading_order_no="12" segment_no="3" tag_type="text">SWIFT  system  [6,  7]  is  a  systematic  approach  to </text>
-<text top="978" left="119" width="966" height="61" font="font5" id="p1_t14" reading_order_no="13" segment_no="3" tag_type="text">introducing  input/output  interfaces  to  operating  sys- </text>
-<text top="1038" left="120" width="503" height="54" font="font3" id="p1_t15" reading_order_no="14" segment_no="3" tag_type="text">tem  components,  which </text>
-<text top="1083" left="120" width="503" height="63" font="font2" id="p1_t16" reading_order_no="15" segment_no="3" tag_type="text">matches  well  with  the  well- </text>
-<text top="1134" left="119" width="503" height="62" font="font0" id="p1_t17" reading_order_no="16" segment_no="3" tag_type="text">defined  interfaces  between </text>
-<text top="1186" left="119" width="502" height="62" font="font0" id="p1_t18" reading_order_no="17" segment_no="3" tag_type="text">middleware  components. </text>
-<text top="1238" left="118" width="505" height="63" font="font2" id="p1_t19" reading_order_no="18" segment_no="3" tag_type="text">The  ControlWare  system </text>
-<text top="1294" left="123" width="500" height="57" font="font4" id="p1_t20" reading_order_no="19" segment_no="3" tag_type="text">[10]  is  a  toolkit  for  auto- </text>
-<text top="1342" left="119" width="503" height="62" font="font0" id="p1_t21" reading_order_no="20" segment_no="3" tag_type="text">matically  mapping  QoS </text>
-<text top="1393" left="119" width="503" height="65" font="font1" id="p1_t22" reading_order_no="21" segment_no="3" tag_type="text">requirements  into  simple </text>
-<text top="1446" left="119" width="504" height="63" font="font2" id="p1_t23" reading_order_no="22" segment_no="3" tag_type="text">control  loops  in  three-tier </text>
-<text top="1500" left="119" width="142" height="63" font="font2" id="p1_t24" reading_order_no="23" segment_no="3" tag_type="text">systems. </text>
-<text top="1553" left="170" width="453" height="62" font="font0" id="p1_t25" reading_order_no="24" segment_no="4" tag_type="text">Considerable  work  has </text>
-<text top="1606" left="118" width="967" height="62" font="font0" id="p1_t26" reading_order_no="25" segment_no="4" tag_type="text">been  applied  to  correlation  analysis  of  Web  services </text>
-<text top="1657" left="119" width="966" height="63" font="font2" id="p1_t27" reading_order_no="26" segment_no="4" tag_type="text">both  in  research  literature  and  in  industrial  best  prac- </text>
-<text top="1709" left="119" width="966" height="63" font="font2" id="p1_t28" reading_order_no="27" segment_no="4" tag_type="text">tices.  The  SLIC  project  at  HP  Labs  [4]  attempts  to </text>
-<text top="1762" left="120" width="965" height="62" font="font0" id="p1_t29" reading_order_no="28" segment_no="4" tag_type="text">identify  which  components  are  responsible  for  Web </text>
-<text top="1816" left="118" width="966" height="57" font="font4" id="p1_t30" reading_order_no="29" segment_no="4" tag_type="text">service  violations  of  Service-Level  Operations  (SLOs) </text>
-<text top="1866" left="119" width="966" height="62" font="font0" id="p1_t31" reading_order_no="30" segment_no="4" tag_type="text">by  using  fine-grained  monitoring  and  instrumenta- </text>
-<text top="1919" left="119" width="966" height="61" font="font5" id="p1_t32" reading_order_no="31" segment_no="4" tag_type="text">tion.  The  Performance  Management  project  at  IBM </text>
-<text top="1970" left="119" width="966" height="63" font="font2" id="p1_t33" reading_order_no="32" segment_no="4" tag_type="text">has  explored  using  control  theory  and  statistical  mon- </text>
-<text top="2022" left="120" width="967" height="63" font="font2" id="p1_t34" reading_order_no="33" segment_no="4" tag_type="text">itoring  to  detect  and  adapt  to  unexpected  traffic </text>
-<text top="2080" left="118" width="968" height="57" font="font4" id="p1_t35" reading_order_no="34" segment_no="4" tag_type="text">surges  [8,  5].  Techniques  for  visualizing  structured </text>
-<text top="2131" left="119" width="446" height="59" font="font6" id="p1_t36" reading_order_no="35" segment_no="4" tag_type="text">data  are  described  in  [9]. </text>
-<text top="1484" left="727" width="179" height="51" font="font7" id="p1_t37" reading_order_no="52" segment_no="8" tag_type="figure">Web  Tier </text>
-<text top="2234" left="119" width="953" height="59" font="font6" id="p1_t38" reading_order_no="36" segment_no="14" tag_type="title">OVERLOAD  AVOIDANCE  IN  SELF-ADAPTIVE  WEB  SERVICES </text>
-<text top="2283" left="120" width="965" height="63" font="font2" id="p1_t39" reading_order_no="37" segment_no="15" tag_type="text">Overload  occurs  when  the  load  placed  on  a  Web  ser- </text>
-<text top="2335" left="117" width="969" height="63" font="font2" id="p1_t40" reading_order_no="38" segment_no="15" tag_type="text">vice  exceeds  its  ability  to  serve  requests.  Flash  traffic </text>
-<text top="2387" left="119" width="967" height="63" font="font2" id="p1_t41" reading_order_no="39" segment_no="15" tag_type="text">and  sudden  load  spikes  operate  at  timescales  faster </text>
-<text top="2439" left="120" width="965" height="63" font="font2" id="p1_t42" reading_order_no="40" segment_no="15" tag_type="text">than  operators  can  upgrade  their  systems.  Web  ser- </text>
-<text top="2491" left="118" width="966" height="63" font="font2" id="p1_t43" reading_order_no="41" segment_no="15" tag_type="text">vice  operators  can  manage  load  in  a  number  of ways. </text>
-<text top="2545" left="119" width="966" height="62" font="font0" id="p1_t44" reading_order_no="42" segment_no="15" tag_type="text">One  way  is  to  direct  load  to  spare  servers  that  can </text>
-<text top="2597" left="119" width="973" height="63" font="font2" id="p1_t45" reading_order_no="43" segment_no="15" tag_type="text">handle  the  surge.  This  technique  is  an  example  of </text>
-<text top="2649" left="119" width="967" height="63" font="font2" id="p1_t46" reading_order_no="44" segment_no="15" tag_type="text">load  balancing.  Complex  Web  services  are  often </text>
-<text top="2701" left="120" width="966" height="65" font="font1" id="p1_t47" reading_order_no="45" segment_no="15" tag_type="text">built  in  multiple  layers  of  interconnecting  compo- </text>
-<text top="2759" left="120" width="966" height="57" font="font4" id="p1_t48" reading_order_no="46" segment_no="15" tag_type="text">nents  (see Figure  DN  Applying  a  load-balancing  strat- </text>
-<text top="2805" left="119" width="967" height="62" font="font0" id="p1_t49" reading_order_no="47" segment_no="15" tag_type="text">egy  in  this  environment  is  non-trivial,  since  detailed </text>
-<text top="2858" left="120" width="965" height="63" font="font2" id="p1_t50" reading_order_no="48" segment_no="15" tag_type="text">instrumentation  of  the  internal  components  is  usu- </text>
-<text top="2909" left="120" width="318" height="63" font="font2" id="p1_t51" reading_order_no="49" segment_no="15" tag_type="text">ally  not  available. </text>
-<text top="2962" left="170" width="916" height="62" font="font0" id="p1_t52" reading_order_no="50" segment_no="16" tag_type="text">High-level  overload  mitigation  strategies  can  be </text>
-<text top="3020" left="121" width="965" height="54" font="font3" id="p1_t53" reading_order_no="51" segment_no="16" tag_type="text">used,  at  least  temporarily,  during  this  time  (such  as </text>
-<text top="1478" left="1007" width="301" height="58" font="font9" id="p1_t54" reading_order_no="53" segment_no="8" tag_type="figure">Application  Tier </text>
-<text top="249" left="1139" width="971" height="57" font="font4" id="p1_t55" reading_order_no="59" segment_no="2" tag_type="text">HTTP  503  TOO  BUSY  responses).  However,  this </text>
-<text top="298" left="1138" width="973" height="62" font="font0" id="p1_t56" reading_order_no="60" segment_no="2" tag_type="text">adversely  affects  all  traffic  to  the  site,  even  when  the </text>
-<text top="347" left="1139" width="972" height="65" font="font1" id="p1_t57" reading_order_no="61" segment_no="2" tag_type="text">bottleneck  is  driven  by  a  small  population  of  requests </text>
-<text top="405" left="1140" width="970" height="57" font="font4" id="p1_t58" reading_order_no="62" segment_no="2" tag_type="text">(about  15%,  in  our  RUBiS  emulation).  This  moti- </text>
-<text top="458" left="1136" width="974" height="58" font="font9" id="p1_t59" reading_order_no="63" segment_no="2" tag_type="text">vates  the  desire  for  a  less  disruptive,  selective  admis- </text>
-<text top="512" left="1138" width="225" height="55" font="font10" id="p1_t60" reading_order_no="64" segment_no="2" tag_type="text">sion  control. </text>
-<text top="613" left="1247" width="865" height="57" font="font4" id="p1_t61" reading_order_no="65" segment_no="5" tag_type="text">n  selective  admission  control,  we  first  throttle </text>
-<text top="665" left="1246" width="864" height="57" font="font4" id="p1_t62" reading_order_no="66" segment_no="5" tag_type="text">back  requests  contributing  to  the  overload, </text>
-<text top="712" left="1244" width="867" height="63" font="font2" id="p1_t63" reading_order_no="67" segment_no="5" tag_type="text">while  leaving  all  other  requests  unaffected.  In </text>
-<text top="771" left="1246" width="866" height="54" font="font3" id="p1_t64" reading_order_no="68" segment_no="5" tag_type="text">our  implementation,  the  bottleneck  was  the </text>
-<text top="823" left="1246" width="867" height="58" font="font9" id="p1_t65" reading_order_no="69" segment_no="5" tag_type="text">databases  CPU,  and  the  two  contributing </text>
-<text top="877" left="1138" width="974" height="54" font="font3" id="p1_t66" reading_order_no="70" segment_no="5" tag_type="text">requests  involved  searching  for  items.  In  general,  it  is </text>
-<text top="929" left="1138" width="973" height="57" font="font4" id="p1_t67" reading_order_no="71" segment_no="5" tag_type="text">quite  difficult  to  determine  the  runtime  connections </text>
-<text top="976" left="1138" width="973" height="62" font="font0" id="p1_t68" reading_order_no="72" segment_no="5" tag_type="text">between  components  in a  distributed  system.  Often </text>
-<text top="1032" left="1656" width="458" height="57" font="font4" id="p1_t69" reading_order_no="73" segment_no="5" tag_type="text">these  are  determined  by </text>
-<text top="1086" left="1582" width="530" height="54" font="font3" id="p1_t70" reading_order_no="74" segment_no="5" tag_type="text">we  the  workload,  and  can </text>
-<text top="1132" left="1655" width="456" height="62" font="font0" id="p1_t71" reading_order_no="75" segment_no="5" tag_type="text">change  over  time.  In </text>
-<text top="1188" left="1655" width="463" height="57" font="font4" id="p1_t72" reading_order_no="76" segment_no="5" tag_type="text">addition  to  the  lack  of </text>
-<text top="1236" left="1654" width="458" height="62" font="font0" id="p1_t73" reading_order_no="77" segment_no="5" tag_type="text">visibility  into  these  con- </text>
-<text top="1292" left="1656" width="456" height="55" font="font10" id="p1_t74" reading_order_no="78" segment_no="5" tag_type="text">nections,  it  is  non-trivial </text>
-<text top="1340" left="1656" width="456" height="62" font="font0" id="p1_t75" reading_order_no="79" segment_no="5" tag_type="text">to  map  those  connec- </text>
-<text top="1396" left="1656" width="457" height="58" font="font9" id="p1_t76" reading_order_no="80" segment_no="5" tag_type="text">tions  from  a  request  to  a </text>
-<text top="1447" left="1656" width="456" height="59" font="font6" id="p1_t77" reading_order_no="81" segment_no="5" tag_type="text">bottleneck(s).  We  seek  to </text>
-<text top="1502" left="1656" width="456" height="57" font="font4" id="p1_t78" reading_order_no="82" segment_no="5" tag_type="text">make  use  of  measure- </text>
-<text top="1555" left="1657" width="97" height="57" font="font4" id="p1_t79" reading_order_no="83" segment_no="5" tag_type="text">ment </text>
-<text top="1555" left="1812" width="80" height="57" font="font4" id="p1_t80" reading_order_no="84" segment_no="5" tag_type="text">data </text>
-<text top="1555" left="1951" width="34" height="57" font="font4" id="p1_t81" reading_order_no="85" segment_no="5" tag_type="text">in_ </text>
-<text top="1555" left="2045" width="67" height="57" font="font4" id="p1_t82" reading_order_no="86" segment_no="5" tag_type="text">this </text>
-<text top="1606" left="1656" width="139" height="58" font="font9" id="p1_t83" reading_order_no="87" segment_no="5" tag_type="text">process. </text>
-<text top="1659" left="1707" width="403" height="57" font="font4" id="p1_t84" reading_order_no="88" segment_no="6" tag_type="text">Problem  Statement: </text>
-<text top="1706" left="1657" width="455" height="62" font="font0" id="p1_t85" reading_order_no="89" segment_no="6" tag_type="text">Given  a  system  bottle- </text>
-<text top="1759" left="1139" width="974" height="63" font="font2" id="p1_t86" reading_order_no="90" segment_no="6" tag_type="text">neck  component  C,  identify  those  requests  correlated </text>
-<text top="1811" left="1137" width="975" height="62" font="font0" id="p1_t87" reading_order_no="91" segment_no="6" tag_type="text">with  C.  The  data  used  for  that  purpose  should  be  col- </text>
-<text top="1864" left="1138" width="974" height="62" font="font0" id="p1_t88" reading_order_no="92" segment_no="6" tag_type="text">lected  with  minimal  disruption  to  the  system.  Once </text>
-<text top="1915" left="1139" width="973" height="62" font="font0" id="p1_t89" reading_order_no="93" segment_no="6" tag_type="text">identified,  reduce  the  number  of  correlated  requests </text>
-<text top="1966" left="1139" width="736" height="65" font="font1" id="p1_t90" reading_order_no="94" segment_no="6" tag_type="text">until  the  system  is  no  longer  overloaded. </text>
-<text top="2026" left="1187" width="927" height="55" font="font10" id="p1_t91" reading_order_no="95" segment_no="7" tag_type="text">We  now  outline  the  four  mechanisms  of  our </text>
-<text top="2078" left="1138" width="444" height="57" font="font4" id="p1_t92" reading_order_no="96" segment_no="7" tag_type="text">approach  in  more  detail. </text>
-<text top="1443" left="1399" width="168" height="51" font="font7" id="p1_t93" reading_order_no="54" segment_no="8" tag_type="figure">Database </text>
-<text top="1490" left="1444" width="78" height="57" font="font4" id="p1_t94" reading_order_no="55" segment_no="8" tag_type="figure">‘Tier </text>
-<text top="1606" left="1137" width="451" height="45" font="font12" id="p1_t95" reading_order_no="56" segment_no="9" tag_type="text">Figure  2.  A  complex  Web  service </text>
-<text top="1644" left="1135" width="428" height="45" font="font12" id="p1_t96" reading_order_no="57" segment_no="9" tag_type="text">consisting  of  Web,  application, </text>
-<text top="1680" left="1136" width="373" height="46" font="font13" id="p1_t97" reading_order_no="58" segment_no="9" tag_type="text">and  database  components. </text>
-<text top="2186" left="1140" width="698" height="53" font="font14" id="p1_t98" reading_order_no="97" segment_no="11" tag_type="title">UNCOVERING  REQUEST  EFFECT  THROUGH </text>
-<text top="2231" left="1138" width="247" height="61" font="font5" id="p1_t99" reading_order_no="98" segment_no="11" tag_type="title">CORRELATIONS </text>
-<text top="2288" left="1139" width="976" height="53" font="font14" id="p1_t100" reading_order_no="99" segment_no="12" tag_type="text">When  a  request  arrives  at  the  Web  server,  it  may </text>
-<text top="2334" left="1139" width="973" height="61" font="font5" id="p1_t101" reading_order_no="100" segment_no="12" tag_type="text">invoke  processing  in  one  or  more  Java  components </text>
-<text top="2385" left="1139" width="973" height="62" font="font0" id="p1_t102" reading_order_no="101" segment_no="12" tag_type="text">in  an  application  tier.  In  turn,  these  either  access </text>
-<text top="2437" left="1139" width="971" height="62" font="font0" id="p1_t103" reading_order_no="102" segment_no="12" tag_type="text">the  database  or  return  a  result  directly  to  the  user. </text>
-<text top="2489" left="1137" width="976" height="62" font="font0" id="p1_t104" reading_order_no="103" segment_no="12" tag_type="text">While  logging  and  status  information  is  available </text>
-<text top="2541" left="1138" width="974" height="63" font="font2" id="p1_t105" reading_order_no="104" segment_no="12" tag_type="text">on  each  of  the  servers  hosting  these  tasks,  there  are </text>
-<text top="2594" left="1139" width="973" height="62" font="font0" id="p1_t106" reading_order_no="105" segment_no="12" tag_type="text">no  good  system  tools  for  understanding  crosscuts </text>
-<text top="2646" left="1139" width="973" height="63" font="font2" id="p1_t107" reading_order_no="106" segment_no="12" tag_type="text">through  the  layers.  Given  the  large  number  of  pos- </text>
-<text top="2700" left="1138" width="981" height="63" font="font2" id="p1_t108" reading_order_no="107" segment_no="12" tag_type="text">sible  crosscuts,  we  need  a  more  sophisticated  way  of </text>
-<text top="2752" left="1139" width="974" height="62" font="font0" id="p1_t109" reading_order_no="108" segment_no="12" tag_type="text">looking  through  the  large  amount  of  data  collected </text>
-<text top="2805" left="1138" width="974" height="62" font="font0" id="p1_t110" reading_order_no="109" segment_no="12" tag_type="text">at  each  point  to  discern  correlations  between  com- </text>
-<text top="2855" left="1138" width="159" height="63" font="font2" id="p1_t111" reading_order_no="110" segment_no="12" tag_type="text">ponents. </text>
-<text top="2906" left="1188" width="924" height="63" font="font2" id="p1_t112" reading_order_no="111" segment_no="13" tag_type="text">To  find  which  requests  are  correlated  with  our  bot- </text>
-<text top="2958" left="1139" width="973" height="63" font="font2" id="p1_t113" reading_order_no="112" segment_no="13" tag_type="text">tleneck,  we  make  use  of  the  Apache  Web  logs  col- </text>
-<text top="3011" left="1138" width="975" height="62" font="font0" id="p1_t114" reading_order_no="113" segment_no="13" tag_type="text">lected  from  the  Web  tier  and  the  CPU  load  average  as </text>
-<text top="3144" left="1313" width="700" height="41" font="font15" id="p1_t115" reading_order_no="114" segment_no="17" tag_type="text">COMMUNICATIONS  OF  THE  ACM  March  2006/Vol.49,No.3 </text>
+<text top="246" left="122" width="255" height="62" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">RELATED  WorK</text>
+<text top="298" left="119" width="973" height="65" font="font1" id="p1_t2" reading_order_no="1" segment_no="1" tag_type="text">We  can  study  the  performance  and  operation  of</text>
+<text top="351" left="117" width="968" height="63" font="font2" id="p1_t3" reading_order_no="2" segment_no="1" tag_type="text">Java-based  middleware  systems  using  the  RUBiS  sys-</text>
+<text top="404" left="120" width="965" height="62" font="font0" id="p1_t4" reading_order_no="3" segment_no="1" tag_type="text">tem.  The  authors  of RUBiS  showed  that  the  mixture</text>
+<text top="455" left="119" width="966" height="65" font="font1" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="text">of  requests—the  workload—plays  a  significant  role</text>
+<text top="514" left="120" width="762" height="54" font="font3" id="p1_t6" reading_order_no="5" segment_no="1" tag_type="text">in  determining  system  bottlenecks  [1,  3].</text>
+<text top="613" left="390" width="695" height="62" font="font0" id="p1_t7" reading_order_no="6" segment_no="3" tag_type="text">ur  approach  differs  from  previous</text>
+<text top="664" left="389" width="696" height="62" font="font0" id="p1_t8" reading_order_no="7" segment_no="3" tag_type="text">attempts  to  apply  control  theory  to</text>
+<text top="715" left="389" width="695" height="63" font="font2" id="p1_t9" reading_order_no="8" segment_no="3" tag_type="text">operating  systems  and  three-tier  sys-</text>
+<text top="768" left="390" width="696" height="63" font="font2" id="p1_t10" reading_order_no="9" segment_no="3" tag_type="text">tems,  which  have  assumed  that</text>
+<text top="819" left="390" width="695" height="62" font="font0" id="p1_t11" reading_order_no="10" segment_no="3" tag_type="text">requests  to  the  system  are  homoge-</text>
+<text top="873" left="119" width="967" height="63" font="font2" id="p1_t12" reading_order_no="11" segment_no="3" tag_type="text">neous  (affect  the  system  in  the  same  way).  The</text>
+<text top="931" left="119" width="966" height="57" font="font4" id="p1_t13" reading_order_no="12" segment_no="3" tag_type="text">SWIFT  system  [6,  7]  is  a  systematic  approach  to</text>
+<text top="978" left="119" width="966" height="61" font="font5" id="p1_t14" reading_order_no="13" segment_no="3" tag_type="text">introducing  input/output  interfaces  to  operating  sys-</text>
+<text top="1038" left="120" width="503" height="54" font="font3" id="p1_t15" reading_order_no="14" segment_no="3" tag_type="text">tem  components,  which</text>
+<text top="1083" left="120" width="503" height="63" font="font2" id="p1_t16" reading_order_no="15" segment_no="3" tag_type="text">matches  well  with  the  well-</text>
+<text top="1134" left="119" width="503" height="62" font="font0" id="p1_t17" reading_order_no="16" segment_no="3" tag_type="text">defined  interfaces  between</text>
+<text top="1186" left="119" width="502" height="62" font="font0" id="p1_t18" reading_order_no="17" segment_no="3" tag_type="text">middleware  components.</text>
+<text top="1238" left="118" width="505" height="63" font="font2" id="p1_t19" reading_order_no="18" segment_no="3" tag_type="text">The  ControlWare  system</text>
+<text top="1294" left="123" width="500" height="57" font="font4" id="p1_t20" reading_order_no="19" segment_no="3" tag_type="text">[10]  is  a  toolkit  for  auto-</text>
+<text top="1342" left="119" width="503" height="62" font="font0" id="p1_t21" reading_order_no="20" segment_no="3" tag_type="text">matically  mapping  QoS</text>
+<text top="1393" left="119" width="503" height="65" font="font1" id="p1_t22" reading_order_no="21" segment_no="3" tag_type="text">requirements  into  simple</text>
+<text top="1446" left="119" width="504" height="63" font="font2" id="p1_t23" reading_order_no="22" segment_no="3" tag_type="text">control  loops  in  three-tier</text>
+<text top="1500" left="119" width="142" height="63" font="font2" id="p1_t24" reading_order_no="23" segment_no="3" tag_type="text">systems.</text>
+<text top="1553" left="170" width="453" height="62" font="font0" id="p1_t25" reading_order_no="24" segment_no="4" tag_type="text">Considerable  work  has</text>
+<text top="1606" left="118" width="967" height="62" font="font0" id="p1_t26" reading_order_no="25" segment_no="4" tag_type="text">been  applied  to  correlation  analysis  of  Web  services</text>
+<text top="1657" left="119" width="966" height="63" font="font2" id="p1_t27" reading_order_no="26" segment_no="4" tag_type="text">both  in  research  literature  and  in  industrial  best  prac-</text>
+<text top="1709" left="119" width="966" height="63" font="font2" id="p1_t28" reading_order_no="27" segment_no="4" tag_type="text">tices.  The  SLIC  project  at  HP  Labs  [4]  attempts  to</text>
+<text top="1762" left="120" width="965" height="62" font="font0" id="p1_t29" reading_order_no="28" segment_no="4" tag_type="text">identify  which  components  are  responsible  for  Web</text>
+<text top="1816" left="118" width="966" height="57" font="font4" id="p1_t30" reading_order_no="29" segment_no="4" tag_type="text">service  violations  of  Service-Level  Operations  (SLOs)</text>
+<text top="1866" left="119" width="966" height="62" font="font0" id="p1_t31" reading_order_no="30" segment_no="4" tag_type="text">by  using  fine-grained  monitoring  and  instrumenta-</text>
+<text top="1919" left="119" width="966" height="61" font="font5" id="p1_t32" reading_order_no="31" segment_no="4" tag_type="text">tion.  The  Performance  Management  project  at  IBM</text>
+<text top="1970" left="119" width="966" height="63" font="font2" id="p1_t33" reading_order_no="32" segment_no="4" tag_type="text">has  explored  using  control  theory  and  statistical  mon-</text>
+<text top="2022" left="120" width="967" height="63" font="font2" id="p1_t34" reading_order_no="33" segment_no="4" tag_type="text">itoring  to  detect  and  adapt  to  unexpected  traffic</text>
+<text top="2080" left="118" width="968" height="57" font="font4" id="p1_t35" reading_order_no="34" segment_no="4" tag_type="text">surges  [8,  5].  Techniques  for  visualizing  structured</text>
+<text top="2131" left="119" width="446" height="59" font="font6" id="p1_t36" reading_order_no="35" segment_no="4" tag_type="text">data  are  described  in  [9].</text>
+<text top="1484" left="727" width="179" height="51" font="font7" id="p1_t37" reading_order_no="52" segment_no="8" tag_type="figure">Web  Tier</text>
+<text top="2234" left="119" width="953" height="59" font="font6" id="p1_t38" reading_order_no="36" segment_no="14" tag_type="title">OVERLOAD  AVOIDANCE  IN  SELF-ADAPTIVE  WEB  SERVICES</text>
+<text top="2283" left="120" width="965" height="63" font="font2" id="p1_t39" reading_order_no="37" segment_no="15" tag_type="text">Overload  occurs  when  the  load  placed  on  a  Web  ser-</text>
+<text top="2335" left="117" width="969" height="63" font="font2" id="p1_t40" reading_order_no="38" segment_no="15" tag_type="text">vice  exceeds  its  ability  to  serve  requests.  Flash  traffic</text>
+<text top="2387" left="119" width="967" height="63" font="font2" id="p1_t41" reading_order_no="39" segment_no="15" tag_type="text">and  sudden  load  spikes  operate  at  timescales  faster</text>
+<text top="2439" left="120" width="965" height="63" font="font2" id="p1_t42" reading_order_no="40" segment_no="15" tag_type="text">than  operators  can  upgrade  their  systems.  Web  ser-</text>
+<text top="2491" left="118" width="966" height="63" font="font2" id="p1_t43" reading_order_no="41" segment_no="15" tag_type="text">vice  operators  can  manage  load  in  a  number  of ways.</text>
+<text top="2545" left="119" width="966" height="62" font="font0" id="p1_t44" reading_order_no="42" segment_no="15" tag_type="text">One  way  is  to  direct  load  to  spare  servers  that  can</text>
+<text top="2597" left="119" width="973" height="63" font="font2" id="p1_t45" reading_order_no="43" segment_no="15" tag_type="text">handle  the  surge.  This  technique  is  an  example  of</text>
+<text top="2649" left="119" width="967" height="63" font="font2" id="p1_t46" reading_order_no="44" segment_no="15" tag_type="text">load  balancing.  Complex  Web  services  are  often</text>
+<text top="2701" left="120" width="966" height="65" font="font1" id="p1_t47" reading_order_no="45" segment_no="15" tag_type="text">built  in  multiple  layers  of  interconnecting  compo-</text>
+<text top="2759" left="120" width="966" height="57" font="font4" id="p1_t48" reading_order_no="46" segment_no="15" tag_type="text">nents  (see Figure  DN  Applying  a  load-balancing  strat-</text>
+<text top="2805" left="119" width="967" height="62" font="font0" id="p1_t49" reading_order_no="47" segment_no="15" tag_type="text">egy  in  this  environment  is  non-trivial,  since  detailed</text>
+<text top="2858" left="120" width="965" height="63" font="font2" id="p1_t50" reading_order_no="48" segment_no="15" tag_type="text">instrumentation  of  the  internal  components  is  usu-</text>
+<text top="2909" left="120" width="318" height="63" font="font2" id="p1_t51" reading_order_no="49" segment_no="15" tag_type="text">ally  not  available.</text>
+<text top="2962" left="170" width="916" height="62" font="font0" id="p1_t52" reading_order_no="50" segment_no="16" tag_type="text">High-level  overload  mitigation  strategies  can  be</text>
+<text top="3020" left="121" width="965" height="54" font="font3" id="p1_t53" reading_order_no="51" segment_no="16" tag_type="text">used,  at  least  temporarily,  during  this  time  (such  as</text>
+<text top="1478" left="1007" width="301" height="58" font="font9" id="p1_t54" reading_order_no="53" segment_no="8" tag_type="figure">Application  Tier</text>
+<text top="249" left="1139" width="971" height="57" font="font4" id="p1_t55" reading_order_no="59" segment_no="2" tag_type="text">HTTP  503  TOO  BUSY  responses).  However,  this</text>
+<text top="298" left="1138" width="973" height="62" font="font0" id="p1_t56" reading_order_no="60" segment_no="2" tag_type="text">adversely  affects  all  traffic  to  the  site,  even  when  the</text>
+<text top="347" left="1139" width="972" height="65" font="font1" id="p1_t57" reading_order_no="61" segment_no="2" tag_type="text">bottleneck  is  driven  by  a  small  population  of  requests</text>
+<text top="405" left="1140" width="970" height="57" font="font4" id="p1_t58" reading_order_no="62" segment_no="2" tag_type="text">(about  15%,  in  our  RUBiS  emulation).  This  moti-</text>
+<text top="458" left="1136" width="974" height="58" font="font9" id="p1_t59" reading_order_no="63" segment_no="2" tag_type="text">vates  the  desire  for  a  less  disruptive,  selective  admis-</text>
+<text top="512" left="1138" width="225" height="55" font="font10" id="p1_t60" reading_order_no="64" segment_no="2" tag_type="text">sion  control.</text>
+<text top="613" left="1247" width="865" height="57" font="font4" id="p1_t61" reading_order_no="65" segment_no="5" tag_type="text">n  selective  admission  control,  we  first  throttle</text>
+<text top="665" left="1246" width="864" height="57" font="font4" id="p1_t62" reading_order_no="66" segment_no="5" tag_type="text">back  requests  contributing  to  the  overload,</text>
+<text top="712" left="1244" width="867" height="63" font="font2" id="p1_t63" reading_order_no="67" segment_no="5" tag_type="text">while  leaving  all  other  requests  unaffected.  In</text>
+<text top="771" left="1246" width="866" height="54" font="font3" id="p1_t64" reading_order_no="68" segment_no="5" tag_type="text">our  implementation,  the  bottleneck  was  the</text>
+<text top="823" left="1246" width="867" height="58" font="font9" id="p1_t65" reading_order_no="69" segment_no="5" tag_type="text">databases  CPU,  and  the  two  contributing</text>
+<text top="877" left="1138" width="974" height="54" font="font3" id="p1_t66" reading_order_no="70" segment_no="5" tag_type="text">requests  involved  searching  for  items.  In  general,  it  is</text>
+<text top="929" left="1138" width="973" height="57" font="font4" id="p1_t67" reading_order_no="71" segment_no="5" tag_type="text">quite  difficult  to  determine  the  runtime  connections</text>
+<text top="976" left="1138" width="973" height="62" font="font0" id="p1_t68" reading_order_no="72" segment_no="5" tag_type="text">between  components  in a  distributed  system.  Often</text>
+<text top="1032" left="1656" width="458" height="57" font="font4" id="p1_t69" reading_order_no="73" segment_no="5" tag_type="text">these  are  determined  by</text>
+<text top="1086" left="1582" width="530" height="54" font="font3" id="p1_t70" reading_order_no="74" segment_no="5" tag_type="text">we  the  workload,  and  can</text>
+<text top="1132" left="1655" width="456" height="62" font="font0" id="p1_t71" reading_order_no="75" segment_no="5" tag_type="text">change  over  time.  In</text>
+<text top="1188" left="1655" width="463" height="57" font="font4" id="p1_t72" reading_order_no="76" segment_no="5" tag_type="text">addition  to  the  lack  of</text>
+<text top="1236" left="1654" width="458" height="62" font="font0" id="p1_t73" reading_order_no="77" segment_no="5" tag_type="text">visibility  into  these  con-</text>
+<text top="1292" left="1656" width="456" height="55" font="font10" id="p1_t74" reading_order_no="78" segment_no="5" tag_type="text">nections,  it  is  non-trivial</text>
+<text top="1340" left="1656" width="456" height="62" font="font0" id="p1_t75" reading_order_no="79" segment_no="5" tag_type="text">to  map  those  connec-</text>
+<text top="1396" left="1656" width="457" height="58" font="font9" id="p1_t76" reading_order_no="80" segment_no="5" tag_type="text">tions  from  a  request  to  a</text>
+<text top="1447" left="1656" width="456" height="59" font="font6" id="p1_t77" reading_order_no="81" segment_no="5" tag_type="text">bottleneck(s).  We  seek  to</text>
+<text top="1502" left="1656" width="456" height="57" font="font4" id="p1_t78" reading_order_no="82" segment_no="5" tag_type="text">make  use  of  measure-</text>
+<text top="1555" left="1657" width="97" height="57" font="font4" id="p1_t79" reading_order_no="83" segment_no="5" tag_type="text">ment</text>
+<text top="1555" left="1812" width="80" height="57" font="font4" id="p1_t80" reading_order_no="84" segment_no="5" tag_type="text">data</text>
+<text top="1555" left="1951" width="34" height="57" font="font4" id="p1_t81" reading_order_no="85" segment_no="5" tag_type="text">in_</text>
+<text top="1555" left="2045" width="67" height="57" font="font4" id="p1_t82" reading_order_no="86" segment_no="5" tag_type="text">this</text>
+<text top="1606" left="1656" width="139" height="58" font="font9" id="p1_t83" reading_order_no="87" segment_no="5" tag_type="text">process.</text>
+<text top="1659" left="1707" width="403" height="57" font="font4" id="p1_t84" reading_order_no="88" segment_no="6" tag_type="text">Problem  Statement:</text>
+<text top="1706" left="1657" width="455" height="62" font="font0" id="p1_t85" reading_order_no="89" segment_no="6" tag_type="text">Given  a  system  bottle-</text>
+<text top="1759" left="1139" width="974" height="63" font="font2" id="p1_t86" reading_order_no="90" segment_no="6" tag_type="text">neck  component  C,  identify  those  requests  correlated</text>
+<text top="1811" left="1137" width="975" height="62" font="font0" id="p1_t87" reading_order_no="91" segment_no="6" tag_type="text">with  C.  The  data  used  for  that  purpose  should  be  col-</text>
+<text top="1864" left="1138" width="974" height="62" font="font0" id="p1_t88" reading_order_no="92" segment_no="6" tag_type="text">lected  with  minimal  disruption  to  the  system.  Once</text>
+<text top="1915" left="1139" width="973" height="62" font="font0" id="p1_t89" reading_order_no="93" segment_no="6" tag_type="text">identified,  reduce  the  number  of  correlated  requests</text>
+<text top="1966" left="1139" width="736" height="65" font="font1" id="p1_t90" reading_order_no="94" segment_no="6" tag_type="text">until  the  system  is  no  longer  overloaded.</text>
+<text top="2026" left="1187" width="927" height="55" font="font10" id="p1_t91" reading_order_no="95" segment_no="7" tag_type="text">We  now  outline  the  four  mechanisms  of  our</text>
+<text top="2078" left="1138" width="444" height="57" font="font4" id="p1_t92" reading_order_no="96" segment_no="7" tag_type="text">approach  in  more  detail.</text>
+<text top="1443" left="1399" width="168" height="51" font="font7" id="p1_t93" reading_order_no="54" segment_no="8" tag_type="figure">Database</text>
+<text top="1490" left="1444" width="78" height="57" font="font4" id="p1_t94" reading_order_no="55" segment_no="8" tag_type="figure">‘Tier</text>
+<text top="1606" left="1137" width="451" height="45" font="font12" id="p1_t95" reading_order_no="56" segment_no="9" tag_type="text">Figure  2.  A  complex  Web  service</text>
+<text top="1644" left="1135" width="428" height="45" font="font12" id="p1_t96" reading_order_no="57" segment_no="9" tag_type="text">consisting  of  Web,  application,</text>
+<text top="1680" left="1136" width="373" height="46" font="font13" id="p1_t97" reading_order_no="58" segment_no="9" tag_type="text">and  database  components.</text>
+<text top="2186" left="1140" width="698" height="53" font="font14" id="p1_t98" reading_order_no="97" segment_no="11" tag_type="title">UNCOVERING  REQUEST  EFFECT  THROUGH</text>
+<text top="2231" left="1138" width="247" height="61" font="font5" id="p1_t99" reading_order_no="98" segment_no="11" tag_type="title">CORRELATIONS</text>
+<text top="2288" left="1139" width="976" height="53" font="font14" id="p1_t100" reading_order_no="99" segment_no="12" tag_type="text">When  a  request  arrives  at  the  Web  server,  it  may</text>
+<text top="2334" left="1139" width="973" height="61" font="font5" id="p1_t101" reading_order_no="100" segment_no="12" tag_type="text">invoke  processing  in  one  or  more  Java  components</text>
+<text top="2385" left="1139" width="973" height="62" font="font0" id="p1_t102" reading_order_no="101" segment_no="12" tag_type="text">in  an  application  tier.  In  turn,  these  either  access</text>
+<text top="2437" left="1139" width="971" height="62" font="font0" id="p1_t103" reading_order_no="102" segment_no="12" tag_type="text">the  database  or  return  a  result  directly  to  the  user.</text>
+<text top="2489" left="1137" width="976" height="62" font="font0" id="p1_t104" reading_order_no="103" segment_no="12" tag_type="text">While  logging  and  status  information  is  available</text>
+<text top="2541" left="1138" width="974" height="63" font="font2" id="p1_t105" reading_order_no="104" segment_no="12" tag_type="text">on  each  of  the  servers  hosting  these  tasks,  there  are</text>
+<text top="2594" left="1139" width="973" height="62" font="font0" id="p1_t106" reading_order_no="105" segment_no="12" tag_type="text">no  good  system  tools  for  understanding  crosscuts</text>
+<text top="2646" left="1139" width="973" height="63" font="font2" id="p1_t107" reading_order_no="106" segment_no="12" tag_type="text">through  the  layers.  Given  the  large  number  of  pos-</text>
+<text top="2700" left="1138" width="981" height="63" font="font2" id="p1_t108" reading_order_no="107" segment_no="12" tag_type="text">sible  crosscuts,  we  need  a  more  sophisticated  way  of</text>
+<text top="2752" left="1139" width="974" height="62" font="font0" id="p1_t109" reading_order_no="108" segment_no="12" tag_type="text">looking  through  the  large  amount  of  data  collected</text>
+<text top="2805" left="1138" width="974" height="62" font="font0" id="p1_t110" reading_order_no="109" segment_no="12" tag_type="text">at  each  point  to  discern  correlations  between  com-</text>
+<text top="2855" left="1138" width="159" height="63" font="font2" id="p1_t111" reading_order_no="110" segment_no="12" tag_type="text">ponents.</text>
+<text top="2906" left="1188" width="924" height="63" font="font2" id="p1_t112" reading_order_no="111" segment_no="13" tag_type="text">To  find  which  requests  are  correlated  with  our  bot-</text>
+<text top="2958" left="1139" width="973" height="63" font="font2" id="p1_t113" reading_order_no="112" segment_no="13" tag_type="text">tleneck,  we  make  use  of  the  Apache  Web  logs  col-</text>
+<text top="3011" left="1138" width="975" height="62" font="font0" id="p1_t114" reading_order_no="113" segment_no="13" tag_type="text">lected  from  the  Web  tier  and  the  CPU  load  average  as</text>
+<text top="3144" left="1313" width="700" height="41" font="font15" id="p1_t115" reading_order_no="114" segment_no="17" tag_type="text">COMMUNICATIONS  OF  THE  ACM  March  2006/Vol.49,No.3</text>
 <text top="3144" left="2062" width="36" height="41" font="font15" id="p1_t116" reading_order_no="115" segment_no="10" tag_type="text">51</text>
 </page>
 </pdf2xml>

@@ -12,191 +12,112 @@
 	<fontspec id="font8" size="7" family="Giovanni-Book" color="#000000"/>
 	<fontspec id="font9" size="7" family="Symbol" color="#000000"/>
 	<fontspec id="font10" size="7" family="Giovanni-BookItalic,Italic" color="#000000"/>
-<text top="41" left="55" width="129" height="10" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title"><i>Algorithms for Molecular Biology</i></text>
-<text top="41" left="184" width="28" height="10" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="title"> 2006, </text>
-<text top="41" left="211" width="5" height="10" font="font2" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="title"><b>1</b></text>
-<text top="41" left="216" width="12" height="10" font="font1" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="title">:20</text>
-<text top="41" left="410" width="144" height="10" font="font1" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="title">http://www.almob.org/content/1/1/20</text>
-<text top="756" left="503" width="51" height="10" font="font1" id="p1_t6" reading_order_no="184" segment_no="13" tag_type="text">Page 4 of 14</text>
-<text top="769" left="432" width="122" height="8" font="font3" id="p1_t7" reading_order_no="185" segment_no="14" tag_type="text"><i>(page number not for citation purposes)</i></text>
-<text top="87" left="55" width="241" height="9" font="font4" id="p1_t8" reading_order_no="5" segment_no="2" tag_type="text">ments show a high correlation between the number of</text>
-<text top="98" left="55" width="241" height="9" font="font4" id="p1_t9" reading_order_no="6" segment_no="2" tag_type="text">basis vectors of a lattice and its ability to represent a pro-</text>
-<text top="110" left="55" width="241" height="9" font="font4" id="p1_t10" reading_order_no="7" segment_no="2" tag_type="text">tein back<a href="">bone[21,22]. W</a>hen deciding on a lattice model,</text>
-<text top="122" left="55" width="241" height="9" font="font4" id="p1_t11" reading_order_no="8" segment_no="2" tag_type="text">one must always consider the trade-off between the reduc-</text>
-<text top="134" left="55" width="241" height="9" font="font4" id="p1_t12" reading_order_no="9" segment_no="2" tag_type="text">tion of the conformational space and the quality of the</text>
-<text top="145" left="55" width="215" height="9" font="font4" id="p1_t13" reading_order_no="10" segment_no="2" tag_type="text">structure representation. Therefore, in section </text>
-<text top="145" left="270" width="26" height="9" font="font5" id="p1_t14" reading_order_no="11" segment_no="2" tag_type="text"><i>Lattice</i></text>
-<text top="157" left="55" width="48" height="9" font="font5" id="p1_t15" reading_order_no="12" segment_no="2" tag_type="text"><i>experiments </i></text>
-<text top="157" left="105" width="191" height="9" font="font4" id="p1_t16" reading_order_no="13" segment_no="2" tag_type="text">we evaluate four different lattices of various</text>
-<text top="169" left="55" width="224" height="9" font="font4" id="p1_t17" reading_order_no="14" segment_no="2" tag_type="text">complexity: The SCC lattice, the FCC lattice and two </text>
-<text top="169" left="279" width="17" height="9" font="font5" id="p1_t18" reading_order_no="15" segment_no="2" tag_type="text"><i>high</i></text>
-<text top="181" left="55" width="51" height="9" font="font5" id="p1_t19" reading_order_no="16" segment_no="2" tag_type="text"><i>coordination </i></text>
-<text top="181" left="107" width="189" height="9" font="font4" id="p1_t20" reading_order_no="17" segment_no="2" tag_type="text">(HC) lattices with 54 and 390 basis vectors,</text>
-<text top="192" left="55" width="51" height="9" font="font4" id="p1_t21" reading_order_no="18" segment_no="2" tag_type="text">respectively.</text>
-<text top="216" left="55" width="241" height="9" font="font4" id="p1_t22" reading_order_no="19" segment_no="4" tag_type="text">A high coordination lattice has an underlying cubic lattice</text>
-<text top="228" left="55" width="126" height="9" font="font4" id="p1_t23" reading_order_no="20" segment_no="4" tag_type="text">with unit length less than 3.8/</text>
-<text top="228" left="181" width="10" height="9" font="font5" id="p1_t24" reading_order_no="21" segment_no="4" tag_type="text"><i>N </i></text>
-<text top="228" left="191" width="79" height="9" font="font4" id="p1_t25" reading_order_no="22" segment_no="4" tag_type="text">Å for some integer </text>
-<text top="228" left="270" width="10" height="9" font="font5" id="p1_t26" reading_order_no="23" segment_no="4" tag_type="text"><i>N </i></text>
-<text top="228" left="280" width="16" height="9" font="font4" id="p1_t27" reading_order_no="24" segment_no="4" tag_type="text">&gt; 1.</text>
-<text top="239" left="55" width="241" height="9" font="font4" id="p1_t28" reading_order_no="25" segment_no="4" tag_type="text">Cubic lattice points are connected in the high coordina-</text>
-<text top="251" left="55" width="237" height="9" font="font4" id="p1_t29" reading_order_no="26" segment_no="4" tag_type="text">tion lattice if their Euclidean distance is between 3.8 ± </text>
-<text top="248" left="292" width="4" height="13" font="font6" id="p1_t30" reading_order_no="27" segment_no="4" tag_type="text">ε</text>
-<text top="263" left="55" width="41" height="9" font="font4" id="p1_t31" reading_order_no="28" segment_no="4" tag_type="text">for some </text>
-<text top="260" left="96" width="4" height="13" font="font6" id="p1_t32" reading_order_no="29" segment_no="4" tag_type="text">ε</text>
-<text top="263" left="104" width="192" height="9" font="font4" id="p1_t33" reading_order_no="30" segment_no="4" tag_type="text">&gt; 0. The high coordination lattices used here</text>
-<text top="275" left="55" width="241" height="9" font="font4" id="p1_t34" reading_order_no="31" segment_no="4" tag_type="text">are named HC4 and HC8 corresponding to their N value</text>
-<text top="286" left="55" width="66" height="9" font="font4" id="p1_t35" reading_order_no="32" segment_no="4" tag_type="text">(4 and 8). The </text>
-<text top="284" left="121" width="4" height="13" font="font6" id="p1_t36" reading_order_no="33" segment_no="4" tag_type="text">ε</text>
-<text top="286" left="128" width="168" height="9" font="font4" id="p1_t37" reading_order_no="34" segment_no="4" tag_type="text">value is 0.2 for all HC lattices. Figure <a href="">3</a></text>
-<text top="298" left="55" width="241" height="9" font="font4" id="p1_t38" reading_order_no="35" segment_no="4" tag_type="text">shows an illustration of a 2D high coordination lattice</text>
-<text top="310" left="55" width="21" height="9" font="font4" id="p1_t39" reading_order_no="36" segment_no="4" tag_type="text">with </text>
-<text top="310" left="77" width="10" height="9" font="font5" id="p1_t40" reading_order_no="37" segment_no="4" tag_type="text"><i>N </i></text>
-<text top="310" left="89" width="37" height="9" font="font4" id="p1_t41" reading_order_no="38" segment_no="4" tag_type="text">= 3 and </text>
-<text top="307" left="125" width="4" height="13" font="font6" id="p1_t42" reading_order_no="39" segment_no="4" tag_type="text">ε</text>
-<text top="310" left="133" width="163" height="9" font="font4" id="p1_t43" reading_order_no="40" segment_no="4" tag_type="text">= 0.4. High coordination lattices have</text>
-<text top="322" left="55" width="241" height="9" font="font4" id="p1_t44" reading_order_no="41" segment_no="4" tag_type="text">previously been used for protein structure predic-</text>
-<text top="333" left="55" width="241" height="9" font="font4" id="p1_t45" reading_order_no="42" segment_no="4" tag_type="text">tion[<a href="">23,24</a>]. Note that the SCC and FCC lattices both have</text>
-<text top="345" left="55" width="241" height="9" font="font4" id="p1_t46" reading_order_no="43" segment_no="4" tag_type="text">the excluded volume property, meaning that atoms at two</text>
-<text top="357" left="55" width="241" height="9" font="font4" id="p1_t47" reading_order_no="44" segment_no="4" tag_type="text">different lattice points will never collide. This property</text>
-<text top="369" left="55" width="241" height="9" font="font4" id="p1_t48" reading_order_no="45" segment_no="4" tag_type="text">does not necessarily hold for high coordination lattices,</text>
-<text top="380" left="55" width="216" height="9" font="font4" id="p1_t49" reading_order_no="46" segment_no="4" tag_type="text">and collisions must therefore be detected explicitly.</text>
-<text top="404" left="55" width="41" height="9" font="font7" id="p1_t50" reading_order_no="47" segment_no="6" tag_type="title"><i><b>Heuristics</b></i></text>
-<text top="416" left="55" width="241" height="9" font="font4" id="p1_t51" reading_order_no="48" segment_no="7" tag_type="text">We apply two iterative search heuristics for minimization</text>
-<text top="427" left="55" width="219" height="9" font="font4" id="p1_t52" reading_order_no="49" segment_no="7" tag_type="text">of the HSE energy. One of them is the tabu search </text>
-<text top="427" left="274" width="22" height="9" font="font5" id="p1_t53" reading_order_no="50" segment_no="7" tag_type="text"><i>meta-</i></text>
-<text top="439" left="55" width="36" height="9" font="font5" id="p1_t54" reading_order_no="51" segment_no="7" tag_type="text"><i>heuristic </i></text>
-<text top="439" left="92" width="204" height="9" font="font4" id="p1_t55" reading_order_no="52" segment_no="7" tag_type="text">proposed by F. Glover in 1989[<a href="">25,26]</a>. A meta-</text>
-<text top="451" left="55" width="241" height="9" font="font4" id="p1_t56" reading_order_no="53" segment_no="7" tag_type="text">heuristic is a general framework that can be specialized to</text>
-<text top="463" left="55" width="241" height="9" font="font4" id="p1_t57" reading_order_no="54" segment_no="7" tag_type="text">solve various optimization problems. For many problems</text>
-<text top="474" left="55" width="241" height="9" font="font4" id="p1_t58" reading_order_no="55" segment_no="7" tag_type="text">in Operations Research (OR), tabu search is the metaheu-</text>
-<text top="486" left="55" width="241" height="9" font="font4" id="p1_t59" reading_order_no="56" segment_no="7" tag_type="text">ristic of choice. However, for protein structure prediction,</text>
-<text top="498" left="55" width="241" height="9" font="font4" id="p1_t60" reading_order_no="57" segment_no="7" tag_type="text">tabu search has only been given a modest amount of</text>
-<text top="510" left="55" width="72" height="9" font="font4" id="p1_t61" reading_order_no="58" segment_no="7" tag_type="text">attention<a href="">[14-16].</a></text>
-<text top="533" left="55" width="241" height="9" font="font4" id="p1_t62" reading_order_no="59" segment_no="10" tag_type="text">In Algorithm 1 and 2 (F<a href="">igures 5 and</a> <a href="">6) the pseu</a>do code</text>
-<text top="545" left="55" width="241" height="9" font="font4" id="p1_t63" reading_order_no="60" segment_no="10" tag_type="text">for tabu search is shown. TS is basically a local improve-</text>
-<text top="557" left="55" width="241" height="9" font="font4" id="p1_t64" reading_order_no="61" segment_no="10" tag_type="text">ment heuristic where the best structure in a neighbour-</text>
-<text top="568" left="55" width="241" height="9" font="font4" id="p1_t65" reading_order_no="62" segment_no="10" tag_type="text">hood is repeatedly selected. However, memory is used to</text>
-<text top="580" left="55" width="241" height="9" font="font4" id="p1_t66" reading_order_no="63" segment_no="10" tag_type="text">prevent cycling in local minima. A previous TS implemen-</text>
-<text top="592" left="55" width="188" height="9" font="font4" id="p1_t67" reading_order_no="64" segment_no="10" tag_type="text">tation [<a href="">16</a>] inserts visited structures into a </text>
-<text top="592" left="243" width="37" height="9" font="font5" id="p1_t68" reading_order_no="65" segment_no="10" tag_type="text"><i>tabu list </i></text>
-<text top="592" left="280" width="16" height="9" font="font4" id="p1_t69" reading_order_no="66" segment_no="10" tag_type="text">and</text>
-<text top="604" left="55" width="241" height="9" font="font4" id="p1_t70" reading_order_no="67" segment_no="10" tag_type="text">only consider new structures if they are not in the tabu list.</text>
-<text top="615" left="55" width="241" height="9" font="font4" id="p1_t71" reading_order_no="68" segment_no="10" tag_type="text">We have found that extending the tabu definition</text>
-<text top="627" left="55" width="241" height="9" font="font4" id="p1_t72" reading_order_no="69" segment_no="10" tag_type="text">improves the performance considerably. Here, we still</text>
-<text top="639" left="55" width="241" height="9" font="font4" id="p1_t73" reading_order_no="70" segment_no="10" tag_type="text">keep a list of previously visited structures in a so-called</text>
-<text top="651" left="55" width="66" height="9" font="font5" id="p1_t74" reading_order_no="71" segment_no="10" tag_type="text"><i>explicit tabu list</i></text>
-<text top="651" left="121" width="175" height="9" font="font4" id="p1_t75" reading_order_no="72" segment_no="10" tag_type="text">. Each structure in the explicit tabu list</text>
-<text top="662" left="55" width="66" height="9" font="font4" id="p1_t76" reading_order_no="73" segment_no="10" tag_type="text">defines a set of </text>
-<text top="662" left="121" width="90" height="9" font="font5" id="p1_t77" reading_order_no="74" segment_no="10" tag_type="text"><i>implicit tabu structures</i></text>
-<text top="662" left="211" width="80" height="9" font="font4" id="p1_t78" reading_order_no="75" segment_no="10" tag_type="text">. Given a structure </text>
-<text top="662" left="291" width="5" height="9" font="font5" id="p1_t79" reading_order_no="76" segment_no="10" tag_type="text"><i>E</i></text>
-<text top="674" left="55" width="148" height="9" font="font4" id="p1_t80" reading_order_no="77" segment_no="10" tag_type="text">in the explicit tabu list, a structure </text>
-<text top="674" left="203" width="6" height="9" font="font5" id="p1_t81" reading_order_no="78" segment_no="10" tag_type="text"><i>I </i></text>
-<text top="674" left="209" width="87" height="9" font="font4" id="p1_t82" reading_order_no="79" segment_no="10" tag_type="text">is said to be implicit</text>
-<text top="686" left="55" width="199" height="9" font="font4" id="p1_t83" reading_order_no="80" segment_no="10" tag_type="text">tabu if the distance-RMSD (dRMSD) between </text>
-<text top="686" left="254" width="8" height="9" font="font5" id="p1_t84" reading_order_no="81" segment_no="10" tag_type="text"><i>E </i></text>
-<text top="686" left="263" width="19" height="9" font="font4" id="p1_t85" reading_order_no="82" segment_no="10" tag_type="text">and </text>
-<text top="686" left="283" width="6" height="9" font="font5" id="p1_t86" reading_order_no="83" segment_no="10" tag_type="text"><i>I </i></text>
-<text top="686" left="289" width="7" height="9" font="font4" id="p1_t87" reading_order_no="84" segment_no="10" tag_type="text">is</text>
-<text top="698" left="55" width="40" height="9" font="font4" id="p1_t88" reading_order_no="85" segment_no="10" tag_type="text">less than </text>
-<text top="695" left="95" width="4" height="13" font="font6" id="p1_t89" reading_order_no="86" segment_no="10" tag_type="text">ε</text>
-<text top="698" left="103" width="77" height="9" font="font4" id="p1_t90" reading_order_no="87" segment_no="10" tag_type="text">and the energy of </text>
-<text top="698" left="180" width="6" height="9" font="font5" id="p1_t91" reading_order_no="88" segment_no="10" tag_type="text"><i>I </i></text>
-<text top="698" left="186" width="110" height="9" font="font4" id="p1_t92" reading_order_no="89" segment_no="10" tag_type="text">is greater than or equal to</text>
-<text top="709" left="55" width="60" height="9" font="font4" id="p1_t93" reading_order_no="90" segment_no="10" tag_type="text">the energy of </text>
-<text top="709" left="115" width="5" height="9" font="font5" id="p1_t94" reading_order_no="91" segment_no="10" tag_type="text"><i>E</i></text>
-<text top="709" left="120" width="117" height="9" font="font4" id="p1_t95" reading_order_no="92" segment_no="10" tag_type="text">. The adjustable parameter </text>
-<text top="707" left="237" width="4" height="13" font="font6" id="p1_t96" reading_order_no="93" segment_no="10" tag_type="text">ε</text>
-<text top="709" left="245" width="51" height="9" font="font4" id="p1_t97" reading_order_no="94" segment_no="10" tag_type="text">is called the</text>
-<text top="721" left="55" width="59" height="9" font="font5" id="p1_t98" reading_order_no="95" segment_no="10" tag_type="text"><i>tabu difference</i></text>
-<text top="721" left="114" width="182" height="9" font="font4" id="p1_t99" reading_order_no="96" segment_no="10" tag_type="text">. Figure<a href=""> 4 illu</a>strates a sequence of visited</text>
-<text top="87" left="313" width="241" height="9" font="font4" id="p1_t100" reading_order_no="97" segment_no="3" tag_type="text">structures (black points) in a solution space. Only the vis-</text>
-<text top="98" left="313" width="241" height="9" font="font4" id="p1_t101" reading_order_no="98" segment_no="3" tag_type="text">ited structures are inserted in the explicit tabu list. The</text>
-<text top="110" left="313" width="241" height="9" font="font4" id="p1_t102" reading_order_no="99" segment_no="3" tag_type="text">additional green and red points correspond to structures</text>
-<text top="122" left="313" width="30" height="9" font="font4" id="p1_t103" reading_order_no="100" segment_no="3" tag_type="text">within </text>
-<text top="119" left="345" width="4" height="13" font="font6" id="p1_t104" reading_order_no="101" segment_no="3" tag_type="text">ε</text>
-<text top="122" left="354" width="200" height="9" font="font4" id="p1_t105" reading_order_no="102" segment_no="3" tag_type="text">dRMSD of the explicit tabu structures. Green</text>
-<text top="134" left="313" width="241" height="9" font="font4" id="p1_t106" reading_order_no="103" segment_no="3" tag_type="text">points are structures with lower energy and red points are</text>
-<text top="145" left="313" width="241" height="9" font="font4" id="p1_t107" reading_order_no="104" segment_no="3" tag_type="text">structures with higher energy than the explicit tabu struc-</text>
-<text top="157" left="313" width="241" height="9" font="font4" id="p1_t108" reading_order_no="105" segment_no="3" tag_type="text">ture. When choosing a new solution in the neighbour-</text>
-<text top="169" left="313" width="131" height="9" font="font4" id="p1_t109" reading_order_no="106" segment_no="3" tag_type="text">hood three things can happen, </text>
-<text top="169" left="444" width="12" height="9" font="font5" id="p1_t110" reading_order_no="107" segment_no="3" tag_type="text"><i>a) </i></text>
-<text top="169" left="455" width="99" height="9" font="font4" id="p1_t111" reading_order_no="108" segment_no="3" tag_type="text">A solution is more than</text>
-<text top="178" left="313" width="4" height="13" font="font6" id="p1_t112" reading_order_no="109" segment_no="3" tag_type="text">ε</text>
-<text top="181" left="319" width="188" height="9" font="font4" id="p1_t113" reading_order_no="110" segment_no="3" tag_type="text">dRMSD away from all explicit tabu structure. </text>
-<text top="181" left="507" width="11" height="9" font="font5" id="p1_t114" reading_order_no="111" segment_no="3" tag_type="text"><i>b) </i></text>
-<text top="181" left="518" width="36" height="9" font="font4" id="p1_t115" reading_order_no="112" segment_no="3" tag_type="text">the solu-</text>
-<text top="192" left="313" width="60" height="9" font="font4" id="p1_t116" reading_order_no="113" segment_no="3" tag_type="text">tion is within </text>
-<text top="190" left="374" width="4" height="13" font="font6" id="p1_t117" reading_order_no="114" segment_no="3" tag_type="text">ε</text>
-<text top="192" left="381" width="114" height="9" font="font4" id="p1_t118" reading_order_no="115" segment_no="3" tag_type="text">dRMSD, and the energy is </text>
-<text top="192" left="495" width="23" height="9" font="font5" id="p1_t119" reading_order_no="116" segment_no="3" tag_type="text"><i>lower </i></text>
-<text top="192" left="518" width="36" height="9" font="font4" id="p1_t120" reading_order_no="117" segment_no="3" tag_type="text">than the</text>
-<text top="204" left="313" width="96" height="9" font="font4" id="p1_t121" reading_order_no="118" segment_no="3" tag_type="text">explicit tabu structure, </text>
-<text top="204" left="409" width="11" height="9" font="font5" id="p1_t122" reading_order_no="119" segment_no="3" tag_type="text"><i>c) </i></text>
-<text top="204" left="419" width="93" height="9" font="font4" id="p1_t123" reading_order_no="120" segment_no="3" tag_type="text">the solution is within </text>
-<text top="201" left="512" width="4" height="13" font="font6" id="p1_t124" reading_order_no="121" segment_no="3" tag_type="text">ε</text>
-<text top="204" left="519" width="35" height="9" font="font4" id="p1_t125" reading_order_no="122" segment_no="3" tag_type="text">dRMSD,</text>
-<text top="216" left="313" width="78" height="9" font="font4" id="p1_t126" reading_order_no="123" segment_no="3" tag_type="text">and the energy is </text>
-<text top="216" left="391" width="27" height="9" font="font5" id="p1_t127" reading_order_no="124" segment_no="3" tag_type="text"><i>higher </i></text>
-<text top="216" left="419" width="135" height="9" font="font4" id="p1_t128" reading_order_no="125" segment_no="3" tag_type="text">than the explicit tabu structure.</text>
-<text top="228" left="313" width="142" height="9" font="font4" id="p1_t129" reading_order_no="126" segment_no="3" tag_type="text">Structures that comply with case </text>
-<text top="228" left="456" width="6" height="9" font="font5" id="p1_t130" reading_order_no="127" segment_no="3" tag_type="text"><i>c </i></text>
-<text top="228" left="463" width="62" height="9" font="font4" id="p1_t131" reading_order_no="128" segment_no="3" tag_type="text">are said to be </text>
-<text top="228" left="525" width="29" height="9" font="font5" id="p1_t132" reading_order_no="129" segment_no="3" tag_type="text"><i>implicit</i></text>
-<text top="239" left="313" width="20" height="9" font="font5" id="p1_t133" reading_order_no="130" segment_no="3" tag_type="text"><i>tabu </i></text>
-<text top="239" left="332" width="159" height="9" font="font4" id="p1_t134" reading_order_no="131" segment_no="3" tag_type="text">and cannot be visited. Note that when </text>
-<text top="236" left="491" width="4" height="13" font="font6" id="p1_t135" reading_order_no="132" segment_no="3" tag_type="text">ε</text>
-<text top="239" left="498" width="56" height="9" font="font4" id="p1_t136" reading_order_no="133" segment_no="3" tag_type="text">= 0 the search</text>
-<text top="251" left="313" width="241" height="9" font="font4" id="p1_t137" reading_order_no="134" segment_no="3" tag_type="text">heuristic works as a regular TS heuristic since only visited</text>
-<text top="263" left="313" width="241" height="9" font="font4" id="p1_t138" reading_order_no="135" segment_no="3" tag_type="text">structures become tabu. The use of implicit tabu structures</text>
-<text top="275" left="313" width="241" height="9" font="font4" id="p1_t139" reading_order_no="136" segment_no="3" tag_type="text">is new in the context of protein structure prediction. How-</text>
-<text top="286" left="313" width="241" height="9" font="font4" id="p1_t140" reading_order_no="137" segment_no="3" tag_type="text">ever, in TS implementations for OR problems it is a com-</text>
-<text top="298" left="313" width="241" height="9" font="font4" id="p1_t141" reading_order_no="138" segment_no="3" tag_type="text">mon technique to make features of a solution tabu, such</text>
-<text top="310" left="313" width="190" height="9" font="font4" id="p1_t142" reading_order_no="139" segment_no="3" tag_type="text">that regions of the search space become tabu.</text>
-<text top="333" left="313" width="241" height="9" font="font4" id="p1_t143" reading_order_no="140" segment_no="5" tag_type="text">We have also applied standard Monte Carlo simulation</text>
-<text top="345" left="313" width="241" height="9" font="font4" id="p1_t144" reading_order_no="141" segment_no="5" tag_type="text">(MCS) for minimizing the HSE energy. MCS heuristics are</text>
-<text top="357" left="313" width="241" height="9" font="font4" id="p1_t145" reading_order_no="142" segment_no="5" tag_type="text">stochastic and therefore differ from TS by being nondeter-</text>
-<text top="369" left="313" width="241" height="9" font="font4" id="p1_t146" reading_order_no="143" segment_no="5" tag_type="text">mistic. An MCS iteration consists of randomly choosing a</text>
-<text top="380" left="313" width="241" height="9" font="font4" id="p1_t147" reading_order_no="144" segment_no="5" tag_type="text">protein conformation in the neighbourhood of a current</text>
-<text top="392" left="313" width="241" height="9" font="font4" id="p1_t148" reading_order_no="145" segment_no="5" tag_type="text">conformation. For a fixed temperature T, the new protein</text>
-<text top="404" left="313" width="193" height="9" font="font4" id="p1_t149" reading_order_no="146" segment_no="5" tag_type="text">conformation is accepted with the probability</text>
-<text top="427" left="313" width="7" height="9" font="font5" id="p1_t150" reading_order_no="147" segment_no="8" tag_type="formula"><i>p </i></text>
-<text top="427" left="320" width="8" height="9" font="font4" id="p1_t151" reading_order_no="148" segment_no="8" tag_type="formula">= </text>
-<text top="427" left="328" width="4" height="9" font="font5" id="p1_t152" reading_order_no="149" segment_no="8" tag_type="formula"><i>e</i></text>
-<text top="427" left="332" width="2" height="6" font="font8" id="p1_t153" reading_order_no="150" segment_no="8" tag_type="formula">-</text>
-<text top="425" left="334" width="4" height="9" font="font9" id="p1_t154" reading_order_no="151" segment_no="8" tag_type="formula">Δ</text>
-<text top="427" left="339" width="4" height="6" font="font10" id="p1_t155" reading_order_no="152" segment_no="8" tag_type="formula"><i>E</i></text>
-<text top="427" left="342" width="3" height="6" font="font8" id="p1_t156" reading_order_no="153" segment_no="8" tag_type="formula">/</text>
-<text top="427" left="345" width="4" height="6" font="font10" id="p1_t157" reading_order_no="154" segment_no="8" tag_type="formula"><i>T</i></text>
-<text top="427" left="349" width="3" height="9" font="font4" id="p1_t158" reading_order_no="155" segment_no="8" tag_type="formula">,</text>
-<text top="451" left="313" width="28" height="9" font="font4" id="p1_t159" reading_order_no="156" segment_no="9" tag_type="text">where </text>
-<text top="449" left="341" width="6" height="13" font="font6" id="p1_t160" reading_order_no="157" segment_no="9" tag_type="text">Δ</text>
-<text top="451" left="347" width="207" height="9" font="font4" id="p1_t161" reading_order_no="158" segment_no="9" tag_type="text">E is the difference between the energy of the cur-</text>
-<text top="463" left="313" width="241" height="9" font="font4" id="p1_t162" reading_order_no="159" segment_no="9" tag_type="text">rent conformation and the new conformation. A protein</text>
-<text top="474" left="313" width="241" height="9" font="font4" id="p1_t163" reading_order_no="160" segment_no="9" tag_type="text">conformation is modelled as a list of N vectors, where N</text>
-<text top="486" left="313" width="72" height="9" font="font4" id="p1_t164" reading_order_no="161" segment_no="9" tag_type="text">is the number of </text>
-<text top="486" left="385" width="6" height="9" font="font5" id="p1_t165" reading_order_no="162" segment_no="9" tag_type="text"><i>C</i></text>
-<text top="489" left="392" width="4" height="9" font="font9" id="p1_t166" reading_order_no="163" segment_no="9" tag_type="text">α</text>
-<text top="486" left="398" width="156" height="9" font="font4" id="p1_t167" reading_order_no="164" segment_no="9" tag_type="text">atoms of the protein. The neighbour-</text>
-<text top="498" left="313" width="241" height="9" font="font4" id="p1_t168" reading_order_no="165" segment_no="9" tag_type="text">hood of both MCS and TS consists of conformations</text>
-<text top="510" left="313" width="241" height="9" font="font4" id="p1_t169" reading_order_no="166" segment_no="9" tag_type="text">resulting from changes of one, two or three consecutive</text>
-<text top="521" left="313" width="241" height="9" font="font4" id="p1_t170" reading_order_no="167" segment_no="9" tag_type="text">indices. A single index change results in a new structure</text>
-<text top="533" left="313" width="241" height="9" font="font4" id="p1_t171" reading_order_no="168" segment_no="9" tag_type="text">where one part of the structure is fixed and the other part</text>
-<text top="545" left="313" width="241" height="9" font="font4" id="p1_t172" reading_order_no="169" segment_no="9" tag_type="text">is translated. Two or three indices are changed locally such</text>
-<text top="557" left="313" width="241" height="9" font="font4" id="p1_t173" reading_order_no="170" segment_no="9" tag_type="text">that the parts of the structure before and after the chang-</text>
-<text top="568" left="313" width="241" height="9" font="font4" id="p1_t174" reading_order_no="171" segment_no="9" tag_type="text">ing indices are fixed. All local index changes between two</text>
-<text top="580" left="313" width="241" height="9" font="font4" id="p1_t175" reading_order_no="172" segment_no="9" tag_type="text">lattice points can be stored in a table to speed up the com-</text>
-<text top="592" left="313" width="114" height="9" font="font4" id="p1_t176" reading_order_no="173" segment_no="9" tag_type="text">putation time significantly.</text>
-<text top="616" left="313" width="83" height="9" font="font7" id="p1_t177" reading_order_no="174" segment_no="11" tag_type="title"><i><b>Lattice experiments</b></i></text>
-<text top="627" left="313" width="241" height="9" font="font4" id="p1_t178" reading_order_no="175" segment_no="12" tag_type="text">Here, we evaluate TS and MCS on lattices of different com-</text>
-<text top="639" left="313" width="241" height="9" font="font4" id="p1_t179" reading_order_no="176" segment_no="12" tag_type="text">plexity. The purpose of the experiments in this section is</text>
-<text top="651" left="313" width="241" height="9" font="font4" id="p1_t180" reading_order_no="177" segment_no="12" tag_type="text">to tune the parameters (lattice type, tabu difference, tem-</text>
-<text top="662" left="313" width="241" height="9" font="font4" id="p1_t181" reading_order_no="178" segment_no="12" tag_type="text">perature). In the next section we fix the parameters to their</text>
-<text top="674" left="313" width="241" height="9" font="font4" id="p1_t182" reading_order_no="179" segment_no="12" tag_type="text">optimal values found here and compare the HSE and CN</text>
-<text top="686" left="313" width="241" height="9" font="font4" id="p1_t183" reading_order_no="180" segment_no="12" tag_type="text">measures on different proteins. For each lattice, the heu-</text>
-<text top="698" left="313" width="241" height="9" font="font4" id="p1_t184" reading_order_no="181" segment_no="12" tag_type="text">ristics are initialized with 20 random conformations using</text>
-<text top="709" left="313" width="241" height="9" font="font4" id="p1_t185" reading_order_no="182" segment_no="12" tag_type="text">different parameter values. The variable parameter of MCS</text>
-<text top="721" left="313" width="241" height="9" font="font4" id="p1_t186" reading_order_no="183" segment_no="12" tag_type="text">is the temperature and the variable parameter of TS is the</text>
+<text top="41" left="55" width="173" height="10" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">Algorithms for Molecular Biology 2006, 1 :20<i>Algorithms for Molecular Biology</i></text>
+<text top="41" left="410" width="144" height="10" font="font1" id="p1_t2" reading_order_no="1" segment_no="1" tag_type="title">http://www.almob.org/content/1/1/20</text>
+<text top="756" left="503" width="51" height="10" font="font1" id="p1_t3" reading_order_no="105" segment_no="13" tag_type="text">Page 4 of 14<b>1</b></text>
+<text top="769" left="432" width="122" height="8" font="font3" id="p1_t4" reading_order_no="106" segment_no="14" tag_type="text">(page number not for citation purposes)</text>
+<text top="87" left="55" width="241" height="9" font="font4" id="p1_t5" reading_order_no="2" segment_no="2" tag_type="text">ments show a high correlation between the number of</text>
+<text top="98" left="55" width="241" height="9" font="font4" id="p1_t6" reading_order_no="3" segment_no="2" tag_type="text">basis vectors of a lattice and its ability to represent a pro-</text>
+<text top="110" left="55" width="241" height="9" font="font4" id="p1_t7" reading_order_no="4" segment_no="2" tag_type="text">tein backbone[21,22]. When deciding on a lattice model,<i>(page number not for citation purposes)</i></text>
+<text top="122" left="55" width="241" height="9" font="font4" id="p1_t8" reading_order_no="5" segment_no="2" tag_type="text">one must always consider the trade-off between the reduc-</text>
+<text top="134" left="55" width="241" height="9" font="font4" id="p1_t9" reading_order_no="6" segment_no="2" tag_type="text">tion of the conformational space and the quality of the</text>
+<text top="145" left="55" width="241" height="9" font="font4" id="p1_t10" reading_order_no="7" segment_no="2" tag_type="text">structure representation. Therefore, in section Lattice<a href="">bone[21,22]. W</a>hen deciding on a lattice model,</text>
+<text top="157" left="55" width="241" height="9" font="font5" id="p1_t11" reading_order_no="8" segment_no="2" tag_type="text">experiments we evaluate four different lattices of various</text>
+<text top="169" left="55" width="241" height="9" font="font4" id="p1_t12" reading_order_no="9" segment_no="2" tag_type="text">complexity: The SCC lattice, the FCC lattice and two high</text>
+<text top="181" left="55" width="241" height="9" font="font5" id="p1_t13" reading_order_no="10" segment_no="2" tag_type="text">coordination (HC) lattices with 54 and 390 basis vectors,</text>
+<text top="192" left="55" width="51" height="9" font="font4" id="p1_t14" reading_order_no="11" segment_no="2" tag_type="text">respectively.<i>Lattice</i></text>
+<text top="216" left="55" width="241" height="9" font="font4" id="p1_t15" reading_order_no="12" segment_no="4" tag_type="text">A high coordination lattice has an underlying cubic lattice<i>experiments </i></text>
+<text top="228" left="55" width="241" height="9" font="font4" id="p1_t16" reading_order_no="13" segment_no="4" tag_type="text">with unit length less than 3.8/ N Å for some integer N &gt; 1.</text>
+<text top="239" left="55" width="241" height="9" font="font4" id="p1_t17" reading_order_no="14" segment_no="4" tag_type="text">Cubic lattice points are connected in the high coordina-</text>
+<text top="248" left="55" width="241" height="13" font="font4" id="p1_t18" reading_order_no="15" segment_no="4" tag_type="text">tion lattice if their Euclidean distance is between 3.8 ± ε<i>high</i></text>
+<text top="260" left="55" width="241" height="13" font="font4" id="p1_t19" reading_order_no="16" segment_no="4" tag_type="text">for some ε &gt; 0. The high coordination lattices used here<i>coordination </i></text>
+<text top="275" left="55" width="241" height="9" font="font4" id="p1_t20" reading_order_no="17" segment_no="4" tag_type="text">are named HC4 and HC8 corresponding to their N value</text>
+<text top="284" left="55" width="241" height="13" font="font4" id="p1_t21" reading_order_no="18" segment_no="4" tag_type="text">(4 and 8). The ε value is 0.2 for all HC lattices. Figure 3</text>
+<text top="298" left="55" width="241" height="9" font="font4" id="p1_t22" reading_order_no="19" segment_no="4" tag_type="text">shows an illustration of a 2D high coordination lattice</text>
+<text top="307" left="55" width="241" height="13" font="font4" id="p1_t23" reading_order_no="20" segment_no="4" tag_type="text">with N = 3 and ε = 0.4. High coordination lattices have</text>
+<text top="322" left="55" width="241" height="9" font="font4" id="p1_t24" reading_order_no="21" segment_no="4" tag_type="text">previously been used for protein structure predic-<i>N </i></text>
+<text top="333" left="55" width="241" height="9" font="font4" id="p1_t25" reading_order_no="22" segment_no="4" tag_type="text">tion[23,24]. Note that the SCC and FCC lattices both have</text>
+<text top="345" left="55" width="241" height="9" font="font4" id="p1_t26" reading_order_no="23" segment_no="4" tag_type="text">the excluded volume property, meaning that atoms at two<i>N </i></text>
+<text top="357" left="55" width="241" height="9" font="font4" id="p1_t27" reading_order_no="24" segment_no="4" tag_type="text">different lattice points will never collide. This property</text>
+<text top="369" left="55" width="241" height="9" font="font4" id="p1_t28" reading_order_no="25" segment_no="4" tag_type="text">does not necessarily hold for high coordination lattices,</text>
+<text top="380" left="55" width="216" height="9" font="font4" id="p1_t29" reading_order_no="26" segment_no="4" tag_type="text">and collisions must therefore be detected explicitly.</text>
+<text top="404" left="55" width="41" height="9" font="font7" id="p1_t30" reading_order_no="27" segment_no="6" tag_type="title">Heuristics</text>
+<text top="416" left="55" width="241" height="9" font="font4" id="p1_t31" reading_order_no="28" segment_no="7" tag_type="text">We apply two iterative search heuristics for minimization</text>
+<text top="427" left="55" width="241" height="9" font="font4" id="p1_t32" reading_order_no="29" segment_no="7" tag_type="text">of the HSE energy. One of them is the tabu search meta-</text>
+<text top="439" left="55" width="241" height="9" font="font5" id="p1_t33" reading_order_no="30" segment_no="7" tag_type="text">heuristic proposed by F. Glover in 1989[25,26]. A meta-</text>
+<text top="451" left="55" width="241" height="9" font="font4" id="p1_t34" reading_order_no="31" segment_no="7" tag_type="text">heuristic is a general framework that can be specialized to</text>
+<text top="463" left="55" width="241" height="9" font="font4" id="p1_t35" reading_order_no="32" segment_no="7" tag_type="text">solve various optimization problems. For many problems</text>
+<text top="474" left="55" width="241" height="9" font="font4" id="p1_t36" reading_order_no="33" segment_no="7" tag_type="text">in Operations Research (OR), tabu search is the metaheu-</text>
+<text top="486" left="55" width="241" height="9" font="font4" id="p1_t37" reading_order_no="34" segment_no="7" tag_type="text">ristic of choice. However, for protein structure prediction,<a href="">3</a></text>
+<text top="498" left="55" width="241" height="9" font="font4" id="p1_t38" reading_order_no="35" segment_no="7" tag_type="text">tabu search has only been given a modest amount of</text>
+<text top="510" left="55" width="72" height="9" font="font4" id="p1_t39" reading_order_no="36" segment_no="7" tag_type="text">attention[14-16].</text>
+<text top="533" left="55" width="241" height="9" font="font4" id="p1_t40" reading_order_no="37" segment_no="10" tag_type="text">In Algorithm 1 and 2 (Figures 5 and 6) the pseudo code<i>N </i></text>
+<text top="545" left="55" width="241" height="9" font="font4" id="p1_t41" reading_order_no="38" segment_no="10" tag_type="text">for tabu search is shown. TS is basically a local improve-</text>
+<text top="557" left="55" width="241" height="9" font="font4" id="p1_t42" reading_order_no="39" segment_no="10" tag_type="text">ment heuristic where the best structure in a neighbour-</text>
+<text top="568" left="55" width="241" height="9" font="font4" id="p1_t43" reading_order_no="40" segment_no="10" tag_type="text">hood is repeatedly selected. However, memory is used to</text>
+<text top="580" left="55" width="241" height="9" font="font4" id="p1_t44" reading_order_no="41" segment_no="10" tag_type="text">prevent cycling in local minima. A previous TS implemen-</text>
+<text top="592" left="55" width="241" height="9" font="font4" id="p1_t45" reading_order_no="42" segment_no="10" tag_type="text">tation [16] inserts visited structures into a tabu list and<a href="">23,24</a>]. Note that the SCC and FCC lattices both have</text>
+<text top="604" left="55" width="241" height="9" font="font4" id="p1_t46" reading_order_no="43" segment_no="10" tag_type="text">only consider new structures if they are not in the tabu list.</text>
+<text top="615" left="55" width="241" height="9" font="font4" id="p1_t47" reading_order_no="44" segment_no="10" tag_type="text">We have found that extending the tabu definition</text>
+<text top="627" left="55" width="241" height="9" font="font4" id="p1_t48" reading_order_no="45" segment_no="10" tag_type="text">improves the performance considerably. Here, we still</text>
+<text top="639" left="55" width="241" height="9" font="font4" id="p1_t49" reading_order_no="46" segment_no="10" tag_type="text">keep a list of previously visited structures in a so-called</text>
+<text top="651" left="55" width="241" height="9" font="font5" id="p1_t50" reading_order_no="47" segment_no="10" tag_type="text">explicit tabu list . Each structure in the explicit tabu list<i><b>Heuristics</b></i></text>
+<text top="662" left="55" width="241" height="9" font="font4" id="p1_t51" reading_order_no="48" segment_no="10" tag_type="text">defines a set of implicit tabu structures . Given a structure E</text>
+<text top="674" left="55" width="241" height="9" font="font4" id="p1_t52" reading_order_no="49" segment_no="10" tag_type="text">in the explicit tabu list, a structure I is said to be implicit</text>
+<text top="686" left="55" width="241" height="9" font="font4" id="p1_t53" reading_order_no="50" segment_no="10" tag_type="text">tabu if the distance-RMSD (dRMSD) between E and I is<i>meta-</i></text>
+<text top="695" left="55" width="241" height="13" font="font4" id="p1_t54" reading_order_no="51" segment_no="10" tag_type="text">less than ε and the energy of I is greater than or equal to<i>heuristic </i></text>
+<text top="707" left="55" width="241" height="13" font="font4" id="p1_t55" reading_order_no="52" segment_no="10" tag_type="text">the energy of E . The adjustable parameter ε is called the<a href="">25,26]</a>. A meta-</text>
+<text top="721" left="55" width="241" height="9" font="font5" id="p1_t56" reading_order_no="53" segment_no="10" tag_type="text">tabu difference . Figure 4 illustrates a sequence of visited</text>
+<text top="87" left="313" width="241" height="9" font="font4" id="p1_t57" reading_order_no="54" segment_no="3" tag_type="text">structures (black points) in a solution space. Only the vis-</text>
+<text top="98" left="313" width="241" height="9" font="font4" id="p1_t58" reading_order_no="55" segment_no="3" tag_type="text">ited structures are inserted in the explicit tabu list. The</text>
+<text top="110" left="313" width="241" height="9" font="font4" id="p1_t59" reading_order_no="56" segment_no="3" tag_type="text">additional green and red points correspond to structures</text>
+<text top="119" left="313" width="241" height="13" font="font4" id="p1_t60" reading_order_no="57" segment_no="3" tag_type="text">within ε dRMSD of the explicit tabu structures. Green</text>
+<text top="134" left="313" width="241" height="9" font="font4" id="p1_t61" reading_order_no="58" segment_no="3" tag_type="text">points are structures with lower energy and red points are<a href="">[14-16].</a></text>
+<text top="145" left="313" width="241" height="9" font="font4" id="p1_t62" reading_order_no="59" segment_no="3" tag_type="text">structures with higher energy than the explicit tabu struc-<a href="">igures 5 and</a> <a href="">6) the pseu</a>do code</text>
+<text top="157" left="313" width="241" height="9" font="font4" id="p1_t63" reading_order_no="60" segment_no="3" tag_type="text">ture. When choosing a new solution in the neighbour-</text>
+<text top="169" left="313" width="241" height="9" font="font4" id="p1_t64" reading_order_no="61" segment_no="3" tag_type="text">hood three things can happen, a) A solution is more than</text>
+<text top="178" left="313" width="241" height="13" font="font6" id="p1_t65" reading_order_no="62" segment_no="3" tag_type="text">ε dRMSD away from all explicit tabu structure. b) the solu-</text>
+<text top="190" left="313" width="241" height="13" font="font4" id="p1_t66" reading_order_no="63" segment_no="3" tag_type="text">tion is within ε dRMSD, and the energy is lower than the</text>
+<text top="201" left="313" width="241" height="13" font="font4" id="p1_t67" reading_order_no="64" segment_no="3" tag_type="text">explicit tabu structure, c) the solution is within ε dRMSD,<a href="">16</a>] inserts visited structures into a </text>
+<text top="216" left="313" width="241" height="9" font="font4" id="p1_t68" reading_order_no="65" segment_no="3" tag_type="text">and the energy is higher than the explicit tabu structure.<i>tabu list </i></text>
+<text top="228" left="313" width="241" height="9" font="font4" id="p1_t69" reading_order_no="66" segment_no="3" tag_type="text">Structures that comply with case c are said to be implicit</text>
+<text top="236" left="313" width="241" height="13" font="font5" id="p1_t70" reading_order_no="67" segment_no="3" tag_type="text">tabu and cannot be visited. Note that when ε = 0 the search</text>
+<text top="251" left="313" width="241" height="9" font="font4" id="p1_t71" reading_order_no="68" segment_no="3" tag_type="text">heuristic works as a regular TS heuristic since only visited</text>
+<text top="263" left="313" width="241" height="9" font="font4" id="p1_t72" reading_order_no="69" segment_no="3" tag_type="text">structures become tabu. The use of implicit tabu structures</text>
+<text top="275" left="313" width="241" height="9" font="font4" id="p1_t73" reading_order_no="70" segment_no="3" tag_type="text">is new in the context of protein structure prediction. How-</text>
+<text top="286" left="313" width="241" height="9" font="font4" id="p1_t74" reading_order_no="71" segment_no="3" tag_type="text">ever, in TS implementations for OR problems it is a com-<i>explicit tabu list</i></text>
+<text top="298" left="313" width="241" height="9" font="font4" id="p1_t75" reading_order_no="72" segment_no="3" tag_type="text">mon technique to make features of a solution tabu, such</text>
+<text top="310" left="313" width="190" height="9" font="font4" id="p1_t76" reading_order_no="73" segment_no="3" tag_type="text">that regions of the search space become tabu.</text>
+<text top="333" left="313" width="241" height="9" font="font4" id="p1_t77" reading_order_no="74" segment_no="5" tag_type="text">We have also applied standard Monte Carlo simulation<i>implicit tabu structures</i></text>
+<text top="345" left="313" width="241" height="9" font="font4" id="p1_t78" reading_order_no="75" segment_no="5" tag_type="text">(MCS) for minimizing the HSE energy. MCS heuristics are</text>
+<text top="357" left="313" width="241" height="9" font="font4" id="p1_t79" reading_order_no="76" segment_no="5" tag_type="text">stochastic and therefore differ from TS by being nondeter-<i>E</i></text>
+<text top="369" left="313" width="241" height="9" font="font4" id="p1_t80" reading_order_no="77" segment_no="5" tag_type="text">mistic. An MCS iteration consists of randomly choosing a</text>
+<text top="380" left="313" width="241" height="9" font="font4" id="p1_t81" reading_order_no="78" segment_no="5" tag_type="text">protein conformation in the neighbourhood of a current<i>I </i></text>
+<text top="392" left="313" width="241" height="9" font="font4" id="p1_t82" reading_order_no="79" segment_no="5" tag_type="text">conformation. For a fixed temperature T, the new protein</text>
+<text top="404" left="313" width="193" height="9" font="font4" id="p1_t83" reading_order_no="80" segment_no="5" tag_type="text">conformation is accepted with the probability</text>
+<text top="425" left="313" width="39" height="11" font="font5" id="p1_t84" reading_order_no="81" segment_no="8" tag_type="formula">p = e - Δ E / T ,<i>E </i></text>
+<text top="449" left="313" width="241" height="13" font="font4" id="p1_t85" reading_order_no="82" segment_no="9" tag_type="text">where Δ E is the difference between the energy of the cur-</text>
+<text top="463" left="313" width="241" height="9" font="font4" id="p1_t86" reading_order_no="83" segment_no="9" tag_type="text">rent conformation and the new conformation. A protein<i>I </i></text>
+<text top="474" left="313" width="241" height="9" font="font4" id="p1_t87" reading_order_no="84" segment_no="9" tag_type="text">conformation is modelled as a list of N vectors, where N</text>
+<text top="486" left="313" width="241" height="12" font="font4" id="p1_t88" reading_order_no="85" segment_no="9" tag_type="text">is the number of C α atoms of the protein. The neighbour-</text>
+<text top="498" left="313" width="241" height="9" font="font4" id="p1_t89" reading_order_no="86" segment_no="9" tag_type="text">hood of both MCS and TS consists of conformations</text>
+<text top="510" left="313" width="241" height="9" font="font4" id="p1_t90" reading_order_no="87" segment_no="9" tag_type="text">resulting from changes of one, two or three consecutive</text>
+<text top="521" left="313" width="241" height="9" font="font4" id="p1_t91" reading_order_no="88" segment_no="9" tag_type="text">indices. A single index change results in a new structure<i>I </i></text>
+<text top="533" left="313" width="241" height="9" font="font4" id="p1_t92" reading_order_no="89" segment_no="9" tag_type="text">where one part of the structure is fixed and the other part</text>
+<text top="545" left="313" width="241" height="9" font="font4" id="p1_t93" reading_order_no="90" segment_no="9" tag_type="text">is translated. Two or three indices are changed locally such</text>
+<text top="557" left="313" width="241" height="9" font="font4" id="p1_t94" reading_order_no="91" segment_no="9" tag_type="text">that the parts of the structure before and after the chang-<i>E</i></text>
+<text top="568" left="313" width="241" height="9" font="font4" id="p1_t95" reading_order_no="92" segment_no="9" tag_type="text">ing indices are fixed. All local index changes between two</text>
+<text top="580" left="313" width="241" height="9" font="font4" id="p1_t96" reading_order_no="93" segment_no="9" tag_type="text">lattice points can be stored in a table to speed up the com-</text>
+<text top="592" left="313" width="114" height="9" font="font4" id="p1_t97" reading_order_no="94" segment_no="9" tag_type="text">putation time significantly.</text>
+<text top="616" left="313" width="83" height="9" font="font7" id="p1_t98" reading_order_no="95" segment_no="11" tag_type="title">Lattice experiments<i>tabu difference</i></text>
+<text top="627" left="313" width="241" height="9" font="font4" id="p1_t99" reading_order_no="96" segment_no="12" tag_type="text">Here, we evaluate TS and MCS on lattices of different com-<a href=""> 4 illu</a>strates a sequence of visited</text>
+<text top="639" left="313" width="241" height="9" font="font4" id="p1_t100" reading_order_no="97" segment_no="12" tag_type="text">plexity. The purpose of the experiments in this section is</text>
+<text top="651" left="313" width="241" height="9" font="font4" id="p1_t101" reading_order_no="98" segment_no="12" tag_type="text">to tune the parameters (lattice type, tabu difference, tem-</text>
+<text top="662" left="313" width="241" height="9" font="font4" id="p1_t102" reading_order_no="99" segment_no="12" tag_type="text">perature). In the next section we fix the parameters to their</text>
+<text top="674" left="313" width="241" height="9" font="font4" id="p1_t103" reading_order_no="100" segment_no="12" tag_type="text">optimal values found here and compare the HSE and CN</text>
+<text top="686" left="313" width="241" height="9" font="font4" id="p1_t104" reading_order_no="101" segment_no="12" tag_type="text">measures on different proteins. For each lattice, the heu-</text>
+<text top="698" left="313" width="241" height="9" font="font4" id="p1_t105" reading_order_no="102" segment_no="12" tag_type="text">ristics are initialized with 20 random conformations using</text>
+<text top="709" left="313" width="241" height="9" font="font4" id="p1_t106" reading_order_no="103" segment_no="12" tag_type="text">different parameter values. The variable parameter of MCS</text>
+<text top="721" left="313" width="241" height="9" font="font4" id="p1_t107" reading_order_no="104" segment_no="12" tag_type="text">is the temperature and the variable parameter of TS is the</text>
 </page>
 </pdf2xml>

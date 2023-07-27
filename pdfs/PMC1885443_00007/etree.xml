@@ -11,172 +11,136 @@
 	<fontspec id="font7" size="8" family="GillSans,Bold" color="#000000"/>
 	<fontspec id="font8" size="8" family="GillSans" color="#000000"/>
 	<fontspec id="font9" size="6" family="GillSans" color="#000000"/>
-<text top="41" left="55" width="189" height="10" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title"><i>Journal of NeuroEngineering and Rehabilitation</i></text>
-<text top="41" left="244" width="28" height="10" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="title"> 2007, </text>
-<text top="41" left="271" width="5" height="10" font="font2" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="title"><b>4</b></text>
-<text top="41" left="276" width="12" height="10" font="font1" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="title">:12</text>
-<text top="41" left="368" width="186" height="10" font="font1" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="text">http://www.jneuroengrehab.com/content/4/1/12</text>
-<text top="756" left="503" width="51" height="10" font="font1" id="p1_t6" reading_order_no="165" segment_no="18" tag_type="text">Page 8 of 12</text>
-<text top="769" left="432" width="122" height="8" font="font3" id="p1_t7" reading_order_no="166" segment_no="19" tag_type="text"><i>(page number not for citation purposes)</i></text>
-<text top="239" left="55" width="241" height="9" font="font4" id="p1_t8" reading_order_no="41" segment_no="7" tag_type="text">The DFA method yielded similar results to those of the</text>
-<text top="251" left="55" width="225" height="9" font="font4" id="p1_t9" reading_order_no="42" segment_no="7" tag_type="text">SDA method in that time has a significant effect on H</text>
-<text top="256" left="281" width="13" height="6" font="font5" id="p1_t10" reading_order_no="43" segment_no="7" tag_type="text">DFA</text>
-<text top="251" left="294" width="3" height="9" font="font4" id="p1_t11" reading_order_no="44" segment_no="7" tag_type="text">.</text>
-<text top="263" left="55" width="170" height="9" font="font4" id="p1_t12" reading_order_no="45" segment_no="7" tag_type="text">However, in contrast to the results for H</text>
-<text top="267" left="225" width="3" height="6" font="font5" id="p1_t13" reading_order_no="46" segment_no="7" tag_type="text">S</text>
-<text top="263" left="229" width="13" height="9" font="font4" id="p1_t14" reading_order_no="47" segment_no="7" tag_type="text">, H</text>
-<text top="267" left="242" width="15" height="6" font="font5" id="p1_t15" reading_order_no="48" segment_no="7" tag_type="text">DFA </text>
-<text top="263" left="257" width="39" height="9" font="font4" id="p1_t16" reading_order_no="49" segment_no="7" tag_type="text">increased</text>
-<text top="275" left="55" width="241" height="9" font="font4" id="p1_t17" reading_order_no="50" segment_no="7" tag_type="text">with time. In addition, these results were evident for both</text>
-<text top="286" left="55" width="241" height="9" font="font4" id="p1_t18" reading_order_no="51" segment_no="7" tag_type="text">control and elderly subjects. These results were, however,</text>
-<text top="298" left="55" width="241" height="9" font="font4" id="p1_t19" reading_order_no="52" segment_no="7" tag_type="text">due to the initial value at FC2, which was much lower</text>
-<text top="310" left="55" width="241" height="9" font="font4" id="p1_t20" reading_order_no="53" segment_no="7" tag_type="text">than the subsequent values. Given this result it would be</text>
-<text top="322" left="55" width="241" height="9" font="font4" id="p1_t21" reading_order_no="54" segment_no="7" tag_type="text">worth starting any analysis from FC2 + 1 s in order to</text>
-<text top="333" left="55" width="134" height="9" font="font4" id="p1_t22" reading_order_no="55" segment_no="7" tag_type="text">remove any effect of time on H</text>
-<text top="338" left="189" width="13" height="6" font="font5" id="p1_t23" reading_order_no="56" segment_no="7" tag_type="text">DFA</text>
-<text top="333" left="202" width="94" height="9" font="font4" id="p1_t24" reading_order_no="57" segment_no="7" tag_type="text">. The interpretation of</text>
-<text top="345" left="55" width="8" height="9" font="font4" id="p1_t25" reading_order_no="58" segment_no="7" tag_type="text">H</text>
-<text top="350" left="63" width="15" height="6" font="font5" id="p1_t26" reading_order_no="59" segment_no="7" tag_type="text">DFA </text>
-<text top="345" left="80" width="204" height="9" font="font4" id="p1_t27" reading_order_no="60" segment_no="7" tag_type="text">depends on the values detected. Values of H</text>
-<text top="350" left="283" width="13" height="6" font="font5" id="p1_t28" reading_order_no="61" segment_no="7" tag_type="text">DFA</text>
-<text top="357" left="55" width="241" height="9" font="font4" id="p1_t29" reading_order_no="62" segment_no="7" tag_type="text">greater than 0.5 are indicative of a persistent times series,</text>
-<text top="369" left="55" width="241" height="9" font="font4" id="p1_t30" reading_order_no="63" segment_no="7" tag_type="text">with higher values due to a smoother time series, with a</text>
-<text top="380" left="55" width="241" height="9" font="font4" id="p1_t31" reading_order_no="64" segment_no="7" tag_type="text">corresponding decrease in variabilit<a href="">y [38]. A</a>s values of H</text>
-<text top="392" left="55" width="241" height="9" font="font4" id="p1_t32" reading_order_no="65" segment_no="7" tag_type="text">tend towards 1, the signal is smoother with a higher cor-</text>
-<text top="404" left="55" width="241" height="9" font="font4" id="p1_t33" reading_order_no="66" segment_no="7" tag_type="text">relation between successive poi<a href="">nts [39]. High values of</a></text>
-<text top="416" left="55" width="8" height="9" font="font4" id="p1_t34" reading_order_no="67" segment_no="7" tag_type="text">H</text>
-<text top="420" left="63" width="15" height="6" font="font5" id="p1_t35" reading_order_no="68" segment_no="7" tag_type="text">DFA </text>
-<text top="416" left="78" width="218" height="9" font="font4" id="p1_t36" reading_order_no="69" segment_no="7" tag_type="text">would, therefore, be indicative of increased postural</text>
-<text top="427" left="55" width="213" height="9" font="font4" id="p1_t37" reading_order_no="70" segment_no="7" tag_type="text">stability. Another interpretation is possible for H</text>
-<text top="432" left="268" width="15" height="6" font="font5" id="p1_t38" reading_order_no="71" segment_no="7" tag_type="text">DFA </text>
-<text top="427" left="284" width="12" height="9" font="font4" id="p1_t39" reading_order_no="72" segment_no="7" tag_type="text">for</text>
-<text top="439" left="55" width="105" height="9" font="font4" id="p1_t40" reading_order_no="73" segment_no="7" tag_type="text">lower values, whereby H</text>
-<text top="444" left="161" width="15" height="6" font="font5" id="p1_t41" reading_order_no="74" segment_no="7" tag_type="text">DFA </text>
-<text top="439" left="176" width="120" height="9" font="font4" id="p1_t42" reading_order_no="75" segment_no="7" tag_type="text">less than 0.5 is indicative of</text>
-<text top="451" left="55" width="241" height="9" font="font4" id="p1_t43" reading_order_no="76" segment_no="7" tag_type="text">an anti-persistent signal. For such data the variation</text>
-<text top="463" left="55" width="241" height="9" font="font4" id="p1_t44" reading_order_no="77" segment_no="7" tag_type="text">between successive points in the time series is more likely</text>
-<text top="474" left="55" width="241" height="9" font="font4" id="p1_t45" reading_order_no="78" segment_no="7" tag_type="text">to change direction than to continue in the same direc-</text>
-<text top="486" left="55" width="239" height="9" font="font4" id="p1_t46" reading_order_no="79" segment_no="7" tag_type="text">tion, thus reflecting a more tightly controlled time series.</text>
-<text top="510" left="55" width="63" height="9" font="font6" id="p1_t47" reading_order_no="80" segment_no="10" tag_type="title"><i>Reliability analysis</i></text>
-<text top="521" left="55" width="241" height="9" font="font4" id="p1_t48" reading_order_no="81" segment_no="11" tag_type="text">In terms of reliability, the values reported varied accord-</text>
-<text top="533" left="55" width="241" height="9" font="font4" id="p1_t49" reading_order_no="82" segment_no="11" tag_type="text">ing to the window size, the displacement direction, and</text>
-<text top="545" left="55" width="241" height="9" font="font4" id="p1_t50" reading_order_no="83" segment_no="11" tag_type="text">the subject group, but did not vary with time. In other</text>
-<text top="557" left="55" width="94" height="9" font="font4" id="p1_t51" reading_order_no="84" segment_no="11" tag_type="text">words, the values of H</text>
-<text top="561" left="149" width="5" height="6" font="font5" id="p1_t52" reading_order_no="85" segment_no="11" tag_type="text">S </text>
-<text top="557" left="154" width="26" height="9" font="font4" id="p1_t53" reading_order_no="86" segment_no="11" tag_type="text">and H</text>
-<text top="561" left="180" width="15" height="6" font="font5" id="p1_t54" reading_order_no="87" segment_no="11" tag_type="text">DFA </text>
-<text top="557" left="195" width="101" height="9" font="font4" id="p1_t55" reading_order_no="88" segment_no="11" tag_type="text">for the initial part of the</text>
-<text top="568" left="55" width="241" height="9" font="font4" id="p1_t56" reading_order_no="89" segment_no="11" tag_type="text">signal were just as reliable as those for the later part where</text>
-<text top="239" left="313" width="241" height="9" font="font4" id="p1_t57" reading_order_no="90" segment_no="8" tag_type="text">greater postural stability was observed. In respect to the</text>
-<text top="251" left="313" width="241" height="9" font="font4" id="p1_t58" reading_order_no="91" segment_no="8" tag_type="text">effect of window size, higher ICC values were observed for</text>
-<text top="263" left="313" width="241" height="9" font="font4" id="p1_t59" reading_order_no="92" segment_no="8" tag_type="text">the 5-s and 10-s window lengths for both SDA and DFA</text>
-<text top="275" left="313" width="241" height="9" font="font4" id="p1_t60" reading_order_no="93" segment_no="8" tag_type="text">methods. Such a finding was expected given that previous</text>
-<text top="286" left="313" width="241" height="9" font="font4" id="p1_t61" reading_order_no="94" segment_no="8" tag_type="text">studies of diverse physiological and behavioral time series</text>
-<text top="298" left="313" width="241" height="9" font="font4" id="p1_t62" reading_order_no="95" segment_no="8" tag_type="text">have typically shown greater variability when less data</text>
-<text top="310" left="313" width="241" height="9" font="font4" id="p1_t63" reading_order_no="96" segment_no="8" tag_type="text">points are used. Eke and colleagues recommended using</text>
-<text top="322" left="313" width="106" height="9" font="font4" id="p1_t64" reading_order_no="97" segment_no="8" tag_type="text">time series with at least 2</text>
-<text top="321" left="419" width="9" height="6" font="font5" id="p1_t65" reading_order_no="98" segment_no="8" tag_type="text">12 </text>
-<text top="322" left="429" width="125" height="9" font="font4" id="p1_t66" reading_order_no="99" segment_no="8" tag_type="text">(4096) data points due to the</text>
-<text top="333" left="313" width="241" height="9" font="font4" id="p1_t67" reading_order_no="100" segment_no="8" tag_type="text">unreliable results obtained with shorter time seri<a href="">es [32</a>].</text>
-<text top="345" left="313" width="241" height="9" font="font4" id="p1_t68" reading_order_no="101" segment_no="8" tag_type="text">However, recent results have demonstrated that, despite</text>
-<text top="357" left="313" width="210" height="9" font="font4" id="p1_t69" reading_order_no="102" segment_no="8" tag_type="text">an increased variability, time series as short as 2</text>
-<text top="356" left="523" width="6" height="6" font="font5" id="p1_t70" reading_order_no="103" segment_no="8" tag_type="text">8 </text>
-<text top="357" left="530" width="24" height="9" font="font4" id="p1_t71" reading_order_no="104" segment_no="8" tag_type="text">(256)</text>
-<text top="369" left="313" width="241" height="9" font="font4" id="p1_t72" reading_order_no="105" segment_no="8" tag_type="text">points still produced acceptable results [<a href="">40]. Fur</a>thermore,</text>
-<text top="380" left="313" width="241" height="9" font="font4" id="p1_t73" reading_order_no="106" segment_no="8" tag_type="text">the mean of four short time series of 256 points was</text>
-<text top="392" left="313" width="241" height="9" font="font4" id="p1_t74" reading_order_no="107" segment_no="8" tag_type="text">shown to provide a better estimate of H than a single time</text>
-<text top="404" left="313" width="241" height="9" font="font4" id="p1_t75" reading_order_no="108" segment_no="8" tag_type="text">series of 1024 points. The results of the reliability analysis</text>
-<text top="416" left="313" width="241" height="9" font="font4" id="p1_t76" reading_order_no="109" segment_no="8" tag_type="text">of the present study confirm the results of Delignières, in</text>
-<text top="427" left="313" width="241" height="9" font="font4" id="p1_t77" reading_order_no="110" segment_no="8" tag_type="text">that ICC values as high as 0.72 were obtained for 5-s time</text>
-<text top="439" left="313" width="163" height="9" font="font4" id="p1_t78" reading_order_no="111" segment_no="8" tag_type="text">series containing only 500 data points.</text>
-<text top="463" left="313" width="241" height="9" font="font4" id="p1_t79" reading_order_no="112" segment_no="9" tag_type="text">Given the low ICC values obtained for the 2.5-s window</text>
-<text top="474" left="313" width="241" height="9" font="font4" id="p1_t80" reading_order_no="113" segment_no="9" tag_type="text">length, all subsequent comparisons of reliability are dis-</text>
-<text top="486" left="313" width="241" height="9" font="font4" id="p1_t81" reading_order_no="114" segment_no="9" tag_type="text">cussed for only the 5 and 10-s windows. In respect to dif-</text>
-<text top="498" left="313" width="241" height="9" font="font4" id="p1_t82" reading_order_no="115" segment_no="9" tag_type="text">ferences in reliability for the two groups, it can be seen</text>
-<text top="510" left="313" width="241" height="9" font="font4" id="p1_t83" reading_order_no="116" segment_no="9" tag_type="text">that elderly subjects were far more reliable than were the</text>
-<text top="521" left="313" width="241" height="9" font="font4" id="p1_t84" reading_order_no="117" segment_no="9" tag_type="text">control subjects. The ICC values for elderly subjects were</text>
-<text top="533" left="313" width="241" height="9" font="font4" id="p1_t85" reading_order_no="118" segment_no="9" tag_type="text">consistently considered to be "fair to good", bordering on</text>
-<text top="545" left="313" width="241" height="9" font="font4" id="p1_t86" reading_order_no="119" segment_no="9" tag_type="text">"excellent" using the scale developed by Flei<a href="">ss [41], wit</a>h</text>
-<text top="557" left="313" width="241" height="9" font="font4" id="p1_t87" reading_order_no="120" segment_no="9" tag_type="text">values varying from 0.49 to 0.75. In contrast, the ICC val-</text>
-<text top="568" left="313" width="241" height="9" font="font4" id="p1_t88" reading_order_no="121" segment_no="9" tag_type="text">ues for the control subjects were consistently lower than</text>
-<text top="87" left="55" width="226" height="7" font="font7" id="p1_t89" reading_order_no="5" segment_no="2" tag_type="title"><b>Table 2: Mean ICC values for Stabilogram Diffusion Analysis.</b></text>
-<text top="105" left="170" width="56" height="7" font="font8" id="p1_t90" reading_order_no="6" segment_no="3" tag_type="table">Anteroposterior</text>
-<text top="105" left="319" width="41" height="7" font="font8" id="p1_t91" reading_order_no="7" segment_no="3" tag_type="table">Mediolateral</text>
-<text top="105" left="467" width="31" height="7" font="font8" id="p1_t92" reading_order_no="8" segment_no="3" tag_type="table">Resultant</text>
-<text top="127" left="63" width="55" height="7" font="font8" id="p1_t93" reading_order_no="9" segment_no="3" tag_type="table">Window size (s)</text>
-<text top="127" left="149" width="27" height="7" font="font8" id="p1_t94" reading_order_no="10" segment_no="3" tag_type="table">Control</text>
-<text top="127" left="222" width="23" height="7" font="font8" id="p1_t95" reading_order_no="11" segment_no="3" tag_type="table">Elderly</text>
-<text top="127" left="291" width="27" height="7" font="font8" id="p1_t96" reading_order_no="12" segment_no="3" tag_type="table">Control</text>
-<text top="127" left="364" width="23" height="7" font="font8" id="p1_t97" reading_order_no="13" segment_no="3" tag_type="table">Elderly</text>
-<text top="127" left="434" width="27" height="7" font="font8" id="p1_t98" reading_order_no="14" segment_no="3" tag_type="table">Control</text>
-<text top="127" left="507" width="23" height="7" font="font8" id="p1_t99" reading_order_no="15" segment_no="3" tag_type="table">Elderly</text>
-<text top="149" left="86" width="10" height="7" font="font8" id="p1_t100" reading_order_no="16" segment_no="3" tag_type="table">2.5</text>
-<text top="149" left="155" width="14" height="7" font="font8" id="p1_t101" reading_order_no="17" segment_no="3" tag_type="table">0.18</text>
-<text top="149" left="224" width="18" height="7" font="font8" id="p1_t102" reading_order_no="18" segment_no="3" tag_type="table">0.55*</text>
-<text top="149" left="297" width="14" height="7" font="font8" id="p1_t103" reading_order_no="19" segment_no="3" tag_type="table">0.31</text>
-<text top="149" left="369" width="14" height="7" font="font8" id="p1_t104" reading_order_no="20" segment_no="3" tag_type="table">0.34</text>
-<text top="149" left="440" width="14" height="7" font="font8" id="p1_t105" reading_order_no="21" segment_no="3" tag_type="table">0.30</text>
-<text top="149" left="510" width="18" height="7" font="font8" id="p1_t106" reading_order_no="22" segment_no="3" tag_type="table">0.56*</text>
-<text top="160" left="89" width="4" height="7" font="font8" id="p1_t107" reading_order_no="23" segment_no="3" tag_type="table">5</text>
-<text top="160" left="155" width="14" height="7" font="font8" id="p1_t108" reading_order_no="24" segment_no="3" tag_type="table">0.29</text>
-<text top="160" left="225" width="18" height="7" font="font8" id="p1_t109" reading_order_no="25" segment_no="3" tag_type="table">0.54*</text>
-<text top="160" left="298" width="14" height="7" font="font8" id="p1_t110" reading_order_no="26" segment_no="3" tag_type="table">0.42</text>
-<text top="160" left="367" width="18" height="7" font="font8" id="p1_t111" reading_order_no="27" segment_no="3" tag_type="table">0.58*</text>
-<text top="160" left="440" width="14" height="7" font="font8" id="p1_t112" reading_order_no="28" segment_no="3" tag_type="table">0.43</text>
-<text top="160" left="510" width="18" height="7" font="font8" id="p1_t113" reading_order_no="29" segment_no="3" tag_type="table">0.62*</text>
-<text top="170" left="87" width="8" height="7" font="font8" id="p1_t114" reading_order_no="30" segment_no="3" tag_type="table">10</text>
-<text top="170" left="154" width="14" height="7" font="font8" id="p1_t115" reading_order_no="31" segment_no="3" tag_type="table">0.44</text>
-<text top="170" left="168" width="3" height="5" font="font9" id="p1_t116" reading_order_no="32" segment_no="3" tag_type="table">†</text>
-<text top="170" left="226" width="14" height="7" font="font8" id="p1_t117" reading_order_no="33" segment_no="3" tag_type="table">0.49</text>
-<text top="170" left="297" width="14" height="7" font="font8" id="p1_t118" reading_order_no="34" segment_no="3" tag_type="table">0.49</text>
-<text top="170" left="369" width="14" height="7" font="font8" id="p1_t119" reading_order_no="35" segment_no="3" tag_type="table">0.58</text>
-<text top="170" left="440" width="14" height="7" font="font8" id="p1_t120" reading_order_no="36" segment_no="3" tag_type="table">0.53</text>
-<text top="170" left="510" width="18" height="7" font="font8" id="p1_t121" reading_order_no="37" segment_no="3" tag_type="table">0.67*</text>
-<text top="192" left="59" width="190" height="7" font="font8" id="p1_t122" reading_order_no="38" segment_no="4" tag_type="text">Values are means calculated for all windows of each size.</text>
-<text top="201" left="59" width="148" height="7" font="font8" id="p1_t123" reading_order_no="39" segment_no="5" tag_type="text">*Significantly different from control subjects.</text>
-<text top="211" left="59" width="134" height="7" font="font8" id="p1_t124" reading_order_no="40" segment_no="6" tag_type="text">†Significantly different from 5-s window.</text>
-<text top="593" left="55" width="230" height="7" font="font7" id="p1_t125" reading_order_no="122" segment_no="12" tag_type="title"><b>Table 3: Mean ICC values for Detrended Fluctuation Analysis.</b></text>
-<text top="611" left="170" width="56" height="7" font="font8" id="p1_t126" reading_order_no="123" segment_no="13" tag_type="table">Anteroposterior</text>
-<text top="611" left="319" width="41" height="7" font="font8" id="p1_t127" reading_order_no="124" segment_no="13" tag_type="table">Mediolateral</text>
-<text top="611" left="467" width="31" height="7" font="font8" id="p1_t128" reading_order_no="125" segment_no="13" tag_type="table">Resultant</text>
-<text top="633" left="63" width="55" height="7" font="font8" id="p1_t129" reading_order_no="126" segment_no="13" tag_type="table">Window size (s)</text>
-<text top="633" left="149" width="27" height="7" font="font8" id="p1_t130" reading_order_no="127" segment_no="13" tag_type="table">Control</text>
-<text top="633" left="222" width="23" height="7" font="font8" id="p1_t131" reading_order_no="128" segment_no="13" tag_type="table">Elderly</text>
-<text top="633" left="291" width="27" height="7" font="font8" id="p1_t132" reading_order_no="129" segment_no="13" tag_type="table">Control</text>
-<text top="633" left="364" width="23" height="7" font="font8" id="p1_t133" reading_order_no="130" segment_no="13" tag_type="table">Elderly</text>
-<text top="633" left="434" width="27" height="7" font="font8" id="p1_t134" reading_order_no="131" segment_no="13" tag_type="table">Control</text>
-<text top="633" left="507" width="23" height="7" font="font8" id="p1_t135" reading_order_no="132" segment_no="13" tag_type="table">Elderly</text>
-<text top="656" left="86" width="10" height="7" font="font8" id="p1_t136" reading_order_no="133" segment_no="13" tag_type="table">2.5</text>
-<text top="656" left="154" width="14" height="7" font="font8" id="p1_t137" reading_order_no="134" segment_no="13" tag_type="table">0.20</text>
-<text top="655" left="168" width="3" height="5" font="font9" id="p1_t138" reading_order_no="135" segment_no="13" tag_type="table">†</text>
-<text top="656" left="223" width="18" height="7" font="font8" id="p1_t139" reading_order_no="136" segment_no="13" tag_type="table">0.56*</text>
-<text top="655" left="241" width="3" height="5" font="font9" id="p1_t140" reading_order_no="137" segment_no="13" tag_type="table">†</text>
-<text top="656" left="296" width="14" height="7" font="font8" id="p1_t141" reading_order_no="138" segment_no="13" tag_type="table">0.27</text>
-<text top="655" left="310" width="3" height="5" font="font9" id="p1_t142" reading_order_no="139" segment_no="13" tag_type="table">†</text>
-<text top="656" left="369" width="14" height="7" font="font8" id="p1_t143" reading_order_no="140" segment_no="13" tag_type="table">0.34</text>
-<text top="656" left="440" width="14" height="7" font="font8" id="p1_t144" reading_order_no="141" segment_no="13" tag_type="table">0.24</text>
-<text top="656" left="510" width="18" height="7" font="font8" id="p1_t145" reading_order_no="142" segment_no="13" tag_type="table">0.54*</text>
-<text top="666" left="89" width="4" height="7" font="font8" id="p1_t146" reading_order_no="143" segment_no="13" tag_type="table">5</text>
-<text top="666" left="154" width="14" height="7" font="font8" id="p1_t147" reading_order_no="144" segment_no="13" tag_type="table">0.40</text>
-<text top="666" left="168" width="2" height="5" font="font9" id="p1_t148" reading_order_no="145" segment_no="13" tag_type="table">§</text>
-<text top="666" left="223" width="18" height="7" font="font8" id="p1_t149" reading_order_no="146" segment_no="13" tag_type="table">0.72*</text>
-<text top="666" left="241" width="2" height="5" font="font9" id="p1_t150" reading_order_no="147" segment_no="13" tag_type="table">§</text>
-<text top="666" left="297" width="14" height="7" font="font8" id="p1_t151" reading_order_no="148" segment_no="13" tag_type="table">0.41</text>
-<text top="666" left="369" width="14" height="7" font="font8" id="p1_t152" reading_order_no="149" segment_no="13" tag_type="table">0.52</text>
-<text top="666" left="439" width="14" height="7" font="font8" id="p1_t153" reading_order_no="150" segment_no="13" tag_type="table">0.32</text>
-<text top="666" left="453" width="2" height="5" font="font9" id="p1_t154" reading_order_no="151" segment_no="13" tag_type="table">§</text>
-<text top="666" left="510" width="18" height="7" font="font8" id="p1_t155" reading_order_no="152" segment_no="13" tag_type="table">0.56*</text>
-<text top="676" left="87" width="8" height="7" font="font8" id="p1_t156" reading_order_no="153" segment_no="13" tag_type="table">10</text>
-<text top="676" left="155" width="14" height="7" font="font8" id="p1_t157" reading_order_no="154" segment_no="13" tag_type="table">0.48</text>
-<text top="676" left="223" width="18" height="7" font="font8" id="p1_t158" reading_order_no="155" segment_no="13" tag_type="table">0.75*</text>
-<text top="676" left="241" width="2" height="5" font="font9" id="p1_t159" reading_order_no="156" segment_no="13" tag_type="table">§</text>
-<text top="676" left="297" width="14" height="7" font="font8" id="p1_t160" reading_order_no="157" segment_no="13" tag_type="table">0.52</text>
-<text top="676" left="369" width="14" height="7" font="font8" id="p1_t161" reading_order_no="158" segment_no="13" tag_type="table">0.62</text>
-<text top="676" left="440" width="14" height="7" font="font8" id="p1_t162" reading_order_no="159" segment_no="13" tag_type="table">0.43</text>
-<text top="676" left="510" width="18" height="7" font="font8" id="p1_t163" reading_order_no="160" segment_no="13" tag_type="table">0.68*</text>
-<text top="698" left="59" width="190" height="7" font="font8" id="p1_t164" reading_order_no="161" segment_no="14" tag_type="text">Values are means calculated for all windows of each size.</text>
-<text top="708" left="59" width="148" height="7" font="font8" id="p1_t165" reading_order_no="162" segment_no="15" tag_type="text">*Significantly different from control subjects.</text>
-<text top="717" left="59" width="134" height="7" font="font8" id="p1_t166" reading_order_no="163" segment_no="16" tag_type="text">†Significantly different from 5-s window.</text>
-<text top="726" left="59" width="213" height="7" font="font8" id="p1_t167" reading_order_no="164" segment_no="17" tag_type="text">§Significantly different from the SDA values reported in Table 2.</text>
+<text top="41" left="55" width="233" height="10" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">Journal of NeuroEngineering and Rehabilitation 2007, 4 :12<i>Journal of NeuroEngineering and Rehabilitation</i></text>
+<text top="41" left="368" width="186" height="10" font="font1" id="p1_t2" reading_order_no="1" segment_no="1" tag_type="text">http://www.jneuroengrehab.com/content/4/1/12</text>
+<text top="756" left="503" width="51" height="10" font="font1" id="p1_t3" reading_order_no="129" segment_no="18" tag_type="text">Page 8 of 12<b>4</b></text>
+<text top="769" left="432" width="122" height="8" font="font3" id="p1_t4" reading_order_no="130" segment_no="19" tag_type="text">(page number not for citation purposes)</text>
+<text top="239" left="55" width="241" height="9" font="font4" id="p1_t5" reading_order_no="37" segment_no="7" tag_type="text">The DFA method yielded similar results to those of the</text>
+<text top="251" left="55" width="242" height="11" font="font4" id="p1_t6" reading_order_no="38" segment_no="7" tag_type="text">SDA method in that time has a significant effect on H DFA .</text>
+<text top="263" left="55" width="241" height="10" font="font4" id="p1_t7" reading_order_no="39" segment_no="7" tag_type="text">However, in contrast to the results for H S , H DFA increased<i>(page number not for citation purposes)</i></text>
+<text top="275" left="55" width="241" height="9" font="font4" id="p1_t8" reading_order_no="40" segment_no="7" tag_type="text">with time. In addition, these results were evident for both</text>
+<text top="286" left="55" width="241" height="9" font="font4" id="p1_t9" reading_order_no="41" segment_no="7" tag_type="text">control and elderly subjects. These results were, however,</text>
+<text top="298" left="55" width="241" height="9" font="font4" id="p1_t10" reading_order_no="42" segment_no="7" tag_type="text">due to the initial value at FC2, which was much lower</text>
+<text top="310" left="55" width="241" height="9" font="font4" id="p1_t11" reading_order_no="43" segment_no="7" tag_type="text">than the subsequent values. Given this result it would be</text>
+<text top="322" left="55" width="241" height="9" font="font4" id="p1_t12" reading_order_no="44" segment_no="7" tag_type="text">worth starting any analysis from FC2 + 1 s in order to</text>
+<text top="333" left="55" width="241" height="11" font="font4" id="p1_t13" reading_order_no="45" segment_no="7" tag_type="text">remove any effect of time on H DFA . The interpretation of</text>
+<text top="345" left="55" width="241" height="11" font="font4" id="p1_t14" reading_order_no="46" segment_no="7" tag_type="text">H DFA depends on the values detected. Values of H DFA</text>
+<text top="357" left="55" width="241" height="9" font="font4" id="p1_t15" reading_order_no="47" segment_no="7" tag_type="text">greater than 0.5 are indicative of a persistent times series,</text>
+<text top="369" left="55" width="241" height="9" font="font4" id="p1_t16" reading_order_no="48" segment_no="7" tag_type="text">with higher values due to a smoother time series, with a</text>
+<text top="380" left="55" width="241" height="9" font="font4" id="p1_t17" reading_order_no="49" segment_no="7" tag_type="text">corresponding decrease in variability [38]. As values of H</text>
+<text top="392" left="55" width="241" height="9" font="font4" id="p1_t18" reading_order_no="50" segment_no="7" tag_type="text">tend towards 1, the signal is smoother with a higher cor-</text>
+<text top="404" left="55" width="241" height="9" font="font4" id="p1_t19" reading_order_no="51" segment_no="7" tag_type="text">relation between successive points [39]. High values of</text>
+<text top="416" left="55" width="241" height="10" font="font4" id="p1_t20" reading_order_no="52" segment_no="7" tag_type="text">H DFA would, therefore, be indicative of increased postural</text>
+<text top="427" left="55" width="241" height="11" font="font4" id="p1_t21" reading_order_no="53" segment_no="7" tag_type="text">stability. Another interpretation is possible for H DFA for</text>
+<text top="439" left="55" width="241" height="11" font="font4" id="p1_t22" reading_order_no="54" segment_no="7" tag_type="text">lower values, whereby H DFA less than 0.5 is indicative of</text>
+<text top="451" left="55" width="241" height="9" font="font4" id="p1_t23" reading_order_no="55" segment_no="7" tag_type="text">an anti-persistent signal. For such data the variation</text>
+<text top="463" left="55" width="241" height="9" font="font4" id="p1_t24" reading_order_no="56" segment_no="7" tag_type="text">between successive points in the time series is more likely</text>
+<text top="474" left="55" width="241" height="9" font="font4" id="p1_t25" reading_order_no="57" segment_no="7" tag_type="text">to change direction than to continue in the same direc-</text>
+<text top="486" left="55" width="239" height="9" font="font4" id="p1_t26" reading_order_no="58" segment_no="7" tag_type="text">tion, thus reflecting a more tightly controlled time series.</text>
+<text top="510" left="55" width="63" height="9" font="font6" id="p1_t27" reading_order_no="59" segment_no="10" tag_type="title">Reliability analysis</text>
+<text top="521" left="55" width="241" height="9" font="font4" id="p1_t28" reading_order_no="60" segment_no="11" tag_type="text">In terms of reliability, the values reported varied accord-</text>
+<text top="533" left="55" width="241" height="9" font="font4" id="p1_t29" reading_order_no="61" segment_no="11" tag_type="text">ing to the window size, the displacement direction, and</text>
+<text top="545" left="55" width="241" height="9" font="font4" id="p1_t30" reading_order_no="62" segment_no="11" tag_type="text">the subject group, but did not vary with time. In other</text>
+<text top="557" left="55" width="241" height="10" font="font4" id="p1_t31" reading_order_no="63" segment_no="11" tag_type="text">words, the values of H S and H DFA for the initial part of the<a href="">y [38]. A</a>s values of H</text>
+<text top="568" left="55" width="241" height="9" font="font4" id="p1_t32" reading_order_no="64" segment_no="11" tag_type="text">signal were just as reliable as those for the later part where</text>
+<text top="239" left="313" width="241" height="9" font="font4" id="p1_t33" reading_order_no="65" segment_no="8" tag_type="text">greater postural stability was observed. In respect to the<a href="">nts [39]. High values of</a></text>
+<text top="251" left="313" width="241" height="9" font="font4" id="p1_t34" reading_order_no="66" segment_no="8" tag_type="text">effect of window size, higher ICC values were observed for</text>
+<text top="263" left="313" width="241" height="9" font="font4" id="p1_t35" reading_order_no="67" segment_no="8" tag_type="text">the 5-s and 10-s window lengths for both SDA and DFA</text>
+<text top="275" left="313" width="241" height="9" font="font4" id="p1_t36" reading_order_no="68" segment_no="8" tag_type="text">methods. Such a finding was expected given that previous</text>
+<text top="286" left="313" width="241" height="9" font="font4" id="p1_t37" reading_order_no="69" segment_no="8" tag_type="text">studies of diverse physiological and behavioral time series</text>
+<text top="298" left="313" width="241" height="9" font="font4" id="p1_t38" reading_order_no="70" segment_no="8" tag_type="text">have typically shown greater variability when less data</text>
+<text top="310" left="313" width="241" height="9" font="font4" id="p1_t39" reading_order_no="71" segment_no="8" tag_type="text">points are used. Eke and colleagues recommended using</text>
+<text top="321" left="313" width="241" height="10" font="font4" id="p1_t40" reading_order_no="72" segment_no="8" tag_type="text">time series with at least 2 12 (4096) data points due to the</text>
+<text top="333" left="313" width="241" height="9" font="font4" id="p1_t41" reading_order_no="73" segment_no="8" tag_type="text">unreliable results obtained with shorter time series [32].</text>
+<text top="345" left="313" width="241" height="9" font="font4" id="p1_t42" reading_order_no="74" segment_no="8" tag_type="text">However, recent results have demonstrated that, despite</text>
+<text top="356" left="313" width="241" height="10" font="font4" id="p1_t43" reading_order_no="75" segment_no="8" tag_type="text">an increased variability, time series as short as 2 8 (256)</text>
+<text top="369" left="313" width="241" height="9" font="font4" id="p1_t44" reading_order_no="76" segment_no="8" tag_type="text">points still produced acceptable results [40]. Furthermore,</text>
+<text top="380" left="313" width="241" height="9" font="font4" id="p1_t45" reading_order_no="77" segment_no="8" tag_type="text">the mean of four short time series of 256 points was</text>
+<text top="392" left="313" width="241" height="9" font="font4" id="p1_t46" reading_order_no="78" segment_no="8" tag_type="text">shown to provide a better estimate of H than a single time</text>
+<text top="404" left="313" width="241" height="9" font="font4" id="p1_t47" reading_order_no="79" segment_no="8" tag_type="text">series of 1024 points. The results of the reliability analysis<i>Reliability analysis</i></text>
+<text top="416" left="313" width="241" height="9" font="font4" id="p1_t48" reading_order_no="80" segment_no="8" tag_type="text">of the present study confirm the results of Delignières, in</text>
+<text top="427" left="313" width="241" height="9" font="font4" id="p1_t49" reading_order_no="81" segment_no="8" tag_type="text">that ICC values as high as 0.72 were obtained for 5-s time</text>
+<text top="439" left="313" width="163" height="9" font="font4" id="p1_t50" reading_order_no="82" segment_no="8" tag_type="text">series containing only 500 data points.</text>
+<text top="463" left="313" width="241" height="9" font="font4" id="p1_t51" reading_order_no="83" segment_no="9" tag_type="text">Given the low ICC values obtained for the 2.5-s window</text>
+<text top="474" left="313" width="241" height="9" font="font4" id="p1_t52" reading_order_no="84" segment_no="9" tag_type="text">length, all subsequent comparisons of reliability are dis-</text>
+<text top="486" left="313" width="241" height="9" font="font4" id="p1_t53" reading_order_no="85" segment_no="9" tag_type="text">cussed for only the 5 and 10-s windows. In respect to dif-</text>
+<text top="498" left="313" width="241" height="9" font="font4" id="p1_t54" reading_order_no="86" segment_no="9" tag_type="text">ferences in reliability for the two groups, it can be seen</text>
+<text top="510" left="313" width="241" height="9" font="font4" id="p1_t55" reading_order_no="87" segment_no="9" tag_type="text">that elderly subjects were far more reliable than were the</text>
+<text top="521" left="313" width="241" height="9" font="font4" id="p1_t56" reading_order_no="88" segment_no="9" tag_type="text">control subjects. The ICC values for elderly subjects were</text>
+<text top="533" left="313" width="241" height="9" font="font4" id="p1_t57" reading_order_no="89" segment_no="9" tag_type="text">consistently considered to be "fair to good", bordering on</text>
+<text top="545" left="313" width="241" height="9" font="font4" id="p1_t58" reading_order_no="90" segment_no="9" tag_type="text">"excellent" using the scale developed by Fleiss [41], with</text>
+<text top="557" left="313" width="241" height="9" font="font4" id="p1_t59" reading_order_no="91" segment_no="9" tag_type="text">values varying from 0.49 to 0.75. In contrast, the ICC val-</text>
+<text top="568" left="313" width="241" height="9" font="font4" id="p1_t60" reading_order_no="92" segment_no="9" tag_type="text">ues for the control subjects were consistently lower than</text>
+<text top="87" left="55" width="226" height="7" font="font7" id="p1_t61" reading_order_no="2" segment_no="2" tag_type="title">Table 2: Mean ICC values for Stabilogram Diffusion Analysis.</text>
+<text top="105" left="170" width="56" height="7" font="font8" id="p1_t62" reading_order_no="3" segment_no="3" tag_type="table">Anteroposterior</text>
+<text top="105" left="319" width="41" height="7" font="font8" id="p1_t63" reading_order_no="4" segment_no="3" tag_type="table">Mediolateral</text>
+<text top="105" left="467" width="31" height="7" font="font8" id="p1_t64" reading_order_no="5" segment_no="3" tag_type="table">Resultant</text>
+<text top="127" left="63" width="55" height="7" font="font8" id="p1_t65" reading_order_no="6" segment_no="3" tag_type="table">Window size (s)</text>
+<text top="127" left="149" width="27" height="7" font="font8" id="p1_t66" reading_order_no="7" segment_no="3" tag_type="table">Control</text>
+<text top="127" left="222" width="23" height="7" font="font8" id="p1_t67" reading_order_no="8" segment_no="3" tag_type="table">Elderly<a href="">es [32</a>].</text>
+<text top="127" left="291" width="27" height="7" font="font8" id="p1_t68" reading_order_no="9" segment_no="3" tag_type="table">Control</text>
+<text top="127" left="364" width="23" height="7" font="font8" id="p1_t69" reading_order_no="10" segment_no="3" tag_type="table">Elderly</text>
+<text top="127" left="434" width="27" height="7" font="font8" id="p1_t70" reading_order_no="11" segment_no="3" tag_type="table">Control</text>
+<text top="127" left="507" width="23" height="7" font="font8" id="p1_t71" reading_order_no="12" segment_no="3" tag_type="table">Elderly</text>
+<text top="149" left="86" width="10" height="7" font="font8" id="p1_t72" reading_order_no="13" segment_no="3" tag_type="table">2.5<a href="">40]. Fur</a>thermore,</text>
+<text top="149" left="155" width="14" height="7" font="font8" id="p1_t73" reading_order_no="14" segment_no="3" tag_type="table">0.18</text>
+<text top="149" left="224" width="18" height="7" font="font8" id="p1_t74" reading_order_no="15" segment_no="3" tag_type="table">0.55*</text>
+<text top="149" left="297" width="14" height="7" font="font8" id="p1_t75" reading_order_no="16" segment_no="3" tag_type="table">0.31</text>
+<text top="149" left="369" width="14" height="7" font="font8" id="p1_t76" reading_order_no="17" segment_no="3" tag_type="table">0.34</text>
+<text top="149" left="440" width="14" height="7" font="font8" id="p1_t77" reading_order_no="18" segment_no="3" tag_type="table">0.30</text>
+<text top="149" left="510" width="18" height="7" font="font8" id="p1_t78" reading_order_no="19" segment_no="3" tag_type="table">0.56*</text>
+<text top="160" left="89" width="4" height="7" font="font8" id="p1_t79" reading_order_no="20" segment_no="3" tag_type="table">5</text>
+<text top="160" left="155" width="14" height="7" font="font8" id="p1_t80" reading_order_no="21" segment_no="3" tag_type="table">0.29</text>
+<text top="160" left="225" width="18" height="7" font="font8" id="p1_t81" reading_order_no="22" segment_no="3" tag_type="table">0.54*</text>
+<text top="160" left="298" width="14" height="7" font="font8" id="p1_t82" reading_order_no="23" segment_no="3" tag_type="table">0.42</text>
+<text top="160" left="367" width="18" height="7" font="font8" id="p1_t83" reading_order_no="24" segment_no="3" tag_type="table">0.58*</text>
+<text top="160" left="440" width="14" height="7" font="font8" id="p1_t84" reading_order_no="25" segment_no="3" tag_type="table">0.43</text>
+<text top="160" left="510" width="18" height="7" font="font8" id="p1_t85" reading_order_no="26" segment_no="3" tag_type="table">0.62*</text>
+<text top="170" left="87" width="8" height="7" font="font8" id="p1_t86" reading_order_no="27" segment_no="3" tag_type="table">10<a href="">ss [41], wit</a>h</text>
+<text top="170" left="154" width="17" height="7" font="font8" id="p1_t87" reading_order_no="28" segment_no="3" tag_type="table">0.44 †</text>
+<text top="170" left="226" width="14" height="7" font="font8" id="p1_t88" reading_order_no="29" segment_no="3" tag_type="table">0.49</text>
+<text top="170" left="297" width="14" height="7" font="font8" id="p1_t89" reading_order_no="30" segment_no="3" tag_type="table">0.49<b>Table 2: Mean ICC values for Stabilogram Diffusion Analysis.</b></text>
+<text top="170" left="369" width="14" height="7" font="font8" id="p1_t90" reading_order_no="31" segment_no="3" tag_type="table">0.58</text>
+<text top="170" left="440" width="14" height="7" font="font8" id="p1_t91" reading_order_no="32" segment_no="3" tag_type="table">0.53</text>
+<text top="170" left="510" width="18" height="7" font="font8" id="p1_t92" reading_order_no="33" segment_no="3" tag_type="table">0.67*</text>
+<text top="192" left="59" width="190" height="7" font="font8" id="p1_t93" reading_order_no="34" segment_no="4" tag_type="text">Values are means calculated for all windows of each size.</text>
+<text top="201" left="59" width="148" height="7" font="font8" id="p1_t94" reading_order_no="35" segment_no="5" tag_type="text">*Significantly different from control subjects.</text>
+<text top="211" left="59" width="134" height="7" font="font8" id="p1_t95" reading_order_no="36" segment_no="6" tag_type="text">†Significantly different from 5-s window.</text>
+<text top="593" left="55" width="230" height="7" font="font7" id="p1_t96" reading_order_no="93" segment_no="12" tag_type="title">Table 3: Mean ICC values for Detrended Fluctuation Analysis.</text>
+<text top="611" left="170" width="56" height="7" font="font8" id="p1_t97" reading_order_no="94" segment_no="13" tag_type="table">Anteroposterior</text>
+<text top="611" left="319" width="41" height="7" font="font8" id="p1_t98" reading_order_no="95" segment_no="13" tag_type="table">Mediolateral</text>
+<text top="611" left="467" width="31" height="7" font="font8" id="p1_t99" reading_order_no="96" segment_no="13" tag_type="table">Resultant</text>
+<text top="633" left="63" width="55" height="7" font="font8" id="p1_t100" reading_order_no="97" segment_no="13" tag_type="table">Window size (s)</text>
+<text top="633" left="149" width="27" height="7" font="font8" id="p1_t101" reading_order_no="98" segment_no="13" tag_type="table">Control</text>
+<text top="633" left="222" width="23" height="7" font="font8" id="p1_t102" reading_order_no="99" segment_no="13" tag_type="table">Elderly</text>
+<text top="633" left="291" width="27" height="7" font="font8" id="p1_t103" reading_order_no="100" segment_no="13" tag_type="table">Control</text>
+<text top="633" left="364" width="23" height="7" font="font8" id="p1_t104" reading_order_no="101" segment_no="13" tag_type="table">Elderly</text>
+<text top="633" left="434" width="27" height="7" font="font8" id="p1_t105" reading_order_no="102" segment_no="13" tag_type="table">Control</text>
+<text top="633" left="507" width="23" height="7" font="font8" id="p1_t106" reading_order_no="103" segment_no="13" tag_type="table">Elderly</text>
+<text top="656" left="86" width="10" height="7" font="font8" id="p1_t107" reading_order_no="104" segment_no="13" tag_type="table">2.5</text>
+<text top="655" left="154" width="17" height="8" font="font8" id="p1_t108" reading_order_no="105" segment_no="13" tag_type="table">0.20 †</text>
+<text top="655" left="223" width="21" height="8" font="font8" id="p1_t109" reading_order_no="106" segment_no="13" tag_type="table">0.56* †</text>
+<text top="655" left="296" width="17" height="8" font="font8" id="p1_t110" reading_order_no="107" segment_no="13" tag_type="table">0.27 †</text>
+<text top="656" left="369" width="14" height="7" font="font8" id="p1_t111" reading_order_no="108" segment_no="13" tag_type="table">0.34</text>
+<text top="656" left="440" width="14" height="7" font="font8" id="p1_t112" reading_order_no="109" segment_no="13" tag_type="table">0.24</text>
+<text top="656" left="510" width="18" height="7" font="font8" id="p1_t113" reading_order_no="110" segment_no="13" tag_type="table">0.54*</text>
+<text top="666" left="89" width="4" height="7" font="font8" id="p1_t114" reading_order_no="111" segment_no="13" tag_type="table">5</text>
+<text top="666" left="154" width="16" height="7" font="font8" id="p1_t115" reading_order_no="112" segment_no="13" tag_type="table">0.40 §</text>
+<text top="666" left="223" width="20" height="7" font="font8" id="p1_t116" reading_order_no="113" segment_no="13" tag_type="table">0.72* §</text>
+<text top="666" left="297" width="14" height="7" font="font8" id="p1_t117" reading_order_no="114" segment_no="13" tag_type="table">0.41</text>
+<text top="666" left="369" width="14" height="7" font="font8" id="p1_t118" reading_order_no="115" segment_no="13" tag_type="table">0.52</text>
+<text top="666" left="439" width="16" height="7" font="font8" id="p1_t119" reading_order_no="116" segment_no="13" tag_type="table">0.32 §</text>
+<text top="666" left="510" width="18" height="7" font="font8" id="p1_t120" reading_order_no="117" segment_no="13" tag_type="table">0.56*</text>
+<text top="676" left="87" width="8" height="7" font="font8" id="p1_t121" reading_order_no="118" segment_no="13" tag_type="table">10</text>
+<text top="676" left="155" width="14" height="7" font="font8" id="p1_t122" reading_order_no="119" segment_no="13" tag_type="table">0.48</text>
+<text top="676" left="223" width="20" height="7" font="font8" id="p1_t123" reading_order_no="120" segment_no="13" tag_type="table">0.75* §</text>
+<text top="676" left="297" width="14" height="7" font="font8" id="p1_t124" reading_order_no="121" segment_no="13" tag_type="table">0.52</text>
+<text top="676" left="369" width="14" height="7" font="font8" id="p1_t125" reading_order_no="122" segment_no="13" tag_type="table">0.62<b>Table 3: Mean ICC values for Detrended Fluctuation Analysis.</b></text>
+<text top="676" left="440" width="14" height="7" font="font8" id="p1_t126" reading_order_no="123" segment_no="13" tag_type="table">0.43</text>
+<text top="676" left="510" width="18" height="7" font="font8" id="p1_t127" reading_order_no="124" segment_no="13" tag_type="table">0.68*</text>
+<text top="698" left="59" width="190" height="7" font="font8" id="p1_t128" reading_order_no="125" segment_no="14" tag_type="text">Values are means calculated for all windows of each size.</text>
+<text top="708" left="59" width="148" height="7" font="font8" id="p1_t129" reading_order_no="126" segment_no="15" tag_type="text">*Significantly different from control subjects.</text>
+<text top="717" left="59" width="134" height="7" font="font8" id="p1_t130" reading_order_no="127" segment_no="16" tag_type="text">†Significantly different from 5-s window.</text>
+<text top="726" left="59" width="213" height="7" font="font8" id="p1_t131" reading_order_no="128" segment_no="17" tag_type="text">§Significantly different from the SDA values reported in Table 2.</text>
 </page>
 </pdf2xml>

@@ -18,112 +18,112 @@
 	<fontspec id="font14" size="31" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font15" size="270" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font16" size="37" family="GlyphLessFont" color="#000000"/>
-<text top="240" left="119" width="964" height="55" font="font0" id="p1_t1" reading_order_no="0" segment_no="2" tag_type="text">nique  that  is  very  efficient  for  routing  is  AntNet  [4], </text>
-<text top="288" left="117" width="974" height="62" font="font1" id="p1_t2" reading_order_no="1" segment_no="2" tag_type="text">which  uses  mobile  agents  that  mimic  the  behavior  of </text>
-<text top="339" left="118" width="965" height="63" font="font2" id="p1_t3" reading_order_no="2" segment_no="2" tag_type="text">ant  colonies.  It  operates  by  sending  forward  ants  to </text>
-<text top="391" left="118" width="967" height="63" font="font2" id="p1_t4" reading_order_no="3" segment_no="2" tag_type="text">probe  routes  and  backward  ants  to  update  the  routing </text>
-<text top="445" left="119" width="966" height="62" font="font1" id="p1_t5" reading_order_no="4" segment_no="2" tag_type="text">tables  at  each  intermediate  node.  Traffic  is  then  routed </text>
-<text top="495" left="117" width="966" height="63" font="font2" id="p1_t6" reading_order_no="5" segment_no="2" tag_type="text">along  the  paths  with  certain  probabilities.  The  prob- </text>
-<text top="548" left="117" width="967" height="62" font="font1" id="p1_t7" reading_order_no="6" segment_no="2" tag_type="text">lem  considered  here  differs  from  that  approach,  in </text>
-<text top="600" left="118" width="968" height="62" font="font1" id="p1_t8" reading_order_no="7" segment_no="2" tag_type="text">that  it  focuses  on  the  adaptive  selection  of  already </text>
-<text top="650" left="118" width="323" height="63" font="font2" id="p1_t9" reading_order_no="8" segment_no="2" tag_type="text">determined  paths. </text>
-<text top="757" left="116" width="757" height="61" font="font3" id="p1_t10" reading_order_no="9" segment_no="3" tag_type="title">ADAPTIVE  RESPONSE  BY  ATTRACTOR  SELECTION </text>
-<text top="807" left="117" width="970" height="65" font="font4" id="p1_t11" reading_order_no="10" segment_no="4" tag_type="text">The  biological  model  of  Adaptive  Response  by </text>
-<text top="861" left="115" width="969" height="63" font="font2" id="p1_t12" reading_order_no="11" segment_no="4" tag_type="text">Attractor  Selection  (ARAS)  was  proposed  by  Kashi- </text>
-<text top="913" left="116" width="968" height="63" font="font2" id="p1_t13" reading_order_no="12" segment_no="4" tag_type="text">wagi  et  al.  [6]  to  model  how  E.  coli  cells  adapt  to </text>
-<text top="965" left="118" width="613" height="65" font="font4" id="p1_t14" reading_order_no="13" segment_no="4" tag_type="text">changes  in  the  availability  of  a </text>
-<text top="1017" left="118" width="613" height="62" font="font1" id="p1_t15" reading_order_no="14" segment_no="4" tag_type="text">nutrient  for  which  no  molecular </text>
-<text top="1072" left="118" width="611" height="61" font="font3" id="p1_t16" reading_order_no="15" segment_no="4" tag_type="text">machinery  is  available  for  signal </text>
-<text top="1121" left="118" width="611" height="62" font="font1" id="p1_t17" reading_order_no="16" segment_no="4" tag_type="text">transduction  from  the  environ- </text>
-<text top="1172" left="118" width="613" height="63" font="font2" id="p1_t18" reading_order_no="17" segment_no="4" tag_type="text">ment  to  the  DNA.  The  appealing </text>
-<text top="1225" left="117" width="614" height="62" font="font1" id="p1_t19" reading_order_no="18" segment_no="4" tag_type="text">feature  of  this  mechanism  is  that </text>
-<text top="1277" left="118" width="612" height="62" font="font1" id="p1_t20" reading_order_no="19" segment_no="4" tag_type="text">it  is  highly  noise-tolerant  and  can </text>
-<text top="1328" left="118" width="521" height="63" font="font2" id="p1_t21" reading_order_no="20" segment_no="4" tag_type="text">even  be  stimulated  by  noise. </text>
-<text top="1387" left="169" width="561" height="55" font="font0" id="p1_t22" reading_order_no="21" segment_no="5" tag_type="text">Basically,  ARAS  works  as  fol- </text>
-<text top="1440" left="117" width="611" height="55" font="font0" id="p1_t23" reading_order_no="22" segment_no="5" tag_type="text">lows.  Like  all  dynamic  systems, </text>
-<text top="1488" left="118" width="611" height="63" font="font2" id="p1_t24" reading_order_no="23" segment_no="5" tag_type="text">the  behavior  of  the  system  is  char- </text>
-<text top="1541" left="118" width="612" height="63" font="font2" id="p1_t25" reading_order_no="24" segment_no="5" tag_type="text">acterized  by  a  set  of  differential </text>
-<text top="1593" left="117" width="967" height="63" font="font2" id="p1_t26" reading_order_no="25" segment_no="5" tag_type="text">equations.  Since  the  underlying  method  is  very  math- </text>
-<text top="1644" left="118" width="966" height="63" font="font2" id="p1_t27" reading_order_no="26" segment_no="5" tag_type="text">ematical,  it  is  easiest  described  with  a  simplified  equa- </text>
-<text top="1697" left="118" width="524" height="62" font="font1" id="p1_t28" reading_order_no="27" segment_no="5" tag_type="text">tion  as  shown  in  Equation  1. </text>
-<text top="1033" left="844" width="171" height="41" font="font5" id="p1_t29" reading_order_no="68" segment_no="6" tag_type="figure">primary  path </text>
-<text top="1304" left="837" width="218" height="43" font="font6" id="p1_t30" reading_order_no="70" segment_no="6" tag_type="figure">secondary  paths </text>
-<text top="1436" left="803" width="284" height="43" font="font6" id="p1_t31" reading_order_no="73" segment_no="8" tag_type="text">Figure  2.  Reaction  to </text>
-<text top="1472" left="770" width="317" height="45" font="font7" id="p1_t32" reading_order_no="74" segment_no="8" tag_type="text">failure  of  primary  path. </text>
-<text top="1806" left="119" width="67" height="54" font="font8" id="p1_t33" reading_order_no="28" segment_no="9" tag_type="formula">dm; </text>
-<text top="1842" left="116" width="560" height="80" font="font4" id="p1_t34" reading_order_no="29" segment_no="9" tag_type="formula">——  =  fim,...my)  X  g(a)  +  1); </text>
-<text top="1909" left="120" width="37" height="57" font="font9" id="p1_t35" reading_order_no="30" segment_no="9" tag_type="formula">at </text>
-<text top="1852" left="977" width="71" height="59" font="font10" id="p1_t36" reading_order_no="32" segment_no="10" tag_type="formula">»M </text>
-<text top="1953" left="1022" width="47" height="74" font="font11" id="p1_t37" reading_order_no="33" segment_no="14" tag_type="text">(1) </text>
-<text top="1855" left="873" width="94" height="57" font="font9" id="p1_t38" reading_order_no="31" segment_no="10" tag_type="formula">lee </text>
-<text top="2062" left="117" width="968" height="63" font="font2" id="p1_t39" reading_order_no="34" segment_no="15" tag_type="text">The  state  of  the  system  is  given  by  the  vector  over  all </text>
-<text top="2114" left="122" width="965" height="65" font="font4" id="p1_t40" reading_order_no="35" segment_no="15" tag_type="text">m;  values  and  its  dynamic  behavior  is  influenced  by </text>
-<text top="2167" left="118" width="966" height="63" font="font2" id="p1_t41" reading_order_no="36" segment_no="15" tag_type="text">the  two  functions  fand  g.  When  the  system  evolves </text>
-<text top="2219" left="118" width="967" height="63" font="font2" id="p1_t42" reading_order_no="37" segment_no="15" tag_type="text">over  time,  it  converges  to  certain  equilibrium  points </text>
-<text top="2271" left="119" width="968" height="62" font="font1" id="p1_t43" reading_order_no="38" segment_no="15" tag_type="text">that  are  defined  by  the  product  of  functions  fand  g </text>
-<text top="2321" left="118" width="966" height="65" font="font4" id="p1_t44" reading_order_no="39" segment_no="15" tag_type="text">in  Equation  1.  Additionally,  the  equilibrium  points </text>
-<text top="2375" left="118" width="967" height="62" font="font1" id="p1_t45" reading_order_no="40" segment_no="15" tag_type="text">are  constructed  in  such  a  way  that  they  are  stable </text>
-<text top="2427" left="120" width="967" height="62" font="font1" id="p1_t46" reading_order_no="41" segment_no="15" tag_type="text">attractors  causing  the  system  state  to  be  automatically </text>
-<text top="2478" left="119" width="599" height="65" font="font4" id="p1_t47" reading_order_no="42" segment_no="15" tag_type="text">drawn  to  one  of  these  attractors. </text>
-<text top="2531" left="169" width="458" height="63" font="font2" id="p1_t48" reading_order_no="43" segment_no="16" tag_type="text">Furthermore,  each  of  the </text>
-<text top="2530" left="701" width="383" height="63" font="font2" id="p1_t49" reading_order_no="44" segment_no="16" tag_type="text">differential  equations </text>
-<text top="2585" left="118" width="967" height="62" font="font1" id="p1_t50" reading_order_no="45" segment_no="16" tag_type="text">has  a  random  component  7;  that  corresponds  to  an </text>
-<text top="2634" left="119" width="966" height="65" font="font4" id="p1_t51" reading_order_no="46" segment_no="16" tag_type="text">inherent  noise  term  found  in  the  original  gene  expres- </text>
-<text top="2690" left="118" width="966" height="62" font="font1" id="p1_t52" reading_order_no="47" segment_no="16" tag_type="text">sion  model.  This  random  noise  term  causes  the  sys- </text>
-<text top="2743" left="118" width="967" height="61" font="font3" id="p1_t53" reading_order_no="48" segment_no="16" tag_type="text">tem  to  be  constantly  in  motion;  however,  once  it  has </text>
-<text top="2792" left="119" width="966" height="63" font="font2" id="p1_t54" reading_order_no="49" segment_no="16" tag_type="text">converged  to  an  attractor,  it  remains  there  as  long  as </text>
-<text top="2845" left="119" width="967" height="62" font="font1" id="p1_t55" reading_order_no="50" segment_no="16" tag_type="text">the  attractor  is  stable.  In  our  approach,  we  control  the </text>
-<text top="2898" left="118" width="966" height="61" font="font3" id="p1_t56" reading_order_no="51" segment_no="16" tag_type="text">selection  of  the  appropriate  attractor  by  an  activity </text>
-<text top="2948" left="121" width="964" height="63" font="font2" id="p1_t57" reading_order_no="52" segment_no="16" tag_type="text">term  a,  which  indicates  how  well  the  current  system </text>
-<text top="3000" left="118" width="967" height="63" font="font2" id="p1_t58" reading_order_no="53" segment_no="16" tag_type="text">state  corresponds  to  the  considered  influencing  factors </text>
-<text top="1037" left="1101" width="255" height="38" font="font12" id="p1_t59" reading_order_no="69" segment_no="6" tag_type="figure">link  or  node  failure </text>
-<text top="237" left="1139" width="972" height="57" font="font9" id="p1_t60" reading_order_no="54" segment_no="0" tag_type="text">(nutrients)  from  the  environment.  The  activity </text>
-<text top="284" left="1137" width="974" height="63" font="font2" id="p1_t61" reading_order_no="55" segment_no="0" tag_type="text">directly  influences  the  differential  equation  system  by </text>
-<text top="338" left="1137" width="973" height="62" font="font1" id="p1_t62" reading_order_no="56" segment_no="0" tag_type="text">causing  attractors  to  become  instable  if  the  current </text>
-<text top="390" left="1137" width="972" height="62" font="font1" id="p1_t63" reading_order_no="57" segment_no="0" tag_type="text">system  state  is  not  suitable  for  the  environmental  con- </text>
-<text top="445" left="1137" width="974" height="58" font="font13" id="p1_t64" reading_order_no="58" segment_no="0" tag_type="text">ditions.  In  such  a  case,  g(a)  would  become  0  causing </text>
-<text top="493" left="1138" width="974" height="63" font="font2" id="p1_t65" reading_order_no="59" segment_no="0" tag_type="text">the  right-hand  side  of  Equation  1  to  be  dominated  by </text>
-<text top="545" left="1137" width="975" height="63" font="font2" id="p1_t66" reading_order_no="60" segment_no="0" tag_type="text">the  random  noise  term  and  essentially  a  random  walk </text>
-<text top="595" left="1138" width="972" height="64" font="font2" id="p1_t67" reading_order_no="61" segment_no="0" tag_type="text">is  performed.  In  the  course  of  this  random  search,  the </text>
-<text top="650" left="1138" width="972" height="62" font="font1" id="p1_t68" reading_order_no="62" segment_no="0" tag_type="text">activity  value  increases  again  as  soon  as a  better  solu- </text>
-<text top="699" left="1137" width="973" height="64" font="font2" id="p1_t69" reading_order_no="63" segment_no="0" tag_type="text">tion  is  approached  and  the  influence  of  the  random </text>
-<text top="755" left="1137" width="548" height="59" font="font10" id="p1_t70" reading_order_no="64" segment_no="0" tag_type="text">term  is  reduced  (see  Figure  1). </text>
-<text top="812" left="1187" width="924" height="55" font="font0" id="p1_t71" reading_order_no="65" segment_no="1" tag_type="text">To  further  illustrate  how  this  works,  we  can  make </text>
-<text top="864" left="1137" width="973" height="57" font="font9" id="p1_t72" reading_order_no="66" segment_no="1" tag_type="text">an  analogy  with  a  set  of  electromagnets  (attractors)  to </text>
-<text top="911" left="1135" width="975" height="63" font="font2" id="p1_t73" reading_order_no="67" segment_no="1" tag_type="text">which  the  system  state  (metal  ball)  is  drawn.  Each </text>
-<text top="1037" left="1665" width="333" height="42" font="font14" id="p1_t74" reading_order_no="71" segment_no="6" tag_type="figure">primary  path  is  switched </text>
-<text top="1293" left="1537" width="238" height="42" font="font14" id="p1_t75" reading_order_no="72" segment_no="6" tag_type="figure">new  primary  path </text>
-<text top="1433" left="1137" width="972" height="63" font="font2" id="p1_t76" reading_order_no="75" segment_no="7" tag_type="text">magnet  can  be  activated  independently.  At  any  time, </text>
-<text top="1484" left="1137" width="981" height="64" font="font2" id="p1_t77" reading_order_no="76" segment_no="7" tag_type="text">only  one  magnet  is  active.  The  dynamic  behavior  of </text>
-<text top="1538" left="1138" width="973" height="63" font="font2" id="p1_t78" reading_order_no="77" segment_no="7" tag_type="text">the  activity  corresponds  to  deciding  whether  the  cur- </text>
-<text top="1590" left="1138" width="972" height="62" font="font1" id="p1_t79" reading_order_no="78" segment_no="7" tag_type="text">rently  activated  magnet  reflects  the  current  environ- </text>
-<text top="1643" left="1138" width="979" height="62" font="font1" id="p1_t80" reading_order_no="79" segment_no="7" tag_type="text">ment  conditions.  Thus,  the  abstract  formulation  of </text>
-<text top="1693" left="1138" width="973" height="65" font="font4" id="p1_t81" reading_order_no="80" segment_no="7" tag_type="text">attractor  selection  can  be  seen  as  mapping  a  continu- </text>
-<text top="1747" left="1138" width="974" height="62" font="font1" id="p1_t82" reading_order_no="81" segment_no="7" tag_type="text">ous  input  space  to  a  discrete  output  space,  as  depicted </text>
-<text top="1801" left="1138" width="207" height="58" font="font13" id="p1_t83" reading_order_no="82" segment_no="7" tag_type="text">in  Figure  1. </text>
-<text top="1908" left="1140" width="592" height="54" font="font8" id="p1_t84" reading_order_no="83" segment_no="11" tag_type="title">Mutti-PATH  ROUTING  WITH  ARAS </text>
-<text top="1953" left="1137" width="974" height="63" font="font2" id="p1_t85" reading_order_no="84" segment_no="12" tag_type="text">The  technique  proposed  here  is  intrinsically  applica- </text>
-<text top="2005" left="1137" width="975" height="65" font="font4" id="p1_t86" reading_order_no="85" segment_no="12" tag_type="text">ble  to  the  routing  infrastructure  of  packet-switched </text>
-<text top="2065" left="1138" width="975" height="54" font="font8" id="p1_t87" reading_order_no="86" segment_no="12" tag_type="text">networks.  However,  trying  to  enhance  the  IP  routing </text>
-<text top="2115" left="1138" width="973" height="58" font="font13" id="p1_t88" reading_order_no="87" segment_no="12" tag_type="text">algorithm  currently  used  for  the  Internet  is  unrealis- </text>
-<text top="2173" left="1138" width="974" height="50" font="font16" id="p1_t89" reading_order_no="88" segment_no="12" tag_type="text">tic.  Instead,  a  more  realistic  scenario  is  to  consider </text>
-<text top="2216" left="1138" width="974" height="62" font="font1" id="p1_t90" reading_order_no="89" segment_no="12" tag_type="text">overlay  routing  over  an  underlying  IP  network,  as  for </text>
-<text top="2267" left="1138" width="971" height="62" font="font1" id="p1_t91" reading_order_no="90" segment_no="12" tag_type="text">example  in  the  Resilient  Overlay  Network  (RON) </text>
-<text top="2323" left="1141" width="971" height="57" font="font9" id="p1_t92" reading_order_no="91" segment_no="12" tag_type="text">[2]  architecture.  Andersen  et  al.  [2]  showed  that </text>
-<text top="2372" left="1138" width="974" height="63" font="font2" id="p1_t93" reading_order_no="92" segment_no="12" tag_type="text">RON  can  improve  the  loss  rate  and  throughput  over </text>
-<text top="2427" left="1138" width="973" height="57" font="font9" id="p1_t94" reading_order_no="93" segment_no="12" tag_type="text">conventional  Border  Gateway  Protocol  (BGP)  rout- </text>
-<text top="2475" left="1139" width="832" height="63" font="font2" id="p1_t95" reading_order_no="94" segment_no="12" tag_type="text">ing  due  to  its  faster  reaction  to  path  outages. </text>
-<text top="2527" left="1185" width="925" height="63" font="font2" id="p1_t96" reading_order_no="95" segment_no="13" tag_type="text">Applying  the  attractor  selection  scheme  to  the  over- </text>
-<text top="2585" left="1138" width="973" height="57" font="font9" id="p1_t97" reading_order_no="96" segment_no="13" tag_type="text">lay  routing  problem  can  be  performed  in  the  follow- </text>
-<text top="2639" left="1139" width="973" height="57" font="font9" id="p1_t98" reading_order_no="97" segment_no="13" tag_type="text">ing  manner.  Assume  that  each  node  has  no  exact </text>
-<text top="2689" left="1137" width="973" height="58" font="font13" id="p1_t99" reading_order_no="98" segment_no="13" tag_type="text">knowledge  of  the  topology  and  obtains  all  informa- </text>
-<text top="2742" left="1138" width="973" height="57" font="font9" id="p1_t100" reading_order_no="99" segment_no="13" tag_type="text">tion  by  measurements  of  its  links.  For  a  certain </text>
-<text top="2796" left="1139" width="972" height="54" font="font8" id="p1_t101" reading_order_no="100" segment_no="13" tag_type="text">{source,  destination}  pair  with  /  transmission  paths </text>
-<text top="2842" left="1139" width="968" height="63" font="font2" id="p1_t102" reading_order_no="101" segment_no="13" tag_type="text">in  an  overlay  network,  one  path  is  chosen  as  the  pri- </text>
-<text top="2895" left="1141" width="971" height="62" font="font1" id="p1_t103" reading_order_no="102" segment_no="13" tag_type="text">mary  path  depending  on  the  current  environment </text>
-<text top="2949" left="1138" width="974" height="57" font="font9" id="p1_t104" reading_order_no="103" segment_no="13" tag_type="text">conditions.  This  is  the  path  with  the  best  metric </text>
-<text top="3003" left="1140" width="972" height="57" font="font9" id="p1_t105" reading_order_no="104" segment_no="13" tag_type="text">(smallest  latency  or  highest  available  bandwidth)  and </text>
-<text top="3129" left="1313" width="698" height="42" font="font14" id="p1_t106" reading_order_no="105" segment_no="17" tag_type="text">COMMUNICATIONS  OF  THE  ACM  March  2006/Vol.49,No.3 </text>
-<text top="3129" left="2058" width="43" height="42" font="font14" id="p1_t107" reading_order_no="106" segment_no="18" tag_type="text">65</text>
+<text top="240" left="119" width="964" height="55" font="font0" id="p1_t1" reading_order_no="0" segment_no="1" tag_type="text">nique  that  is  very  efficient  for  routing  is  AntNet  [4],</text>
+<text top="288" left="117" width="974" height="62" font="font1" id="p1_t2" reading_order_no="1" segment_no="1" tag_type="text">which  uses  mobile  agents  that  mimic  the  behavior  of</text>
+<text top="339" left="118" width="965" height="63" font="font2" id="p1_t3" reading_order_no="2" segment_no="1" tag_type="text">ant  colonies.  It  operates  by  sending  forward  ants  to</text>
+<text top="391" left="118" width="967" height="63" font="font2" id="p1_t4" reading_order_no="3" segment_no="1" tag_type="text">probe  routes  and  backward  ants  to  update  the  routing</text>
+<text top="445" left="119" width="966" height="62" font="font1" id="p1_t5" reading_order_no="4" segment_no="1" tag_type="text">tables  at  each  intermediate  node.  Traffic  is  then  routed</text>
+<text top="495" left="117" width="966" height="63" font="font2" id="p1_t6" reading_order_no="5" segment_no="1" tag_type="text">along  the  paths  with  certain  probabilities.  The  prob-</text>
+<text top="548" left="117" width="967" height="62" font="font1" id="p1_t7" reading_order_no="6" segment_no="1" tag_type="text">lem  considered  here  differs  from  that  approach,  in</text>
+<text top="600" left="118" width="968" height="62" font="font1" id="p1_t8" reading_order_no="7" segment_no="1" tag_type="text">that  it  focuses  on  the  adaptive  selection  of  already</text>
+<text top="650" left="118" width="323" height="63" font="font2" id="p1_t9" reading_order_no="8" segment_no="1" tag_type="text">determined  paths.</text>
+<text top="757" left="116" width="757" height="61" font="font3" id="p1_t10" reading_order_no="9" segment_no="2" tag_type="title">ADAPTIVE  RESPONSE  BY  ATTRACTOR  SELECTION</text>
+<text top="807" left="117" width="970" height="65" font="font4" id="p1_t11" reading_order_no="10" segment_no="3" tag_type="text">The  biological  model  of  Adaptive  Response  by</text>
+<text top="861" left="115" width="969" height="63" font="font2" id="p1_t12" reading_order_no="11" segment_no="3" tag_type="text">Attractor  Selection  (ARAS)  was  proposed  by  Kashi-</text>
+<text top="913" left="116" width="968" height="63" font="font2" id="p1_t13" reading_order_no="12" segment_no="3" tag_type="text">wagi  et  al.  [6]  to  model  how  E.  coli  cells  adapt  to</text>
+<text top="965" left="118" width="613" height="65" font="font4" id="p1_t14" reading_order_no="13" segment_no="3" tag_type="text">changes  in  the  availability  of  a</text>
+<text top="1017" left="118" width="613" height="62" font="font1" id="p1_t15" reading_order_no="14" segment_no="3" tag_type="text">nutrient  for  which  no  molecular</text>
+<text top="1072" left="118" width="611" height="61" font="font3" id="p1_t16" reading_order_no="15" segment_no="3" tag_type="text">machinery  is  available  for  signal</text>
+<text top="1121" left="118" width="611" height="62" font="font1" id="p1_t17" reading_order_no="16" segment_no="3" tag_type="text">transduction  from  the  environ-</text>
+<text top="1172" left="118" width="613" height="63" font="font2" id="p1_t18" reading_order_no="17" segment_no="3" tag_type="text">ment  to  the  DNA.  The  appealing</text>
+<text top="1225" left="117" width="614" height="62" font="font1" id="p1_t19" reading_order_no="18" segment_no="3" tag_type="text">feature  of  this  mechanism  is  that</text>
+<text top="1277" left="118" width="612" height="62" font="font1" id="p1_t20" reading_order_no="19" segment_no="3" tag_type="text">it  is  highly  noise-tolerant  and  can</text>
+<text top="1328" left="118" width="521" height="63" font="font2" id="p1_t21" reading_order_no="20" segment_no="3" tag_type="text">even  be  stimulated  by  noise.</text>
+<text top="1387" left="169" width="561" height="55" font="font0" id="p1_t22" reading_order_no="21" segment_no="6" tag_type="text">Basically,  ARAS  works  as  fol-</text>
+<text top="1440" left="117" width="611" height="55" font="font0" id="p1_t23" reading_order_no="22" segment_no="6" tag_type="text">lows.  Like  all  dynamic  systems,</text>
+<text top="1488" left="118" width="611" height="63" font="font2" id="p1_t24" reading_order_no="23" segment_no="6" tag_type="text">the  behavior  of  the  system  is  char-</text>
+<text top="1541" left="118" width="612" height="63" font="font2" id="p1_t25" reading_order_no="24" segment_no="6" tag_type="text">acterized  by  a  set  of  differential</text>
+<text top="1593" left="117" width="967" height="63" font="font2" id="p1_t26" reading_order_no="25" segment_no="6" tag_type="text">equations.  Since  the  underlying  method  is  very  math-</text>
+<text top="1644" left="118" width="966" height="63" font="font2" id="p1_t27" reading_order_no="26" segment_no="6" tag_type="text">ematical,  it  is  easiest  described  with  a  simplified  equa-</text>
+<text top="1697" left="118" width="524" height="62" font="font1" id="p1_t28" reading_order_no="27" segment_no="6" tag_type="text">tion  as  shown  in  Equation  1.</text>
+<text top="1033" left="844" width="171" height="41" font="font5" id="p1_t29" reading_order_no="68" segment_no="5" tag_type="figure">primary  path</text>
+<text top="1304" left="837" width="218" height="43" font="font6" id="p1_t30" reading_order_no="70" segment_no="5" tag_type="figure">secondary  paths</text>
+<text top="1436" left="803" width="284" height="43" font="font6" id="p1_t31" reading_order_no="73" segment_no="8" tag_type="text">Figure  2.  Reaction  to</text>
+<text top="1472" left="770" width="317" height="45" font="font7" id="p1_t32" reading_order_no="74" segment_no="8" tag_type="text">failure  of  primary  path.</text>
+<text top="1806" left="119" width="67" height="54" font="font8" id="p1_t33" reading_order_no="28" segment_no="9" tag_type="formula">dm;</text>
+<text top="1842" left="116" width="560" height="80" font="font4" id="p1_t34" reading_order_no="29" segment_no="9" tag_type="formula">——  =  fim,...my)  X  g(a)  +  1);</text>
+<text top="1909" left="120" width="37" height="57" font="font9" id="p1_t35" reading_order_no="30" segment_no="9" tag_type="formula">at</text>
+<text top="1852" left="977" width="71" height="59" font="font10" id="p1_t36" reading_order_no="32" segment_no="9" tag_type="formula">»M</text>
+<text top="1953" left="1022" width="47" height="74" font="font11" id="p1_t37" reading_order_no="33" segment_no="9" tag_type="text">(1)</text>
+<text top="1855" left="873" width="94" height="57" font="font9" id="p1_t38" reading_order_no="31" segment_no="9" tag_type="formula">lee</text>
+<text top="2062" left="117" width="968" height="63" font="font2" id="p1_t39" reading_order_no="34" segment_no="12" tag_type="text">The  state  of  the  system  is  given  by  the  vector  over  all</text>
+<text top="2114" left="122" width="965" height="65" font="font4" id="p1_t40" reading_order_no="35" segment_no="12" tag_type="text">m;  values  and  its  dynamic  behavior  is  influenced  by</text>
+<text top="2167" left="118" width="966" height="63" font="font2" id="p1_t41" reading_order_no="36" segment_no="12" tag_type="text">the  two  functions  fand  g.  When  the  system  evolves</text>
+<text top="2219" left="118" width="967" height="63" font="font2" id="p1_t42" reading_order_no="37" segment_no="12" tag_type="text">over  time,  it  converges  to  certain  equilibrium  points</text>
+<text top="2271" left="119" width="968" height="62" font="font1" id="p1_t43" reading_order_no="38" segment_no="12" tag_type="text">that  are  defined  by  the  product  of  functions  fand  g</text>
+<text top="2321" left="118" width="966" height="65" font="font4" id="p1_t44" reading_order_no="39" segment_no="12" tag_type="text">in  Equation  1.  Additionally,  the  equilibrium  points</text>
+<text top="2375" left="118" width="967" height="62" font="font1" id="p1_t45" reading_order_no="40" segment_no="12" tag_type="text">are  constructed  in  such  a  way  that  they  are  stable</text>
+<text top="2427" left="120" width="967" height="62" font="font1" id="p1_t46" reading_order_no="41" segment_no="12" tag_type="text">attractors  causing  the  system  state  to  be  automatically</text>
+<text top="2478" left="119" width="599" height="65" font="font4" id="p1_t47" reading_order_no="42" segment_no="12" tag_type="text">drawn  to  one  of  these  attractors.</text>
+<text top="2531" left="169" width="458" height="63" font="font2" id="p1_t48" reading_order_no="43" segment_no="14" tag_type="text">Furthermore,  each  of  the</text>
+<text top="2530" left="701" width="383" height="63" font="font2" id="p1_t49" reading_order_no="44" segment_no="14" tag_type="text">differential  equations</text>
+<text top="2585" left="118" width="967" height="62" font="font1" id="p1_t50" reading_order_no="45" segment_no="14" tag_type="text">has  a  random  component  7;  that  corresponds  to  an</text>
+<text top="2634" left="119" width="966" height="65" font="font4" id="p1_t51" reading_order_no="46" segment_no="14" tag_type="text">inherent  noise  term  found  in  the  original  gene  expres-</text>
+<text top="2690" left="118" width="966" height="62" font="font1" id="p1_t52" reading_order_no="47" segment_no="14" tag_type="text">sion  model.  This  random  noise  term  causes  the  sys-</text>
+<text top="2743" left="118" width="967" height="61" font="font3" id="p1_t53" reading_order_no="48" segment_no="14" tag_type="text">tem  to  be  constantly  in  motion;  however,  once  it  has</text>
+<text top="2792" left="119" width="966" height="63" font="font2" id="p1_t54" reading_order_no="49" segment_no="14" tag_type="text">converged  to  an  attractor,  it  remains  there  as  long  as</text>
+<text top="2845" left="119" width="967" height="62" font="font1" id="p1_t55" reading_order_no="50" segment_no="14" tag_type="text">the  attractor  is  stable.  In  our  approach,  we  control  the</text>
+<text top="2898" left="118" width="966" height="61" font="font3" id="p1_t56" reading_order_no="51" segment_no="14" tag_type="text">selection  of  the  appropriate  attractor  by  an  activity</text>
+<text top="2948" left="121" width="964" height="63" font="font2" id="p1_t57" reading_order_no="52" segment_no="14" tag_type="text">term  a,  which  indicates  how  well  the  current  system</text>
+<text top="3000" left="118" width="967" height="63" font="font2" id="p1_t58" reading_order_no="53" segment_no="14" tag_type="text">state  corresponds  to  the  considered  influencing  factors</text>
+<text top="1037" left="1101" width="255" height="38" font="font12" id="p1_t59" reading_order_no="69" segment_no="5" tag_type="figure">link  or  node  failure</text>
+<text top="237" left="1139" width="972" height="57" font="font9" id="p1_t60" reading_order_no="54" segment_no="0" tag_type="text">(nutrients)  from  the  environment.  The  activity</text>
+<text top="284" left="1137" width="974" height="63" font="font2" id="p1_t61" reading_order_no="55" segment_no="0" tag_type="text">directly  influences  the  differential  equation  system  by</text>
+<text top="338" left="1137" width="973" height="62" font="font1" id="p1_t62" reading_order_no="56" segment_no="0" tag_type="text">causing  attractors  to  become  instable  if  the  current</text>
+<text top="390" left="1137" width="972" height="62" font="font1" id="p1_t63" reading_order_no="57" segment_no="0" tag_type="text">system  state  is  not  suitable  for  the  environmental  con-</text>
+<text top="445" left="1137" width="974" height="58" font="font13" id="p1_t64" reading_order_no="58" segment_no="0" tag_type="text">ditions.  In  such  a  case,  g(a)  would  become  0  causing</text>
+<text top="493" left="1138" width="974" height="63" font="font2" id="p1_t65" reading_order_no="59" segment_no="0" tag_type="text">the  right-hand  side  of  Equation  1  to  be  dominated  by</text>
+<text top="545" left="1137" width="975" height="63" font="font2" id="p1_t66" reading_order_no="60" segment_no="0" tag_type="text">the  random  noise  term  and  essentially  a  random  walk</text>
+<text top="595" left="1138" width="972" height="64" font="font2" id="p1_t67" reading_order_no="61" segment_no="0" tag_type="text">is  performed.  In  the  course  of  this  random  search,  the</text>
+<text top="650" left="1138" width="972" height="62" font="font1" id="p1_t68" reading_order_no="62" segment_no="0" tag_type="text">activity  value  increases  again  as  soon  as a  better  solu-</text>
+<text top="699" left="1137" width="973" height="64" font="font2" id="p1_t69" reading_order_no="63" segment_no="0" tag_type="text">tion  is  approached  and  the  influence  of  the  random</text>
+<text top="755" left="1137" width="548" height="59" font="font10" id="p1_t70" reading_order_no="64" segment_no="0" tag_type="text">term  is  reduced  (see  Figure  1).</text>
+<text top="812" left="1187" width="924" height="55" font="font0" id="p1_t71" reading_order_no="65" segment_no="4" tag_type="text">To  further  illustrate  how  this  works,  we  can  make</text>
+<text top="864" left="1137" width="973" height="57" font="font9" id="p1_t72" reading_order_no="66" segment_no="4" tag_type="text">an  analogy  with  a  set  of  electromagnets  (attractors)  to</text>
+<text top="911" left="1135" width="975" height="63" font="font2" id="p1_t73" reading_order_no="67" segment_no="4" tag_type="text">which  the  system  state  (metal  ball)  is  drawn.  Each</text>
+<text top="1037" left="1665" width="333" height="42" font="font14" id="p1_t74" reading_order_no="71" segment_no="5" tag_type="figure">primary  path  is  switched</text>
+<text top="1293" left="1537" width="238" height="42" font="font14" id="p1_t75" reading_order_no="72" segment_no="5" tag_type="figure">new  primary  path</text>
+<text top="1433" left="1137" width="972" height="63" font="font2" id="p1_t76" reading_order_no="75" segment_no="7" tag_type="text">magnet  can  be  activated  independently.  At  any  time,</text>
+<text top="1484" left="1137" width="981" height="64" font="font2" id="p1_t77" reading_order_no="76" segment_no="7" tag_type="text">only  one  magnet  is  active.  The  dynamic  behavior  of</text>
+<text top="1538" left="1138" width="973" height="63" font="font2" id="p1_t78" reading_order_no="77" segment_no="7" tag_type="text">the  activity  corresponds  to  deciding  whether  the  cur-</text>
+<text top="1590" left="1138" width="972" height="62" font="font1" id="p1_t79" reading_order_no="78" segment_no="7" tag_type="text">rently  activated  magnet  reflects  the  current  environ-</text>
+<text top="1643" left="1138" width="979" height="62" font="font1" id="p1_t80" reading_order_no="79" segment_no="7" tag_type="text">ment  conditions.  Thus,  the  abstract  formulation  of</text>
+<text top="1693" left="1138" width="973" height="65" font="font4" id="p1_t81" reading_order_no="80" segment_no="7" tag_type="text">attractor  selection  can  be  seen  as  mapping  a  continu-</text>
+<text top="1747" left="1138" width="974" height="62" font="font1" id="p1_t82" reading_order_no="81" segment_no="7" tag_type="text">ous  input  space  to  a  discrete  output  space,  as  depicted</text>
+<text top="1801" left="1138" width="207" height="58" font="font13" id="p1_t83" reading_order_no="82" segment_no="7" tag_type="text">in  Figure  1.</text>
+<text top="1908" left="1140" width="592" height="54" font="font8" id="p1_t84" reading_order_no="83" segment_no="10" tag_type="title">Mutti-PATH  ROUTING  WITH  ARAS</text>
+<text top="1953" left="1137" width="974" height="63" font="font2" id="p1_t85" reading_order_no="84" segment_no="11" tag_type="text">The  technique  proposed  here  is  intrinsically  applica-</text>
+<text top="2005" left="1137" width="975" height="65" font="font4" id="p1_t86" reading_order_no="85" segment_no="11" tag_type="text">ble  to  the  routing  infrastructure  of  packet-switched</text>
+<text top="2065" left="1138" width="975" height="54" font="font8" id="p1_t87" reading_order_no="86" segment_no="11" tag_type="text">networks.  However,  trying  to  enhance  the  IP  routing</text>
+<text top="2115" left="1138" width="973" height="58" font="font13" id="p1_t88" reading_order_no="87" segment_no="11" tag_type="text">algorithm  currently  used  for  the  Internet  is  unrealis-</text>
+<text top="2173" left="1138" width="974" height="50" font="font16" id="p1_t89" reading_order_no="88" segment_no="11" tag_type="text">tic.  Instead,  a  more  realistic  scenario  is  to  consider</text>
+<text top="2216" left="1138" width="974" height="62" font="font1" id="p1_t90" reading_order_no="89" segment_no="11" tag_type="text">overlay  routing  over  an  underlying  IP  network,  as  for</text>
+<text top="2267" left="1138" width="971" height="62" font="font1" id="p1_t91" reading_order_no="90" segment_no="11" tag_type="text">example  in  the  Resilient  Overlay  Network  (RON)</text>
+<text top="2323" left="1141" width="971" height="57" font="font9" id="p1_t92" reading_order_no="91" segment_no="11" tag_type="text">[2]  architecture.  Andersen  et  al.  [2]  showed  that</text>
+<text top="2372" left="1138" width="974" height="63" font="font2" id="p1_t93" reading_order_no="92" segment_no="11" tag_type="text">RON  can  improve  the  loss  rate  and  throughput  over</text>
+<text top="2427" left="1138" width="973" height="57" font="font9" id="p1_t94" reading_order_no="93" segment_no="11" tag_type="text">conventional  Border  Gateway  Protocol  (BGP)  rout-</text>
+<text top="2475" left="1139" width="832" height="63" font="font2" id="p1_t95" reading_order_no="94" segment_no="11" tag_type="text">ing  due  to  its  faster  reaction  to  path  outages.</text>
+<text top="2527" left="1185" width="925" height="63" font="font2" id="p1_t96" reading_order_no="95" segment_no="13" tag_type="text">Applying  the  attractor  selection  scheme  to  the  over-</text>
+<text top="2585" left="1138" width="973" height="57" font="font9" id="p1_t97" reading_order_no="96" segment_no="13" tag_type="text">lay  routing  problem  can  be  performed  in  the  follow-</text>
+<text top="2639" left="1139" width="973" height="57" font="font9" id="p1_t98" reading_order_no="97" segment_no="13" tag_type="text">ing  manner.  Assume  that  each  node  has  no  exact</text>
+<text top="2689" left="1137" width="973" height="58" font="font13" id="p1_t99" reading_order_no="98" segment_no="13" tag_type="text">knowledge  of  the  topology  and  obtains  all  informa-</text>
+<text top="2742" left="1138" width="973" height="57" font="font9" id="p1_t100" reading_order_no="99" segment_no="13" tag_type="text">tion  by  measurements  of  its  links.  For  a  certain</text>
+<text top="2796" left="1139" width="972" height="54" font="font8" id="p1_t101" reading_order_no="100" segment_no="13" tag_type="text">{source,  destination}  pair  with  /  transmission  paths</text>
+<text top="2842" left="1139" width="968" height="63" font="font2" id="p1_t102" reading_order_no="101" segment_no="13" tag_type="text">in  an  overlay  network,  one  path  is  chosen  as  the  pri-</text>
+<text top="2895" left="1141" width="971" height="62" font="font1" id="p1_t103" reading_order_no="102" segment_no="13" tag_type="text">mary  path  depending  on  the  current  environment</text>
+<text top="2949" left="1138" width="974" height="57" font="font9" id="p1_t104" reading_order_no="103" segment_no="13" tag_type="text">conditions.  This  is  the  path  with  the  best  metric</text>
+<text top="3003" left="1140" width="972" height="57" font="font9" id="p1_t105" reading_order_no="104" segment_no="13" tag_type="text">(smallest  latency  or  highest  available  bandwidth)  and</text>
+<text top="3129" left="1313" width="698" height="42" font="font14" id="p1_t106" reading_order_no="105" segment_no="15" tag_type="text">COMMUNICATIONS  OF  THE  ACM  March  2006/Vol.49,No.3</text>
+<text top="3129" left="2058" width="43" height="42" font="font14" id="p1_t107" reading_order_no="106" segment_no="16" tag_type="text">65</text>
 </page>
 </pdf2xml>

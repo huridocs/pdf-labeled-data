@@ -15,369 +15,219 @@
 <text top="96" left="54" width="37" height="9" font="font2" id="p1_t4" reading_order_no="3" segment_no="3" tag_type="table">Pair mode</text>
 <text top="96" left="108" width="17" height="9" font="font2" id="p1_t5" reading_order_no="4" segment_no="3" tag_type="table">Pairs</text>
 <text top="91" left="204" width="126" height="9" font="font2" id="p1_t6" reading_order_no="5" segment_no="3" tag_type="table">Accuracy (median/maximum mm)</text>
-<text top="91" left="397" width="101" height="9" font="font2" id="p1_t7" reading_order_no="6" segment_no="3" tag_type="table">Number of iterations (Mean</text>
-<text top="90" left="501" width="6" height="10" font="font3" id="p1_t8" reading_order_no="7" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="91" left="509" width="14" height="9" font="font2" id="p1_t9" reading_order_no="8" segment_no="3" tag_type="table">SD)</text>
-<text top="103" left="177" width="50" height="9" font="font2" id="p1_t10" reading_order_no="9" segment_no="3" tag_type="table">Intensity ECC</text>
-<text top="103" left="242" width="51" height="9" font="font2" id="p1_t11" reading_order_no="10" segment_no="3" tag_type="table">Gradient ECC</text>
-<text top="103" left="313" width="22" height="9" font="font2" id="p1_t12" reading_order_no="11" segment_no="3" tag_type="table">ACMI</text>
-<text top="103" left="372" width="50" height="9" font="font2" id="p1_t13" reading_order_no="12" segment_no="3" tag_type="table">Intensity ECC</text>
-<text top="103" left="437" width="51" height="9" font="font2" id="p1_t14" reading_order_no="13" segment_no="3" tag_type="table">Gradient ECC</text>
-<text top="103" left="515" width="22" height="9" font="font2" id="p1_t15" reading_order_no="14" segment_no="3" tag_type="table">ACMI</text>
-<text top="118" left="80" width="55" height="9" font="font4" id="p1_t16" reading_order_no="15" segment_no="3" tag_type="table"><i>Original images</i></text>
-<text top="131" left="54" width="28" height="9" font="font2" id="p1_t17" reading_order_no="16" segment_no="3" tag_type="table">T1-PET</text>
-<text top="131" left="115" width="4" height="9" font="font2" id="p1_t18" reading_order_no="17" segment_no="3" tag_type="table">7</text>
-<text top="131" left="185" width="33" height="9" font="font2" id="p1_t19" reading_order_no="18" segment_no="3" tag_type="table">2.78/4.96</text>
-<text top="131" left="251" width="33" height="9" font="font2" id="p1_t20" reading_order_no="19" segment_no="3" tag_type="table">2.73/4.31</text>
-<text top="131" left="308" width="33" height="9" font="font2" id="p1_t21" reading_order_no="20" segment_no="3" tag_type="table">2.38/4.22</text>
-<text top="131" left="375" width="19" height="9" font="font2" id="p1_t22" reading_order_no="21" segment_no="3" tag_type="table">269.5</text>
-<text top="129" left="396" width="6" height="10" font="font3" id="p1_t23" reading_order_no="22" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="131" left="405" width="15" height="9" font="font2" id="p1_t24" reading_order_no="23" segment_no="3" tag_type="table">84.8</text>
-<text top="131" left="440" width="19" height="9" font="font2" id="p1_t25" reading_order_no="24" segment_no="3" tag_type="table">111.3</text>
-<text top="129" left="462" width="6" height="10" font="font3" id="p1_t26" reading_order_no="25" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="131" left="470" width="15" height="9" font="font2" id="p1_t27" reading_order_no="26" segment_no="3" tag_type="table">29.9</text>
-<text top="131" left="503" width="19" height="9" font="font2" id="p1_t28" reading_order_no="27" segment_no="3" tag_type="table">172.2</text>
-<text top="129" left="525" width="6" height="10" font="font3" id="p1_t29" reading_order_no="28" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="131" left="533" width="15" height="9" font="font2" id="p1_t30" reading_order_no="29" segment_no="3" tag_type="table">44.0</text>
-<text top="143" left="54" width="28" height="9" font="font2" id="p1_t31" reading_order_no="30" segment_no="3" tag_type="table">T2-PET</text>
-<text top="143" left="115" width="4" height="9" font="font2" id="p1_t32" reading_order_no="31" segment_no="3" tag_type="table">7</text>
-<text top="143" left="185" width="33" height="9" font="font2" id="p1_t33" reading_order_no="32" segment_no="3" tag_type="table">1.91/6.37</text>
-<text top="143" left="251" width="33" height="9" font="font2" id="p1_t34" reading_order_no="33" segment_no="3" tag_type="table">1.52/5.84</text>
-<text top="143" left="308" width="33" height="9" font="font2" id="p1_t35" reading_order_no="34" segment_no="3" tag_type="table">1.39/5.51</text>
-<text top="143" left="373" width="19" height="9" font="font2" id="p1_t36" reading_order_no="35" segment_no="3" tag_type="table">288.0</text>
-<text top="142" left="394" width="6" height="10" font="font3" id="p1_t37" reading_order_no="36" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="143" left="403" width="19" height="9" font="font2" id="p1_t38" reading_order_no="37" segment_no="3" tag_type="table">145.1</text>
-<text top="143" left="443" width="15" height="9" font="font2" id="p1_t39" reading_order_no="38" segment_no="3" tag_type="table">87.5</text>
-<text top="142" left="460" width="6" height="10" font="font3" id="p1_t40" reading_order_no="39" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="143" left="468" width="15" height="9" font="font2" id="p1_t41" reading_order_no="40" segment_no="3" tag_type="table">45.8</text>
-<text top="143" left="503" width="19" height="9" font="font2" id="p1_t42" reading_order_no="41" segment_no="3" tag_type="table">161.7</text>
-<text top="142" left="525" width="6" height="10" font="font3" id="p1_t43" reading_order_no="42" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="143" left="533" width="15" height="9" font="font2" id="p1_t44" reading_order_no="43" segment_no="3" tag_type="table">43.9</text>
-<text top="155" left="54" width="30" height="9" font="font2" id="p1_t45" reading_order_no="44" segment_no="3" tag_type="table">PD-PET</text>
-<text top="155" left="115" width="4" height="9" font="font2" id="p1_t46" reading_order_no="45" segment_no="3" tag_type="table">7</text>
-<text top="155" left="185" width="33" height="9" font="font2" id="p1_t47" reading_order_no="46" segment_no="3" tag_type="table">2.46/6.19</text>
-<text top="155" left="251" width="33" height="9" font="font2" id="p1_t48" reading_order_no="47" segment_no="3" tag_type="table">1.97/4.72</text>
-<text top="155" left="308" width="33" height="9" font="font2" id="p1_t49" reading_order_no="48" segment_no="3" tag_type="table">1.62/3.41</text>
-<text top="155" left="373" width="19" height="9" font="font2" id="p1_t50" reading_order_no="49" segment_no="3" tag_type="table">222.2</text>
-<text top="154" left="394" width="6" height="10" font="font3" id="p1_t51" reading_order_no="50" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="155" left="403" width="19" height="9" font="font2" id="p1_t52" reading_order_no="51" segment_no="3" tag_type="table">108.7</text>
-<text top="155" left="443" width="15" height="9" font="font2" id="p1_t53" reading_order_no="52" segment_no="3" tag_type="table">93.2</text>
-<text top="154" left="460" width="6" height="10" font="font3" id="p1_t54" reading_order_no="53" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="155" left="468" width="15" height="9" font="font2" id="p1_t55" reading_order_no="54" segment_no="3" tag_type="table">36.9</text>
-<text top="155" left="503" width="19" height="9" font="font2" id="p1_t56" reading_order_no="55" segment_no="3" tag_type="table">159.9</text>
-<text top="154" left="525" width="6" height="10" font="font3" id="p1_t57" reading_order_no="56" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="155" left="533" width="15" height="9" font="font2" id="p1_t58" reading_order_no="57" segment_no="3" tag_type="table">58.6</text>
-<text top="168" left="54" width="41" height="9" font="font2" id="p1_t59" reading_order_no="58" segment_no="3" tag_type="table">T1 rec-PET</text>
-<text top="168" left="115" width="4" height="9" font="font2" id="p1_t60" reading_order_no="59" segment_no="3" tag_type="table">4</text>
-<text top="168" left="185" width="33" height="9" font="font2" id="p1_t61" reading_order_no="60" segment_no="3" tag_type="table">3.19/8.37</text>
-<text top="168" left="251" width="33" height="9" font="font2" id="p1_t62" reading_order_no="61" segment_no="3" tag_type="table">2.88/6.12</text>
-<text top="168" left="308" width="33" height="9" font="font2" id="p1_t63" reading_order_no="62" segment_no="3" tag_type="table">2.63/5.43</text>
-<text top="168" left="375" width="19" height="9" font="font2" id="p1_t64" reading_order_no="63" segment_no="3" tag_type="table">240.5</text>
-<text top="167" left="396" width="6" height="10" font="font3" id="p1_t65" reading_order_no="64" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="168" left="405" width="15" height="9" font="font2" id="p1_t66" reading_order_no="65" segment_no="3" tag_type="table">92.2</text>
-<text top="168" left="440" width="19" height="9" font="font2" id="p1_t67" reading_order_no="66" segment_no="3" tag_type="table">102.4</text>
-<text top="167" left="462" width="6" height="10" font="font3" id="p1_t68" reading_order_no="67" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="168" left="470" width="15" height="9" font="font2" id="p1_t69" reading_order_no="68" segment_no="3" tag_type="table">33.1</text>
-<text top="168" left="503" width="19" height="9" font="font2" id="p1_t70" reading_order_no="69" segment_no="3" tag_type="table">145.5</text>
-<text top="167" left="525" width="6" height="10" font="font3" id="p1_t71" reading_order_no="70" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="168" left="533" width="15" height="9" font="font2" id="p1_t72" reading_order_no="71" segment_no="3" tag_type="table">49.7</text>
-<text top="180" left="54" width="41" height="9" font="font2" id="p1_t73" reading_order_no="72" segment_no="3" tag_type="table">T2 rec-PET</text>
-<text top="180" left="115" width="4" height="9" font="font2" id="p1_t74" reading_order_no="73" segment_no="3" tag_type="table">5</text>
-<text top="180" left="185" width="33" height="9" font="font2" id="p1_t75" reading_order_no="74" segment_no="3" tag_type="table">3.15/9.15</text>
-<text top="180" left="251" width="33" height="9" font="font2" id="p1_t76" reading_order_no="75" segment_no="3" tag_type="table">3.04/7.13</text>
-<text top="180" left="308" width="33" height="9" font="font2" id="p1_t77" reading_order_no="76" segment_no="3" tag_type="table">2.72/6.08</text>
-<text top="180" left="375" width="19" height="9" font="font2" id="p1_t78" reading_order_no="77" segment_no="3" tag_type="table">220.3</text>
-<text top="179" left="396" width="6" height="10" font="font3" id="p1_t79" reading_order_no="78" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="180" left="405" width="15" height="9" font="font2" id="p1_t80" reading_order_no="79" segment_no="3" tag_type="table">97.8</text>
-<text top="180" left="443" width="15" height="9" font="font2" id="p1_t81" reading_order_no="80" segment_no="3" tag_type="table">93.6</text>
-<text top="179" left="460" width="6" height="10" font="font3" id="p1_t82" reading_order_no="81" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="180" left="468" width="15" height="9" font="font2" id="p1_t83" reading_order_no="82" segment_no="3" tag_type="table">42.8</text>
-<text top="180" left="503" width="19" height="9" font="font2" id="p1_t84" reading_order_no="83" segment_no="3" tag_type="table">174.9</text>
-<text top="179" left="525" width="6" height="10" font="font3" id="p1_t85" reading_order_no="84" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="180" left="533" width="15" height="9" font="font2" id="p1_t86" reading_order_no="85" segment_no="3" tag_type="table">37.3</text>
-<text top="193" left="54" width="43" height="9" font="font2" id="p1_t87" reading_order_no="86" segment_no="3" tag_type="table">PD rec-PET</text>
-<text top="193" left="115" width="4" height="9" font="font2" id="p1_t88" reading_order_no="87" segment_no="3" tag_type="table">5</text>
-<text top="193" left="185" width="33" height="9" font="font2" id="p1_t89" reading_order_no="88" segment_no="3" tag_type="table">3.07/8.13</text>
-<text top="193" left="251" width="33" height="9" font="font2" id="p1_t90" reading_order_no="89" segment_no="3" tag_type="table">2.65/7.41</text>
-<text top="193" left="308" width="33" height="9" font="font2" id="p1_t91" reading_order_no="90" segment_no="3" tag_type="table">2.37/6.74</text>
-<text top="193" left="375" width="19" height="9" font="font2" id="p1_t92" reading_order_no="91" segment_no="3" tag_type="table">224.7</text>
-<text top="192" left="396" width="6" height="10" font="font3" id="p1_t93" reading_order_no="92" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="193" left="405" width="15" height="9" font="font2" id="p1_t94" reading_order_no="93" segment_no="3" tag_type="table">89.5</text>
-<text top="193" left="443" width="15" height="9" font="font2" id="p1_t95" reading_order_no="94" segment_no="3" tag_type="table">99.3</text>
-<text top="192" left="460" width="6" height="10" font="font3" id="p1_t96" reading_order_no="95" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="193" left="468" width="15" height="9" font="font2" id="p1_t97" reading_order_no="96" segment_no="3" tag_type="table">41.9</text>
-<text top="193" left="503" width="19" height="9" font="font2" id="p1_t98" reading_order_no="97" segment_no="3" tag_type="table">183.1</text>
-<text top="192" left="525" width="6" height="10" font="font3" id="p1_t99" reading_order_no="98" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="193" left="533" width="15" height="9" font="font2" id="p1_t100" reading_order_no="99" segment_no="3" tag_type="table">63.0</text>
-<text top="205" left="73" width="68" height="9" font="font4" id="p1_t101" reading_order_no="100" segment_no="3" tag_type="table"><i>Subsampled version</i></text>
-<text top="218" left="54" width="28" height="9" font="font2" id="p1_t102" reading_order_no="101" segment_no="3" tag_type="table">T1-PET</text>
-<text top="218" left="115" width="4" height="9" font="font2" id="p1_t103" reading_order_no="102" segment_no="3" tag_type="table">7</text>
-<text top="218" left="185" width="33" height="9" font="font2" id="p1_t104" reading_order_no="103" segment_no="3" tag_type="table">4.13/8.25</text>
-<text top="218" left="251" width="33" height="9" font="font2" id="p1_t105" reading_order_no="104" segment_no="3" tag_type="table">3.70/7.37</text>
-<text top="218" left="308" width="33" height="9" font="font2" id="p1_t106" reading_order_no="105" segment_no="3" tag_type="table">3.40/7.48</text>
-<text top="218" left="375" width="19" height="9" font="font2" id="p1_t107" reading_order_no="106" segment_no="3" tag_type="table">169.0</text>
-<text top="216" left="396" width="6" height="10" font="font3" id="p1_t108" reading_order_no="107" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="218" left="405" width="15" height="9" font="font2" id="p1_t109" reading_order_no="108" segment_no="3" tag_type="table">65.0</text>
-<text top="218" left="443" width="15" height="9" font="font2" id="p1_t110" reading_order_no="109" segment_no="3" tag_type="table">93.7</text>
-<text top="216" left="460" width="6" height="10" font="font3" id="p1_t111" reading_order_no="110" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="218" left="468" width="15" height="9" font="font2" id="p1_t112" reading_order_no="111" segment_no="3" tag_type="table">31.4</text>
-<text top="218" left="503" width="19" height="9" font="font2" id="p1_t113" reading_order_no="112" segment_no="3" tag_type="table">127.5</text>
-<text top="216" left="525" width="6" height="10" font="font3" id="p1_t114" reading_order_no="113" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="218" left="533" width="15" height="9" font="font2" id="p1_t115" reading_order_no="114" segment_no="3" tag_type="table">36.4</text>
-<text top="230" left="54" width="28" height="9" font="font2" id="p1_t116" reading_order_no="115" segment_no="3" tag_type="table">T2-PET</text>
-<text top="230" left="115" width="4" height="9" font="font2" id="p1_t117" reading_order_no="116" segment_no="3" tag_type="table">7</text>
-<text top="230" left="185" width="33" height="9" font="font2" id="p1_t118" reading_order_no="117" segment_no="3" tag_type="table">4.14/9.18</text>
-<text top="230" left="251" width="33" height="9" font="font2" id="p1_t119" reading_order_no="118" segment_no="3" tag_type="table">3.52/6.18</text>
-<text top="230" left="308" width="33" height="9" font="font2" id="p1_t120" reading_order_no="119" segment_no="3" tag_type="table">3.06/5.10</text>
-<text top="230" left="375" width="19" height="9" font="font2" id="p1_t121" reading_order_no="120" segment_no="3" tag_type="table">189.0</text>
-<text top="229" left="396" width="6" height="10" font="font3" id="p1_t122" reading_order_no="121" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="230" left="405" width="15" height="9" font="font2" id="p1_t123" reading_order_no="122" segment_no="3" tag_type="table">63.4</text>
-<text top="230" left="443" width="15" height="9" font="font2" id="p1_t124" reading_order_no="123" segment_no="3" tag_type="table">79.1</text>
-<text top="229" left="460" width="6" height="10" font="font3" id="p1_t125" reading_order_no="124" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="230" left="468" width="15" height="9" font="font2" id="p1_t126" reading_order_no="125" segment_no="3" tag_type="table">35.9</text>
-<text top="230" left="503" width="19" height="9" font="font2" id="p1_t127" reading_order_no="126" segment_no="3" tag_type="table">138.8</text>
-<text top="229" left="525" width="6" height="10" font="font3" id="p1_t128" reading_order_no="127" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="230" left="533" width="15" height="9" font="font2" id="p1_t129" reading_order_no="128" segment_no="3" tag_type="table">40.6</text>
-<text top="243" left="54" width="30" height="9" font="font2" id="p1_t130" reading_order_no="129" segment_no="3" tag_type="table">PD-PET</text>
-<text top="243" left="115" width="4" height="9" font="font2" id="p1_t131" reading_order_no="130" segment_no="3" tag_type="table">7</text>
-<text top="243" left="183" width="37" height="9" font="font2" id="p1_t132" reading_order_no="131" segment_no="3" tag_type="table">3.07/12.94</text>
-<text top="243" left="251" width="33" height="9" font="font2" id="p1_t133" reading_order_no="132" segment_no="3" tag_type="table">2.74/7.06</text>
-<text top="243" left="308" width="33" height="9" font="font2" id="p1_t134" reading_order_no="133" segment_no="3" tag_type="table">2.59/5.36</text>
-<text top="243" left="375" width="19" height="9" font="font2" id="p1_t135" reading_order_no="134" segment_no="3" tag_type="table">151.5</text>
-<text top="241" left="396" width="6" height="10" font="font3" id="p1_t136" reading_order_no="135" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="243" left="405" width="15" height="9" font="font2" id="p1_t137" reading_order_no="136" segment_no="3" tag_type="table">63.3</text>
-<text top="243" left="443" width="15" height="9" font="font2" id="p1_t138" reading_order_no="137" segment_no="3" tag_type="table">82.1</text>
-<text top="241" left="460" width="6" height="10" font="font3" id="p1_t139" reading_order_no="138" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="243" left="468" width="15" height="9" font="font2" id="p1_t140" reading_order_no="139" segment_no="3" tag_type="table">39.0</text>
-<text top="243" left="503" width="19" height="9" font="font2" id="p1_t141" reading_order_no="140" segment_no="3" tag_type="table">135.7</text>
-<text top="241" left="525" width="6" height="10" font="font3" id="p1_t142" reading_order_no="141" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="243" left="533" width="15" height="9" font="font2" id="p1_t143" reading_order_no="142" segment_no="3" tag_type="table">32.8</text>
-<text top="255" left="54" width="41" height="9" font="font2" id="p1_t144" reading_order_no="143" segment_no="3" tag_type="table">T1 rec-PET</text>
-<text top="255" left="115" width="4" height="9" font="font2" id="p1_t145" reading_order_no="144" segment_no="3" tag_type="table">4</text>
-<text top="255" left="183" width="37" height="9" font="font2" id="p1_t146" reading_order_no="145" segment_no="3" tag_type="table">4.62/10.37</text>
-<text top="255" left="251" width="33" height="9" font="font2" id="p1_t147" reading_order_no="146" segment_no="3" tag_type="table">3.95/9.22</text>
-<text top="255" left="308" width="33" height="9" font="font2" id="p1_t148" reading_order_no="147" segment_no="3" tag_type="table">3.51/8.83</text>
-<text top="255" left="375" width="19" height="9" font="font2" id="p1_t149" reading_order_no="148" segment_no="3" tag_type="table">150.2</text>
-<text top="254" left="396" width="6" height="10" font="font3" id="p1_t150" reading_order_no="149" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="255" left="405" width="15" height="9" font="font2" id="p1_t151" reading_order_no="150" segment_no="3" tag_type="table">59.3</text>
-<text top="255" left="443" width="15" height="9" font="font2" id="p1_t152" reading_order_no="151" segment_no="3" tag_type="table">88.6</text>
-<text top="254" left="460" width="6" height="10" font="font3" id="p1_t153" reading_order_no="152" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="255" left="468" width="15" height="9" font="font2" id="p1_t154" reading_order_no="153" segment_no="3" tag_type="table">28.9</text>
-<text top="255" left="503" width="19" height="9" font="font2" id="p1_t155" reading_order_no="154" segment_no="3" tag_type="table">118.5</text>
-<text top="254" left="525" width="6" height="10" font="font3" id="p1_t156" reading_order_no="155" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="255" left="533" width="15" height="9" font="font2" id="p1_t157" reading_order_no="156" segment_no="3" tag_type="table">26.3</text>
-<text top="268" left="54" width="41" height="9" font="font2" id="p1_t158" reading_order_no="157" segment_no="3" tag_type="table">T2 rec-PET</text>
-<text top="268" left="115" width="4" height="9" font="font2" id="p1_t159" reading_order_no="158" segment_no="3" tag_type="table">5</text>
-<text top="268" left="183" width="37" height="9" font="font2" id="p1_t160" reading_order_no="159" segment_no="3" tag_type="table">5.25/16.15</text>
-<text top="268" left="249" width="37" height="9" font="font2" id="p1_t161" reading_order_no="160" segment_no="3" tag_type="table">4.92/10.88</text>
-<text top="268" left="308" width="33" height="9" font="font2" id="p1_t162" reading_order_no="161" segment_no="3" tag_type="table">4.83/7.07</text>
-<text top="268" left="375" width="19" height="9" font="font2" id="p1_t163" reading_order_no="162" segment_no="3" tag_type="table">176.5</text>
-<text top="266" left="396" width="6" height="10" font="font3" id="p1_t164" reading_order_no="163" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="268" left="405" width="15" height="9" font="font2" id="p1_t165" reading_order_no="164" segment_no="3" tag_type="table">59.1</text>
-<text top="268" left="443" width="15" height="9" font="font2" id="p1_t166" reading_order_no="165" segment_no="3" tag_type="table">89.7</text>
-<text top="266" left="460" width="6" height="10" font="font3" id="p1_t167" reading_order_no="166" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="268" left="468" width="15" height="9" font="font2" id="p1_t168" reading_order_no="167" segment_no="3" tag_type="table">34.2</text>
-<text top="268" left="503" width="19" height="9" font="font2" id="p1_t169" reading_order_no="168" segment_no="3" tag_type="table">136.7</text>
-<text top="266" left="525" width="6" height="10" font="font3" id="p1_t170" reading_order_no="169" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="268" left="533" width="15" height="9" font="font2" id="p1_t171" reading_order_no="170" segment_no="3" tag_type="table">35.6</text>
-<text top="280" left="54" width="43" height="9" font="font2" id="p1_t172" reading_order_no="171" segment_no="3" tag_type="table">PD rec-PET</text>
-<text top="280" left="115" width="4" height="9" font="font2" id="p1_t173" reading_order_no="172" segment_no="3" tag_type="table">5</text>
-<text top="280" left="183" width="37" height="9" font="font2" id="p1_t174" reading_order_no="173" segment_no="3" tag_type="table">4.17/11.82</text>
-<text top="280" left="251" width="33" height="9" font="font2" id="p1_t175" reading_order_no="174" segment_no="3" tag_type="table">3.39/8.17</text>
-<text top="280" left="308" width="33" height="9" font="font2" id="p1_t176" reading_order_no="175" segment_no="3" tag_type="table">3.03/6.33</text>
-<text top="280" left="375" width="19" height="9" font="font2" id="p1_t177" reading_order_no="176" segment_no="3" tag_type="table">144.5</text>
-<text top="279" left="396" width="6" height="10" font="font3" id="p1_t178" reading_order_no="177" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="280" left="405" width="15" height="9" font="font2" id="p1_t179" reading_order_no="178" segment_no="3" tag_type="table">52.2</text>
-<text top="280" left="443" width="15" height="9" font="font2" id="p1_t180" reading_order_no="179" segment_no="3" tag_type="table">90.7</text>
-<text top="279" left="460" width="6" height="10" font="font3" id="p1_t181" reading_order_no="180" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="280" left="468" width="15" height="9" font="font2" id="p1_t182" reading_order_no="181" segment_no="3" tag_type="table">40.6</text>
-<text top="280" left="503" width="19" height="9" font="font2" id="p1_t183" reading_order_no="182" segment_no="3" tag_type="table">113.7</text>
-<text top="279" left="525" width="6" height="10" font="font3" id="p1_t184" reading_order_no="183" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="280" left="533" width="15" height="9" font="font2" id="p1_t185" reading_order_no="184" segment_no="3" tag_type="table">29.4</text>
-<text top="292" left="64" width="88" height="9" font="font4" id="p1_t186" reading_order_no="185" segment_no="3" tag_type="table"><i>Small-overlapped version</i></text>
-<text top="305" left="54" width="28" height="9" font="font2" id="p1_t187" reading_order_no="186" segment_no="3" tag_type="table">T1-PET</text>
-<text top="305" left="115" width="4" height="9" font="font2" id="p1_t188" reading_order_no="187" segment_no="3" tag_type="table">7</text>
-<text top="305" left="185" width="33" height="9" font="font2" id="p1_t189" reading_order_no="188" segment_no="3" tag_type="table">4.15/5.78</text>
-<text top="305" left="251" width="33" height="9" font="font2" id="p1_t190" reading_order_no="189" segment_no="3" tag_type="table">3.71/6.65</text>
-<text top="305" left="308" width="33" height="9" font="font2" id="p1_t191" reading_order_no="190" segment_no="3" tag_type="table">3.33/7.17</text>
-<text top="305" left="375" width="19" height="9" font="font2" id="p1_t192" reading_order_no="191" segment_no="3" tag_type="table">146.2</text>
-<text top="304" left="396" width="6" height="10" font="font3" id="p1_t193" reading_order_no="192" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="305" left="405" width="15" height="9" font="font2" id="p1_t194" reading_order_no="193" segment_no="3" tag_type="table">93.2</text>
-<text top="305" left="443" width="15" height="9" font="font2" id="p1_t195" reading_order_no="194" segment_no="3" tag_type="table">94.9</text>
-<text top="304" left="460" width="6" height="10" font="font3" id="p1_t196" reading_order_no="195" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="305" left="468" width="15" height="9" font="font2" id="p1_t197" reading_order_no="196" segment_no="3" tag_type="table">35.7</text>
-<text top="305" left="503" width="19" height="9" font="font2" id="p1_t198" reading_order_no="197" segment_no="3" tag_type="table">112.3</text>
-<text top="304" left="525" width="6" height="10" font="font3" id="p1_t199" reading_order_no="198" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="305" left="533" width="15" height="9" font="font2" id="p1_t200" reading_order_no="199" segment_no="3" tag_type="table">29.9</text>
-<text top="317" left="54" width="28" height="9" font="font2" id="p1_t201" reading_order_no="200" segment_no="3" tag_type="table">T2-PET</text>
-<text top="317" left="115" width="4" height="9" font="font2" id="p1_t202" reading_order_no="201" segment_no="3" tag_type="table">7</text>
-<text top="317" left="185" width="33" height="9" font="font2" id="p1_t203" reading_order_no="202" segment_no="3" tag_type="table">3.34/8.37</text>
-<text top="317" left="251" width="33" height="9" font="font2" id="p1_t204" reading_order_no="203" segment_no="3" tag_type="table">2.44/6.07</text>
-<text top="317" left="308" width="33" height="9" font="font2" id="p1_t205" reading_order_no="204" segment_no="3" tag_type="table">2.20/4.94</text>
-<text top="317" left="375" width="19" height="9" font="font2" id="p1_t206" reading_order_no="205" segment_no="3" tag_type="table">207.5</text>
-<text top="316" left="396" width="6" height="10" font="font3" id="p1_t207" reading_order_no="206" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="317" left="405" width="15" height="9" font="font2" id="p1_t208" reading_order_no="207" segment_no="3" tag_type="table">88.2</text>
-<text top="317" left="440" width="19" height="9" font="font2" id="p1_t209" reading_order_no="208" segment_no="3" tag_type="table">120.5</text>
-<text top="316" left="462" width="6" height="10" font="font3" id="p1_t210" reading_order_no="209" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="317" left="470" width="15" height="9" font="font2" id="p1_t211" reading_order_no="210" segment_no="3" tag_type="table">61.3</text>
-<text top="317" left="503" width="19" height="9" font="font2" id="p1_t212" reading_order_no="211" segment_no="3" tag_type="table">153.0</text>
-<text top="316" left="525" width="6" height="10" font="font3" id="p1_t213" reading_order_no="212" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="317" left="533" width="15" height="9" font="font2" id="p1_t214" reading_order_no="213" segment_no="3" tag_type="table">48.2</text>
-<text top="330" left="54" width="30" height="9" font="font2" id="p1_t215" reading_order_no="214" segment_no="3" tag_type="table">PD-PET</text>
-<text top="330" left="115" width="4" height="9" font="font2" id="p1_t216" reading_order_no="215" segment_no="3" tag_type="table">7</text>
-<text top="330" left="185" width="33" height="9" font="font2" id="p1_t217" reading_order_no="216" segment_no="3" tag_type="table">3.98/8.18</text>
-<text top="330" left="251" width="33" height="9" font="font2" id="p1_t218" reading_order_no="217" segment_no="3" tag_type="table">3.11/6.21</text>
-<text top="330" left="308" width="33" height="9" font="font2" id="p1_t219" reading_order_no="218" segment_no="3" tag_type="table">2.84/5.11</text>
-<text top="330" left="375" width="19" height="9" font="font2" id="p1_t220" reading_order_no="219" segment_no="3" tag_type="table">213.7</text>
-<text top="329" left="396" width="6" height="10" font="font3" id="p1_t221" reading_order_no="220" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="330" left="405" width="15" height="9" font="font2" id="p1_t222" reading_order_no="221" segment_no="3" tag_type="table">83.1</text>
-<text top="330" left="440" width="19" height="9" font="font2" id="p1_t223" reading_order_no="222" segment_no="3" tag_type="table">106.8</text>
-<text top="329" left="462" width="6" height="10" font="font3" id="p1_t224" reading_order_no="223" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="330" left="470" width="15" height="9" font="font2" id="p1_t225" reading_order_no="224" segment_no="3" tag_type="table">47.9</text>
-<text top="330" left="503" width="19" height="9" font="font2" id="p1_t226" reading_order_no="225" segment_no="3" tag_type="table">134.2</text>
-<text top="329" left="525" width="6" height="10" font="font3" id="p1_t227" reading_order_no="226" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="330" left="533" width="15" height="9" font="font2" id="p1_t228" reading_order_no="227" segment_no="3" tag_type="table">51.4</text>
-<text top="342" left="54" width="41" height="9" font="font2" id="p1_t229" reading_order_no="228" segment_no="3" tag_type="table">T1 rec-PET</text>
-<text top="342" left="115" width="4" height="9" font="font2" id="p1_t230" reading_order_no="229" segment_no="3" tag_type="table">4</text>
-<text top="342" left="183" width="37" height="9" font="font2" id="p1_t231" reading_order_no="230" segment_no="3" tag_type="table">3.33/10.85</text>
-<text top="342" left="251" width="33" height="9" font="font2" id="p1_t232" reading_order_no="231" segment_no="3" tag_type="table">2.96/8.13</text>
-<text top="342" left="308" width="33" height="9" font="font2" id="p1_t233" reading_order_no="232" segment_no="3" tag_type="table">2.61/6.72</text>
-<text top="342" left="375" width="19" height="9" font="font2" id="p1_t234" reading_order_no="233" segment_no="3" tag_type="table">139.5</text>
-<text top="341" left="396" width="6" height="10" font="font3" id="p1_t235" reading_order_no="234" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="342" left="405" width="15" height="9" font="font2" id="p1_t236" reading_order_no="235" segment_no="3" tag_type="table">64.1</text>
-<text top="342" left="443" width="15" height="9" font="font2" id="p1_t237" reading_order_no="236" segment_no="3" tag_type="table">68.6</text>
-<text top="341" left="460" width="6" height="10" font="font3" id="p1_t238" reading_order_no="237" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="342" left="468" width="15" height="9" font="font2" id="p1_t239" reading_order_no="238" segment_no="3" tag_type="table">40.7</text>
-<text top="342" left="505" width="15" height="9" font="font2" id="p1_t240" reading_order_no="239" segment_no="3" tag_type="table">96.5</text>
-<text top="341" left="523" width="6" height="10" font="font3" id="p1_t241" reading_order_no="240" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="342" left="531" width="15" height="9" font="font2" id="p1_t242" reading_order_no="241" segment_no="3" tag_type="table">43.6</text>
-<text top="355" left="54" width="41" height="9" font="font2" id="p1_t243" reading_order_no="242" segment_no="3" tag_type="table">T2 rec-PET</text>
-<text top="355" left="115" width="4" height="9" font="font2" id="p1_t244" reading_order_no="243" segment_no="3" tag_type="table">5</text>
-<text top="355" left="183" width="37" height="9" font="font2" id="p1_t245" reading_order_no="244" segment_no="3" tag_type="table">4.17/12.05</text>
-<text top="355" left="251" width="33" height="9" font="font2" id="p1_t246" reading_order_no="245" segment_no="3" tag_type="table">3.89/9.27</text>
-<text top="355" left="308" width="33" height="9" font="font2" id="p1_t247" reading_order_no="246" segment_no="3" tag_type="table">3.21/7.38</text>
-<text top="355" left="375" width="19" height="9" font="font2" id="p1_t248" reading_order_no="247" segment_no="3" tag_type="table">170.0</text>
-<text top="353" left="396" width="6" height="10" font="font3" id="p1_t249" reading_order_no="248" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="355" left="405" width="15" height="9" font="font2" id="p1_t250" reading_order_no="249" segment_no="3" tag_type="table">79.3</text>
-<text top="355" left="443" width="15" height="9" font="font2" id="p1_t251" reading_order_no="250" segment_no="3" tag_type="table">63.9</text>
-<text top="353" left="460" width="6" height="10" font="font3" id="p1_t252" reading_order_no="251" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="355" left="468" width="15" height="9" font="font2" id="p1_t253" reading_order_no="252" segment_no="3" tag_type="table">37.0</text>
-<text top="355" left="505" width="15" height="9" font="font2" id="p1_t254" reading_order_no="253" segment_no="3" tag_type="table">99.1</text>
-<text top="353" left="523" width="6" height="10" font="font3" id="p1_t255" reading_order_no="254" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="355" left="531" width="15" height="9" font="font2" id="p1_t256" reading_order_no="255" segment_no="3" tag_type="table">46.5</text>
-<text top="367" left="54" width="43" height="9" font="font2" id="p1_t257" reading_order_no="256" segment_no="3" tag_type="table">PD rec-PET</text>
-<text top="367" left="115" width="4" height="9" font="font2" id="p1_t258" reading_order_no="257" segment_no="3" tag_type="table">5</text>
-<text top="367" left="185" width="33" height="9" font="font2" id="p1_t259" reading_order_no="258" segment_no="3" tag_type="table">3.39/9.10</text>
-<text top="367" left="251" width="33" height="9" font="font2" id="p1_t260" reading_order_no="259" segment_no="3" tag_type="table">3.30/7.58</text>
-<text top="367" left="308" width="33" height="9" font="font2" id="p1_t261" reading_order_no="260" segment_no="3" tag_type="table">3.16/6.91</text>
-<text top="367" left="373" width="19" height="9" font="font2" id="p1_t262" reading_order_no="261" segment_no="3" tag_type="table">193.0</text>
-<text top="366" left="394" width="6" height="10" font="font3" id="p1_t263" reading_order_no="262" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="367" left="403" width="19" height="9" font="font2" id="p1_t264" reading_order_no="263" segment_no="3" tag_type="table">114.8</text>
-<text top="367" left="440" width="19" height="9" font="font2" id="p1_t265" reading_order_no="264" segment_no="3" tag_type="table">103.4</text>
-<text top="366" left="462" width="6" height="10" font="font3" id="p1_t266" reading_order_no="265" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="367" left="470" width="15" height="9" font="font2" id="p1_t267" reading_order_no="266" segment_no="3" tag_type="table">58.0</text>
-<text top="367" left="503" width="19" height="9" font="font2" id="p1_t268" reading_order_no="267" segment_no="3" tag_type="table">133.1</text>
-<text top="366" left="525" width="6" height="10" font="font3" id="p1_t269" reading_order_no="268" segment_no="3" tag_type="table"><i>±</i></text>
-<text top="367" left="533" width="15" height="9" font="font2" id="p1_t270" reading_order_no="269" segment_no="3" tag_type="table">52.8</text>
-<text top="401" left="52" width="8" height="9" font="font5" id="p1_t271" reading_order_no="270" segment_no="4" tag_type="title"><b>4.</b></text>
-<text top="401" left="70" width="139" height="9" font="font5" id="p1_t272" reading_order_no="271" segment_no="4" tag_type="title"><b>DISCUSSION AND CONCLUSION</b></text>
-<text top="424" left="52" width="158" height="9" font="font0" id="p1_t273" reading_order_no="272" segment_no="6" tag_type="text">Though MI method is a well-known e</text>
-<text top="422" left="210" width="6" height="13" font="font6" id="p1_t274" reading_order_no="273" segment_no="6" tag_type="text">ﬀ</text>
-<text top="424" left="216" width="76" height="9" font="font0" id="p1_t275" reading_order_no="274" segment_no="6" tag_type="text">ective criterion for</text>
-<text top="435" left="52" width="240" height="9" font="font0" id="p1_t276" reading_order_no="275" segment_no="6" tag_type="text">Multimodal image registration, it still has some disadvan-</text>
-<text top="447" left="52" width="223" height="9" font="font0" id="p1_t277" reading_order_no="276" segment_no="6" tag_type="text">tages which often make the alignment less than optimal.</text>
-<text top="458" left="67" width="225" height="9" font="font0" id="p1_t278" reading_order_no="277" segment_no="7" tag_type="text">First, MI is unreliable to measure the degree of align-</text>
-<text top="470" left="52" width="240" height="9" font="font0" id="p1_t279" reading_order_no="278" segment_no="7" tag_type="text">ment between two images. MI function includes only inten-</text>
-<text top="481" left="52" width="240" height="9" font="font0" id="p1_t280" reading_order_no="279" segment_no="7" tag_type="text">sity information but little spatial information of images, so</text>
-<text top="493" left="52" width="240" height="9" font="font0" id="p1_t281" reading_order_no="280" segment_no="7" tag_type="text">it usually either produces several global maxima or presents</text>
-<text top="504" left="52" width="240" height="9" font="font0" id="p1_t282" reading_order_no="281" segment_no="7" tag_type="text">a global maximum which does not correspond to the cor-</text>
-<text top="516" left="52" width="240" height="9" font="font0" id="p1_t283" reading_order_no="282" segment_no="7" tag_type="text">rect alignment. Some research introduced spatial informa-</text>
-<text top="527" left="52" width="174" height="9" font="font0" id="p1_t284" reading_order_no="283" segment_no="7" tag_type="text">tion such as gradient-based information <a href="">[</a></text>
-<text top="527" left="226" width="5" height="9" font="font7" id="p1_t285" reading_order_no="284" segment_no="7" tag_type="text"><a href="">6</a></text>
-<text top="527" left="231" width="5" height="9" font="font0" id="p1_t286" reading_order_no="285" segment_no="7" tag_type="text"><a href="">–</a></text>
-<text top="527" left="236" width="5" height="9" font="font7" id="p1_t287" reading_order_no="286" segment_no="7" tag_type="text"><a href="">8</a></text>
-<text top="527" left="241" width="52" height="9" font="font0" id="p1_t288" reading_order_no="287" segment_no="7" tag_type="text"><a href="">] </a>or feature-</text>
-<text top="538" left="52" width="81" height="9" font="font0" id="p1_t289" reading_order_no="288" segment_no="7" tag_type="text">based information <a href="">[</a></text>
-<text top="538" left="133" width="10" height="9" font="font7" id="p1_t290" reading_order_no="289" segment_no="7" tag_type="text"><a href="">19</a></text>
-<text top="538" left="143" width="5" height="9" font="font0" id="p1_t291" reading_order_no="290" segment_no="7" tag_type="text"><a href="">–</a></text>
-<text top="538" left="147" width="10" height="9" font="font7" id="p1_t292" reading_order_no="291" segment_no="7" tag_type="text"><a href="">21</a></text>
-<text top="538" left="157" width="135" height="9" font="font0" id="p1_t293" reading_order_no="292" segment_no="7" tag_type="text">] to improve the quality of image</text>
-<text top="550" left="52" width="142" height="9" font="font0" id="p1_t294" reading_order_no="293" segment_no="7" tag_type="text">registration. These methods were e</text>
-<text top="548" left="194" width="6" height="13" font="font6" id="p1_t295" reading_order_no="294" segment_no="7" tag_type="text">ﬀ</text>
-<text top="550" left="200" width="93" height="9" font="font0" id="p1_t296" reading_order_no="295" segment_no="7" tag_type="text">ective but they did not</text>
-<text top="561" left="52" width="240" height="9" font="font0" id="p1_t297" reading_order_no="296" segment_no="7" tag_type="text">took full advantage of the phase information of gradient field</text>
-<text top="573" left="52" width="240" height="9" font="font0" id="p1_t298" reading_order_no="297" segment_no="7" tag_type="text">or the relationship between intensity images and their gradi-</text>
-<text top="584" left="52" width="38" height="9" font="font0" id="p1_t299" reading_order_no="298" segment_no="7" tag_type="text">ent fields.</text>
-<text top="596" left="67" width="225" height="9" font="font0" id="p1_t300" reading_order_no="299" segment_no="9" tag_type="text">Second, MI function is easily influenced by the intensity</text>
-<text top="607" left="52" width="240" height="9" font="font0" id="p1_t301" reading_order_no="300" segment_no="9" tag_type="text">interpolation and presents many local maxima to trap the</text>
-<text top="619" left="52" width="57" height="9" font="font0" id="p1_t302" reading_order_no="301" segment_no="9" tag_type="text">optimization <a href="">[</a></text>
-<text top="619" left="110" width="5" height="9" font="font7" id="p1_t303" reading_order_no="302" segment_no="9" tag_type="text"><a href="">4</a></text>
-<text top="619" left="114" width="2" height="9" font="font0" id="p1_t304" reading_order_no="303" segment_no="9" tag_type="text">,</text>
-<text top="619" left="119" width="5" height="9" font="font7" id="p1_t305" reading_order_no="304" segment_no="9" tag_type="text"><a href="">5</a></text>
-<text top="619" left="123" width="169" height="9" font="font0" id="p1_t306" reading_order_no="305" segment_no="9" tag_type="text">], leading to the failure of registration. Var-</text>
-<text top="630" left="52" width="165" height="9" font="font0" id="p1_t307" reading_order_no="306" segment_no="9" tag_type="text">ious high-order interpolation methods <a href="">[</a></text>
-<text top="630" left="217" width="10" height="9" font="font7" id="p1_t308" reading_order_no="307" segment_no="9" tag_type="text"><a href="">22</a></text>
-<text top="630" left="227" width="2" height="9" font="font0" id="p1_t309" reading_order_no="308" segment_no="9" tag_type="text"><a href="">,</a></text>
-<text top="630" left="233" width="10" height="9" font="font7" id="p1_t310" reading_order_no="309" segment_no="9" tag_type="text"><a href="">23</a></text>
-<text top="630" left="242" width="50" height="9" font="font0" id="p1_t311" reading_order_no="310" segment_no="9" tag_type="text">] and global</text>
-<text top="642" left="52" width="105" height="9" font="font0" id="p1_t312" reading_order_no="311" segment_no="9" tag_type="text">optimization algorithms <a href="">[</a></text>
-<text top="642" left="157" width="5" height="9" font="font7" id="p1_t313" reading_order_no="312" segment_no="9" tag_type="text"><a href="">6</a></text>
-<text top="642" left="162" width="130" height="9" font="font0" id="p1_t314" reading_order_no="313" segment_no="9" tag_type="text"><a href="">] </a>were introduced to reduce the</text>
-<text top="653" left="52" width="240" height="9" font="font0" id="p1_t315" reading_order_no="314" segment_no="9" tag_type="text">influence of local maxima. But these methods are com-</text>
-<text top="665" left="52" width="99" height="9" font="font0" id="p1_t316" reading_order_no="315" segment_no="9" tag_type="text">putationally expensive <a href="">[</a></text>
-<text top="665" left="151" width="10" height="9" font="font7" id="p1_t317" reading_order_no="316" segment_no="9" tag_type="text"><a href="">24</a></text>
-<text top="665" left="161" width="2" height="9" font="font0" id="p1_t318" reading_order_no="317" segment_no="9" tag_type="text"><a href="">,</a></text>
-<text top="665" left="168" width="10" height="9" font="font7" id="p1_t319" reading_order_no="318" segment_no="9" tag_type="text"><a href="">25</a></text>
-<text top="665" left="177" width="115" height="9" font="font0" id="p1_t320" reading_order_no="319" segment_no="9" tag_type="text">]. Moreover, these methods</text>
-<text top="676" left="52" width="240" height="9" font="font0" id="p1_t321" reading_order_no="320" segment_no="9" tag_type="text">are meaningless if the similarity measurement is unreliable</text>
-<text top="687" left="52" width="4" height="9" font="font0" id="p1_t322" reading_order_no="321" segment_no="9" tag_type="text"><a href="">[</a></text>
-<text top="687" left="56" width="10" height="9" font="font7" id="p1_t323" reading_order_no="322" segment_no="9" tag_type="text"><a href="">26</a></text>
-<text top="687" left="65" width="2" height="9" font="font0" id="p1_t324" reading_order_no="323" segment_no="9" tag_type="text">,</text>
-<text top="687" left="70" width="10" height="9" font="font7" id="p1_t325" reading_order_no="324" segment_no="9" tag_type="text"><a href="">27</a></text>
-<text top="687" left="80" width="6" height="9" font="font0" id="p1_t326" reading_order_no="325" segment_no="9" tag_type="text"><a href="">].</a></text>
-<text top="699" left="67" width="225" height="9" font="font0" id="p1_t327" reading_order_no="326" segment_no="10" tag_type="text">Third, MI is sensitive to the reduction of resolution or</text>
-<text top="710" left="52" width="240" height="9" font="font0" id="p1_t328" reading_order_no="327" segment_no="10" tag_type="text">overlapped area of images. MI is a similarity measurement</text>
-<text top="722" left="52" width="240" height="9" font="font0" id="p1_t329" reading_order_no="328" segment_no="10" tag_type="text">method and its reliability depends on the statistical stabil-</text>
-<text top="733" left="52" width="240" height="9" font="font0" id="p1_t330" reading_order_no="329" segment_no="10" tag_type="text">ity of samples. The reduction of resolution or the overlapped</text>
-<text top="401" left="310" width="240" height="9" font="font0" id="p1_t331" reading_order_no="330" segment_no="5" tag_type="text">area decreases the sample size, then deteriorates the statistical</text>
-<text top="412" left="310" width="240" height="9" font="font0" id="p1_t332" reading_order_no="331" segment_no="5" tag_type="text">stability of samples. As a result, MI presents a poor perfor-</text>
-<text top="424" left="310" width="240" height="9" font="font0" id="p1_t333" reading_order_no="332" segment_no="5" tag_type="text">mance for the registration of images with low resolution or</text>
-<text top="435" left="310" width="119" height="9" font="font0" id="p1_t334" reading_order_no="333" segment_no="5" tag_type="text">small overlapped area. NMI <a href="">[</a></text>
-<text top="435" left="429" width="10" height="9" font="font7" id="p1_t335" reading_order_no="334" segment_no="5" tag_type="text"><a href="">11</a></text>
-<text top="435" left="439" width="50" height="9" font="font0" id="p1_t336" reading_order_no="335" segment_no="5" tag_type="text"><a href="">] </a>and ECC <a href="">[</a></text>
-<text top="435" left="489" width="10" height="9" font="font7" id="p1_t337" reading_order_no="336" segment_no="5" tag_type="text"><a href="">10</a></text>
-<text top="435" left="499" width="52" height="9" font="font0" id="p1_t338" reading_order_no="337" segment_no="5" tag_type="text"><a href="">] </a>were intro-</text>
-<text top="447" left="310" width="240" height="9" font="font0" id="p1_t339" reading_order_no="338" segment_no="5" tag_type="text">duced to solve this problem, but no significant improvement</text>
-<text top="458" left="310" width="60" height="9" font="font0" id="p1_t340" reading_order_no="339" segment_no="5" tag_type="text">was observed <a href="">[</a></text>
-<text top="458" left="370" width="10" height="9" font="font7" id="p1_t341" reading_order_no="340" segment_no="5" tag_type="text"><a href="">25</a></text>
-<text top="458" left="380" width="2" height="9" font="font0" id="p1_t342" reading_order_no="341" segment_no="5" tag_type="text"><a href="">,</a></text>
-<text top="458" left="385" width="10" height="9" font="font7" id="p1_t343" reading_order_no="342" segment_no="5" tag_type="text"><a href="">28</a></text>
-<text top="458" left="395" width="155" height="9" font="font0" id="p1_t344" reading_order_no="343" segment_no="5" tag_type="text"><a href="">]. </a>They are also sensitive to the reduc-</text>
-<text top="470" left="310" width="188" height="9" font="font0" id="p1_t345" reading_order_no="344" segment_no="5" tag_type="text">tion of resolution or overlapped area of images.</text>
-<text top="481" left="325" width="225" height="9" font="font0" id="p1_t346" reading_order_no="345" segment_no="8" tag_type="text">To overcome these disadvantages of MI, we propose a</text>
-<text top="493" left="310" width="240" height="9" font="font0" id="p1_t347" reading_order_no="346" segment_no="8" tag_type="text">technique for Multimodal image registration, namely ACMI,</text>
-<text top="504" left="310" width="240" height="9" font="font0" id="p1_t348" reading_order_no="347" segment_no="8" tag_type="text">based on adaptive combination of intensity and gradient field</text>
-<text top="515" left="310" width="240" height="9" font="font0" id="p1_t349" reading_order_no="348" segment_no="8" tag_type="text">mutual information. We constructed GCM from which the</text>
-<text top="527" left="310" width="240" height="9" font="font0" id="p1_t350" reading_order_no="349" segment_no="8" tag_type="text">gradient field mutual information of original intensity im-</text>
-<text top="538" left="310" width="240" height="9" font="font0" id="p1_t351" reading_order_no="350" segment_no="8" tag_type="text">ages is calculated. The GCM is obtained from correspond-</text>
-<text top="550" left="310" width="240" height="9" font="font0" id="p1_t352" reading_order_no="351" segment_no="8" tag_type="text">ing original images by a spherical gradient coder and in-</text>
-<text top="561" left="310" width="240" height="9" font="font0" id="p1_t353" reading_order_no="352" segment_no="8" tag_type="text">cludes both magnitude and phase information of gradient</text>
-<text top="573" left="310" width="240" height="9" font="font0" id="p1_t354" reading_order_no="353" segment_no="8" tag_type="text">field of original images. The gradient field mutual informa-</text>
-<text top="584" left="310" width="66" height="9" font="font0" id="p1_t355" reading_order_no="354" segment_no="8" tag_type="text">tion provides su</text>
-<text top="582" left="376" width="8" height="13" font="font6" id="p1_t356" reading_order_no="355" segment_no="8" tag_type="text">ﬃ</text>
-<text top="584" left="384" width="166" height="9" font="font0" id="p1_t357" reading_order_no="356" segment_no="8" tag_type="text">cient spatial information for the similar-</text>
-<text top="596" left="310" width="240" height="9" font="font0" id="p1_t358" reading_order_no="357" segment_no="8" tag_type="text">ity measurement of images, besides it is smoother due to the</text>
-<text top="607" left="310" width="240" height="9" font="font0" id="p1_t359" reading_order_no="358" segment_no="8" tag_type="text">relatively higher intensity uniformity of GCMs. ACMI com-</text>
-<text top="619" left="310" width="240" height="9" font="font0" id="p1_t360" reading_order_no="359" segment_no="8" tag_type="text">bines the advantages of intensity ECC and gradient ECC, and</text>
-<text top="630" left="310" width="240" height="9" font="font0" id="p1_t361" reading_order_no="360" segment_no="8" tag_type="text">adopts a coarse-to-fine and gradient-to-intensity registration</text>
-<text top="641" left="310" width="240" height="9" font="font0" id="p1_t362" reading_order_no="361" segment_no="8" tag_type="text">strategy, so it overcomes the nonsmoothness and unrelia-</text>
-<text top="653" left="310" width="240" height="9" font="font0" id="p1_t363" reading_order_no="362" segment_no="8" tag_type="text">bility of traditional MI function. Results of simulated data</text>
-<text top="664" left="310" width="240" height="9" font="font0" id="p1_t364" reading_order_no="363" segment_no="8" tag_type="text">experiments and actual registration both demonstrate that</text>
-<text top="676" left="310" width="240" height="9" font="font0" id="p1_t365" reading_order_no="364" segment_no="8" tag_type="text">ACMI function performs better than traditional MI and it</text>
-<text top="687" left="310" width="240" height="9" font="font0" id="p1_t366" reading_order_no="365" segment_no="8" tag_type="text">is much less sensitive to the reduction of resolution or over-</text>
-<text top="699" left="310" width="105" height="9" font="font0" id="p1_t367" reading_order_no="366" segment_no="8" tag_type="text">lapped area of two images.</text>
-<text top="710" left="325" width="225" height="9" font="font0" id="p1_t368" reading_order_no="367" segment_no="11" tag_type="text">According to its advantages, ACMI function is suitable</text>
-<text top="722" left="310" width="240" height="9" font="font0" id="p1_t369" reading_order_no="368" segment_no="11" tag_type="text">for the registration of low-resolution images or impaired im-</text>
-<text top="733" left="310" width="240" height="9" font="font0" id="p1_t370" reading_order_no="369" segment_no="11" tag_type="text">ages. One example is the registration with multiresolution</text>
+<text top="90" left="397" width="126" height="10" font="font2" id="p1_t7" reading_order_no="6" segment_no="3" tag_type="table">Number of iterations (Mean ± SD)</text>
+<text top="103" left="177" width="50" height="9" font="font2" id="p1_t8" reading_order_no="7" segment_no="3" tag_type="table">Intensity ECC<i>±</i></text>
+<text top="103" left="242" width="51" height="9" font="font2" id="p1_t9" reading_order_no="8" segment_no="3" tag_type="table">Gradient ECC</text>
+<text top="103" left="313" width="22" height="9" font="font2" id="p1_t10" reading_order_no="9" segment_no="3" tag_type="table">ACMI</text>
+<text top="103" left="372" width="50" height="9" font="font2" id="p1_t11" reading_order_no="10" segment_no="3" tag_type="table">Intensity ECC</text>
+<text top="103" left="437" width="51" height="9" font="font2" id="p1_t12" reading_order_no="11" segment_no="3" tag_type="table">Gradient ECC</text>
+<text top="103" left="515" width="22" height="9" font="font2" id="p1_t13" reading_order_no="12" segment_no="3" tag_type="table">ACMI</text>
+<text top="118" left="80" width="55" height="9" font="font4" id="p1_t14" reading_order_no="13" segment_no="3" tag_type="table">Original images</text>
+<text top="131" left="54" width="28" height="9" font="font2" id="p1_t15" reading_order_no="14" segment_no="3" tag_type="table">T1-PET</text>
+<text top="131" left="115" width="4" height="9" font="font2" id="p1_t16" reading_order_no="15" segment_no="3" tag_type="table">7<i>Original images</i></text>
+<text top="131" left="185" width="33" height="9" font="font2" id="p1_t17" reading_order_no="16" segment_no="3" tag_type="table">2.78/4.96</text>
+<text top="131" left="251" width="33" height="9" font="font2" id="p1_t18" reading_order_no="17" segment_no="3" tag_type="table">2.73/4.31</text>
+<text top="131" left="308" width="33" height="9" font="font2" id="p1_t19" reading_order_no="18" segment_no="3" tag_type="table">2.38/4.22</text>
+<text top="129" left="375" width="45" height="11" font="font2" id="p1_t20" reading_order_no="19" segment_no="3" tag_type="table">269.5 ± 84.8</text>
+<text top="129" left="440" width="45" height="11" font="font2" id="p1_t21" reading_order_no="20" segment_no="3" tag_type="table">111.3 ± 29.9</text>
+<text top="129" left="503" width="45" height="11" font="font2" id="p1_t22" reading_order_no="21" segment_no="3" tag_type="table">172.2 ± 44.0</text>
+<text top="143" left="54" width="28" height="9" font="font2" id="p1_t23" reading_order_no="22" segment_no="3" tag_type="table">T2-PET<i>±</i></text>
+<text top="143" left="115" width="4" height="9" font="font2" id="p1_t24" reading_order_no="23" segment_no="3" tag_type="table">7</text>
+<text top="143" left="185" width="33" height="9" font="font2" id="p1_t25" reading_order_no="24" segment_no="3" tag_type="table">1.91/6.37</text>
+<text top="143" left="251" width="33" height="9" font="font2" id="p1_t26" reading_order_no="25" segment_no="3" tag_type="table">1.52/5.84<i>±</i></text>
+<text top="143" left="308" width="33" height="9" font="font2" id="p1_t27" reading_order_no="26" segment_no="3" tag_type="table">1.39/5.51</text>
+<text top="142" left="373" width="49" height="10" font="font2" id="p1_t28" reading_order_no="27" segment_no="3" tag_type="table">288.0 ± 145.1</text>
+<text top="142" left="443" width="40" height="10" font="font2" id="p1_t29" reading_order_no="28" segment_no="3" tag_type="table">87.5 ± 45.8<i>±</i></text>
+<text top="142" left="503" width="45" height="10" font="font2" id="p1_t30" reading_order_no="29" segment_no="3" tag_type="table">161.7 ± 43.9</text>
+<text top="155" left="54" width="30" height="9" font="font2" id="p1_t31" reading_order_no="30" segment_no="3" tag_type="table">PD-PET</text>
+<text top="155" left="115" width="4" height="9" font="font2" id="p1_t32" reading_order_no="31" segment_no="3" tag_type="table">7</text>
+<text top="155" left="185" width="33" height="9" font="font2" id="p1_t33" reading_order_no="32" segment_no="3" tag_type="table">2.46/6.19</text>
+<text top="155" left="251" width="33" height="9" font="font2" id="p1_t34" reading_order_no="33" segment_no="3" tag_type="table">1.97/4.72</text>
+<text top="155" left="308" width="33" height="9" font="font2" id="p1_t35" reading_order_no="34" segment_no="3" tag_type="table">1.62/3.41</text>
+<text top="154" left="373" width="49" height="10" font="font2" id="p1_t36" reading_order_no="35" segment_no="3" tag_type="table">222.2 ± 108.7</text>
+<text top="154" left="443" width="40" height="10" font="font2" id="p1_t37" reading_order_no="36" segment_no="3" tag_type="table">93.2 ± 36.9<i>±</i></text>
+<text top="154" left="503" width="45" height="10" font="font2" id="p1_t38" reading_order_no="37" segment_no="3" tag_type="table">159.9 ± 58.6</text>
+<text top="168" left="54" width="41" height="9" font="font2" id="p1_t39" reading_order_no="38" segment_no="3" tag_type="table">T1 rec-PET</text>
+<text top="168" left="115" width="4" height="9" font="font2" id="p1_t40" reading_order_no="39" segment_no="3" tag_type="table">4<i>±</i></text>
+<text top="168" left="185" width="33" height="9" font="font2" id="p1_t41" reading_order_no="40" segment_no="3" tag_type="table">3.19/8.37</text>
+<text top="168" left="251" width="33" height="9" font="font2" id="p1_t42" reading_order_no="41" segment_no="3" tag_type="table">2.88/6.12</text>
+<text top="168" left="308" width="33" height="9" font="font2" id="p1_t43" reading_order_no="42" segment_no="3" tag_type="table">2.63/5.43<i>±</i></text>
+<text top="167" left="375" width="45" height="10" font="font2" id="p1_t44" reading_order_no="43" segment_no="3" tag_type="table">240.5 ± 92.2</text>
+<text top="167" left="440" width="45" height="10" font="font2" id="p1_t45" reading_order_no="44" segment_no="3" tag_type="table">102.4 ± 33.1</text>
+<text top="167" left="503" width="45" height="10" font="font2" id="p1_t46" reading_order_no="45" segment_no="3" tag_type="table">145.5 ± 49.7</text>
+<text top="180" left="54" width="41" height="9" font="font2" id="p1_t47" reading_order_no="46" segment_no="3" tag_type="table">T2 rec-PET</text>
+<text top="180" left="115" width="4" height="9" font="font2" id="p1_t48" reading_order_no="47" segment_no="3" tag_type="table">5</text>
+<text top="180" left="185" width="33" height="9" font="font2" id="p1_t49" reading_order_no="48" segment_no="3" tag_type="table">3.15/9.15</text>
+<text top="180" left="251" width="33" height="9" font="font2" id="p1_t50" reading_order_no="49" segment_no="3" tag_type="table">3.04/7.13</text>
+<text top="180" left="308" width="33" height="9" font="font2" id="p1_t51" reading_order_no="50" segment_no="3" tag_type="table">2.72/6.08<i>±</i></text>
+<text top="179" left="375" width="45" height="10" font="font2" id="p1_t52" reading_order_no="51" segment_no="3" tag_type="table">220.3 ± 97.8</text>
+<text top="179" left="443" width="40" height="10" font="font2" id="p1_t53" reading_order_no="52" segment_no="3" tag_type="table">93.6 ± 42.8</text>
+<text top="179" left="503" width="45" height="10" font="font2" id="p1_t54" reading_order_no="53" segment_no="3" tag_type="table">174.9 ± 37.3<i>±</i></text>
+<text top="193" left="54" width="43" height="9" font="font2" id="p1_t55" reading_order_no="54" segment_no="3" tag_type="table">PD rec-PET</text>
+<text top="193" left="115" width="4" height="9" font="font2" id="p1_t56" reading_order_no="55" segment_no="3" tag_type="table">5</text>
+<text top="193" left="185" width="33" height="9" font="font2" id="p1_t57" reading_order_no="56" segment_no="3" tag_type="table">3.07/8.13<i>±</i></text>
+<text top="193" left="251" width="33" height="9" font="font2" id="p1_t58" reading_order_no="57" segment_no="3" tag_type="table">2.65/7.41</text>
+<text top="193" left="308" width="33" height="9" font="font2" id="p1_t59" reading_order_no="58" segment_no="3" tag_type="table">2.37/6.74</text>
+<text top="192" left="375" width="45" height="10" font="font2" id="p1_t60" reading_order_no="59" segment_no="3" tag_type="table">224.7 ± 89.5</text>
+<text top="192" left="443" width="40" height="10" font="font2" id="p1_t61" reading_order_no="60" segment_no="3" tag_type="table">99.3 ± 41.9</text>
+<text top="192" left="503" width="45" height="10" font="font2" id="p1_t62" reading_order_no="61" segment_no="3" tag_type="table">183.1 ± 63.0</text>
+<text top="205" left="73" width="68" height="9" font="font4" id="p1_t63" reading_order_no="62" segment_no="3" tag_type="table">Subsampled version</text>
+<text top="218" left="54" width="28" height="9" font="font2" id="p1_t64" reading_order_no="63" segment_no="3" tag_type="table">T1-PET</text>
+<text top="218" left="115" width="4" height="9" font="font2" id="p1_t65" reading_order_no="64" segment_no="3" tag_type="table">7<i>±</i></text>
+<text top="218" left="185" width="33" height="9" font="font2" id="p1_t66" reading_order_no="65" segment_no="3" tag_type="table">4.13/8.25</text>
+<text top="218" left="251" width="33" height="9" font="font2" id="p1_t67" reading_order_no="66" segment_no="3" tag_type="table">3.70/7.37</text>
+<text top="218" left="308" width="33" height="9" font="font2" id="p1_t68" reading_order_no="67" segment_no="3" tag_type="table">3.40/7.48<i>±</i></text>
+<text top="216" left="375" width="45" height="11" font="font2" id="p1_t69" reading_order_no="68" segment_no="3" tag_type="table">169.0 ± 65.0</text>
+<text top="216" left="443" width="40" height="11" font="font2" id="p1_t70" reading_order_no="69" segment_no="3" tag_type="table">93.7 ± 31.4</text>
+<text top="216" left="503" width="45" height="11" font="font2" id="p1_t71" reading_order_no="70" segment_no="3" tag_type="table">127.5 ± 36.4<i>±</i></text>
+<text top="230" left="54" width="28" height="9" font="font2" id="p1_t72" reading_order_no="71" segment_no="3" tag_type="table">T2-PET</text>
+<text top="230" left="115" width="4" height="9" font="font2" id="p1_t73" reading_order_no="72" segment_no="3" tag_type="table">7</text>
+<text top="230" left="185" width="33" height="9" font="font2" id="p1_t74" reading_order_no="73" segment_no="3" tag_type="table">4.14/9.18</text>
+<text top="230" left="251" width="33" height="9" font="font2" id="p1_t75" reading_order_no="74" segment_no="3" tag_type="table">3.52/6.18</text>
+<text top="230" left="308" width="33" height="9" font="font2" id="p1_t76" reading_order_no="75" segment_no="3" tag_type="table">3.06/5.10</text>
+<text top="229" left="375" width="45" height="10" font="font2" id="p1_t77" reading_order_no="76" segment_no="3" tag_type="table">189.0 ± 63.4</text>
+<text top="229" left="443" width="40" height="10" font="font2" id="p1_t78" reading_order_no="77" segment_no="3" tag_type="table">79.1 ± 35.9</text>
+<text top="229" left="503" width="45" height="10" font="font2" id="p1_t79" reading_order_no="78" segment_no="3" tag_type="table">138.8 ± 40.6<i>±</i></text>
+<text top="243" left="54" width="30" height="9" font="font2" id="p1_t80" reading_order_no="79" segment_no="3" tag_type="table">PD-PET</text>
+<text top="243" left="115" width="4" height="9" font="font2" id="p1_t81" reading_order_no="80" segment_no="3" tag_type="table">7</text>
+<text top="243" left="183" width="37" height="9" font="font2" id="p1_t82" reading_order_no="81" segment_no="3" tag_type="table">3.07/12.94<i>±</i></text>
+<text top="243" left="251" width="33" height="9" font="font2" id="p1_t83" reading_order_no="82" segment_no="3" tag_type="table">2.74/7.06</text>
+<text top="243" left="308" width="33" height="9" font="font2" id="p1_t84" reading_order_no="83" segment_no="3" tag_type="table">2.59/5.36</text>
+<text top="241" left="375" width="45" height="11" font="font2" id="p1_t85" reading_order_no="84" segment_no="3" tag_type="table">151.5 ± 63.3<i>±</i></text>
+<text top="241" left="443" width="40" height="11" font="font2" id="p1_t86" reading_order_no="85" segment_no="3" tag_type="table">82.1 ± 39.0</text>
+<text top="241" left="503" width="45" height="11" font="font2" id="p1_t87" reading_order_no="86" segment_no="3" tag_type="table">135.7 ± 32.8</text>
+<text top="255" left="54" width="41" height="9" font="font2" id="p1_t88" reading_order_no="87" segment_no="3" tag_type="table">T1 rec-PET</text>
+<text top="255" left="115" width="4" height="9" font="font2" id="p1_t89" reading_order_no="88" segment_no="3" tag_type="table">4</text>
+<text top="255" left="183" width="37" height="9" font="font2" id="p1_t90" reading_order_no="89" segment_no="3" tag_type="table">4.62/10.37</text>
+<text top="255" left="251" width="33" height="9" font="font2" id="p1_t91" reading_order_no="90" segment_no="3" tag_type="table">3.95/9.22</text>
+<text top="255" left="308" width="33" height="9" font="font2" id="p1_t92" reading_order_no="91" segment_no="3" tag_type="table">3.51/8.83</text>
+<text top="254" left="375" width="45" height="10" font="font2" id="p1_t93" reading_order_no="92" segment_no="3" tag_type="table">150.2 ± 59.3<i>±</i></text>
+<text top="254" left="443" width="40" height="10" font="font2" id="p1_t94" reading_order_no="93" segment_no="3" tag_type="table">88.6 ± 28.9</text>
+<text top="254" left="503" width="45" height="10" font="font2" id="p1_t95" reading_order_no="94" segment_no="3" tag_type="table">118.5 ± 26.3</text>
+<text top="268" left="54" width="41" height="9" font="font2" id="p1_t96" reading_order_no="95" segment_no="3" tag_type="table">T2 rec-PET<i>±</i></text>
+<text top="268" left="115" width="4" height="9" font="font2" id="p1_t97" reading_order_no="96" segment_no="3" tag_type="table">5</text>
+<text top="268" left="183" width="37" height="9" font="font2" id="p1_t98" reading_order_no="97" segment_no="3" tag_type="table">5.25/16.15</text>
+<text top="268" left="249" width="37" height="9" font="font2" id="p1_t99" reading_order_no="98" segment_no="3" tag_type="table">4.92/10.88<i>±</i></text>
+<text top="268" left="308" width="33" height="9" font="font2" id="p1_t100" reading_order_no="99" segment_no="3" tag_type="table">4.83/7.07</text>
+<text top="266" left="375" width="45" height="11" font="font2" id="p1_t101" reading_order_no="100" segment_no="3" tag_type="table">176.5 ± 59.1<i>Subsampled version</i></text>
+<text top="266" left="443" width="40" height="11" font="font2" id="p1_t102" reading_order_no="101" segment_no="3" tag_type="table">89.7 ± 34.2</text>
+<text top="266" left="503" width="45" height="11" font="font2" id="p1_t103" reading_order_no="102" segment_no="3" tag_type="table">136.7 ± 35.6</text>
+<text top="280" left="54" width="43" height="9" font="font2" id="p1_t104" reading_order_no="103" segment_no="3" tag_type="table">PD rec-PET</text>
+<text top="280" left="115" width="4" height="9" font="font2" id="p1_t105" reading_order_no="104" segment_no="3" tag_type="table">5</text>
+<text top="280" left="183" width="37" height="9" font="font2" id="p1_t106" reading_order_no="105" segment_no="3" tag_type="table">4.17/11.82</text>
+<text top="280" left="251" width="33" height="9" font="font2" id="p1_t107" reading_order_no="106" segment_no="3" tag_type="table">3.39/8.17</text>
+<text top="280" left="308" width="33" height="9" font="font2" id="p1_t108" reading_order_no="107" segment_no="3" tag_type="table">3.03/6.33<i>±</i></text>
+<text top="279" left="375" width="45" height="10" font="font2" id="p1_t109" reading_order_no="108" segment_no="3" tag_type="table">144.5 ± 52.2</text>
+<text top="279" left="443" width="40" height="10" font="font2" id="p1_t110" reading_order_no="109" segment_no="3" tag_type="table">90.7 ± 40.6</text>
+<text top="279" left="503" width="45" height="10" font="font2" id="p1_t111" reading_order_no="110" segment_no="3" tag_type="table">113.7 ± 29.4<i>±</i></text>
+<text top="292" left="64" width="88" height="9" font="font4" id="p1_t112" reading_order_no="111" segment_no="3" tag_type="table">Small-overlapped version</text>
+<text top="305" left="54" width="28" height="9" font="font2" id="p1_t113" reading_order_no="112" segment_no="3" tag_type="table">T1-PET</text>
+<text top="305" left="115" width="4" height="9" font="font2" id="p1_t114" reading_order_no="113" segment_no="3" tag_type="table">7<i>±</i></text>
+<text top="305" left="185" width="33" height="9" font="font2" id="p1_t115" reading_order_no="114" segment_no="3" tag_type="table">4.15/5.78</text>
+<text top="305" left="251" width="33" height="9" font="font2" id="p1_t116" reading_order_no="115" segment_no="3" tag_type="table">3.71/6.65</text>
+<text top="305" left="308" width="33" height="9" font="font2" id="p1_t117" reading_order_no="116" segment_no="3" tag_type="table">3.33/7.17</text>
+<text top="304" left="375" width="45" height="10" font="font2" id="p1_t118" reading_order_no="117" segment_no="3" tag_type="table">146.2 ± 93.2</text>
+<text top="304" left="443" width="40" height="10" font="font2" id="p1_t119" reading_order_no="118" segment_no="3" tag_type="table">94.9 ± 35.7</text>
+<text top="304" left="503" width="45" height="10" font="font2" id="p1_t120" reading_order_no="119" segment_no="3" tag_type="table">112.3 ± 29.9</text>
+<text top="317" left="54" width="28" height="9" font="font2" id="p1_t121" reading_order_no="120" segment_no="3" tag_type="table">T2-PET</text>
+<text top="317" left="115" width="4" height="9" font="font2" id="p1_t122" reading_order_no="121" segment_no="3" tag_type="table">7<i>±</i></text>
+<text top="317" left="185" width="33" height="9" font="font2" id="p1_t123" reading_order_no="122" segment_no="3" tag_type="table">3.34/8.37</text>
+<text top="317" left="251" width="33" height="9" font="font2" id="p1_t124" reading_order_no="123" segment_no="3" tag_type="table">2.44/6.07</text>
+<text top="317" left="308" width="33" height="9" font="font2" id="p1_t125" reading_order_no="124" segment_no="3" tag_type="table">2.20/4.94<i>±</i></text>
+<text top="316" left="375" width="45" height="10" font="font2" id="p1_t126" reading_order_no="125" segment_no="3" tag_type="table">207.5 ± 88.2</text>
+<text top="316" left="440" width="45" height="10" font="font2" id="p1_t127" reading_order_no="126" segment_no="3" tag_type="table">120.5 ± 61.3</text>
+<text top="316" left="503" width="45" height="10" font="font2" id="p1_t128" reading_order_no="127" segment_no="3" tag_type="table">153.0 ± 48.2<i>±</i></text>
+<text top="330" left="54" width="30" height="9" font="font2" id="p1_t129" reading_order_no="128" segment_no="3" tag_type="table">PD-PET</text>
+<text top="330" left="115" width="4" height="9" font="font2" id="p1_t130" reading_order_no="129" segment_no="3" tag_type="table">7</text>
+<text top="330" left="185" width="33" height="9" font="font2" id="p1_t131" reading_order_no="130" segment_no="3" tag_type="table">3.98/8.18</text>
+<text top="330" left="251" width="33" height="9" font="font2" id="p1_t132" reading_order_no="131" segment_no="3" tag_type="table">3.11/6.21</text>
+<text top="330" left="308" width="33" height="9" font="font2" id="p1_t133" reading_order_no="132" segment_no="3" tag_type="table">2.84/5.11</text>
+<text top="329" left="375" width="45" height="10" font="font2" id="p1_t134" reading_order_no="133" segment_no="3" tag_type="table">213.7 ± 83.1</text>
+<text top="329" left="440" width="45" height="10" font="font2" id="p1_t135" reading_order_no="134" segment_no="3" tag_type="table">106.8 ± 47.9</text>
+<text top="329" left="503" width="45" height="10" font="font2" id="p1_t136" reading_order_no="135" segment_no="3" tag_type="table">134.2 ± 51.4<i>±</i></text>
+<text top="342" left="54" width="41" height="9" font="font2" id="p1_t137" reading_order_no="136" segment_no="3" tag_type="table">T1 rec-PET</text>
+<text top="342" left="115" width="4" height="9" font="font2" id="p1_t138" reading_order_no="137" segment_no="3" tag_type="table">4</text>
+<text top="342" left="183" width="37" height="9" font="font2" id="p1_t139" reading_order_no="138" segment_no="3" tag_type="table">3.33/10.85<i>±</i></text>
+<text top="342" left="251" width="33" height="9" font="font2" id="p1_t140" reading_order_no="139" segment_no="3" tag_type="table">2.96/8.13</text>
+<text top="342" left="308" width="33" height="9" font="font2" id="p1_t141" reading_order_no="140" segment_no="3" tag_type="table">2.61/6.72</text>
+<text top="341" left="375" width="45" height="10" font="font2" id="p1_t142" reading_order_no="141" segment_no="3" tag_type="table">139.5 ± 64.1<i>±</i></text>
+<text top="341" left="443" width="40" height="10" font="font2" id="p1_t143" reading_order_no="142" segment_no="3" tag_type="table">68.6 ± 40.7</text>
+<text top="341" left="505" width="41" height="10" font="font2" id="p1_t144" reading_order_no="143" segment_no="3" tag_type="table">96.5 ± 43.6</text>
+<text top="355" left="54" width="41" height="9" font="font2" id="p1_t145" reading_order_no="144" segment_no="3" tag_type="table">T2 rec-PET</text>
+<text top="355" left="115" width="4" height="9" font="font2" id="p1_t146" reading_order_no="145" segment_no="3" tag_type="table">5</text>
+<text top="355" left="183" width="37" height="9" font="font2" id="p1_t147" reading_order_no="146" segment_no="3" tag_type="table">4.17/12.05</text>
+<text top="355" left="251" width="33" height="9" font="font2" id="p1_t148" reading_order_no="147" segment_no="3" tag_type="table">3.89/9.27</text>
+<text top="355" left="308" width="33" height="9" font="font2" id="p1_t149" reading_order_no="148" segment_no="3" tag_type="table">3.21/7.38</text>
+<text top="353" left="375" width="45" height="11" font="font2" id="p1_t150" reading_order_no="149" segment_no="3" tag_type="table">170.0 ± 79.3<i>±</i></text>
+<text top="353" left="443" width="40" height="11" font="font2" id="p1_t151" reading_order_no="150" segment_no="3" tag_type="table">63.9 ± 37.0</text>
+<text top="353" left="505" width="41" height="11" font="font2" id="p1_t152" reading_order_no="151" segment_no="3" tag_type="table">99.1 ± 46.5</text>
+<text top="367" left="54" width="43" height="9" font="font2" id="p1_t153" reading_order_no="152" segment_no="3" tag_type="table">PD rec-PET<i>±</i></text>
+<text top="367" left="115" width="4" height="9" font="font2" id="p1_t154" reading_order_no="153" segment_no="3" tag_type="table">5</text>
+<text top="367" left="185" width="33" height="9" font="font2" id="p1_t155" reading_order_no="154" segment_no="3" tag_type="table">3.39/9.10</text>
+<text top="367" left="251" width="33" height="9" font="font2" id="p1_t156" reading_order_no="155" segment_no="3" tag_type="table">3.30/7.58<i>±</i></text>
+<text top="367" left="308" width="33" height="9" font="font2" id="p1_t157" reading_order_no="156" segment_no="3" tag_type="table">3.16/6.91</text>
+<text top="366" left="373" width="49" height="10" font="font2" id="p1_t158" reading_order_no="157" segment_no="3" tag_type="table">193.0 ± 114.8</text>
+<text top="366" left="440" width="45" height="10" font="font2" id="p1_t159" reading_order_no="158" segment_no="3" tag_type="table">103.4 ± 58.0</text>
+<text top="366" left="503" width="45" height="10" font="font2" id="p1_t160" reading_order_no="159" segment_no="3" tag_type="table">133.1 ± 52.8</text>
+<text top="401" left="52" width="8" height="9" font="font5" id="p1_t161" reading_order_no="160" segment_no="4" tag_type="title">4.</text>
+<text top="401" left="70" width="139" height="9" font="font5" id="p1_t162" reading_order_no="161" segment_no="4" tag_type="title">DISCUSSION AND CONCLUSION</text>
+<text top="422" left="52" width="240" height="13" font="font0" id="p1_t163" reading_order_no="162" segment_no="6" tag_type="text">Though MI method is a well-known e ﬀ ective criterion for</text>
+<text top="435" left="52" width="240" height="9" font="font0" id="p1_t164" reading_order_no="163" segment_no="6" tag_type="text">Multimodal image registration, it still has some disadvan-<i>±</i></text>
+<text top="447" left="52" width="223" height="9" font="font0" id="p1_t165" reading_order_no="164" segment_no="6" tag_type="text">tages which often make the alignment less than optimal.</text>
+<text top="458" left="67" width="225" height="9" font="font0" id="p1_t166" reading_order_no="165" segment_no="7" tag_type="text">First, MI is unreliable to measure the degree of align-</text>
+<text top="470" left="52" width="240" height="9" font="font0" id="p1_t167" reading_order_no="166" segment_no="7" tag_type="text">ment between two images. MI function includes only inten-<i>±</i></text>
+<text top="481" left="52" width="240" height="9" font="font0" id="p1_t168" reading_order_no="167" segment_no="7" tag_type="text">sity information but little spatial information of images, so</text>
+<text top="493" left="52" width="240" height="9" font="font0" id="p1_t169" reading_order_no="168" segment_no="7" tag_type="text">it usually either produces several global maxima or presents</text>
+<text top="504" left="52" width="240" height="9" font="font0" id="p1_t170" reading_order_no="169" segment_no="7" tag_type="text">a global maximum which does not correspond to the cor-<i>±</i></text>
+<text top="516" left="52" width="240" height="9" font="font0" id="p1_t171" reading_order_no="170" segment_no="7" tag_type="text">rect alignment. Some research introduced spatial informa-</text>
+<text top="527" left="52" width="241" height="9" font="font0" id="p1_t172" reading_order_no="171" segment_no="7" tag_type="text">tion such as gradient-based information [ 6 – 8 ] or feature-</text>
+<text top="538" left="52" width="240" height="9" font="font0" id="p1_t173" reading_order_no="172" segment_no="7" tag_type="text">based information [ 19 – 21 ] to improve the quality of image</text>
+<text top="548" left="52" width="241" height="13" font="font0" id="p1_t174" reading_order_no="173" segment_no="7" tag_type="text">registration. These methods were e ﬀ ective but they did not</text>
+<text top="561" left="52" width="240" height="9" font="font0" id="p1_t175" reading_order_no="174" segment_no="7" tag_type="text">took full advantage of the phase information of gradient field</text>
+<text top="573" left="52" width="240" height="9" font="font0" id="p1_t176" reading_order_no="175" segment_no="7" tag_type="text">or the relationship between intensity images and their gradi-</text>
+<text top="584" left="52" width="38" height="9" font="font0" id="p1_t177" reading_order_no="176" segment_no="7" tag_type="text">ent fields.</text>
+<text top="596" left="67" width="225" height="9" font="font0" id="p1_t178" reading_order_no="177" segment_no="9" tag_type="text">Second, MI function is easily influenced by the intensity<i>±</i></text>
+<text top="607" left="52" width="240" height="9" font="font0" id="p1_t179" reading_order_no="178" segment_no="9" tag_type="text">interpolation and presents many local maxima to trap the</text>
+<text top="619" left="52" width="240" height="9" font="font0" id="p1_t180" reading_order_no="179" segment_no="9" tag_type="text">optimization [ 4 , 5 ], leading to the failure of registration. Var-</text>
+<text top="630" left="52" width="240" height="9" font="font0" id="p1_t181" reading_order_no="180" segment_no="9" tag_type="text">ious high-order interpolation methods [ 22 , 23 ] and global<i>±</i></text>
+<text top="642" left="52" width="240" height="9" font="font0" id="p1_t182" reading_order_no="181" segment_no="9" tag_type="text">optimization algorithms [ 6 ] were introduced to reduce the</text>
+<text top="653" left="52" width="240" height="9" font="font0" id="p1_t183" reading_order_no="182" segment_no="9" tag_type="text">influence of local maxima. But these methods are com-</text>
+<text top="665" left="52" width="240" height="9" font="font0" id="p1_t184" reading_order_no="183" segment_no="9" tag_type="text">putationally expensive [ 24 , 25 ]. Moreover, these methods<i>±</i></text>
+<text top="676" left="52" width="240" height="9" font="font0" id="p1_t185" reading_order_no="184" segment_no="9" tag_type="text">are meaningless if the similarity measurement is unreliable</text>
+<text top="687" left="52" width="34" height="9" font="font0" id="p1_t186" reading_order_no="185" segment_no="9" tag_type="text">[ 26 , 27 ].<i>Small-overlapped version</i></text>
+<text top="699" left="67" width="225" height="9" font="font0" id="p1_t187" reading_order_no="186" segment_no="10" tag_type="text">Third, MI is sensitive to the reduction of resolution or</text>
+<text top="710" left="52" width="240" height="9" font="font0" id="p1_t188" reading_order_no="187" segment_no="10" tag_type="text">overlapped area of images. MI is a similarity measurement</text>
+<text top="722" left="52" width="240" height="9" font="font0" id="p1_t189" reading_order_no="188" segment_no="10" tag_type="text">method and its reliability depends on the statistical stabil-</text>
+<text top="733" left="52" width="240" height="9" font="font0" id="p1_t190" reading_order_no="189" segment_no="10" tag_type="text">ity of samples. The reduction of resolution or the overlapped</text>
+<text top="401" left="310" width="240" height="9" font="font0" id="p1_t191" reading_order_no="190" segment_no="5" tag_type="text">area decreases the sample size, then deteriorates the statistical</text>
+<text top="412" left="310" width="240" height="9" font="font0" id="p1_t192" reading_order_no="191" segment_no="5" tag_type="text">stability of samples. As a result, MI presents a poor perfor-</text>
+<text top="424" left="310" width="240" height="9" font="font0" id="p1_t193" reading_order_no="192" segment_no="5" tag_type="text">mance for the registration of images with low resolution or<i>±</i></text>
+<text top="435" left="310" width="241" height="9" font="font0" id="p1_t194" reading_order_no="193" segment_no="5" tag_type="text">small overlapped area. NMI [ 11 ] and ECC [ 10 ] were intro-</text>
+<text top="447" left="310" width="240" height="9" font="font0" id="p1_t195" reading_order_no="194" segment_no="5" tag_type="text">duced to solve this problem, but no significant improvement</text>
+<text top="458" left="310" width="240" height="9" font="font0" id="p1_t196" reading_order_no="195" segment_no="5" tag_type="text">was observed [ 25 , 28 ]. They are also sensitive to the reduc-<i>±</i></text>
+<text top="470" left="310" width="188" height="9" font="font0" id="p1_t197" reading_order_no="196" segment_no="5" tag_type="text">tion of resolution or overlapped area of images.</text>
+<text top="481" left="325" width="225" height="9" font="font0" id="p1_t198" reading_order_no="197" segment_no="8" tag_type="text">To overcome these disadvantages of MI, we propose a</text>
+<text top="493" left="310" width="240" height="9" font="font0" id="p1_t199" reading_order_no="198" segment_no="8" tag_type="text">technique for Multimodal image registration, namely ACMI,<i>±</i></text>
+<text top="504" left="310" width="240" height="9" font="font0" id="p1_t200" reading_order_no="199" segment_no="8" tag_type="text">based on adaptive combination of intensity and gradient field</text>
+<text top="515" left="310" width="240" height="9" font="font0" id="p1_t201" reading_order_no="200" segment_no="8" tag_type="text">mutual information. We constructed GCM from which the</text>
+<text top="527" left="310" width="240" height="9" font="font0" id="p1_t202" reading_order_no="201" segment_no="8" tag_type="text">gradient field mutual information of original intensity im-</text>
+<text top="538" left="310" width="240" height="9" font="font0" id="p1_t203" reading_order_no="202" segment_no="8" tag_type="text">ages is calculated. The GCM is obtained from correspond-</text>
+<text top="550" left="310" width="240" height="9" font="font0" id="p1_t204" reading_order_no="203" segment_no="8" tag_type="text">ing original images by a spherical gradient coder and in-</text>
+<text top="561" left="310" width="240" height="9" font="font0" id="p1_t205" reading_order_no="204" segment_no="8" tag_type="text">cludes both magnitude and phase information of gradient</text>
+<text top="573" left="310" width="240" height="9" font="font0" id="p1_t206" reading_order_no="205" segment_no="8" tag_type="text">field of original images. The gradient field mutual informa-</text>
+<text top="582" left="310" width="240" height="13" font="font0" id="p1_t207" reading_order_no="206" segment_no="8" tag_type="text">tion provides su ﬃ cient spatial information for the similar-<i>±</i></text>
+<text top="596" left="310" width="240" height="9" font="font0" id="p1_t208" reading_order_no="207" segment_no="8" tag_type="text">ity measurement of images, besides it is smoother due to the</text>
+<text top="607" left="310" width="240" height="9" font="font0" id="p1_t209" reading_order_no="208" segment_no="8" tag_type="text">relatively higher intensity uniformity of GCMs. ACMI com-</text>
+<text top="619" left="310" width="240" height="9" font="font0" id="p1_t210" reading_order_no="209" segment_no="8" tag_type="text">bines the advantages of intensity ECC and gradient ECC, and<i>±</i></text>
+<text top="630" left="310" width="240" height="9" font="font0" id="p1_t211" reading_order_no="210" segment_no="8" tag_type="text">adopts a coarse-to-fine and gradient-to-intensity registration</text>
+<text top="641" left="310" width="240" height="9" font="font0" id="p1_t212" reading_order_no="211" segment_no="8" tag_type="text">strategy, so it overcomes the nonsmoothness and unrelia-</text>
+<text top="653" left="310" width="240" height="9" font="font0" id="p1_t213" reading_order_no="212" segment_no="8" tag_type="text">bility of traditional MI function. Results of simulated data<i>±</i></text>
+<text top="664" left="310" width="240" height="9" font="font0" id="p1_t214" reading_order_no="213" segment_no="8" tag_type="text">experiments and actual registration both demonstrate that</text>
+<text top="676" left="310" width="240" height="9" font="font0" id="p1_t215" reading_order_no="214" segment_no="8" tag_type="text">ACMI function performs better than traditional MI and it</text>
+<text top="687" left="310" width="240" height="9" font="font0" id="p1_t216" reading_order_no="215" segment_no="8" tag_type="text">is much less sensitive to the reduction of resolution or over-</text>
+<text top="699" left="310" width="105" height="9" font="font0" id="p1_t217" reading_order_no="216" segment_no="8" tag_type="text">lapped area of two images.</text>
+<text top="710" left="325" width="225" height="9" font="font0" id="p1_t218" reading_order_no="217" segment_no="11" tag_type="text">According to its advantages, ACMI function is suitable</text>
+<text top="722" left="310" width="240" height="9" font="font0" id="p1_t219" reading_order_no="218" segment_no="11" tag_type="text">for the registration of low-resolution images or impaired im-</text>
+<text top="733" left="310" width="240" height="9" font="font0" id="p1_t220" reading_order_no="219" segment_no="11" tag_type="text">ages. One example is the registration with multiresolution</text>
 </page>
 </pdf2xml>

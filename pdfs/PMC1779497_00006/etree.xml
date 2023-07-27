@@ -6,16 +6,15 @@
 	<fontspec id="font2" size="8" family="AkzidenzGroteskBE" color="#000000"/>
 	<fontspec id="font3" size="7" family="AkzidenzGroteskBE-It,Italic" color="#000000"/>
 	<fontspec id="font4" size="8" family="AkzidenzGroteskBE" color="#ffffff"/>
-<text top="42" left="315" width="62" height="7" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text"><b>Available online</b></text>
-<text top="42" left="380" width="176" height="7" font="font2" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">http://breast-cancer-research.com/content/8/5/R56</text>
-<text top="758" left="511" width="45" height="7" font="font2" id="p1_t3" reading_order_no="9" segment_no="3" tag_type="text">Page 7 of 15</text>
-<text top="769" left="436" width="120" height="6" font="font3" id="p1_t4" reading_order_no="10" segment_no="4" tag_type="text"><i>(page number not for citation purposes)</i></text>
-<text top="85" left="57" width="31" height="7" font="font0" id="p1_t5" reading_order_no="2" segment_no="1" tag_type="title"><b>Figure 3</b></text>
-<text top="685" left="57" width="327" height="7" font="font4" id="p1_t6" reading_order_no="3" segment_no="2" tag_type="text">Heatmap of the top 50 genes from the luminal-specific and myoepithelial-specific transcriptomes</text>
-<text top="685" left="57" width="479" height="7" font="font2" id="p1_t7" reading_order_no="4" segment_no="2" tag_type="text">Heatmap of the top 50 genes from the luminal-specific and myoepithelial-specific transcriptomes. Genes were ranked in order of fold change </text>
-<text top="694" left="57" width="499" height="7" font="font2" id="p1_t8" reading_order_no="5" segment_no="2" tag_type="text">(myoepithelial over luminal) for each platform separately after which a median rank over all four platforms was determined. Genes are listed with their </text>
-<text top="704" left="57" width="496" height="7" font="font2" id="p1_t9" reading_order_no="6" segment_no="2" tag_type="text">human transcriptome database (HTR) cluster, HUGO Name, description and UniGene and RefSeq identifiers. Green corresponds to luminal-type; </text>
-<text top="713" left="57" width="489" height="7" font="font2" id="p1_t10" reading_order_no="7" segment_no="2" tag_type="text">red to myoepithelial-type; black indicates no corresponding microarray feature. Expression measurements obtained by: 1, Agilent; 2, 20 k brk; 3, </text>
-<text top="723" left="57" width="110" height="7" font="font2" id="p1_t11" reading_order_no="8" segment_no="2" tag_type="text">CodeLink; 4, Affymetrix platform.</text>
+<text top="42" left="315" width="241" height="7" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">Available online http://breast-cancer-research.com/content/8/5/R56<b>Available online</b></text>
+<text top="758" left="511" width="45" height="7" font="font2" id="p1_t2" reading_order_no="8" segment_no="3" tag_type="text">Page 7 of 15</text>
+<text top="769" left="436" width="120" height="6" font="font3" id="p1_t3" reading_order_no="9" segment_no="4" tag_type="text">(page number not for citation purposes)</text>
+<text top="85" left="57" width="31" height="7" font="font0" id="p1_t4" reading_order_no="1" segment_no="1" tag_type="title">Figure 3<i>(page number not for citation purposes)</i></text>
+<text top="685" left="57" width="327" height="7" font="font4" id="p1_t5" reading_order_no="2" segment_no="2" tag_type="text">Heatmap of the top 50 genes from the luminal-specific and myoepithelial-specific transcriptomes<b>Figure 3</b></text>
+<text top="685" left="57" width="479" height="7" font="font2" id="p1_t6" reading_order_no="3" segment_no="2" tag_type="text">Heatmap of the top 50 genes from the luminal-specific and myoepithelial-specific transcriptomes. Genes were ranked in order of fold change</text>
+<text top="694" left="57" width="499" height="7" font="font2" id="p1_t7" reading_order_no="4" segment_no="2" tag_type="text">(myoepithelial over luminal) for each platform separately after which a median rank over all four platforms was determined. Genes are listed with their</text>
+<text top="704" left="57" width="496" height="7" font="font2" id="p1_t8" reading_order_no="5" segment_no="2" tag_type="text">human transcriptome database (HTR) cluster, HUGO Name, description and UniGene and RefSeq identifiers. Green corresponds to luminal-type;</text>
+<text top="713" left="57" width="489" height="7" font="font2" id="p1_t9" reading_order_no="6" segment_no="2" tag_type="text">red to myoepithelial-type; black indicates no corresponding microarray feature. Expression measurements obtained by: 1, Agilent; 2, 20 k brk; 3,</text>
+<text top="723" left="57" width="110" height="7" font="font2" id="p1_t10" reading_order_no="7" segment_no="2" tag_type="text">CodeLink; 4, Affymetrix platform.</text>
 </page>
 </pdf2xml>

@@ -6,3 +6,4 @@ XML_NAME = 'etree.xml'
 LABELS_FILE_NAME = 'labels.json'
 PDF_FEATURES_PICKLE_NAME = 'pdf_features.pickle'
 FEATURES_PICKLE_NAME = 'features.pickle'
+PDF_NAME = "document.pdf"

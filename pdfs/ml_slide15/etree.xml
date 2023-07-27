@@ -324,7 +324,7 @@
 <text top="39" left="49" width="333" height="23" font="font7" id="p21_t3" reading_order_no="3" segment_no="0" tag_type="title">Negative Log-Likelihood Loss</text>
 <text top="103" left="43" width="602" height="20" font="font11" id="p21_t4" reading_order_no="4" segment_no="1" tag_type="text">Conditional probability of the samples (assuming independence)</text>
 <text top="285" left="43" width="180" height="20" font="font11" id="p21_t5" reading_order_no="5" segment_no="2" tag_type="text">Gibbs distribution:</text>
-<text top="418" left="43" width="446" height="20" font="font11" id="p21_t6" reading_order_no="0" segment_no="3" tag_type="formula">We get the NLL loss by dividing by P and Beta:</text>
+<text top="418" left="43" width="446" height="20" font="font11" id="p21_t6" reading_order_no="0" segment_no="3" tag_type="text">We get the NLL loss by dividing by P and Beta:</text>
 <text top="523" left="43" width="477" height="20" font="font11" id="p21_t7" reading_order_no="6" segment_no="4" tag_type="text">Reduces to the perceptron loss when Beta-&gt;infinity</text>
 </page>
 <page number="22" position="absolute" top="0" left="0" height="595" width="794">

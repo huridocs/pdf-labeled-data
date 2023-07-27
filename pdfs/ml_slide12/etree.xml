@@ -85,12 +85,12 @@
 	<fontspec id="font18" size="28" family="CMSY8" color="#000000"/>
 	<fontspec id="font19" size="21" family="CMR6" color="#000000"/>
 	<fontspec id="font20" size="38" family="CMMIB10" color="#000000"/>
-<text top="741" left="921" width="96" height="12" font="font2" id="p5_t1" reading_order_no="0" segment_no="6" tag_type="text">(Goodfellow 2016)</text>
+<text top="741" left="921" width="96" height="12" font="font2" id="p5_t1" reading_order_no="0" segment_no="5" tag_type="text">(Goodfellow 2016)</text>
 <text top="87" left="241" width="542" height="81" font="font6" id="p5_t2" reading_order_no="1" segment_no="0" tag_type="title">Minimax Game</text>
-<text top="452" left="38" width="873" height="37" font="font5" id="p5_t3" reading_order_no="2" segment_no="3" tag_type="list">-Equilibrium is a saddle point of the discriminator loss </text>
-<text top="502" left="38" width="626" height="37" font="font5" id="p5_t4" reading_order_no="3" segment_no="4" tag_type="list">-Resembles Jensen-Shannon divergence </text>
-<text top="552" left="38" width="977" height="37" font="font5" id="p5_t5" reading_order_no="4" segment_no="5" tag_type="list">-Generator minimizes the log-probability of the discriminator </text>
-<text top="602" left="38" width="205" height="37" font="font5" id="p5_t6" reading_order_no="5" segment_no="5" tag_type="list">being correct</text>
+<text top="452" left="38" width="873" height="37" font="font5" id="p5_t3" reading_order_no="2" segment_no="2" tag_type="list">-Equilibrium is a saddle point of the discriminator loss </text>
+<text top="502" left="38" width="626" height="37" font="font5" id="p5_t4" reading_order_no="3" segment_no="3" tag_type="list">-Resembles Jensen-Shannon divergence </text>
+<text top="552" left="38" width="977" height="37" font="font5" id="p5_t5" reading_order_no="4" segment_no="4" tag_type="list">-Generator minimizes the log-probability of the discriminator </text>
+<text top="602" left="38" width="205" height="37" font="font5" id="p5_t6" reading_order_no="5" segment_no="4" tag_type="list">being correct</text>
 <text top="253" left="69" width="21" height="35" font="font11" id="p5_t7" reading_order_no="6" segment_no="1" tag_type="formula">J</text>
 <text top="243" left="94" width="11" height="28" font="font12" id="p5_t8" reading_order_no="7" segment_no="1" tag_type="formula">(</text>
 <text top="244" left="106" width="24" height="25" font="font13" id="p5_t9" reading_order_no="8" segment_no="1" tag_type="formula">D</text>
@@ -119,15 +119,15 @@
 <text top="251" left="881" width="15" height="38" font="font14" id="p5_t32" reading_order_no="30" segment_no="1" tag_type="formula">(</text>
 <text top="262" left="896" width="21" height="18" font="font20" id="p5_t33" reading_order_no="31" segment_no="1" tag_type="formula">z</text>
 <text top="251" left="919" width="44" height="38" font="font14" id="p5_t34" reading_order_no="32" segment_no="1" tag_type="formula">)))</text>
-<text top="330" left="71" width="21" height="35" font="font11" id="p5_t35" reading_order_no="33" segment_no="2" tag_type="formula">J</text>
-<text top="320" left="96" width="11" height="28" font="font12" id="p5_t36" reading_order_no="34" segment_no="2" tag_type="formula">(</text>
-<text top="322" left="108" width="23" height="25" font="font13" id="p5_t37" reading_order_no="35" segment_no="2" tag_type="formula">G</text>
-<text top="320" left="131" width="11" height="28" font="font12" id="p5_t38" reading_order_no="36" segment_no="2" tag_type="formula">)</text>
-<text top="328" left="154" width="30" height="38" font="font14" id="p5_t39" reading_order_no="37" segment_no="2" tag_type="formula">=</text>
-<text top="330" left="224" width="21" height="35" font="font11" id="p5_t40" reading_order_no="38" segment_no="2" tag_type="formula">J</text>
-<text top="320" left="249" width="11" height="28" font="font12" id="p5_t41" reading_order_no="39" segment_no="2" tag_type="formula">(</text>
-<text top="322" left="261" width="24" height="25" font="font13" id="p5_t42" reading_order_no="40" segment_no="2" tag_type="formula">D</text>
-<text top="320" left="286" width="11" height="28" font="font12" id="p5_t43" reading_order_no="41" segment_no="2" tag_type="formula">)</text>
+<text top="330" left="71" width="21" height="35" font="font11" id="p5_t35" reading_order_no="33" segment_no="1" tag_type="formula">J</text>
+<text top="320" left="96" width="11" height="28" font="font12" id="p5_t36" reading_order_no="34" segment_no="1" tag_type="formula">(</text>
+<text top="322" left="108" width="23" height="25" font="font13" id="p5_t37" reading_order_no="35" segment_no="1" tag_type="formula">G</text>
+<text top="320" left="131" width="11" height="28" font="font12" id="p5_t38" reading_order_no="36" segment_no="1" tag_type="formula">)</text>
+<text top="328" left="154" width="30" height="38" font="font14" id="p5_t39" reading_order_no="37" segment_no="1" tag_type="formula">=</text>
+<text top="330" left="224" width="21" height="35" font="font11" id="p5_t40" reading_order_no="38" segment_no="1" tag_type="formula">J</text>
+<text top="320" left="249" width="11" height="28" font="font12" id="p5_t41" reading_order_no="39" segment_no="1" tag_type="formula">(</text>
+<text top="322" left="261" width="24" height="25" font="font13" id="p5_t42" reading_order_no="40" segment_no="1" tag_type="formula">D</text>
+<text top="320" left="286" width="11" height="28" font="font12" id="p5_t43" reading_order_no="41" segment_no="1" tag_type="formula">)</text>
 </page>
 <page number="6" position="absolute" top="0" left="0" height="768" width="1024">
 	<fontspec id="font21" size="36" family="CMMI10" color="#000000"/>
@@ -298,7 +298,7 @@
 	<fontspec id="font52" size="30" family="CMMIB8" color="#000000"/>
 	<fontspec id="font53" size="30" family="CMSY8" color="#000000"/>
 	<fontspec id="font54" size="30" family="CMMI8" color="#000000"/>
-<text top="741" left="921" width="96" height="12" font="font2" id="p11_t1" reading_order_no="2" segment_no="6" tag_type="text">(Goodfellow 2016)</text>
+<text top="741" left="921" width="96" height="12" font="font2" id="p11_t1" reading_order_no="2" segment_no="5" tag_type="text">(Goodfellow 2016)</text>
 <text top="87" left="205" width="615" height="81" font="font6" id="p11_t2" reading_order_no="3" segment_no="0" tag_type="title">Variational Bayes</text>
 <text top="251" left="104" width="30" height="25" font="font42" id="p11_t3" reading_order_no="0" segment_no="2" tag_type="figure">z</text>
 <text top="415" left="105" width="36" height="25" font="font43" id="p11_t4" reading_order_no="1" segment_no="2" tag_type="figure">x</text>
@@ -326,27 +326,27 @@
 <text top="243" left="891" width="11" height="41" font="font50" id="p11_t26" reading_order_no="25" segment_no="1" tag_type="formula">|</text>
 <text top="255" left="913" width="27" height="19" font="font47" id="p11_t27" reading_order_no="26" segment_no="1" tag_type="formula">x</text>
 <text top="243" left="940" width="32" height="41" font="font45" id="p11_t28" reading_order_no="27" segment_no="1" tag_type="formula">))</text>
-<text top="306" left="391" width="32" height="41" font="font45" id="p11_t29" reading_order_no="28" segment_no="3" tag_type="formula">=</text>
-<text top="309" left="423" width="27" height="42" font="font51" id="p11_t30" reading_order_no="29" segment_no="3" tag_type="formula">E</text>
-<text top="329" left="450" width="18" height="14" font="font52" id="p11_t31" reading_order_no="30" segment_no="3" tag_type="formula">z</text>
-<text top="329" left="469" width="25" height="24" font="font53" id="p11_t32" reading_order_no="31" segment_no="3" tag_type="formula">∼</text>
-<text top="323" left="494" width="14" height="26" font="font54" id="p11_t33" reading_order_no="32" segment_no="3" tag_type="formula">q</text>
-<text top="306" left="518" width="52" height="41" font="font45" id="p11_t34" reading_order_no="33" segment_no="3" tag_type="formula">log</text>
-<text top="309" left="578" width="21" height="36" font="font46" id="p11_t35" reading_order_no="34" segment_no="3" tag_type="formula">p</text>
-<text top="306" left="598" width="16" height="41" font="font45" id="p11_t36" reading_order_no="35" segment_no="3" tag_type="formula">(</text>
-<text top="318" left="614" width="27" height="19" font="font47" id="p11_t37" reading_order_no="36" segment_no="3" tag_type="formula">x</text>
-<text top="309" left="641" width="11" height="36" font="font46" id="p11_t38" reading_order_no="37" segment_no="3" tag_type="formula">,</text>
-<text top="318" left="659" width="23" height="19" font="font47" id="p11_t39" reading_order_no="38" segment_no="3" tag_type="formula">z</text>
-<text top="306" left="684" width="57" height="41" font="font45" id="p11_t40" reading_order_no="39" segment_no="3" tag_type="formula">) +</text>
-<text top="309" left="750" width="34" height="36" font="font46" id="p11_t41" reading_order_no="40" segment_no="3" tag_type="formula">H</text>
-<text top="306" left="787" width="16" height="41" font="font45" id="p11_t42" reading_order_no="41" segment_no="3" tag_type="formula">(</text>
-<text top="309" left="803" width="18" height="36" font="font46" id="p11_t43" reading_order_no="42" segment_no="3" tag_type="formula">q</text>
-<text top="306" left="823" width="16" height="41" font="font45" id="p11_t44" reading_order_no="43" segment_no="3" tag_type="formula">)</text>
-<text top="464" left="253" width="14" height="27" font="font4" id="p11_t45" reading_order_no="44" segment_no="4" tag_type="list">•</text>
-<text top="461" left="288" width="666" height="37" font="font5" id="p11_t46" reading_order_no="45" segment_no="4" tag_type="list">Same graphical model structure as GANs </text>
-<text top="514" left="253" width="14" height="27" font="font4" id="p11_t47" reading_order_no="46" segment_no="5" tag_type="list">•</text>
-<text top="511" left="288" width="510" height="37" font="font5" id="p11_t48" reading_order_no="47" segment_no="5" tag_type="list">Often limited by expressivity of </text>
-<text top="511" left="798" width="17" height="35" font="font29" id="p11_t49" reading_order_no="48" segment_no="5" tag_type="list"><i>q</i></text>
+<text top="306" left="391" width="32" height="41" font="font45" id="p11_t29" reading_order_no="28" segment_no="1" tag_type="formula">=</text>
+<text top="309" left="423" width="27" height="42" font="font51" id="p11_t30" reading_order_no="29" segment_no="1" tag_type="formula">E</text>
+<text top="329" left="450" width="18" height="14" font="font52" id="p11_t31" reading_order_no="30" segment_no="1" tag_type="formula">z</text>
+<text top="329" left="469" width="25" height="24" font="font53" id="p11_t32" reading_order_no="31" segment_no="1" tag_type="formula">∼</text>
+<text top="323" left="494" width="14" height="26" font="font54" id="p11_t33" reading_order_no="32" segment_no="1" tag_type="formula">q</text>
+<text top="306" left="518" width="52" height="41" font="font45" id="p11_t34" reading_order_no="33" segment_no="1" tag_type="formula">log</text>
+<text top="309" left="578" width="21" height="36" font="font46" id="p11_t35" reading_order_no="34" segment_no="1" tag_type="formula">p</text>
+<text top="306" left="598" width="16" height="41" font="font45" id="p11_t36" reading_order_no="35" segment_no="1" tag_type="formula">(</text>
+<text top="318" left="614" width="27" height="19" font="font47" id="p11_t37" reading_order_no="36" segment_no="1" tag_type="formula">x</text>
+<text top="309" left="641" width="11" height="36" font="font46" id="p11_t38" reading_order_no="37" segment_no="1" tag_type="formula">,</text>
+<text top="318" left="659" width="23" height="19" font="font47" id="p11_t39" reading_order_no="38" segment_no="1" tag_type="formula">z</text>
+<text top="306" left="684" width="57" height="41" font="font45" id="p11_t40" reading_order_no="39" segment_no="1" tag_type="formula">) +</text>
+<text top="309" left="750" width="34" height="36" font="font46" id="p11_t41" reading_order_no="40" segment_no="1" tag_type="formula">H</text>
+<text top="306" left="787" width="16" height="41" font="font45" id="p11_t42" reading_order_no="41" segment_no="1" tag_type="formula">(</text>
+<text top="309" left="803" width="18" height="36" font="font46" id="p11_t43" reading_order_no="42" segment_no="1" tag_type="formula">q</text>
+<text top="306" left="823" width="16" height="41" font="font45" id="p11_t44" reading_order_no="43" segment_no="1" tag_type="formula">)</text>
+<text top="464" left="253" width="14" height="27" font="font4" id="p11_t45" reading_order_no="44" segment_no="3" tag_type="list">•</text>
+<text top="461" left="288" width="666" height="37" font="font5" id="p11_t46" reading_order_no="45" segment_no="3" tag_type="list">Same graphical model structure as GANs </text>
+<text top="514" left="253" width="14" height="27" font="font4" id="p11_t47" reading_order_no="46" segment_no="4" tag_type="list">•</text>
+<text top="511" left="288" width="510" height="37" font="font5" id="p11_t48" reading_order_no="47" segment_no="4" tag_type="list">Often limited by expressivity of </text>
+<text top="511" left="798" width="17" height="35" font="font29" id="p11_t49" reading_order_no="48" segment_no="4" tag_type="list"><i>q</i></text>
 </page>
 <page number="12" position="absolute" top="0" left="0" height="768" width="1024">
 	<fontspec id="font55" size="146" family="CMMIB10" color="#000000"/>

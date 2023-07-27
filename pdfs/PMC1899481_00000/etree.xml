@@ -22,82 +22,61 @@
 	<fontspec id="font18" size="8" family="GillSans" color="#000000"/>
 	<fontspec id="font19" size="8" family="GillSans,Italic" color="#000000"/>
 	<fontspec id="font20" size="8" family="GillSans,Bold" color="#000000"/>
-<text top="44" left="508" width="16" height="9" font="font0" id="p1_t1" reading_order_no="1" segment_no="1" tag_type="title"><a href="http://www.biomedcentral.com/"><b>Bio</b></a></text>
-<text top="44" left="525" width="22" height="9" font="font1" id="p1_t2" reading_order_no="2" segment_no="1" tag_type="title"><a href="http://www.biomedcentral.com/"><b>Med</b></a></text>
-<text top="44" left="548" width="27" height="9" font="font3" id="p1_t3" reading_order_no="3" segment_no="1" tag_type="title"><a href="http://www.biomedcentral.com/">Central</a></text>
-<text top="756" left="503" width="51" height="10" font="font4" id="p1_t4" reading_order_no="75" segment_no="21" tag_type="text">Page 1 of 13</text>
-<text top="769" left="432" width="122" height="8" font="font5" id="p1_t5" reading_order_no="76" segment_no="22" tag_type="text"><i>(page number not for citation purposes)</i></text>
-<text top="35" left="55" width="229" height="23" font="font6" id="p1_t6" reading_order_no="0" segment_no="0" tag_type="title"><b>Nuclear Receptor</b></text>
-<text top="86" left="502" width="79" height="10" font="font7" id="p1_t7" reading_order_no="4" segment_no="2" tag_type="title"><a href="http://www.biomedcentral.com/info/about/charter/"><b>Open Access</b></a></text>
-<text top="87" left="55" width="40" height="13" font="font8" id="p1_t8" reading_order_no="5" segment_no="3" tag_type="title">Review</text>
-<text top="105" left="55" width="499" height="15" font="font9" id="p1_t9" reading_order_no="6" segment_no="4" tag_type="title"><b>The integration of lipid-sensing and anti-inflammatory effects: how </b></text>
-<text top="123" left="55" width="320" height="15" font="font9" id="p1_t10" reading_order_no="7" segment_no="4" tag_type="title"><b>the PPARs play a role in metabolic balance</b></text>
-<text top="140" left="55" width="123" height="14" font="font10" id="p1_t11" reading_order_no="8" segment_no="5" tag_type="text">Alistair VW Nunn*</text>
-<text top="140" left="178" width="6" height="10" font="font11" id="p1_t12" reading_order_no="9" segment_no="5" tag_type="text">1</text>
-<text top="140" left="184" width="79" height="14" font="font10" id="p1_t13" reading_order_no="10" segment_no="5" tag_type="text">, Jimmy Bell</text>
-<text top="140" left="263" width="6" height="10" font="font11" id="p1_t14" reading_order_no="11" segment_no="5" tag_type="text">1</text>
-<text top="140" left="269" width="114" height="14" font="font10" id="p1_t15" reading_order_no="12" segment_no="5" tag_type="text"> and Philip Barter</text>
-<text top="140" left="383" width="6" height="10" font="font11" id="p1_t16" reading_order_no="13" segment_no="5" tag_type="text">2</text>
-<text top="176" left="55" width="31" height="8" font="font12" id="p1_t17" reading_order_no="14" segment_no="6" tag_type="text">Address: </text>
-<text top="175" left="86" width="3" height="5" font="font13" id="p1_t18" reading_order_no="15" segment_no="6" tag_type="text">1</text>
-<text top="176" left="89" width="465" height="8" font="font12" id="p1_t19" reading_order_no="16" segment_no="6" tag_type="text">Molecular Imaging Group, Medical Research Council Clinical Sciences Centre, Imperial College, Hammersmith Campus, London W12 </text>
-<text top="185" left="55" width="47" height="8" font="font12" id="p1_t20" reading_order_no="17" segment_no="6" tag_type="text">0HS, UK and </text>
-<text top="185" left="102" width="3" height="5" font="font13" id="p1_t21" reading_order_no="18" segment_no="6" tag_type="text">2</text>
-<text top="185" left="106" width="254" height="8" font="font12" id="p1_t22" reading_order_no="19" segment_no="6" tag_type="text">The Heart Research Institute, Camperdown, Sydney, NSW 2050, Australia</text>
-<text top="200" left="55" width="463" height="8" font="font12" id="p1_t23" reading_order_no="20" segment_no="7" tag_type="text">Email: Alistair VW Nunn* - alistair.nunn@btconnect.com; Jimmy Bell - jimmy.bell@csc.mrc.ac.uk; Philip Barter - p.barter@hri.org.au</text>
-<text top="211" left="55" width="92" height="8" font="font12" id="p1_t24" reading_order_no="21" segment_no="8" tag_type="text">* Corresponding author  <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=17531095">  </a></text>
-<text top="359" left="112" width="44" height="10" font="font14" id="p1_t25" reading_order_no="34" segment_no="16" tag_type="title"><b>Abstract</b></text>
-<text top="374" left="112" width="386" height="9" font="font15" id="p1_t26" reading_order_no="35" segment_no="17" tag_type="text">The peroxisomal proliferating-activated receptors (PPARs) are lipid-sensing transcription factors</text>
-<text top="386" left="112" width="386" height="9" font="font15" id="p1_t27" reading_order_no="36" segment_no="17" tag_type="text">that have a role in embryonic development, but are primarily known for modulating energy</text>
-<text top="398" left="112" width="385" height="9" font="font15" id="p1_t28" reading_order_no="37" segment_no="17" tag_type="text">metabolism, lipid storage, and transport, as well as inflammation and wound healing. Currently,</text>
-<text top="409" left="112" width="386" height="9" font="font15" id="p1_t29" reading_order_no="38" segment_no="17" tag_type="text">there is no consensus as to the overall combined function of PPARs and why they evolved. We</text>
-<text top="421" left="112" width="386" height="9" font="font15" id="p1_t30" reading_order_no="39" segment_no="17" tag_type="text">hypothesize that the PPARs had to evolve to integrate lipid storage and burning with the ability to</text>
-<text top="433" left="112" width="386" height="9" font="font15" id="p1_t31" reading_order_no="40" segment_no="17" tag_type="text">reduce oxidative stress, as energy storage is essential for survival and resistance to injury/infection,</text>
-<text top="445" left="112" width="386" height="9" font="font15" id="p1_t32" reading_order_no="41" segment_no="17" tag_type="text">but the latter increases oxidative stress and may reduce median survival (functional longevity). In a</text>
-<text top="456" left="112" width="386" height="9" font="font15" id="p1_t33" reading_order_no="42" segment_no="17" tag_type="text">sense, PPARs may be an evolutionary solution to something we call the 'hypoxia-lipid' conundrum,</text>
-<text top="468" left="112" width="386" height="9" font="font15" id="p1_t34" reading_order_no="43" segment_no="17" tag_type="text">where the ability to store and burn fat is essential for survival, but is a 'double-edged sword', as fats</text>
-<text top="480" left="112" width="386" height="9" font="font15" id="p1_t35" reading_order_no="44" segment_no="17" tag_type="text">are potentially highly toxic. Ways in which PPARs may reduce oxidative stress involve modulation</text>
-<text top="492" left="112" width="385" height="9" font="font15" id="p1_t36" reading_order_no="45" segment_no="17" tag_type="text">of mitochondrial uncoupling protein (UCP) expression (thus reducing reactive oxygen species,</text>
-<text top="503" left="112" width="386" height="9" font="font15" id="p1_t37" reading_order_no="46" segment_no="17" tag_type="text">ROS), optimising forkhead box class O factor (FOXO) activity (by improving whole body insulin</text>
-<text top="515" left="112" width="386" height="9" font="font15" id="p1_t38" reading_order_no="47" segment_no="17" tag_type="text">sensitivity) and suppressing NFkB (at the transcriptional level). In light of this, we therefore</text>
-<text top="527" left="112" width="386" height="9" font="font15" id="p1_t39" reading_order_no="48" segment_no="17" tag_type="text">postulate that inflammation-induced PPAR downregulation engenders many of the signs and</text>
-<text top="539" left="112" width="385" height="9" font="font15" id="p1_t40" reading_order_no="49" segment_no="17" tag_type="text">symptoms of the metabolic syndrome, which shares many features with the acute phase response</text>
-<text top="550" left="112" width="386" height="9" font="font15" id="p1_t41" reading_order_no="50" segment_no="17" tag_type="text">(APR) and is the opposite of the phenotype associated with calorie restriction and high FOXO</text>
-<text top="562" left="112" width="386" height="9" font="font15" id="p1_t42" reading_order_no="51" segment_no="17" tag_type="text">activity. In genetically susceptible individuals (displaying the naturally mildly insulin resistant 'thrifty</text>
-<text top="574" left="112" width="386" height="9" font="font15" id="p1_t43" reading_order_no="52" segment_no="17" tag_type="text">genotype'), suboptimal PPAR activity may follow an exaggerated but natural adipose tissue-related</text>
-<text top="586" left="112" width="386" height="9" font="font15" id="p1_t44" reading_order_no="53" segment_no="17" tag_type="text">inflammatory signal induced by excessive calories and reduced physical activity, which normally</text>
-<text top="597" left="112" width="386" height="9" font="font15" id="p1_t45" reading_order_no="54" segment_no="17" tag_type="text">couples energy storage with the ability to mount an immune response. This is further worsened</text>
-<text top="609" left="112" width="385" height="9" font="font15" id="p1_t46" reading_order_no="55" segment_no="17" tag_type="text">when pancreatic decompensation occurs, resulting in gluco-oxidative stress and lipotoxicity,</text>
-<text top="621" left="112" width="386" height="9" font="font15" id="p1_t47" reading_order_no="56" segment_no="17" tag_type="text">increased inflammatory insulin resistance and oxidative stress. Reactivating PPARs may restore a</text>
-<text top="633" left="112" width="288" height="9" font="font15" id="p1_t48" reading_order_no="57" segment_no="17" tag_type="text">metabolic balance and help to adapt the phenotype to a modern lifestyle.</text>
-<text top="682" left="55" width="60" height="10" font="font14" id="p1_t49" reading_order_no="58" segment_no="18" tag_type="title"><b>Background</b></text>
-<text top="694" left="55" width="241" height="9" font="font16" id="p1_t50" reading_order_no="59" segment_no="20" tag_type="text">Peroxisomal proliferating-activated receptors (PPARs)</text>
-<text top="705" left="55" width="241" height="9" font="font16" id="p1_t51" reading_order_no="60" segment_no="20" tag_type="text">were discovered in 1990 with the cloning of a murine</text>
-<text top="717" left="55" width="241" height="9" font="font16" id="p1_t52" reading_order_no="61" segment_no="20" tag_type="text">orphan receptor that was activated by peroxisomal prolif-</text>
-<text top="729" left="55" width="241" height="9" font="font16" id="p1_t53" reading_order_no="62" segment_no="20" tag_type="text">erating compounds (such as the fibrates), hence their</text>
-<text top="682" left="313" width="241" height="9" font="font16" id="p1_t54" reading_order_no="63" segment_no="19" tag_type="text"><a href="">name [1]. They probably arose during metazoa</a>n evolu-</text>
-<text top="694" left="313" width="226" height="9" font="font16" id="p1_t55" reading_order_no="64" segment_no="19" tag_type="text">tion and at least three isoforms have been identified, </text>
-<text top="691" left="539" width="6" height="12" font="font17" id="p1_t56" reading_order_no="65" segment_no="19" tag_type="text">α</text>
-<text top="694" left="545" width="5" height="9" font="font16" id="p1_t57" reading_order_no="66" segment_no="19" tag_type="text">, </text>
-<text top="691" left="550" width="4" height="12" font="font17" id="p1_t58" reading_order_no="67" segment_no="19" tag_type="text">γ</text>
-<text top="705" left="313" width="19" height="9" font="font16" id="p1_t59" reading_order_no="68" segment_no="19" tag_type="text">and </text>
-<text top="702" left="332" width="5" height="12" font="font17" id="p1_t60" reading_order_no="69" segment_no="19" tag_type="text">δ</text>
-<text top="705" left="336" width="109" height="9" font="font16" id="p1_t61" reading_order_no="70" segment_no="19" tag_type="text"> (also referred to as PPAR </text>
-<text top="702" left="445" width="5" height="12" font="font17" id="p1_t62" reading_order_no="71" segment_no="19" tag_type="text">β</text>
-<text top="705" left="451" width="103" height="9" font="font16" id="p1_t63" reading_order_no="72" segment_no="19" tag_type="text">), each encoded by a dif-</text>
-<text top="717" left="313" width="241" height="9" font="font16" id="p1_t64" reading_order_no="73" segment_no="19" tag_type="text">ferent gene<a href=""> [2]. </a>They are ligand-activated transcription fac-</text>
-<text top="729" left="313" width="241" height="9" font="font16" id="p1_t65" reading_order_no="74" segment_no="19" tag_type="text">tors that act as lipid sensors and work as dimers with the</text>
-<text top="254" left="55" width="76" height="7" font="font18" id="p1_t66" reading_order_no="22" segment_no="9" tag_type="text">Published: 25 May 2007</text>
-<text top="268" left="55" width="52" height="7" font="font19" id="p1_t67" reading_order_no="23" segment_no="12" tag_type="text"><i>Nuclear Receptor</i></text>
-<text top="268" left="108" width="22" height="7" font="font18" id="p1_t68" reading_order_no="24" segment_no="12" tag_type="text"> 2007, </text>
-<text top="268" left="130" width="4" height="7" font="font20" id="p1_t69" reading_order_no="25" segment_no="12" tag_type="text"><b>5</b></text>
-<text top="268" left="134" width="6" height="7" font="font18" id="p1_t70" reading_order_no="26" segment_no="12" tag_type="text">:1</text>
-<text top="268" left="149" width="88" height="7" font="font18" id="p1_t71" reading_order_no="27" segment_no="12" tag_type="text">doi:10.1186/1478-1336-5-1</text>
-<text top="254" left="310" width="90" height="7" font="font18" id="p1_t72" reading_order_no="32" segment_no="10" tag_type="text">Received: 17 October 2006</text>
-<text top="263" left="310" width="76" height="7" font="font18" id="p1_t73" reading_order_no="33" segment_no="11" tag_type="text">Accepted: 25 May 2007</text>
-<text top="282" left="55" width="249" height="7" font="font18" id="p1_t74" reading_order_no="28" segment_no="13" tag_type="text"><a href="http://www.nuclear-receptor.com/content/5/1/1">This article is available from: http://www.nuclear-receptor.com/content/5/1/1</a></text>
-<text top="297" left="55" width="161" height="7" font="font18" id="p1_t75" reading_order_no="29" segment_no="14" tag_type="text">© 2007 Nunn et al; licensee BioMed Central Ltd. </text>
-<text top="306" left="55" width="492" height="7" font="font18" id="p1_t76" reading_order_no="30" segment_no="15" tag_type="text">This is an Open Access article distributed under the terms of the Creative Commons Attribution Licens<a href="http://creativecommons.org/licenses/by/2.0">e (http://creativecommons.org/licenses/by/2.0), </a></text>
-<text top="315" left="55" width="400" height="7" font="font18" id="p1_t77" reading_order_no="31" segment_no="15" tag_type="text">which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</text>
+<text top="44" left="508" width="67" height="9" font="font0" id="p1_t1" reading_order_no="1" segment_no="1" tag_type="title">Bio Med Central<a href="http://www.biomedcentral.com/"><b>Bio</b></a></text>
+<text top="756" left="503" width="51" height="10" font="font4" id="p1_t2" reading_order_no="54" segment_no="21" tag_type="text">Page 1 of 13<a href="http://www.biomedcentral.com/"><b>Med</b></a></text>
+<text top="769" left="432" width="122" height="8" font="font5" id="p1_t3" reading_order_no="55" segment_no="22" tag_type="text">(page number not for citation purposes)<a href="http://www.biomedcentral.com/">Central</a></text>
+<text top="35" left="55" width="229" height="23" font="font6" id="p1_t4" reading_order_no="0" segment_no="0" tag_type="title">Nuclear Receptor</text>
+<text top="86" left="502" width="79" height="10" font="font7" id="p1_t5" reading_order_no="2" segment_no="2" tag_type="title">Open Access<i>(page number not for citation purposes)</i></text>
+<text top="87" left="55" width="40" height="13" font="font8" id="p1_t6" reading_order_no="3" segment_no="3" tag_type="title">Review<b>Nuclear Receptor</b></text>
+<text top="105" left="55" width="499" height="15" font="font9" id="p1_t7" reading_order_no="4" segment_no="4" tag_type="title">The integration of lipid-sensing and anti-inflammatory effects: how<a href="http://www.biomedcentral.com/info/about/charter/"><b>Open Access</b></a></text>
+<text top="123" left="55" width="320" height="15" font="font9" id="p1_t8" reading_order_no="5" segment_no="4" tag_type="title">the PPARs play a role in metabolic balance</text>
+<text top="140" left="55" width="334" height="14" font="font10" id="p1_t9" reading_order_no="6" segment_no="5" tag_type="text">Alistair VW Nunn* 1 , Jimmy Bell 1 and Philip Barter 2<b>The integration of lipid-sensing and anti-inflammatory effects: how </b></text>
+<text top="175" left="55" width="499" height="9" font="font12" id="p1_t10" reading_order_no="7" segment_no="6" tag_type="text">Address: 1 Molecular Imaging Group, Medical Research Council Clinical Sciences Centre, Imperial College, Hammersmith Campus, London W12<b>the PPARs play a role in metabolic balance</b></text>
+<text top="185" left="55" width="305" height="8" font="font12" id="p1_t11" reading_order_no="8" segment_no="6" tag_type="text">0HS, UK and 2 The Heart Research Institute, Camperdown, Sydney, NSW 2050, Australia</text>
+<text top="200" left="55" width="463" height="8" font="font12" id="p1_t12" reading_order_no="9" segment_no="7" tag_type="text">Email: Alistair VW Nunn* - alistair.nunn@btconnect.com; Jimmy Bell - jimmy.bell@csc.mrc.ac.uk; Philip Barter - p.barter@hri.org.au</text>
+<text top="211" left="55" width="92" height="8" font="font12" id="p1_t13" reading_order_no="10" segment_no="8" tag_type="text">* Corresponding author</text>
+<text top="359" left="112" width="44" height="10" font="font14" id="p1_t14" reading_order_no="20" segment_no="16" tag_type="title">Abstract</text>
+<text top="374" left="112" width="386" height="9" font="font15" id="p1_t15" reading_order_no="21" segment_no="17" tag_type="text">The peroxisomal proliferating-activated receptors (PPARs) are lipid-sensing transcription factors</text>
+<text top="386" left="112" width="386" height="9" font="font15" id="p1_t16" reading_order_no="22" segment_no="17" tag_type="text">that have a role in embryonic development, but are primarily known for modulating energy</text>
+<text top="398" left="112" width="385" height="9" font="font15" id="p1_t17" reading_order_no="23" segment_no="17" tag_type="text">metabolism, lipid storage, and transport, as well as inflammation and wound healing. Currently,</text>
+<text top="409" left="112" width="386" height="9" font="font15" id="p1_t18" reading_order_no="24" segment_no="17" tag_type="text">there is no consensus as to the overall combined function of PPARs and why they evolved. We</text>
+<text top="421" left="112" width="386" height="9" font="font15" id="p1_t19" reading_order_no="25" segment_no="17" tag_type="text">hypothesize that the PPARs had to evolve to integrate lipid storage and burning with the ability to</text>
+<text top="433" left="112" width="386" height="9" font="font15" id="p1_t20" reading_order_no="26" segment_no="17" tag_type="text">reduce oxidative stress, as energy storage is essential for survival and resistance to injury/infection,</text>
+<text top="445" left="112" width="386" height="9" font="font15" id="p1_t21" reading_order_no="27" segment_no="17" tag_type="text">but the latter increases oxidative stress and may reduce median survival (functional longevity). In a</text>
+<text top="456" left="112" width="386" height="9" font="font15" id="p1_t22" reading_order_no="28" segment_no="17" tag_type="text">sense, PPARs may be an evolutionary solution to something we call the 'hypoxia-lipid' conundrum,</text>
+<text top="468" left="112" width="386" height="9" font="font15" id="p1_t23" reading_order_no="29" segment_no="17" tag_type="text">where the ability to store and burn fat is essential for survival, but is a 'double-edged sword', as fats</text>
+<text top="480" left="112" width="386" height="9" font="font15" id="p1_t24" reading_order_no="30" segment_no="17" tag_type="text">are potentially highly toxic. Ways in which PPARs may reduce oxidative stress involve modulation<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=17531095">  </a></text>
+<text top="492" left="112" width="385" height="9" font="font15" id="p1_t25" reading_order_no="31" segment_no="17" tag_type="text">of mitochondrial uncoupling protein (UCP) expression (thus reducing reactive oxygen species,<b>Abstract</b></text>
+<text top="503" left="112" width="386" height="9" font="font15" id="p1_t26" reading_order_no="32" segment_no="17" tag_type="text">ROS), optimising forkhead box class O factor (FOXO) activity (by improving whole body insulin</text>
+<text top="515" left="112" width="386" height="9" font="font15" id="p1_t27" reading_order_no="33" segment_no="17" tag_type="text">sensitivity) and suppressing NFkB (at the transcriptional level). In light of this, we therefore</text>
+<text top="527" left="112" width="386" height="9" font="font15" id="p1_t28" reading_order_no="34" segment_no="17" tag_type="text">postulate that inflammation-induced PPAR downregulation engenders many of the signs and</text>
+<text top="539" left="112" width="385" height="9" font="font15" id="p1_t29" reading_order_no="35" segment_no="17" tag_type="text">symptoms of the metabolic syndrome, which shares many features with the acute phase response</text>
+<text top="550" left="112" width="386" height="9" font="font15" id="p1_t30" reading_order_no="36" segment_no="17" tag_type="text">(APR) and is the opposite of the phenotype associated with calorie restriction and high FOXO</text>
+<text top="562" left="112" width="386" height="9" font="font15" id="p1_t31" reading_order_no="37" segment_no="17" tag_type="text">activity. In genetically susceptible individuals (displaying the naturally mildly insulin resistant 'thrifty</text>
+<text top="574" left="112" width="386" height="9" font="font15" id="p1_t32" reading_order_no="38" segment_no="17" tag_type="text">genotype'), suboptimal PPAR activity may follow an exaggerated but natural adipose tissue-related</text>
+<text top="586" left="112" width="386" height="9" font="font15" id="p1_t33" reading_order_no="39" segment_no="17" tag_type="text">inflammatory signal induced by excessive calories and reduced physical activity, which normally</text>
+<text top="597" left="112" width="386" height="9" font="font15" id="p1_t34" reading_order_no="40" segment_no="17" tag_type="text">couples energy storage with the ability to mount an immune response. This is further worsened</text>
+<text top="609" left="112" width="385" height="9" font="font15" id="p1_t35" reading_order_no="41" segment_no="17" tag_type="text">when pancreatic decompensation occurs, resulting in gluco-oxidative stress and lipotoxicity,</text>
+<text top="621" left="112" width="386" height="9" font="font15" id="p1_t36" reading_order_no="42" segment_no="17" tag_type="text">increased inflammatory insulin resistance and oxidative stress. Reactivating PPARs may restore a</text>
+<text top="633" left="112" width="288" height="9" font="font15" id="p1_t37" reading_order_no="43" segment_no="17" tag_type="text">metabolic balance and help to adapt the phenotype to a modern lifestyle.</text>
+<text top="682" left="55" width="60" height="10" font="font14" id="p1_t38" reading_order_no="44" segment_no="18" tag_type="title">Background</text>
+<text top="694" left="55" width="241" height="9" font="font16" id="p1_t39" reading_order_no="45" segment_no="20" tag_type="text">Peroxisomal proliferating-activated receptors (PPARs)</text>
+<text top="705" left="55" width="241" height="9" font="font16" id="p1_t40" reading_order_no="46" segment_no="20" tag_type="text">were discovered in 1990 with the cloning of a murine</text>
+<text top="717" left="55" width="241" height="9" font="font16" id="p1_t41" reading_order_no="47" segment_no="20" tag_type="text">orphan receptor that was activated by peroxisomal prolif-</text>
+<text top="729" left="55" width="241" height="9" font="font16" id="p1_t42" reading_order_no="48" segment_no="20" tag_type="text">erating compounds (such as the fibrates), hence their</text>
+<text top="682" left="313" width="241" height="9" font="font16" id="p1_t43" reading_order_no="49" segment_no="19" tag_type="text">name [1]. They probably arose during metazoan evolu-</text>
+<text top="691" left="313" width="241" height="12" font="font16" id="p1_t44" reading_order_no="50" segment_no="19" tag_type="text">tion and at least three isoforms have been identified, α , γ</text>
+<text top="702" left="313" width="241" height="12" font="font16" id="p1_t45" reading_order_no="51" segment_no="19" tag_type="text">and δ (also referred to as PPAR β ), each encoded by a dif-</text>
+<text top="717" left="313" width="241" height="9" font="font16" id="p1_t46" reading_order_no="52" segment_no="19" tag_type="text">ferent gene [2]. They are ligand-activated transcription fac-</text>
+<text top="729" left="313" width="241" height="9" font="font16" id="p1_t47" reading_order_no="53" segment_no="19" tag_type="text">tors that act as lipid sensors and work as dimers with the</text>
+<text top="254" left="55" width="76" height="7" font="font18" id="p1_t48" reading_order_no="11" segment_no="9" tag_type="text">Published: 25 May 2007</text>
+<text top="268" left="55" width="85" height="7" font="font19" id="p1_t49" reading_order_no="12" segment_no="12" tag_type="text">Nuclear Receptor 2007, 5 :1<b>Background</b></text>
+<text top="268" left="149" width="88" height="7" font="font18" id="p1_t50" reading_order_no="13" segment_no="12" tag_type="text">doi:10.1186/1478-1336-5-1</text>
+<text top="254" left="310" width="90" height="7" font="font18" id="p1_t51" reading_order_no="18" segment_no="10" tag_type="text">Received: 17 October 2006</text>
+<text top="263" left="310" width="76" height="7" font="font18" id="p1_t52" reading_order_no="19" segment_no="11" tag_type="text">Accepted: 25 May 2007</text>
+<text top="282" left="55" width="249" height="7" font="font18" id="p1_t53" reading_order_no="14" segment_no="13" tag_type="text">This article is available from: http://www.nuclear-receptor.com/content/5/1/1</text>
+<text top="297" left="55" width="161" height="7" font="font18" id="p1_t54" reading_order_no="15" segment_no="14" tag_type="text">© 2007 Nunn et al; licensee BioMed Central Ltd.<a href="">name [1]. They probably arose during metazoa</a>n evolu-</text>
+<text top="306" left="55" width="492" height="7" font="font18" id="p1_t55" reading_order_no="16" segment_no="15" tag_type="text">This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0),</text>
+<text top="315" left="55" width="400" height="7" font="font18" id="p1_t56" reading_order_no="17" segment_no="15" tag_type="text">which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</text>
 </page>
 </pdf2xml>

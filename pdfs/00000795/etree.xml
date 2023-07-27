@@ -12,119 +12,119 @@
 	<fontspec id="font8" size="48" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font9" size="47" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font10" size="406" family="GlyphLessFont" color="#000000"/>
-<text top="252" left="138" width="968" height="61" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">pares  it  with  the  packets  in  the  buffer  to  see  if  there’s  a </text>
-<text top="303" left="139" width="968" height="59" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">match.  If  there  is,  the  packet  has  been  forwarded  and </text>
-<text top="353" left="138" width="968" height="60" font="font1" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="text">the  watchdog  removes  the  packet  from  the  buffer.  If  a </text>
-<text top="404" left="139" width="968" height="58" font="font1" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="text">packet  stays  in  the  buffer  for  longer  than  a  certain </text>
-<text top="454" left="138" width="968" height="58" font="font1" id="p1_t5" reading_order_no="4" segment_no="0" tag_type="text">period,  the  watchdog  increases  a  failure  count  for  the </text>
-<text top="504" left="138" width="969" height="59" font="font1" id="p1_t6" reading_order_no="5" segment_no="0" tag_type="text">node  responsible  for  forwarding  the  packet.  If  the  count </text>
-<text top="554" left="139" width="968" height="59" font="font1" id="p1_t7" reading_order_no="6" segment_no="0" tag_type="text">exceeds  a  threshold  value,  the  watchdog  considers  that </text>
-<text top="603" left="138" width="376" height="57" font="font1" id="p1_t8" reading_order_no="7" segment_no="0" tag_type="text">node  as  misbehaving. </text>
-<text top="656" left="175" width="932" height="57" font="font2" id="p1_t9" reading_order_no="8" segment_no="1" tag_type="text">A  path  rater  at  a  node  maintains  a  rating  for  every </text>
-<text top="704" left="138" width="968" height="59" font="font1" id="p1_t10" reading_order_no="9" segment_no="1" tag_type="text">other  node  that  it  knows  in  the  network.  To  pick  a  route </text>
-<text top="754" left="139" width="967" height="59" font="font1" id="p1_t11" reading_order_no="10" segment_no="1" tag_type="text">that  is  most  likely  to  be  reliable,  it  computes  a  path  met- </text>
-<text top="804" left="138" width="968" height="59" font="font1" id="p1_t12" reading_order_no="11" segment_no="1" tag_type="text">ric  by  averaging  the  rating  of  the  nodes  on  the  paths  and </text>
-<text top="854" left="138" width="968" height="59" font="font1" id="p1_t13" reading_order_no="12" segment_no="1" tag_type="text">chooses  the  path  with  the  highest  metric.  It  assigns  mis- </text>
-<text top="904" left="139" width="967" height="59" font="font1" id="p1_t14" reading_order_no="13" segment_no="1" tag_type="text">behaving  nodes  a  very  low  rating,  and  thus  excludes </text>
-<text top="953" left="138" width="337" height="58" font="font0" id="p1_t15" reading_order_no="14" segment_no="1" tag_type="text">them  from  routing. </text>
-<text top="1005" left="176" width="930" height="58" font="font1" id="p1_t16" reading_order_no="15" segment_no="2" tag_type="text">Because  of  ad  hoc  networks’  characteristics,  the  proposed </text>
-<text top="1056" left="139" width="636" height="57" font="font3" id="p1_t17" reading_order_no="16" segment_no="2" tag_type="text">approaches  can’t  accurately  detect  mis- </text>
-<text top="1105" left="139" width="635" height="58" font="font3" id="p1_t18" reading_order_no="17" segment_no="2" tag_type="text">behaving  nodes  in  situations  such  as </text>
-<text top="1153" left="138" width="637" height="60" font="font0" id="p1_t19" reading_order_no="18" segment_no="2" tag_type="text">packet  collisions  and  collusion  of  mali- </text>
-<text top="1205" left="138" width="214" height="55" font="font3" id="p1_t20" reading_order_no="19" segment_no="2" tag_type="text">cious  nodes.’ </text>
-<text top="1301" left="140" width="430" height="61" font="font4" id="p1_t21" reading_order_no="20" segment_no="10" tag_type="title">Evidence-based  trust </text>
-<text top="1358" left="139" width="273" height="51" font="font5" id="p1_t22" reading_order_no="21" segment_no="10" tag_type="title">management </text>
-<text top="1405" left="176" width="598" height="58" font="font1" id="p1_t23" reading_order_no="22" segment_no="11" tag_type="text">Eschenauer  and  his  colleagues  pre- </text>
-<text top="1454" left="138" width="636" height="59" font="font1" id="p1_t24" reading_order_no="23" segment_no="11" tag_type="text">sent  a  framework  for  trust  manage- </text>
-<text top="1504" left="138" width="637" height="59" font="font1" id="p1_t25" reading_order_no="24" segment_no="11" tag_type="text">ment  in  ad  hoc  networks  based  on </text>
-<text top="1556" left="138" width="971" height="58" font="font3" id="p1_t26" reading_order_no="25" segment_no="11" tag_type="text">evidence  distribution.'!  They  consider  trust  as  a  set  of </text>
-<text top="1605" left="138" width="967" height="58" font="font1" id="p1_t27" reading_order_no="26" segment_no="11" tag_type="text">relationships  established  with  the  support  of  evidence. </text>
-<text top="1655" left="138" width="969" height="58" font="font1" id="p1_t28" reading_order_no="27" segment_no="11" tag_type="text">In  their  framework,  evidence  can  be  anything  a  policy </text>
-<text top="1705" left="138" width="968" height="58" font="font1" id="p1_t29" reading_order_no="28" segment_no="11" tag_type="text">requires  to  establish  a  trust  relationship,  such  as  public </text>
-<text top="1755" left="138" width="968" height="59" font="font1" id="p1_t30" reading_order_no="29" segment_no="11" tag_type="text">key,  address,  and  identity.  Any  entity  can  generate  evi- </text>
-<text top="1804" left="138" width="968" height="60" font="font1" id="p1_t31" reading_order_no="30" segment_no="11" tag_type="text">dence  for  itself  and  for  other  entities.  Evidence  can  be </text>
-<text top="1855" left="138" width="968" height="59" font="font1" id="p1_t32" reading_order_no="31" segment_no="11" tag_type="text">obtained  either  online  or  offline,  such  as  through  phys- </text>
-<text top="1904" left="138" width="211" height="57" font="font1" id="p1_t33" reading_order_no="32" segment_no="11" tag_type="text">ical  contact. </text>
-<text top="1955" left="176" width="930" height="58" font="font1" id="p1_t34" reading_order_no="33" segment_no="12" tag_type="text">One  way  to  generate  evidence  is  through  public-key </text>
-<text top="2006" left="138" width="968" height="57" font="font1" id="p1_t35" reading_order_no="34" segment_no="12" tag_type="text">cryptography.  An  entity  can  create  a  piece  of  evidence, </text>
-<text top="2055" left="138" width="967" height="59" font="font1" id="p1_t36" reading_order_no="35" segment_no="12" tag_type="text">define  its  valid  time,  sign  it  with  the  entity’s  private  key, </text>
-<text top="2106" left="139" width="967" height="57" font="font1" id="p1_t37" reading_order_no="36" segment_no="12" tag_type="text">and  disseminate  it  to  others.  To  verify  this  piece  of  evi- </text>
-<text top="2155" left="138" width="969" height="60" font="font1" id="p1_t38" reading_order_no="37" segment_no="12" tag_type="text">dence,  other  entities  will  need  the  originator’s  public  key </text>
-<text top="2207" left="139" width="966" height="56" font="font2" id="p1_t39" reading_order_no="38" segment_no="12" tag_type="text">and  certificate.  In  the  Internet,  entities  can  use  X.509. </text>
-<text top="2258" left="138" width="967" height="55" font="font6" id="p1_t40" reading_order_no="39" segment_no="12" tag_type="text">However,  in  an  ad  hoc  network,  where  there  is  no  CA, </text>
-<text top="2305" left="137" width="968" height="59" font="font1" id="p1_t41" reading_order_no="40" segment_no="12" tag_type="text">PGP  might  be  an  option.  An  entity  can  invalidate  its  evi- </text>
-<text top="2358" left="138" width="967" height="54" font="font6" id="p1_t42" reading_order_no="41" segment_no="12" tag_type="text">dence  by  generating  a  revocation  certificate  at  any  time. </text>
-<text top="2405" left="175" width="931" height="58" font="font1" id="p1_t43" reading_order_no="42" segment_no="13" tag_type="text">Eschenauer  and  colleagues’  approach  also  lets  an  entity </text>
-<text top="2456" left="137" width="969" height="59" font="font1" id="p1_t44" reading_order_no="43" segment_no="13" tag_type="text">revoke  other  entities’  evidence  by  generating  and  dis- </text>
-<text top="2506" left="138" width="969" height="58" font="font1" id="p1_t45" reading_order_no="44" segment_no="13" tag_type="text">seminating  contradictory  evidence.  However,  allowing </text>
-<text top="2556" left="138" width="968" height="59" font="font1" id="p1_t46" reading_order_no="45" segment_no="13" tag_type="text">such  actions  is  open  to  attack.  A  malicious  entity  can  dis- </text>
-<text top="2606" left="137" width="969" height="58" font="font1" id="p1_t47" reading_order_no="46" segment_no="13" tag_type="text">tribute  bogus  evidence  to  invalidate  other  nodes’  legiti- </text>
-<text top="2658" left="138" width="969" height="56" font="font2" id="p1_t48" reading_order_no="47" segment_no="13" tag_type="text">mate  evidence,  which  can  cause  chaos  in  the  network.  A </text>
-<text top="2706" left="138" width="968" height="59" font="font1" id="p1_t49" reading_order_no="48" segment_no="13" tag_type="text">malicious  entity  might  generate  fake  evidence  for  its  own </text>
-<text top="2756" left="138" width="919" height="58" font="font3" id="p1_t50" reading_order_no="49" segment_no="13" tag_type="text">purposes—for  example,  to  impersonate  other  nodes. </text>
-<text top="2807" left="175" width="931" height="57" font="font3" id="p1_t51" reading_order_no="50" segment_no="14" tag_type="text">To  prevent  these  attacks,  Eschenauer  and  his  col- </text>
-<text top="2856" left="138" width="968" height="59" font="font1" id="p1_t52" reading_order_no="51" segment_no="14" tag_type="text">leagues  proposed  using  redundant  and  independent  evi- </text>
-<text top="2906" left="138" width="968" height="58" font="font1" id="p1_t53" reading_order_no="52" segment_no="14" tag_type="text">dence  from  various  sources.  However,  they  didn’t  discuss </text>
-<text top="2955" left="138" width="969" height="60" font="font0" id="p1_t54" reading_order_no="53" segment_no="14" tag_type="text">how  to  evaluate  evidence,  which  is  important  for  trust </text>
-<text top="3005" left="138" width="968" height="60" font="font0" id="p1_t55" reading_order_no="54" segment_no="14" tag_type="text">management.  Also,  because  each  node’s  trustworthiness </text>
-<text top="3115" left="0" width="258" height="45" font="font7" id="p1_t56" reading_order_no="113" segment_no="21" tag_type="text">aT)  Computer </text>
-<text top="1180" left="1031" width="216" height="61" font="font4" id="p1_t57" reading_order_no="55" segment_no="9" tag_type="text">One  way  to </text>
-<text top="1243" left="958" width="360" height="65" font="font8" id="p1_t58" reading_order_no="56" segment_no="9" tag_type="text">generate  evidence </text>
-<text top="1309" left="933" width="413" height="67" font="font8" id="p1_t59" reading_order_no="57" segment_no="9" tag_type="text">Reel eel eC  Coy </text>
-<text top="1378" left="1001" width="276" height="63" font="font9" id="p1_t60" reading_order_no="58" segment_no="9" tag_type="text">acyl </text>
-<text top="1378" left="1162" width="115" height="63" font="font9" id="p1_t61" reading_order_no="59" segment_no="9" tag_type="text">e-) ia </text>
-<text top="257" left="1161" width="967" height="58" font="font3" id="p1_t62" reading_order_no="60" segment_no="3" tag_type="text">is  not  dynamically  adjusted,  the  framework  is  mainly </text>
-<text top="308" left="1161" width="445" height="55" font="font3" id="p1_t63" reading_order_no="61" segment_no="3" tag_type="text">useful  for  authentication. </text>
-<text top="405" left="1159" width="783" height="60" font="font0" id="p1_t64" reading_order_no="62" segment_no="4" tag_type="title">TRUST  MANAGEMENT  IN  E-COMMERCE </text>
-<text top="459" left="1197" width="931" height="57" font="font2" id="p1_t65" reading_order_no="63" segment_no="5" tag_type="text">Trust  or  reputation  management  is  an  important  issue </text>
-<text top="508" left="1161" width="966" height="58" font="font3" id="p1_t66" reading_order_no="64" segment_no="5" tag_type="text">in  e-commerce,  where  traders  might  have  never  met  and </text>
-<text top="557" left="1161" width="967" height="60" font="font1" id="p1_t67" reading_order_no="65" segment_no="5" tag_type="text">know  nothing  about  each  other’s  trustworthiness.  This </text>
-<text top="608" left="1160" width="967" height="59" font="font3" id="p1_t68" reading_order_no="66" segment_no="5" tag_type="text">lack  of  information  about  traders’  reputations  causes </text>
-<text top="657" left="1161" width="966" height="60" font="font1" id="p1_t69" reading_order_no="67" segment_no="5" tag_type="text">uncertainty  and  mistrust,  which  influences  the  e-mar- </text>
-<text top="708" left="1160" width="441" height="57" font="font3" id="p1_t70" reading_order_no="68" segment_no="5" tag_type="text">ket’s  economic  efficiency. </text>
-<text top="757" left="1199" width="929" height="60" font="font0" id="p1_t71" reading_order_no="69" segment_no="6" tag_type="text">Considerable  research  has  explored  trust  and  reputa- </text>
-<text top="809" left="1160" width="967" height="58" font="font3" id="p1_t72" reading_order_no="70" segment_no="6" tag_type="text">tion  management  in  e-commerce.  One  possibility  is  to </text>
-<text top="858" left="1162" width="966" height="59" font="font3" id="p1_t73" reading_order_no="71" segment_no="6" tag_type="text">build  a  centralized  system,  like  a  credit  history  agency,  to </text>
-<text top="908" left="1160" width="967" height="58" font="font3" id="p1_t74" reading_order_no="72" segment_no="6" tag_type="text">manage  users’  reputations.  However,  this  approach </text>
-<text top="957" left="1160" width="765" height="59" font="font1" id="p1_t75" reading_order_no="73" segment_no="6" tag_type="text">neglects  personal  preferences  and  standards. </text>
-<text top="1008" left="1198" width="929" height="59" font="font3" id="p1_t76" reading_order_no="74" segment_no="7" tag_type="text">Online  auction  and  shopping  sites,  such  as  eBay  and </text>
-<text top="1058" left="1503" width="625" height="60" font="font0" id="p1_t77" reading_order_no="75" segment_no="7" tag_type="text">Amazon.com,  use  reputation  man- </text>
-<text top="1111" left="1503" width="625" height="56" font="font2" id="p1_t78" reading_order_no="76" segment_no="7" tag_type="text">agement.  eBay  assigns  sellers  a  rat- </text>
-<text top="1161" left="1504" width="624" height="54" font="font6" id="p1_t79" reading_order_no="77" segment_no="7" tag_type="text">ing  of  1,  0,  or  -1  for  trustworthiness </text>
-<text top="1209" left="1503" width="625" height="57" font="font3" id="p1_t80" reading_order_no="78" segment_no="7" tag_type="text">after  one  interaction,  and  computes </text>
-<text top="1259" left="1503" width="625" height="57" font="font3" id="p1_t81" reading_order_no="79" segment_no="7" tag_type="text">a  seller’s  reputation  as  the  accumu- </text>
-<text top="1307" left="1503" width="625" height="59" font="font0" id="p1_t82" reading_order_no="80" segment_no="7" tag_type="text">lation  of  all  the  ratings  received </text>
-<text top="1359" left="1502" width="626" height="57" font="font3" id="p1_t83" reading_order_no="81" segment_no="7" tag_type="text">within  the  past  180  days.  New  eBay </text>
-<text top="1411" left="1503" width="624" height="54" font="font6" id="p1_t84" reading_order_no="82" segment_no="7" tag_type="text">users  receive  a  reputation  of  0. </text>
-<text top="1459" left="1503" width="625" height="57" font="font3" id="p1_t85" reading_order_no="83" segment_no="7" tag_type="text">Amazon.com  rates  both  sellers  and </text>
-<text top="1510" left="1504" width="624" height="55" font="font3" id="p1_t86" reading_order_no="84" segment_no="7" tag_type="text">buyers  after  each  interaction.  It  cal- </text>
-<text top="1558" left="1160" width="968" height="58" font="font1" id="p1_t87" reading_order_no="85" segment_no="7" tag_type="text">culates  reputation  as  the  average  of  all  the  feedback  rat- </text>
-<text top="1608" left="1160" width="969" height="58" font="font1" id="p1_t88" reading_order_no="86" segment_no="7" tag_type="text">ings  received  during  the  system’s  use.  A  new </text>
-<text top="1659" left="1160" width="758" height="57" font="font3" id="p1_t89" reading_order_no="87" segment_no="7" tag_type="text">Amazon.com  user  has  no  reputation  value. </text>
-<text top="1708" left="1198" width="930" height="58" font="font3" id="p1_t90" reading_order_no="88" segment_no="8" tag_type="text">Users  can  easily  misbehave  in  e-marketing.  After  cheat- </text>
-<text top="1758" left="1160" width="968" height="57" font="font3" id="p1_t91" reading_order_no="89" segment_no="8" tag_type="text">ing  and  obtaining  a  bad  reputation,  a  user  can  simply </text>
-<text top="1810" left="1161" width="968" height="54" font="font6" id="p1_t92" reading_order_no="90" segment_no="8" tag_type="text">discard  a  current  identity,  obtain  a  new  one,  and  reenter </text>
-<text top="1857" left="1160" width="967" height="59" font="font1" id="p1_t93" reading_order_no="91" segment_no="8" tag_type="text">the  market.  This  kind  of  misbehavior  causes  low  eco- </text>
-<text top="1907" left="1160" width="968" height="58" font="font1" id="p1_t94" reading_order_no="92" segment_no="8" tag_type="text">nomic  and  system  utilization  efficiency.  To  solve  this </text>
-<text top="1957" left="1159" width="967" height="59" font="font1" id="p1_t95" reading_order_no="93" segment_no="8" tag_type="text">problem,  Amazon.com  and  eBay  apply  pseudonyms. </text>
-<text top="2010" left="1159" width="969" height="54" font="font6" id="p1_t96" reading_order_no="94" segment_no="8" tag_type="text">New  users  must  register  with  some  personal  information </text>
-<text top="2059" left="1160" width="967" height="55" font="font3" id="p1_t97" reading_order_no="95" segment_no="8" tag_type="text">so  the  system  can  trace  their  real  identity.  At  the  same </text>
-<text top="2111" left="1160" width="667" height="53" font="font6" id="p1_t98" reading_order_no="96" segment_no="8" tag_type="text">time,  pseudonyms  provide  anonymity. </text>
-<text top="2208" left="1161" width="583" height="55" font="font3" id="p1_t99" reading_order_no="97" segment_no="15" tag_type="title">Reputation  management  for </text>
-<text top="2257" left="1159" width="527" height="57" font="font1" id="p1_t100" reading_order_no="98" segment_no="15" tag_type="title">the  electronic  community </text>
-<text top="2309" left="1198" width="930" height="56" font="font2" id="p1_t101" reading_order_no="99" segment_no="16" tag_type="text">Giorgos  Zacharia*  proposed  Sporas,  a  reputation </text>
-<text top="2358" left="1160" width="968" height="57" font="font3" id="p1_t102" reading_order_no="100" segment_no="16" tag_type="text">mechanism  for  electronic  community.  Sporas  has  the </text>
-<text top="2408" left="1160" width="330" height="57" font="font1" id="p1_t103" reading_order_no="101" segment_no="16" tag_type="text">following  features: </text>
-<text top="2507" left="1199" width="929" height="60" font="font0" id="p1_t104" reading_order_no="102" segment_no="17" tag_type="list">¢  Reputation  value  is  within  the  range  of  (0,  3000).  A </text>
-<text top="2559" left="1235" width="754" height="57" font="font3" id="p1_t105" reading_order_no="103" segment_no="17" tag_type="list">new  user  is  assigned  0,  the  minimum  value. </text>
-<text top="2608" left="1199" width="928" height="59" font="font1" id="p1_t106" reading_order_no="104" segment_no="18" tag_type="list">e  A  current  user’s  reputation  is  always  higher  than  a </text>
-<text top="2661" left="1235" width="184" height="53" font="font6" id="p1_t107" reading_order_no="105" segment_no="18" tag_type="list">new  user’s. </text>
-<text top="2709" left="1199" width="929" height="57" font="font3" id="p1_t108" reading_order_no="106" segment_no="19" tag_type="list">¢  Two  users  can  only  rate  each  other  once.  If  two  users </text>
-<text top="2759" left="1235" width="894" height="57" font="font3" id="p1_t109" reading_order_no="107" segment_no="19" tag_type="list">interact  multiple  times,  Sporas  only  accepts  the  latest </text>
-<text top="2809" left="1235" width="893" height="57" font="font3" id="p1_t110" reading_order_no="108" segment_no="19" tag_type="list">rating.  This  helps  avoid  the  problem  of  two  users </text>
-<text top="2857" left="1235" width="893" height="60" font="font0" id="p1_t111" reading_order_no="109" segment_no="19" tag_type="list">intentionally  increasing  their  reputation  value  by  fre- </text>
-<text top="2912" left="1235" width="318" height="53" font="font6" id="p1_t112" reading_order_no="110" segment_no="19" tag_type="list">quent  interactions. </text>
-<text top="2958" left="1200" width="928" height="58" font="font0" id="p1_t113" reading_order_no="111" segment_no="20" tag_type="list">¢  It  changes  the  reputation  value  of  users  with  very  high </text>
+<text top="252" left="138" width="968" height="61" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="text">pares  it  with  the  packets  in  the  buffer  to  see  if  there’s  a</text>
+<text top="303" left="139" width="968" height="59" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="text">match.  If  there  is,  the  packet  has  been  forwarded  and</text>
+<text top="353" left="138" width="968" height="60" font="font1" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="text">the  watchdog  removes  the  packet  from  the  buffer.  If  a</text>
+<text top="404" left="139" width="968" height="58" font="font1" id="p1_t4" reading_order_no="3" segment_no="0" tag_type="text">packet  stays  in  the  buffer  for  longer  than  a  certain</text>
+<text top="454" left="138" width="968" height="58" font="font1" id="p1_t5" reading_order_no="4" segment_no="0" tag_type="text">period,  the  watchdog  increases  a  failure  count  for  the</text>
+<text top="504" left="138" width="969" height="59" font="font1" id="p1_t6" reading_order_no="5" segment_no="0" tag_type="text">node  responsible  for  forwarding  the  packet.  If  the  count</text>
+<text top="554" left="139" width="968" height="59" font="font1" id="p1_t7" reading_order_no="6" segment_no="0" tag_type="text">exceeds  a  threshold  value,  the  watchdog  considers  that</text>
+<text top="603" left="138" width="376" height="57" font="font1" id="p1_t8" reading_order_no="7" segment_no="0" tag_type="text">node  as  misbehaving.</text>
+<text top="656" left="175" width="932" height="57" font="font2" id="p1_t9" reading_order_no="8" segment_no="1" tag_type="text">A  path  rater  at  a  node  maintains  a  rating  for  every</text>
+<text top="704" left="138" width="968" height="59" font="font1" id="p1_t10" reading_order_no="9" segment_no="1" tag_type="text">other  node  that  it  knows  in  the  network.  To  pick  a  route</text>
+<text top="754" left="139" width="967" height="59" font="font1" id="p1_t11" reading_order_no="10" segment_no="1" tag_type="text">that  is  most  likely  to  be  reliable,  it  computes  a  path  met-</text>
+<text top="804" left="138" width="968" height="59" font="font1" id="p1_t12" reading_order_no="11" segment_no="1" tag_type="text">ric  by  averaging  the  rating  of  the  nodes  on  the  paths  and</text>
+<text top="854" left="138" width="968" height="59" font="font1" id="p1_t13" reading_order_no="12" segment_no="1" tag_type="text">chooses  the  path  with  the  highest  metric.  It  assigns  mis-</text>
+<text top="904" left="139" width="967" height="59" font="font1" id="p1_t14" reading_order_no="13" segment_no="1" tag_type="text">behaving  nodes  a  very  low  rating,  and  thus  excludes</text>
+<text top="953" left="138" width="337" height="58" font="font0" id="p1_t15" reading_order_no="14" segment_no="1" tag_type="text">them  from  routing.</text>
+<text top="1005" left="176" width="930" height="58" font="font1" id="p1_t16" reading_order_no="15" segment_no="2" tag_type="text">Because  of  ad  hoc  networks’  characteristics,  the  proposed</text>
+<text top="1056" left="139" width="636" height="57" font="font3" id="p1_t17" reading_order_no="16" segment_no="2" tag_type="text">approaches  can’t  accurately  detect  mis-</text>
+<text top="1105" left="139" width="635" height="58" font="font3" id="p1_t18" reading_order_no="17" segment_no="2" tag_type="text">behaving  nodes  in  situations  such  as</text>
+<text top="1153" left="138" width="637" height="60" font="font0" id="p1_t19" reading_order_no="18" segment_no="2" tag_type="text">packet  collisions  and  collusion  of  mali-</text>
+<text top="1205" left="138" width="214" height="55" font="font3" id="p1_t20" reading_order_no="19" segment_no="2" tag_type="text">cious  nodes.’</text>
+<text top="1301" left="140" width="430" height="61" font="font4" id="p1_t21" reading_order_no="20" segment_no="10" tag_type="title">Evidence-based  trust</text>
+<text top="1358" left="139" width="273" height="51" font="font5" id="p1_t22" reading_order_no="21" segment_no="10" tag_type="title">management</text>
+<text top="1405" left="176" width="598" height="58" font="font1" id="p1_t23" reading_order_no="22" segment_no="11" tag_type="text">Eschenauer  and  his  colleagues  pre-</text>
+<text top="1454" left="138" width="636" height="59" font="font1" id="p1_t24" reading_order_no="23" segment_no="11" tag_type="text">sent  a  framework  for  trust  manage-</text>
+<text top="1504" left="138" width="637" height="59" font="font1" id="p1_t25" reading_order_no="24" segment_no="11" tag_type="text">ment  in  ad  hoc  networks  based  on</text>
+<text top="1556" left="138" width="971" height="58" font="font3" id="p1_t26" reading_order_no="25" segment_no="11" tag_type="text">evidence  distribution.'!  They  consider  trust  as  a  set  of</text>
+<text top="1605" left="138" width="967" height="58" font="font1" id="p1_t27" reading_order_no="26" segment_no="11" tag_type="text">relationships  established  with  the  support  of  evidence.</text>
+<text top="1655" left="138" width="969" height="58" font="font1" id="p1_t28" reading_order_no="27" segment_no="11" tag_type="text">In  their  framework,  evidence  can  be  anything  a  policy</text>
+<text top="1705" left="138" width="968" height="58" font="font1" id="p1_t29" reading_order_no="28" segment_no="11" tag_type="text">requires  to  establish  a  trust  relationship,  such  as  public</text>
+<text top="1755" left="138" width="968" height="59" font="font1" id="p1_t30" reading_order_no="29" segment_no="11" tag_type="text">key,  address,  and  identity.  Any  entity  can  generate  evi-</text>
+<text top="1804" left="138" width="968" height="60" font="font1" id="p1_t31" reading_order_no="30" segment_no="11" tag_type="text">dence  for  itself  and  for  other  entities.  Evidence  can  be</text>
+<text top="1855" left="138" width="968" height="59" font="font1" id="p1_t32" reading_order_no="31" segment_no="11" tag_type="text">obtained  either  online  or  offline,  such  as  through  phys-</text>
+<text top="1904" left="138" width="211" height="57" font="font1" id="p1_t33" reading_order_no="32" segment_no="11" tag_type="text">ical  contact.</text>
+<text top="1955" left="176" width="930" height="58" font="font1" id="p1_t34" reading_order_no="33" segment_no="12" tag_type="text">One  way  to  generate  evidence  is  through  public-key</text>
+<text top="2006" left="138" width="968" height="57" font="font1" id="p1_t35" reading_order_no="34" segment_no="12" tag_type="text">cryptography.  An  entity  can  create  a  piece  of  evidence,</text>
+<text top="2055" left="138" width="967" height="59" font="font1" id="p1_t36" reading_order_no="35" segment_no="12" tag_type="text">define  its  valid  time,  sign  it  with  the  entity’s  private  key,</text>
+<text top="2106" left="139" width="967" height="57" font="font1" id="p1_t37" reading_order_no="36" segment_no="12" tag_type="text">and  disseminate  it  to  others.  To  verify  this  piece  of  evi-</text>
+<text top="2155" left="138" width="969" height="60" font="font1" id="p1_t38" reading_order_no="37" segment_no="12" tag_type="text">dence,  other  entities  will  need  the  originator’s  public  key</text>
+<text top="2207" left="139" width="966" height="56" font="font2" id="p1_t39" reading_order_no="38" segment_no="12" tag_type="text">and  certificate.  In  the  Internet,  entities  can  use  X.509.</text>
+<text top="2258" left="138" width="967" height="55" font="font6" id="p1_t40" reading_order_no="39" segment_no="12" tag_type="text">However,  in  an  ad  hoc  network,  where  there  is  no  CA,</text>
+<text top="2305" left="137" width="968" height="59" font="font1" id="p1_t41" reading_order_no="40" segment_no="12" tag_type="text">PGP  might  be  an  option.  An  entity  can  invalidate  its  evi-</text>
+<text top="2358" left="138" width="967" height="54" font="font6" id="p1_t42" reading_order_no="41" segment_no="12" tag_type="text">dence  by  generating  a  revocation  certificate  at  any  time.</text>
+<text top="2405" left="175" width="931" height="58" font="font1" id="p1_t43" reading_order_no="42" segment_no="13" tag_type="text">Eschenauer  and  colleagues’  approach  also  lets  an  entity</text>
+<text top="2456" left="137" width="969" height="59" font="font1" id="p1_t44" reading_order_no="43" segment_no="13" tag_type="text">revoke  other  entities’  evidence  by  generating  and  dis-</text>
+<text top="2506" left="138" width="969" height="58" font="font1" id="p1_t45" reading_order_no="44" segment_no="13" tag_type="text">seminating  contradictory  evidence.  However,  allowing</text>
+<text top="2556" left="138" width="968" height="59" font="font1" id="p1_t46" reading_order_no="45" segment_no="13" tag_type="text">such  actions  is  open  to  attack.  A  malicious  entity  can  dis-</text>
+<text top="2606" left="137" width="969" height="58" font="font1" id="p1_t47" reading_order_no="46" segment_no="13" tag_type="text">tribute  bogus  evidence  to  invalidate  other  nodes’  legiti-</text>
+<text top="2658" left="138" width="969" height="56" font="font2" id="p1_t48" reading_order_no="47" segment_no="13" tag_type="text">mate  evidence,  which  can  cause  chaos  in  the  network.  A</text>
+<text top="2706" left="138" width="968" height="59" font="font1" id="p1_t49" reading_order_no="48" segment_no="13" tag_type="text">malicious  entity  might  generate  fake  evidence  for  its  own</text>
+<text top="2756" left="138" width="919" height="58" font="font3" id="p1_t50" reading_order_no="49" segment_no="13" tag_type="text">purposes—for  example,  to  impersonate  other  nodes.</text>
+<text top="2807" left="175" width="931" height="57" font="font3" id="p1_t51" reading_order_no="50" segment_no="14" tag_type="text">To  prevent  these  attacks,  Eschenauer  and  his  col-</text>
+<text top="2856" left="138" width="968" height="59" font="font1" id="p1_t52" reading_order_no="51" segment_no="14" tag_type="text">leagues  proposed  using  redundant  and  independent  evi-</text>
+<text top="2906" left="138" width="968" height="58" font="font1" id="p1_t53" reading_order_no="52" segment_no="14" tag_type="text">dence  from  various  sources.  However,  they  didn’t  discuss</text>
+<text top="2955" left="138" width="969" height="60" font="font0" id="p1_t54" reading_order_no="53" segment_no="14" tag_type="text">how  to  evaluate  evidence,  which  is  important  for  trust</text>
+<text top="3005" left="138" width="968" height="60" font="font0" id="p1_t55" reading_order_no="54" segment_no="14" tag_type="text">management.  Also,  because  each  node’s  trustworthiness</text>
+<text top="3115" left="0" width="258" height="45" font="font7" id="p1_t56" reading_order_no="113" segment_no="21" tag_type="text">aT)  Computer</text>
+<text top="1180" left="1031" width="216" height="61" font="font4" id="p1_t57" reading_order_no="55" segment_no="9" tag_type="text">One  way  to</text>
+<text top="1243" left="958" width="360" height="65" font="font8" id="p1_t58" reading_order_no="56" segment_no="9" tag_type="text">generate  evidence</text>
+<text top="1309" left="933" width="413" height="67" font="font8" id="p1_t59" reading_order_no="57" segment_no="9" tag_type="text">Reel eel eC  Coy</text>
+<text top="1378" left="1001" width="276" height="63" font="font9" id="p1_t60" reading_order_no="58" segment_no="9" tag_type="text">acyl</text>
+<text top="1378" left="1162" width="115" height="63" font="font9" id="p1_t61" reading_order_no="59" segment_no="9" tag_type="text">e-) ia</text>
+<text top="257" left="1161" width="967" height="58" font="font3" id="p1_t62" reading_order_no="60" segment_no="3" tag_type="text">is  not  dynamically  adjusted,  the  framework  is  mainly</text>
+<text top="308" left="1161" width="445" height="55" font="font3" id="p1_t63" reading_order_no="61" segment_no="3" tag_type="text">useful  for  authentication.</text>
+<text top="405" left="1159" width="783" height="60" font="font0" id="p1_t64" reading_order_no="62" segment_no="4" tag_type="title">TRUST  MANAGEMENT  IN  E-COMMERCE</text>
+<text top="459" left="1197" width="931" height="57" font="font2" id="p1_t65" reading_order_no="63" segment_no="5" tag_type="text">Trust  or  reputation  management  is  an  important  issue</text>
+<text top="508" left="1161" width="966" height="58" font="font3" id="p1_t66" reading_order_no="64" segment_no="5" tag_type="text">in  e-commerce,  where  traders  might  have  never  met  and</text>
+<text top="557" left="1161" width="967" height="60" font="font1" id="p1_t67" reading_order_no="65" segment_no="5" tag_type="text">know  nothing  about  each  other’s  trustworthiness.  This</text>
+<text top="608" left="1160" width="967" height="59" font="font3" id="p1_t68" reading_order_no="66" segment_no="5" tag_type="text">lack  of  information  about  traders’  reputations  causes</text>
+<text top="657" left="1161" width="966" height="60" font="font1" id="p1_t69" reading_order_no="67" segment_no="5" tag_type="text">uncertainty  and  mistrust,  which  influences  the  e-mar-</text>
+<text top="708" left="1160" width="441" height="57" font="font3" id="p1_t70" reading_order_no="68" segment_no="5" tag_type="text">ket’s  economic  efficiency.</text>
+<text top="757" left="1199" width="929" height="60" font="font0" id="p1_t71" reading_order_no="69" segment_no="6" tag_type="text">Considerable  research  has  explored  trust  and  reputa-</text>
+<text top="809" left="1160" width="967" height="58" font="font3" id="p1_t72" reading_order_no="70" segment_no="6" tag_type="text">tion  management  in  e-commerce.  One  possibility  is  to</text>
+<text top="858" left="1162" width="966" height="59" font="font3" id="p1_t73" reading_order_no="71" segment_no="6" tag_type="text">build  a  centralized  system,  like  a  credit  history  agency,  to</text>
+<text top="908" left="1160" width="967" height="58" font="font3" id="p1_t74" reading_order_no="72" segment_no="6" tag_type="text">manage  users’  reputations.  However,  this  approach</text>
+<text top="957" left="1160" width="765" height="59" font="font1" id="p1_t75" reading_order_no="73" segment_no="6" tag_type="text">neglects  personal  preferences  and  standards.</text>
+<text top="1008" left="1198" width="929" height="59" font="font3" id="p1_t76" reading_order_no="74" segment_no="7" tag_type="text">Online  auction  and  shopping  sites,  such  as  eBay  and</text>
+<text top="1058" left="1503" width="625" height="60" font="font0" id="p1_t77" reading_order_no="75" segment_no="7" tag_type="text">Amazon.com,  use  reputation  man-</text>
+<text top="1111" left="1503" width="625" height="56" font="font2" id="p1_t78" reading_order_no="76" segment_no="7" tag_type="text">agement.  eBay  assigns  sellers  a  rat-</text>
+<text top="1161" left="1504" width="624" height="54" font="font6" id="p1_t79" reading_order_no="77" segment_no="7" tag_type="text">ing  of  1,  0,  or  -1  for  trustworthiness</text>
+<text top="1209" left="1503" width="625" height="57" font="font3" id="p1_t80" reading_order_no="78" segment_no="7" tag_type="text">after  one  interaction,  and  computes</text>
+<text top="1259" left="1503" width="625" height="57" font="font3" id="p1_t81" reading_order_no="79" segment_no="7" tag_type="text">a  seller’s  reputation  as  the  accumu-</text>
+<text top="1307" left="1503" width="625" height="59" font="font0" id="p1_t82" reading_order_no="80" segment_no="7" tag_type="text">lation  of  all  the  ratings  received</text>
+<text top="1359" left="1502" width="626" height="57" font="font3" id="p1_t83" reading_order_no="81" segment_no="7" tag_type="text">within  the  past  180  days.  New  eBay</text>
+<text top="1411" left="1503" width="624" height="54" font="font6" id="p1_t84" reading_order_no="82" segment_no="7" tag_type="text">users  receive  a  reputation  of  0.</text>
+<text top="1459" left="1503" width="625" height="57" font="font3" id="p1_t85" reading_order_no="83" segment_no="7" tag_type="text">Amazon.com  rates  both  sellers  and</text>
+<text top="1510" left="1504" width="624" height="55" font="font3" id="p1_t86" reading_order_no="84" segment_no="7" tag_type="text">buyers  after  each  interaction.  It  cal-</text>
+<text top="1558" left="1160" width="968" height="58" font="font1" id="p1_t87" reading_order_no="85" segment_no="7" tag_type="text">culates  reputation  as  the  average  of  all  the  feedback  rat-</text>
+<text top="1608" left="1160" width="969" height="58" font="font1" id="p1_t88" reading_order_no="86" segment_no="7" tag_type="text">ings  received  during  the  system’s  use.  A  new</text>
+<text top="1659" left="1160" width="758" height="57" font="font3" id="p1_t89" reading_order_no="87" segment_no="7" tag_type="text">Amazon.com  user  has  no  reputation  value.</text>
+<text top="1708" left="1198" width="930" height="58" font="font3" id="p1_t90" reading_order_no="88" segment_no="8" tag_type="text">Users  can  easily  misbehave  in  e-marketing.  After  cheat-</text>
+<text top="1758" left="1160" width="968" height="57" font="font3" id="p1_t91" reading_order_no="89" segment_no="8" tag_type="text">ing  and  obtaining  a  bad  reputation,  a  user  can  simply</text>
+<text top="1810" left="1161" width="968" height="54" font="font6" id="p1_t92" reading_order_no="90" segment_no="8" tag_type="text">discard  a  current  identity,  obtain  a  new  one,  and  reenter</text>
+<text top="1857" left="1160" width="967" height="59" font="font1" id="p1_t93" reading_order_no="91" segment_no="8" tag_type="text">the  market.  This  kind  of  misbehavior  causes  low  eco-</text>
+<text top="1907" left="1160" width="968" height="58" font="font1" id="p1_t94" reading_order_no="92" segment_no="8" tag_type="text">nomic  and  system  utilization  efficiency.  To  solve  this</text>
+<text top="1957" left="1159" width="967" height="59" font="font1" id="p1_t95" reading_order_no="93" segment_no="8" tag_type="text">problem,  Amazon.com  and  eBay  apply  pseudonyms.</text>
+<text top="2010" left="1159" width="969" height="54" font="font6" id="p1_t96" reading_order_no="94" segment_no="8" tag_type="text">New  users  must  register  with  some  personal  information</text>
+<text top="2059" left="1160" width="967" height="55" font="font3" id="p1_t97" reading_order_no="95" segment_no="8" tag_type="text">so  the  system  can  trace  their  real  identity.  At  the  same</text>
+<text top="2111" left="1160" width="667" height="53" font="font6" id="p1_t98" reading_order_no="96" segment_no="8" tag_type="text">time,  pseudonyms  provide  anonymity.</text>
+<text top="2208" left="1161" width="583" height="55" font="font3" id="p1_t99" reading_order_no="97" segment_no="15" tag_type="title">Reputation  management  for</text>
+<text top="2257" left="1159" width="527" height="57" font="font1" id="p1_t100" reading_order_no="98" segment_no="15" tag_type="title">the  electronic  community</text>
+<text top="2309" left="1198" width="930" height="56" font="font2" id="p1_t101" reading_order_no="99" segment_no="16" tag_type="text">Giorgos  Zacharia*  proposed  Sporas,  a  reputation</text>
+<text top="2358" left="1160" width="968" height="57" font="font3" id="p1_t102" reading_order_no="100" segment_no="16" tag_type="text">mechanism  for  electronic  community.  Sporas  has  the</text>
+<text top="2408" left="1160" width="330" height="57" font="font1" id="p1_t103" reading_order_no="101" segment_no="16" tag_type="text">following  features:</text>
+<text top="2507" left="1199" width="929" height="60" font="font0" id="p1_t104" reading_order_no="102" segment_no="17" tag_type="list">¢  Reputation  value  is  within  the  range  of  (0,  3000).  A</text>
+<text top="2559" left="1235" width="754" height="57" font="font3" id="p1_t105" reading_order_no="103" segment_no="17" tag_type="list">new  user  is  assigned  0,  the  minimum  value.</text>
+<text top="2608" left="1199" width="928" height="59" font="font1" id="p1_t106" reading_order_no="104" segment_no="18" tag_type="list">e  A  current  user’s  reputation  is  always  higher  than  a</text>
+<text top="2661" left="1235" width="184" height="53" font="font6" id="p1_t107" reading_order_no="105" segment_no="18" tag_type="list">new  user’s.</text>
+<text top="2709" left="1199" width="929" height="57" font="font3" id="p1_t108" reading_order_no="106" segment_no="19" tag_type="list">¢  Two  users  can  only  rate  each  other  once.  If  two  users</text>
+<text top="2759" left="1235" width="894" height="57" font="font3" id="p1_t109" reading_order_no="107" segment_no="19" tag_type="list">interact  multiple  times,  Sporas  only  accepts  the  latest</text>
+<text top="2809" left="1235" width="893" height="57" font="font3" id="p1_t110" reading_order_no="108" segment_no="19" tag_type="list">rating.  This  helps  avoid  the  problem  of  two  users</text>
+<text top="2857" left="1235" width="893" height="60" font="font0" id="p1_t111" reading_order_no="109" segment_no="19" tag_type="list">intentionally  increasing  their  reputation  value  by  fre-</text>
+<text top="2912" left="1235" width="318" height="53" font="font6" id="p1_t112" reading_order_no="110" segment_no="19" tag_type="list">quent  interactions.</text>
+<text top="2958" left="1200" width="928" height="58" font="font0" id="p1_t113" reading_order_no="111" segment_no="20" tag_type="list">¢  It  changes  the  reputation  value  of  users  with  very  high</text>
 <text top="3009" left="1235" width="535" height="57" font="font1" id="p1_t114" reading_order_no="112" segment_no="20" tag_type="list">reputation  values  more  slightly.</text>
 </page>
 </pdf2xml>

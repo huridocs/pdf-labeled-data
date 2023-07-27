@@ -30,89 +30,89 @@
 	<fontspec id="font26" size="16" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font27" size="16" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font28" size="16" family="GlyphLessFont" color="#000000"/>
-<text top="47" left="47" width="1755" height="201" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">contributed  articles </text>
-<text top="439" left="1030" width="497" height="39" font="font1" id="p1_t2" reading_order_no="1" segment_no="1" tag_type="text">DOI:10.1145/1378727.1378743 </text>
-<text top="515" left="156" width="1335" height="73" font="font4" id="p1_t3" reading_order_no="2" segment_no="5" tag_type="text">Beyond  Google,  emerging  question-answering </text>
-<text top="584" left="155" width="1345" height="70" font="font5" id="p1_t4" reading_order_no="3" segment_no="5" tag_type="text">systems  respond  to  natural-language  queries. </text>
-<text top="656" left="128" width="1400" height="107" font="font2" id="p1_t5" reading_order_no="4" segment_no="6" tag_type="text">|  BY DMITRI  ROUSSINOV,  WEIGUO FAN,  AND  JOSE  ROBLES-FLORES </text>
-<text top="783" left="140" width="703" height="259" font="font7" id="p1_t6" reading_order_no="5" segment_no="7" tag_type="title">Beyond </text>
-<text top="983" left="141" width="997" height="255" font="font8" id="p1_t7" reading_order_no="6" segment_no="7" tag_type="title">Keywords: </text>
-<text top="1174" left="130" width="1061" height="261" font="font9" id="p1_t8" reading_order_no="7" segment_no="7" tag_type="title">Automated </text>
-<text top="1371" left="137" width="835" height="263" font="font10" id="p1_t9" reading_order_no="8" segment_no="7" tag_type="title">Question </text>
-<text top="1566" left="130" width="1031" height="259" font="font7" id="p1_t10" reading_order_no="9" segment_no="7" tag_type="title">Answering </text>
-<text top="1783" left="136" width="1047" height="236" font="font11" id="p1_t11" reading_order_no="10" segment_no="7" tag_type="title">on  the  Web </text>
-<text top="2258" left="130" width="1289" height="77" font="font13" id="p1_t12" reading_order_no="11" segment_no="8" tag_type="text">SINCE  THE  TYPICAL  COMPUTER  USER  spends half  an </text>
-<text top="2328" left="133" width="1271" height="74" font="font14" id="p1_t13" reading_order_no="12" segment_no="8" tag_type="text">hour  a  day  searching  the  Web  through  Google  and </text>
-<text top="2394" left="131" width="1316" height="76" font="font15" id="p1_t14" reading_order_no="13" segment_no="8" tag_type="text">other  search  portals,  it  is  not  surprising  that  Google </text>
-<text top="2461" left="131" width="1367" height="77" font="font13" id="p1_t15" reading_order_no="14" segment_no="8" tag_type="text">and  other  sellers  of  online  advertising  have  surpassed </text>
-<text top="2528" left="131" width="1398" height="77" font="font13" id="p1_t16" reading_order_no="15" segment_no="8" tag_type="text">the  revenue  of  their  non-online  competitors,  including </text>
-<text top="2597" left="132" width="1330" height="74" font="font14" id="p1_t17" reading_order_no="16" segment_no="8" tag_type="text">radio  and  TV  networks.  The  success  of  Google  stock, </text>
-<text top="2663" left="131" width="1357" height="74" font="font14" id="p1_t18" reading_order_no="17" segment_no="8" tag_type="text">as  well  as  the  stock  of  other  search-portal  companies, </text>
-<text top="2729" left="132" width="1327" height="76" font="font15" id="p1_t19" reading_order_no="18" segment_no="8" tag_type="text">has  prompted  investors  and  IT  practitioners  alike  to </text>
-<text top="2796" left="130" width="1157" height="74" font="font14" id="p1_t20" reading_order_no="19" segment_no="8" tag_type="text">want  to  know  what’s  next  in  the  search  world. </text>
-<text top="2864" left="181" width="1299" height="72" font="font16" id="p1_t21" reading_order_no="20" segment_no="9" tag_type="text">The  July  2005  acquisition  of  AskJeeves  (now  known </text>
-<text top="2929" left="131" width="1371" height="76" font="font15" id="p1_t22" reading_order_no="21" segment_no="9" tag_type="text">as  Ask.com)  by  InterActiveCorp  for  a  surprisingly  high </text>
-<text top="2996" left="132" width="1206" height="76" font="font15" id="p1_t23" reading_order_no="22" segment_no="9" tag_type="text">price  of  $2.3  billion  may  point  to  some  possible </text>
-<text top="3125" left="131" width="477" height="31" font="font17" id="p1_t24" reading_order_no="82" segment_no="12" tag_type="text">60  COMMUNICATIONS  OF  THE  ACM </text>
-<text top="3124" left="661" width="455" height="31" font="font17" id="p1_t25" reading_order_no="83" segment_no="11" tag_type="text">SEPTEMBER  2008  |  VOL.51  |  NO.9 </text>
-<text top="465" left="1580" width="667" height="50" font="font19" id="p1_t26" reading_order_no="23" segment_no="2" tag_type="text">answers.  Ask.com  not  only  wanted  a </text>
-<text top="515" left="1581" width="667" height="49" font="font20" id="p1_t27" reading_order_no="24" segment_no="2" tag_type="text">share  of  the  online-search  market,  it </text>
-<text top="561" left="1580" width="667" height="50" font="font19" id="p1_t28" reading_order_no="25" segment_no="2" tag_type="text">also  wanted  the  market’s  most  prized </text>
-<text top="609" left="1580" width="195" height="51" font="font21" id="p1_t29" reading_order_no="26" segment_no="2" tag_type="text">possession: </text>
-<text top="608" left="1827" width="420" height="51" font="font21" id="p1_t30" reading_order_no="27" segment_no="2" tag_type="text">completely  automated </text>
-<text top="656" left="1580" width="667" height="53" font="font22" id="p1_t31" reading_order_no="28" segment_no="2" tag_type="text">open-domain  question  answering  (QA) </text>
-<text top="704" left="1581" width="667" height="53" font="font22" id="p1_t32" reading_order_no="29" segment_no="2" tag_type="text">on  the  Web,  the  holy  grail  of  informa- </text>
-<text top="755" left="1581" width="666" height="50" font="font19" id="p1_t33" reading_order_no="30" segment_no="2" tag_type="text">tion  access.  The  QA  goal  is  to  locate, </text>
-<text top="800" left="1581" width="667" height="51" font="font21" id="p1_t34" reading_order_no="31" segment_no="2" tag_type="text">extract,  and  provide  specific  answers  to </text>
-<text top="849" left="1580" width="668" height="53" font="font22" id="p1_t35" reading_order_no="32" segment_no="2" tag_type="text">user  questions  expressed  in  natural  lan- </text>
-<text top="896" left="1579" width="668" height="53" font="font22" id="p1_t36" reading_order_no="33" segment_no="2" tag_type="text">guage.  A  QA  system  takes  input  (such  as </text>
-<text top="945" left="1581" width="666" height="53" font="font22" id="p1_t37" reading_order_no="34" segment_no="2" tag_type="text">“How  many  Kurds  live  in  Turkey?”)  and </text>
-<text top="992" left="1580" width="668" height="51" font="font21" id="p1_t38" reading_order_no="35" segment_no="2" tag_type="text">provides  output  (such  as  “About  15  mil- </text>
-<text top="1040" left="1581" width="666" height="51" font="font21" id="p1_t39" reading_order_no="36" segment_no="2" tag_type="text">lion  Kurds  live  in  Turkey,”  or  simply  “15 </text>
-<text top="1093" left="1581" width="161" height="45" font="font23" id="p1_t40" reading_order_no="37" segment_no="2" tag_type="text">million”). </text>
-<text top="1137" left="1631" width="619" height="51" font="font21" id="p1_t41" reading_order_no="38" segment_no="3" tag_type="text">Search  engines  have  significantly </text>
-<text top="1184" left="1581" width="668" height="53" font="font22" id="p1_t42" reading_order_no="39" segment_no="3" tag_type="text">improved  their  ability  to  find  the  most </text>
-<text top="1232" left="1580" width="668" height="51" font="font21" id="p1_t43" reading_order_no="40" segment_no="3" tag_type="text">popular  and  lexically  related  pages  to  a </text>
-<text top="1279" left="1579" width="669" height="53" font="font22" id="p1_t44" reading_order_no="41" segment_no="3" tag_type="text">given  query  by  performing  link  analy- </text>
-<text top="1329" left="1581" width="668" height="53" font="font22" id="p1_t45" reading_order_no="42" segment_no="3" tag_type="text">sis  and  counting  the  number  of  query </text>
-<text top="1378" left="1579" width="669" height="51" font="font21" id="p1_t46" reading_order_no="43" segment_no="3" tag_type="text">words.  However,  search  engines  are  not </text>
-<text top="1425" left="1581" width="667" height="53" font="font22" id="p1_t47" reading_order_no="44" segment_no="3" tag_type="text">designed  to  deal  with  natural-language </text>
-<text top="1472" left="1581" width="667" height="53" font="font22" id="p1_t48" reading_order_no="45" segment_no="3" tag_type="text">questions,  treating  most  of  them  as </text>
-<text top="1524" left="1582" width="665" height="47" font="font24" id="p1_t49" reading_order_no="46" segment_no="3" tag_type="text">“bags,”  or  unordered  sets,  of  words. </text>
-<text top="1569" left="1579" width="669" height="53" font="font22" id="p1_t50" reading_order_no="47" segment_no="3" tag_type="text">When  a  user  types  a  question  (such  as </text>
-<text top="1617" left="1582" width="667" height="53" font="font22" id="p1_t51" reading_order_no="48" segment_no="3" tag_type="text">“Who  is  the  largest  producer  of  soft- </text>
-<text top="1663" left="1578" width="671" height="53" font="font22" id="p1_t52" reading_order_no="49" segment_no="3" tag_type="text">ware?”),  Google  treats  it  as  if  the  user </text>
-<text top="1713" left="1580" width="668" height="50" font="font19" id="p1_t53" reading_order_no="50" segment_no="3" tag_type="text">typed  “software  producer  largest,”  lead- </text>
-<text top="1759" left="1581" width="667" height="53" font="font22" id="p1_t54" reading_order_no="51" segment_no="3" tag_type="text">ing  to  unexpected  and  often  not-useful </text>
-<text top="1809" left="1581" width="668" height="53" font="font22" id="p1_t55" reading_order_no="52" segment_no="3" tag_type="text">results.  It  displays  pages  about  the  larg- </text>
-<text top="1857" left="1581" width="667" height="51" font="font21" id="p1_t56" reading_order_no="53" segment_no="3" tag_type="text">est  producers  of  dairy  products,  trucks, </text>
-<text top="1907" left="1581" width="667" height="49" font="font20" id="p1_t57" reading_order_no="54" segment_no="3" tag_type="text">and  “catholic  software,”  but  not  the </text>
-<text top="1953" left="1581" width="667" height="51" font="font21" id="p1_t58" reading_order_no="55" segment_no="3" tag_type="text">answer  the  user  might  expect  or  need </text>
-<text top="2007" left="1581" width="668" height="46" font="font25" id="p1_t59" reading_order_no="56" segment_no="3" tag_type="text">(such  as  “Microsoft”).  Even  if  the  cor- </text>
-<text top="2050" left="1582" width="666" height="53" font="font22" id="p1_t60" reading_order_no="57" segment_no="3" tag_type="text">rect  answer  is  among  the  search  results, </text>
-<text top="2097" left="1581" width="667" height="51" font="font21" id="p1_t61" reading_order_no="58" segment_no="3" tag_type="text">it  still  takes  time  to  sift  through  all  the </text>
-<text top="2144" left="1581" width="668" height="53" font="font22" id="p1_t62" reading_order_no="59" segment_no="3" tag_type="text">returned  results  and  locate  the  most </text>
-<text top="2194" left="1580" width="541" height="51" font="font21" id="p1_t63" reading_order_no="60" segment_no="3" tag_type="text">promising  answer  among  them. </text>
-<text top="2242" left="1631" width="617" height="51" font="font21" id="p1_t64" reading_order_no="61" segment_no="4" tag_type="text">It  is  more  natural  for  people  to  type </text>
-<text top="2289" left="1580" width="671" height="53" font="font22" id="p1_t65" reading_order_no="62" segment_no="4" tag_type="text">a  question  (such  as  “Who  wrote  King </text>
-<text top="2341" left="1580" width="669" height="47" font="font24" id="p1_t66" reading_order_no="63" segment_no="4" tag_type="text">Lear?”)  than  to  formulate  queries  us- </text>
-<text top="2384" left="1581" width="669" height="53" font="font22" id="p1_t67" reading_order_no="64" segment_no="4" tag_type="text">ing  Boolean  logic  (such  as  “wrote  OR </text>
-<text top="2435" left="1579" width="669" height="51" font="font21" id="p1_t68" reading_order_no="65" segment_no="4" tag_type="text">written  OR  author  AND  King  Lear”). </text>
-<text top="2482" left="1581" width="667" height="53" font="font22" id="p1_t69" reading_order_no="66" segment_no="4" tag_type="text">Precise,  timely,  and  factual  answers </text>
-<text top="2531" left="1580" width="670" height="51" font="font21" id="p1_t70" reading_order_no="67" segment_no="4" tag_type="text">are  especially  important  when  dealing </text>
-<text top="2577" left="1578" width="671" height="53" font="font22" id="p1_t71" reading_order_no="68" segment_no="4" tag_type="text">with  a  limited  communication  chan- </text>
-<text top="2626" left="1581" width="667" height="51" font="font21" id="p1_t72" reading_order_no="69" segment_no="4" tag_type="text">nel.  A  growing  number  of  Internet  users </text>
-<text top="2673" left="1581" width="667" height="53" font="font22" id="p1_t73" reading_order_no="70" segment_no="4" tag_type="text">have  mobile  devices  with  small  screens </text>
-<text top="2727" left="1581" width="666" height="46" font="font25" id="p1_t74" reading_order_no="71" segment_no="4" tag_type="text">(such  as  Internet-enabled  cell  phones). </text>
-<text top="2769" left="1581" width="669" height="51" font="font21" id="p1_t75" reading_order_no="72" segment_no="4" tag_type="text">Military,  first-responder,  and  security </text>
-<text top="2820" left="1582" width="667" height="50" font="font19" id="p1_t76" reading_order_no="73" segment_no="4" tag_type="text">systems  frequently  put  their  users  un- </text>
-<text top="2865" left="1581" width="668" height="53" font="font22" id="p1_t77" reading_order_no="74" segment_no="4" tag_type="text">der  such  time  constraints  that  each  ad- </text>
-<text top="2915" left="1581" width="666" height="51" font="font21" id="p1_t78" reading_order_no="75" segment_no="4" tag_type="text">ditional  second  spent  browsing  search </text>
-<text top="2963" left="1581" width="666" height="51" font="font21" id="p1_t79" reading_order_no="76" segment_no="4" tag_type="text">results  could  put  human  lives  at  risk. </text>
-<text top="3009" left="1581" width="667" height="51" font="font21" id="p1_t80" reading_order_no="77" segment_no="4" tag_type="text">Finally,  visually  impaired  computer  us- </text>
-<text top="3028" left="2311" width="1" height="22" font="font26" id="p1_t81" reading_order_no="78" segment_no="10" tag_type="title">ILLUSTRATION </text>
-<text top="2884" left="2312" width="0" height="22" font="font27" id="p1_t82" reading_order_no="79" segment_no="10" tag_type="title">BY </text>
-<text top="2856" left="2312" width="0" height="22" font="font28" id="p1_t83" reading_order_no="80" segment_no="10" tag_type="title">JON </text>
+<text top="47" left="47" width="1755" height="201" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">contributed  articles</text>
+<text top="439" left="1030" width="497" height="39" font="font1" id="p1_t2" reading_order_no="1" segment_no="1" tag_type="text">DOI:10.1145/1378727.1378743</text>
+<text top="515" left="156" width="1335" height="73" font="font4" id="p1_t3" reading_order_no="2" segment_no="5" tag_type="text">Beyond  Google,  emerging  question-answering</text>
+<text top="584" left="155" width="1345" height="70" font="font5" id="p1_t4" reading_order_no="3" segment_no="5" tag_type="text">systems  respond  to  natural-language  queries.</text>
+<text top="656" left="128" width="1400" height="107" font="font2" id="p1_t5" reading_order_no="4" segment_no="6" tag_type="text">|  BY DMITRI  ROUSSINOV,  WEIGUO FAN,  AND  JOSE  ROBLES-FLORES</text>
+<text top="783" left="140" width="703" height="259" font="font7" id="p1_t6" reading_order_no="5" segment_no="7" tag_type="title">Beyond</text>
+<text top="983" left="141" width="997" height="255" font="font8" id="p1_t7" reading_order_no="6" segment_no="7" tag_type="title">Keywords:</text>
+<text top="1174" left="130" width="1061" height="261" font="font9" id="p1_t8" reading_order_no="7" segment_no="7" tag_type="title">Automated</text>
+<text top="1371" left="137" width="835" height="263" font="font10" id="p1_t9" reading_order_no="8" segment_no="7" tag_type="title">Question</text>
+<text top="1566" left="130" width="1031" height="259" font="font7" id="p1_t10" reading_order_no="9" segment_no="7" tag_type="title">Answering</text>
+<text top="1783" left="136" width="1047" height="236" font="font11" id="p1_t11" reading_order_no="10" segment_no="7" tag_type="title">on  the  Web</text>
+<text top="2258" left="130" width="1289" height="77" font="font13" id="p1_t12" reading_order_no="11" segment_no="8" tag_type="text">SINCE  THE  TYPICAL  COMPUTER  USER  spends half  an</text>
+<text top="2328" left="133" width="1271" height="74" font="font14" id="p1_t13" reading_order_no="12" segment_no="8" tag_type="text">hour  a  day  searching  the  Web  through  Google  and</text>
+<text top="2394" left="131" width="1316" height="76" font="font15" id="p1_t14" reading_order_no="13" segment_no="8" tag_type="text">other  search  portals,  it  is  not  surprising  that  Google</text>
+<text top="2461" left="131" width="1367" height="77" font="font13" id="p1_t15" reading_order_no="14" segment_no="8" tag_type="text">and  other  sellers  of  online  advertising  have  surpassed</text>
+<text top="2528" left="131" width="1398" height="77" font="font13" id="p1_t16" reading_order_no="15" segment_no="8" tag_type="text">the  revenue  of  their  non-online  competitors,  including</text>
+<text top="2597" left="132" width="1330" height="74" font="font14" id="p1_t17" reading_order_no="16" segment_no="8" tag_type="text">radio  and  TV  networks.  The  success  of  Google  stock,</text>
+<text top="2663" left="131" width="1357" height="74" font="font14" id="p1_t18" reading_order_no="17" segment_no="8" tag_type="text">as  well  as  the  stock  of  other  search-portal  companies,</text>
+<text top="2729" left="132" width="1327" height="76" font="font15" id="p1_t19" reading_order_no="18" segment_no="8" tag_type="text">has  prompted  investors  and  IT  practitioners  alike  to</text>
+<text top="2796" left="130" width="1157" height="74" font="font14" id="p1_t20" reading_order_no="19" segment_no="8" tag_type="text">want  to  know  what’s  next  in  the  search  world.</text>
+<text top="2864" left="181" width="1299" height="72" font="font16" id="p1_t21" reading_order_no="20" segment_no="9" tag_type="text">The  July  2005  acquisition  of  AskJeeves  (now  known</text>
+<text top="2929" left="131" width="1371" height="76" font="font15" id="p1_t22" reading_order_no="21" segment_no="9" tag_type="text">as  Ask.com)  by  InterActiveCorp  for  a  surprisingly  high</text>
+<text top="2996" left="132" width="1206" height="76" font="font15" id="p1_t23" reading_order_no="22" segment_no="9" tag_type="text">price  of  $2.3  billion  may  point  to  some  possible</text>
+<text top="3125" left="131" width="477" height="31" font="font17" id="p1_t24" reading_order_no="82" segment_no="12" tag_type="text">60  COMMUNICATIONS  OF  THE  ACM</text>
+<text top="3124" left="661" width="455" height="31" font="font17" id="p1_t25" reading_order_no="83" segment_no="11" tag_type="text">SEPTEMBER  2008  |  VOL.51  |  NO.9</text>
+<text top="465" left="1580" width="667" height="50" font="font19" id="p1_t26" reading_order_no="23" segment_no="2" tag_type="text">answers.  Ask.com  not  only  wanted  a</text>
+<text top="515" left="1581" width="667" height="49" font="font20" id="p1_t27" reading_order_no="24" segment_no="2" tag_type="text">share  of  the  online-search  market,  it</text>
+<text top="561" left="1580" width="667" height="50" font="font19" id="p1_t28" reading_order_no="25" segment_no="2" tag_type="text">also  wanted  the  market’s  most  prized</text>
+<text top="609" left="1580" width="195" height="51" font="font21" id="p1_t29" reading_order_no="26" segment_no="2" tag_type="text">possession:</text>
+<text top="608" left="1827" width="420" height="51" font="font21" id="p1_t30" reading_order_no="27" segment_no="2" tag_type="text">completely  automated</text>
+<text top="656" left="1580" width="667" height="53" font="font22" id="p1_t31" reading_order_no="28" segment_no="2" tag_type="text">open-domain  question  answering  (QA)</text>
+<text top="704" left="1581" width="667" height="53" font="font22" id="p1_t32" reading_order_no="29" segment_no="2" tag_type="text">on  the  Web,  the  holy  grail  of  informa-</text>
+<text top="755" left="1581" width="666" height="50" font="font19" id="p1_t33" reading_order_no="30" segment_no="2" tag_type="text">tion  access.  The  QA  goal  is  to  locate,</text>
+<text top="800" left="1581" width="667" height="51" font="font21" id="p1_t34" reading_order_no="31" segment_no="2" tag_type="text">extract,  and  provide  specific  answers  to</text>
+<text top="849" left="1580" width="668" height="53" font="font22" id="p1_t35" reading_order_no="32" segment_no="2" tag_type="text">user  questions  expressed  in  natural  lan-</text>
+<text top="896" left="1579" width="668" height="53" font="font22" id="p1_t36" reading_order_no="33" segment_no="2" tag_type="text">guage.  A  QA  system  takes  input  (such  as</text>
+<text top="945" left="1581" width="666" height="53" font="font22" id="p1_t37" reading_order_no="34" segment_no="2" tag_type="text">“How  many  Kurds  live  in  Turkey?”)  and</text>
+<text top="992" left="1580" width="668" height="51" font="font21" id="p1_t38" reading_order_no="35" segment_no="2" tag_type="text">provides  output  (such  as  “About  15  mil-</text>
+<text top="1040" left="1581" width="666" height="51" font="font21" id="p1_t39" reading_order_no="36" segment_no="2" tag_type="text">lion  Kurds  live  in  Turkey,”  or  simply  “15</text>
+<text top="1093" left="1581" width="161" height="45" font="font23" id="p1_t40" reading_order_no="37" segment_no="2" tag_type="text">million”).</text>
+<text top="1137" left="1631" width="619" height="51" font="font21" id="p1_t41" reading_order_no="38" segment_no="3" tag_type="text">Search  engines  have  significantly</text>
+<text top="1184" left="1581" width="668" height="53" font="font22" id="p1_t42" reading_order_no="39" segment_no="3" tag_type="text">improved  their  ability  to  find  the  most</text>
+<text top="1232" left="1580" width="668" height="51" font="font21" id="p1_t43" reading_order_no="40" segment_no="3" tag_type="text">popular  and  lexically  related  pages  to  a</text>
+<text top="1279" left="1579" width="669" height="53" font="font22" id="p1_t44" reading_order_no="41" segment_no="3" tag_type="text">given  query  by  performing  link  analy-</text>
+<text top="1329" left="1581" width="668" height="53" font="font22" id="p1_t45" reading_order_no="42" segment_no="3" tag_type="text">sis  and  counting  the  number  of  query</text>
+<text top="1378" left="1579" width="669" height="51" font="font21" id="p1_t46" reading_order_no="43" segment_no="3" tag_type="text">words.  However,  search  engines  are  not</text>
+<text top="1425" left="1581" width="667" height="53" font="font22" id="p1_t47" reading_order_no="44" segment_no="3" tag_type="text">designed  to  deal  with  natural-language</text>
+<text top="1472" left="1581" width="667" height="53" font="font22" id="p1_t48" reading_order_no="45" segment_no="3" tag_type="text">questions,  treating  most  of  them  as</text>
+<text top="1524" left="1582" width="665" height="47" font="font24" id="p1_t49" reading_order_no="46" segment_no="3" tag_type="text">“bags,”  or  unordered  sets,  of  words.</text>
+<text top="1569" left="1579" width="669" height="53" font="font22" id="p1_t50" reading_order_no="47" segment_no="3" tag_type="text">When  a  user  types  a  question  (such  as</text>
+<text top="1617" left="1582" width="667" height="53" font="font22" id="p1_t51" reading_order_no="48" segment_no="3" tag_type="text">“Who  is  the  largest  producer  of  soft-</text>
+<text top="1663" left="1578" width="671" height="53" font="font22" id="p1_t52" reading_order_no="49" segment_no="3" tag_type="text">ware?”),  Google  treats  it  as  if  the  user</text>
+<text top="1713" left="1580" width="668" height="50" font="font19" id="p1_t53" reading_order_no="50" segment_no="3" tag_type="text">typed  “software  producer  largest,”  lead-</text>
+<text top="1759" left="1581" width="667" height="53" font="font22" id="p1_t54" reading_order_no="51" segment_no="3" tag_type="text">ing  to  unexpected  and  often  not-useful</text>
+<text top="1809" left="1581" width="668" height="53" font="font22" id="p1_t55" reading_order_no="52" segment_no="3" tag_type="text">results.  It  displays  pages  about  the  larg-</text>
+<text top="1857" left="1581" width="667" height="51" font="font21" id="p1_t56" reading_order_no="53" segment_no="3" tag_type="text">est  producers  of  dairy  products,  trucks,</text>
+<text top="1907" left="1581" width="667" height="49" font="font20" id="p1_t57" reading_order_no="54" segment_no="3" tag_type="text">and  “catholic  software,”  but  not  the</text>
+<text top="1953" left="1581" width="667" height="51" font="font21" id="p1_t58" reading_order_no="55" segment_no="3" tag_type="text">answer  the  user  might  expect  or  need</text>
+<text top="2007" left="1581" width="668" height="46" font="font25" id="p1_t59" reading_order_no="56" segment_no="3" tag_type="text">(such  as  “Microsoft”).  Even  if  the  cor-</text>
+<text top="2050" left="1582" width="666" height="53" font="font22" id="p1_t60" reading_order_no="57" segment_no="3" tag_type="text">rect  answer  is  among  the  search  results,</text>
+<text top="2097" left="1581" width="667" height="51" font="font21" id="p1_t61" reading_order_no="58" segment_no="3" tag_type="text">it  still  takes  time  to  sift  through  all  the</text>
+<text top="2144" left="1581" width="668" height="53" font="font22" id="p1_t62" reading_order_no="59" segment_no="3" tag_type="text">returned  results  and  locate  the  most</text>
+<text top="2194" left="1580" width="541" height="51" font="font21" id="p1_t63" reading_order_no="60" segment_no="3" tag_type="text">promising  answer  among  them.</text>
+<text top="2242" left="1631" width="617" height="51" font="font21" id="p1_t64" reading_order_no="61" segment_no="4" tag_type="text">It  is  more  natural  for  people  to  type</text>
+<text top="2289" left="1580" width="671" height="53" font="font22" id="p1_t65" reading_order_no="62" segment_no="4" tag_type="text">a  question  (such  as  “Who  wrote  King</text>
+<text top="2341" left="1580" width="669" height="47" font="font24" id="p1_t66" reading_order_no="63" segment_no="4" tag_type="text">Lear?”)  than  to  formulate  queries  us-</text>
+<text top="2384" left="1581" width="669" height="53" font="font22" id="p1_t67" reading_order_no="64" segment_no="4" tag_type="text">ing  Boolean  logic  (such  as  “wrote  OR</text>
+<text top="2435" left="1579" width="669" height="51" font="font21" id="p1_t68" reading_order_no="65" segment_no="4" tag_type="text">written  OR  author  AND  King  Lear”).</text>
+<text top="2482" left="1581" width="667" height="53" font="font22" id="p1_t69" reading_order_no="66" segment_no="4" tag_type="text">Precise,  timely,  and  factual  answers</text>
+<text top="2531" left="1580" width="670" height="51" font="font21" id="p1_t70" reading_order_no="67" segment_no="4" tag_type="text">are  especially  important  when  dealing</text>
+<text top="2577" left="1578" width="671" height="53" font="font22" id="p1_t71" reading_order_no="68" segment_no="4" tag_type="text">with  a  limited  communication  chan-</text>
+<text top="2626" left="1581" width="667" height="51" font="font21" id="p1_t72" reading_order_no="69" segment_no="4" tag_type="text">nel.  A  growing  number  of  Internet  users</text>
+<text top="2673" left="1581" width="667" height="53" font="font22" id="p1_t73" reading_order_no="70" segment_no="4" tag_type="text">have  mobile  devices  with  small  screens</text>
+<text top="2727" left="1581" width="666" height="46" font="font25" id="p1_t74" reading_order_no="71" segment_no="4" tag_type="text">(such  as  Internet-enabled  cell  phones).</text>
+<text top="2769" left="1581" width="669" height="51" font="font21" id="p1_t75" reading_order_no="72" segment_no="4" tag_type="text">Military,  first-responder,  and  security</text>
+<text top="2820" left="1582" width="667" height="50" font="font19" id="p1_t76" reading_order_no="73" segment_no="4" tag_type="text">systems  frequently  put  their  users  un-</text>
+<text top="2865" left="1581" width="668" height="53" font="font22" id="p1_t77" reading_order_no="74" segment_no="4" tag_type="text">der  such  time  constraints  that  each  ad-</text>
+<text top="2915" left="1581" width="666" height="51" font="font21" id="p1_t78" reading_order_no="75" segment_no="4" tag_type="text">ditional  second  spent  browsing  search</text>
+<text top="2963" left="1581" width="666" height="51" font="font21" id="p1_t79" reading_order_no="76" segment_no="4" tag_type="text">results  could  put  human  lives  at  risk.</text>
+<text top="3009" left="1581" width="667" height="51" font="font21" id="p1_t80" reading_order_no="77" segment_no="4" tag_type="text">Finally,  visually  impaired  computer  us-</text>
+<text top="3028" left="2311" width="1" height="22" font="font26" id="p1_t81" reading_order_no="78" segment_no="10" tag_type="title">ILLUSTRATION</text>
+<text top="2884" left="2312" width="0" height="22" font="font27" id="p1_t82" reading_order_no="79" segment_no="10" tag_type="title">BY</text>
+<text top="2856" left="2312" width="0" height="22" font="font28" id="p1_t83" reading_order_no="80" segment_no="10" tag_type="title">JON</text>
 <text top="2814" left="2312" width="0" height="22" font="font26" id="p1_t84" reading_order_no="81" segment_no="10" tag_type="title">HAN</text>
 </page>
 </pdf2xml>

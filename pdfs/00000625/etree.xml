@@ -15,175 +15,175 @@
 	<fontspec id="font11" size="22" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font12" size="16" family="GlyphLessFont" color="#000000"/>
 	<fontspec id="font13" size="16" family="GlyphLessFont" color="#000000"/>
-<text top="92" left="210" width="648" height="45" font="font0" id="p1_t1" reading_order_no="0" segment_no="4" tag_type="text">answer  could,  in  fact,  come  from  any </text>
-<text top="137" left="209" width="344" height="45" font="font0" id="p1_t2" reading_order_no="1" segment_no="4" tag_type="text">machine,  anywhere. </text>
-<text top="182" left="255" width="603" height="45" font="font0" id="p1_t3" reading_order_no="2" segment_no="5" tag_type="text">Well,  almost—a  few  systems  work </text>
-<text top="225" left="210" width="646" height="49" font="font1" id="p1_t4" reading_order_no="3" segment_no="5" tag_type="text">differently.  Anyone  accessing  sites  in </text>
-<text top="274" left="210" width="646" height="45" font="font0" id="p1_t5" reading_order_no="4" segment_no="5" tag_type="text">Sweden’s  .se  domain,  for  example,  can </text>
-<text top="317" left="209" width="647" height="50" font="font2" id="p1_t6" reading_order_no="5" segment_no="5" tag_type="text">use  a  secure  extension  to  DNS  called </text>
-<text top="363" left="208" width="648" height="49" font="font1" id="p1_t7" reading_order_no="6" segment_no="5" tag_type="text">DNSSEC  (for  Domain  Name  System </text>
-<text top="410" left="210" width="645" height="47" font="font3" id="p1_t8" reading_order_no="7" segment_no="5" tag_type="text">Security  Extensions)  to  carry  out  DNS </text>
-<text top="455" left="208" width="650" height="50" font="font2" id="p1_t9" reading_order_no="8" segment_no="5" tag_type="text">lookups.  But  DNSSEC  hasn’t  really </text>
-<text top="502" left="209" width="655" height="49" font="font1" id="p1_t10" reading_order_no="9" segment_no="5" tag_type="text">caught  on,  in  part  because  it  is  cumber- </text>
-<text top="550" left="210" width="645" height="46" font="font4" id="p1_t11" reading_order_no="10" segment_no="5" tag_type="text">some  for  name-server  administrators  to </text>
-<text top="593" left="209" width="646" height="49" font="font1" id="p1_t12" reading_order_no="11" segment_no="5" tag_type="text">manage.  That  attitude  now  seems  due </text>
-<text top="639" left="209" width="646" height="49" font="font1" id="p1_t13" reading_order_no="12" segment_no="5" tag_type="text">for  an  adjustment.  “There  certainly  was </text>
-<text top="685" left="210" width="648" height="49" font="font1" id="p1_t14" reading_order_no="13" segment_no="5" tag_type="text">a  spike  in  interest  in  DNSSEC”  after </text>
-<text top="731" left="208" width="654" height="49" font="font1" id="p1_t15" reading_order_no="14" segment_no="5" tag_type="text">Kaminsky  made  his  discovery  known, </text>
-<text top="776" left="210" width="647" height="49" font="font1" id="p1_t16" reading_order_no="15" segment_no="5" tag_type="text">says  Cricket  Liu,  a  DNS  expert  at </text>
-<text top="824" left="208" width="650" height="46" font="font4" id="p1_t17" reading_order_no="16" segment_no="5" tag_type="text">Infoblox,  a  Santa  Clara,  Calif.,  provider </text>
-<text top="869" left="210" width="514" height="47" font="font3" id="p1_t18" reading_order_no="17" segment_no="5" tag_type="text">of  DNS  hardware  and  software. </text>
-<text top="914" left="261" width="595" height="49" font="font1" id="p1_t19" reading_order_no="18" segment_no="6" tag_type="text">Still,  most  communication  between </text>
-<text top="960" left="209" width="646" height="49" font="font1" id="p1_t20" reading_order_no="19" segment_no="6" tag_type="text">name  servers  continues  to  take  place </text>
-<text top="1006" left="209" width="649" height="50" font="font2" id="p1_t21" reading_order_no="20" segment_no="6" tag_type="text">over  an  insecure  channel.  The  receiver </text>
-<text top="1053" left="210" width="648" height="49" font="font1" id="p1_t22" reading_order_no="21" segment_no="6" tag_type="text">does  check  the  origin  of  an  answer </text>
-<text top="1099" left="208" width="647" height="49" font="font1" id="p1_t23" reading_order_no="22" segment_no="6" tag_type="text">using  a  numeric  tag  attached  to  the </text>
-<text top="1146" left="209" width="649" height="47" font="font3" id="p1_t24" reading_order_no="23" segment_no="6" tag_type="text">request.  But  this  query  ID  number </text>
-<text top="1194" left="207" width="650" height="45" font="font0" id="p1_t25" reading_order_no="24" segment_no="6" tag_type="text">wasn’t  designed  with  security  in  mind; </text>
-<text top="1235" left="209" width="647" height="50" font="font2" id="p1_t26" reading_order_no="25" segment_no="6" tag_type="text">it  was  intended  originally  just  to  match </text>
-<text top="1283" left="208" width="628" height="47" font="font3" id="p1_t27" reading_order_no="26" segment_no="6" tag_type="text">up  outgoing  requests  with  incoming </text>
-<text top="1329" left="210" width="611" height="47" font="font3" id="p1_t28" reading_order_no="27" segment_no="6" tag_type="text">answers.  Early  on,  DNS  software </text>
-<text top="1372" left="210" width="618" height="50" font="font2" id="p1_t29" reading_order_no="28" segment_no="6" tag_type="text">assigned  those  numbers  sequentially, </text>
-<text top="1419" left="206" width="644" height="49" font="font1" id="p1_t30" reading_order_no="29" segment_no="6" tag_type="text">which  made  it  easy  for  an  attacker  to </text>
-<text top="1468" left="209" width="654" height="46" font="font4" id="p1_t31" reading_order_no="30" segment_no="6" tag_type="text">guess  them.  Since  about  1997,  DNS  soft- </text>
-<text top="1513" left="207" width="615" height="47" font="font3" id="p1_t32" reading_order_no="31" segment_no="6" tag_type="text">ware  has  been  configured  to  assign </text>
-<text top="1558" left="209" width="595" height="49" font="font1" id="p1_t33" reading_order_no="32" segment_no="6" tag_type="text">those  ID  numbers  randomly  to </text>
-<text top="1605" left="209" width="587" height="47" font="font3" id="p1_t34" reading_order_no="33" segment_no="6" tag_type="text">make  such  attacks  harder.  But  the </text>
-<text top="1653" left="208" width="589" height="45" font="font0" id="p1_t35" reading_order_no="34" segment_no="6" tag_type="text">ID  number  has  only  16  bits,  which </text>
-<text top="1699" left="209" width="601" height="45" font="font0" id="p1_t36" reading_order_no="35" segment_no="6" tag_type="text">translates  to  65  536  possible  values— </text>
-<text top="1742" left="209" width="612" height="49" font="font1" id="p1_t37" reading_order_no="36" segment_no="6" tag_type="text">few  enough  to  give  an  attacker  a  rea- </text>
-<text top="1788" left="210" width="624" height="49" font="font1" id="p1_t38" reading_order_no="37" segment_no="6" tag_type="text">sonable  chance  of  guessing  right  if  he </text>
-<text top="1834" left="209" width="460" height="47" font="font3" id="p1_t39" reading_order_no="38" segment_no="6" tag_type="text">can  try  thousands  of  times. </text>
-<text top="1882" left="255" width="601" height="45" font="font0" id="p1_t40" reading_order_no="39" segment_no="10" tag_type="text">And  that,  it  turns  out,  is  easy.  Alla </text>
-<text top="1926" left="208" width="647" height="47" font="font3" id="p1_t41" reading_order_no="40" segment_no="10" tag_type="text">hacker  needs  to  do  is  send  a  request  to </text>
-<text top="1971" left="209" width="647" height="49" font="font1" id="p1_t42" reading_order_no="41" segment_no="10" tag_type="text">the  name  server  asking  it  to  look  up  an </text>
-<text top="2018" left="208" width="648" height="47" font="font3" id="p1_t43" reading_order_no="42" segment_no="10" tag_type="text">IP  address  it  doesn’t  have  cached.  Then </text>
-<text top="2063" left="209" width="649" height="49" font="font1" id="p1_t44" reading_order_no="43" segment_no="10" tag_type="text">he  immediately  bombards  the  server </text>
-<text top="2112" left="206" width="658" height="45" font="font0" id="p1_t45" reading_order_no="44" segment_no="10" tag_type="text">with  answers,  each  containing  a  dif- </text>
-<text top="2154" left="209" width="646" height="50" font="font2" id="p1_t46" reading_order_no="45" segment_no="10" tag_type="text">ferent  query  ID  number.  Many  of  the </text>
-<text top="2203" left="209" width="649" height="47" font="font3" id="p1_t47" reading_order_no="46" segment_no="10" tag_type="text">fake  replies  will  beat  the  real  answer </text>
-<text top="2248" left="208" width="647" height="47" font="font3" id="p1_t48" reading_order_no="47" segment_no="10" tag_type="text">back  to  the  name  server  seeking  the </text>
-<text top="2296" left="210" width="647" height="45" font="font0" id="p1_t49" reading_order_no="48" segment_no="10" tag_type="text">address.  One  of  them,  the  attacker </text>
-<text top="2340" left="209" width="649" height="47" font="font3" id="p1_t50" reading_order_no="49" segment_no="10" tag_type="text">hopes,  will  contain  the  correct  query </text>
-<text top="2386" left="208" width="646" height="47" font="font3" id="p1_t51" reading_order_no="50" segment_no="10" tag_type="text">ID.  More  sophisticated  versions  of  this </text>
-<text top="2432" left="211" width="645" height="47" font="font3" id="p1_t52" reading_order_no="51" segment_no="10" tag_type="text">second  type  of  attack  don’t  have  such </text>
-<text top="2479" left="209" width="653" height="45" font="font0" id="p1_t53" reading_order_no="52" segment_no="10" tag_type="text">long  odds:  one  scheme,  for  example, </text>
-<text top="2522" left="209" width="655" height="49" font="font1" id="p1_t54" reading_order_no="53" segment_no="10" tag_type="text">takes  advantage  of  the  fact  that  nomi- </text>
-<text top="2569" left="209" width="646" height="49" font="font1" id="p1_t55" reading_order_no="54" segment_no="10" tag_type="text">nally  “random”  query  IDs  can  to  some </text>
-<text top="2614" left="210" width="333" height="50" font="font2" id="p1_t56" reading_order_no="55" segment_no="10" tag_type="text">extent  be  predicted. </text>
-<text top="2661" left="258" width="597" height="49" font="font1" id="p1_t57" reading_order_no="56" segment_no="11" tag_type="text">Up  until  now,  guess-the-query-ID </text>
-<text top="2708" left="210" width="651" height="47" font="font3" id="p1_t58" reading_order_no="57" segment_no="11" tag_type="text">attacks  hadn’t  been  considered  much  of </text>
-<text top="2756" left="210" width="648" height="45" font="font0" id="p1_t59" reading_order_no="58" segment_no="11" tag_type="text">amenace,  because  the  hacker  would  very </text>
-<text top="2799" left="209" width="646" height="49" font="font1" id="p1_t60" reading_order_no="59" segment_no="11" tag_type="text">likely  fail  on  the  first  attempt,  and  the </text>
-<text top="2845" left="209" width="648" height="47" font="font3" id="p1_t61" reading_order_no="60" segment_no="11" tag_type="text">name  server  would  then  store  the  correct </text>
-<text top="2890" left="208" width="650" height="49" font="font1" id="p1_t62" reading_order_no="61" segment_no="11" tag_type="text">IP  address  in  its  cache,  typically  for  a  day </text>
-<text top="2974" left="212" width="646" height="35" font="font5" id="p1_t63" reading_order_no="167" segment_no="18" tag_type="text">32  INT  -  IEEESPECTRUM  -  OCTOBER  2008 </text>
-<text top="89" left="910" width="649" height="46" font="font4" id="p1_t64" reading_order_no="62" segment_no="2" tag_type="text">or  so.  Thus,  if  the  first  such  attack  failed, </text>
-<text top="133" left="909" width="645" height="49" font="font1" id="p1_t65" reading_order_no="63" segment_no="2" tag_type="text">the  hacker  would  have  to  wait  a  day  or </text>
-<text top="179" left="910" width="643" height="47" font="font3" id="p1_t66" reading_order_no="64" segment_no="2" tag_type="text">more  to  try  again.  If  he  had  to  attempt </text>
-<text top="223" left="910" width="644" height="50" font="font2" id="p1_t67" reading_order_no="65" segment_no="2" tag_type="text">this  hundreds  of  times  before  achieving </text>
-<text top="269" left="911" width="640" height="50" font="font2" id="p1_t68" reading_order_no="66" segment_no="2" tag_type="text">success,  it  could  take  years  to  poison  the </text>
-<text top="317" left="910" width="331" height="49" font="font1" id="p1_t69" reading_order_no="67" segment_no="2" tag_type="text">name  server’s  cache. </text>
-<text top="363" left="959" width="593" height="47" font="font3" id="p1_t70" reading_order_no="68" segment_no="3" tag_type="text">Kaminsky’s  insight  reveals  how  an </text>
-<text top="408" left="911" width="647" height="49" font="font1" id="p1_t71" reading_order_no="69" segment_no="3" tag_type="text">attacker  could  sidestep  that  problem. </text>
-<text top="454" left="908" width="643" height="50" font="font2" id="p1_t72" reading_order_no="70" segment_no="3" tag_type="text">Imagine  that  a  hacker  asked  your  ISP’s </text>
-<text top="501" left="909" width="644" height="49" font="font1" id="p1_t73" reading_order_no="71" segment_no="3" tag_type="text">name  server  to  look  up  a  nonexistent </text>
-<text top="547" left="911" width="641" height="49" font="font1" id="p1_t74" reading_order_no="72" segment_no="3" tag_type="text">address  within  the  paypal.com </text>
-<text top="593" left="911" width="647" height="47" font="font3" id="p1_t75" reading_order_no="73" segment_no="3" tag_type="text">domain—for  instance,  aaa.paypal.com. </text>
-<text top="638" left="908" width="651" height="49" font="font1" id="p1_t76" reading_order_no="74" segment_no="3" tag_type="text">This  nonsensical  name  would,  of course, </text>
-<text top="688" left="910" width="649" height="43" font="font6" id="p1_t77" reading_order_no="75" segment_no="3" tag_type="text">not  be  cached  in  your  ISP’s  name  server, </text>
-<text top="731" left="911" width="648" height="47" font="font3" id="p1_t78" reading_order_no="76" segment_no="3" tag_type="text">so  it  would  pass  the  request  up  the  line, </text>
-<text top="776" left="910" width="641" height="47" font="font3" id="p1_t79" reading_order_no="77" segment_no="3" tag_type="text">eventually  asking  the  real  PayPal’s </text>
-<text top="821" left="909" width="645" height="49" font="font1" id="p1_t80" reading_order_no="78" segment_no="3" tag_type="text">name  server  for  the  corresponding  IP </text>
-<text top="867" left="911" width="647" height="49" font="font1" id="p1_t81" reading_order_no="79" segment_no="3" tag_type="text">address.  While  all  that  was  going  on, </text>
-<text top="913" left="910" width="641" height="49" font="font1" id="p1_t82" reading_order_no="80" segment_no="3" tag_type="text">the  attacker  would  send  your  ISP’s </text>
-<text top="959" left="910" width="641" height="49" font="font1" id="p1_t83" reading_order_no="81" segment_no="3" tag_type="text">name  server a  lot  of  spoofed  answers </text>
-<text top="1005" left="907" width="363" height="50" font="font2" id="p1_t84" reading_order_no="82" segment_no="3" tag_type="text">with  different  ID </text>
-<text top="1053" left="910" width="157" height="49" font="font1" id="p1_t85" reading_order_no="83" segment_no="3" tag_type="text">numbers. </text>
-<text top="2015" left="959" width="594" height="50" font="font2" id="p1_t86" reading_order_no="84" segment_no="12" tag_type="text">Because  the  hacker  has  a  head  start </text>
-<text top="2062" left="909" width="642" height="49" font="font1" id="p1_t87" reading_order_no="85" segment_no="12" tag_type="text">in  the  race,  many  of  his  simulated  DNS </text>
-<text top="2108" left="909" width="645" height="49" font="font1" id="p1_t88" reading_order_no="86" segment_no="12" tag_type="text">responses  will  beat  the  real  one  back </text>
-<text top="2157" left="909" width="649" height="46" font="font4" id="p1_t89" reading_order_no="87" segment_no="12" tag_type="text">to  your  name  server.  If,  for  example, </text>
-<text top="2200" left="908" width="644" height="50" font="font2" id="p1_t90" reading_order_no="88" segment_no="12" tag_type="text">100  fake  answers  arrive  before  the  real </text>
-<text top="2250" left="910" width="643" height="45" font="font0" id="p1_t91" reading_order_no="89" segment_no="12" tag_type="text">one,  the  attacker’s  chances  of  having </text>
-<text top="2292" left="910" width="642" height="49" font="font1" id="p1_t92" reading_order_no="90" segment_no="12" tag_type="text">one  of  his  bogus  responses  accepted </text>
-<text top="2338" left="909" width="650" height="49" font="font1" id="p1_t93" reading_order_no="91" segment_no="12" tag_type="text">improve,  from  1  in  65  536  to  a  more  wor- </text>
-<text top="2385" left="909" width="643" height="47" font="font3" id="p1_t94" reading_order_no="92" segment_no="12" tag_type="text">risome  1  in  655.  Even  if  all  100  spoofed </text>
-<text top="2433" left="910" width="648" height="45" font="font0" id="p1_t95" reading_order_no="93" segment_no="12" tag_type="text">answers  fail  to  get  the  ID  number  right, </text>
-<text top="2476" left="909" width="642" height="49" font="font1" id="p1_t96" reading_order_no="94" segment_no="12" tag_type="text">there’s  nothing  preventing  him  from </text>
-<text top="2522" left="909" width="641" height="49" font="font1" id="p1_t97" reading_order_no="95" segment_no="12" tag_type="text">repeating  this  attack  as  many  times </text>
-<text top="2571" left="910" width="643" height="45" font="font0" id="p1_t98" reading_order_no="96" segment_no="12" tag_type="text">as  he  wants,  asking  about  different </text>
-<text top="2614" left="909" width="648" height="49" font="font1" id="p1_t99" reading_order_no="97" segment_no="12" tag_type="text">nonexistent  addresses  each  time:  aab. </text>
-<text top="2660" left="909" width="642" height="49" font="font1" id="p1_t100" reading_order_no="98" segment_no="12" tag_type="text">paypal.com,  aac.paypal.com,  and  so </text>
-<text top="2705" left="909" width="643" height="50" font="font2" id="p1_t101" reading_order_no="99" segment_no="12" tag_type="text">forth.  Eventually—typically  in  about </text>
-<text top="2752" left="908" width="653" height="49" font="font1" id="p1_t102" reading_order_no="100" segment_no="12" tag_type="text">10  seconds  by  Kaminsky’s  estimation— </text>
-<text top="2798" left="910" width="525" height="49" font="font1" id="p1_t103" reading_order_no="101" segment_no="12" tag_type="text">a  false  answer  will  be  accepted. </text>
-<text top="2845" left="955" width="604" height="47" font="font3" id="p1_t104" reading_order_no="102" segment_no="13" tag_type="text">What’s  so  scary  about  someone  giv- </text>
-<text top="2890" left="909" width="641" height="49" font="font1" id="p1_t105" reading_order_no="103" segment_no="13" tag_type="text">ing  your  name  server  an  IP  address </text>
-<text top="87" left="1606" width="644" height="49" font="font1" id="p1_t106" reading_order_no="104" segment_no="0" tag_type="text">for,  say,  pdq.paypal.com?  Nothing,  of </text>
-<text top="132" left="1606" width="642" height="49" font="font1" id="p1_t107" reading_order_no="105" segment_no="0" tag_type="text">course.  But  remember  that  the  attacker </text>
-<text top="178" left="1606" width="640" height="47" font="font3" id="p1_t108" reading_order_no="106" segment_no="0" tag_type="text">can  add  some  devastating  additional </text>
-<text top="223" left="1606" width="639" height="49" font="font1" id="p1_t109" reading_order_no="107" segment_no="0" tag_type="text">information  to  his  spoofed  DNS </text>
-<text top="269" left="1606" width="639" height="49" font="font1" id="p1_t110" reading_order_no="108" segment_no="0" tag_type="text">response—namely,  a  false  IP  address </text>
-<text top="316" left="1606" width="642" height="49" font="font1" id="p1_t111" reading_order_no="109" segment_no="0" tag_type="text">for  www.paypal.com.  Such  fakery </text>
-<text top="362" left="1603" width="642" height="47" font="font3" id="p1_t112" reading_order_no="110" segment_no="0" tag_type="text">will  pass  the  bailiwick  checks  because </text>
-<text top="406" left="1606" width="639" height="50" font="font2" id="p1_t113" reading_order_no="111" segment_no="0" tag_type="text">the  extra  information  is  for  the  same </text>
-<text top="454" left="1606" width="638" height="49" font="font1" id="p1_t114" reading_order_no="112" segment_no="0" tag_type="text">domain  as  the  bogus  name  that  was </text>
-<text top="500" left="1605" width="640" height="49" font="font1" id="p1_t115" reading_order_no="113" segment_no="0" tag_type="text">being  looked  up  in  the  first  place.  So </text>
-<text top="549" left="1606" width="646" height="45" font="font0" id="p1_t116" reading_order_no="114" segment_no="0" tag_type="text">the  bad  address  will  go  into  the  cache, </text>
-<text top="592" left="1606" width="642" height="49" font="font1" id="p1_t117" reading_order_no="115" segment_no="0" tag_type="text">taking  the  place of  the  previous  entry </text>
-<text top="638" left="1606" width="640" height="47" font="font3" id="p1_t118" reading_order_no="116" segment_no="0" tag_type="text">for  www.paypal.com  if  one  had  been </text>
-<text top="684" left="1607" width="209" height="47" font="font3" id="p1_t119" reading_order_no="117" segment_no="0" tag_type="text">stored  there. </text>
-<text top="730" left="1654" width="592" height="47" font="font3" id="p1_t120" reading_order_no="118" segment_no="1" tag_type="text">The  8  July  patch  makes  such  an </text>
-<text top="774" left="1607" width="639" height="49" font="font1" id="p1_t121" reading_order_no="119" segment_no="1" tag_type="text">attack  much  more  difficult—though </text>
-<text top="820" left="1605" width="643" height="49" font="font1" id="p1_t122" reading_order_no="120" segment_no="1" tag_type="text">not  impossible.  It  works  by  randomly </text>
-<text top="868" left="1603" width="642" height="46" font="font4" id="p1_t123" reading_order_no="121" segment_no="1" tag_type="text">varying  not  just  the  query  ID  but  also </text>
-<text top="911" left="1606" width="640" height="50" font="font2" id="p1_t124" reading_order_no="122" segment_no="1" tag_type="text">the  port  number  in  use,  which  you  can </text>
-<text top="958" left="1606" width="648" height="49" font="font1" id="p1_t125" reading_order_no="123" segment_no="1" tag_type="text">think  of  as  being  like  the  suite  num- </text>
-<text top="1005" left="1605" width="640" height="49" font="font1" id="p1_t126" reading_order_no="124" segment_no="1" tag_type="text">ber  on  a  postal  address.  To  defeat  this </text>
-<text top="1053" left="1608" width="637" height="46" font="font4" id="p1_t127" reading_order_no="125" segment_no="1" tag_type="text">defense,  a  hacker  must  guess  both  the </text>
-<text top="1098" left="1618" width="629" height="47" font="font3" id="p1_t128" reading_order_no="126" segment_no="1" tag_type="text">16-bit  query  ID  and  the  16-bit  port </text>
-<text top="1146" left="1620" width="626" height="45" font="font0" id="p1_t129" reading_order_no="127" segment_no="1" tag_type="text">number—32  bits  in  all—requiring,  on </text>
-<text top="1188" left="1608" width="637" height="50" font="font2" id="p1_t130" reading_order_no="128" segment_no="1" tag_type="text">average,  some  4  billion  spoofed  replies </text>
-<text top="1234" left="1606" width="641" height="49" font="font1" id="p1_t131" reading_order_no="129" segment_no="1" tag_type="text">to  be  received.  Such  a  colossal  amount </text>
-<text top="1280" left="1628" width="618" height="49" font="font1" id="p1_t132" reading_order_no="130" segment_no="1" tag_type="text">of  traffic  would  be  hard  to  conceal </text>
-<text top="1326" left="1644" width="502" height="49" font="font1" id="p1_t133" reading_order_no="131" segment_no="1" tag_type="text">from  network  administrators. </text>
-<text top="1416" left="1816" width="429" height="50" font="font2" id="p1_t134" reading_order_no="132" segment_no="7" tag_type="text">ECURITY  professionals  are </text>
-<text top="1464" left="1816" width="432" height="49" font="font1" id="p1_t135" reading_order_no="133" segment_no="7" tag_type="text">taking  Kaminsky’s  attack </text>
-<text top="1511" left="1817" width="435" height="47" font="font3" id="p1_t136" reading_order_no="134" segment_no="7" tag_type="text">scenario  very  seriously, </text>
-<text top="1556" left="1817" width="428" height="49" font="font1" id="p1_t137" reading_order_no="135" segment_no="7" tag_type="text">and  hackers  appear  to  be </text>
-<text top="1603" left="1816" width="303" height="47" font="font3" id="p1_t138" reading_order_no="136" segment_no="7" tag_type="text">testing  the  waters. </text>
-<text top="1648" left="1655" width="596" height="49" font="font1" id="p1_t139" reading_order_no="137" segment_no="8" tag_type="text">Computer-security  expert  Steven  M. </text>
-<text top="1694" left="1605" width="649" height="49" font="font1" id="p1_t140" reading_order_no="138" segment_no="8" tag_type="text">Bellovin,  a  professor  of  computer  sci- </text>
-<text top="1744" left="1606" width="642" height="43" font="font6" id="p1_t141" reading_order_no="139" segment_no="8" tag_type="text">ence  at  Columbia  University,  in  New </text>
-<text top="1789" left="1600" width="647" height="45" font="font0" id="p1_t142" reading_order_no="140" segment_no="8" tag_type="text">York  City,  says,  “I’ve  seen  reports  that </text>
-<text top="1832" left="1605" width="642" height="47" font="font3" id="p1_t143" reading_order_no="141" segment_no="8" tag_type="text">it’s  started  to  happen  in  the  wild.”  But </text>
-<text top="1878" left="1605" width="649" height="47" font="font3" id="p1_t144" reading_order_no="142" segment_no="8" tag_type="text">he  believes  that  DNS  cache  poison- </text>
-<text top="1922" left="1605" width="650" height="50" font="font2" id="p1_t145" reading_order_no="143" segment_no="8" tag_type="text">ing  will  ultimately  affect  few  people— </text>
-<text top="1969" left="1605" width="640" height="49" font="font1" id="p1_t146" reading_order_no="144" segment_no="8" tag_type="text">in  contrast  to  what  can  happen  with </text>
-<text top="2016" left="1605" width="650" height="47" font="font3" id="p1_t147" reading_order_no="145" segment_no="8" tag_type="text">certain  computer  viruses  and  worms— </text>
-<text top="2062" left="1605" width="640" height="47" font="font3" id="p1_t148" reading_order_no="146" segment_no="8" tag_type="text">given  that  system  administrators  are </text>
-<text top="2107" left="1605" width="648" height="49" font="font1" id="p1_t149" reading_order_no="147" segment_no="8" tag_type="text">now  taking  appropriate  steps.  He  never- </text>
-<text top="2156" left="1605" width="640" height="46" font="font4" id="p1_t150" reading_order_no="148" segment_no="8" tag_type="text">theless  cautions,  “It’s  one  of  the  more </text>
-<text top="2203" left="1606" width="639" height="45" font="font0" id="p1_t151" reading_order_no="149" segment_no="8" tag_type="text">serious  problems  we’ve  seen,  because </text>
-<text top="2246" left="1605" width="640" height="49" font="font1" id="p1_t152" reading_order_no="150" segment_no="8" tag_type="text">it’s  going  after  the  infrastructure.  The </text>
-<text top="2291" left="1604" width="641" height="49" font="font1" id="p1_t153" reading_order_no="151" segment_no="8" tag_type="text">hard-core  bad  guys  are  starting  to </text>
-<text top="2339" left="1603" width="165" height="47" font="font3" id="p1_t154" reading_order_no="152" segment_no="8" tag_type="text">wake  up.” </text>
-<text top="2339" left="2223" width="22" height="47" font="font3" id="p1_t155" reading_order_no="153" segment_no="9" tag_type="not_found">Q </text>
-<text top="2430" left="1604" width="649" height="47" font="font3" id="p1_t156" reading_order_no="154" segment_no="14" tag_type="text">TO  PROBE  FURTHER  Paul  Vixie’s  pio- </text>
-<text top="2476" left="1605" width="640" height="47" font="font3" id="p1_t157" reading_order_no="155" segment_no="14" tag_type="text">neering  report  “DNS  and  BIND  Security </text>
-<text top="2523" left="1602" width="642" height="46" font="font4" id="p1_t158" reading_order_no="156" segment_no="14" tag_type="text">Issues,”  which  warned  that  the  Domain </text>
-<text top="2570" left="1602" width="651" height="45" font="font0" id="p1_t159" reading_order_no="157" segment_no="14" tag_type="text">Name  System  was  vulnerable  to  attack, </text>
-<text top="2610" left="1605" width="640" height="51" font="font10" id="p1_t160" reading_order_no="158" segment_no="14" tag_type="text">appeared  in  Proceedings  of  the  Fifth </text>
-<text top="2659" left="1603" width="650" height="49" font="font1" id="p1_t161" reading_order_no="159" segment_no="14" tag_type="text">USENIX  UNIX  Security  Symposium, </text>
-<text top="2706" left="1604" width="378" height="47" font="font3" id="p1_t162" reading_order_no="160" segment_no="14" tag_type="text">Salt  Lake  City,  June  1995. </text>
-<text top="2751" left="1647" width="597" height="49" font="font1" id="p1_t163" reading_order_no="161" segment_no="15" tag_type="text">A  full  description  of  how  the  Domain </text>
-<text top="2798" left="1602" width="643" height="47" font="font3" id="p1_t164" reading_order_no="162" segment_no="15" tag_type="text">Name  System  works  is  available  in  DNS </text>
-<text top="2843" left="1606" width="638" height="47" font="font3" id="p1_t165" reading_order_no="163" segment_no="15" tag_type="text">and  BIND,  Fifth  Edition,  by  Cricket  Liu </text>
-<text top="2891" left="1604" width="479" height="45" font="font0" id="p1_t166" reading_order_no="164" segment_no="15" tag_type="text">and  Paul  Albitz,  O’Reilly,  2006. </text>
-<text top="2969" left="1928" width="317" height="30" font="font11" id="p1_t167" reading_order_no="168" segment_no="17" tag_type="text">WWW.SPECTRUM.IEEE.ORG </text>
-<text top="2988" left="2250" width="6" height="30" font="font11" id="p1_t168" reading_order_no="169" segment_no="17" tag_type="text">5 </text>
-<text top="2906" left="2295" width="1" height="22" font="font12" id="p1_t169" reading_order_no="165" segment_no="16" tag_type="title">VIKTOR </text>
+<text top="92" left="210" width="648" height="45" font="font0" id="p1_t1" reading_order_no="0" segment_no="4" tag_type="text">answer  could,  in  fact,  come  from  any</text>
+<text top="137" left="209" width="344" height="45" font="font0" id="p1_t2" reading_order_no="1" segment_no="4" tag_type="text">machine,  anywhere.</text>
+<text top="182" left="255" width="603" height="45" font="font0" id="p1_t3" reading_order_no="2" segment_no="5" tag_type="text">Well,  almost—a  few  systems  work</text>
+<text top="225" left="210" width="646" height="49" font="font1" id="p1_t4" reading_order_no="3" segment_no="5" tag_type="text">differently.  Anyone  accessing  sites  in</text>
+<text top="274" left="210" width="646" height="45" font="font0" id="p1_t5" reading_order_no="4" segment_no="5" tag_type="text">Sweden’s  .se  domain,  for  example,  can</text>
+<text top="317" left="209" width="647" height="50" font="font2" id="p1_t6" reading_order_no="5" segment_no="5" tag_type="text">use  a  secure  extension  to  DNS  called</text>
+<text top="363" left="208" width="648" height="49" font="font1" id="p1_t7" reading_order_no="6" segment_no="5" tag_type="text">DNSSEC  (for  Domain  Name  System</text>
+<text top="410" left="210" width="645" height="47" font="font3" id="p1_t8" reading_order_no="7" segment_no="5" tag_type="text">Security  Extensions)  to  carry  out  DNS</text>
+<text top="455" left="208" width="650" height="50" font="font2" id="p1_t9" reading_order_no="8" segment_no="5" tag_type="text">lookups.  But  DNSSEC  hasn’t  really</text>
+<text top="502" left="209" width="655" height="49" font="font1" id="p1_t10" reading_order_no="9" segment_no="5" tag_type="text">caught  on,  in  part  because  it  is  cumber-</text>
+<text top="550" left="210" width="645" height="46" font="font4" id="p1_t11" reading_order_no="10" segment_no="5" tag_type="text">some  for  name-server  administrators  to</text>
+<text top="593" left="209" width="646" height="49" font="font1" id="p1_t12" reading_order_no="11" segment_no="5" tag_type="text">manage.  That  attitude  now  seems  due</text>
+<text top="639" left="209" width="646" height="49" font="font1" id="p1_t13" reading_order_no="12" segment_no="5" tag_type="text">for  an  adjustment.  “There  certainly  was</text>
+<text top="685" left="210" width="648" height="49" font="font1" id="p1_t14" reading_order_no="13" segment_no="5" tag_type="text">a  spike  in  interest  in  DNSSEC”  after</text>
+<text top="731" left="208" width="654" height="49" font="font1" id="p1_t15" reading_order_no="14" segment_no="5" tag_type="text">Kaminsky  made  his  discovery  known,</text>
+<text top="776" left="210" width="647" height="49" font="font1" id="p1_t16" reading_order_no="15" segment_no="5" tag_type="text">says  Cricket  Liu,  a  DNS  expert  at</text>
+<text top="824" left="208" width="650" height="46" font="font4" id="p1_t17" reading_order_no="16" segment_no="5" tag_type="text">Infoblox,  a  Santa  Clara,  Calif.,  provider</text>
+<text top="869" left="210" width="514" height="47" font="font3" id="p1_t18" reading_order_no="17" segment_no="5" tag_type="text">of  DNS  hardware  and  software.</text>
+<text top="914" left="261" width="595" height="49" font="font1" id="p1_t19" reading_order_no="18" segment_no="6" tag_type="text">Still,  most  communication  between</text>
+<text top="960" left="209" width="646" height="49" font="font1" id="p1_t20" reading_order_no="19" segment_no="6" tag_type="text">name  servers  continues  to  take  place</text>
+<text top="1006" left="209" width="649" height="50" font="font2" id="p1_t21" reading_order_no="20" segment_no="6" tag_type="text">over  an  insecure  channel.  The  receiver</text>
+<text top="1053" left="210" width="648" height="49" font="font1" id="p1_t22" reading_order_no="21" segment_no="6" tag_type="text">does  check  the  origin  of  an  answer</text>
+<text top="1099" left="208" width="647" height="49" font="font1" id="p1_t23" reading_order_no="22" segment_no="6" tag_type="text">using  a  numeric  tag  attached  to  the</text>
+<text top="1146" left="209" width="649" height="47" font="font3" id="p1_t24" reading_order_no="23" segment_no="6" tag_type="text">request.  But  this  query  ID  number</text>
+<text top="1194" left="207" width="650" height="45" font="font0" id="p1_t25" reading_order_no="24" segment_no="6" tag_type="text">wasn’t  designed  with  security  in  mind;</text>
+<text top="1235" left="209" width="647" height="50" font="font2" id="p1_t26" reading_order_no="25" segment_no="6" tag_type="text">it  was  intended  originally  just  to  match</text>
+<text top="1283" left="208" width="628" height="47" font="font3" id="p1_t27" reading_order_no="26" segment_no="6" tag_type="text">up  outgoing  requests  with  incoming</text>
+<text top="1329" left="210" width="611" height="47" font="font3" id="p1_t28" reading_order_no="27" segment_no="6" tag_type="text">answers.  Early  on,  DNS  software</text>
+<text top="1372" left="210" width="618" height="50" font="font2" id="p1_t29" reading_order_no="28" segment_no="6" tag_type="text">assigned  those  numbers  sequentially,</text>
+<text top="1419" left="206" width="644" height="49" font="font1" id="p1_t30" reading_order_no="29" segment_no="6" tag_type="text">which  made  it  easy  for  an  attacker  to</text>
+<text top="1468" left="209" width="654" height="46" font="font4" id="p1_t31" reading_order_no="30" segment_no="6" tag_type="text">guess  them.  Since  about  1997,  DNS  soft-</text>
+<text top="1513" left="207" width="615" height="47" font="font3" id="p1_t32" reading_order_no="31" segment_no="6" tag_type="text">ware  has  been  configured  to  assign</text>
+<text top="1558" left="209" width="595" height="49" font="font1" id="p1_t33" reading_order_no="32" segment_no="6" tag_type="text">those  ID  numbers  randomly  to</text>
+<text top="1605" left="209" width="587" height="47" font="font3" id="p1_t34" reading_order_no="33" segment_no="6" tag_type="text">make  such  attacks  harder.  But  the</text>
+<text top="1653" left="208" width="589" height="45" font="font0" id="p1_t35" reading_order_no="34" segment_no="6" tag_type="text">ID  number  has  only  16  bits,  which</text>
+<text top="1699" left="209" width="601" height="45" font="font0" id="p1_t36" reading_order_no="35" segment_no="6" tag_type="text">translates  to  65  536  possible  values—</text>
+<text top="1742" left="209" width="612" height="49" font="font1" id="p1_t37" reading_order_no="36" segment_no="6" tag_type="text">few  enough  to  give  an  attacker  a  rea-</text>
+<text top="1788" left="210" width="624" height="49" font="font1" id="p1_t38" reading_order_no="37" segment_no="6" tag_type="text">sonable  chance  of  guessing  right  if  he</text>
+<text top="1834" left="209" width="460" height="47" font="font3" id="p1_t39" reading_order_no="38" segment_no="6" tag_type="text">can  try  thousands  of  times.</text>
+<text top="1882" left="255" width="601" height="45" font="font0" id="p1_t40" reading_order_no="39" segment_no="10" tag_type="text">And  that,  it  turns  out,  is  easy.  Alla</text>
+<text top="1926" left="208" width="647" height="47" font="font3" id="p1_t41" reading_order_no="40" segment_no="10" tag_type="text">hacker  needs  to  do  is  send  a  request  to</text>
+<text top="1971" left="209" width="647" height="49" font="font1" id="p1_t42" reading_order_no="41" segment_no="10" tag_type="text">the  name  server  asking  it  to  look  up  an</text>
+<text top="2018" left="208" width="648" height="47" font="font3" id="p1_t43" reading_order_no="42" segment_no="10" tag_type="text">IP  address  it  doesn’t  have  cached.  Then</text>
+<text top="2063" left="209" width="649" height="49" font="font1" id="p1_t44" reading_order_no="43" segment_no="10" tag_type="text">he  immediately  bombards  the  server</text>
+<text top="2112" left="206" width="658" height="45" font="font0" id="p1_t45" reading_order_no="44" segment_no="10" tag_type="text">with  answers,  each  containing  a  dif-</text>
+<text top="2154" left="209" width="646" height="50" font="font2" id="p1_t46" reading_order_no="45" segment_no="10" tag_type="text">ferent  query  ID  number.  Many  of  the</text>
+<text top="2203" left="209" width="649" height="47" font="font3" id="p1_t47" reading_order_no="46" segment_no="10" tag_type="text">fake  replies  will  beat  the  real  answer</text>
+<text top="2248" left="208" width="647" height="47" font="font3" id="p1_t48" reading_order_no="47" segment_no="10" tag_type="text">back  to  the  name  server  seeking  the</text>
+<text top="2296" left="210" width="647" height="45" font="font0" id="p1_t49" reading_order_no="48" segment_no="10" tag_type="text">address.  One  of  them,  the  attacker</text>
+<text top="2340" left="209" width="649" height="47" font="font3" id="p1_t50" reading_order_no="49" segment_no="10" tag_type="text">hopes,  will  contain  the  correct  query</text>
+<text top="2386" left="208" width="646" height="47" font="font3" id="p1_t51" reading_order_no="50" segment_no="10" tag_type="text">ID.  More  sophisticated  versions  of  this</text>
+<text top="2432" left="211" width="645" height="47" font="font3" id="p1_t52" reading_order_no="51" segment_no="10" tag_type="text">second  type  of  attack  don’t  have  such</text>
+<text top="2479" left="209" width="653" height="45" font="font0" id="p1_t53" reading_order_no="52" segment_no="10" tag_type="text">long  odds:  one  scheme,  for  example,</text>
+<text top="2522" left="209" width="655" height="49" font="font1" id="p1_t54" reading_order_no="53" segment_no="10" tag_type="text">takes  advantage  of  the  fact  that  nomi-</text>
+<text top="2569" left="209" width="646" height="49" font="font1" id="p1_t55" reading_order_no="54" segment_no="10" tag_type="text">nally  “random”  query  IDs  can  to  some</text>
+<text top="2614" left="210" width="333" height="50" font="font2" id="p1_t56" reading_order_no="55" segment_no="10" tag_type="text">extent  be  predicted.</text>
+<text top="2661" left="258" width="597" height="49" font="font1" id="p1_t57" reading_order_no="56" segment_no="11" tag_type="text">Up  until  now,  guess-the-query-ID</text>
+<text top="2708" left="210" width="651" height="47" font="font3" id="p1_t58" reading_order_no="57" segment_no="11" tag_type="text">attacks  hadn’t  been  considered  much  of</text>
+<text top="2756" left="210" width="648" height="45" font="font0" id="p1_t59" reading_order_no="58" segment_no="11" tag_type="text">amenace,  because  the  hacker  would  very</text>
+<text top="2799" left="209" width="646" height="49" font="font1" id="p1_t60" reading_order_no="59" segment_no="11" tag_type="text">likely  fail  on  the  first  attempt,  and  the</text>
+<text top="2845" left="209" width="648" height="47" font="font3" id="p1_t61" reading_order_no="60" segment_no="11" tag_type="text">name  server  would  then  store  the  correct</text>
+<text top="2890" left="208" width="650" height="49" font="font1" id="p1_t62" reading_order_no="61" segment_no="11" tag_type="text">IP  address  in  its  cache,  typically  for  a  day</text>
+<text top="2974" left="212" width="646" height="35" font="font5" id="p1_t63" reading_order_no="167" segment_no="18" tag_type="text">32  INT  -  IEEESPECTRUM  -  OCTOBER  2008</text>
+<text top="89" left="910" width="649" height="46" font="font4" id="p1_t64" reading_order_no="62" segment_no="2" tag_type="text">or  so.  Thus,  if  the  first  such  attack  failed,</text>
+<text top="133" left="909" width="645" height="49" font="font1" id="p1_t65" reading_order_no="63" segment_no="2" tag_type="text">the  hacker  would  have  to  wait  a  day  or</text>
+<text top="179" left="910" width="643" height="47" font="font3" id="p1_t66" reading_order_no="64" segment_no="2" tag_type="text">more  to  try  again.  If  he  had  to  attempt</text>
+<text top="223" left="910" width="644" height="50" font="font2" id="p1_t67" reading_order_no="65" segment_no="2" tag_type="text">this  hundreds  of  times  before  achieving</text>
+<text top="269" left="911" width="640" height="50" font="font2" id="p1_t68" reading_order_no="66" segment_no="2" tag_type="text">success,  it  could  take  years  to  poison  the</text>
+<text top="317" left="910" width="331" height="49" font="font1" id="p1_t69" reading_order_no="67" segment_no="2" tag_type="text">name  server’s  cache.</text>
+<text top="363" left="959" width="593" height="47" font="font3" id="p1_t70" reading_order_no="68" segment_no="3" tag_type="text">Kaminsky’s  insight  reveals  how  an</text>
+<text top="408" left="911" width="647" height="49" font="font1" id="p1_t71" reading_order_no="69" segment_no="3" tag_type="text">attacker  could  sidestep  that  problem.</text>
+<text top="454" left="908" width="643" height="50" font="font2" id="p1_t72" reading_order_no="70" segment_no="3" tag_type="text">Imagine  that  a  hacker  asked  your  ISP’s</text>
+<text top="501" left="909" width="644" height="49" font="font1" id="p1_t73" reading_order_no="71" segment_no="3" tag_type="text">name  server  to  look  up  a  nonexistent</text>
+<text top="547" left="911" width="641" height="49" font="font1" id="p1_t74" reading_order_no="72" segment_no="3" tag_type="text">address  within  the  paypal.com</text>
+<text top="593" left="911" width="647" height="47" font="font3" id="p1_t75" reading_order_no="73" segment_no="3" tag_type="text">domain—for  instance,  aaa.paypal.com.</text>
+<text top="638" left="908" width="651" height="49" font="font1" id="p1_t76" reading_order_no="74" segment_no="3" tag_type="text">This  nonsensical  name  would,  of course,</text>
+<text top="688" left="910" width="649" height="43" font="font6" id="p1_t77" reading_order_no="75" segment_no="3" tag_type="text">not  be  cached  in  your  ISP’s  name  server,</text>
+<text top="731" left="911" width="648" height="47" font="font3" id="p1_t78" reading_order_no="76" segment_no="3" tag_type="text">so  it  would  pass  the  request  up  the  line,</text>
+<text top="776" left="910" width="641" height="47" font="font3" id="p1_t79" reading_order_no="77" segment_no="3" tag_type="text">eventually  asking  the  real  PayPal’s</text>
+<text top="821" left="909" width="645" height="49" font="font1" id="p1_t80" reading_order_no="78" segment_no="3" tag_type="text">name  server  for  the  corresponding  IP</text>
+<text top="867" left="911" width="647" height="49" font="font1" id="p1_t81" reading_order_no="79" segment_no="3" tag_type="text">address.  While  all  that  was  going  on,</text>
+<text top="913" left="910" width="641" height="49" font="font1" id="p1_t82" reading_order_no="80" segment_no="3" tag_type="text">the  attacker  would  send  your  ISP’s</text>
+<text top="959" left="910" width="641" height="49" font="font1" id="p1_t83" reading_order_no="81" segment_no="3" tag_type="text">name  server a  lot  of  spoofed  answers</text>
+<text top="1005" left="907" width="363" height="50" font="font2" id="p1_t84" reading_order_no="82" segment_no="3" tag_type="text">with  different  ID</text>
+<text top="1053" left="910" width="157" height="49" font="font1" id="p1_t85" reading_order_no="83" segment_no="3" tag_type="text">numbers.</text>
+<text top="2015" left="959" width="594" height="50" font="font2" id="p1_t86" reading_order_no="84" segment_no="12" tag_type="text">Because  the  hacker  has  a  head  start</text>
+<text top="2062" left="909" width="642" height="49" font="font1" id="p1_t87" reading_order_no="85" segment_no="12" tag_type="text">in  the  race,  many  of  his  simulated  DNS</text>
+<text top="2108" left="909" width="645" height="49" font="font1" id="p1_t88" reading_order_no="86" segment_no="12" tag_type="text">responses  will  beat  the  real  one  back</text>
+<text top="2157" left="909" width="649" height="46" font="font4" id="p1_t89" reading_order_no="87" segment_no="12" tag_type="text">to  your  name  server.  If,  for  example,</text>
+<text top="2200" left="908" width="644" height="50" font="font2" id="p1_t90" reading_order_no="88" segment_no="12" tag_type="text">100  fake  answers  arrive  before  the  real</text>
+<text top="2250" left="910" width="643" height="45" font="font0" id="p1_t91" reading_order_no="89" segment_no="12" tag_type="text">one,  the  attacker’s  chances  of  having</text>
+<text top="2292" left="910" width="642" height="49" font="font1" id="p1_t92" reading_order_no="90" segment_no="12" tag_type="text">one  of  his  bogus  responses  accepted</text>
+<text top="2338" left="909" width="650" height="49" font="font1" id="p1_t93" reading_order_no="91" segment_no="12" tag_type="text">improve,  from  1  in  65  536  to  a  more  wor-</text>
+<text top="2385" left="909" width="643" height="47" font="font3" id="p1_t94" reading_order_no="92" segment_no="12" tag_type="text">risome  1  in  655.  Even  if  all  100  spoofed</text>
+<text top="2433" left="910" width="648" height="45" font="font0" id="p1_t95" reading_order_no="93" segment_no="12" tag_type="text">answers  fail  to  get  the  ID  number  right,</text>
+<text top="2476" left="909" width="642" height="49" font="font1" id="p1_t96" reading_order_no="94" segment_no="12" tag_type="text">there’s  nothing  preventing  him  from</text>
+<text top="2522" left="909" width="641" height="49" font="font1" id="p1_t97" reading_order_no="95" segment_no="12" tag_type="text">repeating  this  attack  as  many  times</text>
+<text top="2571" left="910" width="643" height="45" font="font0" id="p1_t98" reading_order_no="96" segment_no="12" tag_type="text">as  he  wants,  asking  about  different</text>
+<text top="2614" left="909" width="648" height="49" font="font1" id="p1_t99" reading_order_no="97" segment_no="12" tag_type="text">nonexistent  addresses  each  time:  aab.</text>
+<text top="2660" left="909" width="642" height="49" font="font1" id="p1_t100" reading_order_no="98" segment_no="12" tag_type="text">paypal.com,  aac.paypal.com,  and  so</text>
+<text top="2705" left="909" width="643" height="50" font="font2" id="p1_t101" reading_order_no="99" segment_no="12" tag_type="text">forth.  Eventually—typically  in  about</text>
+<text top="2752" left="908" width="653" height="49" font="font1" id="p1_t102" reading_order_no="100" segment_no="12" tag_type="text">10  seconds  by  Kaminsky’s  estimation—</text>
+<text top="2798" left="910" width="525" height="49" font="font1" id="p1_t103" reading_order_no="101" segment_no="12" tag_type="text">a  false  answer  will  be  accepted.</text>
+<text top="2845" left="955" width="604" height="47" font="font3" id="p1_t104" reading_order_no="102" segment_no="13" tag_type="text">What’s  so  scary  about  someone  giv-</text>
+<text top="2890" left="909" width="641" height="49" font="font1" id="p1_t105" reading_order_no="103" segment_no="13" tag_type="text">ing  your  name  server  an  IP  address</text>
+<text top="87" left="1606" width="644" height="49" font="font1" id="p1_t106" reading_order_no="104" segment_no="0" tag_type="text">for,  say,  pdq.paypal.com?  Nothing,  of</text>
+<text top="132" left="1606" width="642" height="49" font="font1" id="p1_t107" reading_order_no="105" segment_no="0" tag_type="text">course.  But  remember  that  the  attacker</text>
+<text top="178" left="1606" width="640" height="47" font="font3" id="p1_t108" reading_order_no="106" segment_no="0" tag_type="text">can  add  some  devastating  additional</text>
+<text top="223" left="1606" width="639" height="49" font="font1" id="p1_t109" reading_order_no="107" segment_no="0" tag_type="text">information  to  his  spoofed  DNS</text>
+<text top="269" left="1606" width="639" height="49" font="font1" id="p1_t110" reading_order_no="108" segment_no="0" tag_type="text">response—namely,  a  false  IP  address</text>
+<text top="316" left="1606" width="642" height="49" font="font1" id="p1_t111" reading_order_no="109" segment_no="0" tag_type="text">for  www.paypal.com.  Such  fakery</text>
+<text top="362" left="1603" width="642" height="47" font="font3" id="p1_t112" reading_order_no="110" segment_no="0" tag_type="text">will  pass  the  bailiwick  checks  because</text>
+<text top="406" left="1606" width="639" height="50" font="font2" id="p1_t113" reading_order_no="111" segment_no="0" tag_type="text">the  extra  information  is  for  the  same</text>
+<text top="454" left="1606" width="638" height="49" font="font1" id="p1_t114" reading_order_no="112" segment_no="0" tag_type="text">domain  as  the  bogus  name  that  was</text>
+<text top="500" left="1605" width="640" height="49" font="font1" id="p1_t115" reading_order_no="113" segment_no="0" tag_type="text">being  looked  up  in  the  first  place.  So</text>
+<text top="549" left="1606" width="646" height="45" font="font0" id="p1_t116" reading_order_no="114" segment_no="0" tag_type="text">the  bad  address  will  go  into  the  cache,</text>
+<text top="592" left="1606" width="642" height="49" font="font1" id="p1_t117" reading_order_no="115" segment_no="0" tag_type="text">taking  the  place of  the  previous  entry</text>
+<text top="638" left="1606" width="640" height="47" font="font3" id="p1_t118" reading_order_no="116" segment_no="0" tag_type="text">for  www.paypal.com  if  one  had  been</text>
+<text top="684" left="1607" width="209" height="47" font="font3" id="p1_t119" reading_order_no="117" segment_no="0" tag_type="text">stored  there.</text>
+<text top="730" left="1654" width="592" height="47" font="font3" id="p1_t120" reading_order_no="118" segment_no="1" tag_type="text">The  8  July  patch  makes  such  an</text>
+<text top="774" left="1607" width="639" height="49" font="font1" id="p1_t121" reading_order_no="119" segment_no="1" tag_type="text">attack  much  more  difficult—though</text>
+<text top="820" left="1605" width="643" height="49" font="font1" id="p1_t122" reading_order_no="120" segment_no="1" tag_type="text">not  impossible.  It  works  by  randomly</text>
+<text top="868" left="1603" width="642" height="46" font="font4" id="p1_t123" reading_order_no="121" segment_no="1" tag_type="text">varying  not  just  the  query  ID  but  also</text>
+<text top="911" left="1606" width="640" height="50" font="font2" id="p1_t124" reading_order_no="122" segment_no="1" tag_type="text">the  port  number  in  use,  which  you  can</text>
+<text top="958" left="1606" width="648" height="49" font="font1" id="p1_t125" reading_order_no="123" segment_no="1" tag_type="text">think  of  as  being  like  the  suite  num-</text>
+<text top="1005" left="1605" width="640" height="49" font="font1" id="p1_t126" reading_order_no="124" segment_no="1" tag_type="text">ber  on  a  postal  address.  To  defeat  this</text>
+<text top="1053" left="1608" width="637" height="46" font="font4" id="p1_t127" reading_order_no="125" segment_no="1" tag_type="text">defense,  a  hacker  must  guess  both  the</text>
+<text top="1098" left="1618" width="629" height="47" font="font3" id="p1_t128" reading_order_no="126" segment_no="1" tag_type="text">16-bit  query  ID  and  the  16-bit  port</text>
+<text top="1146" left="1620" width="626" height="45" font="font0" id="p1_t129" reading_order_no="127" segment_no="1" tag_type="text">number—32  bits  in  all—requiring,  on</text>
+<text top="1188" left="1608" width="637" height="50" font="font2" id="p1_t130" reading_order_no="128" segment_no="1" tag_type="text">average,  some  4  billion  spoofed  replies</text>
+<text top="1234" left="1606" width="641" height="49" font="font1" id="p1_t131" reading_order_no="129" segment_no="1" tag_type="text">to  be  received.  Such  a  colossal  amount</text>
+<text top="1280" left="1628" width="618" height="49" font="font1" id="p1_t132" reading_order_no="130" segment_no="1" tag_type="text">of  traffic  would  be  hard  to  conceal</text>
+<text top="1326" left="1644" width="502" height="49" font="font1" id="p1_t133" reading_order_no="131" segment_no="1" tag_type="text">from  network  administrators.</text>
+<text top="1416" left="1816" width="429" height="50" font="font2" id="p1_t134" reading_order_no="132" segment_no="7" tag_type="text">ECURITY  professionals  are</text>
+<text top="1464" left="1816" width="432" height="49" font="font1" id="p1_t135" reading_order_no="133" segment_no="7" tag_type="text">taking  Kaminsky’s  attack</text>
+<text top="1511" left="1817" width="435" height="47" font="font3" id="p1_t136" reading_order_no="134" segment_no="7" tag_type="text">scenario  very  seriously,</text>
+<text top="1556" left="1817" width="428" height="49" font="font1" id="p1_t137" reading_order_no="135" segment_no="7" tag_type="text">and  hackers  appear  to  be</text>
+<text top="1603" left="1816" width="303" height="47" font="font3" id="p1_t138" reading_order_no="136" segment_no="7" tag_type="text">testing  the  waters.</text>
+<text top="1648" left="1655" width="596" height="49" font="font1" id="p1_t139" reading_order_no="137" segment_no="8" tag_type="text">Computer-security  expert  Steven  M.</text>
+<text top="1694" left="1605" width="649" height="49" font="font1" id="p1_t140" reading_order_no="138" segment_no="8" tag_type="text">Bellovin,  a  professor  of  computer  sci-</text>
+<text top="1744" left="1606" width="642" height="43" font="font6" id="p1_t141" reading_order_no="139" segment_no="8" tag_type="text">ence  at  Columbia  University,  in  New</text>
+<text top="1789" left="1600" width="647" height="45" font="font0" id="p1_t142" reading_order_no="140" segment_no="8" tag_type="text">York  City,  says,  “I’ve  seen  reports  that</text>
+<text top="1832" left="1605" width="642" height="47" font="font3" id="p1_t143" reading_order_no="141" segment_no="8" tag_type="text">it’s  started  to  happen  in  the  wild.”  But</text>
+<text top="1878" left="1605" width="649" height="47" font="font3" id="p1_t144" reading_order_no="142" segment_no="8" tag_type="text">he  believes  that  DNS  cache  poison-</text>
+<text top="1922" left="1605" width="650" height="50" font="font2" id="p1_t145" reading_order_no="143" segment_no="8" tag_type="text">ing  will  ultimately  affect  few  people—</text>
+<text top="1969" left="1605" width="640" height="49" font="font1" id="p1_t146" reading_order_no="144" segment_no="8" tag_type="text">in  contrast  to  what  can  happen  with</text>
+<text top="2016" left="1605" width="650" height="47" font="font3" id="p1_t147" reading_order_no="145" segment_no="8" tag_type="text">certain  computer  viruses  and  worms—</text>
+<text top="2062" left="1605" width="640" height="47" font="font3" id="p1_t148" reading_order_no="146" segment_no="8" tag_type="text">given  that  system  administrators  are</text>
+<text top="2107" left="1605" width="648" height="49" font="font1" id="p1_t149" reading_order_no="147" segment_no="8" tag_type="text">now  taking  appropriate  steps.  He  never-</text>
+<text top="2156" left="1605" width="640" height="46" font="font4" id="p1_t150" reading_order_no="148" segment_no="8" tag_type="text">theless  cautions,  “It’s  one  of  the  more</text>
+<text top="2203" left="1606" width="639" height="45" font="font0" id="p1_t151" reading_order_no="149" segment_no="8" tag_type="text">serious  problems  we’ve  seen,  because</text>
+<text top="2246" left="1605" width="640" height="49" font="font1" id="p1_t152" reading_order_no="150" segment_no="8" tag_type="text">it’s  going  after  the  infrastructure.  The</text>
+<text top="2291" left="1604" width="641" height="49" font="font1" id="p1_t153" reading_order_no="151" segment_no="8" tag_type="text">hard-core  bad  guys  are  starting  to</text>
+<text top="2339" left="1603" width="165" height="47" font="font3" id="p1_t154" reading_order_no="152" segment_no="8" tag_type="text">wake  up.”</text>
+<text top="2339" left="2223" width="22" height="47" font="font3" id="p1_t155" reading_order_no="153" segment_no="9" tag_type="text">Q</text>
+<text top="2430" left="1604" width="649" height="47" font="font3" id="p1_t156" reading_order_no="154" segment_no="14" tag_type="text">TO  PROBE  FURTHER  Paul  Vixie’s  pio-</text>
+<text top="2476" left="1605" width="640" height="47" font="font3" id="p1_t157" reading_order_no="155" segment_no="14" tag_type="text">neering  report  “DNS  and  BIND  Security</text>
+<text top="2523" left="1602" width="642" height="46" font="font4" id="p1_t158" reading_order_no="156" segment_no="14" tag_type="text">Issues,”  which  warned  that  the  Domain</text>
+<text top="2570" left="1602" width="651" height="45" font="font0" id="p1_t159" reading_order_no="157" segment_no="14" tag_type="text">Name  System  was  vulnerable  to  attack,</text>
+<text top="2610" left="1605" width="640" height="51" font="font10" id="p1_t160" reading_order_no="158" segment_no="14" tag_type="text">appeared  in  Proceedings  of  the  Fifth</text>
+<text top="2659" left="1603" width="650" height="49" font="font1" id="p1_t161" reading_order_no="159" segment_no="14" tag_type="text">USENIX  UNIX  Security  Symposium,</text>
+<text top="2706" left="1604" width="378" height="47" font="font3" id="p1_t162" reading_order_no="160" segment_no="14" tag_type="text">Salt  Lake  City,  June  1995.</text>
+<text top="2751" left="1647" width="597" height="49" font="font1" id="p1_t163" reading_order_no="161" segment_no="15" tag_type="text">A  full  description  of  how  the  Domain</text>
+<text top="2798" left="1602" width="643" height="47" font="font3" id="p1_t164" reading_order_no="162" segment_no="15" tag_type="text">Name  System  works  is  available  in  DNS</text>
+<text top="2843" left="1606" width="638" height="47" font="font3" id="p1_t165" reading_order_no="163" segment_no="15" tag_type="text">and  BIND,  Fifth  Edition,  by  Cricket  Liu</text>
+<text top="2891" left="1604" width="479" height="45" font="font0" id="p1_t166" reading_order_no="164" segment_no="15" tag_type="text">and  Paul  Albitz,  O’Reilly,  2006.</text>
+<text top="2969" left="1928" width="317" height="30" font="font11" id="p1_t167" reading_order_no="168" segment_no="17" tag_type="text">WWW.SPECTRUM.IEEE.ORG</text>
+<text top="2988" left="2250" width="6" height="30" font="font11" id="p1_t168" reading_order_no="169" segment_no="17" tag_type="text">5</text>
+<text top="2906" left="2295" width="1" height="22" font="font12" id="p1_t169" reading_order_no="165" segment_no="16" tag_type="title">VIKTOR</text>
 <text top="2841" left="2296" width="0" height="22" font="font13" id="p1_t170" reading_order_no="166" segment_no="16" tag_type="title">KOEN</text>
 </page>
 </pdf2xml>

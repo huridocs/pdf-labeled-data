@@ -27,108 +27,64 @@
 	<fontspec id="font23" size="8" family="GillSans" color="#000000"/>
 	<fontspec id="font24" size="8" family="GillSans,Italic" color="#000000"/>
 	<fontspec id="font25" size="8" family="GillSans,Bold" color="#000000"/>
-<text top="44" left="508" width="16" height="9" font="font0" id="p1_t1" reading_order_no="1" segment_no="1" tag_type="title"><a href="http://www.biomedcentral.com/"><b>Bio</b></a></text>
-<text top="44" left="525" width="22" height="9" font="font1" id="p1_t2" reading_order_no="2" segment_no="1" tag_type="title"><a href="http://www.biomedcentral.com/"><b>Med</b></a></text>
-<text top="44" left="548" width="27" height="9" font="font3" id="p1_t3" reading_order_no="3" segment_no="1" tag_type="title"><a href="http://www.biomedcentral.com/">Central</a></text>
-<text top="756" left="503" width="51" height="10" font="font4" id="p1_t4" reading_order_no="101" segment_no="23" tag_type="text">Page 1 of 14</text>
-<text top="769" left="432" width="122" height="8" font="font5" id="p1_t5" reading_order_no="102" segment_no="24" tag_type="text"><i>(page number not for citation purposes)</i></text>
-<text top="35" left="55" width="445" height="23" font="font6" id="p1_t6" reading_order_no="0" segment_no="0" tag_type="title"><b>Algorithms for Molecular Biology</b></text>
-<text top="86" left="502" width="79" height="10" font="font7" id="p1_t7" reading_order_no="4" segment_no="2" tag_type="title"><a href="http://www.biomedcentral.com/info/about/charter/"><b>Open Access</b></a></text>
-<text top="87" left="55" width="50" height="13" font="font8" id="p1_t8" reading_order_no="5" segment_no="3" tag_type="title">Research</text>
-<text top="105" left="55" width="499" height="15" font="font9" id="p1_t9" reading_order_no="6" segment_no="4" tag_type="title"><b>Reconstructing protein structure from solvent exposure using tabu </b></text>
-<text top="123" left="55" width="49" height="15" font="font9" id="p1_t10" reading_order_no="7" segment_no="4" tag_type="title"><b>search</b></text>
-<text top="140" left="55" width="134" height="14" font="font10" id="p1_t11" reading_order_no="8" segment_no="5" tag_type="text">Martin Paluszewski*</text>
-<text top="140" left="189" width="6" height="10" font="font11" id="p1_t12" reading_order_no="9" segment_no="5" tag_type="text">1</text>
-<text top="140" left="195" width="134" height="14" font="font10" id="p1_t13" reading_order_no="10" segment_no="5" tag_type="text">, Thomas Hamelryck</text>
-<text top="140" left="329" width="6" height="10" font="font11" id="p1_t14" reading_order_no="11" segment_no="5" tag_type="text">2</text>
-<text top="140" left="335" width="119" height="14" font="font10" id="p1_t15" reading_order_no="12" segment_no="5" tag_type="text"> and Pawel Winter</text>
-<text top="140" left="454" width="6" height="10" font="font11" id="p1_t16" reading_order_no="13" segment_no="5" tag_type="text">1</text>
-<text top="176" left="55" width="31" height="8" font="font12" id="p1_t17" reading_order_no="14" segment_no="6" tag_type="text">Address: </text>
-<text top="175" left="86" width="3" height="5" font="font13" id="p1_t18" reading_order_no="15" segment_no="6" tag_type="text">1</text>
-<text top="176" left="89" width="408" height="8" font="font12" id="p1_t19" reading_order_no="16" segment_no="6" tag_type="text">Department of Computer Science, University of Copenhagen, Universitetsparken 1, 2100 Copenhagen, Denmark and </text>
-<text top="175" left="497" width="3" height="5" font="font13" id="p1_t20" reading_order_no="17" segment_no="6" tag_type="text">2</text>
-<text top="176" left="500" width="53" height="8" font="font12" id="p1_t21" reading_order_no="18" segment_no="6" tag_type="text">Bioinformatics </text>
-<text top="185" left="55" width="452" height="8" font="font12" id="p1_t22" reading_order_no="19" segment_no="6" tag_type="text">Center, Institute of Molecular Biology, University of Copenhagen, Universitetsparken 15 building 10, 2100 Copenhagen, Denmark</text>
-<text top="200" left="55" width="417" height="8" font="font12" id="p1_t23" reading_order_no="20" segment_no="7" tag_type="text">Email: Martin Paluszewski* - palu@diku.dk; Thomas Hamelryck - thamelry@binf.ku.dk; Pawel Winter - pawel@diku.dk</text>
-<text top="211" left="55" width="92" height="8" font="font12" id="p1_t24" reading_order_no="21" segment_no="8" tag_type="text">* Corresponding author  <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=17069644">  </a></text>
-<text top="359" left="112" width="44" height="10" font="font14" id="p1_t25" reading_order_no="34" segment_no="16" tag_type="title"><b>Abstract</b></text>
-<text top="374" left="112" width="60" height="9" font="font15" id="p1_t26" reading_order_no="35" segment_no="17" tag_type="text"><b>Background: </b></text>
-<text top="374" left="172" width="206" height="9" font="font16" id="p1_t27" reading_order_no="36" segment_no="17" tag_type="text">A new, promising solvent exposure measure, called </text>
-<text top="374" left="378" width="78" height="9" font="font17" id="p1_t28" reading_order_no="37" segment_no="17" tag_type="text"><i>half-sphere-exposure </i></text>
-<text top="374" left="457" width="40" height="9" font="font16" id="p1_t29" reading_order_no="38" segment_no="17" tag_type="text">(HSE), has</text>
-<text top="386" left="112" width="304" height="9" font="font16" id="p1_t30" reading_order_no="39" segment_no="17" tag_type="text">recently been proposed. Here, we study the reconstruction of a protein's </text>
-<text top="386" left="416" width="5" height="9" font="font17" id="p1_t31" reading_order_no="40" segment_no="17" tag_type="text"><i>C</i></text>
-<text top="388" left="422" width="4" height="9" font="font18" id="p1_t32" reading_order_no="41" segment_no="17" tag_type="text">α</text>
-<text top="386" left="428" width="69" height="9" font="font16" id="p1_t33" reading_order_no="42" segment_no="17" tag_type="text">trace solely from</text>
-<text top="398" left="112" width="274" height="9" font="font16" id="p1_t34" reading_order_no="43" segment_no="17" tag_type="text">structure-derived HSE information. This problem is of relevance for </text>
-<text top="398" left="386" width="32" height="9" font="font17" id="p1_t35" reading_order_no="44" segment_no="17" tag_type="text"><i>de novo </i></text>
-<text top="398" left="417" width="80" height="9" font="font16" id="p1_t36" reading_order_no="45" segment_no="17" tag_type="text">structure prediction</text>
-<text top="409" left="112" width="386" height="9" font="font16" id="p1_t37" reading_order_no="46" segment_no="17" tag_type="text">using predicted HSE measure. For comparison, we also consider the well-established contact</text>
-<text top="421" left="112" width="386" height="9" font="font16" id="p1_t38" reading_order_no="47" segment_no="17" tag_type="text">number (CN) measure. We define energy functions based on the HSE- or CN-vectors and</text>
-<text top="433" left="112" width="236" height="9" font="font16" id="p1_t39" reading_order_no="48" segment_no="17" tag_type="text">minimize them using two conformational search heuristics: </text>
-<text top="433" left="347" width="89" height="9" font="font17" id="p1_t40" reading_order_no="49" segment_no="17" tag_type="text"><i>Monte Carlo simulation </i></text>
-<text top="433" left="436" width="45" height="9" font="font16" id="p1_t41" reading_order_no="50" segment_no="17" tag_type="text">(MCS) and </text>
-<text top="433" left="481" width="16" height="9" font="font17" id="p1_t42" reading_order_no="51" segment_no="17" tag_type="text"><i>tabu</i></text>
-<text top="445" left="112" width="26" height="9" font="font17" id="p1_t43" reading_order_no="52" segment_no="17" tag_type="text"><i>search </i></text>
-<text top="445" left="138" width="360" height="9" font="font16" id="p1_t44" reading_order_no="53" segment_no="17" tag_type="text">(TS). While MCS has been the dominant conformational search heuristic in literature, TS has</text>
-<text top="456" left="112" width="386" height="9" font="font16" id="p1_t45" reading_order_no="54" segment_no="17" tag_type="text">been applied only a few times. To discretize the conformational space, we use lattice models with</text>
-<text top="468" left="112" width="77" height="9" font="font16" id="p1_t46" reading_order_no="55" segment_no="17" tag_type="text">various complexity.</text>
-<text top="485" left="112" width="38" height="9" font="font15" id="p1_t47" reading_order_no="56" segment_no="18" tag_type="text"><b>Results: </b></text>
-<text top="485" left="150" width="347" height="9" font="font16" id="p1_t48" reading_order_no="57" segment_no="18" tag_type="text">The proposed TS heuristic with a novel tabu definition generally performs better than</text>
-<text top="497" left="112" width="386" height="9" font="font16" id="p1_t49" reading_order_no="58" segment_no="18" tag_type="text">MCS for this problem. Our experiments show that, at least for small proteins (up to 35 amino</text>
-<text top="508" left="112" width="386" height="9" font="font16" id="p1_t50" reading_order_no="59" segment_no="18" tag_type="text">acids), it is possible to reconstruct the protein backbone solely from the HSE or CN information.</text>
-<text top="520" left="112" width="386" height="9" font="font16" id="p1_t51" reading_order_no="60" segment_no="18" tag_type="text">In general, the HSE measure leads to better models than the CN measure, as judged by the RMSD</text>
-<text top="532" left="112" width="386" height="9" font="font16" id="p1_t52" reading_order_no="61" segment_no="18" tag_type="text">and the angle correlation with the native structure. The angle correlation, a measure of structural</text>
-<text top="544" left="112" width="386" height="9" font="font16" id="p1_t53" reading_order_no="62" segment_no="18" tag_type="text">similarity, evaluates whether equivalent residues in two structures have the same general</text>
-<text top="555" left="112" width="386" height="9" font="font16" id="p1_t54" reading_order_no="63" segment_no="18" tag_type="text">orientation. Our results indicate that the HSE measure is potentially very useful to represent</text>
-<text top="567" left="112" width="283" height="9" font="font16" id="p1_t55" reading_order_no="64" segment_no="18" tag_type="text">solvent exposure in protein structure prediction, design and simulation.</text>
-<text top="617" left="55" width="60" height="10" font="font14" id="p1_t56" reading_order_no="65" segment_no="20" tag_type="title"><b>Background</b></text>
-<text top="628" left="55" width="241" height="9" font="font20" id="p1_t57" reading_order_no="66" segment_no="21" tag_type="text">The extent to which an amino acid in a protein is accessi-</text>
-<text top="640" left="55" width="241" height="9" font="font20" id="p1_t58" reading_order_no="67" segment_no="21" tag_type="text">ble to the surrounding solvent is highly dependent on the</text>
-<text top="652" left="55" width="241" height="9" font="font20" id="p1_t59" reading_order_no="68" segment_no="21" tag_type="text">type of amino acid. In general, hydrophilic amino acids</text>
-<text top="663" left="55" width="241" height="9" font="font20" id="p1_t60" reading_order_no="69" segment_no="21" tag_type="text">tend to be near the solvent accessible surface, while hydro-</text>
-<text top="675" left="55" width="241" height="9" font="font20" id="p1_t61" reading_order_no="70" segment_no="21" tag_type="text">phobic amino acids tend to be buried in the core of the</text>
-<text top="687" left="55" width="241" height="9" font="font20" id="p1_t62" reading_order_no="71" segment_no="21" tag_type="text">protein. To measure this effect, several solvent exposure</text>
-<text top="698" left="55" width="241" height="9" font="font20" id="p1_t63" reading_order_no="72" segment_no="21" tag_type="text">measures have been pro<a href="">posed [1-7], and one</a> of these is</text>
-<text top="710" left="55" width="16" height="9" font="font20" id="p1_t64" reading_order_no="73" segment_no="21" tag_type="text">the </text>
-<text top="710" left="71" width="98" height="9" font="font21" id="p1_t65" reading_order_no="74" segment_no="21" tag_type="text"><i>contact number measure </i></text>
-<text top="710" left="169" width="127" height="9" font="font20" id="p1_t66" reading_order_no="75" segment_no="21" tag_type="text">(CN) [<a href="">7</a>]. The CN of a residue</text>
-<text top="722" left="55" width="74" height="9" font="font20" id="p1_t67" reading_order_no="76" segment_no="21" tag_type="text">is the number of </text>
-<text top="722" left="129" width="6" height="9" font="font21" id="p1_t68" reading_order_no="77" segment_no="21" tag_type="text"><i>C</i></text>
-<text top="725" left="135" width="4" height="9" font="font18" id="p1_t69" reading_order_no="78" segment_no="21" tag_type="text">α</text>
-<text top="722" left="142" width="143" height="9" font="font20" id="p1_t70" reading_order_no="79" segment_no="21" tag_type="text">atoms in a sphere centered at the </text>
-<text top="722" left="285" width="6" height="9" font="font21" id="p1_t71" reading_order_no="80" segment_no="21" tag_type="text"><i>C</i></text>
-<text top="725" left="292" width="4" height="9" font="font18" id="p1_t72" reading_order_no="81" segment_no="21" tag_type="text">α</text>
-<text top="616" left="313" width="241" height="9" font="font20" id="p1_t73" reading_order_no="82" segment_no="19" tag_type="text">atom of the residue in question (Figur<a href="">e 1). </a>The CN of all</text>
-<text top="628" left="313" width="138" height="9" font="font20" id="p1_t74" reading_order_no="83" segment_no="19" tag_type="text">residues of a protein is called the </text>
-<text top="628" left="451" width="39" height="9" font="font21" id="p1_t75" reading_order_no="84" segment_no="19" tag_type="text"><i>CN vector</i></text>
-<text top="628" left="490" width="64" height="9" font="font20" id="p1_t76" reading_order_no="85" segment_no="19" tag_type="text">. The CN vector</text>
-<text top="640" left="313" width="241" height="9" font="font20" id="p1_t77" reading_order_no="86" segment_no="19" tag_type="text">is well conserved and can be predicted with high accuracy</text>
-<text top="652" left="313" width="15" height="9" font="font20" id="p1_t78" reading_order_no="87" segment_no="19" tag_type="text"><a href="">[8].</a></text>
-<text top="675" left="313" width="241" height="9" font="font20" id="p1_t79" reading_order_no="88" segment_no="22" tag_type="text">Recently, a new promising solvent exposure measure,</text>
-<text top="687" left="313" width="27" height="9" font="font20" id="p1_t80" reading_order_no="89" segment_no="22" tag_type="text">called </text>
-<text top="687" left="341" width="81" height="9" font="font21" id="p1_t81" reading_order_no="90" segment_no="22" tag_type="text"><i>half-sphere-exposure </i></text>
-<text top="687" left="423" width="131" height="9" font="font20" id="p1_t82" reading_order_no="91" segment_no="22" tag_type="text">(HSE), has been proposed [<a href="">9</a>].</text>
-<text top="698" left="313" width="241" height="9" font="font20" id="p1_t83" reading_order_no="92" segment_no="22" tag_type="text">While the CN measure uses a single sphere centered at the</text>
-<text top="710" left="313" width="6" height="9" font="font21" id="p1_t84" reading_order_no="93" segment_no="22" tag_type="text"><i>C</i></text>
-<text top="713" left="320" width="4" height="9" font="font18" id="p1_t85" reading_order_no="94" segment_no="22" tag_type="text">α</text>
-<text top="710" left="327" width="227" height="9" font="font20" id="p1_t86" reading_order_no="95" segment_no="22" tag_type="text">atom, the HSE measure considers two hemispheres.</text>
-<text top="722" left="313" width="67" height="9" font="font20" id="p1_t87" reading_order_no="96" segment_no="22" tag_type="text">Two values, an </text>
-<text top="722" left="380" width="12" height="9" font="font21" id="p1_t88" reading_order_no="97" segment_no="22" tag_type="text"><i>up </i></text>
-<text top="722" left="393" width="27" height="9" font="font20" id="p1_t89" reading_order_no="98" segment_no="22" tag_type="text">and a </text>
-<text top="722" left="421" width="24" height="9" font="font21" id="p1_t90" reading_order_no="99" segment_no="22" tag_type="text"><i>down </i></text>
-<text top="722" left="445" width="109" height="9" font="font20" id="p1_t91" reading_order_no="100" segment_no="22" tag_type="text">value, are associated with</text>
-<text top="254" left="55" width="91" height="7" font="font23" id="p1_t92" reading_order_no="22" segment_no="9" tag_type="text">Published: 27 October 2006</text>
-<text top="268" left="55" width="97" height="7" font="font24" id="p1_t93" reading_order_no="23" segment_no="12" tag_type="text"><i>Algorithms for Molecular Biology</i></text>
-<text top="268" left="152" width="22" height="7" font="font23" id="p1_t94" reading_order_no="24" segment_no="12" tag_type="text"> 2006, </text>
-<text top="268" left="174" width="4" height="7" font="font25" id="p1_t95" reading_order_no="25" segment_no="12" tag_type="text"><b>1</b></text>
-<text top="268" left="178" width="10" height="7" font="font23" id="p1_t96" reading_order_no="26" segment_no="12" tag_type="text">:20</text>
-<text top="268" left="197" width="92" height="7" font="font23" id="p1_t97" reading_order_no="27" segment_no="12" tag_type="text">doi:10.1186/1748-7188-1-20</text>
-<text top="254" left="310" width="82" height="7" font="font23" id="p1_t98" reading_order_no="32" segment_no="10" tag_type="text">Received: 30 March 2006</text>
-<text top="263" left="310" width="91" height="7" font="font23" id="p1_t99" reading_order_no="33" segment_no="11" tag_type="text">Accepted: 27 October 2006</text>
-<text top="282" left="55" width="215" height="7" font="font23" id="p1_t100" reading_order_no="28" segment_no="13" tag_type="text"><a href="http://www.almob.org/content/1/1/20">This article is available from: http://www.almob.org/content/1/1/20</a></text>
-<text top="297" left="55" width="180" height="7" font="font23" id="p1_t101" reading_order_no="29" segment_no="14" tag_type="text">© 2006 Paluszewski et al; licensee BioMed Central Ltd. </text>
-<text top="306" left="55" width="492" height="7" font="font23" id="p1_t102" reading_order_no="30" segment_no="15" tag_type="text">This is an Open Access article distributed under the terms of the Creative Commons Attribution Licens<a href="http://creativecommons.org/licenses/by/2.0">e (http://creativecommons.org/licenses/by/2.0), </a></text>
-<text top="315" left="55" width="400" height="7" font="font23" id="p1_t103" reading_order_no="31" segment_no="15" tag_type="text">which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</text>
+<text top="44" left="508" width="67" height="9" font="font0" id="p1_t1" reading_order_no="1" segment_no="1" tag_type="title">Bio Med Central<a href="http://www.biomedcentral.com/"><b>Bio</b></a></text>
+<text top="756" left="503" width="51" height="10" font="font4" id="p1_t2" reading_order_no="57" segment_no="23" tag_type="text">Page 1 of 14<a href="http://www.biomedcentral.com/"><b>Med</b></a></text>
+<text top="769" left="432" width="122" height="8" font="font5" id="p1_t3" reading_order_no="58" segment_no="24" tag_type="text">(page number not for citation purposes)<a href="http://www.biomedcentral.com/">Central</a></text>
+<text top="35" left="55" width="445" height="23" font="font6" id="p1_t4" reading_order_no="0" segment_no="0" tag_type="title">Algorithms for Molecular Biology</text>
+<text top="86" left="502" width="79" height="10" font="font7" id="p1_t5" reading_order_no="2" segment_no="2" tag_type="title">Open Access<i>(page number not for citation purposes)</i></text>
+<text top="87" left="55" width="50" height="13" font="font8" id="p1_t6" reading_order_no="3" segment_no="3" tag_type="title">Research<b>Algorithms for Molecular Biology</b></text>
+<text top="105" left="55" width="499" height="15" font="font9" id="p1_t7" reading_order_no="4" segment_no="4" tag_type="title">Reconstructing protein structure from solvent exposure using tabu<a href="http://www.biomedcentral.com/info/about/charter/"><b>Open Access</b></a></text>
+<text top="123" left="55" width="49" height="15" font="font9" id="p1_t8" reading_order_no="5" segment_no="4" tag_type="title">search</text>
+<text top="140" left="55" width="405" height="14" font="font10" id="p1_t9" reading_order_no="6" segment_no="5" tag_type="text">Martin Paluszewski* 1 , Thomas Hamelryck 2 and Pawel Winter 1<b>Reconstructing protein structure from solvent exposure using tabu </b></text>
+<text top="175" left="55" width="498" height="9" font="font12" id="p1_t10" reading_order_no="7" segment_no="6" tag_type="text">Address: 1 Department of Computer Science, University of Copenhagen, Universitetsparken 1, 2100 Copenhagen, Denmark and 2 Bioinformatics<b>search</b></text>
+<text top="185" left="55" width="452" height="8" font="font12" id="p1_t11" reading_order_no="8" segment_no="6" tag_type="text">Center, Institute of Molecular Biology, University of Copenhagen, Universitetsparken 15 building 10, 2100 Copenhagen, Denmark</text>
+<text top="200" left="55" width="417" height="8" font="font12" id="p1_t12" reading_order_no="9" segment_no="7" tag_type="text">Email: Martin Paluszewski* - palu@diku.dk; Thomas Hamelryck - thamelry@binf.ku.dk; Pawel Winter - pawel@diku.dk</text>
+<text top="211" left="55" width="92" height="8" font="font12" id="p1_t13" reading_order_no="10" segment_no="8" tag_type="text">* Corresponding author</text>
+<text top="359" left="112" width="44" height="10" font="font14" id="p1_t14" reading_order_no="20" segment_no="16" tag_type="title">Abstract</text>
+<text top="374" left="112" width="385" height="9" font="font15" id="p1_t15" reading_order_no="21" segment_no="17" tag_type="text">Background: A new, promising solvent exposure measure, called half-sphere-exposure (HSE), has</text>
+<text top="386" left="112" width="385" height="11" font="font16" id="p1_t16" reading_order_no="22" segment_no="17" tag_type="text">recently been proposed. Here, we study the reconstruction of a protein's C α trace solely from</text>
+<text top="398" left="112" width="385" height="9" font="font16" id="p1_t17" reading_order_no="23" segment_no="17" tag_type="text">structure-derived HSE information. This problem is of relevance for de novo structure prediction</text>
+<text top="409" left="112" width="386" height="9" font="font16" id="p1_t18" reading_order_no="24" segment_no="17" tag_type="text">using predicted HSE measure. For comparison, we also consider the well-established contact</text>
+<text top="421" left="112" width="386" height="9" font="font16" id="p1_t19" reading_order_no="25" segment_no="17" tag_type="text">number (CN) measure. We define energy functions based on the HSE- or CN-vectors and</text>
+<text top="433" left="112" width="385" height="9" font="font16" id="p1_t20" reading_order_no="26" segment_no="17" tag_type="text">minimize them using two conformational search heuristics: Monte Carlo simulation (MCS) and tabu</text>
+<text top="445" left="112" width="386" height="9" font="font17" id="p1_t21" reading_order_no="27" segment_no="17" tag_type="text">search (TS). While MCS has been the dominant conformational search heuristic in literature, TS has</text>
+<text top="456" left="112" width="386" height="9" font="font16" id="p1_t22" reading_order_no="28" segment_no="17" tag_type="text">been applied only a few times. To discretize the conformational space, we use lattice models with</text>
+<text top="468" left="112" width="77" height="9" font="font16" id="p1_t23" reading_order_no="29" segment_no="17" tag_type="text">various complexity.</text>
+<text top="485" left="112" width="385" height="9" font="font15" id="p1_t24" reading_order_no="30" segment_no="18" tag_type="text">Results: The proposed TS heuristic with a novel tabu definition generally performs better than<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=17069644">  </a></text>
+<text top="497" left="112" width="386" height="9" font="font16" id="p1_t25" reading_order_no="31" segment_no="18" tag_type="text">MCS for this problem. Our experiments show that, at least for small proteins (up to 35 amino<b>Abstract</b></text>
+<text top="508" left="112" width="386" height="9" font="font16" id="p1_t26" reading_order_no="32" segment_no="18" tag_type="text">acids), it is possible to reconstruct the protein backbone solely from the HSE or CN information.<b>Background: </b></text>
+<text top="520" left="112" width="386" height="9" font="font16" id="p1_t27" reading_order_no="33" segment_no="18" tag_type="text">In general, the HSE measure leads to better models than the CN measure, as judged by the RMSD</text>
+<text top="532" left="112" width="386" height="9" font="font16" id="p1_t28" reading_order_no="34" segment_no="18" tag_type="text">and the angle correlation with the native structure. The angle correlation, a measure of structural<i>half-sphere-exposure </i></text>
+<text top="544" left="112" width="386" height="9" font="font16" id="p1_t29" reading_order_no="35" segment_no="18" tag_type="text">similarity, evaluates whether equivalent residues in two structures have the same general</text>
+<text top="555" left="112" width="386" height="9" font="font16" id="p1_t30" reading_order_no="36" segment_no="18" tag_type="text">orientation. Our results indicate that the HSE measure is potentially very useful to represent</text>
+<text top="567" left="112" width="283" height="9" font="font16" id="p1_t31" reading_order_no="37" segment_no="18" tag_type="text">solvent exposure in protein structure prediction, design and simulation.<i>C</i></text>
+<text top="617" left="55" width="60" height="10" font="font14" id="p1_t32" reading_order_no="38" segment_no="20" tag_type="title">Background</text>
+<text top="628" left="55" width="241" height="9" font="font20" id="p1_t33" reading_order_no="39" segment_no="21" tag_type="text">The extent to which an amino acid in a protein is accessi-</text>
+<text top="640" left="55" width="241" height="9" font="font20" id="p1_t34" reading_order_no="40" segment_no="21" tag_type="text">ble to the surrounding solvent is highly dependent on the</text>
+<text top="652" left="55" width="241" height="9" font="font20" id="p1_t35" reading_order_no="41" segment_no="21" tag_type="text">type of amino acid. In general, hydrophilic amino acids<i>de novo </i></text>
+<text top="663" left="55" width="241" height="9" font="font20" id="p1_t36" reading_order_no="42" segment_no="21" tag_type="text">tend to be near the solvent accessible surface, while hydro-</text>
+<text top="675" left="55" width="241" height="9" font="font20" id="p1_t37" reading_order_no="43" segment_no="21" tag_type="text">phobic amino acids tend to be buried in the core of the</text>
+<text top="687" left="55" width="241" height="9" font="font20" id="p1_t38" reading_order_no="44" segment_no="21" tag_type="text">protein. To measure this effect, several solvent exposure</text>
+<text top="698" left="55" width="241" height="9" font="font20" id="p1_t39" reading_order_no="45" segment_no="21" tag_type="text">measures have been proposed [1-7], and one of these is</text>
+<text top="710" left="55" width="241" height="9" font="font20" id="p1_t40" reading_order_no="46" segment_no="21" tag_type="text">the contact number measure (CN) [7]. The CN of a residue<i>Monte Carlo simulation </i></text>
+<text top="722" left="55" width="241" height="12" font="font20" id="p1_t41" reading_order_no="47" segment_no="21" tag_type="text">is the number of C α atoms in a sphere centered at the C α</text>
+<text top="616" left="313" width="241" height="9" font="font20" id="p1_t42" reading_order_no="48" segment_no="19" tag_type="text">atom of the residue in question (Figure 1). The CN of all<i>tabu</i></text>
+<text top="628" left="313" width="241" height="9" font="font20" id="p1_t43" reading_order_no="49" segment_no="19" tag_type="text">residues of a protein is called the CN vector . The CN vector<i>search </i></text>
+<text top="640" left="313" width="241" height="9" font="font20" id="p1_t44" reading_order_no="50" segment_no="19" tag_type="text">is well conserved and can be predicted with high accuracy</text>
+<text top="652" left="313" width="15" height="9" font="font20" id="p1_t45" reading_order_no="51" segment_no="19" tag_type="text">[8].</text>
+<text top="675" left="313" width="241" height="9" font="font20" id="p1_t46" reading_order_no="52" segment_no="22" tag_type="text">Recently, a new promising solvent exposure measure,</text>
+<text top="687" left="313" width="241" height="9" font="font20" id="p1_t47" reading_order_no="53" segment_no="22" tag_type="text">called half-sphere-exposure (HSE), has been proposed [9].<b>Results: </b></text>
+<text top="698" left="313" width="241" height="9" font="font20" id="p1_t48" reading_order_no="54" segment_no="22" tag_type="text">While the CN measure uses a single sphere centered at the</text>
+<text top="710" left="313" width="241" height="12" font="font21" id="p1_t49" reading_order_no="55" segment_no="22" tag_type="text">C α atom, the HSE measure considers two hemispheres.</text>
+<text top="722" left="313" width="241" height="9" font="font20" id="p1_t50" reading_order_no="56" segment_no="22" tag_type="text">Two values, an up and a down value, are associated with</text>
+<text top="254" left="55" width="91" height="7" font="font23" id="p1_t51" reading_order_no="11" segment_no="9" tag_type="text">Published: 27 October 2006</text>
+<text top="268" left="55" width="133" height="7" font="font24" id="p1_t52" reading_order_no="12" segment_no="12" tag_type="text">Algorithms for Molecular Biology 2006, 1 :20</text>
+<text top="268" left="197" width="92" height="7" font="font23" id="p1_t53" reading_order_no="13" segment_no="12" tag_type="text">doi:10.1186/1748-7188-1-20</text>
+<text top="254" left="310" width="82" height="7" font="font23" id="p1_t54" reading_order_no="18" segment_no="10" tag_type="text">Received: 30 March 2006</text>
+<text top="263" left="310" width="91" height="7" font="font23" id="p1_t55" reading_order_no="19" segment_no="11" tag_type="text">Accepted: 27 October 2006</text>
+<text top="282" left="55" width="215" height="7" font="font23" id="p1_t56" reading_order_no="14" segment_no="13" tag_type="text">This article is available from: http://www.almob.org/content/1/1/20<b>Background</b></text>
+<text top="297" left="55" width="180" height="7" font="font23" id="p1_t57" reading_order_no="15" segment_no="14" tag_type="text">© 2006 Paluszewski et al; licensee BioMed Central Ltd.</text>
+<text top="306" left="55" width="492" height="7" font="font23" id="p1_t58" reading_order_no="16" segment_no="15" tag_type="text">This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0),</text>
+<text top="315" left="55" width="400" height="7" font="font23" id="p1_t59" reading_order_no="17" segment_no="15" tag_type="text">which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</text>
 </page>
 </pdf2xml>

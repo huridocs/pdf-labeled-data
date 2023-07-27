@@ -327,23 +327,23 @@
 <text top="307" left="212" width="452" height="25" font="font7" id="p8_t16" reading_order_no="28" segment_no="3" tag_type="list">denote the cumulative discounted </text>
 <text top="335" left="102" width="316" height="25" font="font7" id="p8_t17" reading_order_no="0" segment_no="3" tag_type="list">reward along trajectory </text>
 <text top="331" left="418" width="12" height="35" font="font21" id="p8_t18" reading_order_no="1" segment_no="3" tag_type="formula">𝜏𝜏</text>
-<text top="372" left="79" width="9" height="26" font="font6" id="p8_t19" reading_order_no="29" segment_no="5" tag_type="list"></text>
-<text top="368" left="102" width="71" height="35" font="font21" id="p8_t20" reading_order_no="30" segment_no="5" tag_type="formula">𝕍𝕍𝑎𝑎𝑟𝑟 𝐵𝐵</text>
-<text top="380" left="170" width="33" height="26" font="font23" id="p8_t21" reading_order_no="2" segment_no="5" tag_type="formula">𝑒𝑒𝑒𝑒𝑒𝑒</text>
-<text top="368" left="215" width="12" height="35" font="font21" id="p8_t22" reading_order_no="3" segment_no="5" tag_type="formula">𝜏𝜏</text>
-<text top="374" left="255" width="20" height="24" font="font22" id="p8_t23" reading_order_no="4" segment_no="5" tag_type="formula">&gt;</text>
-<text top="368" left="282" width="105" height="35" font="font21" id="p8_t24" reading_order_no="5" segment_no="5" tag_type="formula">−2ℂ𝑜𝑜𝑜𝑜 𝐵𝐵</text>
-<text top="380" left="385" width="35" height="26" font="font23" id="p8_t25" reading_order_no="6" segment_no="5" tag_type="formula">𝑒𝑒𝑒𝑒𝑒𝑒</text>
-<text top="368" left="432" width="12" height="35" font="font21" id="p8_t26" reading_order_no="7" segment_no="5" tag_type="formula">𝜏𝜏</text>
-<text top="374" left="456" width="5" height="24" font="font22" id="p8_t27" reading_order_no="8" segment_no="5" tag_type="formula">,</text>
-<text top="368" left="465" width="17" height="35" font="font21" id="p8_t28" reading_order_no="9" segment_no="5" tag_type="formula">𝐵𝐵</text>
-<text top="380" left="480" width="33" height="26" font="font23" id="p8_t29" reading_order_no="10" segment_no="5" tag_type="formula">𝑒𝑒𝑒𝑒𝑒𝑒</text>
-<text top="368" left="525" width="12" height="35" font="font21" id="p8_t30" reading_order_no="11" segment_no="5" tag_type="formula">𝜏𝜏</text>
-<text top="406" left="49" width="13" height="32" font="font4" id="p8_t31" reading_order_no="31" segment_no="6" tag_type="list"></text>
-<text top="409" left="76" width="529" height="29" font="font5" id="p8_t32" reading_order_no="12" segment_no="6" tag_type="list">Paper derives Bellman updates for </text>
-<text top="441" left="76" width="566" height="29" font="font5" id="p8_t33" reading_order_no="32" segment_no="6" tag_type="list">variance and covariance of the return</text>
-<text top="520" left="329" width="48" height="10" font="font3" id="p8_t34" reading_order_no="33" segment_no="4" tag_type="text">ICML 2018</text>
-<text top="519" left="679" width="6" height="11" font="font2" id="p8_t35" reading_order_no="34" segment_no="7" tag_type="text">8</text>
+<text top="372" left="79" width="9" height="26" font="font6" id="p8_t19" reading_order_no="29" segment_no="4" tag_type="list"></text>
+<text top="368" left="102" width="71" height="35" font="font21" id="p8_t20" reading_order_no="30" segment_no="4" tag_type="formula">𝕍𝕍𝑎𝑎𝑟𝑟 𝐵𝐵</text>
+<text top="380" left="170" width="33" height="26" font="font23" id="p8_t21" reading_order_no="2" segment_no="4" tag_type="formula">𝑒𝑒𝑒𝑒𝑒𝑒</text>
+<text top="368" left="215" width="12" height="35" font="font21" id="p8_t22" reading_order_no="3" segment_no="4" tag_type="formula">𝜏𝜏</text>
+<text top="374" left="255" width="20" height="24" font="font22" id="p8_t23" reading_order_no="4" segment_no="4" tag_type="formula">&gt;</text>
+<text top="368" left="282" width="105" height="35" font="font21" id="p8_t24" reading_order_no="5" segment_no="4" tag_type="formula">−2ℂ𝑜𝑜𝑜𝑜 𝐵𝐵</text>
+<text top="380" left="385" width="35" height="26" font="font23" id="p8_t25" reading_order_no="6" segment_no="4" tag_type="formula">𝑒𝑒𝑒𝑒𝑒𝑒</text>
+<text top="368" left="432" width="12" height="35" font="font21" id="p8_t26" reading_order_no="7" segment_no="4" tag_type="formula">𝜏𝜏</text>
+<text top="374" left="456" width="5" height="24" font="font22" id="p8_t27" reading_order_no="8" segment_no="4" tag_type="formula">,</text>
+<text top="368" left="465" width="17" height="35" font="font21" id="p8_t28" reading_order_no="9" segment_no="4" tag_type="formula">𝐵𝐵</text>
+<text top="380" left="480" width="33" height="26" font="font23" id="p8_t29" reading_order_no="10" segment_no="4" tag_type="formula">𝑒𝑒𝑒𝑒𝑒𝑒</text>
+<text top="368" left="525" width="12" height="35" font="font21" id="p8_t30" reading_order_no="11" segment_no="4" tag_type="formula">𝜏𝜏</text>
+<text top="406" left="49" width="13" height="32" font="font4" id="p8_t31" reading_order_no="31" segment_no="5" tag_type="list"></text>
+<text top="409" left="76" width="529" height="29" font="font5" id="p8_t32" reading_order_no="12" segment_no="5" tag_type="list">Paper derives Bellman updates for </text>
+<text top="441" left="76" width="566" height="29" font="font5" id="p8_t33" reading_order_no="32" segment_no="5" tag_type="list">variance and covariance of the return</text>
+<text top="520" left="329" width="48" height="10" font="font3" id="p8_t34" reading_order_no="33" segment_no="7" tag_type="text">ICML 2018</text>
+<text top="519" left="679" width="6" height="11" font="font2" id="p8_t35" reading_order_no="34" segment_no="6" tag_type="text">8</text>
 </page>
 <page number="9" position="absolute" top="0" left="0" height="540" width="720">
 	<fontspec id="font24" size="32" family="Verdana" color="#c1eeff"/>
@@ -486,80 +486,80 @@
 <text top="148" left="196" width="16" height="20" font="font31" id="p11_t14" reading_order_no="8" segment_no="3" tag_type="formula">+</text>
 <text top="143" left="216" width="12" height="28" font="font29" id="p11_t15" reading_order_no="9" segment_no="3" tag_type="formula">ℇ</text>
 <text top="152" left="228" width="9" height="21" font="font30" id="p11_t16" reading_order_no="49" segment_no="3" tag_type="formula">𝑒𝑒</text>
-<text top="204" left="49" width="9" height="22" font="font27" id="p11_t17" reading_order_no="10" segment_no="8" tag_type="list"></text>
-<text top="202" left="76" width="13" height="28" font="font29" id="p11_t18" reading_order_no="53" segment_no="8" tag_type="formula">𝐸𝐸</text>
-<text top="211" left="88" width="27" height="21" font="font30" id="p11_t19" reading_order_no="12" segment_no="8" tag_type="formula">𝑡𝑡+1</text>
-<text top="207" left="121" width="16" height="20" font="font31" id="p11_t20" reading_order_no="13" segment_no="8" tag_type="formula">=</text>
-<text top="202" left="143" width="18" height="28" font="font29" id="p11_t21" reading_order_no="69" segment_no="8" tag_type="formula">𝑀𝑀</text>
-<text top="211" left="160" width="8" height="21" font="font30" id="p11_t22" reading_order_no="71" segment_no="8" tag_type="formula">𝑒𝑒</text>
-<text top="175" left="182" width="13" height="28" font="font29" id="p11_t23" reading_order_no="75" segment_no="8" tag_type="formula">𝐸𝐸</text>
-<text top="185" left="194" width="7" height="21" font="font30" id="p11_t24" reading_order_no="77" segment_no="8" tag_type="formula">𝑡𝑡</text>
-<text top="200" left="182" width="14" height="28" font="font29" id="p11_t25" reading_order_no="79" segment_no="8" tag_type="formula">𝑋𝑋</text>
-<text top="210" left="194" width="7" height="21" font="font30" id="p11_t26" reading_order_no="80" segment_no="8" tag_type="formula">𝑡𝑡</text>
-<text top="226" left="181" width="13" height="28" font="font29" id="p11_t27" reading_order_no="81" segment_no="8" tag_type="formula">𝐴𝐴</text>
-<text top="235" left="195" width="7" height="21" font="font30" id="p11_t28" reading_order_no="82" segment_no="8" tag_type="formula">𝑡𝑡</text>
-<text top="207" left="216" width="16" height="20" font="font31" id="p11_t29" reading_order_no="14" segment_no="8" tag_type="formula">+</text>
-<text top="202" left="236" width="12" height="28" font="font29" id="p11_t30" reading_order_no="15" segment_no="8" tag_type="formula">ℇ</text>
-<text top="211" left="248" width="8" height="21" font="font30" id="p11_t31" reading_order_no="16" segment_no="8" tag_type="formula">𝑒𝑒</text>
-<text top="264" left="49" width="9" height="22" font="font27" id="p11_t32" reading_order_no="17" segment_no="9" tag_type="list"></text>
-<text top="262" left="76" width="12" height="28" font="font29" id="p11_t33" reading_order_no="18" segment_no="9" tag_type="formula">ℇ</text>
-<text top="271" left="87" width="9" height="21" font="font30" id="p11_t34" reading_order_no="19" segment_no="9" tag_type="formula">𝑒𝑒</text>
-<text top="267" left="102" width="15" height="20" font="font31" id="p11_t35" reading_order_no="20" segment_no="9" tag_type="formula">~</text>
-<text top="262" left="122" width="20" height="28" font="font29" id="p11_t36" reading_order_no="21" segment_no="9" tag_type="formula">𝒩𝒩</text>
-<text top="267" left="152" width="69" height="20" font="font31" id="p11_t37" reading_order_no="22" segment_no="9" tag_type="formula">0,0.09 ;</text>
-<text top="262" left="229" width="12" height="28" font="font29" id="p11_t38" reading_order_no="23" segment_no="9" tag_type="formula">ℇ</text>
-<text top="271" left="241" width="8" height="21" font="font30" id="p11_t39" reading_order_no="24" segment_no="9" tag_type="formula">𝑒𝑒</text>
-<text top="267" left="255" width="15" height="20" font="font31" id="p11_t40" reading_order_no="25" segment_no="9" tag_type="formula">~</text>
-<text top="262" left="275" width="20" height="28" font="font29" id="p11_t41" reading_order_no="26" segment_no="9" tag_type="formula">𝒩𝒩</text>
-<text top="267" left="305" width="55" height="20" font="font31" id="p11_t42" reading_order_no="27" segment_no="9" tag_type="formula">0,0.04</text>
-<text top="299" left="49" width="9" height="22" font="font27" id="p11_t43" reading_order_no="29" segment_no="4" tag_type="list"></text>
-<text top="297" left="76" width="11" height="28" font="font29" id="p11_t44" reading_order_no="83" segment_no="4" tag_type="formula">𝑆𝑆</text>
-<text top="307" left="86" width="7" height="21" font="font30" id="p11_t45" reading_order_no="84" segment_no="4" tag_type="formula">𝑡𝑡</text>
-<text top="302" left="100" width="16" height="20" font="font31" id="p11_t46" reading_order_no="31" segment_no="4" tag_type="formula">=</text>
-<text top="297" left="121" width="43" height="28" font="font29" id="p11_t47" reading_order_no="85" segment_no="4" tag_type="formula">𝑀𝑀 𝐸𝐸</text>
-<text top="293" left="163" width="7" height="21" font="font30" id="p11_t48" reading_order_no="86" segment_no="4" tag_type="formula">𝑡𝑡</text>
-<text top="309" left="151" width="14" height="28" font="font29" id="p11_t49" reading_order_no="35" segment_no="4" tag_type="formula">𝑋𝑋</text>
-<text top="318" left="164" width="7" height="21" font="font30" id="p11_t50" reading_order_no="87" segment_no="4" tag_type="formula">𝑡𝑡</text>
-<text top="335" left="49" width="9" height="22" font="font27" id="p11_t51" reading_order_no="33" segment_no="5" tag_type="list"></text>
-<text top="333" left="76" width="13" height="28" font="font29" id="p11_t52" reading_order_no="88" segment_no="5" tag_type="formula">𝑅𝑅</text>
-<text top="343" left="89" width="9" height="21" font="font30" id="p11_t53" reading_order_no="54" segment_no="5" tag_type="formula">𝑒𝑒</text>
-<text top="338" left="105" width="16" height="20" font="font31" id="p11_t54" reading_order_no="36" segment_no="5" tag_type="formula">=</text>
-<text top="333" left="126" width="16" height="28" font="font29" id="p11_t55" reading_order_no="37" segment_no="5" tag_type="formula">−</text>
-<text top="338" left="142" width="12" height="20" font="font31" id="p11_t56" reading_order_no="38" segment_no="5" tag_type="formula">3</text>
-<text top="333" left="158" width="36" height="28" font="font29" id="p11_t57" reading_order_no="41" segment_no="5" tag_type="formula">𝑎𝑎𝑜𝑜𝑎𝑎</text>
-<text top="338" left="195" width="9" height="20" font="font31" id="p11_t58" reading_order_no="42" segment_no="5" tag_type="formula">(</text>
-<text top="333" left="203" width="14" height="28" font="font29" id="p11_t59" reading_order_no="43" segment_no="5" tag_type="formula">𝑋𝑋</text>
-<text top="338" left="217" width="9" height="20" font="font31" id="p11_t60" reading_order_no="44" segment_no="5" tag_type="formula">)</text>
-<text top="337" left="226" width="17" height="20" font="font28" id="p11_t61" reading_order_no="45" segment_no="5" tag_type="formula">; </text>
-<text top="333" left="243" width="13" height="28" font="font29" id="p11_t62" reading_order_no="60" segment_no="5" tag_type="formula">𝑅𝑅</text>
-<text top="343" left="256" width="8" height="21" font="font30" id="p11_t63" reading_order_no="61" segment_no="5" tag_type="formula">𝑒𝑒</text>
-<text top="338" left="272" width="61" height="20" font="font31" id="p11_t64" reading_order_no="46" segment_no="5" tag_type="formula">= exp[</text>
-<text top="333" left="333" width="16" height="28" font="font29" id="p11_t65" reading_order_no="47" segment_no="5" tag_type="formula">−</text>
-<text top="338" left="348" width="7" height="20" font="font31" id="p11_t66" reading_order_no="48" segment_no="5" tag_type="formula">|</text>
-<text top="333" left="355" width="58" height="28" font="font29" id="p11_t67" reading_order_no="62" segment_no="5" tag_type="formula">𝑎𝑎𝑜𝑜𝑎𝑎 𝐸𝐸</text>
-<text top="343" left="412" width="7" height="21" font="font30" id="p11_t68" reading_order_no="63" segment_no="5" tag_type="formula">𝑡𝑡</text>
-<text top="333" left="433" width="16" height="28" font="font29" id="p11_t69" reading_order_no="50" segment_no="5" tag_type="formula">−</text>
-<text top="338" left="454" width="26" height="20" font="font31" id="p11_t70" reading_order_no="51" segment_no="5" tag_type="formula">1|]</text>
-<text top="363" left="49" width="9" height="22" font="font27" id="p11_t71" reading_order_no="52" segment_no="6" tag_type="list"></text>
-<text top="360" left="76" width="18" height="28" font="font29" id="p11_t72" reading_order_no="55" segment_no="6" tag_type="formula">𝑀𝑀</text>
-<text top="366" left="94" width="4" height="20" font="font31" id="p11_t73" reading_order_no="56" segment_no="6" tag_type="formula">,</text>
-<text top="360" left="102" width="18" height="28" font="font29" id="p11_t74" reading_order_no="39" segment_no="6" tag_type="formula">𝑀𝑀</text>
-<text top="370" left="118" width="9" height="21" font="font30" id="p11_t75" reading_order_no="57" segment_no="6" tag_type="formula">𝑒𝑒</text>
-<text top="366" left="129" width="4" height="20" font="font31" id="p11_t76" reading_order_no="58" segment_no="6" tag_type="formula">,</text>
-<text top="360" left="136" width="18" height="28" font="font29" id="p11_t77" reading_order_no="40" segment_no="6" tag_type="formula">𝑀𝑀</text>
-<text top="370" left="153" width="8" height="21" font="font30" id="p11_t78" reading_order_no="68" segment_no="6" tag_type="formula">𝑒𝑒</text>
-<text top="364" left="170" width="383" height="20" font="font28" id="p11_t79" reading_order_no="64" segment_no="6" tag_type="list">are random matrices with elements </text>
-<text top="366" left="553" width="15" height="20" font="font31" id="p11_t80" reading_order_no="65" segment_no="6" tag_type="list">~</text>
-<text top="360" left="568" width="20" height="28" font="font29" id="p11_t81" reading_order_no="66" segment_no="6" tag_type="list">𝒩𝒩</text>
-<text top="366" left="598" width="41" height="20" font="font31" id="p11_t82" reading_order_no="67" segment_no="6" tag_type="list">0,1 .</text>
-<text top="385" left="76" width="350" height="20" font="font28" id="p11_t83" reading_order_no="59" segment_no="6" tag_type="list">Rows normalized to sum to 0.99.</text>
-<text top="437" left="49" width="9" height="22" font="font27" id="p11_t84" reading_order_no="70" segment_no="10" tag_type="list"></text>
-<text top="435" left="76" width="13" height="28" font="font29" id="p11_t85" reading_order_no="76" segment_no="10" tag_type="list">𝛽𝛽</text>
-<text top="440" left="95" width="33" height="20" font="font31" id="p11_t86" reading_order_no="72" segment_no="10" tag_type="list">= 1</text>
-<text top="439" left="128" width="529" height="20" font="font28" id="p11_t87" reading_order_no="73" segment_no="10" tag_type="list">, learning rate = 0.05. 2 hidden layers w/ 40 tanh</text>
-<text top="459" left="76" width="52" height="20" font="font28" id="p11_t88" reading_order_no="74" segment_no="10" tag_type="list">units</text>
-<text top="520" left="329" width="48" height="10" font="font3" id="p11_t89" reading_order_no="78" segment_no="7" tag_type="text">ICML 2018</text>
-<text top="519" left="679" width="11" height="11" font="font2" id="p11_t90" reading_order_no="89" segment_no="11" tag_type="text">11</text>
+<text top="204" left="49" width="9" height="22" font="font27" id="p11_t17" reading_order_no="10" segment_no="4" tag_type="list"></text>
+<text top="202" left="76" width="13" height="28" font="font29" id="p11_t18" reading_order_no="53" segment_no="4" tag_type="formula">𝐸𝐸</text>
+<text top="211" left="88" width="27" height="21" font="font30" id="p11_t19" reading_order_no="12" segment_no="4" tag_type="formula">𝑡𝑡+1</text>
+<text top="207" left="121" width="16" height="20" font="font31" id="p11_t20" reading_order_no="13" segment_no="4" tag_type="formula">=</text>
+<text top="202" left="143" width="18" height="28" font="font29" id="p11_t21" reading_order_no="69" segment_no="4" tag_type="formula">𝑀𝑀</text>
+<text top="211" left="160" width="8" height="21" font="font30" id="p11_t22" reading_order_no="71" segment_no="4" tag_type="formula">𝑒𝑒</text>
+<text top="175" left="182" width="13" height="28" font="font29" id="p11_t23" reading_order_no="75" segment_no="4" tag_type="formula">𝐸𝐸</text>
+<text top="185" left="194" width="7" height="21" font="font30" id="p11_t24" reading_order_no="77" segment_no="4" tag_type="formula">𝑡𝑡</text>
+<text top="200" left="182" width="14" height="28" font="font29" id="p11_t25" reading_order_no="79" segment_no="4" tag_type="formula">𝑋𝑋</text>
+<text top="210" left="194" width="7" height="21" font="font30" id="p11_t26" reading_order_no="80" segment_no="4" tag_type="formula">𝑡𝑡</text>
+<text top="226" left="181" width="13" height="28" font="font29" id="p11_t27" reading_order_no="81" segment_no="4" tag_type="formula">𝐴𝐴</text>
+<text top="235" left="195" width="7" height="21" font="font30" id="p11_t28" reading_order_no="82" segment_no="4" tag_type="formula">𝑡𝑡</text>
+<text top="207" left="216" width="16" height="20" font="font31" id="p11_t29" reading_order_no="14" segment_no="4" tag_type="formula">+</text>
+<text top="202" left="236" width="12" height="28" font="font29" id="p11_t30" reading_order_no="15" segment_no="4" tag_type="formula">ℇ</text>
+<text top="211" left="248" width="8" height="21" font="font30" id="p11_t31" reading_order_no="16" segment_no="4" tag_type="formula">𝑒𝑒</text>
+<text top="264" left="49" width="9" height="22" font="font27" id="p11_t32" reading_order_no="17" segment_no="5" tag_type="list"></text>
+<text top="262" left="76" width="12" height="28" font="font29" id="p11_t33" reading_order_no="18" segment_no="5" tag_type="formula">ℇ</text>
+<text top="271" left="87" width="9" height="21" font="font30" id="p11_t34" reading_order_no="19" segment_no="5" tag_type="formula">𝑒𝑒</text>
+<text top="267" left="102" width="15" height="20" font="font31" id="p11_t35" reading_order_no="20" segment_no="5" tag_type="formula">~</text>
+<text top="262" left="122" width="20" height="28" font="font29" id="p11_t36" reading_order_no="21" segment_no="5" tag_type="formula">𝒩𝒩</text>
+<text top="267" left="152" width="69" height="20" font="font31" id="p11_t37" reading_order_no="22" segment_no="5" tag_type="formula">0,0.09 ;</text>
+<text top="262" left="229" width="12" height="28" font="font29" id="p11_t38" reading_order_no="23" segment_no="5" tag_type="formula">ℇ</text>
+<text top="271" left="241" width="8" height="21" font="font30" id="p11_t39" reading_order_no="24" segment_no="5" tag_type="formula">𝑒𝑒</text>
+<text top="267" left="255" width="15" height="20" font="font31" id="p11_t40" reading_order_no="25" segment_no="5" tag_type="formula">~</text>
+<text top="262" left="275" width="20" height="28" font="font29" id="p11_t41" reading_order_no="26" segment_no="5" tag_type="formula">𝒩𝒩</text>
+<text top="267" left="305" width="55" height="20" font="font31" id="p11_t42" reading_order_no="27" segment_no="5" tag_type="formula">0,0.04</text>
+<text top="299" left="49" width="9" height="22" font="font27" id="p11_t43" reading_order_no="29" segment_no="6" tag_type="list"></text>
+<text top="297" left="76" width="11" height="28" font="font29" id="p11_t44" reading_order_no="83" segment_no="6" tag_type="formula">𝑆𝑆</text>
+<text top="307" left="86" width="7" height="21" font="font30" id="p11_t45" reading_order_no="84" segment_no="6" tag_type="formula">𝑡𝑡</text>
+<text top="302" left="100" width="16" height="20" font="font31" id="p11_t46" reading_order_no="31" segment_no="6" tag_type="formula">=</text>
+<text top="297" left="121" width="43" height="28" font="font29" id="p11_t47" reading_order_no="85" segment_no="6" tag_type="formula">𝑀𝑀 𝐸𝐸</text>
+<text top="293" left="163" width="7" height="21" font="font30" id="p11_t48" reading_order_no="86" segment_no="6" tag_type="formula">𝑡𝑡</text>
+<text top="309" left="151" width="14" height="28" font="font29" id="p11_t49" reading_order_no="35" segment_no="6" tag_type="formula">𝑋𝑋</text>
+<text top="318" left="164" width="7" height="21" font="font30" id="p11_t50" reading_order_no="87" segment_no="6" tag_type="formula">𝑡𝑡</text>
+<text top="335" left="49" width="9" height="22" font="font27" id="p11_t51" reading_order_no="33" segment_no="7" tag_type="list"></text>
+<text top="333" left="76" width="13" height="28" font="font29" id="p11_t52" reading_order_no="88" segment_no="7" tag_type="formula">𝑅𝑅</text>
+<text top="343" left="89" width="9" height="21" font="font30" id="p11_t53" reading_order_no="54" segment_no="7" tag_type="formula">𝑒𝑒</text>
+<text top="338" left="105" width="16" height="20" font="font31" id="p11_t54" reading_order_no="36" segment_no="7" tag_type="formula">=</text>
+<text top="333" left="126" width="16" height="28" font="font29" id="p11_t55" reading_order_no="37" segment_no="7" tag_type="formula">−</text>
+<text top="338" left="142" width="12" height="20" font="font31" id="p11_t56" reading_order_no="38" segment_no="7" tag_type="formula">3</text>
+<text top="333" left="158" width="36" height="28" font="font29" id="p11_t57" reading_order_no="41" segment_no="7" tag_type="formula">𝑎𝑎𝑜𝑜𝑎𝑎</text>
+<text top="338" left="195" width="9" height="20" font="font31" id="p11_t58" reading_order_no="42" segment_no="7" tag_type="formula">(</text>
+<text top="333" left="203" width="14" height="28" font="font29" id="p11_t59" reading_order_no="43" segment_no="7" tag_type="formula">𝑋𝑋</text>
+<text top="338" left="217" width="9" height="20" font="font31" id="p11_t60" reading_order_no="44" segment_no="7" tag_type="formula">)</text>
+<text top="337" left="226" width="17" height="20" font="font28" id="p11_t61" reading_order_no="45" segment_no="7" tag_type="formula">; </text>
+<text top="333" left="243" width="13" height="28" font="font29" id="p11_t62" reading_order_no="60" segment_no="7" tag_type="formula">𝑅𝑅</text>
+<text top="343" left="256" width="8" height="21" font="font30" id="p11_t63" reading_order_no="61" segment_no="7" tag_type="formula">𝑒𝑒</text>
+<text top="338" left="272" width="61" height="20" font="font31" id="p11_t64" reading_order_no="46" segment_no="7" tag_type="formula">= exp[</text>
+<text top="333" left="333" width="16" height="28" font="font29" id="p11_t65" reading_order_no="47" segment_no="7" tag_type="formula">−</text>
+<text top="338" left="348" width="7" height="20" font="font31" id="p11_t66" reading_order_no="48" segment_no="7" tag_type="formula">|</text>
+<text top="333" left="355" width="58" height="28" font="font29" id="p11_t67" reading_order_no="62" segment_no="7" tag_type="formula">𝑎𝑎𝑜𝑜𝑎𝑎 𝐸𝐸</text>
+<text top="343" left="412" width="7" height="21" font="font30" id="p11_t68" reading_order_no="63" segment_no="7" tag_type="formula">𝑡𝑡</text>
+<text top="333" left="433" width="16" height="28" font="font29" id="p11_t69" reading_order_no="50" segment_no="7" tag_type="formula">−</text>
+<text top="338" left="454" width="26" height="20" font="font31" id="p11_t70" reading_order_no="51" segment_no="7" tag_type="formula">1|]</text>
+<text top="363" left="49" width="9" height="22" font="font27" id="p11_t71" reading_order_no="52" segment_no="8" tag_type="list"></text>
+<text top="360" left="76" width="18" height="28" font="font29" id="p11_t72" reading_order_no="55" segment_no="8" tag_type="formula">𝑀𝑀</text>
+<text top="366" left="94" width="4" height="20" font="font31" id="p11_t73" reading_order_no="56" segment_no="8" tag_type="formula">,</text>
+<text top="360" left="102" width="18" height="28" font="font29" id="p11_t74" reading_order_no="39" segment_no="8" tag_type="formula">𝑀𝑀</text>
+<text top="370" left="118" width="9" height="21" font="font30" id="p11_t75" reading_order_no="57" segment_no="8" tag_type="formula">𝑒𝑒</text>
+<text top="366" left="129" width="4" height="20" font="font31" id="p11_t76" reading_order_no="58" segment_no="8" tag_type="formula">,</text>
+<text top="360" left="136" width="18" height="28" font="font29" id="p11_t77" reading_order_no="40" segment_no="8" tag_type="formula">𝑀𝑀</text>
+<text top="370" left="153" width="8" height="21" font="font30" id="p11_t78" reading_order_no="68" segment_no="8" tag_type="formula">𝑒𝑒</text>
+<text top="364" left="170" width="383" height="20" font="font28" id="p11_t79" reading_order_no="64" segment_no="8" tag_type="list">are random matrices with elements </text>
+<text top="366" left="553" width="15" height="20" font="font31" id="p11_t80" reading_order_no="65" segment_no="8" tag_type="list">~</text>
+<text top="360" left="568" width="20" height="28" font="font29" id="p11_t81" reading_order_no="66" segment_no="8" tag_type="list">𝒩𝒩</text>
+<text top="366" left="598" width="41" height="20" font="font31" id="p11_t82" reading_order_no="67" segment_no="8" tag_type="list">0,1 .</text>
+<text top="385" left="76" width="350" height="20" font="font28" id="p11_t83" reading_order_no="59" segment_no="8" tag_type="list">Rows normalized to sum to 0.99.</text>
+<text top="437" left="49" width="9" height="22" font="font27" id="p11_t84" reading_order_no="70" segment_no="9" tag_type="list"></text>
+<text top="435" left="76" width="13" height="28" font="font29" id="p11_t85" reading_order_no="76" segment_no="9" tag_type="list">𝛽𝛽</text>
+<text top="440" left="95" width="33" height="20" font="font31" id="p11_t86" reading_order_no="72" segment_no="9" tag_type="list">= 1</text>
+<text top="439" left="128" width="529" height="20" font="font28" id="p11_t87" reading_order_no="73" segment_no="9" tag_type="list">, learning rate = 0.05. 2 hidden layers w/ 40 tanh</text>
+<text top="459" left="76" width="52" height="20" font="font28" id="p11_t88" reading_order_no="74" segment_no="9" tag_type="list">units</text>
+<text top="520" left="329" width="48" height="10" font="font3" id="p11_t89" reading_order_no="78" segment_no="11" tag_type="text">ICML 2018</text>
+<text top="519" left="679" width="11" height="11" font="font2" id="p11_t90" reading_order_no="89" segment_no="10" tag_type="text">11</text>
 </page>
 <page number="12" position="absolute" top="0" left="0" height="540" width="720">
 <text top="31" left="43" width="138" height="39" font="font0" id="p12_t1" reading_order_no="0" segment_no="0" tag_type="title">Results</text>

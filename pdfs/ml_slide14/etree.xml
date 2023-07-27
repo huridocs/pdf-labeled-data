@@ -806,10 +806,10 @@
 	<fontspec id="font61" size="34" family="OpenSymbol" color="#000000"/>
 	<fontspec id="font62" size="9" family="TimesNewRomanPS,Italic" color="#000000"/>
 	<fontspec id="font63" size="16" family="TimesNewRomanPSMT" color="#000000"/>
-<text top="40" left="728" width="58" height="20" font="font0" id="p53_t1" reading_order_no="0" segment_no="2" tag_type="text">Y LeCun</text>
+<text top="40" left="728" width="58" height="20" font="font0" id="p53_t1" reading_order_no="0" segment_no="1" tag_type="text">Y LeCun</text>
 <text top="64" left="698" width="87" height="20" font="font0" id="p53_t2" reading_order_no="1" segment_no="3" tag_type="text">MA Ranzato</text>
 <text top="20" left="58" width="232" height="30" font="font4" id="p53_t3" reading_order_no="2" segment_no="0" tag_type="title"><b>Overall Architecture: </b></text>
-<text top="49" left="58" width="571" height="27" font="font52" id="p53_t4" reading_order_no="3" segment_no="1" tag_type="title"><b>Normalization → Filter Bank → Non-Linearity → Pooling</b></text>
+<text top="49" left="58" width="571" height="27" font="font52" id="p53_t4" reading_order_no="3" segment_no="2" tag_type="title"><b>Normalization → Filter Bank → Non-Linearity → Pooling</b></text>
 <text top="226" left="58" width="263" height="25" font="font5" id="p53_t5" reading_order_no="4" segment_no="5" tag_type="title"><b>Stacking multiple stages of  </b></text>
 <text top="261" left="72" width="573" height="19" font="font6" id="p53_t6" reading_order_no="5" segment_no="6" tag_type="text">[Normalization   Filter Bank   Non-Linearity   Pooling].</text>
 <text top="262" left="227" width="17" height="18" font="font24" id="p53_t7" reading_order_no="6" segment_no="6" tag_type="figure">→</text>

@@ -9,163 +9,132 @@
 	<fontspec id="font5" size="8" family="AkzidenzGroteskBE,Bold" color="#000000"/>
 	<fontspec id="font6" size="8" family="AkzidenzGroteskBE,BoldItalic" color="#000000"/>
 	<fontspec id="font7" size="6" family="AkzidenzGroteskBE" color="#000000"/>
-<text top="42" left="56" width="88" height="7" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title"><b>Breast Cancer Research</b></text>
-<text top="42" left="144" width="95" height="7" font="font1" id="p1_t2" reading_order_no="1" segment_no="0" tag_type="title">    Vol 8 No 6    Einarsdóttir </text>
-<text top="42" left="239" width="16" height="7" font="font2" id="p1_t3" reading_order_no="2" segment_no="0" tag_type="title"><i>et al.</i></text>
-<text top="758" left="56" width="45" height="7" font="font1" id="p1_t4" reading_order_no="156" segment_no="12" tag_type="text">Page 8 of 12</text>
-<text top="768" left="56" width="120" height="6" font="font3" id="p1_t5" reading_order_no="157" segment_no="13" tag_type="text"><i>(page number not for citation purposes)</i></text>
-<text top="696" left="56" width="240" height="9" font="font4" id="p1_t6" reading_order_no="150" segment_no="10" tag_type="text">mostly dependent on the pathologist's decision. Because gen-</text>
-<text top="708" left="56" width="240" height="9" font="font4" id="p1_t7" reading_order_no="151" segment_no="10" tag_type="text">otype frequencies were not related to tumour size, bias owing</text>
-<text top="719" left="56" width="228" height="9" font="font4" id="p1_t8" reading_order_no="152" segment_no="10" tag_type="text">to the missing information on these factors seems unlikely.</text>
-<text top="696" left="315" width="240" height="9" font="font4" id="p1_t9" reading_order_no="153" segment_no="11" tag_type="text">Survival bias could be a concern in our study because nonpar-</text>
-<text top="708" left="315" width="240" height="9" font="font4" id="p1_t10" reading_order_no="154" segment_no="11" tag_type="text">ticipation was related to severe disease or death. However, we</text>
-<text top="719" left="315" width="240" height="9" font="font4" id="p1_t11" reading_order_no="155" segment_no="11" tag_type="text">obtained the majority of the tissue samples requested for</text>
-<text top="85" left="56" width="28" height="7" font="font5" id="p1_t12" reading_order_no="3" segment_no="1" tag_type="title"><b>Table 3</b></text>
-<text top="104" left="56" width="99" height="7" font="font5" id="p1_t13" reading_order_no="4" segment_no="2" tag_type="text"><b>tagSNP haplotypes in the </b></text>
-<text top="104" left="156" width="18" height="7" font="font6" id="p1_t14" reading_order_no="5" segment_no="2" tag_type="text"><i><b>ATM</b></i></text>
-<text top="104" left="174" width="4" height="7" font="font5" id="p1_t15" reading_order_no="6" segment_no="2" tag_type="text"><b>, </b></text>
-<text top="104" left="178" width="30" height="7" font="font6" id="p1_t16" reading_order_no="7" segment_no="2" tag_type="text"><i><b>CHEK2 </b></i></text>
-<text top="104" left="207" width="17" height="7" font="font5" id="p1_t17" reading_order_no="8" segment_no="2" tag_type="text"><b>and </b></text>
-<text top="104" left="224" width="29" height="7" font="font6" id="p1_t18" reading_order_no="9" segment_no="2" tag_type="text"><i><b>ERBB2 </b></i></text>
-<text top="104" left="253" width="160" height="7" font="font5" id="p1_t19" reading_order_no="10" segment_no="2" tag_type="text"><b>genes in relation to breast cancer survival</b></text>
-<text top="123" left="95" width="47" height="7" font="font1" id="p1_t20" reading_order_no="11" segment_no="3" tag_type="table">Haplotype no.</text>
-<text top="123" left="185" width="39" height="7" font="font1" id="p1_t21" reading_order_no="12" segment_no="3" tag_type="table">Haplotypes</text>
-<text top="123" left="316" width="103" height="7" font="font1" id="p1_t22" reading_order_no="13" segment_no="3" tag_type="table">Haplotype proportions (cases)</text>
-<text top="123" left="470" width="45" height="7" font="font1" id="p1_t23" reading_order_no="14" segment_no="3" tag_type="table">HR (95% CI)</text>
-<text top="139" left="110" width="16" height="7" font="font2" id="p1_t24" reading_order_no="15" segment_no="3" tag_type="table"><i>ATM</i></text>
-<text top="139" left="349" width="7" height="7" font="font2" id="p1_t25" reading_order_no="16" segment_no="3" tag_type="table"><i>n </i></text>
-<text top="139" left="356" width="28" height="7" font="font1" id="p1_t26" reading_order_no="17" segment_no="3" tag_type="table">= 1,574</text>
-<text top="139" left="384" width="3" height="5" font="font7" id="p1_t27" reading_order_no="18" segment_no="3" tag_type="table">a</text>
-<text top="154" left="116" width="5" height="7" font="font1" id="p1_t28" reading_order_no="19" segment_no="3" tag_type="table">1</text>
-<text top="154" left="185" width="39" height="7" font="font1" id="p1_t29" reading_order_no="20" segment_no="3" tag_type="table">AACGCCT</text>
-<text top="154" left="358" width="20" height="7" font="font1" id="p1_t30" reading_order_no="21" segment_no="3" tag_type="table">0.414</text>
-<text top="154" left="464" width="58" height="7" font="font1" id="p1_t31" reading_order_no="22" segment_no="3" tag_type="table">1.00 (Reference)</text>
-<text top="170" left="116" width="5" height="7" font="font1" id="p1_t32" reading_order_no="23" segment_no="3" tag_type="table">2</text>
-<text top="170" left="185" width="39" height="7" font="font1" id="p1_t33" reading_order_no="24" segment_no="3" tag_type="table">AACGCTC</text>
-<text top="170" left="358" width="20" height="7" font="font1" id="p1_t34" reading_order_no="25" segment_no="3" tag_type="table">0.231</text>
-<text top="170" left="463" width="59" height="7" font="font1" id="p1_t35" reading_order_no="26" segment_no="3" tag_type="table">0.85 (0.65–1.13)</text>
-<text top="185" left="116" width="5" height="7" font="font1" id="p1_t36" reading_order_no="27" segment_no="3" tag_type="table">3</text>
-<text top="185" left="185" width="41" height="7" font="font1" id="p1_t37" reading_order_no="28" segment_no="3" tag_type="table">AGCACCC</text>
-<text top="185" left="358" width="20" height="7" font="font1" id="p1_t38" reading_order_no="29" segment_no="3" tag_type="table">0.150</text>
-<text top="185" left="463" width="59" height="7" font="font1" id="p1_t39" reading_order_no="30" segment_no="3" tag_type="table">0.89 (0.66–1.21)</text>
-<text top="201" left="116" width="5" height="7" font="font1" id="p1_t40" reading_order_no="31" segment_no="3" tag_type="table">4</text>
-<text top="201" left="185" width="41" height="7" font="font1" id="p1_t41" reading_order_no="32" segment_no="3" tag_type="table">AACGCCC</text>
-<text top="201" left="358" width="20" height="7" font="font1" id="p1_t42" reading_order_no="33" segment_no="3" tag_type="table">0.062</text>
-<text top="201" left="463" width="59" height="7" font="font1" id="p1_t43" reading_order_no="34" segment_no="3" tag_type="table">0.86 (0.52–1.44)</text>
-<text top="216" left="116" width="5" height="7" font="font1" id="p1_t44" reading_order_no="35" segment_no="3" tag_type="table">5</text>
-<text top="216" left="185" width="38" height="7" font="font1" id="p1_t45" reading_order_no="36" segment_no="3" tag_type="table">TACGCCT</text>
-<text top="216" left="358" width="20" height="7" font="font1" id="p1_t46" reading_order_no="37" segment_no="3" tag_type="table">0.064</text>
-<text top="216" left="463" width="59" height="7" font="font1" id="p1_t47" reading_order_no="38" segment_no="3" tag_type="table">0.88 (0.55–1.40)</text>
-<text top="232" left="116" width="5" height="7" font="font1" id="p1_t48" reading_order_no="39" segment_no="3" tag_type="table">6</text>
-<text top="232" left="185" width="40" height="7" font="font1" id="p1_t49" reading_order_no="40" segment_no="3" tag_type="table">AACGGTC</text>
-<text top="232" left="358" width="20" height="7" font="font1" id="p1_t50" reading_order_no="41" segment_no="3" tag_type="table">0.043</text>
-<text top="232" left="463" width="59" height="7" font="font1" id="p1_t51" reading_order_no="42" segment_no="3" tag_type="table">0.95 (0.57–1.57)</text>
-<text top="247" left="185" width="16" height="7" font="font1" id="p1_t52" reading_order_no="43" segment_no="3" tag_type="table">Rare</text>
-<text top="247" left="201" width="3" height="5" font="font7" id="p1_t53" reading_order_no="44" segment_no="3" tag_type="table">b</text>
-<text top="247" left="358" width="20" height="7" font="font1" id="p1_t54" reading_order_no="45" segment_no="3" tag_type="table">0.037</text>
-<text top="247" left="463" width="59" height="7" font="font1" id="p1_t55" reading_order_no="46" segment_no="3" tag_type="table">0.95 (0.53–1.68)</text>
-<text top="263" left="155" width="25" height="7" font="font1" id="p1_t56" reading_order_no="47" segment_no="3" tag_type="table">Global </text>
-<text top="263" left="179" width="7" height="7" font="font2" id="p1_t57" reading_order_no="48" segment_no="3" tag_type="table"><i>P </i></text>
-<text top="263" left="187" width="17" height="7" font="font1" id="p1_t58" reading_order_no="49" segment_no="3" tag_type="table">value</text>
-<text top="263" left="204" width="3" height="5" font="font7" id="p1_t59" reading_order_no="50" segment_no="3" tag_type="table">c</text>
-<text top="263" left="485" width="16" height="7" font="font1" id="p1_t60" reading_order_no="51" segment_no="3" tag_type="table">0.95</text>
-<text top="282" left="105" width="27" height="7" font="font2" id="p1_t61" reading_order_no="52" segment_no="3" tag_type="table"><i>CHEK2</i></text>
-<text top="282" left="349" width="7" height="7" font="font2" id="p1_t62" reading_order_no="53" segment_no="3" tag_type="table"><i>n </i></text>
-<text top="282" left="356" width="28" height="7" font="font1" id="p1_t63" reading_order_no="54" segment_no="3" tag_type="table">= 1,571</text>
-<text top="282" left="384" width="3" height="5" font="font7" id="p1_t64" reading_order_no="55" segment_no="3" tag_type="table">a</text>
-<text top="297" left="116" width="5" height="7" font="font1" id="p1_t65" reading_order_no="56" segment_no="3" tag_type="table">1</text>
-<text top="297" left="185" width="36" height="7" font="font1" id="p1_t66" reading_order_no="57" segment_no="3" tag_type="table">GCCCCC</text>
-<text top="297" left="358" width="20" height="7" font="font1" id="p1_t67" reading_order_no="58" segment_no="3" tag_type="table">0.223</text>
-<text top="297" left="464" width="58" height="7" font="font1" id="p1_t68" reading_order_no="59" segment_no="3" tag_type="table">1.00 (Reference)</text>
-<text top="313" left="116" width="5" height="7" font="font1" id="p1_t69" reading_order_no="60" segment_no="3" tag_type="table">2</text>
-<text top="313" left="185" width="36" height="7" font="font1" id="p1_t70" reading_order_no="61" segment_no="3" tag_type="table">GGCTGC</text>
-<text top="313" left="358" width="20" height="7" font="font1" id="p1_t71" reading_order_no="62" segment_no="3" tag_type="table">0.231</text>
-<text top="313" left="463" width="59" height="7" font="font1" id="p1_t72" reading_order_no="63" segment_no="3" tag_type="table">0.72 (0.52–0.98)</text>
-<text top="328" left="116" width="5" height="7" font="font1" id="p1_t73" reading_order_no="64" segment_no="3" tag_type="table">3</text>
-<text top="328" left="185" width="37" height="7" font="font1" id="p1_t74" reading_order_no="65" segment_no="3" tag_type="table">GCCCCG</text>
-<text top="328" left="358" width="20" height="7" font="font1" id="p1_t75" reading_order_no="66" segment_no="3" tag_type="table">0.140</text>
-<text top="328" left="463" width="59" height="7" font="font1" id="p1_t76" reading_order_no="67" segment_no="3" tag_type="table">1.02 (0.72–1.43)</text>
-<text top="344" left="116" width="5" height="7" font="font1" id="p1_t77" reading_order_no="68" segment_no="3" tag_type="table">4</text>
-<text top="344" left="185" width="36" height="7" font="font1" id="p1_t78" reading_order_no="69" segment_no="3" tag_type="table">ACCCGC</text>
-<text top="344" left="358" width="20" height="7" font="font1" id="p1_t79" reading_order_no="70" segment_no="3" tag_type="table">0.113</text>
-<text top="344" left="463" width="59" height="7" font="font1" id="p1_t80" reading_order_no="71" segment_no="3" tag_type="table">1.00 (0.70–1.41)</text>
-<text top="359" left="116" width="5" height="7" font="font1" id="p1_t81" reading_order_no="72" segment_no="3" tag_type="table">5</text>
-<text top="359" left="185" width="36" height="7" font="font1" id="p1_t82" reading_order_no="73" segment_no="3" tag_type="table">GCTCGG</text>
-<text top="359" left="358" width="20" height="7" font="font1" id="p1_t83" reading_order_no="74" segment_no="3" tag_type="table">0.089</text>
-<text top="359" left="463" width="59" height="7" font="font1" id="p1_t84" reading_order_no="75" segment_no="3" tag_type="table">1.08 (0.73–1.57)</text>
-<text top="375" left="116" width="5" height="7" font="font1" id="p1_t85" reading_order_no="76" segment_no="3" tag_type="table">6</text>
-<text top="375" left="185" width="38" height="7" font="font1" id="p1_t86" reading_order_no="77" segment_no="3" tag_type="table">GGCCGC</text>
-<text top="375" left="358" width="20" height="7" font="font1" id="p1_t87" reading_order_no="78" segment_no="3" tag_type="table">0.052</text>
-<text top="375" left="463" width="59" height="7" font="font1" id="p1_t88" reading_order_no="79" segment_no="3" tag_type="table">0.61 (0.34–1.10)</text>
-<text top="390" left="116" width="5" height="7" font="font1" id="p1_t89" reading_order_no="80" segment_no="3" tag_type="table">7</text>
-<text top="390" left="185" width="37" height="7" font="font1" id="p1_t90" reading_order_no="81" segment_no="3" tag_type="table">GCCCGC</text>
-<text top="390" left="358" width="20" height="7" font="font1" id="p1_t91" reading_order_no="82" segment_no="3" tag_type="table">0.027</text>
-<text top="390" left="463" width="59" height="7" font="font1" id="p1_t92" reading_order_no="83" segment_no="3" tag_type="table">0.60 (0.26–1.41)</text>
-<text top="406" left="185" width="16" height="7" font="font1" id="p1_t93" reading_order_no="84" segment_no="3" tag_type="table">Rare</text>
-<text top="406" left="201" width="3" height="5" font="font7" id="p1_t94" reading_order_no="85" segment_no="3" tag_type="table">d</text>
-<text top="406" left="358" width="20" height="7" font="font1" id="p1_t95" reading_order_no="86" segment_no="3" tag_type="table">0.125</text>
-<text top="406" left="463" width="59" height="7" font="font1" id="p1_t96" reading_order_no="87" segment_no="3" tag_type="table">0.95 (0.67–1.35)</text>
-<text top="421" left="155" width="25" height="7" font="font1" id="p1_t97" reading_order_no="88" segment_no="3" tag_type="table">Global </text>
-<text top="421" left="179" width="7" height="7" font="font2" id="p1_t98" reading_order_no="89" segment_no="3" tag_type="table"><i>P </i></text>
-<text top="421" left="187" width="17" height="7" font="font1" id="p1_t99" reading_order_no="90" segment_no="3" tag_type="table">value</text>
-<text top="421" left="204" width="3" height="5" font="font7" id="p1_t100" reading_order_no="91" segment_no="3" tag_type="table">c</text>
-<text top="421" left="485" width="16" height="7" font="font1" id="p1_t101" reading_order_no="92" segment_no="3" tag_type="table">0.15</text>
-<text top="440" left="105" width="26" height="7" font="font2" id="p1_t102" reading_order_no="93" segment_no="3" tag_type="table"><i>ERBB2</i></text>
-<text top="440" left="349" width="7" height="7" font="font2" id="p1_t103" reading_order_no="94" segment_no="3" tag_type="table"><i>n </i></text>
-<text top="440" left="356" width="28" height="7" font="font1" id="p1_t104" reading_order_no="95" segment_no="3" tag_type="table">= 1,579</text>
-<text top="440" left="384" width="3" height="5" font="font7" id="p1_t105" reading_order_no="96" segment_no="3" tag_type="table">a</text>
-<text top="456" left="116" width="5" height="7" font="font1" id="p1_t106" reading_order_no="97" segment_no="3" tag_type="table">1</text>
-<text top="456" left="185" width="41" height="7" font="font1" id="p1_t107" reading_order_no="98" segment_no="3" tag_type="table">GGCGACT</text>
-<text top="456" left="358" width="20" height="7" font="font1" id="p1_t108" reading_order_no="99" segment_no="3" tag_type="table">0.296</text>
-<text top="456" left="464" width="58" height="7" font="font1" id="p1_t109" reading_order_no="100" segment_no="3" tag_type="table">1.00 (Reference)</text>
-<text top="471" left="116" width="5" height="7" font="font1" id="p1_t110" reading_order_no="101" segment_no="3" tag_type="table">2</text>
-<text top="471" left="185" width="39" height="7" font="font1" id="p1_t111" reading_order_no="102" segment_no="3" tag_type="table">AGTAACG</text>
-<text top="471" left="358" width="20" height="7" font="font1" id="p1_t112" reading_order_no="103" segment_no="3" tag_type="table">0.166</text>
-<text top="471" left="463" width="59" height="7" font="font1" id="p1_t113" reading_order_no="104" segment_no="3" tag_type="table">0.98 (0.71–1.34)</text>
-<text top="487" left="116" width="5" height="7" font="font1" id="p1_t114" reading_order_no="105" segment_no="3" tag_type="table">3</text>
-<text top="487" left="185" width="45" height="7" font="font1" id="p1_t115" reading_order_no="106" segment_no="3" tag_type="table">GGCGGCG</text>
-<text top="487" left="358" width="20" height="7" font="font1" id="p1_t116" reading_order_no="107" segment_no="3" tag_type="table">0.135</text>
-<text top="487" left="463" width="59" height="7" font="font1" id="p1_t117" reading_order_no="108" segment_no="3" tag_type="table">1.01 (0.73–1.40)</text>
-<text top="502" left="116" width="5" height="7" font="font1" id="p1_t118" reading_order_no="109" segment_no="3" tag_type="table">4</text>
-<text top="502" left="185" width="42" height="7" font="font1" id="p1_t119" reading_order_no="110" segment_no="3" tag_type="table">GACGACG</text>
-<text top="502" left="358" width="20" height="7" font="font1" id="p1_t120" reading_order_no="111" segment_no="3" tag_type="table">0.116</text>
-<text top="502" left="463" width="59" height="7" font="font1" id="p1_t121" reading_order_no="112" segment_no="3" tag_type="table">0.98 (0.69–1.39)</text>
-<text top="518" left="116" width="5" height="7" font="font1" id="p1_t122" reading_order_no="113" segment_no="3" tag_type="table">5</text>
-<text top="518" left="185" width="40" height="7" font="font1" id="p1_t123" reading_order_no="114" segment_no="3" tag_type="table">AGTAGCG</text>
-<text top="518" left="358" width="20" height="7" font="font1" id="p1_t124" reading_order_no="115" segment_no="3" tag_type="table">0.075</text>
-<text top="518" left="463" width="59" height="7" font="font1" id="p1_t125" reading_order_no="116" segment_no="3" tag_type="table">1.21 (0.81–1.81)</text>
-<text top="533" left="116" width="5" height="7" font="font1" id="p1_t126" reading_order_no="117" segment_no="3" tag_type="table">6</text>
-<text top="533" left="185" width="41" height="7" font="font1" id="p1_t127" reading_order_no="118" segment_no="3" tag_type="table">AGCAACG</text>
-<text top="533" left="358" width="20" height="7" font="font1" id="p1_t128" reading_order_no="119" segment_no="3" tag_type="table">0.068</text>
-<text top="533" left="463" width="59" height="7" font="font1" id="p1_t129" reading_order_no="120" segment_no="3" tag_type="table">1.16 (0.76–1.77)</text>
-<text top="549" left="116" width="5" height="7" font="font1" id="p1_t130" reading_order_no="121" segment_no="3" tag_type="table">7</text>
-<text top="549" left="185" width="43" height="7" font="font1" id="p1_t131" reading_order_no="122" segment_no="3" tag_type="table">GGCGACG</text>
-<text top="549" left="358" width="20" height="7" font="font1" id="p1_t132" reading_order_no="123" segment_no="3" tag_type="table">0.079</text>
-<text top="549" left="463" width="59" height="7" font="font1" id="p1_t133" reading_order_no="124" segment_no="3" tag_type="table">1.06 (0.69–1.63)</text>
-<text top="564" left="116" width="5" height="7" font="font1" id="p1_t134" reading_order_no="125" segment_no="3" tag_type="table">8</text>
-<text top="564" left="185" width="43" height="7" font="font1" id="p1_t135" reading_order_no="126" segment_no="3" tag_type="table">GGCGGTG</text>
-<text top="564" left="358" width="20" height="7" font="font1" id="p1_t136" reading_order_no="127" segment_no="3" tag_type="table">0.048</text>
-<text top="564" left="463" width="59" height="7" font="font1" id="p1_t137" reading_order_no="128" segment_no="3" tag_type="table">0.81 (0.47–1.39)</text>
-<text top="580" left="185" width="16" height="7" font="font1" id="p1_t138" reading_order_no="130" segment_no="3" tag_type="table">Rare</text>
-<text top="579" left="201" width="3" height="5" font="font7" id="p1_t139" reading_order_no="129" segment_no="3" tag_type="table">e</text>
-<text top="580" left="358" width="20" height="7" font="font1" id="p1_t140" reading_order_no="131" segment_no="3" tag_type="table">0.018</text>
-<text top="580" left="463" width="59" height="7" font="font1" id="p1_t141" reading_order_no="132" segment_no="3" tag_type="table">2.21 (1.22–4.02)</text>
-<text top="595" left="155" width="25" height="7" font="font1" id="p1_t142" reading_order_no="133" segment_no="3" tag_type="table">Global </text>
-<text top="595" left="179" width="7" height="7" font="font2" id="p1_t143" reading_order_no="134" segment_no="3" tag_type="table"><i>P </i></text>
-<text top="595" left="187" width="17" height="7" font="font1" id="p1_t144" reading_order_no="135" segment_no="3" tag_type="table">value</text>
-<text top="595" left="204" width="3" height="5" font="font7" id="p1_t145" reading_order_no="136" segment_no="3" tag_type="table">c</text>
-<text top="595" left="485" width="16" height="7" font="font1" id="p1_t146" reading_order_no="137" segment_no="3" tag_type="table">0.45</text>
-<text top="611" left="60" width="3" height="5" font="font7" id="p1_t147" reading_order_no="138" segment_no="4" tag_type="text">a</text>
-<text top="611" left="63" width="121" height="7" font="font1" id="p1_t148" reading_order_no="139" segment_no="4" tag_type="text">Information on at least one tagSNP.</text>
-<text top="619" left="60" width="3" height="5" font="font7" id="p1_t149" reading_order_no="140" segment_no="5" tag_type="text">b</text>
-<text top="619" left="63" width="295" height="7" font="font1" id="p1_t150" reading_order_no="141" segment_no="5" tag_type="text">11 rare haplotypes combined. Each haplotype has frequency &lt;3% among the controls.</text>
-<text top="627" left="60" width="3" height="5" font="font7" id="p1_t151" reading_order_no="142" segment_no="6" tag_type="text">c</text>
-<text top="627" left="63" width="69" height="7" font="font1" id="p1_t152" reading_order_no="143" segment_no="6" tag_type="text">Probability ratio test.</text>
-<text top="635" left="60" width="3" height="5" font="font7" id="p1_t153" reading_order_no="144" segment_no="7" tag_type="text">d</text>
-<text top="635" left="63" width="295" height="7" font="font1" id="p1_t154" reading_order_no="145" segment_no="7" tag_type="text">19 rare haplotypes combined. Each haplotype has frequency &lt;3% among the controls.</text>
-<text top="643" left="60" width="3" height="5" font="font7" id="p1_t155" reading_order_no="146" segment_no="8" tag_type="text">e</text>
-<text top="643" left="63" width="295" height="7" font="font1" id="p1_t156" reading_order_no="147" segment_no="8" tag_type="text">19 rare haplotypes combined. Each haplotype has frequency &lt;3% among the controls.</text>
-<text top="651" left="60" width="480" height="7" font="font1" id="p1_t157" reading_order_no="148" segment_no="9" tag_type="text">ATM, ataxia-telangiectasia mutated; CHEK2, checkpoint kinase 2; CI, confidence interval; ERBB2, v-erb-b2 avian erythroblastic leukemia viral </text>
-<text top="659" left="60" width="248" height="7" font="font1" id="p1_t158" reading_order_no="149" segment_no="9" tag_type="text">oncogene homolog 2; HR, hazard ratio; tagSNP, haplotype-tagging SNP.</text>
+<text top="42" left="56" width="199" height="7" font="font0" id="p1_t1" reading_order_no="0" segment_no="0" tag_type="title">Breast Cancer Research Vol 8 No 6    Einarsdóttir et al.<b>Breast Cancer Research</b></text>
+<text top="758" left="56" width="45" height="7" font="font1" id="p1_t2" reading_order_no="125" segment_no="12" tag_type="text">Page 8 of 12</text>
+<text top="768" left="56" width="120" height="6" font="font3" id="p1_t3" reading_order_no="126" segment_no="13" tag_type="text">(page number not for citation purposes)<i>et al.</i></text>
+<text top="696" left="56" width="240" height="9" font="font4" id="p1_t4" reading_order_no="119" segment_no="10" tag_type="text">mostly dependent on the pathologist's decision. Because gen-</text>
+<text top="708" left="56" width="240" height="9" font="font4" id="p1_t5" reading_order_no="120" segment_no="10" tag_type="text">otype frequencies were not related to tumour size, bias owing<i>(page number not for citation purposes)</i></text>
+<text top="719" left="56" width="228" height="9" font="font4" id="p1_t6" reading_order_no="121" segment_no="10" tag_type="text">to the missing information on these factors seems unlikely.</text>
+<text top="696" left="315" width="240" height="9" font="font4" id="p1_t7" reading_order_no="122" segment_no="11" tag_type="text">Survival bias could be a concern in our study because nonpar-</text>
+<text top="708" left="315" width="240" height="9" font="font4" id="p1_t8" reading_order_no="123" segment_no="11" tag_type="text">ticipation was related to severe disease or death. However, we</text>
+<text top="719" left="315" width="240" height="9" font="font4" id="p1_t9" reading_order_no="124" segment_no="11" tag_type="text">obtained the majority of the tissue samples requested for</text>
+<text top="85" left="56" width="28" height="7" font="font5" id="p1_t10" reading_order_no="1" segment_no="1" tag_type="title">Table 3</text>
+<text top="104" left="56" width="357" height="7" font="font5" id="p1_t11" reading_order_no="2" segment_no="2" tag_type="text">tagSNP haplotypes in the ATM , CHEK2 and ERBB2 genes in relation to breast cancer survival</text>
+<text top="123" left="95" width="47" height="7" font="font1" id="p1_t12" reading_order_no="3" segment_no="3" tag_type="table">Haplotype no.<b>Table 3</b></text>
+<text top="123" left="185" width="39" height="7" font="font1" id="p1_t13" reading_order_no="4" segment_no="3" tag_type="table">Haplotypes<b>tagSNP haplotypes in the </b></text>
+<text top="123" left="316" width="103" height="7" font="font1" id="p1_t14" reading_order_no="5" segment_no="3" tag_type="table">Haplotype proportions (cases)<i><b>ATM</b></i></text>
+<text top="123" left="470" width="45" height="7" font="font1" id="p1_t15" reading_order_no="6" segment_no="3" tag_type="table">HR (95% CI)<b>, </b></text>
+<text top="139" left="110" width="16" height="7" font="font2" id="p1_t16" reading_order_no="7" segment_no="3" tag_type="table">ATM<i><b>CHEK2 </b></i></text>
+<text top="139" left="349" width="38" height="7" font="font2" id="p1_t17" reading_order_no="8" segment_no="3" tag_type="table">n = 1,574 a<b>and </b></text>
+<text top="154" left="116" width="5" height="7" font="font1" id="p1_t18" reading_order_no="9" segment_no="3" tag_type="table">1<i><b>ERBB2 </b></i></text>
+<text top="154" left="185" width="39" height="7" font="font1" id="p1_t19" reading_order_no="10" segment_no="3" tag_type="table">AACGCCT<b>genes in relation to breast cancer survival</b></text>
+<text top="154" left="358" width="20" height="7" font="font1" id="p1_t20" reading_order_no="11" segment_no="3" tag_type="table">0.414</text>
+<text top="154" left="464" width="58" height="7" font="font1" id="p1_t21" reading_order_no="12" segment_no="3" tag_type="table">1.00 (Reference)</text>
+<text top="170" left="116" width="5" height="7" font="font1" id="p1_t22" reading_order_no="13" segment_no="3" tag_type="table">2</text>
+<text top="170" left="185" width="39" height="7" font="font1" id="p1_t23" reading_order_no="14" segment_no="3" tag_type="table">AACGCTC</text>
+<text top="170" left="358" width="20" height="7" font="font1" id="p1_t24" reading_order_no="15" segment_no="3" tag_type="table">0.231<i>ATM</i></text>
+<text top="170" left="463" width="59" height="7" font="font1" id="p1_t25" reading_order_no="16" segment_no="3" tag_type="table">0.85 (0.65–1.13)<i>n </i></text>
+<text top="185" left="116" width="5" height="7" font="font1" id="p1_t26" reading_order_no="17" segment_no="3" tag_type="table">3</text>
+<text top="185" left="185" width="41" height="7" font="font1" id="p1_t27" reading_order_no="18" segment_no="3" tag_type="table">AGCACCC</text>
+<text top="185" left="358" width="20" height="7" font="font1" id="p1_t28" reading_order_no="19" segment_no="3" tag_type="table">0.150</text>
+<text top="185" left="463" width="59" height="7" font="font1" id="p1_t29" reading_order_no="20" segment_no="3" tag_type="table">0.89 (0.66–1.21)</text>
+<text top="201" left="116" width="5" height="7" font="font1" id="p1_t30" reading_order_no="21" segment_no="3" tag_type="table">4</text>
+<text top="201" left="185" width="41" height="7" font="font1" id="p1_t31" reading_order_no="22" segment_no="3" tag_type="table">AACGCCC</text>
+<text top="201" left="358" width="20" height="7" font="font1" id="p1_t32" reading_order_no="23" segment_no="3" tag_type="table">0.062</text>
+<text top="201" left="463" width="59" height="7" font="font1" id="p1_t33" reading_order_no="24" segment_no="3" tag_type="table">0.86 (0.52–1.44)</text>
+<text top="216" left="116" width="5" height="7" font="font1" id="p1_t34" reading_order_no="25" segment_no="3" tag_type="table">5</text>
+<text top="216" left="185" width="38" height="7" font="font1" id="p1_t35" reading_order_no="26" segment_no="3" tag_type="table">TACGCCT</text>
+<text top="216" left="358" width="20" height="7" font="font1" id="p1_t36" reading_order_no="27" segment_no="3" tag_type="table">0.064</text>
+<text top="216" left="463" width="59" height="7" font="font1" id="p1_t37" reading_order_no="28" segment_no="3" tag_type="table">0.88 (0.55–1.40)</text>
+<text top="232" left="116" width="5" height="7" font="font1" id="p1_t38" reading_order_no="29" segment_no="3" tag_type="table">6</text>
+<text top="232" left="185" width="40" height="7" font="font1" id="p1_t39" reading_order_no="30" segment_no="3" tag_type="table">AACGGTC</text>
+<text top="232" left="358" width="20" height="7" font="font1" id="p1_t40" reading_order_no="31" segment_no="3" tag_type="table">0.043</text>
+<text top="232" left="463" width="59" height="7" font="font1" id="p1_t41" reading_order_no="32" segment_no="3" tag_type="table">0.95 (0.57–1.57)</text>
+<text top="247" left="185" width="19" height="7" font="font1" id="p1_t42" reading_order_no="33" segment_no="3" tag_type="table">Rare b</text>
+<text top="247" left="358" width="20" height="7" font="font1" id="p1_t43" reading_order_no="34" segment_no="3" tag_type="table">0.037</text>
+<text top="247" left="463" width="59" height="7" font="font1" id="p1_t44" reading_order_no="35" segment_no="3" tag_type="table">0.95 (0.53–1.68)</text>
+<text top="263" left="155" width="52" height="7" font="font1" id="p1_t45" reading_order_no="36" segment_no="3" tag_type="table">Global P value c</text>
+<text top="263" left="485" width="16" height="7" font="font1" id="p1_t46" reading_order_no="37" segment_no="3" tag_type="table">0.95</text>
+<text top="282" left="105" width="27" height="7" font="font2" id="p1_t47" reading_order_no="38" segment_no="3" tag_type="table">CHEK2</text>
+<text top="282" left="349" width="38" height="7" font="font2" id="p1_t48" reading_order_no="39" segment_no="3" tag_type="table">n = 1,571 a</text>
+<text top="297" left="116" width="5" height="7" font="font1" id="p1_t49" reading_order_no="40" segment_no="3" tag_type="table">1</text>
+<text top="297" left="185" width="36" height="7" font="font1" id="p1_t50" reading_order_no="41" segment_no="3" tag_type="table">GCCCCC</text>
+<text top="297" left="358" width="20" height="7" font="font1" id="p1_t51" reading_order_no="42" segment_no="3" tag_type="table">0.223</text>
+<text top="297" left="464" width="58" height="7" font="font1" id="p1_t52" reading_order_no="43" segment_no="3" tag_type="table">1.00 (Reference)</text>
+<text top="313" left="116" width="5" height="7" font="font1" id="p1_t53" reading_order_no="44" segment_no="3" tag_type="table">2</text>
+<text top="313" left="185" width="36" height="7" font="font1" id="p1_t54" reading_order_no="45" segment_no="3" tag_type="table">GGCTGC</text>
+<text top="313" left="358" width="20" height="7" font="font1" id="p1_t55" reading_order_no="46" segment_no="3" tag_type="table">0.231</text>
+<text top="313" left="463" width="59" height="7" font="font1" id="p1_t56" reading_order_no="47" segment_no="3" tag_type="table">0.72 (0.52–0.98)</text>
+<text top="328" left="116" width="5" height="7" font="font1" id="p1_t57" reading_order_no="48" segment_no="3" tag_type="table">3<i>P </i></text>
+<text top="328" left="185" width="37" height="7" font="font1" id="p1_t58" reading_order_no="49" segment_no="3" tag_type="table">GCCCCG</text>
+<text top="328" left="358" width="20" height="7" font="font1" id="p1_t59" reading_order_no="50" segment_no="3" tag_type="table">0.140</text>
+<text top="328" left="463" width="59" height="7" font="font1" id="p1_t60" reading_order_no="51" segment_no="3" tag_type="table">1.02 (0.72–1.43)</text>
+<text top="344" left="116" width="5" height="7" font="font1" id="p1_t61" reading_order_no="52" segment_no="3" tag_type="table">4<i>CHEK2</i></text>
+<text top="344" left="185" width="36" height="7" font="font1" id="p1_t62" reading_order_no="53" segment_no="3" tag_type="table">ACCCGC<i>n </i></text>
+<text top="344" left="358" width="20" height="7" font="font1" id="p1_t63" reading_order_no="54" segment_no="3" tag_type="table">0.113</text>
+<text top="344" left="463" width="59" height="7" font="font1" id="p1_t64" reading_order_no="55" segment_no="3" tag_type="table">1.00 (0.70–1.41)</text>
+<text top="359" left="116" width="5" height="7" font="font1" id="p1_t65" reading_order_no="56" segment_no="3" tag_type="table">5</text>
+<text top="359" left="185" width="36" height="7" font="font1" id="p1_t66" reading_order_no="57" segment_no="3" tag_type="table">GCTCGG</text>
+<text top="359" left="358" width="20" height="7" font="font1" id="p1_t67" reading_order_no="58" segment_no="3" tag_type="table">0.089</text>
+<text top="359" left="463" width="59" height="7" font="font1" id="p1_t68" reading_order_no="59" segment_no="3" tag_type="table">1.08 (0.73–1.57)</text>
+<text top="375" left="116" width="5" height="7" font="font1" id="p1_t69" reading_order_no="60" segment_no="3" tag_type="table">6</text>
+<text top="375" left="185" width="38" height="7" font="font1" id="p1_t70" reading_order_no="61" segment_no="3" tag_type="table">GGCCGC</text>
+<text top="375" left="358" width="20" height="7" font="font1" id="p1_t71" reading_order_no="62" segment_no="3" tag_type="table">0.052</text>
+<text top="375" left="463" width="59" height="7" font="font1" id="p1_t72" reading_order_no="63" segment_no="3" tag_type="table">0.61 (0.34–1.10)</text>
+<text top="390" left="116" width="5" height="7" font="font1" id="p1_t73" reading_order_no="64" segment_no="3" tag_type="table">7</text>
+<text top="390" left="185" width="37" height="7" font="font1" id="p1_t74" reading_order_no="65" segment_no="3" tag_type="table">GCCCGC</text>
+<text top="390" left="358" width="20" height="7" font="font1" id="p1_t75" reading_order_no="66" segment_no="3" tag_type="table">0.027</text>
+<text top="390" left="463" width="59" height="7" font="font1" id="p1_t76" reading_order_no="67" segment_no="3" tag_type="table">0.60 (0.26–1.41)</text>
+<text top="406" left="185" width="19" height="7" font="font1" id="p1_t77" reading_order_no="68" segment_no="3" tag_type="table">Rare d</text>
+<text top="406" left="358" width="20" height="7" font="font1" id="p1_t78" reading_order_no="69" segment_no="3" tag_type="table">0.125</text>
+<text top="406" left="463" width="59" height="7" font="font1" id="p1_t79" reading_order_no="70" segment_no="3" tag_type="table">0.95 (0.67–1.35)</text>
+<text top="421" left="155" width="52" height="7" font="font1" id="p1_t80" reading_order_no="71" segment_no="3" tag_type="table">Global P value c</text>
+<text top="421" left="485" width="16" height="7" font="font1" id="p1_t81" reading_order_no="72" segment_no="3" tag_type="table">0.15</text>
+<text top="440" left="105" width="26" height="7" font="font2" id="p1_t82" reading_order_no="73" segment_no="3" tag_type="table">ERBB2</text>
+<text top="440" left="349" width="38" height="7" font="font2" id="p1_t83" reading_order_no="74" segment_no="3" tag_type="table">n = 1,579 a</text>
+<text top="456" left="116" width="5" height="7" font="font1" id="p1_t84" reading_order_no="75" segment_no="3" tag_type="table">1</text>
+<text top="456" left="185" width="41" height="7" font="font1" id="p1_t85" reading_order_no="76" segment_no="3" tag_type="table">GGCGACT</text>
+<text top="456" left="358" width="20" height="7" font="font1" id="p1_t86" reading_order_no="77" segment_no="3" tag_type="table">0.296</text>
+<text top="456" left="464" width="58" height="7" font="font1" id="p1_t87" reading_order_no="78" segment_no="3" tag_type="table">1.00 (Reference)</text>
+<text top="471" left="116" width="5" height="7" font="font1" id="p1_t88" reading_order_no="79" segment_no="3" tag_type="table">2</text>
+<text top="471" left="185" width="39" height="7" font="font1" id="p1_t89" reading_order_no="80" segment_no="3" tag_type="table">AGTAACG</text>
+<text top="471" left="358" width="20" height="7" font="font1" id="p1_t90" reading_order_no="81" segment_no="3" tag_type="table">0.166</text>
+<text top="471" left="463" width="59" height="7" font="font1" id="p1_t91" reading_order_no="82" segment_no="3" tag_type="table">0.98 (0.71–1.34)</text>
+<text top="487" left="116" width="5" height="7" font="font1" id="p1_t92" reading_order_no="83" segment_no="3" tag_type="table">3</text>
+<text top="487" left="185" width="45" height="7" font="font1" id="p1_t93" reading_order_no="84" segment_no="3" tag_type="table">GGCGGCG</text>
+<text top="487" left="358" width="20" height="7" font="font1" id="p1_t94" reading_order_no="85" segment_no="3" tag_type="table">0.135</text>
+<text top="487" left="463" width="59" height="7" font="font1" id="p1_t95" reading_order_no="86" segment_no="3" tag_type="table">1.01 (0.73–1.40)</text>
+<text top="502" left="116" width="5" height="7" font="font1" id="p1_t96" reading_order_no="87" segment_no="3" tag_type="table">4</text>
+<text top="502" left="185" width="42" height="7" font="font1" id="p1_t97" reading_order_no="88" segment_no="3" tag_type="table">GACGACG</text>
+<text top="502" left="358" width="20" height="7" font="font1" id="p1_t98" reading_order_no="89" segment_no="3" tag_type="table">0.116<i>P </i></text>
+<text top="502" left="463" width="59" height="7" font="font1" id="p1_t99" reading_order_no="90" segment_no="3" tag_type="table">0.98 (0.69–1.39)</text>
+<text top="518" left="116" width="5" height="7" font="font1" id="p1_t100" reading_order_no="91" segment_no="3" tag_type="table">5</text>
+<text top="518" left="185" width="40" height="7" font="font1" id="p1_t101" reading_order_no="92" segment_no="3" tag_type="table">AGTAGCG</text>
+<text top="518" left="358" width="20" height="7" font="font1" id="p1_t102" reading_order_no="93" segment_no="3" tag_type="table">0.075<i>ERBB2</i></text>
+<text top="518" left="463" width="59" height="7" font="font1" id="p1_t103" reading_order_no="94" segment_no="3" tag_type="table">1.21 (0.81–1.81)<i>n </i></text>
+<text top="533" left="116" width="5" height="7" font="font1" id="p1_t104" reading_order_no="95" segment_no="3" tag_type="table">6</text>
+<text top="533" left="185" width="41" height="7" font="font1" id="p1_t105" reading_order_no="96" segment_no="3" tag_type="table">AGCAACG</text>
+<text top="533" left="358" width="20" height="7" font="font1" id="p1_t106" reading_order_no="97" segment_no="3" tag_type="table">0.068</text>
+<text top="533" left="463" width="59" height="7" font="font1" id="p1_t107" reading_order_no="98" segment_no="3" tag_type="table">1.16 (0.76–1.77)</text>
+<text top="549" left="116" width="5" height="7" font="font1" id="p1_t108" reading_order_no="99" segment_no="3" tag_type="table">7</text>
+<text top="549" left="185" width="43" height="7" font="font1" id="p1_t109" reading_order_no="100" segment_no="3" tag_type="table">GGCGACG</text>
+<text top="549" left="358" width="20" height="7" font="font1" id="p1_t110" reading_order_no="101" segment_no="3" tag_type="table">0.079</text>
+<text top="549" left="463" width="59" height="7" font="font1" id="p1_t111" reading_order_no="102" segment_no="3" tag_type="table">1.06 (0.69–1.63)</text>
+<text top="564" left="116" width="5" height="7" font="font1" id="p1_t112" reading_order_no="103" segment_no="3" tag_type="table">8</text>
+<text top="564" left="185" width="43" height="7" font="font1" id="p1_t113" reading_order_no="104" segment_no="3" tag_type="table">GGCGGTG</text>
+<text top="564" left="358" width="20" height="7" font="font1" id="p1_t114" reading_order_no="105" segment_no="3" tag_type="table">0.048</text>
+<text top="564" left="463" width="59" height="7" font="font1" id="p1_t115" reading_order_no="106" segment_no="3" tag_type="table">0.81 (0.47–1.39)</text>
+<text top="579" left="185" width="19" height="8" font="font1" id="p1_t116" reading_order_no="107" segment_no="3" tag_type="table">e Rare</text>
+<text top="580" left="358" width="20" height="7" font="font1" id="p1_t117" reading_order_no="108" segment_no="3" tag_type="table">0.018</text>
+<text top="580" left="463" width="59" height="7" font="font1" id="p1_t118" reading_order_no="109" segment_no="3" tag_type="table">2.21 (1.22–4.02)</text>
+<text top="595" left="155" width="52" height="7" font="font1" id="p1_t119" reading_order_no="110" segment_no="3" tag_type="table">Global P value c</text>
+<text top="595" left="485" width="16" height="7" font="font1" id="p1_t120" reading_order_no="111" segment_no="3" tag_type="table">0.45</text>
+<text top="611" left="60" width="124" height="7" font="font1" id="p1_t121" reading_order_no="112" segment_no="4" tag_type="text">a Information on at least one tagSNP.</text>
+<text top="619" left="60" width="298" height="7" font="font1" id="p1_t122" reading_order_no="113" segment_no="5" tag_type="text">b 11 rare haplotypes combined. Each haplotype has frequency &lt;3% among the controls.</text>
+<text top="627" left="60" width="72" height="7" font="font1" id="p1_t123" reading_order_no="114" segment_no="6" tag_type="text">c Probability ratio test.</text>
+<text top="635" left="60" width="298" height="7" font="font1" id="p1_t124" reading_order_no="115" segment_no="7" tag_type="text">d 19 rare haplotypes combined. Each haplotype has frequency &lt;3% among the controls.</text>
+<text top="643" left="60" width="298" height="7" font="font1" id="p1_t125" reading_order_no="116" segment_no="8" tag_type="text">e 19 rare haplotypes combined. Each haplotype has frequency &lt;3% among the controls.</text>
+<text top="651" left="60" width="480" height="7" font="font1" id="p1_t126" reading_order_no="117" segment_no="9" tag_type="text">ATM, ataxia-telangiectasia mutated; CHEK2, checkpoint kinase 2; CI, confidence interval; ERBB2, v-erb-b2 avian erythroblastic leukemia viral</text>
+<text top="659" left="60" width="248" height="7" font="font1" id="p1_t127" reading_order_no="118" segment_no="9" tag_type="text">oncogene homolog 2; HR, hazard ratio; tagSNP, haplotype-tagging SNP.</text>
 </page>
 </pdf2xml>
