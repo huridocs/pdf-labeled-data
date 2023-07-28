@@ -10,6 +10,9 @@ class TokenType(Enum):
     FIGURE = "FIGURE"
     TITLE = "TITLE"
     TEXT = "TEXT"
+    HEADER = "HEADER"
+    PAGE_NUMBER = "PAGE_NUMBER"
+    IMAGE_CAPTION = "IMAGE_CAPTION"
 
     @staticmethod
     def from_text(text: str):

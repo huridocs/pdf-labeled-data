@@ -5,6 +5,10 @@ from os import listdir
 from os.path import join
 from pathlib import Path
 
+from src.api.app.TokenTypeLabel import TokenTypeLabel
+from src.api.app.TokenTypeLabels import TokenTypeLabels
+from src.api.app.TokenTypePage import TokenTypePage
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 from lxml import etree
@@ -12,13 +16,9 @@ from lxml.etree import ElementBase
 
 from config import ROOT_PATH, XML_NAME, LABELS_FILE_NAME, PROJECT_PATH
 
-from src.TokenTypePage import TokenTypePage
-from src.TokenTypeLabel import TokenTypeLabel
-from src.TokenTypeLabels import TokenTypeLabels
 
-LABELED_DATA_SOURCE = join(PROJECT_PATH, 'ml_pdf_editor', 'labeled_xmls_poppler')
-LABELED_XML_DESTINATION = join(ROOT_PATH, 'pdfs')
-LABELED_DATA_DESTINATION = join(ROOT_PATH, 'labeled_data', 'token_type')
+
+
 
 
 def get_folder_name(xml_name: str):

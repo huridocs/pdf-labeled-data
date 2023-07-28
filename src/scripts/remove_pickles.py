@@ -1,8 +1,16 @@
 import os
 from os.path import join, exists
 
-from config import PDF_FEATURES_PICKLE_NAME, FEATURES_PICKLE_NAME
-from src.scripts.import_token_type import loop_xmls
+from config import PDF_FEATURES_PICKLE_NAME, FEATURES_PICKLE_NAME, LABELED_DATA_DESTINATION
+
+
+def loop_xmls():
+    for dataset_type_name in os.listdir(LABELED_DATA_DESTINATION):
+        dataset_path = join(LABELED_DATA_DESTINATION, dataset_type_name)
+        if not os.path.isdir(dataset_path):
+            continue
+        for xml_name in sorted(os.listdir(dataset_path)):
+            yield dataset_type_name, join(dataset_path, xml_name), xml_name
 
 
 def remove_pickles():

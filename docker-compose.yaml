@@ -1,0 +1,40 @@
+version: '3'
+services:
+    sonar:
+        build: ./sonar
+        depends_on:
+            - api
+            - ui
+            - proxy
+    api:
+        build:
+          context: ./src/api
+        volumes:
+            - ./src/api:/usr/local/src/skiff/app/api
+            - ./labeled_data:/labeled_data
+            - ./pdfs:/pdfs
+        environment:
+            # This ensures that errors are printed as they occur, which
+            # makes debugging easier.
+            - PYTHONUNBUFFERED=1
+            - LOG_LEVEL=DEBUG
+        command: ["main:app", "--host", "0.0.0.0", "--reload"]
+    ui:
+        build:
+          context: ./src/ui
+          dockerfile: Dockerfile-local
+        # We can't mount the entire UI directory, since JavaScript dependencies
+        # (`node_modules`) live at that location.
+        volumes:
+            - ./src/ui/src:/usr/local/src/skiff/app/ui/src
+            - ./src/ui/public:/usr/local/src/skiff/app/ui/public
+            - ./src/ui/package.json:/usr/local/src/skiff/app/ui/package.json
+            - ./src/ui/tsconfig.json:/usr/local/src/skiff/app/ui/tsconfig.json
+            - ./src/ui/yarn.lock:/usr/local/src/skiff/app/ui/yarn.lock
+    proxy:
+        build: ./proxy
+        ports:
+            - 8080:80
+        depends_on:
+            - api
+            - ui
