@@ -8,13 +8,13 @@ import { Result, Progress } from '@allenai/varnish';
 import { QuestionCircleOutlined } from '@ant-design/icons';
 
 import { PDF, CenterOnPage } from '../components';
-import { SidebarContainer, Header } from '../components/sidebar';
+import { SidebarContainer } from '../components/sidebar';
 import {
     pdfURL,
     PagesTokens,
     Label,
     getAnnotations,
-    getRealLabels,
+    getLabels,
     PdfStatus,
     getPdfsStatues,
     getTokens,
@@ -28,6 +28,7 @@ import { Datasets } from '../components/sidebar/Datasets';
 import { Labels } from '../components/sidebar/Labels';
 import { DatasetsStore } from '../context/DatasetsStore';
 import { Pdfs } from '../components/sidebar/Pdfs';
+import { Annotations } from '../components/sidebar/Annotations';
 
 // This tells PDF.js the URL the code to load for it's webworker, which handles heavy-handed
 // tasks in a background thread. Ideally we'd load this from the application itself rather
@@ -54,8 +55,8 @@ export const PDFPage = () => {
     const [selectedAnnotations, setSelectedAnnotations] = useState<Annotation[]>([]);
 
     const [pdfsStatuses, setPdfsStatuses] = useState<PdfStatus[]>([]);
-    const [realActiveLabel, setRealActiveLabel] = useState<Label>({ text: 'a', color: '#FFFFFF' });
-    const [realLabels, setRealLabels] = useState<Label[]>([]);
+    const [activeLabel, setActiveLabel] = useState<Label>({ text: 'a', color: '#FFFFFF' });
+    const [labels, setLabels] = useState<Label[]>([]);
     const [hideLabels, setHideLabels] = useState<boolean>(false);
 
     const { activeTask, activeDataset } = useContext(DatasetsStore);
@@ -79,9 +80,9 @@ export const PDFPage = () => {
 
     useEffect(() => {
         if (activeTask) {
-            getRealLabels(activeTask).then((labels) => {
-                setRealLabels(labels);
-                setRealActiveLabel(labels[0]);
+            getLabels(activeTask).then((labels) => {
+                setLabels(labels);
+                setActiveLabel(labels[0]);
             });
         }
     }, [activeTask, activeTask]);
@@ -163,7 +164,6 @@ export const PDFPage = () => {
             return (
                 <WithSidebar width={sidebarWidth}>
                     <SidebarContainer width={sidebarWidth}>
-                        <Header />
                         <Tasks />
                         <Datasets />
                         <Pdfs pdfsStatuses={pdfsStatuses} />
@@ -181,7 +181,6 @@ export const PDFPage = () => {
             return (
                 <WithSidebar width={sidebarWidth}>
                     <SidebarContainer width={sidebarWidth}>
-                        <Header />
                         <Tasks />
                         <Datasets />
                         <Pdfs pdfsStatuses={pdfsStatuses} />
@@ -202,9 +201,9 @@ export const PDFPage = () => {
                         }}>
                         <AnnotationStore.Provider
                             value={{
-                                labels: realLabels,
-                                activeLabel: realActiveLabel,
-                                setActiveLabel: setRealActiveLabel,
+                                labels,
+                                activeLabel,
+                                setActiveLabel,
                                 pdfAnnotations,
                                 setPdfAnnotations,
                                 selectedAnnotations,
@@ -219,12 +218,15 @@ export const PDFPage = () => {
                             <listeners.HideAnnotationLabels />
                             <WithSidebar width={sidebarWidth}>
                                 <SidebarContainer width={sidebarWidth}>
-                                    <Header />
                                     <Tasks />
                                     <Datasets />
-                                    <Options />
                                     <Labels />
                                     <Pdfs pdfsStatuses={pdfsStatuses} />
+                                    <Annotations
+                                        annotations={pdfAnnotations.annotations}
+                                        pdfsStatuses={pdfsStatuses}
+                                    />
+                                    <Options />
                                 </SidebarContainer>
                                 <PDFContainer>
                                     <PDF />
@@ -241,7 +243,6 @@ export const PDFPage = () => {
             return (
                 <WithSidebar width={sidebarWidth}>
                     <SidebarContainer width={sidebarWidth}>
-                        <Header />
                         <Tasks />
                         <Datasets />
                         <Options />

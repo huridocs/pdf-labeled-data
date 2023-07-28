@@ -11,6 +11,13 @@
                     "token_type": "TITLE"
                 },
                 {
+                    "top": 125,
+                    "left": 132,
+                    "width": 332,
+                    "height": 56,
+                    "token_type": "TEXT"
+                },
+                {
                     "top": 221,
                     "left": 310,
                     "width": 233,
@@ -41,14 +48,70 @@
             ]
         },
         {
-            "number": -1,
+            "number": 2,
             "labels": [
                 {
-                    "top": 81,
-                    "left": 123,
-                    "width": 350,
-                    "height": 19,
+                    "top": 75,
+                    "left": 55,
+                    "width": 233,
+                    "height": 76,
                     "token_type": "FORMULA"
+                },
+                {
+                    "top": 170,
+                    "left": 105,
+                    "width": 133,
+                    "height": 17,
+                    "token_type": "TITLE"
+                },
+                {
+                    "top": 179,
+                    "left": 310,
+                    "width": 182,
+                    "height": 14,
+                    "token_type": "TITLE"
+                },
+                {
+                    "top": 220,
+                    "left": 148,
+                    "width": 139,
+                    "height": 14,
+                    "token_type": "FORMULA"
+                },
+                {
+                    "top": 317,
+                    "left": 145,
+                    "width": 142,
+                    "height": 17,
+                    "token_type": "FORMULA"
+                },
+                {
+                    "top": 378,
+                    "left": 108,
+                    "width": 125,
+                    "height": 17,
+                    "token_type": "TITLE"
+                },
+                {
+                    "top": 415,
+                    "left": 310,
+                    "width": 222,
+                    "height": 14,
+                    "token_type": "TITLE"
+                },
+                {
+                    "top": 652,
+                    "left": 55,
+                    "width": 56,
+                    "height": 14,
+                    "token_type": "TITLE"
+                },
+                {
+                    "top": 683,
+                    "left": 310,
+                    "width": 43,
+                    "height": 14,
+                    "token_type": "TITLE"
                 }
             ]
         }

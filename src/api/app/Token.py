@@ -7,6 +7,7 @@ class Token(BaseModel):
     y: int
     width: int
     height: int
+    text: str
 
     @staticmethod
     def from_tree(xml_token: ElementBase):
@@ -14,4 +15,5 @@ class Token(BaseModel):
         y = int(xml_token.attrib["top"])
         width = int(xml_token.attrib["width"])
         height = int(xml_token.attrib["height"])
-        return Token(x=x, y=y, width=width, height=height)
+        text = ''.join(xml_token.itertext()).strip()
+        return Token(x=x, y=y, width=width, height=height, text=text)

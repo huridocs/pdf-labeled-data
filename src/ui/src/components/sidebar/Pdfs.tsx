@@ -62,7 +62,7 @@ const PdfRow = (props: { pdfStatus: PdfStatus }) => {
 export const Pdfs = (props: { pdfsStatuses: PdfStatus[] }) => {
     const { pdfsStatuses } = props;
     const { name } = useParams<{ name: string }>();
-    const { activeDataset } = useContext(DatasetsStore);
+    const { activeTask, activeDataset } = useContext(DatasetsStore);
     const unfinished = pdfsStatuses.filter((p) => !p.finished && !p.junk);
     const finished = pdfsStatuses.filter((p) => p.finished);
     const junk = pdfsStatuses.filter((p) => p.junk);
@@ -93,13 +93,13 @@ export const Pdfs = (props: { pdfsStatuses: PdfStatus[] }) => {
     });
 
     async function deleteAllJunkCallback() {
-        await deleteJunk(activeDataset);
+        await deleteJunk(activeTask, activeDataset);
         navigate('/');
     }
 
     return (
         <SidebarItem>
-            <SidebarItemTitle>Real PDFs</SidebarItemTitle>
+            <SidebarItemTitle>PDFs</SidebarItemTitle>
             <ExplainerText>
                 <InfoCircleOutlined style={{ marginRight: '3px' }} />
                 Press "s" key to load next PDF.

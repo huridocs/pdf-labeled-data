@@ -31,20 +31,12 @@ export async function getActiveTask(): Promise<string> {
     return axios.get(`/api/annotation/real_active_task`).then((r) => r.data);
 }
 
-export async function getRealActiveDataset(): Promise<string> {
+export async function getActiveDataset(): Promise<string> {
     return axios.get(`/api/annotation/real_active_dataset`).then((r) => r.data);
 }
 
 export async function saveActiveDatasets(task: string, dataset: string): Promise<string[]> {
     return axios.post(`/api/annotation/real_active_dataset/${task}/${dataset}`);
-}
-
-export function saveActiveTask(task: string): Promise<any> {
-    return axios.post(`/api/annotation/active_task/${task}`);
-}
-
-export function postOption(task: string, option: string, value: boolean): Promise<any> {
-    return axios.post(`/api/annotation/options/${task}/${option}/${value}`).then((r) => r.data);
 }
 
 export function setReadingOrderMultipleAnnotations(
@@ -86,12 +78,8 @@ export interface Label {
     text: string;
     color: string;
 }
-
 export async function getLabels(task: string): Promise<Label[]> {
     return axios.get(`/api/annotation/${task}/labels`).then((r) => r.data);
-}
-export async function getRealLabels(task: string): Promise<Label[]> {
-    return axios.get(`/api/annotation/${task}/real_labels`).then((r) => r.data);
 }
 
 export interface PdfStatus {
@@ -101,24 +89,29 @@ export interface PdfStatus {
     junk: boolean;
 }
 
-export async function setPdfFinished(task: string, sha: string, finished: boolean) {
-    return axios.post(`/api/doc/${task}/${sha}/finished/${finished}`);
+export async function setPdfFinished(
+    task: string,
+    dataset: string,
+    name: string,
+    finished: boolean
+) {
+    return axios.post(`/api/doc/${task}/${dataset}/${name}/finished/${finished}`);
 }
 
-export async function setPdfJunk(task: string, sha: string, junk: boolean) {
-    return axios.post(`/api/doc/${task}/${sha}/junk/${junk}`);
+export async function setPdfJunk(task: string, dataset: string, name: string, junk: boolean) {
+    return axios.post(`/api/doc/${task}/${dataset}/${name}/junk/${junk}`);
 }
 
-export async function deleteJunk(task: string) {
-    return axios.post(`/api/doc/${task}/delete/all/junk`);
+export async function deleteJunk(task: string, dataset: string) {
+    return axios.post(`/api/doc/${task}/${dataset}/delete/all/junk`);
 }
 
 export async function deletePdfJunk(task: string, sha: string) {
     return axios.post(`/api/doc/${task}/${sha}/delete`);
 }
 
-export async function getPdfsStatues(task: string, datasets: string): Promise<PdfStatus[]> {
-    return axios.get(`/api/annotation/get_pdfs_statuses/${task}/${datasets}`).then((r) => r.data);
+export async function getPdfsStatues(task: string, dataset: string): Promise<PdfStatus[]> {
+    return axios.get(`/api/annotation/get_pdfs_statuses/${task}/${dataset}`).then((r) => r.data);
 }
 
 export function saveAnnotations(

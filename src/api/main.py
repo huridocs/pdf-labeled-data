@@ -192,14 +192,6 @@ async def get_pdf(name: str):
     return FileResponse(pdf_path, media_type="application/pdf")
 
 
-@app.post("/api/doc/{task}/{sha}/junk/{junk}")
-def set_pdf_junk(task: str, sha: str, junk: bool, x_auth_request_email: str = Header(None)):
-    # user = get_user_from_header(x_auth_request_email)
-    # status_path = os.path.join(configuration.output_directory, task, "status", f"{user}.json")
-    # update_status_json(status_path, sha, "junk", junk)
-    return {}
-
-
 @app.post("/api/doc/{task}/{sha}/delete")
 def delete_pdf_junk(task: str, sha: str, x_auth_request_email: str = Header(None)):
     # user = get_user_from_header(x_auth_request_email)
@@ -213,28 +205,54 @@ def delete_pdf_junk(task: str, sha: str, x_auth_request_email: str = Header(None
     return {}
 
 
-@app.post("/api/doc/{task}/delete/all/junk")
-def delete_junk(task: str, x_auth_request_email: str = Header(None)):
-    # user = get_user_from_header(x_auth_request_email)
-    # status_path = os.path.join(configuration.output_directory, task, "status", f"{user}.json")
-    # exists = os.path.exists(status_path)
-    # if not exists:
-    #     # Not an allocated user. Do nothing.
-    #     return {}
-    #
-    # allocated = get_allocated_pdf(status_path, task)
-    #
-    # for junk_paper in [paper for paper in allocated.papers if paper.junk]:
-    #     shutil.rmtree(os.path.join(configuration.output_directory, task, junk_paper.sha), ignore_errors=True)
+# @app.post("/api/doc/{task}/delete/all/junk")
+# def delete_junk(task: str, dataset: str):
+#     dataset_folder_path = join(get_task_folder_path(task), dataset)
+#     status_path = Path(join(dataset_folder_path, name, "status.txt"))
+#     if not exists(status_path):
+#         return {}
+#
+#     if finished:
+#         status_path.write_text("finished")
+#         return {}
+#
+#     if not finished:
+#         os.remove(status_path)
+#
+#     return {}
+
+
+@app.post("/api/doc/{task}/{dataset}/{name}/finished/{finished}")
+def set_pdf_finished(task: str, dataset: str, name: str, finished: bool):
+    dataset_folder_path = join(get_task_folder_path(task), dataset)
+    status_path = Path(join(dataset_folder_path, name))
+    if not exists(status_path):
+        return {}
+
+    if finished:
+        Path(join(status_path, 'status.txt')).write_text("finished")
+        return {}
+
+    if not finished:
+        os.remove(join(status_path, 'status.txt'))
 
     return {}
 
 
-@app.post("/api/doc/{task}/{sha}/finished/{finished}")
-def set_pdf_finished(task: str, sha: str, finished: bool, x_auth_request_email: str = Header(None)):
-    # user = get_user_from_header(x_auth_request_email)
-    # status_path = os.path.join(configuration.output_directory, task, "status", f"{user}.json")
-    # update_status_json(status_path, sha, "finished", finished)
+@app.post("/api/doc/{task}/{dataset}/{name}/junk/{junk}")
+def set_pdf_junk(task: str, dataset: str, name: str, junk: bool):
+    dataset_folder_path = join(get_task_folder_path(task), dataset)
+    status_path = Path(join(dataset_folder_path, name))
+    if not exists(status_path):
+        return {}
+
+    if junk:
+        Path(join(status_path, 'status.txt')).write_text("junk")
+        return {}
+
+    if not junk:
+        os.remove(join(status_path, 'status.txt'))
+
     return {}
 
 
@@ -272,7 +290,7 @@ def save_annotations(
 
     token_type_labels = annotations.to_token_type_labels()
     Path(labels_file_path).write_text(token_type_labels.model_dump_json(indent=4))
-
+    os.chmod(labels_file_path , 0o777)
     return {}
 
 
@@ -295,7 +313,7 @@ def get_labels_definition(task: str) -> List[Label]:
     return labels
 
 
-@app.get("/api/annotation/{task}/real_labels")
+@app.get("/api/annotation/{task}/labels")
 def get_real_labels(task: str) -> List[Label]:
     return get_labels_definition(task)
 

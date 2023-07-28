@@ -20,7 +20,7 @@ export const Datasets = () => {
 
     return (
         <SidebarItem>
-            <SidebarItemTitle>Real Datasets</SidebarItemTitle>
+            <SidebarItemTitle>Datasets</SidebarItemTitle>
             <ExplainerText>
                 <InfoCircleOutlined style={{ marginRight: '3px' }} />
                 Pick the dataset to label

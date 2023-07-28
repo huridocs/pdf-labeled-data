@@ -3,12 +3,14 @@ import { Annotation, PDFStore, AnnotationStore } from '../context';
 import { Tag } from '@allenai/varnish';
 import styled from 'styled-components';
 import { DeleteFilled } from '@ant-design/icons';
+import { PagesTokens } from '../api';
 
 interface AnnotationSummaryProps {
     annotation: Annotation;
+    pageTokens: PagesTokens | undefined;
 }
 
-export const AnnotationSummary = ({ annotation }: AnnotationSummaryProps) => {
+export const AnnotationSummary = ({ annotation, pageTokens }: AnnotationSummaryProps) => {
     const pdfStore = useContext(PDFStore);
     const annotationStore = useContext(AnnotationStore);
 
@@ -22,18 +24,24 @@ export const AnnotationSummary = ({ annotation }: AnnotationSummaryProps) => {
         return null;
     }
 
-    const pageInfo = pdfStore.pages[annotation.page];
+    const pages =
+        !pageTokens || !pageTokens.pages
+            ? []
+            : pageTokens.pages.filter((x) => x.index === annotation.page);
 
     const text =
-        annotation.tokens === null
-            ? ''
-            : annotation.tokens.map((t) => pageInfo.tokens[t.tokenIndex].text).join(' ');
+        pages && pages[0]
+            ? pages[0].tokens
+                  .filter((t) => annotation.contains(t))
+                  .map((t) => t.text)
+                  .join(' ')
+            : '';
 
     return (
         <PaddedRow>
-            <Overflow>{text}</Overflow>
+            <Overflow>{text.slice(0, 30)}</Overflow>
             <SmallTag color={annotation.label.color}>{annotation.label.text}</SmallTag>
-            <SmallTag color="grey">Page {pageInfo.page.pageNumber}</SmallTag>
+            <SmallTag color="grey">Page {annotation.page + 1}</SmallTag>
             <DeleteFilled onClick={onDelete} />
         </PaddedRow>
     );

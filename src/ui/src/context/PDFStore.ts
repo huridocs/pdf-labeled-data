@@ -83,7 +83,7 @@ export function normalizeBounds(b: Bounds): Bounds {
 /**
  * Returns true if the provided bounds overlap.
  */
-function doOverlap(a: Bounds, b: Bounds): boolean {
+export function doOverlap(a: Bounds, b: Bounds): boolean {
     if (a.left >= b.right || a.right <= b.left) {
         return false;
     } else if (a.bottom <= b.top || a.top >= b.bottom) {

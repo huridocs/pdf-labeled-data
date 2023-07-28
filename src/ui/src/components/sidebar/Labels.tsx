@@ -50,7 +50,7 @@ export const Labels = () => {
 
     return (
         <SidebarItem>
-            <SidebarItemTitle>Real Labels</SidebarItemTitle>
+            <SidebarItemTitle>Labels</SidebarItemTitle>
             <ExplainerText>
                 <InfoCircleOutlined style={{ marginRight: '3px' }} />
                 Use arrow keys or "a" and "d" keys to select labels to annotate.

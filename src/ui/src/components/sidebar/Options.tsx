@@ -6,16 +6,12 @@ import { CheckOutlined, CloseOutlined } from '@ant-design/icons';
 
 import { SidebarItem, SidebarItemTitle } from './common';
 import { OptionsStore, SHOW_TOKENS } from '../../context/OptionsStore';
-import { DatasetsStore } from '../../context/DatasetsStore';
-import { postOption } from '../../api';
 
 export const Options = () => {
-    const { activeDataset } = useContext(DatasetsStore);
     const { options, setOptions } = useContext(OptionsStore);
 
     const onToggleShowTokens = async () => {
         const newValue = !options[SHOW_TOKENS];
-        await postOption(activeDataset, SHOW_TOKENS, newValue);
         setOptions({ ...options, [SHOW_TOKENS]: newValue });
     };
 

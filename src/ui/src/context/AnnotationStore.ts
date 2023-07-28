@@ -1,7 +1,7 @@
 import { createContext } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
-import { Bounds } from './PDFStore';
+import { Bounds, doOverlap } from './PDFStore';
 import { Label, Token } from '../api';
 
 export interface TokenId {
@@ -117,6 +117,15 @@ export class Annotation {
             delta.tokens ?? this.tokens?.map((t) => Object.assign({}, t)),
             this.id
         );
+    }
+
+    contains(token: Token) {
+        return doOverlap(this.bounds, {
+            left: token.x,
+            top: token.y,
+            right: token.x + token.width,
+            bottom: token.y + token.height,
+        });
     }
 
     static fromObject(obj: Annotation) {
