@@ -1,9 +1,10 @@
 import json
 import logging
 import os
+import shutil
 from os.path import exists, join
 from pathlib import Path
-from typing import List, Dict
+from typing import List
 
 from fastapi import FastAPI, HTTPException, Header, Response
 from fastapi.responses import FileResponse
@@ -139,7 +140,7 @@ def exists_active_dataset():
 
 
 @app.get("/api/annotation/real_datasets/{task}")
-async def get_real_datasets(task: str = None) -> List[str]:
+async def get_datasets(task: str = None) -> List[str]:
     path = get_task_folder_path(task)
     datasets = [dataset for dataset in os.listdir(path) if valid_folder(join(path, dataset))]
     if not exists_active_dataset():
@@ -151,7 +152,7 @@ async def get_real_datasets(task: str = None) -> List[str]:
 
 
 @app.post("/api/annotation/real_active_dataset/{task}/{dataset}")
-async def post_real_datasets(task: str = None, dataset: str = None):
+async def post_datasets(task: str = None, dataset: str = None):
     path = get_task_folder_path(task)
     remove_active_datasets()
     Path(join(path, "active_dataset.txt")).write_text(dataset)
@@ -159,7 +160,7 @@ async def post_real_datasets(task: str = None, dataset: str = None):
 
 
 @app.get("/api/annotation/real_active_task")
-async def get_real_active_task() -> str:
+async def get_active_task() -> str:
     for task in os.listdir(LABELED_DATA_PATH):
         path = get_task_folder_path(task)
         if exists(Path(join(path, "active_dataset.txt"))):
@@ -173,7 +174,7 @@ async def lower_snake_case_to_title_case(task):
 
 
 @app.get("/api/annotation/real_active_dataset")
-async def get_real_active_dataset() -> str:
+async def get_active_dataset() -> str:
     for task in os.listdir(LABELED_DATA_PATH):
         path = get_task_folder_path(task)
         if exists(Path(join(path, "active_dataset.txt"))):
@@ -192,34 +193,31 @@ async def get_pdf(name: str):
     return FileResponse(pdf_path, media_type="application/pdf")
 
 
-@app.post("/api/doc/{task}/{sha}/delete")
-def delete_pdf_junk(task: str, sha: str, x_auth_request_email: str = Header(None)):
-    # user = get_user_from_header(x_auth_request_email)
-    # status_path = os.path.join(configuration.output_directory, task, "status", f"{user}.json")
-    # exists = os.path.exists(status_path)
-    # if not exists:
-    #     # Not an allocated user. Do nothing.
-    #     return {}
-    #
-    # shutil.rmtree(os.path.join(configuration.output_directory, task, sha))
+@app.post("/api/pdf/{task}/{dataset}/{name}/delete")
+def delete_pdf_junk(task: str, dataset: str, name: str):
+    for pdf_name, pdf_folder_path in loop_pdfs(task, dataset):
+        if pdf_name != name:
+            continue
+
+        status_path = Path(join(pdf_folder_path, "status.txt"))
+        junk = exists(status_path) and "junk" == status_path.read_text()
+
+        if junk:
+            shutil.rmtree(pdf_folder_path)
+
     return {}
 
 
-# @app.post("/api/doc/{task}/delete/all/junk")
-# def delete_junk(task: str, dataset: str):
-#     dataset_folder_path = join(get_task_folder_path(task), dataset)
-#     status_path = Path(join(dataset_folder_path, name, "status.txt"))
-#     if not exists(status_path):
-#         return {}
-#
-#     if finished:
-#         status_path.write_text("finished")
-#         return {}
-#
-#     if not finished:
-#         os.remove(status_path)
-#
-#     return {}
+@app.post("/api/pdfs/{task}/{dataset}/delete/all/junk")
+def delete_all_junk(task: str, dataset: str):
+    for pdf_name, pdf_folder_path in loop_pdfs(task, dataset):
+        status_path = Path(join(pdf_folder_path, "status.txt"))
+        junk = exists(status_path) and "junk" == status_path.read_text()
+
+        if junk:
+            shutil.rmtree(pdf_folder_path)
+
+    return {}
 
 
 @app.post("/api/doc/{task}/{dataset}/{name}/finished/{finished}")
@@ -335,8 +333,8 @@ def loop_pdfs(task, dataset):
 @app.get("/api/annotation/get_pdfs_statuses/{task}/{dataset}")
 def get_pdfs_statuses(task: str, dataset: str) -> List[PdfStatus]:
     pdf_statuses: List[PdfStatus] = list()
-    for pdf_name, pdf_folder__path in loop_pdfs(task, dataset):
-        status_path = Path(join(pdf_folder__path, "status.txt"))
+    for pdf_name, pdf_folder_path in loop_pdfs(task, dataset):
+        status_path = Path(join(pdf_folder_path, "status.txt"))
         finished = exists(status_path) and "finished" == status_path.read_text()
         junk = exists(status_path) and "junk" == status_path.read_text()
         pdf_statuses.append(PdfStatus(name=pdf_name, finished=finished, junk=junk))

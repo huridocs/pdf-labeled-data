@@ -102,12 +102,12 @@ export async function setPdfJunk(task: string, dataset: string, name: string, ju
     return axios.post(`/api/doc/${task}/${dataset}/${name}/junk/${junk}`);
 }
 
-export async function deleteJunk(task: string, dataset: string) {
-    return axios.post(`/api/doc/${task}/${dataset}/delete/all/junk`);
+export async function deletePdfJunk(task: string, dataset: string, name: string) {
+    return axios.post(`/api/pdf/${task}/${dataset}/${name}/delete`);
 }
 
-export async function deletePdfJunk(task: string, sha: string) {
-    return axios.post(`/api/doc/${task}/${sha}/delete`);
+export async function deleteAllJunk(task: string, dataset: string) {
+    return axios.post(`/api/pdfs/${task}/${dataset}/delete/all/junk`);
 }
 
 export async function getPdfsStatues(task: string, dataset: string): Promise<PdfStatus[]> {

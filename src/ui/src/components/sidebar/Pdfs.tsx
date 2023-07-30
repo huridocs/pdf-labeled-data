@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { SidebarItem, SidebarItemTitle, Contrast } from './common';
-import { deleteJunk, deletePdfJunk, PdfStatus } from '../../api';
+import { deleteAllJunk, deletePdfJunk, PdfStatus } from '../../api';
 import { notification, Tag } from '@allenai/varnish';
 
 import { EditFilled, DeleteFilled, InfoCircleOutlined } from '@ant-design/icons';
@@ -10,12 +10,12 @@ import { DatasetsStore } from '../../context/DatasetsStore';
 
 const PdfRow = (props: { pdfStatus: PdfStatus }) => {
     const { pdfStatus } = props;
-    const { activeDataset } = useContext(DatasetsStore);
+    const { activeTask, activeDataset } = useContext(DatasetsStore);
     const navigate = useNavigate();
 
     const { name: currentName } = useParams<{ name: string }>();
     const deletePdf = async () => {
-        await deletePdfJunk(activeDataset, pdfStatus.name);
+        await deletePdfJunk(activeTask, activeDataset, pdfStatus.name);
 
         if (currentName === pdfStatus.name) {
             navigate('/');
@@ -93,7 +93,7 @@ export const Pdfs = (props: { pdfsStatuses: PdfStatus[] }) => {
     });
 
     async function deleteAllJunkCallback() {
-        await deleteJunk(activeTask, activeDataset);
+        await deleteAllJunk(activeTask, activeDataset);
         navigate('/');
     }
 
