@@ -118,7 +118,7 @@ def read_root():
 
 
 def valid_folder(dataset_path):
-    if os.path.isdir(dataset_path) and os.listdir(dataset_path):
+    if os.path.isdir(dataset_path):
         return True
 
     return False

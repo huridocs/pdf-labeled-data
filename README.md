@@ -31,7 +31,7 @@
 [x] Reimport labeled data
 [x] Redo deletePdfJunk
 [x] Redo next pdf with pressing "s"
-[ ] Handle no PDF
+[x] Handle no PDF
 [ ] Handle no label data case
 [ ] Handle labels but no PDF
 [ ] Ali: Display errors 
