@@ -32,6 +32,7 @@
 [x] Redo deletePdfJunk
 [x] Redo next pdf with pressing "s"
 [x] Handle no PDF
-[ ] Handle no label data case
-[ ] Handle labels but no PDF
+[x] Handle no label data case
+[x] Handle labels but no PDF
+[x] Remove reading order data
 [ ] Ali: Display errors 

@@ -67,46 +67,6 @@ def get_object_from_file(path: str):
     return None
 
 
-@app.post("/api/annotation/reading_order/{task}/{sha}/{position}")
-def reorder_annotation(
-        task: str, sha: str, position: int, annotation: Annotation, x_auth_request_email: str = Header(None)
-) -> PdfAnnotation:
-    # user = get_user_from_header(x_auth_request_email)
-    #
-    # base_path = configuration.output_directory
-    # pdf_annotations_dict = get_object_from_file(os.path.join(base_path, task, sha, f"{user}_annotations.json"))
-    # pages = get_object_from_file(os.path.join(base_path, task, sha, "pdf_structure.json"))
-    #
-    # if not pdf_annotations_dict or not pages:
-    #     raise HTTPException(status_code=404, detail="No reading order available")
-    #
-    # pdf_annotation = PdfAnnotation(**pdf_annotations_dict)
-    # tokens_to_reorder = annotation.get_tokens(pages)
-    # pdf_annotation = pdf_annotation.get_reordered_pdf_annotation_by_position(tokens_to_reorder[0], position)
-    # pdf_annotation.save(os.path.join(configuration.output_directory, task, sha, f"{user}_annotations.json"))
-    return {}
-
-
-@app.post("/api/annotation/reading_order/{task}/{sha}")
-def reorder_annotations(
-        task: str, sha: str, annotation: Annotation, x_auth_request_email: str = Header(None)
-) -> PdfAnnotation:
-    # user = get_user_from_header(x_auth_request_email)
-    #
-    # base_path = configuration.output_directory
-    # pdf_annotations_dict = get_object_from_file(os.path.join(base_path, task, sha, f"{user}_annotations.json"))
-    # pages = get_object_from_file(os.path.join(base_path, task, sha, "pdf_structure.json"))
-    #
-    # if not pdf_annotations_dict or not pages:
-    #     raise HTTPException(status_code=404, detail="No reading order available")
-    #
-    # pdf_annotation = PdfAnnotation(**pdf_annotations_dict)
-    # tokens_to_reorder = annotation.get_tokens(pages)
-    # reordered_pdf_annotation = pdf_annotation.get_reordered_pdf_annotation(tokens_to_reorder)
-    # reordered_pdf_annotation.save(os.path.join(configuration.output_directory, task, sha, f"{user}_annotations.json"))
-    return {}
-
-
 @app.get("/", status_code=204)
 def read_root():
     """
