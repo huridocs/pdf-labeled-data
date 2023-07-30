@@ -28,11 +28,11 @@
 [x] Recreate finished and junk
 [x] Rename projects structure from /usr/local/src/skiff/app/api to /usr/local/src/api
 [x] Try without HandleAnnotationSelection code
-[ ] Reimport labeled data
+[x] Reimport labeled data
 [ ] Redo deletePdfJunk
 [ ] Redo next pdf with pressing "s"
 [ ] Handle no PDF
 [ ] Handle no label data case
 [ ] Handle no labels
 [ ] Handle labels but no PDF
-[ ] Display errors 
+[ ] Ali: Display errors 

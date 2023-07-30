@@ -39,7 +39,6 @@ def loop_xmls():
 def create_labels():
     for dataset_type_name, xml_name in loop_xmls():
         inside_labels_to_json_labels(dataset_type_name, xml_name)
-        break
 
 
 def inside_labels_to_json_labels(dataset_type_name: str, xml_name: str):
@@ -58,9 +57,7 @@ def inside_labels_to_json_labels(dataset_type_name: str, xml_name: str):
         token_type_labels.pages.append(TokenTypePage(number=page_element.attrib["number"], labels=page_labels))
 
     labels_path: str = join(LABELED_DATA_DESTINATION, dataset_type_name, get_folder_name(xml_name), LABELS_FILE_NAME)
-    print(labels_path)
-    print(token_type_labels.model_dump_json(indent=4))
-    # Path(labels_path).write_text(token_type_labels.model_dump_json(indent=4))
+    Path(labels_path).write_text(token_type_labels.model_dump_json(indent=4))
 
 
 if __name__ == '__main__':
