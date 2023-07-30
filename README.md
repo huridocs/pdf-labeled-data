@@ -29,7 +29,7 @@
 [x] Rename projects structure from /usr/local/src/skiff/app/api to /usr/local/src/api
 [x] Try without HandleAnnotationSelection code
 [x] Reimport labeled data
-[ ] Redo deletePdfJunk
+[x] Redo deletePdfJunk
 [ ] Redo next pdf with pressing "s"
 [ ] Handle no PDF
 [ ] Handle no label data case
