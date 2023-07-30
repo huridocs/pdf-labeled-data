@@ -8,9 +8,9 @@ services:
             - proxy
     api:
         build:
-          context: ./src/api
+            context: ./src
+            dockerfile: ./api/Dockerfile
         volumes:
-            - ./src/api:/usr/local/src/skiff/app/api
             - ./labeled_data:/labeled_data
             - ./pdfs:/pdfs
         environment:
@@ -26,11 +26,11 @@ services:
         # We can't mount the entire UI directory, since JavaScript dependencies
         # (`node_modules`) live at that location.
         volumes:
-            - ./src/ui/src:/usr/local/src/skiff/app/ui/src
-            - ./src/ui/public:/usr/local/src/skiff/app/ui/public
-            - ./src/ui/package.json:/usr/local/src/skiff/app/ui/package.json
-            - ./src/ui/tsconfig.json:/usr/local/src/skiff/app/ui/tsconfig.json
-            - ./src/ui/yarn.lock:/usr/local/src/skiff/app/ui/yarn.lock
+            - ./src/ui/src:/usr/local/src/src
+            - ./src/ui/public:/usr/local/src/public
+            - ./src/ui/package.json:/usr/local/src/package.json
+            - ./src/ui/tsconfig.json:/usr/local/src/tsconfig.json
+            - ./src/ui/yarn.lock:/usr/local/src/yarn.lock
     proxy:
         build: ./proxy
         ports:

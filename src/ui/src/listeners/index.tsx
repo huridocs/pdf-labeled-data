@@ -46,31 +46,6 @@ export const HideAnnotationLabels = () => {
     return null;
 };
 
-export const HandleAnnotationSelection = () => {
-    const annotationStore = useContext(AnnotationStore);
-    const { selectedAnnotations, setSelectedAnnotations } = annotationStore;
-    useEffect(() => {
-        const onShiftUp = (e: KeyboardEvent) => {
-            const shift = e.key === 'Shift';
-            const somethingSelected = selectedAnnotations.length !== 0;
-
-            // Otherwise we just clear the selection,
-            // if there is something selected, because
-            // there are no relations to annotate.
-            if (shift && somethingSelected) {
-                setSelectedAnnotations([]);
-            }
-        };
-
-        window.addEventListener('keyup', onShiftUp);
-        return () => {
-            window.removeEventListener('keyup', onShiftUp);
-        };
-    }, [selectedAnnotations]);
-
-    return null;
-};
-
 interface WithName {
     name: string;
 }

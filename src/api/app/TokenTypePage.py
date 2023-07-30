@@ -1,7 +1,7 @@
 from typing import List
 
 from pydantic import BaseModel
-from app.TokenTypeLabel import TokenTypeLabel
+from api.app.TokenTypeLabel import TokenTypeLabel
 
 
 class TokenTypePage(BaseModel):

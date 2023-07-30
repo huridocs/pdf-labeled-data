@@ -8,12 +8,12 @@ from typing import List, Dict
 from fastapi import FastAPI, HTTPException, Header, Response
 from fastapi.responses import FileResponse
 
-from app.Label import Label
-from app.Pages import Pages
-from app.PdfStatus import PdfStatus
-from app.PdfAnnotations import PdfAnnotation
-from app.Annotation import Annotation
-from app.utils import StackdriverJsonFormatter
+from api.app.Label import Label
+from api.app.Pages import Pages
+from api.app.PdfStatus import PdfStatus
+from api.app.PdfAnnotations import PdfAnnotation
+from api.app.Annotation import Annotation
+from api.app.utils import StackdriverJsonFormatter
 
 IN_PRODUCTION = os.getenv("IN_PRODUCTION", "dev")
 

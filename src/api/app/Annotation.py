@@ -3,14 +3,14 @@ from typing import Optional, List, Dict
 
 from pydantic import BaseModel
 
-from app.Token import Token
-from app.TokenType import TokenType
-from app.annotations import Bounds, TokenId
+from api.app.Token import Token
+from api.app.TokenType import TokenType
+from api.app.annotations import Bounds, TokenId
 
-from app.TokenTypeLabel import TokenTypeLabel
-from app.TokenTypePage import TokenTypePage
+from api.app.TokenTypeLabel import TokenTypeLabel
+from api.app.TokenTypePage import TokenTypePage
 
-from app.Label import Label
+from api.app.Label import Label
 
 
 class Annotation(BaseModel):

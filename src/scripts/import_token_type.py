@@ -5,20 +5,16 @@ from os import listdir
 from os.path import join
 from pathlib import Path
 
-from src.api.app.TokenTypeLabel import TokenTypeLabel
-from src.api.app.TokenTypeLabels import TokenTypeLabels
-from src.api.app.TokenTypePage import TokenTypePage
+from api.app.TokenTypeLabel import TokenTypeLabel
+from api.app.TokenTypeLabels import TokenTypeLabels
+from api.app.TokenTypePage import TokenTypePage
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 from lxml import etree
 from lxml.etree import ElementBase
 
-from config import ROOT_PATH, XML_NAME, LABELS_FILE_NAME, PROJECT_PATH
-
-
-
-
+from config import XML_NAME, LABELS_FILE_NAME, LABELED_DATA_SOURCE, LABELED_XML_DESTINATION, LABELED_DATA_DESTINATION
 
 
 def get_folder_name(xml_name: str):
@@ -43,6 +39,7 @@ def loop_xmls():
 def create_labels():
     for dataset_type_name, xml_name in loop_xmls():
         inside_labels_to_json_labels(dataset_type_name, xml_name)
+        break
 
 
 def inside_labels_to_json_labels(dataset_type_name: str, xml_name: str):
@@ -61,7 +58,9 @@ def inside_labels_to_json_labels(dataset_type_name: str, xml_name: str):
         token_type_labels.pages.append(TokenTypePage(number=page_element.attrib["number"], labels=page_labels))
 
     labels_path: str = join(LABELED_DATA_DESTINATION, dataset_type_name, get_folder_name(xml_name), LABELS_FILE_NAME)
-    Path(labels_path).write_text(token_type_labels.model_dump_json(indent=4))
+    print(labels_path)
+    print(token_type_labels.model_dump_json(indent=4))
+    # Path(labels_path).write_text(token_type_labels.model_dump_json(indent=4))
 
 
 if __name__ == '__main__':

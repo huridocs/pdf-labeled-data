@@ -3,7 +3,7 @@ from typing import List
 from lxml.etree import ElementBase
 from pydantic import BaseModel
 
-from app.Token import Token
+from api.app.Token import Token
 
 
 class Page(BaseModel):

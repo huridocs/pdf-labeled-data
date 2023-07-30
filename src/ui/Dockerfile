@@ -5,7 +5,7 @@
 FROM node:16
 
 # Setup a spot for our code
-WORKDIR /usr/local/src/skiff/app/ui
+WORKDIR /usr/local/src
 
 # Install dependencies
 COPY package.json yarn.lock ./

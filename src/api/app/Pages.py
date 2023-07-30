@@ -4,7 +4,7 @@ from lxml import etree
 from lxml.etree import ElementBase
 from pydantic import BaseModel
 
-from app.Page import Page
+from api.app.Page import Page
 
 
 class Pages(BaseModel):

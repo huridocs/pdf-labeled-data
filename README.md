@@ -25,10 +25,12 @@
 [x] Fix show tokens
 [x] Annotations panel
 [x] Sort annotations
-[ ] Recreate finished and junk
+[x] Recreate finished and junk
+[x] Rename projects structure from /usr/local/src/skiff/app/api to /usr/local/src/api
+[x] Try without HandleAnnotationSelection code
+[ ] Reimport labeled data
 [ ] Redo deletePdfJunk
-[ ] Rename projects structure from /usr/local/src/skiff/app/api to /usr/local/src/api
-[ ] Try without HandleAnnotationSelection code
+[ ] Redo next pdf with pressing "s"
 [ ] Handle no PDF
 [ ] Handle no label data case
 [ ] Handle no labels

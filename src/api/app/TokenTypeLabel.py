@@ -1,7 +1,7 @@
 from lxml.etree import ElementBase
 from pydantic import BaseModel
 
-from app.TokenType import TokenType
+from api.app.TokenType import TokenType
 
 
 class TokenTypeLabel(BaseModel):

@@ -212,7 +212,6 @@ export const PDFPage = () => {
                                 setHideLabels,
                             }}>
                             <listeners.UndoAnnotation />
-                            <listeners.HandleAnnotationSelection />
                             <listeners.SaveWithTimeout name={name || ''} />
                             <listeners.SaveBeforeUnload name={name || ''} />
                             <listeners.HideAnnotationLabels />
