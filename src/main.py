@@ -223,16 +223,17 @@ def delete_all_junk(task: str, dataset: str):
 @app.post("/api/doc/{task}/{dataset}/{name}/finished/{finished}")
 def set_pdf_finished(task: str, dataset: str, name: str, finished: bool):
     dataset_folder_path = join(get_task_folder_path(task), dataset)
-    status_path = Path(join(dataset_folder_path, name))
-    if not exists(status_path):
+    status_folder_path = Path(join(dataset_folder_path, name))
+    if not exists(status_folder_path):
         return {}
 
+    status_path = join(status_folder_path, 'status.txt')
     if finished:
-        Path(join(status_path, 'status.txt')).write_text("finished")
+        Path(status_path).write_text("finished")
         return {}
 
-    if not finished:
-        os.remove(join(status_path, 'status.txt'))
+    if not finished and exists(status_path):
+        os.remove(status_path)
 
     return {}
 
@@ -240,16 +241,18 @@ def set_pdf_finished(task: str, dataset: str, name: str, finished: bool):
 @app.post("/api/doc/{task}/{dataset}/{name}/junk/{junk}")
 def set_pdf_junk(task: str, dataset: str, name: str, junk: bool):
     dataset_folder_path = join(get_task_folder_path(task), dataset)
-    status_path = Path(join(dataset_folder_path, name))
-    if not exists(status_path):
+    status_folder_path = Path(join(dataset_folder_path, name))
+    if not exists(status_folder_path):
         return {}
+
+    status_file_path = join(status_folder_path, 'status.txt')
 
     if junk:
-        Path(join(status_path, 'status.txt')).write_text("junk")
+        Path(status_file_path).write_text("junk")
         return {}
 
-    if not junk:
-        os.remove(join(status_path, 'status.txt'))
+    if not junk and exists(status_file_path):
+        os.remove(status_file_path)
 
     return {}
 

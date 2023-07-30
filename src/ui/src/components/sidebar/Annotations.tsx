@@ -33,7 +33,7 @@ export const Annotations = ({ annotations, pdfsStatuses }: AnnotationsProps) => 
     useEffect(() => {
         const onKeyPress = async (e: KeyboardEvent) => {
             if (e.key === 'e') {
-                // await setPdfFinished(activeDataset, sha, true);
+                await setPdfFinished(activeTask, activeDataset, name || '', true);
                 notification.success({ message: 'Marked paper as Finished!' });
                 navigate('/');
             }
@@ -52,13 +52,12 @@ export const Annotations = ({ annotations, pdfsStatuses }: AnnotationsProps) => 
     }, [name]);
 
     const onFinishToggle = async (isFinished: boolean) => {
-        await setPdfFinished(activeTask, activeDataset, name || '', isFinished).then(() => {
-            if (isFinished) {
-                notification.success({ message: 'Marked paper as Finished!' });
-            } else {
-                notification.info({ message: 'Marked paper as In Progress.' });
-            }
-        });
+        await setPdfFinished(activeTask, activeDataset, name || '', isFinished);
+        if (isFinished) {
+            notification.success({ message: 'Marked paper as Finished!' });
+        } else {
+            notification.info({ message: 'Marked paper as In Progress.' });
+        }
         navigate(0);
     };
 

@@ -30,9 +30,8 @@
 [x] Try without HandleAnnotationSelection code
 [x] Reimport labeled data
 [x] Redo deletePdfJunk
-[ ] Redo next pdf with pressing "s"
+[x] Redo next pdf with pressing "s"
 [ ] Handle no PDF
 [ ] Handle no label data case
-[ ] Handle no labels
 [ ] Handle labels but no PDF
 [ ] Ali: Display errors 
