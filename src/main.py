@@ -6,14 +6,13 @@ from os.path import exists, join
 from pathlib import Path
 from typing import List
 
-from fastapi import FastAPI, HTTPException, Header, Response
+from fastapi import FastAPI, HTTPException, Response
 from fastapi.responses import FileResponse
 
 from api.app.Label import Label
 from api.app.Pages import Pages
 from api.app.PdfStatus import PdfStatus
 from api.app.PdfAnnotations import PdfAnnotation
-from api.app.Annotation import Annotation
 from api.app.utils import StackdriverJsonFormatter
 
 IN_PRODUCTION = os.getenv("IN_PRODUCTION", "dev")

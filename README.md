@@ -35,4 +35,5 @@
 [x] Handle no label data case
 [x] Handle labels but no PDF
 [x] Remove reading order data
+[ ] Rename labels.json to labels_colors.json
 [ ] Ali: Display errors 
