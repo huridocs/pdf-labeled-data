@@ -235,7 +235,7 @@ export const PDFPage = () => {
                     </PDFStore.Provider>
                 );
             } else {
-                return null;
+                return <div> hi </div>;
             }
         // eslint-disable-line: no-fallthrough
         case ViewState.ERROR:

@@ -98,19 +98,22 @@ def exists_active_dataset():
     return False
 
 
-@app.get("/api/annotation/real_datasets/{task}")
+@app.get("/api/annotation/datasets/{task}")
 async def get_datasets(task: str = None) -> List[str]:
     path = get_task_folder_path(task)
     datasets = [dataset for dataset in os.listdir(path) if valid_folder(join(path, dataset))]
     if not exists_active_dataset():
-        active_dataset = datasets[0]
+        active_dataset = datasets[0] if datasets else ""
         remove_active_datasets()
         Path(join(path, "active_dataset.txt")).write_text(active_dataset)
 
-    return datasets
+    if datasets:
+        return datasets
+
+    return ["No datasets"]
 
 
-@app.post("/api/annotation/real_active_dataset/{task}/{dataset}")
+@app.post("/api/annotation/active_dataset/{task}/{dataset}")
 async def post_datasets(task: str = None, dataset: str = None):
     path = get_task_folder_path(task)
     remove_active_datasets()
@@ -118,7 +121,7 @@ async def post_datasets(task: str = None, dataset: str = None):
     return {}
 
 
-@app.get("/api/annotation/real_active_task")
+@app.get("/api/annotation/active_task")
 async def get_active_task() -> str:
     for task in os.listdir(LABELED_DATA_PATH):
         path = get_task_folder_path(task)
@@ -132,14 +135,14 @@ async def lower_snake_case_to_title_case(task):
     return " ".join([x[0].upper() + x[1:] for x in task.split("_")])
 
 
-@app.get("/api/annotation/real_active_dataset")
+@app.get("/api/annotation/active_dataset")
 async def get_active_dataset() -> str:
     for task in os.listdir(LABELED_DATA_PATH):
         path = get_task_folder_path(task)
-        if exists(Path(join(path, "active_dataset.txt"))):
+        if exists(Path(join(path, "active_dataset.txt"))) and Path(join(path, "active_dataset.txt")).read_text():
             return Path(join(path, "active_dataset.txt")).read_text()
 
-    return ""
+    return "No datasets"
 
 
 @app.get("/api/pdf/{name}")
@@ -186,7 +189,7 @@ def set_pdf_finished(task: str, dataset: str, name: str, finished: bool):
     if not exists(status_folder_path):
         return {}
 
-    status_path = join(status_folder_path, 'status.txt')
+    status_path = join(status_folder_path, "status.txt")
     if finished:
         Path(status_path).write_text("finished")
         return {}
@@ -204,7 +207,7 @@ def set_pdf_junk(task: str, dataset: str, name: str, junk: bool):
     if not exists(status_folder_path):
         return {}
 
-    status_file_path = join(status_folder_path, 'status.txt')
+    status_file_path = join(status_folder_path, "status.txt")
 
     if junk:
         Path(status_file_path).write_text("junk")
@@ -224,7 +227,6 @@ def get_labels_path(task: str, dataset: str, name: str):
 
 @app.get("/api/pdf/{task}/{dataset}/{name}/annotations")
 def get_annotations(task: str, dataset: str, name: str) -> PdfAnnotation:
-
     labels_file_path = get_labels_path(task, dataset, name)
 
     if not exists(labels_file_path):
@@ -240,17 +242,12 @@ def get_annotations(task: str, dataset: str, name: str) -> PdfAnnotation:
 
 
 @app.post("/api/doc/{task}/{dataset}/{name}/annotations")
-def save_annotations(
-        task: str,
-        dataset: str,
-        name: str,
-        annotations: PdfAnnotation
-):
+def save_annotations(task: str, dataset: str, name: str, annotations: PdfAnnotation):
     labels_file_path = get_labels_path(task, dataset, name)
 
     token_type_labels = annotations.to_token_type_labels()
     Path(labels_file_path).write_text(token_type_labels.model_dump_json(indent=4))
-    os.chmod(labels_file_path , 0o777)
+    os.chmod(labels_file_path, 0o777)
     return {}
 
 
@@ -274,7 +271,7 @@ def get_labels_definition(task: str) -> List[Label]:
 
 
 @app.get("/api/annotation/{task}/labels")
-def get_real_labels(task: str) -> List[Label]:
+def get_labels(task: str) -> List[Label]:
     return get_labels_definition(task)
 
 
@@ -286,6 +283,9 @@ def get_task_folder_path(task):
 
 def loop_pdfs(task, dataset):
     dataset_folder_path = join(get_task_folder_path(task), dataset)
+    if not os.path.isdir(dataset_folder_path):
+        return []
+    
     for pdf_name in sorted(os.listdir(dataset_folder_path)):
         pdf_folder_path = join(dataset_folder_path, pdf_name)
         if valid_folder(pdf_folder_path):

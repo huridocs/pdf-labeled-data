@@ -36,4 +36,5 @@
 [x] Handle labels but no PDF
 [x] Remove reading order data
 [ ] Rename labels.json to labels_colors.json
+[ ] Update Readme
 [ ] Ali: Display errors 

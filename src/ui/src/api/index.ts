@@ -24,19 +24,19 @@ export function pdfURL(name: string): string {
     return `/api/pdf/${name}`;
 }
 export async function getDatasets(task: string): Promise<string[]> {
-    return axios.get(`/api/annotation/real_datasets/${task}`).then((r) => r.data);
+    return axios.get(`/api/annotation/datasets/${task}`).then((r) => r.data);
 }
 
 export async function getActiveTask(): Promise<string> {
-    return axios.get(`/api/annotation/real_active_task`).then((r) => r.data);
+    return axios.get(`/api/annotation/active_task`).then((r) => r.data);
 }
 
 export async function getActiveDataset(): Promise<string> {
-    return axios.get(`/api/annotation/real_active_dataset`).then((r) => r.data);
+    return axios.get(`/api/annotation/active_dataset`).then((r) => r.data);
 }
 
 export async function saveActiveDatasets(task: string, dataset: string): Promise<string[]> {
-    return axios.post(`/api/annotation/real_active_dataset/${task}/${dataset}`);
+    return axios.post(`/api/annotation/active_dataset/${task}/${dataset}`);
 }
 
 export function setReadingOrderMultipleAnnotations(

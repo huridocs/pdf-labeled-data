@@ -4,6 +4,8 @@ import { CenterOnPage } from './components';
 import { Result, Spin } from '@allenai/varnish';
 import { QuestionCircleOutlined } from '@ant-design/icons';
 import { Navigate } from 'react-router-dom';
+import { Tasks } from './components/sidebar/Tasks';
+import { SidebarContainer } from './components/sidebar';
 
 export const getPdfPath = (pdfsStatuses: PdfStatus[]) => {
     const namePdf = pdfsStatuses.find((p) => !!p.name && !p.finished && !p.junk);
@@ -47,6 +49,9 @@ export const RedirectToFirstPaper = (props: { activeTask: string; activeDataset:
             return (
                 <>
                     <CenterOnPage>
+                        <SidebarContainer width={'400px'}>
+                            <Tasks />
+                        </SidebarContainer>
                         <Result icon={<QuestionCircleOutlined />} title="PDFs Not Found" />
                     </CenterOnPage>
                 </>
