@@ -4,13 +4,6 @@
             "number": 1,
             "labels": [
                 {
-                    "top": 730,
-                    "left": 303,
-                    "width": 10,
-                    "height": 13,
-                    "token_type": "TEXT"
-                },
-                {
                     "top": 84,
                     "left": 234,
                     "width": 147,
@@ -394,19 +387,19 @@
                     "width": 62,
                     "height": 11,
                     "token_type": "FOOTNOTE"
+                },
+                {
+                    "top": 727,
+                    "left": 300,
+                    "width": 16,
+                    "height": 19,
+                    "token_type": "PAGE_NUMBER"
                 }
             ]
         },
         {
             "number": 2,
             "labels": [
-                {
-                    "top": 730,
-                    "left": 303,
-                    "width": 10,
-                    "height": 13,
-                    "token_type": "TEXT"
-                },
                 {
                     "top": 72,
                     "left": 72,
@@ -758,17 +751,17 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 669,
-                    "left": 72,
-                    "width": 3,
-                    "height": 7,
-                    "token_type": "FOOTNOTE"
-                },
-                {
                     "top": 668,
                     "left": 100,
                     "width": 443,
                     "height": 11,
+                    "token_type": "FOOTNOTE"
+                },
+                {
+                    "top": 669,
+                    "left": 72,
+                    "width": 3,
+                    "height": 7,
                     "token_type": "FOOTNOTE"
                 },
                 {
@@ -805,19 +798,19 @@
                     "width": 11,
                     "height": 11,
                     "token_type": "FOOTNOTE"
+                },
+                {
+                    "top": 727,
+                    "left": 300,
+                    "width": 16,
+                    "height": 19,
+                    "token_type": "PAGE_NUMBER"
                 }
             ]
         },
         {
             "number": 3,
             "labels": [
-                {
-                    "top": 730,
-                    "left": 303,
-                    "width": 10,
-                    "height": 13,
-                    "token_type": "TEXT"
-                },
                 {
                     "top": 72,
                     "left": 100,
@@ -957,6 +950,13 @@
                     "width": 434,
                     "height": 11,
                     "token_type": "FOOTNOTE"
+                },
+                {
+                    "top": 727,
+                    "left": 300,
+                    "width": 16,
+                    "height": 19,
+                    "token_type": "PAGE_NUMBER"
                 }
             ]
         }

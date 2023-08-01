@@ -317,13 +317,6 @@
             "number": 2,
             "labels": [
                 {
-                    "top": 701,
-                    "left": 304,
-                    "width": 7,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
                     "top": 72,
                     "left": 108,
                     "width": 435,
@@ -597,60 +590,25 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 611,
-                    "left": 108,
-                    "width": 8,
-                    "height": 12,
-                    "token_type": "LIST"
+                    "top": 608,
+                    "left": 105,
+                    "width": 404,
+                    "height": 30,
+                    "token_type": "TEXT"
                 },
                 {
-                    "top": 611,
-                    "left": 126,
-                    "width": 380,
-                    "height": 12,
-                    "token_type": "LIST"
+                    "top": 644,
+                    "left": 105,
+                    "width": 404,
+                    "height": 53,
+                    "token_type": "TEXT"
                 },
                 {
-                    "top": 623,
-                    "left": 108,
-                    "width": 72,
-                    "height": 12,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 647,
-                    "left": 108,
-                    "width": 8,
-                    "height": 12,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 647,
-                    "left": 126,
-                    "width": 380,
-                    "height": 12,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 658,
-                    "left": 108,
-                    "width": 398,
-                    "height": 12,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 670,
-                    "left": 108,
-                    "width": 398,
-                    "height": 12,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 682,
-                    "left": 108,
-                    "width": 398,
-                    "height": 12,
-                    "token_type": "LIST"
+                    "top": 698,
+                    "left": 301,
+                    "width": 13,
+                    "height": 15,
+                    "token_type": "PAGE_NUMBER"
                 }
             ]
         },
@@ -658,81 +616,25 @@
             "number": 3,
             "labels": [
                 {
-                    "top": 701,
-                    "left": 304,
-                    "width": 7,
-                    "height": 9,
+                    "top": 69,
+                    "left": 105,
+                    "width": 404,
+                    "height": 41,
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 72,
-                    "left": 108,
-                    "width": 398,
-                    "height": 12,
-                    "token_type": "LIST"
+                    "top": 116,
+                    "left": 105,
+                    "width": 404,
+                    "height": 41,
+                    "token_type": "TEXT"
                 },
                 {
-                    "top": 84,
-                    "left": 108,
-                    "width": 398,
-                    "height": 12,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 95,
-                    "left": 108,
-                    "width": 285,
-                    "height": 12,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 119,
-                    "left": 108,
-                    "width": 8,
-                    "height": 12,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 119,
-                    "left": 126,
-                    "width": 380,
-                    "height": 12,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 131,
-                    "left": 108,
-                    "width": 398,
-                    "height": 12,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 142,
-                    "left": 108,
-                    "width": 173,
-                    "height": 12,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 166,
-                    "left": 108,
-                    "width": 8,
-                    "height": 12,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 166,
-                    "left": 126,
-                    "width": 380,
-                    "height": 12,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 178,
-                    "left": 108,
-                    "width": 314,
-                    "height": 12,
-                    "token_type": "LIST"
+                    "top": 163,
+                    "left": 105,
+                    "width": 404,
+                    "height": 30,
+                    "token_type": "TEXT"
                 },
                 {
                     "top": 201,
@@ -950,6 +852,13 @@
                     "width": 29,
                     "height": 12,
                     "token_type": "TEXT"
+                },
+                {
+                    "top": 701,
+                    "left": 304,
+                    "width": 7,
+                    "height": 9,
+                    "token_type": "PAGE_NUMBER"
                 }
             ]
         }

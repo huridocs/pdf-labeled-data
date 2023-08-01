@@ -11,6 +11,7 @@
 src/.pytest_cache
 **/*.pickle
 **/**/active_dataset.txt
+**/**/**/status.txt
 /src/src/ui/node_modules/
 
 # Python cache files

@@ -296,13 +296,6 @@
             "number": 2,
             "labels": [
                 {
-                    "top": 690,
-                    "left": 304,
-                    "width": 6,
-                    "height": 8,
-                    "token_type": "TEXT"
-                },
-                {
                     "top": 74,
                     "left": 108,
                     "width": 434,
@@ -595,19 +588,19 @@
                     "width": 47,
                     "height": 10,
                     "token_type": "TEXT"
+                },
+                {
+                    "top": 690,
+                    "left": 304,
+                    "width": 6,
+                    "height": 8,
+                    "token_type": "PAGE_NUMBER"
                 }
             ]
         },
         {
             "number": 3,
             "labels": [
-                {
-                    "top": 690,
-                    "left": 304,
-                    "width": 6,
-                    "height": 8,
-                    "token_type": "TEXT"
-                },
                 {
                     "top": 74,
                     "left": 108,
@@ -679,116 +672,39 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 196,
-                    "left": 108,
-                    "width": 434,
-                    "height": 10,
-                    "token_type": "LIST"
+                    "top": 193,
+                    "left": 105,
+                    "width": 440,
+                    "height": 41,
+                    "token_type": "TEXT"
                 },
                 {
-                    "top": 208,
-                    "left": 108,
-                    "width": 434,
-                    "height": 10,
-                    "token_type": "LIST"
+                    "top": 230,
+                    "left": 105,
+                    "width": 440,
+                    "height": 89,
+                    "token_type": "TEXT"
                 },
                 {
-                    "top": 221,
-                    "left": 108,
-                    "width": 146,
-                    "height": 10,
-                    "token_type": "LIST"
+                    "top": 315,
+                    "left": 105,
+                    "width": 440,
+                    "height": 29,
+                    "token_type": "TEXT"
                 },
                 {
-                    "top": 233,
-                    "left": 108,
-                    "width": 434,
-                    "height": 10,
-                    "token_type": "LIST"
+                    "top": 340,
+                    "left": 105,
+                    "width": 440,
+                    "height": 28,
+                    "token_type": "TEXT"
                 },
                 {
-                    "top": 245,
-                    "left": 108,
-                    "width": 434,
-                    "height": 10,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 257,
-                    "left": 108,
-                    "width": 434,
-                    "height": 10,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 269,
-                    "left": 108,
-                    "width": 434,
-                    "height": 10,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 282,
-                    "left": 108,
-                    "width": 434,
-                    "height": 10,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 294,
-                    "left": 108,
-                    "width": 434,
-                    "height": 10,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 306,
-                    "left": 108,
-                    "width": 135,
-                    "height": 10,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 318,
-                    "left": 108,
-                    "width": 434,
-                    "height": 10,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 331,
-                    "left": 108,
-                    "width": 305,
-                    "height": 10,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 343,
-                    "left": 108,
-                    "width": 434,
-                    "height": 10,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 355,
-                    "left": 108,
-                    "width": 327,
-                    "height": 10,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 367,
-                    "left": 108,
-                    "width": 434,
-                    "height": 10,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 379,
-                    "left": 108,
-                    "width": 198,
-                    "height": 10,
-                    "token_type": "LIST"
+                    "top": 364,
+                    "left": 105,
+                    "width": 440,
+                    "height": 28,
+                    "token_type": "TEXT"
                 },
                 {
                     "top": 404,
@@ -936,19 +852,19 @@
                     "width": 470,
                     "height": 10,
                     "token_type": "TEXT"
+                },
+                {
+                    "top": 690,
+                    "left": 304,
+                    "width": 6,
+                    "height": 8,
+                    "token_type": "PAGE_NUMBER"
                 }
             ]
         },
         {
             "number": 4,
             "labels": [
-                {
-                    "top": 690,
-                    "left": 304,
-                    "width": 6,
-                    "height": 8,
-                    "token_type": "TEXT"
-                },
                 {
                     "top": 74,
                     "left": 72,
@@ -1158,6 +1074,13 @@
                     "width": 28,
                     "height": 10,
                     "token_type": "TEXT"
+                },
+                {
+                    "top": 690,
+                    "left": 304,
+                    "width": 6,
+                    "height": 8,
+                    "token_type": "PAGE_NUMBER"
                 }
             ]
         }
