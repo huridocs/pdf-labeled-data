@@ -568,7 +568,7 @@
                     "left": 32,
                     "width": 0,
                     "height": 18,
-                    "token_type": "TITLE"
+                    "token_type": "HEADER"
                 },
                 {
                     "top": 614,
@@ -965,7 +965,7 @@
                     "left": 274,
                     "width": 10,
                     "height": 8,
-                    "token_type": "TEXT"
+                    "token_type": "FORMULA"
                 },
                 {
                     "top": 230,
@@ -1098,7 +1098,7 @@
                     "left": 274,
                     "width": 10,
                     "height": 8,
-                    "token_type": "TEXT"
+                    "token_type": "FORMULA"
                 },
                 {
                     "top": 324,
@@ -2331,11 +2331,11 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 356,
-                    "left": 326,
-                    "width": 214,
-                    "height": 8,
-                    "token_type": "LIST"
+                    "top": 353,
+                    "left": 323,
+                    "width": 220,
+                    "height": 24,
+                    "token_type": "TEXT"
                 },
                 {
                     "top": 363,
@@ -2345,13 +2345,6 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 366,
-                    "left": 338,
-                    "width": 201,
-                    "height": 8,
-                    "token_type": "LIST"
-                },
-                {
                     "top": 374,
                     "left": 58,
                     "width": 227,
@@ -2359,11 +2352,11 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 381,
-                    "left": 326,
-                    "width": 214,
-                    "height": 8,
-                    "token_type": "LIST"
+                    "top": 378,
+                    "left": 323,
+                    "width": 220,
+                    "height": 35,
+                    "token_type": "TEXT"
                 },
                 {
                     "top": 384,
@@ -2373,13 +2366,6 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 391,
-                    "left": 338,
-                    "width": 202,
-                    "height": 8,
-                    "token_type": "LIST"
-                },
-                {
                     "top": 394,
                     "left": 58,
                     "width": 227,
@@ -2387,17 +2373,17 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 402,
-                    "left": 338,
-                    "width": 107,
-                    "height": 8,
-                    "token_type": "LIST"
-                },
-                {
                     "top": 405,
                     "left": 58,
                     "width": 161,
                     "height": 8,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 413,
+                    "left": 323,
+                    "width": 220,
+                    "height": 35,
                     "token_type": "TEXT"
                 },
                 {
@@ -2408,13 +2394,6 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 416,
-                    "left": 326,
-                    "width": 214,
-                    "height": 8,
-                    "token_type": "LIST"
-                },
-                {
                     "top": 426,
                     "left": 58,
                     "width": 227,
@@ -2422,25 +2401,11 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 427,
-                    "left": 338,
-                    "width": 202,
-                    "height": 8,
-                    "token_type": "LIST"
-                },
-                {
                     "top": 437,
                     "left": 58,
                     "width": 227,
                     "height": 8,
                     "token_type": "TEXT"
-                },
-                {
-                    "top": 437,
-                    "left": 338,
-                    "width": 180,
-                    "height": 8,
-                    "token_type": "LIST"
                 },
                 {
                     "top": 447,
@@ -2450,11 +2415,11 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 452,
-                    "left": 326,
-                    "width": 214,
-                    "height": 8,
-                    "token_type": "LIST"
+                    "top": 449,
+                    "left": 323,
+                    "width": 220,
+                    "height": 45,
+                    "token_type": "TEXT"
                 },
                 {
                     "top": 458,
@@ -2464,25 +2429,11 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 462,
-                    "left": 338,
-                    "width": 202,
-                    "height": 8,
-                    "token_type": "LIST"
-                },
-                {
                     "top": 468,
                     "left": 58,
                     "width": 227,
                     "height": 8,
                     "token_type": "TEXT"
-                },
-                {
-                    "top": 473,
-                    "left": 338,
-                    "width": 202,
-                    "height": 8,
-                    "token_type": "LIST"
                 },
                 {
                     "top": 478,
@@ -2492,18 +2443,11 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 483,
-                    "left": 338,
-                    "width": 78,
-                    "height": 8,
-                    "token_type": "LIST"
-                },
-                {
-                    "top": 498,
-                    "left": 326,
-                    "width": 214,
-                    "height": 8,
-                    "token_type": "LIST"
+                    "top": 495,
+                    "left": 323,
+                    "width": 220,
+                    "height": 24,
+                    "token_type": "TEXT"
                 },
                 {
                     "top": 501,
@@ -2511,13 +2455,6 @@
                     "width": 119,
                     "height": 11,
                     "token_type": "TITLE"
-                },
-                {
-                    "top": 508,
-                    "left": 338,
-                    "width": 73,
-                    "height": 8,
-                    "token_type": "LIST"
                 },
                 {
                     "top": 519,
@@ -2966,25 +2903,11 @@
                     "token_type": "FIGURE"
                 },
                 {
-                    "top": 257,
-                    "left": 58,
-                    "width": 481,
-                    "height": 8,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 267,
-                    "left": 58,
-                    "width": 481,
-                    "height": 8,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 278,
-                    "left": 58,
-                    "width": 470,
-                    "height": 8,
-                    "token_type": "TEXT"
+                    "top": 254,
+                    "left": 55,
+                    "width": 487,
+                    "height": 35,
+                    "token_type": "IMAGE_CAPTION"
                 },
                 {
                     "top": 310,

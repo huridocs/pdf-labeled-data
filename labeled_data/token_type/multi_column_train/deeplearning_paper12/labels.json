@@ -8,7 +8,7 @@
                     "left": 560,
                     "width": 3,
                     "height": 6,
-                    "token_type": "TEXT"
+                    "token_type": "PAGE_NUMBER"
                 },
                 {
                     "top": 61,
@@ -484,7 +484,7 @@
                     "left": 32,
                     "width": 0,
                     "height": 18,
-                    "token_type": "TITLE"
+                    "token_type": "HEADER"
                 },
                 {
                     "top": 559,
@@ -713,7 +713,7 @@
                     "left": 560,
                     "width": 3,
                     "height": 6,
-                    "token_type": "TEXT"
+                    "token_type": "PAGE_NUMBER"
                 },
                 {
                     "top": 274,
@@ -1229,7 +1229,7 @@
                     "left": 560,
                     "width": 3,
                     "height": 6,
-                    "token_type": "TEXT"
+                    "token_type": "PAGE_NUMBER"
                 },
                 {
                     "top": 56,
@@ -1680,18 +1680,11 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 257,
-                    "left": 49,
-                    "width": 22,
-                    "height": 7,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 257,
-                    "left": 79,
-                    "width": 221,
-                    "height": 7,
-                    "token_type": "TEXT"
+                    "top": 254,
+                    "left": 46,
+                    "width": 257,
+                    "height": 31,
+                    "token_type": "IMAGE_CAPTION"
                 },
                 {
                     "top": 262,
@@ -1701,23 +1694,9 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 266,
-                    "left": 49,
-                    "width": 251,
-                    "height": 7,
-                    "token_type": "TEXT"
-                },
-                {
                     "top": 271,
                     "left": 330,
                     "width": 233,
-                    "height": 7,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 275,
-                    "left": 49,
-                    "width": 113,
                     "height": 7,
                     "token_type": "TEXT"
                 },
