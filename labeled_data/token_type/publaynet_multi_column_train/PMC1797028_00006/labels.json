@@ -8,168 +8,7 @@
                     "left": 315,
                     "width": 241,
                     "height": 7,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 758,
-                    "left": 511,
-                    "width": 45,
-                    "height": 7,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 769,
-                    "left": 436,
-                    "width": 120,
-                    "height": 6,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 602,
-                    "left": 57,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 614,
-                    "left": 57,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 626,
-                    "left": 57,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 637,
-                    "left": 57,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 649,
-                    "left": 57,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 661,
-                    "left": 57,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 673,
-                    "left": 57,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 684,
-                    "left": 57,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 696,
-                    "left": 57,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 708,
-                    "left": 57,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 720,
-                    "left": 57,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 602,
-                    "left": 315,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 614,
-                    "left": 315,
-                    "width": 54,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 637,
-                    "left": 315,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 649,
-                    "left": 315,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 661,
-                    "left": 315,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 673,
-                    "left": 315,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 684,
-                    "left": 315,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 696,
-                    "left": 315,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 708,
-                    "left": 315,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 720,
-                    "left": 315,
-                    "width": 240,
-                    "height": 9,
-                    "token_type": "TEXT"
+                    "token_type": "HEADER"
                 },
                 {
                     "top": 85,
@@ -184,6 +23,13 @@
                     "width": 401,
                     "height": 7,
                     "token_type": "TEXT"
+                },
+                {
+                    "top": 122,
+                    "left": 488,
+                    "width": 52,
+                    "height": 8,
+                    "token_type": "TABLE"
                 },
                 {
                     "top": 123,
@@ -207,23 +53,9 @@
                     "token_type": "TABLE"
                 },
                 {
-                    "top": 131,
-                    "left": 251,
-                    "width": 27,
-                    "height": 7,
-                    "token_type": "TABLE"
-                },
-                {
                     "top": 123,
                     "left": 329,
                     "width": 41,
-                    "height": 7,
-                    "token_type": "TABLE"
-                },
-                {
-                    "top": 131,
-                    "left": 330,
-                    "width": 36,
                     "height": 7,
                     "token_type": "TABLE"
                 },
@@ -236,16 +68,23 @@
                 },
                 {
                     "top": 131,
-                    "left": 408,
-                    "width": 46,
+                    "left": 251,
+                    "width": 27,
                     "height": 7,
                     "token_type": "TABLE"
                 },
                 {
-                    "top": 122,
-                    "left": 488,
-                    "width": 52,
-                    "height": 8,
+                    "top": 131,
+                    "left": 330,
+                    "width": 36,
+                    "height": 7,
+                    "token_type": "TABLE"
+                },
+                {
+                    "top": 131,
+                    "left": 408,
+                    "width": 46,
+                    "height": 7,
                     "token_type": "TABLE"
                 },
                 {
@@ -1164,6 +1003,167 @@
                     "width": 379,
                     "height": 7,
                     "token_type": "TEXT"
+                },
+                {
+                    "top": 602,
+                    "left": 57,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 602,
+                    "left": 315,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 614,
+                    "left": 57,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 614,
+                    "left": 315,
+                    "width": 54,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 626,
+                    "left": 57,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 637,
+                    "left": 57,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 637,
+                    "left": 315,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 649,
+                    "left": 57,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 649,
+                    "left": 315,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 661,
+                    "left": 57,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 661,
+                    "left": 315,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 673,
+                    "left": 57,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 673,
+                    "left": 315,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 684,
+                    "left": 57,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 684,
+                    "left": 315,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 696,
+                    "left": 57,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 696,
+                    "left": 315,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 708,
+                    "left": 57,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 708,
+                    "left": 315,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 720,
+                    "left": 57,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 720,
+                    "left": 315,
+                    "width": 240,
+                    "height": 9,
+                    "token_type": "TEXT"
+                },
+                {
+                    "top": 758,
+                    "left": 511,
+                    "width": 45,
+                    "height": 7,
+                    "token_type": "PAGE_NUMBER"
+                },
+                {
+                    "top": 769,
+                    "left": 436,
+                    "width": 120,
+                    "height": 6,
+                    "token_type": "FOOTER"
                 }
             ]
         }

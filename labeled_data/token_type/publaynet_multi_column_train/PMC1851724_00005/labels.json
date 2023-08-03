@@ -4,11 +4,18 @@
             "number": 1,
             "labels": [
                 {
-                    "top": 67,
-                    "left": 48,
-                    "width": 501,
-                    "height": 8,
-                    "token_type": "TEXT"
+                    "top": 26,
+                    "left": 407,
+                    "width": 142,
+                    "height": 7,
+                    "token_type": "HEADER"
+                },
+                {
+                    "top": 44,
+                    "left": 42,
+                    "width": 8,
+                    "height": 234,
+                    "token_type": "MARK"
                 },
                 {
                     "top": 59,
@@ -16,6 +23,13 @@
                     "width": 341,
                     "height": 8,
                     "token_type": "TITLE"
+                },
+                {
+                    "top": 67,
+                    "left": 48,
+                    "width": 501,
+                    "height": 8,
+                    "token_type": "TEXT"
                 },
                 {
                     "top": 84,
@@ -53,6 +67,13 @@
                     "token_type": "TABLE"
                 },
                 {
+                    "top": 117,
+                    "left": 267,
+                    "width": 85,
+                    "height": 8,
+                    "token_type": "TABLE"
+                },
+                {
                     "top": 119,
                     "left": 54,
                     "width": 18,
@@ -67,20 +88,6 @@
                     "token_type": "TABLE"
                 },
                 {
-                    "top": 128,
-                    "left": 156,
-                    "width": 62,
-                    "height": 6,
-                    "token_type": "TABLE"
-                },
-                {
-                    "top": 117,
-                    "left": 267,
-                    "width": 85,
-                    "height": 8,
-                    "token_type": "TABLE"
-                },
-                {
                     "top": 119,
                     "left": 382,
                     "width": 68,
@@ -91,6 +98,13 @@
                     "top": 119,
                     "left": 468,
                     "width": 69,
+                    "height": 6,
+                    "token_type": "TABLE"
+                },
+                {
+                    "top": 128,
+                    "left": 156,
+                    "width": 62,
                     "height": 6,
                     "token_type": "TABLE"
                 },
@@ -123,13 +137,6 @@
                     "token_type": "TABLE"
                 },
                 {
-                    "top": 141,
-                    "left": 382,
-                    "width": 16,
-                    "height": 6,
-                    "token_type": "TABLE"
-                },
-                {
                     "top": 132,
                     "left": 411,
                     "width": 20,
@@ -144,23 +151,9 @@
                     "token_type": "TABLE"
                 },
                 {
-                    "top": 141,
-                    "left": 445,
-                    "width": 18,
-                    "height": 6,
-                    "token_type": "TABLE"
-                },
-                {
                     "top": 132,
                     "left": 468,
                     "width": 22,
-                    "height": 6,
-                    "token_type": "TABLE"
-                },
-                {
-                    "top": 141,
-                    "left": 468,
-                    "width": 16,
                     "height": 6,
                     "token_type": "TABLE"
                 },
@@ -175,6 +168,27 @@
                     "top": 132,
                     "left": 531,
                     "width": 6,
+                    "height": 6,
+                    "token_type": "TABLE"
+                },
+                {
+                    "top": 141,
+                    "left": 382,
+                    "width": 16,
+                    "height": 6,
+                    "token_type": "TABLE"
+                },
+                {
+                    "top": 141,
+                    "left": 445,
+                    "width": 18,
+                    "height": 6,
+                    "token_type": "TABLE"
+                },
+                {
+                    "top": 141,
+                    "left": 468,
+                    "width": 16,
                     "height": 6,
                     "token_type": "TABLE"
                 },
@@ -774,13 +788,6 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 47,
-                    "left": 45,
-                    "width": 2,
-                    "height": 228,
-                    "token_type": "FIGURE"
-                },
-                {
                     "top": 706,
                     "left": 45,
                     "width": 248,
@@ -799,28 +806,21 @@
                     "left": 45,
                     "width": 85,
                     "height": 7,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 742,
-                    "left": 471,
-                    "width": 78,
-                    "height": 7,
-                    "token_type": "TEXT"
+                    "token_type": "FOOTER"
                 },
                 {
                     "top": 742,
                     "left": 289,
                     "width": 16,
                     "height": 7,
-                    "token_type": "TEXT"
+                    "token_type": "PAGE_NUMBER"
                 },
                 {
-                    "top": 26,
-                    "left": 407,
-                    "width": 142,
+                    "top": 742,
+                    "left": 471,
+                    "width": 78,
                     "height": 7,
-                    "token_type": "TITLE"
+                    "token_type": "FOOTER"
                 }
             ]
         }
