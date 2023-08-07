@@ -15,5 +15,5 @@ class Token(BaseModel):
         y = int(xml_token.attrib["top"])
         width = int(xml_token.attrib["width"])
         height = int(xml_token.attrib["height"])
-        text = ''.join(xml_token.itertext()).strip()
+        text = "".join(xml_token.itertext()).strip()
         return Token(x=x, y=y, width=width, height=height, text=text)

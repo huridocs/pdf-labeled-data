@@ -1,5 +1,5 @@
 import uuid
-from typing import Optional, List, Dict
+from typing import Optional
 
 from pydantic import BaseModel
 
@@ -18,17 +18,17 @@ class Annotation(BaseModel):
     page: int
     label: Label
     bounds: Bounds
-    tokens: Optional[List[TokenId]] = None
+    tokens: Optional[list[TokenId]] = None
 
     def get_distance_from_token(self, token: Token):
         return (
-                abs(self.bounds.left - token.x)
-                + abs(self.bounds.top - token.y)
-                + abs(self.bounds.right - (token.x + token.width))
-                + abs(self.bounds.bottom - (token.y + token.height))
+            abs(self.bounds.left - token.x)
+            + abs(self.bounds.top - token.y)
+            + abs(self.bounds.right - (token.x + token.width))
+            + abs(self.bounds.bottom - (token.y + token.height))
         )
 
-    def get_tokens(self, pages: Dict[any, any]) -> List[Token]:
+    def get_tokens(self, pages: dict[any, any]) -> list[Token]:
         page = [page_tokens for page_tokens in pages if page_tokens["page"]["index"] == self.page]
         if not page:
             return []
@@ -39,7 +39,7 @@ class Annotation(BaseModel):
         return tokens_to_reorder
 
     @staticmethod
-    def from_label(token_type_page: TokenTypePage, token_type_label: TokenTypeLabel, labels: List[Label]):
+    def from_label(token_type_page: TokenTypePage, token_type_label: TokenTypeLabel, labels: list[Label]):
         annotation_labels = [label for label in labels if label.text == token_type_label.token_type.value]
 
         if annotation_labels:
@@ -56,8 +56,10 @@ class Annotation(BaseModel):
         )
 
     def to_token_type_label(self) -> TokenTypeLabel:
-        return TokenTypeLabel(top=self.bounds.top,
-                              left=self.bounds.left,
-                              width=self.bounds.right - self.bounds.left,
-                              height=self.bounds.bottom - self.bounds.top,
-                              token_type=TokenType.from_text(self.label.text))
+        return TokenTypeLabel(
+            top=self.bounds.top,
+            left=self.bounds.left,
+            width=self.bounds.right - self.bounds.left,
+            height=self.bounds.bottom - self.bounds.top,
+            token_type=TokenType.from_text(self.label.text),
+        )

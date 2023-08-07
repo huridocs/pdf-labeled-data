@@ -4,10 +4,9 @@ import { Contrast, SidebarItem, SidebarItemTitle } from './common';
 
 import { InfoCircleOutlined } from '@ant-design/icons';
 import { Tooltip } from '@allenai/varnish';
-import { getPdfsStatues, getDatasets } from '../../api';
+import { getDatasets } from '../../api';
 import { DatasetsStore } from '../../context/DatasetsStore';
 import { useNavigate } from 'react-router-dom';
-import { getPdfPath } from '../../RedirectToFirstPaper';
 
 export const Tasks = () => {
     const tasks = ['Token Type', 'Reading Order', 'Paragraph Extraction'];
@@ -19,9 +18,7 @@ export const Tasks = () => {
         const datasets = await getDatasets(task);
         setDatasets(datasets);
         setActiveDataset(datasets[0]);
-        const pdfsStatuses = await getPdfsStatues(task, datasets[0]);
-        const name = getPdfPath(pdfsStatuses);
-        navigate(`/pdf/${name}`);
+        navigate(`/`);
     };
 
     return (

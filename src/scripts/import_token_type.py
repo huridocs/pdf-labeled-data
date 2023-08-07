@@ -18,7 +18,7 @@ from config import XML_NAME, LABELS_FILE_NAME, LABELED_DATA_SOURCE, LABELED_XML_
 
 
 def get_folder_name(xml_name: str):
-    return xml_name.replace('.xml', '')
+    return xml_name.replace(".xml", "")
 
 
 def import_xml():
@@ -43,23 +43,25 @@ def create_labels():
 
 def inside_labels_to_json_labels(dataset_type_name: str, xml_name: str):
     file: str = open(join(LABELED_XML_DESTINATION, get_folder_name(xml_name), XML_NAME)).read()
-    file_bytes: bytes = file.encode('utf-8')
+    file_bytes: bytes = file.encode("utf-8")
     root: ElementBase = etree.fromstring(file_bytes)
 
     token_type_labels = TokenTypeLabels()
 
-    for page_element in root.findall('.//page'):
+    for page_element in root.findall(".//page"):
         page_labels: list[TokenTypeLabel] = list()
-        for text_element in page_element.findall('.//text'):
+        for text_element in page_element.findall(".//text"):
             label = TokenTypeLabel.from_text_element(text_element)
             page_labels.append(label)
 
         token_type_labels.pages.append(TokenTypePage(number=page_element.attrib["number"], labels=page_labels))
 
-    labels_path: str = join(LABELED_DATA_DESTINATION, dataset_type_name, get_folder_name(xml_name), LABELS_FILE_NAME)
+    labels_path: str = join(
+        LABELED_DATA_DESTINATION, "token_type", dataset_type_name, get_folder_name(xml_name), LABELS_FILE_NAME
+    )
     Path(labels_path).write_text(token_type_labels.model_dump_json(indent=4))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # import_xml()
     create_labels()

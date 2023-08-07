@@ -1,4 +1,4 @@
-from typing import Optional, List
+from typing import Optional
 from pydantic import BaseModel
 
 from api.app.TokenTypeLabel import TokenTypeLabel
@@ -32,15 +32,15 @@ class Annotation(BaseModel):
     page: int
     label: Label
     bounds: Bounds
-    tokens: Optional[List[TokenId]] = None
+    tokens: Optional[list[TokenId]] = None
 
 
 class RelationGroup(BaseModel):
-    sourceIds: List[str]
-    targetIds: List[str]
+    sourceIds: list[str]
+    targetIds: list[str]
     label: Label
 
 
 class PdfAnnotation(BaseModel):
-    annotations: List[Annotation]
-    relations: List[RelationGroup]
+    annotations: list[Annotation]
+    relations: list[RelationGroup]

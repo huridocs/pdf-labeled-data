@@ -1,4 +1,4 @@
-from typing import NamedTuple, List, Dict
+from typing import NamedTuple
 import json
 
 
@@ -9,17 +9,17 @@ class Configuration(NamedTuple):
     output_directory: str, required.
         The directory where the pdfs and
         annotation output will be stored.
-    labels: List[Dict[str, str]], required.
+    labels: list[dict[str, str]], required.
         The labels in use for annotation.
-    relations: List[Dict[str, str]], required.
+    relations: list[dict[str, str]], required.
         The relations in use for annotation.
     users_file: Name str, required
         Filename where list of allowed users is specified.
     """
 
     output_directory: str
-    labels: List[Dict[str, str]]
-    relations: List[Dict[str, str]]
+    labels: list[dict[str, str]]
+    relations: list[dict[str, str]]
     users_file: str
 
 

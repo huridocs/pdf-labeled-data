@@ -1,5 +1,3 @@
-from typing import List
-
 from lxml.etree import ElementBase
 from pydantic import BaseModel
 
@@ -10,7 +8,7 @@ class Page(BaseModel):
     width: int
     height: int
     index: int
-    tokens: List[Token]
+    tokens: list[Token]
 
     @staticmethod
     def from_tree(xml_page: ElementBase):

@@ -4,7 +4,6 @@ import os
 import shutil
 from os.path import exists, join
 from pathlib import Path
-from typing import List
 
 from fastapi import FastAPI, HTTPException, Response
 from fastapi.responses import FileResponse
@@ -99,7 +98,7 @@ def exists_active_dataset():
 
 
 @app.get("/api/annotation/datasets/{task}")
-async def get_datasets(task: str = None) -> List[str]:
+async def get_datasets(task: str = None) -> list[str]:
     path = get_task_folder_path(task)
     datasets = [dataset for dataset in os.listdir(path) if valid_folder(join(path, dataset))]
     if not exists_active_dataset():
@@ -260,7 +259,7 @@ def get_tokens(name: str):
     return Pages.from_etree(pdf_tokens)
 
 
-def get_labels_definition(task: str) -> List[Label]:
+def get_labels_definition(task: str) -> list[Label]:
     labels_path = Path(join(get_task_folder_path(task), "labels.json"))
 
     if not exists(labels_path):
@@ -271,7 +270,7 @@ def get_labels_definition(task: str) -> List[Label]:
 
 
 @app.get("/api/annotation/{task}/labels")
-def get_labels(task: str) -> List[Label]:
+def get_labels(task: str) -> list[Label]:
     return get_labels_definition(task)
 
 
@@ -285,7 +284,7 @@ def loop_pdfs(task, dataset):
     dataset_folder_path = join(get_task_folder_path(task), dataset)
     if not os.path.isdir(dataset_folder_path):
         return []
-    
+
     for pdf_name in sorted(os.listdir(dataset_folder_path)):
         pdf_folder_path = join(dataset_folder_path, pdf_name)
         if valid_folder(pdf_folder_path):
@@ -293,8 +292,8 @@ def loop_pdfs(task, dataset):
 
 
 @app.get("/api/annotation/get_pdfs_statuses/{task}/{dataset}")
-def get_pdfs_statuses(task: str, dataset: str) -> List[PdfStatus]:
-    pdf_statuses: List[PdfStatus] = list()
+def get_pdfs_statuses(task: str, dataset: str) -> list[PdfStatus]:
+    pdf_statuses: list[PdfStatus] = list()
     for pdf_name, pdf_folder_path in loop_pdfs(task, dataset):
         status_path = Path(join(pdf_folder_path, "status.txt"))
         finished = exists(status_path) and "finished" == status_path.read_text()

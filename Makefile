@@ -6,3 +6,6 @@ start_detached:
 
 stop:
 	docker compose stop
+
+formatter:
+	. venv/bin/activate; command black --line-length 125 .

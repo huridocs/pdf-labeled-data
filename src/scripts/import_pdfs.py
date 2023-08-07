@@ -7,7 +7,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 from os import listdir
 from os.path import join, exists
 from pathlib import Path
-from config import PROJECT_PATH, ROOT_PATH,PDF_NAME
+from config import PROJECT_PATH, ROOT_PATH, PDF_NAME
 
 PDFS_SOURCE = join(PROJECT_PATH, "ml_pdf_editor", "pdf_files")
 PDFS_DESTINATION = join(ROOT_PATH, "pdfs")
@@ -26,7 +26,7 @@ def loop_files():
 
 def import_pdf():
     for file_folder in loop_files():
-        pdf_source_path: Path = Path(join(PDFS_SOURCE, file_folder + '.pdf'))
+        pdf_source_path: Path = Path(join(PDFS_SOURCE, file_folder + ".pdf"))
         pdf_destination_folder: Path = Path(join(PDFS_DESTINATION, file_folder))
 
         if not exists(pdf_destination_folder):

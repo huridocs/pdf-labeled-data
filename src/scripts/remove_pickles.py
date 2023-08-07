@@ -5,8 +5,8 @@ from config import PDF_FEATURES_PICKLE_NAME, FEATURES_PICKLE_NAME, LABELED_DATA_
 
 
 def loop_xmls():
-    for dataset_type_name in os.listdir(LABELED_DATA_DESTINATION):
-        dataset_path = join(LABELED_DATA_DESTINATION, dataset_type_name)
+    for dataset_type_name in os.listdir(join(LABELED_DATA_DESTINATION, "token_type")):
+        dataset_path = join(LABELED_DATA_DESTINATION, "token_type", dataset_type_name)
         if not os.path.isdir(dataset_path):
             continue
         for xml_name in sorted(os.listdir(dataset_path)):
@@ -22,5 +22,5 @@ def remove_pickles():
                 os.remove(pickle_path)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     remove_pickles()

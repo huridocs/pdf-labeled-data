@@ -1,4 +1,4 @@
-FROM python:3.7.2
+FROM python:3.11.4
 
 # Setup a spot for the api code
 WORKDIR /usr/local/src

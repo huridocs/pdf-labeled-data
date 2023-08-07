@@ -1,4 +1,4 @@
-from typing import Optional, List
+from typing import Optional
 
 from pydantic import BaseModel
 
@@ -28,5 +28,5 @@ class PaperStatus(BaseModel):
 
 
 class Allocation(BaseModel):
-    papers: List[PaperStatus]
+    papers: list[PaperStatus]
     hasAllocatedPapers: bool
