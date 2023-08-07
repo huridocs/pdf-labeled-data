@@ -25,10 +25,7 @@ function scaled(bounds: Bounds, scale: number): Bounds {
     };
 }
 
-/**
- * Computes a bound which contains all of the bounds passed as arguments.
- */
-function spanningBound(bounds: Bounds[], padding: number = 3): Bounds {
+function spanningBound(bounds: Bounds[], padding: number = 0): Bounds {
     // Start with a bounding box for which any bound would be
     // contained within, meaning we immediately update maxBound.
     const maxBound: Bounds = {

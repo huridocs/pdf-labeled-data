@@ -19,10 +19,11 @@ export class PdfAnnotations {
         return new PdfAnnotations(this.annotations, false);
     }
 
-    withNewAnnotation(a: Annotation): PdfAnnotations {
-        const newAnnotations = new PdfAnnotations(this.annotations.concat([a]), true);
-        // return newAnnotations.sort();
-        return newAnnotations;
+    withNewAnnotation(annotation: Annotation): PdfAnnotations {
+        const newAnnotations = this.annotations.filter(
+            (a) => annotation.page !== a.page || !doOverlap(a.bounds, annotation.bounds)
+        );
+        return new PdfAnnotations(newAnnotations.concat([annotation]), true);
     }
 
     deleteAnnotation(a: Annotation): PdfAnnotations {

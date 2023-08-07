@@ -9,7 +9,7 @@ export const UndoAnnotation = () => {
     const { pdfAnnotations, setPdfAnnotations } = annotationStore;
     useEffect(() => {
         const handleUndo = (e: KeyboardEvent) => {
-            if (e.metaKey && e.keyCode === 90) {
+            if (e.metaKey && e.key === 'z') {
                 setPdfAnnotations(pdfAnnotations.undoAnnotation());
             }
         };
