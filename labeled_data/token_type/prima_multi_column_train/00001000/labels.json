@@ -74,11 +74,11 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 2290,
-                    "left": 630,
-                    "width": 17,
-                    "height": 62,
-                    "token_type": "FIGURE"
+                    "top": 2287,
+                    "left": 580,
+                    "width": 70,
+                    "height": 118,
+                    "token_type": "MARK"
                 },
                 {
                     "top": 2289,
@@ -86,13 +86,6 @@
                     "width": 959,
                     "height": 62,
                     "token_type": "TEXT"
-                },
-                {
-                    "top": 2339,
-                    "left": 583,
-                    "width": 29,
-                    "height": 63,
-                    "token_type": "FIGURE"
                 },
                 {
                     "top": 2338,
@@ -172,18 +165,18 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 3156,
-                    "left": 1298,
-                    "width": 681,
-                    "height": 32,
-                    "token_type": "TEXT"
-                },
-                {
                     "top": 3144,
                     "left": 2066,
                     "width": 43,
                     "height": 49,
-                    "token_type": "TEXT"
+                    "token_type": "PAGE_NUMBER"
+                },
+                {
+                    "top": 3156,
+                    "left": 1298,
+                    "width": 681,
+                    "height": 32,
+                    "token_type": "FOOTER"
                 }
             ]
         }

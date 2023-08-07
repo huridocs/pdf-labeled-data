@@ -4,17 +4,17 @@
             "number": 1,
             "labels": [
                 {
-                    "top": 687,
-                    "left": 1297,
-                    "width": 0,
-                    "height": 27,
-                    "token_type": "TEXT"
-                },
-                {
                     "top": 573,
                     "left": 407,
                     "width": 1681,
                     "height": 468,
+                    "token_type": "TITLE"
+                },
+                {
+                    "top": 687,
+                    "left": 1297,
+                    "width": 0,
+                    "height": 27,
                     "token_type": "TITLE"
                 },
                 {
@@ -197,14 +197,14 @@
                     "left": 1377,
                     "width": 700,
                     "height": 42,
-                    "token_type": "TEXT"
+                    "token_type": "FOOTER"
                 },
                 {
                     "top": 3150,
                     "left": 2125,
                     "width": 44,
                     "height": 42,
-                    "token_type": "TEXT"
+                    "token_type": "PAGE_NUMBER"
                 }
             ]
         }

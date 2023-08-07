@@ -144,18 +144,18 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 3131,
-                    "left": 1345,
-                    "width": 698,
-                    "height": 43,
-                    "token_type": "TEXT"
-                },
-                {
                     "top": 3124,
                     "left": 2090,
                     "width": 45,
                     "height": 43,
-                    "token_type": "TEXT"
+                    "token_type": "PAGE_NUMBER"
+                },
+                {
+                    "top": 3131,
+                    "left": 1345,
+                    "width": 698,
+                    "height": 43,
+                    "token_type": "FOOTER"
                 }
             ]
         }

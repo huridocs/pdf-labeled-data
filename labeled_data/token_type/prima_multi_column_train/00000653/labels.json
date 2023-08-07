@@ -4,34 +4,6 @@
             "number": 1,
             "labels": [
                 {
-                    "top": 2898,
-                    "left": 102,
-                    "width": 0,
-                    "height": 27,
-                    "token_type": "TITLE"
-                },
-                {
-                    "top": 2832,
-                    "left": 102,
-                    "width": 0,
-                    "height": 27,
-                    "token_type": "TITLE"
-                },
-                {
-                    "top": 2747,
-                    "left": 102,
-                    "width": 0,
-                    "height": 27,
-                    "token_type": "TITLE"
-                },
-                {
-                    "top": 2673,
-                    "left": 102,
-                    "width": 0,
-                    "height": 27,
-                    "token_type": "TITLE"
-                },
-                {
                     "top": 1300,
                     "left": 744,
                     "width": 256,
@@ -135,6 +107,13 @@
                     "width": 780,
                     "height": 55,
                     "token_type": "TEXT"
+                },
+                {
+                    "top": 2670,
+                    "left": 99,
+                    "width": 6,
+                    "height": 258,
+                    "token_type": "HEADER"
                 }
             ]
         }

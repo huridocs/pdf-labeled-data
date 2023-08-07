@@ -95,6 +95,13 @@
                     "token_type": "TITLE"
                 },
                 {
+                    "top": 1970,
+                    "left": 124,
+                    "width": 16,
+                    "height": 49,
+                    "token_type": "TEXT"
+                },
+                {
                     "top": 1990,
                     "left": 179,
                     "width": 1161,
@@ -134,13 +141,6 @@
                     "left": 100,
                     "width": 742,
                     "height": 50,
-                    "token_type": "TEXT"
-                },
-                {
-                    "top": 1970,
-                    "left": 124,
-                    "width": 16,
-                    "height": 49,
                     "token_type": "TEXT"
                 },
                 {
@@ -200,6 +200,13 @@
                     "token_type": "TITLE"
                 },
                 {
+                    "top": 2672,
+                    "left": 124,
+                    "width": 17,
+                    "height": 49,
+                    "token_type": "TEXT"
+                },
+                {
                     "top": 2693,
                     "left": 180,
                     "width": 1217,
@@ -249,25 +256,18 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 2672,
-                    "left": 124,
-                    "width": 17,
-                    "height": 49,
-                    "token_type": "TEXT"
-                },
-                {
                     "top": 3031,
                     "left": 100,
                     "width": 267,
                     "height": 43,
-                    "token_type": "TEXT"
+                    "token_type": "FOOTER"
                 },
                 {
                     "top": 3035,
                     "left": 2167,
                     "width": 32,
                     "height": 45,
-                    "token_type": "TEXT"
+                    "token_type": "PAGE_NUMBER"
                 }
             ]
         }

@@ -8,14 +8,14 @@
                     "left": 107,
                     "width": 690,
                     "height": 41,
-                    "token_type": "TITLE"
+                    "token_type": "HEADER"
                 },
                 {
                     "top": 108,
                     "left": 2090,
                     "width": 56,
                     "height": 41,
-                    "token_type": "TEXT"
+                    "token_type": "PAGE_NUMBER"
                 },
                 {
                     "top": 2192,
@@ -67,13 +67,6 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 2465,
-                    "left": 176,
-                    "width": 612,
-                    "height": 63,
-                    "token_type": "FORMULA"
-                },
-                {
                     "top": 2464,
                     "left": 644,
                     "width": 404,
@@ -86,6 +79,13 @@
                     "width": 369,
                     "height": 63,
                     "token_type": "TEXT"
+                },
+                {
+                    "top": 2465,
+                    "left": 176,
+                    "width": 612,
+                    "height": 63,
+                    "token_type": "FORMULA"
                 },
                 {
                     "top": 2520,
@@ -109,18 +109,18 @@
                     "token_type": "FORMULA"
                 },
                 {
-                    "top": 2620,
-                    "left": 30,
-                    "width": 788,
-                    "height": 55,
-                    "token_type": "TEXT"
-                },
-                {
                     "top": 2618,
                     "left": 1165,
                     "width": 994,
                     "height": 55,
                     "token_type": "FORMULA"
+                },
+                {
+                    "top": 2620,
+                    "left": 30,
+                    "width": 788,
+                    "height": 55,
+                    "token_type": "TEXT"
                 },
                 {
                     "top": 2657,
@@ -130,11 +130,11 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 2721,
-                    "left": 31,
-                    "width": 209,
+                    "top": 2715,
+                    "left": 1669,
+                    "width": 7,
                     "height": 55,
-                    "token_type": "FORMULA"
+                    "token_type": "TEXT"
                 },
                 {
                     "top": 2719,
@@ -144,16 +144,16 @@
                     "token_type": "FORMULA"
                 },
                 {
-                    "top": 2715,
-                    "left": 1669,
-                    "width": 7,
+                    "top": 2721,
+                    "left": 31,
+                    "width": 209,
                     "height": 55,
-                    "token_type": "TEXT"
+                    "token_type": "FORMULA"
                 },
                 {
-                    "top": 2766,
-                    "left": 173,
-                    "width": 255,
+                    "top": 2761,
+                    "left": 1815,
+                    "width": 111,
                     "height": 34,
                     "token_type": "FORMULA"
                 },
@@ -165,9 +165,9 @@
                     "token_type": "FORMULA"
                 },
                 {
-                    "top": 2761,
-                    "left": 1815,
-                    "width": 111,
+                    "top": 2766,
+                    "left": 173,
+                    "width": 255,
                     "height": 34,
                     "token_type": "FORMULA"
                 },
@@ -204,21 +204,21 @@
                     "left": 2137,
                     "width": 22,
                     "height": 54,
-                    "token_type": "TEXT"
+                    "token_type": "MARK"
                 },
                 {
                     "top": 2962,
                     "left": 256,
                     "width": 7,
                     "height": 49,
-                    "token_type": "TEXT"
+                    "token_type": "FORMULA"
                 },
                 {
                     "top": 2962,
                     "left": 388,
                     "width": 7,
                     "height": 49,
-                    "token_type": "TEXT"
+                    "token_type": "FORMULA"
                 },
                 {
                     "top": 2962,
@@ -228,11 +228,11 @@
                     "token_type": "TEXT"
                 },
                 {
-                    "top": 2989,
-                    "left": 180,
-                    "width": 275,
+                    "top": 2987,
+                    "left": 1462,
+                    "width": 20,
                     "height": 50,
-                    "token_type": "FORMULA"
+                    "token_type": "TEXT"
                 },
                 {
                     "top": 2988,
@@ -256,11 +256,11 @@
                     "token_type": "FORMULA"
                 },
                 {
-                    "top": 2987,
-                    "left": 1462,
-                    "width": 20,
+                    "top": 2989,
+                    "left": 180,
+                    "width": 275,
                     "height": 50,
-                    "token_type": "TEXT"
+                    "token_type": "FORMULA"
                 },
                 {
                     "top": 3008,
