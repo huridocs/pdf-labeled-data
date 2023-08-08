@@ -5,9 +5,9 @@ from os import listdir
 from os.path import join, isdir
 from pathlib import Path
 
-from api.app.TokenTypeLabel import TokenTypeLabel
-from api.app.TokenTypeLabels import TokenTypeLabels
-from api.app.TokenTypePage import TokenTypePage
+from pdf_token_type_labels.TokenTypeLabel import TokenTypeLabel
+from pdf_token_type_labels.TokenTypeLabels import TokenTypeLabels
+from pdf_token_type_labels.TokenTypePage import TokenTypePage
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 

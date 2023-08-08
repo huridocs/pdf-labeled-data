@@ -1,7 +1,8 @@
 from typing import Optional
+
+from pdf_token_type_labels.TokenTypeLabel import TokenTypeLabel
 from pydantic import BaseModel
 
-from api.app.TokenTypeLabel import TokenTypeLabel
 
 
 class Bounds(BaseModel):

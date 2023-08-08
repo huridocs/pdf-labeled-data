@@ -1,14 +1,13 @@
 import uuid
 from typing import Optional
 
+from pdf_token_type_labels.TokenType import TokenType
+from pdf_token_type_labels.TokenTypeLabel import TokenTypeLabel
+from pdf_token_type_labels.TokenTypePage import TokenTypePage
 from pydantic import BaseModel
 
 from api.app.Token import Token
-from api.app.TokenType import TokenType
 from api.app.annotations import Bounds, TokenId
-
-from api.app.TokenTypeLabel import TokenTypeLabel
-from api.app.TokenTypePage import TokenTypePage
 
 from api.app.Label import Label
 

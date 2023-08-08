@@ -18,3 +18,5 @@ lxml==4.9.3
 # Allows us to use FastAPI's FileResponse for serving pdfs.
 aiofiles
 
+git+https://github.com/huridocs/pdf-tokens-type-labeler
+

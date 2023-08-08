@@ -1,15 +1,15 @@
 import json
 from pathlib import Path
+
+from pdf_token_type_labels.TokenTypeLabel import TokenTypeLabel
+from pdf_token_type_labels.TokenTypeLabels import TokenTypeLabels
+from pdf_token_type_labels.TokenTypePage import TokenTypePage
 from pydantic import BaseModel
 
 from api.app.Label import Label
 from api.app.Token import Token
-from api.app.TokenTypeLabel import TokenTypeLabel
-
-from api.app.TokenTypeLabels import TokenTypeLabels
 
 from api.app.Annotation import Annotation
-from api.app.TokenTypePage import TokenTypePage
 
 
 class Bounds(BaseModel):
