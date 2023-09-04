@@ -3,4 +3,4 @@ pydantic==2.1.1
 setuptools==68.0.0
 fastapi==0.101.0
 requests==2.31.0
-git+https://github.com/huridocs/pdf-tokens-type-labeler
+git+https://github.com/huridocs/pdf-tokens-type-labeler@d2dae31bc830a80bfc0f5a4f91d283af850c20ac

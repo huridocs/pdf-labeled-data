@@ -14,7 +14,13 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 from lxml import etree
 from lxml.etree import ElementBase
 
-from config import XML_NAME, LABELS_FILE_NAME, LABELED_DATA_SOURCE, LABELED_XML_DESTINATION, LABELED_DATA_DESTINATION
+from config import (
+    XML_NAME,
+    LABELS_FILE_NAME,
+    LABELED_DATA_SOURCE,
+    LABELED_XML_DESTINATION,
+    LABELED_DATA_DESTINATION,
+)
 
 
 def get_folder_name(xml_name: str):
@@ -23,7 +29,7 @@ def get_folder_name(xml_name: str):
 
 def import_xml():
     for dataset_type_name, xml_name in loop_xmls():
-                    xml_old_path = join(LABELED_DATA_SOURCE, dataset_type_name, xml_name)
+        xml_old_path = join(LABELED_DATA_SOURCE, dataset_type_name, xml_name)
         xml_new_path = join(LABELED_XML_DESTINATION, get_folder_name(xml_name), XML_NAME)
 
         os.makedirs(Path(xml_new_path).parent, exist_ok=True)
@@ -57,7 +63,11 @@ def inside_labels_to_json_labels(dataset_type_name: str, xml_name: str):
         token_type_labels.pages.append(TokenTypePage(number=page_element.attrib["number"], labels=page_labels))
 
     labels_path: str = join(
-        LABELED_DATA_DESTINATION, "token_type", dataset_type_name, get_folder_name(xml_name), LABELS_FILE_NAME
+        LABELED_DATA_DESTINATION,
+        "token_type",
+        dataset_type_name,
+        get_folder_name(xml_name),
+        LABELS_FILE_NAME,
     )
     Path(labels_path).write_text(token_type_labels.model_dump_json(indent=4))
 

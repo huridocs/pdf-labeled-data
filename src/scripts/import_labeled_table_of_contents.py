@@ -13,9 +13,7 @@ from pdf_token_type_labels.TokenTypeLabels import TokenTypeLabels
 from pdf_token_type_labels.TokenTypePage import TokenTypePage
 from pdf_token_type_labels.TableOfContentType import TableOfContentType
 
-sys.path.append(
-    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-)
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 from lxml.etree import ElementBase
 
@@ -51,9 +49,7 @@ def import_structure():
             shutil.copyfile(pdf_path, join(xml_destination_folder_path, PDF_NAME))
 
         os.makedirs(
-            join(
-                LABELED_DATA_DESTINATION, "table_of_content", "dataset_1", folder_name
-            ),
+            join(LABELED_DATA_DESTINATION, "table_of_content", "dataset_1", folder_name),
             exist_ok=True,
         )
 
@@ -118,10 +114,7 @@ def create_labels():
             folder_name,
             LABELS_FILE_NAME,
         )
-        pages = [
-            TokenTypePage(number=page_number, labels=labels)
-            for page_number, labels in labels_per_page.items()
-        ]
+        pages = [TokenTypePage(number=page_number, labels=labels) for page_number, labels in labels_per_page.items()]
         token_type_labels = TokenTypeLabels(pages=pages)
         Path(labels_path).write_text(token_type_labels.model_dump_json(indent=4))
 

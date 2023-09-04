@@ -16,7 +16,5 @@ class Pages(BaseModel):
         parser = etree.XMLParser(recover=True, encoding="utf-8")
         root: ElementBase = etree.fromstring(file_bytes, parser=parser)
 
-        pages: list[Page] = [
-            Page.from_tree(tree_page) for tree_page in root.findall(".//page")
-        ]
+        pages: list[Page] = [Page.from_tree(tree_page) for tree_page in root.findall(".//page")]
         return Pages(pages=pages)

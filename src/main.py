@@ -237,7 +237,10 @@ def get_annotations(task: str, dataset: str, name: str) -> PdfAnnotation:
         return PdfAnnotation.get_empty_annotation()
 
     labels_definitions = get_labels_definition(task)
-    annotation = PdfAnnotation.from_path(Path(labels_file_path), labels_definitions)
+    reading_order = task.lower() == "reading order"
+    annotation = PdfAnnotation.from_path(
+        Path(labels_file_path), labels_definitions, reading_order
+    )
 
     if annotation:
         return annotation
