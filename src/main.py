@@ -231,13 +231,14 @@ def get_labels_path(task: str, dataset: str, name: str):
 
 @app.get("/api/pdf/{task}/{dataset}/{name}/annotations")
 def get_annotations(task: str, dataset: str, name: str) -> PdfAnnotation:
+    reading_order = task.lower() == "reading order"
+
     labels_file_path = get_labels_path(task, dataset, name)
 
     if not exists(labels_file_path):
         return PdfAnnotation.get_empty_annotation()
 
     labels_definitions = get_labels_definition(task)
-    reading_order = task.lower() == "reading order"
     annotation = PdfAnnotation.from_path(
         Path(labels_file_path), labels_definitions, reading_order
     )
@@ -250,6 +251,11 @@ def get_annotations(task: str, dataset: str, name: str) -> PdfAnnotation:
 
 @app.post("/api/doc/{task}/{dataset}/{name}/annotations")
 def save_annotations(task: str, dataset: str, name: str, annotations: PdfAnnotation):
+    reading_order = task.lower() == "reading order"
+
+    if reading_order:
+        pass
+
     labels_file_path = get_labels_path(task, dataset, name)
 
     token_type_labels = annotations.to_token_type_labels()
