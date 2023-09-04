@@ -136,5 +136,5 @@ def get_text_elements_by_segment(page_element) -> dict[str : list[ElementBase]]:
 
 
 if __name__ == "__main__":
-    import_structure()
+    # import_structure()
     create_labels()
