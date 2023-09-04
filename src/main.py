@@ -26,7 +26,9 @@ if IN_PRODUCTION == "prod":
     json_handler.setFormatter(StackdriverJsonFormatter())
     handlers = [json_handler]
 
-logging.basicConfig(level=os.environ.get("LOG_LEVEL", default=logging.INFO), handlers=handlers)
+logging.basicConfig(
+    level=os.environ.get("LOG_LEVEL", default=logging.INFO), handlers=handlers
+)
 logger = logging.getLogger("uvicorn")
 
 # boto3 logging is _super_ verbose.
@@ -38,7 +40,9 @@ logging.getLogger("s3transfer").setLevel(logging.CRITICAL)
 app = FastAPI()
 
 
-def update_status_json(status_path: str, sha: str, status_type: str, status_value: bool):
+def update_status_json(
+    status_path: str, sha: str, status_type: str, status_value: bool
+):
     status_folder = "/".join(status_path.split("/")[:-1])
     if not exists(status_folder):
         os.mkdir(status_folder)
@@ -100,11 +104,9 @@ def exists_active_dataset():
 @app.get("/api/annotation/datasets/{task}")
 async def get_datasets(task: str = None) -> list[str]:
     path = get_task_folder_path(task)
-    datasets = [dataset for dataset in os.listdir(path) if valid_folder(join(path, dataset))]
-    if not exists_active_dataset():
-        active_dataset = datasets[0] if datasets else ""
-        remove_active_datasets()
-        Path(join(path, "active_dataset.txt")).write_text(active_dataset)
+    datasets = [
+        dataset for dataset in os.listdir(path) if valid_folder(join(path, dataset))
+    ]
 
     if datasets:
         return datasets
@@ -113,9 +115,9 @@ async def get_datasets(task: str = None) -> list[str]:
 
 
 @app.post("/api/annotation/active_dataset/{task}/{dataset}")
-async def post_datasets(task: str = None, dataset: str = None):
-    path = get_task_folder_path(task)
+async def post_active_dataset(task: str = None, dataset: str = None):
     remove_active_datasets()
+    path = get_task_folder_path(task)
     Path(join(path, "active_dataset.txt")).write_text(dataset)
     return {}
 
@@ -138,7 +140,10 @@ async def lower_snake_case_to_title_case(task):
 async def get_active_dataset() -> str:
     for task in os.listdir(LABELED_DATA_PATH):
         path = get_task_folder_path(task)
-        if exists(Path(join(path, "active_dataset.txt"))) and Path(join(path, "active_dataset.txt")).read_text():
+        if (
+            exists(Path(join(path, "active_dataset.txt")))
+            and Path(join(path, "active_dataset.txt")).read_text()
+        ):
             return Path(join(path, "active_dataset.txt")).read_text()
 
     return "No datasets"

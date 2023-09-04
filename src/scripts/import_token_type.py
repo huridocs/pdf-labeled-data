@@ -23,7 +23,7 @@ def get_folder_name(xml_name: str):
 
 def import_xml():
     for dataset_type_name, xml_name in loop_xmls():
-        xml_old_path = join(LABELED_DATA_SOURCE, dataset_type_name, xml_name)
+                    xml_old_path = join(LABELED_DATA_SOURCE, dataset_type_name, xml_name)
         xml_new_path = join(LABELED_XML_DESTINATION, get_folder_name(xml_name), XML_NAME)
 
         os.makedirs(Path(xml_new_path).parent, exist_ok=True)

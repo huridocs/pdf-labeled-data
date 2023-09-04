@@ -4,18 +4,19 @@ import { Contrast, SidebarItem, SidebarItemTitle } from './common';
 
 import { InfoCircleOutlined } from '@ant-design/icons';
 import { Tooltip } from '@allenai/varnish';
-import { getDatasets } from '../../api';
+import { getDatasets, saveActiveDatasets } from '../../api';
 import { DatasetsStore } from '../../context/DatasetsStore';
 import { useNavigate } from 'react-router-dom';
 
 export const Tasks = () => {
-    const tasks = ['Token Type', 'Reading Order', 'Paragraph Extraction'];
+    const tasks = ['Token Type', 'Reading Order', 'Paragraph Extraction', 'Table Of Content'];
     const { activeTask, setDatasets, setActiveDataset, setActiveTask } = useContext(DatasetsStore);
     const navigate = useNavigate();
 
     const changeTask = async (task: string) => {
         setActiveTask(task);
         const datasets = await getDatasets(task);
+        await saveActiveDatasets(task, datasets[0]);
         setDatasets(datasets);
         setActiveDataset(datasets[0]);
         navigate(`/`);

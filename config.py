@@ -10,5 +10,8 @@ FEATURES_PICKLE_NAME = "features.pickle"
 PDF_NAME = "document.pdf"
 
 LABELED_DATA_SOURCE = join(PROJECT_PATH, "ml_pdf_editor", "labeled_xmls_poppler")
+LABELED_TOC_DATA_SOURCE = join(
+    PROJECT_PATH, "ml_pdf_web_editor", "skiff_files", "apps", "pawls", "ali_labels"
+)
 LABELED_XML_DESTINATION = join(ROOT_PATH, "pdfs")
 LABELED_DATA_DESTINATION = join(ROOT_PATH, "labeled_data")

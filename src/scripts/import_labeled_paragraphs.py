@@ -9,12 +9,19 @@ from pdf_token_type_labels.TokenTypeLabel import TokenTypeLabel
 from pdf_token_type_labels.TokenTypeLabels import TokenTypeLabels
 from pdf_token_type_labels.TokenTypePage import TokenTypePage
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+sys.path.append(
+    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+)
 
 from lxml import etree
 from lxml.etree import ElementBase
 
-from config import XML_NAME, LABELS_FILE_NAME, LABELED_XML_DESTINATION, LABELED_DATA_DESTINATION
+from config import (
+    XML_NAME,
+    LABELS_FILE_NAME,
+    LABELED_XML_DESTINATION,
+    LABELED_DATA_DESTINATION,
+)
 
 
 def get_folder_name(xml_name: str):
@@ -23,7 +30,14 @@ def get_folder_name(xml_name: str):
 
 def import_structure():
     for dataset_type_name, xml_name in loop_token_type_pdfs():
-        os.makedirs(join(LABELED_DATA_DESTINATION, "paragraph_extraction", dataset_type_name, xml_name))
+        os.makedirs(
+            join(
+                LABELED_DATA_DESTINATION,
+                "paragraph_extraction",
+                dataset_type_name,
+                xml_name,
+            )
+        )
 
 
 def loop_token_type_pdfs():
@@ -43,21 +57,32 @@ def create_labels():
 
 
 def xml_labels_to_json_labels(dataset_type_name: str, xml_name: str):
-    file: str = open(join(LABELED_XML_DESTINATION, get_folder_name(xml_name), XML_NAME)).read()
+    file: str = open(
+        join(LABELED_XML_DESTINATION, get_folder_name(xml_name), XML_NAME)
+    ).read()
     file_bytes: bytes = file.encode("utf-8")
     root: ElementBase = etree.fromstring(file_bytes)
 
     token_type_labels = TokenTypeLabels()
 
     for page_element in root.findall(".//page"):
-        text_elements_by_paragraphs: dict[str : list[ElementBase]] = get_text_elements_by_segment(page_element)
+        text_elements_by_paragraphs: dict[
+            str : list[ElementBase]
+        ] = get_text_elements_by_segment(page_element)
         page_labels: list[TokenTypeLabel] = [
-            TokenTypeLabel.from_text_elements(text_elements) for text_elements in text_elements_by_paragraphs.values()
+            TokenTypeLabel.from_text_elements(text_elements)
+            for text_elements in text_elements_by_paragraphs.values()
         ]
-        token_type_labels.pages.append(TokenTypePage(number=page_element.attrib["number"], labels=page_labels))
+        token_type_labels.pages.append(
+            TokenTypePage(number=page_element.attrib["number"], labels=page_labels)
+        )
 
     labels_path: str = join(
-        LABELED_DATA_DESTINATION, "paragraph_extraction", dataset_type_name, get_folder_name(xml_name), LABELS_FILE_NAME
+        LABELED_DATA_DESTINATION,
+        "paragraph_extraction",
+        dataset_type_name,
+        get_folder_name(xml_name),
+        LABELS_FILE_NAME,
     )
     Path(labels_path).write_text(token_type_labels.model_dump_json(indent=4))
 

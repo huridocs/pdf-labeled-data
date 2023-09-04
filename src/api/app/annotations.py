@@ -4,7 +4,6 @@ from pdf_token_type_labels.TokenTypeLabel import TokenTypeLabel
 from pydantic import BaseModel
 
 
-
 class Bounds(BaseModel):
     left: float
     top: float

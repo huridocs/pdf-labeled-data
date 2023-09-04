@@ -12,7 +12,7 @@ export const Datasets = () => {
     const { activeTask, datasets, activeDataset, setActiveDataset } = useContext(DatasetsStore);
     const navigate = useNavigate();
 
-    async function changeTask(dataset: string) {
+    async function changeDataset(dataset: string) {
         await saveActiveDatasets(activeTask, dataset);
         setActiveDataset(dataset);
         navigate('/');
@@ -41,7 +41,7 @@ export const Datasets = () => {
                                         </PaddedRowSelected>
                                     )}
                                     {activeDataset !== dataset && (
-                                        <PaddedRow onClick={() => changeTask(dataset)}>
+                                        <PaddedRow onClick={() => changeDataset(dataset)}>
                                             <Contrast>{dataset}</Contrast>
                                         </PaddedRow>
                                     )}

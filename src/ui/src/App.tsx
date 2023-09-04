@@ -13,7 +13,7 @@ import { createGlobalStyle } from 'styled-components';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import { PDFPage } from './pages';
-import { getDatasets, getActiveDataset, getActiveTask } from './api';
+import { getDatasets, getActiveDataset, getActiveTask, saveActiveDatasets } from './api';
 import { OptionsStore, READING_ORDER, SHOW_TOKENS } from './context/OptionsStore';
 import { DatasetsStore } from './context/DatasetsStore';
 import { RedirectToFirstPaper } from './RedirectToFirstPaper';
@@ -32,11 +32,12 @@ const App = () => {
         getActiveTask().then((task) => {
             setActiveTask(task);
 
-            getDatasets(task).then((realDatasets) => {
-                setDatasets(realDatasets);
-
-                getActiveDataset().then((dataset) => {
-                    setActiveDataset(dataset);
+            getDatasets(task).then((datasets) => {
+                saveActiveDatasets(task, datasets[0]).then(() => {
+                    setDatasets(datasets);
+                    getActiveDataset().then((dataset) => {
+                        setActiveDataset(dataset);
+                    });
                 });
             });
         });
