@@ -226,8 +226,6 @@ def get_annotations(task: str, dataset: str, name: str) -> PdfAnnotation:
 
 @app.post("/api/doc/{task}/{dataset}/{name}/annotations")
 def save_annotations(task: str, dataset: str, name: str, annotations: PdfAnnotation):
-    logger.error(f"Save first label {annotations.annotations[0].label.text}")
-
     is_reading_order = task == "reading_order"
 
     if is_reading_order:
