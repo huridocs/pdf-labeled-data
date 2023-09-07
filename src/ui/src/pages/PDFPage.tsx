@@ -19,14 +19,22 @@ import {
     getPdfsStatues,
     getTokens,
 } from '../api';
-import { PDFPageInfo, Annotation, AnnotationStore, PDFStore, PdfAnnotations } from '../context';
+import {
+    PDFPageInfo,
+    Annotation,
+    AnnotationStore,
+    PDFStore,
+    PdfAnnotations,
+    DatasetsStore,
+    TASKS,
+} from '../context';
 
 import * as listeners from '../listeners';
 import { Tasks } from '../components/sidebar/Tasks';
 import { Options } from '../components/sidebar/Options';
 import { Datasets } from '../components/sidebar/Datasets';
 import { Labels } from '../components/sidebar/Labels';
-import { DatasetsStore } from '../context/DatasetsStore';
+
 import { Pdfs } from '../components/sidebar/Pdfs';
 import { Annotations } from '../components/sidebar/Annotations';
 
@@ -213,13 +221,12 @@ export const PDFPage = () => {
                             }}>
                             <listeners.UndoAnnotation />
                             <listeners.SaveWithTimeout name={name || ''} />
-                            <listeners.SaveBeforeUnload name={name || ''} />
                             <listeners.HideAnnotationLabels />
                             <WithSidebar width={sidebarWidth}>
                                 <SidebarContainer width={sidebarWidth}>
                                     <Tasks />
                                     <Datasets />
-                                    <Labels />
+                                    {activeTask !== TASKS.reading_order && <Labels />}
                                     <Pdfs pdfsStatuses={pdfsStatuses} />
                                     <Annotations
                                         annotations={pdfAnnotations.annotations}
@@ -245,7 +252,7 @@ export const PDFPage = () => {
                         <Tasks />
                         <Datasets />
                         <Options />
-                        <Labels />
+                        {activeTask !== TASKS.reading_order && <Labels />}
                         <Pdfs pdfsStatuses={pdfsStatuses} />
                     </SidebarContainer>
                     <CenterOnPage>

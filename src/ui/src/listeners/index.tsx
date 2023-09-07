@@ -1,8 +1,7 @@
 import { useEffect, useContext } from 'react';
-import { AnnotationStore } from '../context';
+import { AnnotationStore, DatasetsStore } from '../context';
 import { saveAnnotations } from '../api';
 import { notification } from '@allenai/varnish';
-import { DatasetsStore } from '../context/DatasetsStore';
 
 export const UndoAnnotation = () => {
     const annotationStore = useContext(AnnotationStore);
@@ -77,40 +76,6 @@ export const SaveWithTimeout = ({ name }: WithName) => {
             }, 100);
             return () => clearTimeout(currentTimeout);
         }
-    }, [name, pdfAnnotations]);
-
-    return null;
-};
-
-// TODO(Mark): There is a lot of duplication between these two listeners,
-// deduplicate if I need to save at another time as well.
-
-export const SaveBeforeUnload = ({ name }: WithName) => {
-    const annotationStore = useContext(AnnotationStore);
-    const { activeDataset, activeTask } = useContext(DatasetsStore);
-
-    const { pdfAnnotations, setPdfAnnotations } = annotationStore;
-    useEffect(() => {
-        const beforeUnload = (e: BeforeUnloadEvent) => {
-            e.preventDefault();
-            saveAnnotations(activeTask, activeDataset, name, pdfAnnotations)
-                .then(() => {
-                    setPdfAnnotations(pdfAnnotations.saved());
-                })
-                .catch((err) => {
-                    notification.error({
-                        message: 'Sorry, something went wrong!',
-                        description: 'Try re-doing your previous annotation.',
-                    });
-                    console.log('Failed to save annotations: ', err);
-                })
-                .then(() => window.close());
-        };
-
-        window.addEventListener('beforeunload', beforeUnload);
-        return () => {
-            window.removeEventListener('beforeunload', beforeUnload);
-        };
     }, [name, pdfAnnotations]);
 
     return null;

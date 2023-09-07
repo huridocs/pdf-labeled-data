@@ -93,7 +93,7 @@ export function doOverlap(a: Bounds, b: Bounds): boolean {
 export function getNewAnnotation(
     page: PDFPageInfo,
     selection: Bounds,
-    activeLabel: Label
+    activeLabel: Label = { text: '', color: '#70DDBA' }
 ): Optional<Annotation> {
     const normalized = normalizeBounds(selection);
     return page.getAnnotationForBounds(normalized, activeLabel);

@@ -6,7 +6,7 @@ import { notification, Tag } from '@allenai/varnish';
 
 import { EditFilled, DeleteFilled, InfoCircleOutlined } from '@ant-design/icons';
 import { useNavigate, useParams } from 'react-router-dom';
-import { DatasetsStore } from '../../context/DatasetsStore';
+import { DatasetsStore } from '../../context';
 
 const PdfRow = (props: { pdfStatus: PdfStatus }) => {
     const { pdfStatus } = props;

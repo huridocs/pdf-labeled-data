@@ -2,14 +2,12 @@ import React, { useContext, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { SidebarItem, SidebarItemTitle } from './common';
 import { Switch, notification } from '@allenai/varnish';
-import { Annotation } from '../../context';
+import { Annotation, DatasetsStore, TASKS } from '../../context';
 
 import { CheckOutlined, CloseOutlined, InfoCircleOutlined } from '@ant-design/icons';
 import { AnnotationSummary } from '../AnnotationSummary';
 import { getTokens, PagesTokens, PdfStatus, setPdfFinished, setPdfJunk } from '../../api';
 import { useNavigate, useParams } from 'react-router-dom';
-import { OptionsStore, READING_ORDER } from '../../context/OptionsStore';
-import { DatasetsStore } from '../../context/DatasetsStore';
 
 interface AnnotationsProps {
     annotations: Annotation[];
@@ -17,7 +15,6 @@ interface AnnotationsProps {
 }
 
 export const Annotations = ({ annotations, pdfsStatuses }: AnnotationsProps) => {
-    const { options } = useContext(OptionsStore);
     const { activeTask, activeDataset } = useContext(DatasetsStore);
     const [pageTokens, setPageTokens] = useState<PagesTokens>();
 
@@ -70,7 +67,6 @@ export const Annotations = ({ annotations, pdfsStatuses }: AnnotationsProps) => 
                 notification.info({ message: 'Marked paper as In Progress.' });
             }
         });
-        console.log(isJunk);
 
         navigate(0);
     };
@@ -90,13 +86,13 @@ export const Annotations = ({ annotations, pdfsStatuses }: AnnotationsProps) => 
                 <InfoCircleOutlined style={{ marginRight: '3px' }} />
                 Press "e" key to mark PDF as finished.
             </ExplainerText>
-            {!options[READING_ORDER] && (
+            {activeTask !== TASKS.reading_order && (
                 <ExplainerText>
                     <InfoCircleOutlined style={{ marginRight: '3px' }} />
                     Use CMD + z to undo the last annotation.
                 </ExplainerText>
             )}
-            {!options[READING_ORDER] && (
+            {activeTask !== TASKS.reading_order && (
                 <ExplainerText>
                     <InfoCircleOutlined style={{ marginRight: '3px' }} />
                     Press CTRL to show/hide annotation labels for small annotations.
@@ -122,7 +118,7 @@ export const Annotations = ({ annotations, pdfsStatuses }: AnnotationsProps) => 
                     unCheckedChildren={<CloseOutlined />}
                 />
             </span>
-            {!options[READING_ORDER] && (
+            {activeTask !== TASKS.reading_order && (
                 <div>
                     {annotations.length === 0 ? (
                         <>No Annotations Yet :(</>

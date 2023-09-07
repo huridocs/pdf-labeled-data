@@ -5,7 +5,7 @@ import { Contrast, SidebarItem, SidebarItemTitle } from './common';
 import { InfoCircleOutlined } from '@ant-design/icons';
 import { useNavigate } from 'react-router-dom';
 import { Tooltip } from '@allenai/varnish';
-import { DatasetsStore } from '../../context/DatasetsStore';
+import { DatasetsStore } from '../../context';
 import { saveActiveDatasets } from '../../api';
 
 export const Datasets = () => {

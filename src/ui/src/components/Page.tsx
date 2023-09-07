@@ -6,14 +6,16 @@ import {
     getNewAnnotation,
     normalizeBounds,
     PDFPageInfo,
+    OptionsStore,
+    DatasetsStore,
+    SHOW_TOKENS,
+    TASKS,
 } from '../context';
 import { Selection, SelectionBoundary, SelectionTokens } from './Selection';
 import styled from 'styled-components';
 import { PDFPageProxy } from 'pdfjs-dist/types/display/api';
 import { useParams } from 'react-router-dom';
-import { OptionsStore, READING_ORDER, SHOW_TOKENS } from '../context/OptionsStore';
 import { setReadingOrderMultipleAnnotations } from '../api';
-import { DatasetsStore } from '../context/DatasetsStore';
 import { ReadingOrderModal } from './ReadingOrderModal';
 
 function getPageBoundsFromCanvas(canvas: HTMLCanvasElement): Bounds {
@@ -48,6 +50,7 @@ interface PageProps {
 
 class PDFPageRenderer {
     private currentRenderTask?: ReturnType<PDFPageProxy['render']>;
+
     constructor(
         readonly page: PDFPageProxy,
         readonly canvas: HTMLCanvasElement,
@@ -97,12 +100,14 @@ export const Page = ({ pageInfo, onError }: PageProps) => {
     const [isVisible, setIsVisible] = useState<boolean>(false);
     const [isReadingOrderModalVisible, setIsReadingOrderModalVisible] = useState<boolean>(false);
     const [scale, setScale] = useState<number>(1);
-    const annotationStore = useContext(AnnotationStore);
+    const { activeLabel, pdfAnnotations, setSelectedAnnotations, setPdfAnnotations } = useContext(
+        AnnotationStore
+    );
     const containerRef = useRef<HTMLDivElement>(null);
     const [selection, setSelection] = useState<Bounds>();
     const { options } = useContext(OptionsStore);
-    const { activeDataset } = useContext(DatasetsStore);
-    const annotations = annotationStore.pdfAnnotations.annotations.filter(
+    const { activeTask, activeDataset } = useContext(DatasetsStore);
+    const pageAnnotations = pdfAnnotations.annotations.filter(
         (a) => a.page === pageInfo.page.pageNumber - 1
     );
     const { name } = useParams<{ name: string }>();
@@ -162,7 +167,7 @@ export const Page = ({ pageInfo, onError }: PageProps) => {
             return;
         }
 
-        const newAnnotation = getNewAnnotation(pageInfo, selection, { text: '', color: '#70DDBA' });
+        const newAnnotation = getNewAnnotation(pageInfo, selection);
 
         setSelection(undefined);
 
@@ -171,7 +176,7 @@ export const Page = ({ pageInfo, onError }: PageProps) => {
         }
 
         if (newAnnotation.tokens.length === 1) {
-            annotationStore.setSelectedAnnotations([newAnnotation]);
+            setSelectedAnnotations([newAnnotation]);
             setIsReadingOrderModalVisible(true);
             return;
         }
@@ -181,20 +186,15 @@ export const Page = ({ pageInfo, onError }: PageProps) => {
             name || '',
             newAnnotation
         );
-        annotationStore.setPdfAnnotations(orderedAnnotations);
+        setPdfAnnotations(orderedAnnotations);
+        setSelectedAnnotations([]);
     }
 
     const createAnnotation = async () => {
-        if (annotationStore.activeLabel && selection) {
-            const newAnnotation = getNewAnnotation(
-                pageInfo,
-                selection,
-                annotationStore.activeLabel
-            );
+        if (activeLabel && selection) {
+            const newAnnotation = getNewAnnotation(pageInfo, selection, activeLabel);
             if (newAnnotation) {
-                annotationStore.setPdfAnnotations(
-                    annotationStore.pdfAnnotations.withNewAnnotation(newAnnotation)
-                );
+                setPdfAnnotations(pdfAnnotations.withNewAnnotation(newAnnotation));
             }
         }
         setSelection(undefined);
@@ -233,7 +233,9 @@ export const Page = ({ pageInfo, onError }: PageProps) => {
                           }
                         : undefined
                 }
-                onMouseUp={options[READING_ORDER] ? changeReadingOrder : createAnnotation}>
+                onMouseUp={
+                    activeTask === TASKS.reading_order ? changeReadingOrder : createAnnotation
+                }>
                 <PageCanvas ref={canvasRef} />
                 {
                     // We only render the tokens if the page is visible, as rendering them all makes the
@@ -254,7 +256,7 @@ export const Page = ({ pageInfo, onError }: PageProps) => {
                     // page slow and/or crash.
                     scale &&
                         isVisible &&
-                        annotations.map((annotation) => (
+                        pageAnnotations.map((annotation) => (
                             <Selection
                                 pageInfo={pageInfo}
                                 annotation={annotation}
@@ -262,12 +264,12 @@ export const Page = ({ pageInfo, onError }: PageProps) => {
                             />
                         ))
                 }
-                {selection && annotationStore.activeLabel
+                {selection && activeLabel
                     ? (() => {
-                          if (selection && annotationStore.activeLabel) {
+                          if (selection && activeLabel) {
                               const annotation = pageInfo.getAnnotationForBounds(
                                   normalizeBounds(selection),
-                                  annotationStore.activeLabel
+                                  activeLabel
                               );
                               const tokens =
                                   annotation && annotation.tokens ? annotation.tokens : null;
@@ -275,7 +277,7 @@ export const Page = ({ pageInfo, onError }: PageProps) => {
                               return (
                                   <>
                                       <SelectionBoundary
-                                          color={annotationStore.activeLabel.color}
+                                          color={activeLabel.color}
                                           bounds={selection}
                                           selected={false}
                                           isMouseSelection={true}
@@ -289,7 +291,7 @@ export const Page = ({ pageInfo, onError }: PageProps) => {
             </PageAnnotationsContainer>
             {isReadingOrderModalVisible && (
                 <ReadingOrderModal
-                    annotations={annotations}
+                    annotations={pageAnnotations}
                     onHide={() => {
                         setIsReadingOrderModalVisible(false);
                     }}

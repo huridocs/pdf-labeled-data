@@ -1,8 +1,8 @@
 import React, { MouseEvent, useContext, useEffect, useState } from 'react';
-import { Annotation, AnnotationStore } from '../context';
+import { Annotation, AnnotationStore, DatasetsStore } from '../context';
 import { Modal, Select } from '@allenai/varnish';
 import { setReadingOrderOneAnnotation } from '../api';
-import { DatasetsStore } from '../context/DatasetsStore';
+
 import { useParams } from 'react-router-dom';
 
 interface ReadingOrderModalProps {
@@ -17,7 +17,8 @@ export const ReadingOrderModal = ({ annotations, onHide }: ReadingOrderModalProp
         AnnotationStore
     );
 
-    const { sha } = useParams<{ sha: string }>();
+    const { name: currentName } = useParams<{ name: string }>();
+
     let typedValue = '';
     // There are onMouseDown listeners on the <canvas> that handle the
     // creation of new annotations. We use this function to prevent that
@@ -30,16 +31,15 @@ export const ReadingOrderModal = ({ annotations, onHide }: ReadingOrderModalProp
         if (!selectedAnnotations) {
             return;
         }
-
+        onHide();
         const orderedAnnotations = await setReadingOrderOneAnnotation(
             activeDataset,
-            sha || '',
+            currentName || '',
             selectedAnnotations[0],
             position || '1'
         );
         setPdfAnnotations(orderedAnnotations);
         setSelectedAnnotations([]);
-        onHide();
     };
 
     useEffect(() => {
@@ -87,11 +87,15 @@ export const ReadingOrderModal = ({ annotations, onHide }: ReadingOrderModalProp
                     await changeReadingOrder(e);
                 }}
                 style={{ display: 'block' }}>
-                {annotations.map((annotation: Annotation) => (
-                    <Select.Option value={annotation.label.text} key={annotation.label.text}>
-                        {annotation.label.text}
-                    </Select.Option>
-                ))}
+                {annotations
+                    .sort((a, b) => {
+                        return parseInt(a.label.text) > parseInt(b.label.text) ? 1 : -1;
+                    })
+                    .map((annotation: Annotation) => (
+                        <Select.Option value={annotation.label.text} key={annotation.label.text}>
+                            {annotation.label.text}
+                        </Select.Option>
+                    ))}
             </Select>
         </Modal>
     );

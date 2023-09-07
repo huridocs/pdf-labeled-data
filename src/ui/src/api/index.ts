@@ -40,32 +40,30 @@ export async function saveActiveDatasets(task: string, dataset: string): Promise
 }
 
 export function setReadingOrderMultipleAnnotations(
-    task: string,
-    sha: string,
+    dataset: string,
+    name: string,
     annotation: Annotation
 ): Promise<PdfAnnotations> {
     return axios
-        .post(`/api/annotation/reading_order/${task}/${sha}`, annotation)
+        .post(`/api/annotations/reading_order/${dataset}/${name}`, annotation)
         .then((response) => {
-            const ann: PdfAnnotations = response.data;
-            const annotations = ann.annotations.map((a) => Annotation.fromObject(a));
-
+            const pdfAnnotations: PdfAnnotations = response.data;
+            const annotations = pdfAnnotations.annotations.map((a) => Annotation.fromObject(a));
             return new PdfAnnotations(annotations);
         });
 }
 
 export function setReadingOrderOneAnnotation(
-    task: string,
-    sha: string,
+    dataset: string,
+    name: string,
     annotation: Annotation,
-    label: string
+    position: string
 ): Promise<PdfAnnotations> {
     return axios
-        .post(`/api/annotation/reading_order/${task}/${sha}/${label}`, annotation)
+        .post(`/api/annotation/reading_order/${dataset}/${name}/${position}`, annotation)
         .then((response) => {
-            const ann: PdfAnnotations = response.data;
-            const annotations = ann.annotations.map((a) => Annotation.fromObject(a));
-
+            const pdfAnnotations: PdfAnnotations = response.data;
+            const annotations = pdfAnnotations.annotations.map((a) => Annotation.fromObject(a));
             return new PdfAnnotations(annotations);
         });
 }

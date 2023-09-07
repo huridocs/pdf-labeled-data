@@ -7,7 +7,7 @@ from pdf_token_type_labels.TokenTypePage import TokenTypePage
 from pydantic import BaseModel
 
 from api.app.Label import Label
-from api.app.Token import Token
+from api.app.Pages import Pages
 
 from api.app.Annotation import Annotation
 
@@ -26,89 +26,126 @@ class TokenId(BaseModel):
 
 class PdfAnnotation(BaseModel):
     annotations: list[Annotation]
+    sorted_annotation_by_area: list[Annotation] = []
 
-    def get_reordered_pdf_annotation(self, tokens_to_reorder: list[Token]):
-        page_index = tokens_to_reorder[0].page_index
-        page_annotations = [annotation for annotation in self.annotations if annotation.page == page_index]
-        other_pages_annotations = [annotation for annotation in self.annotations if annotation.page != page_index]
+    def get_reordered_pdf_annotation_by_position(
+        self, pages: Pages, annotation_to_reorder: Annotation, position: int
+    ) -> "PdfAnnotation":
+        tokens_annotations = self.get_annotations_from_pages(pages)
+        pdf_annotation_from_tokens = PdfAnnotation(annotations=tokens_annotations).set_labels_for_reading_order()
 
-        annotation_to_reorder = [self.get_annotation_from_token(token) for token in tokens_to_reorder]
-        starting_label = min(
-            [int(annotation.label.text) for annotation in annotation_to_reorder if annotation.label.text.isdigit()]
-        )
-
-        annotations_before = [
-            annotation
-            for annotation in page_annotations
-            if annotation.label.text.isdigit() and int(annotation.label.text) < starting_label
+        matching_annotations = [
+            a
+            for a in pdf_annotation_from_tokens.annotations
+            if annotation_to_reorder.page == a.page and annotation_to_reorder.bounds == a.bounds
         ]
 
-        annotation_to_reorder = sorted(
-            annotation_to_reorder,
-            key=lambda annotation: (annotation.bounds.top, annotation.bounds.left),
+        if not matching_annotations:
+            return pdf_annotation_from_tokens
+
+        annotation_to_reorder = matching_annotations[0]
+        other_annotations = [a for a in pdf_annotation_from_tokens.annotations if a != annotation_to_reorder]
+
+        annotations_pages_before = [a for a in other_annotations if a.page < annotation_to_reorder.page]
+        annotations_from_page = [a for a in other_annotations if a.page == annotation_to_reorder.page]
+        annotations_pages_after = [a for a in other_annotations if a.page > annotation_to_reorder.page]
+
+        page_annotations_reordered = (
+            annotations_from_page[: position - 1] + [annotation_to_reorder] + annotations_from_page[position - 1 :]
         )
 
-        annotations_after = [
-            annotation
-            for annotation in page_annotations
-            if annotation not in annotations_before and annotation not in annotation_to_reorder
-        ]
-
-        annotations_reordered = annotations_before + annotation_to_reorder + annotations_after
-
-        for index, annotation in enumerate(annotations_reordered):
+        for index, annotation in enumerate(page_annotations_reordered):
             annotation.label.text = str(index + 1)
 
-        return PdfAnnotation(annotations=annotations_reordered + other_pages_annotations)
+        return PdfAnnotation(annotations=annotations_pages_before + page_annotations_reordered + annotations_pages_after)
 
-    def get_reordered_pdf_annotation_by_position(self, token_to_reorder: Token, position: int) -> "PdfAnnotation":
-        position_index = position - 1
-        annotation_to_reorder = self.get_annotation_from_token(token_to_reorder)
-        page_annotations = [annotation for annotation in self.annotations if annotation.page == token_to_reorder.page_index]
-        other_pages_annotations = [
-            annotation for annotation in self.annotations if annotation.page != token_to_reorder.page_index
+    def get_reordered_pdf_annotations(self, pages: Pages, annotation: Annotation) -> "PdfAnnotation":
+        tokens_annotations = self.get_annotations_from_pages(pages)
+        pdf_annotation_from_tokens = PdfAnnotation(annotations=tokens_annotations).set_labels_for_reading_order()
+
+        matching_annotations = [
+            a
+            for a in pdf_annotation_from_tokens.annotations
+            if a.page == annotation.page and a.bounds.intersection_percentage(annotation.bounds) > 0
         ]
-        other_annotations_in_page = [annotation for annotation in page_annotations if annotation != annotation_to_reorder]
-        annotations_reordered = (
-            other_annotations_in_page[:position_index] + [annotation_to_reorder] + other_annotations_in_page[position_index:]
+
+        if not matching_annotations:
+            return pdf_annotation_from_tokens
+
+        matching_annotations.sort(key=lambda a: (a.bounds.top, a.bounds.left))
+        position = min([int(a.label.text) if a.label.text.isdigit() else 9999 for a in matching_annotations])
+
+        other_annotations = [a for a in pdf_annotation_from_tokens.annotations if a not in matching_annotations]
+
+        annotations_pages_before = [a for a in other_annotations if a.page < matching_annotations[0].page]
+        annotations_from_page = [a for a in other_annotations if a.page == matching_annotations[0].page]
+        annotations_pages_after = [a for a in other_annotations if a.page > matching_annotations[0].page]
+
+        page_annotations_reordered = (
+            annotations_from_page[: position - 1] + matching_annotations + annotations_from_page[position - 1 :]
         )
 
-        for index, annotation in enumerate(annotations_reordered):
+        for index, annotation in enumerate(page_annotations_reordered):
             annotation.label.text = str(index + 1)
 
-        return PdfAnnotation(annotations=annotations_reordered + other_pages_annotations)
+        return PdfAnnotation(annotations=annotations_pages_before + page_annotations_reordered + annotations_pages_after)
 
-    def get_annotation_from_token(self, token: Token) -> Annotation:
-        page_annotations = [annotation for annotation in self.annotations if annotation.page == token.page_index]
-        distances = [annotation.get_distance_from_token(token) for annotation in page_annotations]
-        annotation_index = distances.index(min(distances))
-        return page_annotations[annotation_index]
+    def set_labels_for_reading_order(self) -> "PdfAnnotation":
+        if not self.annotations:
+            return PdfAnnotation.get_empty_annotation()
 
-    def save(self, annotations_path):
-        with open(annotations_path, "w+") as f:
-            f.write(self.json())
+        self.annotations.sort(key=lambda a: (a.page, int(a.label.text) if a.label.text.isdigit() else 99999))
+        index = 1
+        current_page = self.annotations[0].page
+        for annotation in self.annotations:
+            if current_page != annotation.page:
+                current_page = annotation.page
+                index = 1
+
+            annotation.label.text = str(index)
+            annotation.label.color = "#E8D3A2"
+            index += 1
+
+        return self
+
+    def get_annotations_from_pages(self, pages: Pages) -> list[Annotation]:
+        self.sorted_annotation_by_area = sorted(self.annotations, key=lambda a: a.bounds.area())
+        annotations = []
+        for page in pages.pages:
+            for token in page.tokens:
+                annotations.append(Annotation.from_token(page, token))
+                self.set_label_to_annotation(annotations[-1])
+
+        return annotations
+
+    def set_label_to_annotation(self, annotation: Annotation):
+        for annotation_by_size in self.sorted_annotation_by_area:
+            if annotation_by_size.bounds.intersection_percentage(annotation.bounds) > 98:
+                annotation.label = annotation_by_size.label
 
     @staticmethod
     def get_empty_annotation():
         return PdfAnnotation(annotations=[])
 
     @staticmethod
-    def from_path(labels_path: Path, labels: list[Label], reading_order: bool):
+    def from_path(labels_path: Path, labels: list[Label], is_reading_order: bool):
         labels_text = labels_path.read_text()
         labels_dict = json.loads(labels_text)
         token_type_labels = TokenTypeLabels(**labels_dict)
         annotations: list[Annotation] = list()
         for token_type_page, token_type_label in PdfAnnotation.loop_token_type_tokens(token_type_labels):
-            annotations.append(Annotation.from_label(token_type_page, token_type_label, labels, reading_order))
+            annotations.append(Annotation.from_label(token_type_page, token_type_label, labels, is_reading_order))
 
         return PdfAnnotation(annotations=annotations)
 
-    def to_token_type_labels(self) -> TokenTypeLabels:
+    def to_token_type_labels(self, is_reading_order=False) -> TokenTypeLabels:
         page_numbers = {annotation.page for annotation in self.annotations}
         token_type_pages: list[TokenTypePage] = list()
         for page_number in page_numbers:
             page_annotations = [annotation for annotation in self.annotations if annotation.page == page_number]
-            token_type_labels: list[TokenTypeLabel] = [annotation.to_token_type_label() for annotation in page_annotations]
+            token_type_labels: list[TokenTypeLabel] = [
+                annotation.to_token_type_label(is_reading_order) for annotation in page_annotations
+            ]
             token_type_labels.sort(
                 key=lambda token_type_label: (
                     token_type_label.top,

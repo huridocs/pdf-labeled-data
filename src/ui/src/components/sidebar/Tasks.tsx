@@ -5,11 +5,10 @@ import { Contrast, SidebarItem, SidebarItemTitle } from './common';
 import { InfoCircleOutlined } from '@ant-design/icons';
 import { Tooltip } from '@allenai/varnish';
 import { getDatasets, saveActiveDatasets } from '../../api';
-import { DatasetsStore } from '../../context/DatasetsStore';
+import { DatasetsStore, TASKS } from '../../context';
 import { useNavigate } from 'react-router-dom';
 
 export const Tasks = () => {
-    const tasks = ['Token Type', 'Reading Order', 'Paragraph Extraction', 'Table Of Content'];
     const { activeTask, setDatasets, setActiveDataset, setActiveTask } = useContext(DatasetsStore);
     const navigate = useNavigate();
 
@@ -22,6 +21,11 @@ export const Tasks = () => {
         navigate(`/`);
     };
 
+    const titleCase = (taskKey: string) =>
+        taskKey.replace(/^_*(.)|_+(.)/g, (s, c, d) =>
+            c ? c.toUpperCase() : ' ' + d.toUpperCase()
+        );
+
     return (
         <SidebarItem>
             <SidebarItemTitle>Tasks</SidebarItemTitle>
@@ -30,32 +34,26 @@ export const Tasks = () => {
                 Pick the task to execute
             </ExplainerText>
             <span>
-                {tasks.length !== 0 ? (
-                    <>
-                        {tasks.map((task) => (
-                            <Tooltip
-                                key={task}
-                                placement="left"
-                                trigger={['hover']}
-                                overlay={<span>{task}</span>}>
-                                <span>
-                                    {task === activeTask && (
-                                        <PaddedRowSelected>
-                                            <Contrast>{task}</Contrast>
-                                        </PaddedRowSelected>
-                                    )}
-                                    {task !== activeTask && (
-                                        <PaddedRow onClick={() => changeTask(task)}>
-                                            <Contrast>{task}</Contrast>
-                                        </PaddedRow>
-                                    )}
-                                </span>
-                            </Tooltip>
-                        ))}
-                    </>
-                ) : (
-                    <>No tasks!</>
-                )}
+                {Object.keys(TASKS).map((task) => (
+                    <Tooltip
+                        key={task}
+                        placement="left"
+                        trigger={['hover']}
+                        overlay={<span>{task}</span>}>
+                        <span>
+                            {task === activeTask && (
+                                <PaddedRowSelected>
+                                    <Contrast>{titleCase(task)}</Contrast>
+                                </PaddedRowSelected>
+                            )}
+                            {task !== activeTask && (
+                                <PaddedRow onClick={() => changeTask(task)}>
+                                    <Contrast>{titleCase(task)}</Contrast>
+                                </PaddedRow>
+                            )}
+                        </span>
+                    </Tooltip>
+                ))}
             </span>
         </SidebarItem>
     );

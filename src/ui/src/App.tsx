@@ -14,8 +14,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import { PDFPage } from './pages';
 import { getDatasets, getActiveDataset, getActiveTask, saveActiveDatasets } from './api';
-import { OptionsStore, READING_ORDER, SHOW_TOKENS } from './context/OptionsStore';
-import { DatasetsStore } from './context/DatasetsStore';
+import { OptionsStore, SHOW_TOKENS, DatasetsStore } from './context';
 import { RedirectToFirstPaper } from './RedirectToFirstPaper';
 
 const App = () => {
@@ -24,7 +23,6 @@ const App = () => {
     const [activeTask, setActiveTask] = useState<string>('');
 
     const [options, setOptions] = useState<{ [key: string]: boolean }>({
-        [READING_ORDER]: false,
         [SHOW_TOKENS]: false,
     });
 

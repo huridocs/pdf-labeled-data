@@ -9,9 +9,7 @@ from pdf_token_type_labels.TokenTypePage import TokenTypePage
 
 from scripts.import_token_type import loop_xmls
 
-sys.path.append(
-    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-)
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 from lxml import etree
 from lxml.etree import ElementBase
@@ -34,9 +32,7 @@ def create_labels():
 
 
 def inside_labels_to_json_labels(dataset_type_name: str, xml_name: str):
-    file: str = open(
-        join(LABELED_XML_DESTINATION, get_folder_name(xml_name), XML_NAME)
-    ).read()
+    file: str = open(join(LABELED_XML_DESTINATION, get_folder_name(xml_name), XML_NAME)).read()
     file_bytes: bytes = file.encode("utf-8")
     root: ElementBase = etree.fromstring(file_bytes)
 
@@ -48,9 +44,7 @@ def inside_labels_to_json_labels(dataset_type_name: str, xml_name: str):
             label = get_reading_order_label(text_element)
             page_labels.append(label)
 
-        token_type_labels.pages.append(
-            TokenTypePage(number=page_element.attrib["number"], labels=page_labels)
-        )
+        token_type_labels.pages.append(TokenTypePage(number=page_element.attrib["number"], labels=page_labels))
 
     labels_path: Path = Path(
         join(
@@ -62,6 +56,10 @@ def inside_labels_to_json_labels(dataset_type_name: str, xml_name: str):
         )
     )
 
+    if exists(labels_path):
+        return
+
+    print("writing", labels_path)
     if not exists(labels_path.parent):
         os.makedirs(labels_path.parent)
 
@@ -74,7 +72,7 @@ def get_reading_order_label(text_element: ElementBase):
         left=text_element.attrib["left"],
         width=text_element.attrib["width"],
         height=text_element.attrib["height"],
-        token_type=int(text_element.attrib["reading_order_no"]),
+        token_type=int(text_element.attrib["reading_order_no"]) + 1,
     )
 
 

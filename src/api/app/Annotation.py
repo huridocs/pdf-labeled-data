@@ -6,6 +6,7 @@ from pdf_token_type_labels.TokenTypeLabel import TokenTypeLabel
 from pdf_token_type_labels.TokenTypePage import TokenTypePage
 from pydantic import BaseModel
 
+from api.app.Page import Page
 from api.app.Token import Token
 from api.app.annotations import Bounds, TokenId
 
@@ -19,42 +20,34 @@ class Annotation(BaseModel):
     bounds: Bounds
     tokens: Optional[list[TokenId]] = None
 
-    def get_distance_from_token(self, token: Token):
-        return (
-            abs(self.bounds.left - token.x)
-            + abs(self.bounds.top - token.y)
-            + abs(self.bounds.right - (token.x + token.width))
-            + abs(self.bounds.bottom - (token.y + token.height))
-        )
-
     def get_tokens(self, pages: dict[any, any]) -> list[Token]:
-        page = [
-            page_tokens
-            for page_tokens in pages
-            if page_tokens["page"]["index"] == self.page
-        ]
+        page = [page_tokens for page_tokens in pages if page_tokens["page"]["index"] == self.page]
         if not page:
             return []
 
         tokens_to_reorder_indexes = [token.tokenIndex for token in self.tokens]
-        page_tokens = [
-            Token(**token, page_index=self.page) for token in page[0]["tokens"]
-        ]
-        tokens_to_reorder = [
-            token
-            for index, token in enumerate(page_tokens)
-            if index in tokens_to_reorder_indexes
-        ]
+        page_tokens = [Token(**token, page_index=self.page) for token in page[0]["tokens"]]
+        tokens_to_reorder = [token for index, token in enumerate(page_tokens) if index in tokens_to_reorder_indexes]
         return tokens_to_reorder
+
+    @staticmethod
+    def from_token(page: Page, token: Token):
+        return Annotation(
+            id=str(uuid.uuid4()),
+            page=page.index,
+            label=Label(text="", color=""),
+            bounds=Bounds.from_token(token),
+            tokens=[],
+        )
 
     @staticmethod
     def from_label(
         token_type_page: TokenTypePage,
         token_type_label: TokenTypeLabel,
         labels: list[Label],
-        reading_order: bool,
+        is_reading_order: bool,
     ):
-        if reading_order:
+        if is_reading_order:
             try:
                 text = str(token_type_label.token_type.get_index())
             except AttributeError:
@@ -68,9 +61,7 @@ class Annotation(BaseModel):
                 tokens=[],
             )
 
-        annotation_labels = [
-            label for label in labels if label.text == token_type_label.token_type.value
-        ]
+        annotation_labels = [label for label in labels if label.text == token_type_label.token_type.value]
 
         if annotation_labels:
             label = annotation_labels[0]
@@ -85,11 +76,11 @@ class Annotation(BaseModel):
             tokens=[],
         )
 
-    def to_token_type_label(self) -> TokenTypeLabel:
+    def to_token_type_label(self, is_reading_order: bool = False) -> TokenTypeLabel:
         return TokenTypeLabel(
             top=self.bounds.top,
             left=self.bounds.left,
             width=self.bounds.right - self.bounds.left,
             height=self.bounds.bottom - self.bounds.top,
-            token_type=TokenType.from_text(self.label.text),
+            token_type=int(self.label.text) if is_reading_order else TokenType.from_text(self.label.text),
         )

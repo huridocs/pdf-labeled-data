@@ -2,9 +2,9 @@ import React, { MouseEvent, useContext, useState } from 'react';
 import styled, { ThemeContext } from 'styled-components';
 import { Modal, Select } from '@allenai/varnish';
 
-import { Bounds, TokenId, PDFPageInfo, Annotation, AnnotationStore } from '../context';
+import { Bounds, TokenId, PDFPageInfo, Annotation, AnnotationStore, TASKS } from '../context';
 import { CloseCircleFilled, EditFilled } from '@ant-design/icons';
-import { OptionsStore, READING_ORDER } from '../context/OptionsStore';
+import { DatasetsStore } from '../context/DatasetsStore';
 
 function hexToRgb(hex: string) {
     const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
@@ -195,9 +195,8 @@ interface SelectionProps {
 export const Selection = ({ pageInfo, annotation, showInfo = true }: SelectionProps) => {
     const label = annotation.label;
     const theme = useContext(ThemeContext);
-    const { options } = useContext(OptionsStore);
     const [isEditLabelModalVisible, setIsEditLabelModalVisible] = useState(false);
-
+    const { activeTask } = useContext(DatasetsStore);
     const annotationStore = useContext(AnnotationStore);
 
     let color;
@@ -243,7 +242,7 @@ export const Selection = ({ pageInfo, annotation, showInfo = true }: SelectionPr
                 {showInfo && !annotationStore.hideLabels && !annotation.hideLabel ? (
                     <SelectionInfo border={border} color={color} onClick={onShiftClick}>
                         <span>{label.text}</span>
-                        {!options[READING_ORDER] && (
+                        {activeTask !== TASKS.reading_order && (
                             <>
                                 <EditFilled
                                     onClick={(e) => {

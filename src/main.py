@@ -8,6 +8,7 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException, Response
 from fastapi.responses import FileResponse
 
+from api.app.Annotation import Annotation
 from api.app.Label import Label
 from api.app.Pages import Pages
 from api.app.PdfStatus import PdfStatus
@@ -26,9 +27,7 @@ if IN_PRODUCTION == "prod":
     json_handler.setFormatter(StackdriverJsonFormatter())
     handlers = [json_handler]
 
-logging.basicConfig(
-    level=os.environ.get("LOG_LEVEL", default=logging.INFO), handlers=handlers
-)
+logging.basicConfig(level=os.environ.get("LOG_LEVEL", default=logging.INFO), handlers=handlers)
 logger = logging.getLogger("uvicorn")
 
 # boto3 logging is _super_ verbose.
@@ -40,9 +39,7 @@ logging.getLogger("s3transfer").setLevel(logging.CRITICAL)
 app = FastAPI()
 
 
-def update_status_json(
-    status_path: str, sha: str, status_type: str, status_value: bool
-):
+def update_status_json(status_path: str, sha: str, status_type: str, status_value: bool):
     status_folder = "/".join(status_path.split("/")[:-1])
     if not exists(status_folder):
         os.mkdir(status_folder)
@@ -59,14 +56,6 @@ def update_status_json(
 
     with open(status_path, "w") as st:
         json.dump(status_dict, st)
-
-
-def get_object_from_file(path: str):
-    if os.path.exists(path):
-        with open(path) as f:
-            return json.load(f)
-
-    return None
 
 
 @app.get("/", status_code=204)
@@ -104,9 +93,7 @@ def exists_active_dataset():
 @app.get("/api/annotation/datasets/{task}")
 async def get_datasets(task: str = None) -> list[str]:
     path = get_task_folder_path(task)
-    datasets = [
-        dataset for dataset in os.listdir(path) if valid_folder(join(path, dataset))
-    ]
+    datasets = [dataset for dataset in os.listdir(path) if valid_folder(join(path, dataset))]
 
     if datasets:
         return datasets
@@ -127,23 +114,16 @@ async def get_active_task() -> str:
     for task in os.listdir(LABELED_DATA_PATH):
         path = get_task_folder_path(task)
         if exists(Path(join(path, "active_dataset.txt"))):
-            return await lower_snake_case_to_title_case(task)
+            return task
 
-    return await lower_snake_case_to_title_case(os.listdir(LABELED_DATA_PATH)[0])
-
-
-async def lower_snake_case_to_title_case(task):
-    return " ".join([x[0].upper() + x[1:] for x in task.split("_")])
+    return await os.listdir(LABELED_DATA_PATH)[0]
 
 
 @app.get("/api/annotation/active_dataset")
 async def get_active_dataset() -> str:
     for task in os.listdir(LABELED_DATA_PATH):
         path = get_task_folder_path(task)
-        if (
-            exists(Path(join(path, "active_dataset.txt")))
-            and Path(join(path, "active_dataset.txt")).read_text()
-        ):
+        if exists(Path(join(path, "active_dataset.txt"))) and Path(join(path, "active_dataset.txt")).read_text():
             return Path(join(path, "active_dataset.txt")).read_text()
 
     return "No datasets"
@@ -224,36 +204,33 @@ def set_pdf_junk(task: str, dataset: str, name: str, junk: bool):
 
 
 def get_labels_path(task: str, dataset: str, name: str):
-    task_snake_case = task.lower().replace(" ", "_")
-    labels_path = join(LABELED_DATA_PATH, task_snake_case, dataset, name, "labels.json")
-    return labels_path
+    return join(LABELED_DATA_PATH, task, dataset, name, "labels.json")
 
 
 @app.get("/api/pdf/{task}/{dataset}/{name}/annotations")
 def get_annotations(task: str, dataset: str, name: str) -> PdfAnnotation:
-    reading_order = task.lower() == "reading order"
-
+    is_reading_order = task == "reading_order"
     labels_file_path = get_labels_path(task, dataset, name)
 
     if not exists(labels_file_path):
         return PdfAnnotation.get_empty_annotation()
 
     labels_definitions = get_labels_definition(task)
-    annotation = PdfAnnotation.from_path(
-        Path(labels_file_path), labels_definitions, reading_order
-    )
+    pdf_annotation = PdfAnnotation.from_path(Path(labels_file_path), labels_definitions, is_reading_order)
 
-    if annotation:
-        return annotation
+    if pdf_annotation:
+        return pdf_annotation
 
     return PdfAnnotation.get_empty_annotation()
 
 
 @app.post("/api/doc/{task}/{dataset}/{name}/annotations")
 def save_annotations(task: str, dataset: str, name: str, annotations: PdfAnnotation):
-    reading_order = task.lower() == "reading order"
+    logger.error(f"Save first label {annotations.annotations[0].label.text}")
 
-    if reading_order:
+    is_reading_order = task == "reading_order"
+
+    if is_reading_order:
         pass
 
     labels_file_path = get_labels_path(task, dataset, name)
@@ -266,11 +243,11 @@ def save_annotations(task: str, dataset: str, name: str, annotations: PdfAnnotat
 
 @app.get("/api/pdf/{name}/tokens")
 def get_tokens(name: str):
-    pdf_tokens = os.path.join(PDFS_PATH, name, "etree.xml")
-    if not os.path.exists(pdf_tokens):
+    pdf_tokens_path = os.path.join(PDFS_PATH, name, "etree.xml")
+    if not os.path.exists(pdf_tokens_path):
         raise HTTPException(status_code=403, detail="No tokens for pdf.")
 
-    return Pages.from_etree(pdf_tokens)
+    return Pages.from_etree(pdf_tokens_path)
 
 
 def get_labels_definition(task: str) -> list[Label]:
@@ -290,8 +267,7 @@ def get_labels(task: str) -> list[Label]:
 
 def get_task_folder_path(task):
     task = task if task else "token_type"
-    task_folder_name = join(task.replace(" ", "_").lower())
-    return join(LABELED_DATA_PATH, task_folder_name)
+    return join(LABELED_DATA_PATH, task)
 
 
 def loop_pdfs(task, dataset):
@@ -315,3 +291,38 @@ def get_pdfs_statuses(task: str, dataset: str) -> list[PdfStatus]:
         pdf_statuses.append(PdfStatus(name=pdf_name, finished=finished, junk=junk))
 
     return pdf_statuses
+
+
+@app.post("/api/annotation/reading_order/{dataset}/{name}/{position}")
+def save_reading_order_annotation(dataset: str, name: str, position: int, annotation: Annotation) -> PdfAnnotation:
+    labels_file_path = get_labels_path("reading_order", dataset, name)
+
+    pdf_tokens_path = os.path.join(PDFS_PATH, name, "etree.xml")
+    pages = Pages.from_etree(pdf_tokens_path)
+
+    labels_definitions = get_labels_definition("reading_order")
+    pdf_annotations = PdfAnnotation.from_path(Path(labels_file_path), labels_definitions, True)
+
+    pdf_annotations = pdf_annotations.get_reordered_pdf_annotation_by_position(pages, annotation, position)
+
+    token_type_labels = pdf_annotations.to_token_type_labels(is_reading_order=True)
+    Path(labels_file_path).write_text(token_type_labels.model_dump_json(indent=4))
+    return pdf_annotations
+
+
+@app.post("/api/annotations/reading_order/{dataset}/{name}")
+def save_reading_order_annotations(dataset: str, name: str, annotation: Annotation) -> PdfAnnotation:
+    labels_file_path = get_labels_path("reading_order", dataset, name)
+
+    pdf_tokens_path = os.path.join(PDFS_PATH, name, "etree.xml")
+    pages = Pages.from_etree(pdf_tokens_path)
+
+    labels_definitions = get_labels_definition("reading_order")
+    pdf_annotations = PdfAnnotation.from_path(Path(labels_file_path), labels_definitions, True)
+
+    pdf_annotations = pdf_annotations.get_reordered_pdf_annotations(pages, annotation)
+
+    token_type_labels = pdf_annotations.to_token_type_labels(is_reading_order=True)
+    Path(labels_file_path).write_text(token_type_labels.model_dump_json(indent=4))
+
+    return pdf_annotations

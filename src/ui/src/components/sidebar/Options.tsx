@@ -5,7 +5,7 @@ import { Switch } from '@allenai/varnish';
 import { CheckOutlined, CloseOutlined } from '@ant-design/icons';
 
 import { SidebarItem, SidebarItemTitle } from './common';
-import { OptionsStore, SHOW_TOKENS } from '../../context/OptionsStore';
+import { OptionsStore, SHOW_TOKENS } from '../../context';
 
 export const Options = () => {
     const { options, setOptions } = useContext(OptionsStore);
