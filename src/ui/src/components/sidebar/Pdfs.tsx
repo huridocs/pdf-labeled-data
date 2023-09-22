@@ -46,7 +46,7 @@ const PdfRow = (props: { pdfStatus: PdfStatus }) => {
     return (
         <PaddedRow>
             <Contrast key={pdfStatus.name}>
-                <a href={`/pdf/${pdfStatus.name}`}>
+                <a onClick={() => navigate(`/pdf/${pdfStatus.name}`)}>
                     {pdfStatus.name === currentName && <Selected>{pdfStatus.name}</Selected>}
                     {pdfStatus.name !== currentName && pdfStatus.name}
                 </a>
