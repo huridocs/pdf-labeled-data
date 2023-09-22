@@ -162,6 +162,14 @@ export const Page = ({ pageInfo, onError }: PageProps) => {
         }
     }, [pageInfo, onError]); // We deliberately only run this once.
 
+    useEffect(() => {
+        if (isReadingOrderModalVisible) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'unset';
+        }
+    }, [isReadingOrderModalVisible]);
+
     async function changeReadingOrder() {
         if (!selection) {
             return;
