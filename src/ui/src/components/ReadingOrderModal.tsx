@@ -16,6 +16,7 @@ export const ReadingOrderModal = ({ annotations, onHide }: ReadingOrderModalProp
     const { selectedAnnotations, setSelectedAnnotations, setPdfAnnotations } = useContext(
         AnnotationStore
     );
+    const [readingOrderLabels, setReadingOrderLabels] = useState<string[]>([]);
 
     const { name: currentName } = useParams<{ name: string }>();
 
@@ -72,6 +73,21 @@ export const ReadingOrderModal = ({ annotations, onHide }: ReadingOrderModalProp
         };
     }, [annotations]);
 
+    useEffect(() => {
+        const newReadingOrderLabels: string[] = annotations
+            .map((annotation) => annotation.label.text)
+            .sort((a, b) => {
+                return parseInt(a) > parseInt(b) ? 1 : -1;
+            })
+            .reduce(function (acc: string[], curr) {
+                if (!acc.includes(curr)) {
+                    acc.push(curr);
+                }
+                return acc;
+            }, []);
+        setReadingOrderLabels(newReadingOrderLabels);
+    }, [annotations]);
+
     return (
         <Modal
             title="Reading order position"
@@ -87,15 +103,11 @@ export const ReadingOrderModal = ({ annotations, onHide }: ReadingOrderModalProp
                     await changeReadingOrder(e);
                 }}
                 style={{ display: 'block' }}>
-                {annotations
-                    .sort((a, b) => {
-                        return parseInt(a.label.text) > parseInt(b.label.text) ? 1 : -1;
-                    })
-                    .map((annotation: Annotation) => (
-                        <Select.Option value={annotation.label.text} key={annotation.label.text}>
-                            {annotation.label.text}
-                        </Select.Option>
-                    ))}
+                {readingOrderLabels.map((label) => (
+                    <Select.Option value={label} key={label}>
+                        {label}
+                    </Select.Option>
+                ))}
             </Select>
         </Modal>
     );
