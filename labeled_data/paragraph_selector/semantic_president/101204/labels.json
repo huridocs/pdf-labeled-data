@@ -1,0 +1,73 @@
+{
+    "pages": [
+        {
+            "number": 1,
+            "labels": [
+                {
+                    "top": 255,
+                    "left": 85,
+                    "width": 441,
+                    "height": 21,
+                    "token_type": "PARAGRAPH"
+                },
+                {
+                    "top": 512,
+                    "left": 121,
+                    "width": 374,
+                    "height": 41,
+                    "token_type": "PARAGRAPH"
+                },
+                {
+                    "top": 676,
+                    "left": 85,
+                    "width": 441,
+                    "height": 33,
+                    "token_type": "PARAGRAPH"
+                }
+            ]
+        },
+        {
+            "number": 2,
+            "labels": [
+                {
+                    "top": 135,
+                    "left": 85,
+                    "width": 441,
+                    "height": 33,
+                    "token_type": "PARAGRAPH"
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "labels": [
+                {
+                    "top": 346,
+                    "left": 85,
+                    "width": 441,
+                    "height": 69,
+                    "token_type": "PARAGRAPH"
+                }
+            ]
+        },
+        {
+            "number": 4,
+            "labels": [
+                {
+                    "top": 135,
+                    "left": 241,
+                    "width": 127,
+                    "height": 21,
+                    "token_type": "PARAGRAPH"
+                },
+                {
+                    "top": 375,
+                    "left": 398,
+                    "width": 127,
+                    "height": 21,
+                    "token_type": "PARAGRAPH"
+                }
+            ]
+        }
+    ]
+}
