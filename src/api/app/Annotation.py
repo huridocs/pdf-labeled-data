@@ -1,6 +1,7 @@
 import uuid
 from typing import Optional
 
+from pdf_token_type_labels.TaskMistakesType import TaskMistakesType
 from pdf_token_type_labels.TokenType import TokenType
 from pdf_token_type_labels.TokenTypeLabel import TokenTypeLabel
 from pdf_token_type_labels.TokenTypePage import TokenTypePage
@@ -77,10 +78,19 @@ class Annotation(BaseModel):
         )
 
     def to_token_type_label(self, is_reading_order: bool = False) -> TokenTypeLabel:
+        if TaskMistakesType.contains(self.label.text):
+            return TokenTypeLabel(
+                top=round(self.bounds.top),
+                left=round(self.bounds.left),
+                width=round(self.bounds.right - self.bounds.left),
+                height=round(self.bounds.bottom - self.bounds.top),
+                token_type=TaskMistakesType.from_text(self.label.text),
+            )
+
         return TokenTypeLabel(
-            top=self.bounds.top,
-            left=self.bounds.left,
-            width=self.bounds.right - self.bounds.left,
-            height=self.bounds.bottom - self.bounds.top,
+            top=round(self.bounds.top),
+            left=round(self.bounds.left),
+            width=round(self.bounds.right - self.bounds.left),
+            height=round(self.bounds.bottom - self.bounds.top),
             token_type=int(self.label.text) if is_reading_order else TokenType.from_text(self.label.text),
         )

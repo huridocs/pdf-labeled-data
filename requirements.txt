@@ -1,6 +1,5 @@
 lxml==4.9.3
-pydantic==2.1.1
-setuptools==68.0.0
-fastapi==0.101.0
-requests==2.31.0
-git+https://github.com/huridocs/pdf-tokens-type-labeler@d2dae31bc830a80bfc0f5a4f91d283af850c20ac
+pydantic==2.4.2
+setuptools==68.2.2
+fastapi==0.104.0
+git+https://github.com/huridocs/pdf-tokens-type-labeler@6732ed64e1b227505881acee86706d9e152bf5fc
