@@ -1,23 +1,21 @@
 import uuid
 from typing import Optional
 
-from pdf_token_type_labels.TaskMistakesType import TaskMistakesType
-from pdf_token_type_labels.TokenType import TokenType
-from pdf_token_type_labels.TokenTypeLabel import TokenTypeLabel
-from pdf_token_type_labels.TokenTypePage import TokenTypePage
+from pdf_token_type_labels.Label import Label
+from pdf_token_type_labels.PageLabels import PageLabels
 from pydantic import BaseModel
 
 from api.app.Page import Page
 from api.app.Token import Token
 from api.app.annotations import Bounds, TokenId
 
-from api.app.Label import Label
+from api.app.LabelColor import LabelColor
 
 
 class Annotation(BaseModel):
     id: str
     page: int
-    label: Label
+    label: LabelColor
     bounds: Bounds
     tokens: Optional[list[TokenId]] = None
 
@@ -36,61 +34,58 @@ class Annotation(BaseModel):
         return Annotation(
             id=str(uuid.uuid4()),
             page=page.index,
-            label=Label(text="", color=""),
+            label=LabelColor(text="", color=""),
             bounds=Bounds.from_token(token),
             tokens=[],
         )
 
     @staticmethod
     def from_label(
-        token_type_page: TokenTypePage,
-        token_type_label: TokenTypeLabel,
-        labels: list[Label],
+        token_type_page: PageLabels,
+        label: Label,
+        labels_colors: list[LabelColor],
         is_reading_order: bool,
     ):
         if is_reading_order:
             try:
-                text = str(token_type_label.token_type.get_index())
-            except AttributeError:
-                text = str(token_type_label.token_type)
+                text = str(labels_colors[label.label_type].text) if not label.text else label.text
+            except (AttributeError, IndexError):
+                text = str(label.token_type)
 
             return Annotation(
                 id=str(uuid.uuid4()),
                 page=token_type_page.number - 1,
-                label=Label(text=text, color=labels[0].color),
-                bounds=Bounds.from_label(token_type_label),
+                label=LabelColor(text=text, color=labels_colors[0].color),
+                bounds=Bounds.from_label(label),
                 tokens=[],
             )
 
-        annotation_labels = [label for label in labels if label.text == token_type_label.token_type.value]
+        annotation_labels = [label for label in labels_colors if label.text == label.token_type.value]
 
         if annotation_labels:
             label = annotation_labels[0]
         else:
-            label = labels[0]
+            label = labels_colors[0]
 
         return Annotation(
             id=str(uuid.uuid4()),
             page=token_type_page.number - 1,
             label=label,
-            bounds=Bounds.from_label(token_type_label),
+            bounds=Bounds.from_label(label),
             tokens=[],
         )
 
-    def to_token_type_label(self, is_reading_order: bool = False) -> TokenTypeLabel:
-        if TaskMistakesType.contains(self.label.text):
-            return TokenTypeLabel(
-                top=round(self.bounds.top),
-                left=round(self.bounds.left),
-                width=round(self.bounds.right - self.bounds.left),
-                height=round(self.bounds.bottom - self.bounds.top),
-                token_type=TaskMistakesType.from_text(self.label.text),
-            )
+    def to_token_type_label(self, labels_colors: list[LabelColor], is_reading_order: bool = False) -> Label:
+        label_type = 0
 
-        return TokenTypeLabel(
+        for index, label_color in enumerate(labels_colors):
+            if label_color.text == self.label.text:
+                label_type = index
+
+        return Label(
             top=round(self.bounds.top),
             left=round(self.bounds.left),
             width=round(self.bounds.right - self.bounds.left),
             height=round(self.bounds.bottom - self.bounds.top),
-            token_type=int(self.label.text) if is_reading_order else TokenType.from_text(self.label.text),
+            label_type=int(self.label.text) if is_reading_order else label_type,
         )

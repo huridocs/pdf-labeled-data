@@ -1,12 +1,12 @@
 import json
 from pathlib import Path
 
-from pdf_token_type_labels.TokenTypeLabel import TokenTypeLabel
-from pdf_token_type_labels.TokenTypeLabels import TokenTypeLabels
-from pdf_token_type_labels.TokenTypePage import TokenTypePage
+from pdf_token_type_labels.Label import Label
+from pdf_token_type_labels.PageLabels import PageLabels
+from pdf_token_type_labels.PdfLabels import PdfLabels
 from pydantic import BaseModel
 
-from api.app.Label import Label
+from api.app.LabelColor import LabelColor
 from api.app.Pages import Pages
 
 from api.app.Annotation import Annotation
@@ -128,36 +128,36 @@ class PdfAnnotation(BaseModel):
         return PdfAnnotation(annotations=[])
 
     @staticmethod
-    def from_path(labels_path: Path, labels: list[Label], is_reading_order: bool):
+    def from_path(labels_path: Path, labels_colors: list[LabelColor], is_reading_order: bool):
         labels_text = labels_path.read_text()
         labels_dict = json.loads(labels_text)
-        token_type_labels = TokenTypeLabels(**labels_dict)
+        pdf_labels = PdfLabels(**labels_dict)
         annotations: list[Annotation] = list()
-        for token_type_page, token_type_label in PdfAnnotation.loop_token_type_tokens(token_type_labels):
-            annotations.append(Annotation.from_label(token_type_page, token_type_label, labels, is_reading_order))
+        for token_type_page, token_type_label in PdfAnnotation.loop_token_type_tokens(pdf_labels):
+            annotations.append(Annotation.from_label(token_type_page, token_type_label, labels_colors, is_reading_order))
 
         return PdfAnnotation(annotations=annotations)
 
-    def to_token_type_labels(self, is_reading_order=False) -> TokenTypeLabels:
+    def to_token_type_labels(self, labels_colors: list[LabelColor], is_reading_order=False) -> PdfLabels:
         page_numbers = {annotation.page for annotation in self.annotations}
-        token_type_pages: list[TokenTypePage] = list()
+        token_type_pages: list[PageLabels] = list()
         for page_number in page_numbers:
             page_annotations = [annotation for annotation in self.annotations if annotation.page == page_number]
-            token_type_labels: list[TokenTypeLabel] = [
-                annotation.to_token_type_label(is_reading_order) for annotation in page_annotations
+            labels: list[Label] = [
+                annotation.to_token_type_label(labels_colors, is_reading_order) for annotation in page_annotations
             ]
-            token_type_labels.sort(
+            labels.sort(
                 key=lambda token_type_label: (
                     token_type_label.top,
                     token_type_label.left,
                 )
             )
-            token_type_pages.append(TokenTypePage(number=page_number + 1, labels=token_type_labels))
+            token_type_pages.append(PageLabels(number=page_number + 1, labels=labels))
 
-        return TokenTypeLabels(pages=token_type_pages)
+        return PdfLabels(pages=token_type_pages)
 
     @staticmethod
-    def loop_token_type_tokens(token_type_labels: TokenTypeLabels):
+    def loop_token_type_tokens(token_type_labels: PdfLabels):
         for token_type_page in token_type_labels.pages:
             for token_type_label in token_type_page.labels:
                 yield token_type_page, token_type_label

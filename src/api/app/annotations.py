@@ -1,8 +1,9 @@
 from typing import Optional
 
-from pdf_token_type_labels.TokenTypeLabel import TokenTypeLabel
+from pdf_token_type_labels.Label import Label
 from pydantic import BaseModel
 
+from api.app.LabelColor import LabelColor
 from api.app.Token import Token
 
 
@@ -13,10 +14,10 @@ class Bounds(BaseModel):
     bottom: float
 
     @staticmethod
-    def from_label(token_type_label: TokenTypeLabel):
-        right = token_type_label.left + token_type_label.width
-        bottom = token_type_label.top + token_type_label.height
-        return Bounds(top=token_type_label.top, left=token_type_label.left, right=right, bottom=bottom)
+    def from_label(label: Label):
+        right = label.left + label.width
+        bottom = label.top + label.height
+        return Bounds(top=label.top, left=label.left, right=right, bottom=bottom)
 
     @staticmethod
     def from_token(token: Token):
@@ -46,11 +47,6 @@ class Bounds(BaseModel):
         )
 
 
-class Label(BaseModel):
-    text: str
-    color: str
-
-
 class TokenId(BaseModel):
     pageIndex: int
     tokenIndex: int
@@ -59,17 +55,10 @@ class TokenId(BaseModel):
 class Annotation(BaseModel):
     id: str
     page: int
-    label: Label
+    label: LabelColor
     bounds: Bounds
     tokens: Optional[list[TokenId]] = None
 
 
-class RelationGroup(BaseModel):
-    sourceIds: list[str]
-    targetIds: list[str]
-    label: Label
-
-
 class PdfAnnotation(BaseModel):
     annotations: list[Annotation]
-    relations: list[RelationGroup]

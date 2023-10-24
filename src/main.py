@@ -9,7 +9,7 @@ from fastapi import FastAPI, HTTPException, Response
 from fastapi.responses import FileResponse
 
 from api.app.Annotation import Annotation
-from api.app.Label import Label
+from api.app.LabelColor import LabelColor
 from api.app.Pages import Pages
 from api.app.PdfStatus import PdfStatus
 from api.app.PdfAnnotations import PdfAnnotation
@@ -217,7 +217,7 @@ def get_annotations(task: str, dataset: str, name: str) -> PdfAnnotation:
     if not exists(labels_file_path):
         return PdfAnnotation.get_empty_annotation()
 
-    labels_definitions = get_labels_definition(task)
+    labels_definitions = get_labels_colors(task)
     pdf_annotation = PdfAnnotation.from_path(Path(labels_file_path), labels_definitions, is_reading_order)
 
     if pdf_annotation:
@@ -234,8 +234,8 @@ def save_annotations(task: str, dataset: str, name: str, annotations: PdfAnnotat
         pass
 
     labels_file_path = get_labels_path(task, dataset, name)
-
-    token_type_labels = annotations.to_token_type_labels()
+    labels_colors = get_labels_colors(task)
+    token_type_labels = annotations.to_token_type_labels(labels_colors=labels_colors)
     Path(labels_file_path).write_text(token_type_labels.model_dump_json(indent=4))
     os.chmod(labels_file_path, 0o777)
     return {}
@@ -250,19 +250,19 @@ def get_tokens(name: str):
     return Pages.from_etree(pdf_tokens_path)
 
 
-def get_labels_definition(task: str) -> list[Label]:
+def get_labels_colors(task: str) -> list[LabelColor]:
     labels_path = Path(join(get_task_folder_path(task), "labels.json"))
 
     if not exists(labels_path):
         Path(labels_path).write_text('[{ "text": "No labels", "color": "#e6194b" }]')
 
-    labels = [Label(**x) for x in json.loads(labels_path.read_text())]
-    return labels
+    labels_colors = [LabelColor(**x) for x in json.loads(labels_path.read_text())]
+    return labels_colors
 
 
 @app.get("/api/annotation/{task}/labels")
-def get_labels(task: str) -> list[Label]:
-    return get_labels_definition(task)
+def get_labels(task: str) -> list[LabelColor]:
+    return get_labels_colors(task)
 
 
 def get_task_folder_path(task):
@@ -300,12 +300,12 @@ def save_reading_order_annotation(dataset: str, name: str, position: int, annota
     pdf_tokens_path = os.path.join(PDFS_PATH, name, "etree.xml")
     pages = Pages.from_etree(pdf_tokens_path)
 
-    labels_definitions = get_labels_definition("reading_order")
-    pdf_annotations = PdfAnnotation.from_path(Path(labels_file_path), labels_definitions, True)
+    labels_colors = get_labels_colors("reading_order")
+    pdf_annotations = PdfAnnotation.from_path(Path(labels_file_path), labels_colors, True)
 
     pdf_annotations = pdf_annotations.get_reordered_pdf_annotation_by_position(pages, annotation, position)
 
-    token_type_labels = pdf_annotations.to_token_type_labels(is_reading_order=True)
+    token_type_labels = pdf_annotations.to_token_type_labels(labels_colors=labels_colors, is_reading_order=True)
     Path(labels_file_path).write_text(token_type_labels.model_dump_json(indent=4))
     return pdf_annotations
 
@@ -317,12 +317,12 @@ def save_reading_order_annotations(dataset: str, name: str, annotation: Annotati
     pdf_tokens_path = os.path.join(PDFS_PATH, name, "etree.xml")
     pages = Pages.from_etree(pdf_tokens_path)
 
-    labels_definitions = get_labels_definition("reading_order")
-    pdf_annotations = PdfAnnotation.from_path(Path(labels_file_path), labels_definitions, True)
+    labels_colors = get_labels_colors("reading_order")
+    pdf_annotations = PdfAnnotation.from_path(Path(labels_file_path), labels_colors, True)
 
     pdf_annotations = pdf_annotations.get_reordered_pdf_annotations(pages, annotation)
 
-    token_type_labels = pdf_annotations.to_token_type_labels(is_reading_order=True)
+    token_type_labels = pdf_annotations.to_token_type_labels(labels_colors=labels_colors, is_reading_order=True)
     Path(labels_file_path).write_text(token_type_labels.model_dump_json(indent=4))
 
     return pdf_annotations
