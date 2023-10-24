@@ -47,10 +47,7 @@ class Annotation(BaseModel):
         is_reading_order: bool,
     ):
         if is_reading_order:
-            try:
-                text = str(labels_colors[label.label_type].text) if not label.text else label.text
-            except (AttributeError, IndexError):
-                text = str(label.token_type)
+            text = str(label.label_type)
 
             return Annotation(
                 id=str(uuid.uuid4()),
@@ -60,17 +57,17 @@ class Annotation(BaseModel):
                 tokens=[],
             )
 
-        annotation_labels = [label for label in labels_colors if label.text == label.token_type.value]
+        annotation_labels = [label_color for index, label_color in enumerate(labels_colors) if index == label.label_type]
 
         if annotation_labels:
-            label = annotation_labels[0]
+            label_color = annotation_labels[0]
         else:
-            label = labels_colors[0]
+            label_color = labels_colors[0]
 
         return Annotation(
             id=str(uuid.uuid4()),
             page=token_type_page.number - 1,
-            label=label,
+            label=label_color,
             bounds=Bounds.from_label(label),
             tokens=[],
         )
