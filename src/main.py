@@ -105,7 +105,9 @@ async def get_datasets(task: str = None) -> list[str]:
 async def post_active_dataset(task: str = None, dataset: str = None):
     remove_active_datasets()
     path = get_task_folder_path(task)
-    Path(join(path, "active_dataset.txt")).write_text(dataset)
+    path_active_dataset = Path(join(path, "active_dataset.txt"))
+    path_active_dataset.write_text(dataset)
+    os.chmod(path_active_dataset, 0o777)
     return {}
 
 
@@ -116,7 +118,7 @@ async def get_active_task() -> str:
         if exists(Path(join(path, "active_dataset.txt"))):
             return task
 
-    return await os.listdir(LABELED_DATA_PATH)[0]
+    return os.listdir(LABELED_DATA_PATH)[0]
 
 
 @app.get("/api/annotation/active_dataset")
