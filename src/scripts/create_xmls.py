@@ -1,10 +1,8 @@
-import os
 import subprocess
 from os import listdir
 from os.path import join, exists
 
 from config import LABELED_XML_DESTINATION, XML_NAME, PDF_NAME
-from pdf_features.PdfFeatures import PdfFeatures
 
 
 def create_xmls():

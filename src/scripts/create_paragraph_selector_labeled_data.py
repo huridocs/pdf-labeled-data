@@ -47,17 +47,16 @@ def check_pdfs():
         if not it_matches(pdf_path):
             continue
 
-        pdf_new_path = join(LABELED_XML_DESTINATION, pdf_name, PDF_NAME)
+        pdf_new_path = join(LABELED_XML_DESTINATION, pdf_name.replace(".pdf", ""), PDF_NAME)
 
         if not exists(pdf_new_path):
             os.makedirs(Path(pdf_new_path).parent, exist_ok=True)
             shutil.copyfile(pdf_path, pdf_new_path)
 
-        xml_path = join(LABELED_DATA_DESTINATION, "rightdocs_titles", pdf_name)
-        os.makedirs(xml_path, exist_ok=True)
+        xml_path = join(LABELED_DATA_DESTINATION, "paragraph_selector", "rightdocs_titles", pdf_name.replace(".pdf", ""))
+        if not exists(xml_path):
+            os.makedirs(xml_path, exist_ok=True)
         pdfs_titles.append(pdf_name)
-        if len(pdfs_titles) >= 50:
-            break
 
     print(pdfs_titles)
     print(len(pdfs_titles))
