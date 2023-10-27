@@ -55,7 +55,7 @@ class PdfAnnotation(BaseModel):
         )
 
         for index, annotation in enumerate(page_annotations_reordered):
-            annotation.label.text = str(index + 1)
+            annotation.label.name = str(index + 1)
 
         return PdfAnnotation(annotations=annotations_pages_before + page_annotations_reordered + annotations_pages_after)
 
@@ -73,7 +73,7 @@ class PdfAnnotation(BaseModel):
             return pdf_annotation_from_tokens
 
         matching_annotations.sort(key=lambda a: (a.bounds.top, a.bounds.left))
-        position = min([int(a.label.text) if a.label.text.isdigit() else 9999 for a in matching_annotations])
+        position = min([int(a.label.name) if a.label.name.isdigit() else 9999 for a in matching_annotations])
 
         other_annotations = [a for a in pdf_annotation_from_tokens.annotations if a not in matching_annotations]
 
@@ -86,7 +86,7 @@ class PdfAnnotation(BaseModel):
         )
 
         for index, annotation in enumerate(page_annotations_reordered):
-            annotation.label.text = str(index + 1)
+            annotation.label.name = str(index + 1)
 
         return PdfAnnotation(annotations=annotations_pages_before + page_annotations_reordered + annotations_pages_after)
 
@@ -94,7 +94,7 @@ class PdfAnnotation(BaseModel):
         if not self.annotations:
             return PdfAnnotation.get_empty_annotation()
 
-        self.annotations.sort(key=lambda a: (a.page, int(a.label.text) if a.label.text.isdigit() else 99999))
+        self.annotations.sort(key=lambda a: (a.page, int(a.label.name) if a.label.name.isdigit() else 99999))
         index = 1
         current_page = self.annotations[0].page
         for annotation in self.annotations:
@@ -102,7 +102,7 @@ class PdfAnnotation(BaseModel):
                 current_page = annotation.page
                 index = 1
 
-            annotation.label.text = str(index)
+            annotation.label.name = str(index)
             annotation.label.color = "#E8D3A2"
             index += 1
 

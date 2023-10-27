@@ -40,7 +40,7 @@ export const AnnotationSummary = ({ annotation, pageTokens }: AnnotationSummaryP
     return (
         <PaddedRow>
             <Overflow>{text.slice(0, 30)}</Overflow>
-            <SmallTag color={annotation.label.color}>{annotation.label.text}</SmallTag>
+            <SmallTag color={annotation.label.color}>{annotation.label.name}</SmallTag>
             <SmallTag color="grey">Page {annotation.page + 1}</SmallTag>
             <DeleteFilled onClick={onDelete} />
         </PaddedRow>

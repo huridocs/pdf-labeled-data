@@ -166,10 +166,10 @@ const EditLabelModal = ({ annotation, onHide }: EditLabelModalProps) => {
             okButtonProps={{ onMouseDown }}
             visible>
             <Select<string>
-                value={selectedLabel.text}
+                value={selectedLabel.name}
                 onMouseDown={onMouseDown}
                 onChange={(labelText) => {
-                    const label = annotationStore.labels.find((l) => l.text === labelText);
+                    const label = annotationStore.labels.find((l) => l.name === labelText);
                     if (!label) {
                         return;
                     }
@@ -177,8 +177,8 @@ const EditLabelModal = ({ annotation, onHide }: EditLabelModalProps) => {
                 }}
                 style={{ display: 'block' }}>
                 {annotationStore.labels.map((l) => (
-                    <Select.Option value={l.text} key={l.text}>
-                        {l.text}
+                    <Select.Option value={l.name} key={l.name}>
+                        {l.name}
                     </Select.Option>
                 ))}
             </Select>
@@ -241,7 +241,9 @@ export const Selection = ({ pageInfo, annotation, showInfo = true }: SelectionPr
                 isMouseSelection={false}>
                 {showInfo && !annotationStore.hideLabels && !annotation.hideLabel ? (
                     <SelectionInfo border={border} color={color} onClick={onShiftClick}>
-                        <span>{label.text}</span>
+                        <span>
+                            {label.name} {label.metadata}
+                        </span>
                         {activeTask !== TASKS.reading_order && (
                             <>
                                 <EditFilled

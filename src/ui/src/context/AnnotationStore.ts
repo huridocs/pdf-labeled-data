@@ -133,21 +133,6 @@ export class Annotation {
         return new Annotation(obj.bounds, obj.page, obj.label, obj.tokens, obj.id);
     }
 
-    static fromObjectTokens(obj: Annotation, tokens: TokenId[]) {
-        return new Annotation(obj.bounds, obj.page, obj.label, tokens, obj.id);
-    }
-
-    static toAnnotationSegment(obj: Annotation) {
-        return new Annotation(
-            obj.bounds,
-            obj.page,
-            { text: 'segmentation', color: '#eac24c' },
-            obj.tokens,
-            'segmentation',
-            true
-        );
-    }
-
     static fromToken(token: Token, pageNumber: number) {
         return new Annotation(
             {
@@ -157,7 +142,7 @@ export class Annotation {
                 right: token.x + token.width,
             },
             pageNumber,
-            { text: 'segmentation', color: '#eac24c' },
+            { name: 'segmentation', color: '#eac24c', metadata: '' },
             null,
             'segmentation',
             true

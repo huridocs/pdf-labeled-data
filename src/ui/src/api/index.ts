@@ -73,8 +73,9 @@ export async function getTokens(name: string): Promise<PagesTokens> {
 }
 
 export interface Label {
-    text: string;
+    name: string;
     color: string;
+    metadata: string;
 }
 export async function getLabels(task: string): Promise<Label[]> {
     return axios.get(`/api/annotation/${task}/labels`).then((r) => r.data);

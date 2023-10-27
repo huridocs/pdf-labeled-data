@@ -34,7 +34,7 @@ class Annotation(BaseModel):
         return Annotation(
             id=str(uuid.uuid4()),
             page=page.index,
-            label=LabelColor(text="", color=""),
+            label=LabelColor(name="", color=""),
             bounds=Bounds.from_token(token),
             tokens=[],
         )
@@ -52,7 +52,7 @@ class Annotation(BaseModel):
             return Annotation(
                 id=str(uuid.uuid4()),
                 page=token_type_page.number - 1,
-                label=LabelColor(text=text, color=labels_colors[0].color),
+                label=LabelColor(name=text, color=labels_colors[0].color, metadata=label.metadata),
                 bounds=Bounds.from_label(label),
                 tokens=[],
             )
@@ -67,7 +67,7 @@ class Annotation(BaseModel):
         return Annotation(
             id=str(uuid.uuid4()),
             page=token_type_page.number - 1,
-            label=label_color,
+            label=LabelColor(name=label_color.name, color=label_color.color, metadata=label.metadata),
             bounds=Bounds.from_label(label),
             tokens=[],
         )
@@ -76,7 +76,7 @@ class Annotation(BaseModel):
         label_type = 0
 
         for index, label_color in enumerate(labels_colors):
-            if label_color.text == self.label.text:
+            if label_color.name == self.label.name:
                 label_type = index
 
         return Label(
@@ -84,5 +84,5 @@ class Annotation(BaseModel):
             left=round(self.bounds.left),
             width=round(self.bounds.right - self.bounds.left),
             height=round(self.bounds.bottom - self.bounds.top),
-            label_type=int(self.label.text) if is_reading_order else label_type,
+            label_type=int(self.label.name) if is_reading_order else label_type,
         )

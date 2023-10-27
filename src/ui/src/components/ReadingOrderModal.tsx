@@ -45,7 +45,7 @@ export const ReadingOrderModal = ({ annotations, onHide }: ReadingOrderModalProp
 
     useEffect(() => {
         const onKeyPress = async (e: KeyboardEvent) => {
-            const possibleValues = annotations.map((a) => a.label.text);
+            const possibleValues = annotations.map((a) => a.label.name);
 
             if (e.key === 'Enter') {
                 await changeReadingOrder(typedValue);
@@ -75,7 +75,7 @@ export const ReadingOrderModal = ({ annotations, onHide }: ReadingOrderModalProp
 
     useEffect(() => {
         const newReadingOrderLabels: string[] = annotations
-            .map((annotation) => annotation.label.text)
+            .map((annotation) => annotation.label.name)
             .sort((a, b) => {
                 return parseInt(a) > parseInt(b) ? 1 : -1;
             })

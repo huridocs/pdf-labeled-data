@@ -2,5 +2,6 @@ from pydantic import BaseModel
 
 
 class LabelColor(BaseModel):
-    text: str
+    name: str
     color: str
+    metadata: str = ""

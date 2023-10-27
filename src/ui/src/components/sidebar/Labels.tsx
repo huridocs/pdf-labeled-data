@@ -26,7 +26,7 @@ export const Labels = () => {
             if (e.key === 'ArrowLeft' || e.key === 'ArrowRight' || e.key === 'a' || e.key === 'd') {
                 if (!annotationStore.activeLabel) {
                     annotationStore.setActiveLabel(annotationStore.labels[0]);
-                    notification.info({ message: `Label ${annotationStore.labels[0].text}` });
+                    notification.info({ message: `Label ${annotationStore.labels[0].name}` });
                     return;
                 }
                 const currentIndex = annotationStore.labels.indexOf(annotationStore.activeLabel);
@@ -39,7 +39,7 @@ export const Labels = () => {
                         currentIndex === 0 ? annotationStore.labels.length - 1 : currentIndex - 1;
                 }
                 annotationStore.setActiveLabel(annotationStore.labels[next]);
-                notification.info({ message: `Label ${annotationStore.labels[next].text}` });
+                notification.info({ message: `Label ${annotationStore.labels[next].name}` });
             }
         };
         window.addEventListener('keydown', onKeyPress);
@@ -59,13 +59,13 @@ export const Labels = () => {
                 <div>
                     {annotationStore.labels.map((label) => (
                         <LabelTag
-                            key={label.text}
+                            key={label.name}
                             onClick={() => {
                                 annotationStore.setActiveLabel(label);
                             }}
                             checked={label === annotationStore.activeLabel}
                             style={{ color: label.color }}>
-                            {label.text}
+                            {label.name}
                         </LabelTag>
                     ))}
                 </div>

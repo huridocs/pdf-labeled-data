@@ -1,15 +1,15 @@
 [
-        {"text": "FORMULA", "color": "#808000"},
-        {"text": "FOOTNOTE", "color": "#7B68EE"},
-        {"text": "LIST", "color": "#008B8B"},
-        {"text": "TABLE", "color": "#FF8C00"},
-        {"text": "FIGURE", "color": "#C71585"},
-        {"text": "TITLE", "color": "#FFD700"},
-        {"text": "TEXT", "color": "#808080"},
-        {"text": "HEADER", "color": "#A2D7E8"},
-        {"text": "PAGE_NUMBER", "color": "#E8D3A2"},
-        {"text": "IMAGE_CAPTION", "color": "#FC92FC"},
-        {"text": "FOOTER", "color": "#988DD9"},
-        {"text": "TABLE_OF_CONTENT", "color": "#FFA07A"},
-        {"text": "MARK", "color": "#FF7A99"}
+        {"name": "FORMULA", "color": "#808000"},
+        {"name": "FOOTNOTE", "color": "#7B68EE"},
+        {"name": "LIST", "color": "#008B8B"},
+        {"name": "TABLE", "color": "#FF8C00"},
+        {"name": "FIGURE", "color": "#C71585"},
+        {"name": "TITLE", "color": "#FFD700"},
+        {"name": "TEXT", "color": "#808080"},
+        {"name": "HEADER", "color": "#A2D7E8"},
+        {"name": "PAGE_NUMBER", "color": "#E8D3A2"},
+        {"name": "IMAGE_CAPTION", "color": "#FC92FC"},
+        {"name": "FOOTER", "color": "#988DD9"},
+        {"name": "TABLE_OF_CONTENT", "color": "#FFA07A"},
+        {"name": "MARK", "color": "#FF7A99"}
 ]
