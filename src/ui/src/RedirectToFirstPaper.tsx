@@ -30,7 +30,7 @@ export const RedirectToFirstPaper = (props: { activeTask: string; activeDataset:
         getPdfsStatues(activeTask, activeDataset).then((pdfsStatuses) =>
             setPdfsStatuses(pdfsStatuses || [])
         );
-    }, []);
+    }, [activeTask, activeDataset]);
 
     return useMemo(() => {
         if (!pdfsStatuses) {

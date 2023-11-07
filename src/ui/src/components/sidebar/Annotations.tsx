@@ -55,7 +55,7 @@ export const Annotations = ({ annotations, pdfsStatuses }: AnnotationsProps) => 
         } else {
             notification.info({ message: 'Marked paper as In Progress.' });
         }
-        navigate(0);
+        navigate('/');
     };
 
     const onJunkToggle = async (isJunk: boolean) => {
@@ -68,7 +68,7 @@ export const Annotations = ({ annotations, pdfsStatuses }: AnnotationsProps) => 
             }
         });
 
-        navigate(0);
+        navigate('/');
     };
 
     const annotationSort = (a: Annotation, b: Annotation) => {
