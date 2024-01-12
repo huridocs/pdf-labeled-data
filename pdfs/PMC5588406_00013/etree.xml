@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="23.12.0">
+<page number="1" position="absolute" top="0" left="0" height="790" width="595">
+	<fontspec id="0" size="8" family="YAGAIR+YbhbjsTimes" color="#131413"/>
+	<fontspec id="1" size="8" family="QmrsnlTimes" color="#131413"/>
+	<fontspec id="2" size="10" family="QmrsnlTimes" color="#131413"/>
+	<fontspec id="3" size="10" family="QmrsnlTimes" color="#0000ff"/>
+	<fontspec id="4" size="10" family="JOWWQG+KpwwrhTimes" color="#131413"/>
+	<fontspec id="5" size="8" family="JOWWQG+KpwwrhTimes" color="#131413"/>
+	<fontspec id="6" size="10" family="WJTWHN+WjtwpdMTSYN" color="#131413"/>
+	<fontspec id="7" size="10" family="DDICYX+JdyxmhMTMI" color="#131413"/>
+	<fontspec id="8" size="15" family="QSGEGD+QshfgdSpringnew" color="#131413"/>
+<text top="34" left="51" width="13" height="8" font="0"><b>112</b></text>
+<text top="34" left="72" width="51" height="8" font="1">Page 14 of 228</text>
+<text top="34" left="444" width="100" height="8" font="1">Eur. Phys. J. C (2017) 77 :112</text>
+<text top="59" left="51" width="238" height="9" font="2">well as heavy flavours. Here we also consider light- and</text>
+<text top="72" left="51" width="238" height="9" font="2">heavy- quark masses, but focus on lattice results and dis-</text>
+<text top="84" left="51" width="238" height="9" font="2">cuss them in more detail. We do not discuss the top quark,</text>
+<text top="96" left="51" width="238" height="9" font="2">however, because it decays weakly before it can hadronize,</text>
+<text top="109" left="51" width="238" height="9" font="2">and the nonperturbative QCD dynamics described by present</text>
+<text top="121" left="51" width="238" height="9" font="2">day lattice simulations is not relevant. The lattice determi-</text>
+<text top="134" left="51" width="238" height="9" font="2">nation of light- (up, down, strange), charm- and bottom-</text>
+<text top="146" left="51" width="141" height="9" font="2">quark masses is considered in Sects.</text>
+<text top="146" left="194" width="12" height="9" font="3"><a href="">3.1</a></text>
+<text top="146" left="206" width="2" height="9" font="2"><a href="">,</a></text>
+<text top="146" left="211" width="12" height="9" font="3"><a href="">3.2</a></text>
+<text top="146" left="223" width="19" height="9" font="2"><a href="">, </a>and</text>
+<text top="146" left="244" width="12" height="9" font="3"><a href="">3.3</a></text>
+<text top="146" left="256" width="33" height="9" font="2"><a href="">, </a>respec-</text>
+<text top="159" left="51" width="24" height="9" font="2">tively.</text>
+<text top="171" left="62" width="227" height="9" font="2">Quark masses cannot be measured directly in experiment</text>
+<text top="184" left="51" width="238" height="9" font="2">because quarks cannot be isolated, as they are confined inside</text>
+<text top="196" left="51" width="238" height="9" font="2">hadrons. On the other hand, quark masses are free parameters</text>
+<text top="209" left="51" width="238" height="9" font="2">of the theory and, as such, cannot be obtained on the basis</text>
+<text top="221" left="51" width="238" height="9" font="2">of purely theoretical considerations. Their values can only</text>
+<text top="233" left="51" width="238" height="9" font="2">be determined by comparing the theoretical prediction for</text>
+<text top="246" left="51" width="238" height="9" font="2">an observable, which depends on the quark mass of interest,</text>
+<text top="258" left="51" width="173" height="9" font="2">with the corresponding experimental value.</text>
+<text top="271" left="62" width="140" height="9" font="2">In the last edition of this review <a href="">[</a></text>
+<text top="271" left="202" width="5" height="9" font="3"><a href="">2</a></text>
+<text top="271" left="207" width="82" height="9" font="2">], quark-mass deter-</text>
+<text top="283" left="51" width="238" height="9" font="2">minations came from two- and three-flavour QCD calcu-</text>
+<text top="296" left="51" width="238" height="9" font="2">lations. Moreover, these calculations were most often per-</text>
+<text top="308" left="51" width="238" height="9" font="2">formed in the isospin limit, where the up- and down-quark</text>
+<text top="321" left="51" width="238" height="9" font="2">masses (especially those in the sea) are set equal. In addi-</text>
+<text top="333" left="51" width="238" height="9" font="2">tion, some of the results retained in our light-quark mass</text>
+<text top="346" left="51" width="238" height="9" font="2">averages were based on simulations performed at values</text>
+<text top="358" left="51" width="8" height="9" font="2">of</text>
+<text top="358" left="63" width="7" height="9" font="4"><i>m</i></text>
+<text top="361" left="71" width="8" height="7" font="5"><i>ud</i></text>
+<text top="358" left="83" width="206" height="9" font="2">which were still substantially larger than its phys-</text>
+<text top="370" left="51" width="238" height="9" font="2">ical value imposing a significant extrapolation to reach the</text>
+<text top="383" left="51" width="238" height="9" font="2">physical up- and down-quark mass point. Among the cal-</text>
+<text top="395" left="51" width="139" height="9" font="2">culations performed near physical</text>
+<text top="395" left="194" width="7" height="9" font="4"><i>m</i></text>
+<text top="399" left="202" width="8" height="7" font="5"><i>ud</i></text>
+<text top="395" left="214" width="60" height="9" font="2">by PACS-CS <a href="">[</a></text>
+<text top="395" left="274" width="10" height="9" font="3"><a href="">93</a></text>
+<text top="395" left="284" width="5" height="9" font="2">–</text>
+<text top="408" left="51" width="10" height="9" font="3"><a href="">95</a></text>
+<text top="408" left="61" width="41" height="9" font="2"><a href="">], </a>BMW <a href="">[</a></text>
+<text top="408" left="102" width="5" height="9" font="3"><a href="">7</a></text>
+<text top="408" left="107" width="2" height="9" font="2"><a href="">,</a></text>
+<text top="408" left="110" width="5" height="9" font="3"><a href="">8</a></text>
+<text top="408" left="115" width="89" height="9" font="2"><a href="">] </a>and RBC/UKQCD <a href="">[</a></text>
+<text top="408" left="204" width="10" height="9" font="3"><a href="">31</a></text>
+<text top="408" left="214" width="75" height="9" font="2">], only the ones in</text>
+<text top="420" left="51" width="27" height="9" font="2">Refs. <a href="">[</a></text>
+<text top="420" left="78" width="5" height="9" font="3"><a href="">7</a></text>
+<text top="420" left="83" width="2" height="9" font="2"><a href="">,</a></text>
+<text top="420" left="86" width="5" height="9" font="3"><a href="">8</a></text>
+<text top="420" left="91" width="198" height="9" font="2"><a href="">] </a>did so while controlling all other sources of sys-</text>
+<text top="433" left="51" width="53" height="9" font="2">tematic error.</text>
+<text top="445" left="62" width="227" height="9" font="2">Today, however, the effects of the charm quark in the sea</text>
+<text top="458" left="51" width="238" height="9" font="2">are more and more systematically considered and most of the</text>
+<text top="470" left="51" width="238" height="9" font="2">new quark-mass results discussed below have been obtained</text>
+<text top="483" left="51" width="8" height="9" font="2">in</text>
+<text top="483" left="61" width="7" height="9" font="4"><i>N</i></text>
+<text top="486" left="70" width="2" height="7" font="5"><i>f</i></text>
+<text top="480" left="77" width="8" height="13" font="6">=</text>
+<text top="483" left="87" width="5" height="9" font="2">2</text>
+<text top="480" left="93" width="8" height="13" font="6">+</text>
+<text top="483" left="102" width="5" height="9" font="2">1</text>
+<text top="480" left="107" width="8" height="13" font="6">+</text>
+<text top="483" left="116" width="92" height="9" font="2">1 simulations by ETM <a href="">[</a></text>
+<text top="483" left="208" width="5" height="9" font="3"><a href="">4</a></text>
+<text top="483" left="213" width="46" height="9" font="2">], HPQCD <a href="">[</a></text>
+<text top="483" left="260" width="10" height="9" font="3"><a href="">14</a></text>
+<text top="483" left="270" width="19" height="9" font="2"><a href="">] </a>and</text>
+<text top="495" left="51" width="59" height="9" font="2">FNAL/MILC <a href="">[</a></text>
+<text top="495" left="110" width="5" height="9" font="3"><a href="">5</a></text>
+<text top="495" left="115" width="122" height="9" font="2">]. In addition, RBC/UKQCD <a href="">[</a></text>
+<text top="495" left="237" width="10" height="9" font="3"><a href="">10</a></text>
+<text top="495" left="247" width="42" height="9" font="2"><a href="">], </a>HPQCD</text>
+<text top="507" left="51" width="3" height="9" font="2"><a href="">[</a></text>
+<text top="507" left="54" width="10" height="9" font="3"><a href="">14</a></text>
+<text top="507" left="64" width="85" height="9" font="2">] and FNAL/MILC <a href="">[</a></text>
+<text top="507" left="149" width="5" height="9" font="3"><a href="">5</a></text>
+<text top="507" left="154" width="135" height="9" font="2">] are extending their calculations</text>
+<text top="520" left="51" width="238" height="9" font="2">down to up-down-quark masses at or very close to their phys-</text>
+<text top="532" left="51" width="238" height="9" font="2">ical values while still controlling other sources of systematic</text>
+<text top="545" left="51" width="238" height="9" font="2">error. Another aspect that is being increasingly addressed</text>
+<text top="557" left="51" width="94" height="9" font="2">are electromagnetic and</text>
+<text top="555" left="148" width="4" height="13" font="7"><i>(</i></text>
+<text top="557" left="151" width="7" height="9" font="4"><i>m</i></text>
+<text top="560" left="159" width="4" height="7" font="5"><i>d</i></text>
+<text top="555" left="166" width="8" height="13" font="6">−</text>
+<text top="557" left="175" width="7" height="9" font="4"><i>m</i></text>
+<text top="560" left="183" width="4" height="7" font="5"><i>u</i></text>
+<text top="555" left="187" width="4" height="13" font="7"><i>)</i></text>
+<text top="557" left="191" width="98" height="9" font="2">, strong isospin-breaking</text>
+<text top="570" left="51" width="238" height="9" font="2">effects. As we will see below these are particularly important</text>
+<text top="582" left="51" width="238" height="9" font="2">for determining the individual up- and down-quark masses.</text>
+<text top="595" left="51" width="238" height="9" font="2">But with the level of precision being reached in calculations,</text>
+<text top="607" left="51" width="238" height="9" font="2">these effects are also becoming important for other quark</text>
+<text top="620" left="51" width="31" height="9" font="2">masses.</text>
+<text top="632" left="62" width="227" height="9" font="2">Three-flavour QCD has four free parameters: the strong</text>
+<text top="644" left="51" width="37" height="9" font="2">coupling,</text>
+<text top="642" left="92" width="6" height="13" font="7"><i>α</i></text>
+<text top="648" left="98" width="3" height="7" font="5"><i>s</i></text>
+<text top="644" left="105" width="53" height="9" font="2">(alternatively</text>
+<text top="642" left="162" width="8" height="13" font="7"><i> </i></text>
+<text top="648" left="169" width="16" height="7" font="1">QCD</text>
+<text top="644" left="186" width="103" height="9" font="2">) and the up-, down- and</text>
+<text top="657" left="51" width="88" height="9" font="2">strange-quark masses,</text>
+<text top="657" left="141" width="7" height="9" font="4"><i>m</i></text>
+<text top="660" left="149" width="4" height="7" font="5"><i>u</i></text>
+<text top="657" left="153" width="2" height="9" font="2">,</text>
+<text top="657" left="158" width="7" height="9" font="4"><i>m</i></text>
+<text top="660" left="166" width="4" height="7" font="5"><i>d</i></text>
+<text top="657" left="173" width="14" height="9" font="2">and</text>
+<text top="657" left="189" width="7" height="9" font="4"><i>m</i></text>
+<text top="660" left="197" width="3" height="7" font="5"><i>s</i></text>
+<text top="657" left="201" width="88" height="9" font="2">. Four-flavour calcula-</text>
+<text top="669" left="51" width="238" height="9" font="2">tions have an additional parameter, the charm-quark mass</text>
+<text top="682" left="51" width="7" height="9" font="4"><i>m</i></text>
+<text top="685" left="59" width="3" height="7" font="5"><i>c</i></text>
+<text top="682" left="63" width="226" height="9" font="2">. When the calculations are performed in the isospin</text>
+<text top="694" left="51" width="238" height="9" font="2">limit, up- and down-quark masses are replaced by a single</text>
+<text top="707" left="51" width="238" height="9" font="2">parameter: the isospin-averaged up- and down-quark mass,</text>
+<text top="59" left="306" width="7" height="9" font="4"><i>m</i></text>
+<text top="62" left="314" width="8" height="7" font="5"><i>ud</i></text>
+<text top="57" left="326" width="8" height="13" font="6">=</text>
+<text top="57" left="337" width="4" height="7" font="1">1</text>
+<text top="64" left="337" width="4" height="7" font="1">2</text>
+<text top="57" left="343" width="4" height="13" font="7"><i>(</i></text>
+<text top="59" left="346" width="7" height="9" font="4"><i>m</i></text>
+<text top="62" left="354" width="4" height="7" font="5"><i>u</i></text>
+<text top="57" left="360" width="8" height="13" font="6">+</text>
+<text top="59" left="369" width="7" height="9" font="4"><i>m</i></text>
+<text top="62" left="377" width="4" height="7" font="5"><i>d</i></text>
+<text top="57" left="382" width="4" height="13" font="7"><i>)</i></text>
+<text top="59" left="386" width="159" height="9" font="2">. A lattice determination of these param-</text>
+<text top="72" left="306" width="238" height="9" font="2">eters, and in particular of the quark masses, proceeds in two</text>
+<text top="84" left="306" width="23" height="9" font="2">steps:</text>
+<text top="115" left="309" width="236" height="9" font="2">1. One computes as many experimentally measurable quan-</text>
+<text top="128" left="321" width="223" height="9" font="2">tities as there are quark masses. These observables should</text>
+<text top="140" left="321" width="223" height="9" font="2">obviously be sensitive to the masses of interest, prefer-</text>
+<text top="153" left="321" width="223" height="9" font="2">ably straightforward to compute and obtainable with high</text>
+<text top="165" left="321" width="223" height="9" font="2">precision. They are usually computed for a variety of</text>
+<text top="178" left="321" width="223" height="9" font="2">input values of the quark masses which are then adjusted</text>
+<text top="190" left="321" width="223" height="9" font="2">to reproduce experiment. Another observable, such as</text>
+<text top="202" left="321" width="223" height="9" font="2">the pion decay constant or the mass of a member of the</text>
+<text top="215" left="321" width="223" height="9" font="2">baryon octet, must be used to fix the overall scale. Note</text>
+<text top="227" left="321" width="156" height="9" font="2">that the mass of a quark, such as the</text>
+<text top="227" left="481" width="5" height="9" font="4"><i>b</i></text>
+<text top="227" left="486" width="58" height="9" font="2">, which is not</text>
+<text top="240" left="321" width="223" height="9" font="2">accounted for in the generation of gauge configurations,</text>
+<text top="252" left="321" width="223" height="9" font="2">can still be determined. For that an additional valence-</text>
+<text top="265" left="321" width="223" height="9" font="2">quark observable containing this quark must be computed</text>
+<text top="277" left="321" width="223" height="9" font="2">and the mass of that quark must be tuned to reproduce</text>
+<text top="290" left="321" width="47" height="9" font="2">experiment.</text>
+<text top="302" left="309" width="236" height="9" font="2">2. The input quark masses are bare parameters which</text>
+<text top="314" left="321" width="223" height="9" font="2">depend on the lattice spacing and particulars of the lattice</text>
+<text top="327" left="321" width="223" height="9" font="2">regularization used in the calculation. To compare their</text>
+<text top="339" left="321" width="223" height="9" font="2">values at different lattice spacings and to allow a contin-</text>
+<text top="352" left="321" width="223" height="9" font="2">uum extrapolation they must be renormalized. This renor-</text>
+<text top="364" left="321" width="223" height="9" font="2">malization is a short-distance calculation, which may</text>
+<text top="377" left="321" width="223" height="9" font="2">be performed perturbatively. Experience shows that one-</text>
+<text top="389" left="321" width="223" height="9" font="2">loop calculations are unreliable for the renormalization</text>
+<text top="402" left="321" width="223" height="9" font="2">of quark masses: usually at least two loops are required to</text>
+<text top="414" left="321" width="223" height="9" font="2">have trustworthy results. Therefore, it is best to perform</text>
+<text top="427" left="321" width="223" height="9" font="2">the renormalizations nonperturbatively to avoid poten-</text>
+<text top="439" left="321" width="223" height="9" font="2">tially large perturbative uncertainties due to neglected</text>
+<text top="451" left="321" width="223" height="9" font="2">higher-order terms. Nevertheless we will include in our</text>
+<text top="464" left="321" width="223" height="9" font="2">averages one-loop results if they carry a solid estimate</text>
+<text top="476" left="321" width="223" height="9" font="2">of the systematic uncertainty due to the truncation of the</text>
+<text top="489" left="321" width="25" height="9" font="2">series.</text>
+<text top="520" left="306" width="238" height="9" font="2">In the absence of electromagnetic corrections, the renormal-</text>
+<text top="533" left="306" width="238" height="9" font="2">ization factors for all quark masses are the same at a given</text>
+<text top="545" left="306" width="238" height="9" font="2">lattice spacing. Thus, uncertainties due to renormalization are</text>
+<text top="557" left="306" width="238" height="9" font="2">absent in ratios of quark masses if the tuning of the masses</text>
+<text top="570" left="306" width="238" height="9" font="2">to their physical values can be done lattice spacing by lattice</text>
+<text top="582" left="306" width="177" height="9" font="2">spacing and significantly reduced otherwise.</text>
+<text top="595" left="318" width="193" height="9" font="2">We mention that lattice QCD calculations of the</text>
+<text top="595" left="513" width="5" height="9" font="4"><i>b</i></text>
+<text top="595" left="518" width="26" height="9" font="2">-quark</text>
+<text top="607" left="306" width="238" height="9" font="2">mass have an additional complication which is not present in</text>
+<text top="620" left="306" width="238" height="9" font="2">the case of the charm- and light-quarks. At the lattice spacings</text>
+<text top="632" left="306" width="238" height="9" font="2">currently used in numerical simulations the direct treatment</text>
+<text top="645" left="306" width="24" height="9" font="2">of the</text>
+<text top="645" left="334" width="5" height="9" font="4"><i>b</i></text>
+<text top="645" left="342" width="202" height="9" font="2">quark with the fermionic actions commonly used</text>
+<text top="657" left="306" width="238" height="9" font="2">for light quarks will result in large cutoff effects, because</text>
+<text top="670" left="306" width="12" height="9" font="2">the</text>
+<text top="670" left="322" width="5" height="9" font="4"><i>b</i></text>
+<text top="670" left="327" width="218" height="9" font="2">-quark mass is of order one in lattice units. There are</text>
+<text top="682" left="306" width="173" height="9" font="2">a few widely used approaches to treat the</text>
+<text top="682" left="483" width="5" height="9" font="4"><i>b</i></text>
+<text top="682" left="492" width="52" height="9" font="2">quark on the</text>
+<text top="694" left="306" width="238" height="9" font="2">lattice, which have been already discussed in the FLAG 13</text>
+<text top="707" left="306" width="129" height="9" font="2">review (see Section 8 of Ref. <a href="">[</a></text>
+<text top="707" left="435" width="5" height="9" font="3"><a href="">2</a></text>
+<text top="707" left="440" width="104" height="9" font="2">]). Those relevant for the</text>
+<text top="731" left="53" width="40" height="19" font="8">123</text>
+</page>
+</pdf2xml>

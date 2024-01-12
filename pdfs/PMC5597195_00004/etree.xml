@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="23.12.0">
+<page number="1" position="absolute" top="0" left="0" height="842" width="595">
+	<fontspec id="0" size="12" family="CDCPLO+TimesNewRoman,Italic" color="#000000"/>
+	<fontspec id="1" size="12" family="CDCPNB+TimesNewRoman,Bold" color="#000000"/>
+	<fontspec id="2" size="12" family="CDCPMP+TimesNewRoman" color="#000000"/>
+	<fontspec id="3" size="12" family="CDCPMO+TimesNewRoman" color="#000000"/>
+	<fontspec id="4" size="10" family="CDCPNB+TimesNewRoman,Bold" color="#000000"/>
+	<fontspec id="5" size="10" family="CDCPMP+TimesNewRoman" color="#000000"/>
+<text top="46" left="50" width="77" height="13" font="0"><i>Bioengineering </i></text>
+<text top="46" left="127" width="24" height="13" font="1"><b>2015</b></text>
+<text top="46" left="151" width="6" height="13" font="2">, </text>
+<text top="46" left="157" width="6" height="13" font="0"><i>2</i></text>
+<text top="46" left="163" width="755" height="13" font="1"><b> 98 </b></text>
+<text top="63" left="50" width="3" height="13" font="1"><b> </b></text>
+<text top="80" left="50" width="501" height="13" font="2">narrow as possible is desired to provide a product as uniform and homogenous as possible; further, </text>
+<text top="97" left="50" width="500" height="13" font="2">high molar masses are favorable due to the fact that during PHA processing, e.g., by melt extrusion or </text>
+<text top="114" left="50" width="500" height="13" font="2">injection molding, significant losses of molar mass are commonly observed, thus negatively impacting </text>
+<text top="131" left="50" width="122" height="13" font="2">the material quality [32]. </text>
+<text top="148" left="64" width="486" height="13" font="2">Furthermore, in the case of such substrates that reveal growth-inhibiting effects on the cells already </text>
+<text top="165" left="50" width="505" height="13" font="2">at low concentration levels, it is challenging to obtain high productivity in discontinuous systems.  </text>
+<text top="182" left="50" width="311" height="13" font="2">Such substrates, typically fatty acids, are especially needed for </text>
+<text top="182" left="360" width="17" height="13" font="0"><i>mcl</i></text>
+<text top="182" left="378" width="172" height="13" font="2">-PHA production by bacteria from </text>
+<text top="199" left="50" width="500" height="13" font="2">the pseudomonad group [33–38]. As detailed later, continuous cultivation strategies provide a solution </text>
+<text top="216" left="50" width="83" height="13" font="2">for this problem. </text>
+<text top="233" left="64" width="486" height="13" font="2">It is known that continuous cultivation regimes in chemostats (short for “chemical environment is </text>
+<text top="250" left="50" width="500" height="13" font="2">static”) can guarantee growth of microorganisms under defined nutrient limitations for extended time </text>
+<text top="267" left="50" width="500" height="13" font="2">periods, and, a long-term genetic stability of the organism provided, can result in both high productivities </text>
+<text top="284" left="50" width="502" height="13" font="2">and constant product quality. As soon as steady-state conditions are reached, the concentration of </text>
+<text top="301" left="50" width="501" height="13" font="2">biomass, PHA and all substrates is kept constant under such chemostat regimes [38–40]. Harvest of </text>
+<text top="318" left="50" width="502" height="13" font="2">biomass that harbors a desired PHA-mass fraction also occurs continuously in chemostat regimes, </text>
+<text top="335" left="50" width="501" height="13" font="2">which constitutes another considerable advantage to batch-processes. This can be visualized by the </text>
+<text top="352" left="50" width="500" height="13" font="2">manageable quantities of PHA-rich biomass that permanently accrue for subsequent product recovery; </text>
+<text top="369" left="50" width="500" height="13" font="2">these quantities can conveniently be processed in rather small facilities. This is in clear contrast to the </text>
+<text top="386" left="50" width="500" height="13" font="2">enormous lot of PHA-rich biomass that accrues for one moment to the other after harvest of a batch, </text>
+<text top="403" left="50" width="250" height="13" font="2">which requires large facilities for product recovery. </text>
+<text top="420" left="64" width="402" height="13" font="2">As pivotal process-engineering parameters of continuous processes, dilution rate </text>
+<text top="420" left="466" width="9" height="13" font="0"><i>D</i></text>
+<text top="420" left="475" width="76" height="13" font="2"> and residence </text>
+<text top="437" left="50" width="24" height="13" font="2">time </text>
+<text top="437" left="74" width="5" height="13" font="3">τ</text>
+<text top="437" left="79" width="109" height="13" font="2"> need to be explained. </text>
+<text top="437" left="188" width="9" height="13" font="0"><i>D</i></text>
+<text top="437" left="197" width="215" height="13" font="2"> (1/h) describes the quotient of the flow rate </text>
+<text top="437" left="412" width="7" height="13" font="0"><i>F</i></text>
+<text top="437" left="419" width="130" height="13" font="2"> (L/h) and the bioreactor’s </text>
+<text top="454" left="50" width="39" height="13" font="2">volume </text>
+<text top="454" left="90" width="7" height="13" font="0"><i>V</i></text>
+<text top="454" left="97" width="70" height="13" font="2"> (L), whereas </text>
+<text top="454" left="166" width="5" height="13" font="3">τ</text>
+<text top="454" left="171" width="212" height="13" font="2"> (h) is calculated as the inverse number of </text>
+<text top="454" left="384" width="9" height="13" font="0"><i>D</i></text>
+<text top="454" left="392" width="111" height="13" font="2">, or as the quotient of </text>
+<text top="454" left="503" width="7" height="13" font="0"><i>V</i></text>
+<text top="454" left="510" width="25" height="13" font="2"> and </text>
+<text top="454" left="536" width="7" height="13" font="0"><i>F</i></text>
+<text top="454" left="543" width="6" height="13" font="2">, </text>
+<text top="471" left="50" width="105" height="13" font="2">respectively [38–40]. </text>
+<text top="488" left="64" width="486" height="13" font="2">Apart from enhanced productivity and product quality (composition, molar mass and PDI of PHA), </text>
+<text top="505" left="50" width="503" height="13" font="2">chemostat processes are also suitable to elucidate the physiological background of bioprocesses; </text>
+<text top="522" left="50" width="500" height="13" font="2">kinetics of cell growth and PHA formation under constant environmental conditions, and the impact of </text>
+<text top="539" left="50" width="500" height="13" font="2">changing conditions on the kinetics and on product properties, can conveniently be investigated [39]. </text>
+<text top="556" left="50" width="500" height="13" font="2">This way, the optimization of nutritional media composition can easily be accomplished in chemostat </text>
+<text top="573" left="50" width="501" height="13" font="2">processes by changing concentrations of single nutrients in the feed stream during steady-state, and </text>
+<text top="590" left="50" width="493" height="13" font="2">monitoring the resulting reaction of microbial kinetics (growth rate, product formation rate, yields) [41]. </text>
+<text top="607" left="64" width="410" height="13" font="2">Table 2 summarizes the discussed benefits arising from continuous PHA production. </text>
+<text top="636" left="170" width="41" height="13" font="1"><b>Table 2.</b></text>
+<text top="636" left="211" width="217" height="13" font="2"> Advantages of continuous PHA-production. </text>
+<text top="660" left="74" width="432" height="11" font="4"><b>Criterion Benefit </b></text>
+<text top="660" left="490" width="227" height="11" font="4"><b>References </b></text>
+<text top="690" left="56" width="88" height="11" font="5">Investment costs </text>
+<text top="705" left="56" width="57" height="11" font="5">for bioreactor </text>
+<text top="675" left="143" width="341" height="11" font="5">Due to higher volumetric productivity in continuous processes, (fed)batch </text>
+<text top="690" left="143" width="337" height="11" font="5">cultivation requires large bioreactor facilities to generate the same output per time; </text>
+<text top="705" left="143" width="340" height="11" font="5">continuous production contributes to lower investment costs by resorting to </text>
+<text top="720" left="143" width="109" height="11" font="5">smaller operation facilities </text>
+<text top="698" left="505" width="19" height="11" font="5">[32] </text>
+<text top="736" left="56" width="58" height="11" font="5">Time demand </text>
+<text top="736" left="143" width="324" height="11" font="5">No “dead time” needed for pre- and post-treatment (“re-vamping”) of bioreactor </text>
+<text top="736" left="505" width="19" height="11" font="5">[32] </text>
+</page>
+</pdf2xml>

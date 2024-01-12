@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="23.12.0">
+<page number="1" position="absolute" top="0" left="0" height="779" width="595">
+	<fontspec id="0" size="7" family="AGANGF+Univers-Light" color="#000000"/>
+	<fontspec id="1" size="10" family="AGANGD+Minion" color="#000000"/>
+	<fontspec id="2" size="10" family="AGANNM+Courier" color="#000000"/>
+	<fontspec id="3" size="9" family="AGANLK+Univers-CondensedBold" color="#000000"/>
+	<fontspec id="4" size="10" family="AGANGD+Minion" color="#656262"/>
+	<fontspec id="5" size="10" family="AGANNL+Minion" color="#000000"/>
+	<fontspec id="6" size="9" family="AGANNM+Courier" color="#000000"/>
+	<fontspec id="7" size="9" family="AGANGD+Minion" color="#000000"/>
+	<fontspec id="8" size="9" family="AGANNL+Minion" color="#000000"/>
+	<fontspec id="9" size="10" family="AGANLI+MTSYN" color="#000000"/>
+	<fontspec id="10" size="10" family="AGANNN+Minion" color="#000000"/>
+	<fontspec id="11" size="10" family="AGANLK+Univers-CondensedBold" color="#2056ad"/>
+	<fontspec id="12" size="10" family="AGANML+RMTMI" color="#000000"/>
+	<fontspec id="13" size="8" family="AGANLJ+Univers" color="#000000"/>
+	<fontspec id="14" size="8" family="AGANGF+Univers-Light" color="#000000"/>
+	<fontspec id="15" size="7" family="AGANLJ+Univers" color="#000000"/>
+<text top="24" left="45" width="44" height="6" font="0">Djurfeldt et al.</text>
+<text top="24" left="457" width="92" height="6" font="0">The connection generator API</text>
+<text top="62" left="45" width="247" height="9" font="1">and a list of the same amount of post-synaptic neurons (or</text>
+<text top="74" left="45" width="247" height="9" font="1">devices) and connects the corresponding elements in a one-to-</text>
+<text top="85" left="45" width="247" height="9" font="1">one fashion. Because of the function call overhead, this function</text>
+<text top="96" left="45" width="212" height="9" font="1">is not very efficient to use when creating large networks.</text>
+<text top="108" left="57" width="171" height="9" font="1">To avoid such overhead, the functions</text>
+<text top="109" left="235" width="57" height="7" font="2">Convergent</text>
+<text top="120" left="45" width="40" height="7" font="2">Connect</text>
+<text top="119" left="90" width="14" height="9" font="1">and</text>
+<text top="120" left="108" width="91" height="7" font="2">DivergentConnect</text>
+<text top="119" left="204" width="88" height="9" font="1">can be used to create</text>
+<text top="131" left="45" width="247" height="9" font="1">multiple connections with a single call. In addition, randomized</text>
+<text top="142" left="45" width="247" height="9" font="1">variants for both of these functions exist to support the user in</text>
+<text top="154" left="45" width="247" height="9" font="1">creating networks on the basis of knowledge of connectivity statis-</text>
+<text top="165" left="45" width="247" height="9" font="1">tics. However, random connection parameters (e.g., weight, delay,</text>
+<text top="177" left="45" width="247" height="9" font="1">or time constants) need to be specified by user code and supplied</text>
+<text top="188" left="45" width="160" height="9" font="1">to NEST after the creation of connections.</text>
+<text top="210" left="45" width="87" height="8" font="3"><b>4.2. TOPOLOGY MODULE</b></text>
+<text top="222" left="45" width="247" height="9" font="1">To ease the creation of complex networks with spatial structure,</text>
+<text top="233" left="45" width="145" height="9" font="1">NEST provides the Topology Module <a href="">(</a></text>
+<text top="233" left="190" width="88" height="9" font="4"><a href="">Plesser and Enger, 2013</a></text>
+<text top="233" left="278" width="14" height="9" font="1">). It</text>
+<text top="245" left="45" width="247" height="9" font="1">supports the user in connecting neurons and initializing synapse</text>
+<text top="256" left="45" width="247" height="9" font="1">parameters based on their topological relationships in the net-</text>
+<text top="268" left="45" width="247" height="9" font="1">work. In contrast to the CSA, the topology module is very much</text>
+<text top="279" left="45" width="247" height="9" font="1">tailored to building structured networks consisting of layers in</text>
+<text top="291" left="45" width="247" height="9" font="1">NEST with minimal overhead. The CSA has a wider focus in that</text>
+<text top="302" left="45" width="247" height="9" font="1">it is simulator-independent and supports arbitrary connectivity</text>
+<text top="313" left="45" width="247" height="9" font="1">patterns that can also include repetitive elements. We are cur-</text>
+<text top="325" left="45" width="247" height="9" font="1">rently investigating if future versions of the Topology Module can</text>
+<text top="336" left="45" width="80" height="9" font="1">be based on the CSA.</text>
+<text top="359" left="45" width="205" height="8" font="3"><b>4.3. SUPPORTING CONNECTIVITY-GENERATING LIBRARIES</b></text>
+<text top="370" left="45" width="247" height="9" font="1">As detailed above, NEST provides multiple methods for connect-</text>
+<text top="382" left="45" width="247" height="9" font="1">ing neurons into a network. However, while the native routines</text>
+<text top="393" left="45" width="60" height="9" font="1">scale very well <a href="">(</a></text>
+<text top="393" left="105" width="67" height="9" font="4"><a href="">Helias et al., 2012</a></text>
+<text top="393" left="172" width="120" height="9" font="1"><a href="">), </a>they are only suitable for cre-</text>
+<text top="404" left="45" width="247" height="9" font="1">ating simple patterns such as convergent/divergent connectivity</text>
+<text top="416" left="45" width="247" height="9" font="1">without looping over them in user code. On the other hand, the</text>
+<text top="427" left="45" width="71" height="9" font="1">topology module <a href="">(</a></text>
+<text top="427" left="116" width="89" height="9" font="4"><a href="">Plesser and Enger, 2013</a></text>
+<text top="427" left="205" width="86" height="9" font="1">) allows the creation of</text>
+<text top="439" left="45" width="247" height="9" font="1">more complex structures, but requires neurons to be organized in</text>
+<text top="450" left="45" width="134" height="9" font="1">special data structures (e.g., layers).</text>
+<text top="462" left="57" width="235" height="9" font="1">To support the connection generator interface in NEST and</text>
+<text top="473" left="45" width="247" height="9" font="1">thus make more connectivity-generating libraries available to</text>
+<text top="485" left="45" width="81" height="9" font="1">users, we created the</text>
+<text top="485" left="129" width="142" height="7" font="2">ConnectionGeneratorModule</text>
+<text top="485" left="271" width="20" height="9" font="1">. It is</text>
+<text top="496" left="45" width="247" height="9" font="1">implemented as a plugin for NEST which extends both user</text>
+<text top="508" left="45" width="163" height="9" font="1">interfaces, SLI and PyNEST, and builds on</text>
+<text top="508" left="211" width="63" height="7" font="2">libneurosim</text>
+<text top="508" left="277" width="15" height="9" font="1">(see</text>
+<text top="519" left="45" width="46" height="9" font="1">section 2.2).</text>
+<text top="530" left="57" width="235" height="9" font="1">All neurons and devices in NEST are identified uniquely by an</text>
+<text top="542" left="45" width="124" height="9" font="1">integer number, their global id (</text>
+<text top="542" left="169" width="16" height="9" font="5"><i>GID</i></text>
+<text top="542" left="185" width="106" height="9" font="1">). As all existing connection</text>
+<text top="553" left="45" width="247" height="9" font="1">routines in NEST work either on single GIDs or on lists of GIDs,</text>
+<text top="565" left="45" width="247" height="9" font="1">we decided to also use this convention when a user specifies cells</text>
+<text top="576" left="45" width="247" height="9" font="1">for a connection generator. These GIDs are internally mapped to</text>
+<text top="588" left="45" width="247" height="9" font="1">contiguous ranges of integer indices starting at zero, for use by</text>
+<text top="599" left="45" width="247" height="9" font="1">the connection generator. Our new interface for using connection</text>
+<text top="611" left="45" width="209" height="9" font="1">generators in NEST consists of the following functions:</text>
+<text top="634" left="55" width="46" height="7" font="6">CGConnect</text>
+<text top="634" left="103" width="23" height="8" font="7">takes a</text>
+<text top="634" left="128" width="97" height="7" font="6">ConnectionGenerator</text>
+<text top="634" left="227" width="7" height="8" font="8"><i>cg</i></text>
+<text top="634" left="233" width="58" height="8" font="7">, lists of GIDs for</text>
+<text top="644" left="67" width="10" height="8" font="8"><i>pre</i></text>
+<text top="644" left="77" width="19" height="8" font="7">- and</text>
+<text top="644" left="99" width="13" height="8" font="8"><i>post</i></text>
+<text top="644" left="113" width="99" height="8" font="7">-synaptic populations, and a</text>
+<text top="644" left="215" width="41" height="8" font="8"><i>param_map</i></text>
+<text top="644" left="256" width="36" height="8" font="7">. It creates</text>
+<text top="655" left="67" width="124" height="8" font="7">the connections between neurons in</text>
+<text top="655" left="193" width="10" height="8" font="8"><i>pre</i></text>
+<text top="655" left="206" width="13" height="8" font="7">and</text>
+<text top="655" left="221" width="13" height="8" font="8"><i>post</i></text>
+<text top="655" left="237" width="55" height="8" font="7">as prescribed by</text>
+<text top="665" left="67" width="40" height="8" font="7">the rules in</text>
+<text top="665" left="109" width="7" height="8" font="8"><i>cg</i></text>
+<text top="665" left="116" width="74" height="8" font="7">. The parameter map</text>
+<text top="665" left="192" width="41" height="8" font="8"><i>param_map</i></text>
+<text top="665" left="236" width="56" height="8" font="7">maps parameter</text>
+<text top="675" left="67" width="225" height="8" font="7">names (e.g., weight, delay) to their index for the parameter value</text>
+<text top="686" left="67" width="98" height="8" font="7">vector created by the call to</text>
+<text top="687" left="168" width="31" height="7" font="6">next()</text>
+<text top="686" left="201" width="90" height="8" font="7">in the connection genera-</text>
+<text top="696" left="67" width="225" height="8" font="7">tor interface (see section 2.1). In the current implementation, only</text>
+<text top="707" left="67" width="99" height="8" font="7">arities 0 and 2 are supported.</text>
+<text top="63" left="313" width="36" height="7" font="6">CGParse</text>
+<text top="63" left="355" width="194" height="8" font="7">takes a serialized version of a connection gener-</text>
+<text top="73" left="325" width="75" height="8" font="7">ator in the string</text>
+<text top="73" left="408" width="13" height="8" font="8"><i>xml</i></text>
+<text top="73" left="428" width="121" height="8" font="7">and returns the corresponding</text>
+<text top="84" left="325" width="97" height="7" font="6">ConnectionGenerator</text>
+<text top="84" left="424" width="125" height="8" font="7">object. A special use of this function</text>
+<text top="94" left="325" width="225" height="8" font="7">exists on supercomputers, where Python is often not available</text>
+<text top="105" left="325" width="225" height="8" font="7">on the compute nodes, or where the memory and performance</text>
+<text top="115" left="325" width="225" height="8" font="7">penalty would not be acceptable and a pure SLI-based solution is</text>
+<text top="126" left="325" width="36" height="8" font="7">preferable.</text>
+<text top="142" left="313" width="56" height="7" font="6">CGParseFile</text>
+<text top="141" left="373" width="61" height="8" font="7">takes a file name</text>
+<text top="141" left="438" width="21" height="8" font="8"><i>fname</i></text>
+<text top="141" left="462" width="87" height="8" font="7">and parses the serialized</text>
+<text top="152" left="325" width="178" height="8" font="7">version of a connection generator contained therein.</text>
+<text top="170" left="313" width="112" height="7" font="6">CGSelectImplementation</text>
+<text top="169" left="428" width="62" height="8" font="7">takes an XML tag</text>
+<text top="169" left="494" width="10" height="8" font="8"><i>tag</i></text>
+<text top="169" left="507" width="42" height="8" font="7">representing</text>
+<text top="180" left="325" width="225" height="8" font="7">the parent node of a serialized connection generator and the name</text>
+<text top="192" left="325" width="38" height="8" font="7">of a library</text>
+<text top="192" left="366" width="22" height="8" font="8"><i>library</i></text>
+<text top="192" left="391" width="159" height="8" font="7">to provide a parser for such an XML file. This</text>
+<text top="203" left="325" width="225" height="8" font="7">information determines which library should carry out the parsing</text>
+<text top="215" left="325" width="10" height="8" font="7">for</text>
+<text top="215" left="337" width="36" height="7" font="6">CGParse</text>
+<text top="215" left="374" width="13" height="8" font="7">and</text>
+<text top="215" left="389" width="56" height="7" font="6">CGParseFile</text>
+<text top="215" left="445" width="2" height="8" font="7">.</text>
+<text top="237" left="303" width="247" height="9" font="1">In order to use the new interface in NEST, the user first has</text>
+<text top="248" left="303" width="55" height="9" font="1">to construct a</text>
+<text top="249" left="362" width="108" height="7" font="2">ConnectionGenerator</text>
+<text top="248" left="474" width="76" height="9" font="1">object. This can be</text>
+<text top="260" left="303" width="164" height="9" font="1">done at the Python level by either using</text>
+<text top="261" left="472" width="17" height="7" font="2">csa</text>
+<text top="260" left="493" width="57" height="9" font="1">or the Python</text>
+<text top="271" left="303" width="44" height="9" font="1">bindings of</text>
+<text top="272" left="351" width="34" height="7" font="2">libcsa</text>
+<text top="271" left="389" width="161" height="9" font="1">(see section 3.3). When PyNEST is used,</text>
+<text top="283" left="303" width="137" height="9" font="1">this object can be directly given to</text>
+<text top="283" left="443" width="51" height="7" font="2">CGConnect</text>
+<text top="283" left="495" width="55" height="9" font="1">, which wraps</text>
+<text top="294" left="303" width="12" height="9" font="1">the</text>
+<text top="295" left="318" width="108" height="7" font="2">ConnectionGenerator</text>
+<text top="294" left="428" width="121" height="9" font="1">object into a SLI Datum of type</text>
+<text top="306" left="303" width="131" height="7" font="2">connectiongeneratortype</text>
+<text top="306" left="438" width="111" height="9" font="1">that can be handed over to</text>
+<text top="317" left="303" width="202" height="9" font="1">NEST’s simulation kernel. It is then iterated at the C</text>
+<text top="315" left="505" width="15" height="12" font="9">++</text>
+<text top="317" left="522" width="27" height="9" font="1">level in</text>
+<text top="329" left="303" width="25" height="9" font="1">case of</text>
+<text top="329" left="331" width="34" height="7" font="2">libcsa</text>
+<text top="329" left="365" width="156" height="9" font="1">, or by calling back into Python in case of</text>
+<text top="329" left="523" width="17" height="7" font="2">csa</text>
+<text top="329" left="540" width="2" height="9" font="1">.</text>
+<text top="340" left="315" width="120" height="9" font="1">Another way to construct a</text>
+<text top="341" left="441" width="108" height="7" font="2">ConnectionGenerator</text>
+<text top="351" left="303" width="247" height="9" font="1">object is by parsing an XML serialization of the object. Such a</text>
+<text top="363" left="303" width="247" height="9" font="1">serialization could be created at the Python level, created by an</text>
+<text top="374" left="303" width="247" height="9" font="1">external tool, or written by hand. At the SLI level this serializa-</text>
+<text top="386" left="303" width="193" height="9" font="1">tion can then be given to one of the SLI functions</text>
+<text top="387" left="499" width="40" height="7" font="2">CGParse</text>
+<text top="386" left="541" width="8" height="9" font="1">or</text>
+<text top="398" left="303" width="63" height="7" font="2">CGParseFile</text>
+<text top="397" left="366" width="184" height="9" font="1">, which reinstantiate the original object using the</text>
+<text top="409" left="303" width="36" height="9" font="1">functions</text>
+<text top="410" left="341" width="40" height="7" font="2">fromXML</text>
+<text top="409" left="383" width="8" height="9" font="1">or</text>
+<text top="410" left="393" width="63" height="7" font="2">fromXMLFile</text>
+<text top="409" left="458" width="92" height="9" font="1">in the connection gener-</text>
+<text top="420" left="303" width="110" height="9" font="1">ator API. This object (of type</text>
+<text top="421" left="415" width="131" height="7" font="2">connectiongeneratortype</text>
+<text top="420" left="546" width="4" height="9" font="1">)</text>
+<text top="432" left="303" width="162" height="9" font="1">can be given to SLI’s version of the</text>
+<text top="432" left="471" width="51" height="7" font="2">CGConnect</text>
+<text top="432" left="529" width="21" height="9" font="1">func-</text>
+<text top="443" left="303" width="247" height="9" font="1">tion. Note that the step of creating the serialization of the</text>
+<text top="455" left="303" width="108" height="7" font="2">ConnectionGenerator</text>
+<text top="455" left="415" width="135" height="9" font="1">can also be carried out on another</text>
+<text top="466" left="303" width="247" height="9" font="1">machine. In this way, simulations using CSA can be run on</text>
+<text top="477" left="303" width="152" height="9" font="1">machines where Python is not available.</text>
+<text top="489" left="315" width="32" height="9" font="10"><a href=""><b>Figure 3</b></a></text>
+<text top="489" left="350" width="199" height="9" font="1">shows the different entities in NEST involved in a</text>
+<text top="500" left="303" width="42" height="9" font="1">user call to</text>
+<text top="501" left="348" width="51" height="7" font="2">CGConnect</text>
+<text top="500" left="402" width="148" height="9" font="1">in PyNEST. After setting the masks for</text>
+<text top="512" left="303" width="247" height="9" font="1">the connection generator to tell it which neurons are local and</text>
+<text top="523" left="303" width="247" height="9" font="1">which are remote (see section 2.1), the NEST kernel iteratively</text>
+<text top="535" left="303" width="16" height="9" font="1">calls</text>
+<text top="536" left="323" width="34" height="7" font="2">next()</text>
+<text top="535" left="357" width="193" height="9" font="1">. This function returns source and target indices,</text>
+<text top="546" left="303" width="247" height="9" font="1">and values for weight and delay if the arity of the connection</text>
+<text top="558" left="303" width="247" height="9" font="1">generator is 2, until there are no more connections. The connec-</text>
+<text top="569" left="303" width="247" height="9" font="1">tions are internally established one by one calling NEST’s basic</text>
+<text top="581" left="303" width="103" height="7" font="2">Network::connect()</text>
+<text top="581" left="408" width="65" height="9" font="1">function at the C</text>
+<text top="578" left="472" width="15" height="12" font="9">++</text>
+<text top="581" left="489" width="19" height="9" font="1">level.</text>
+<text top="602" left="303" width="192" height="9" font="11"><b>5. USING CONNECTION GENERATORS IN PyNN</b></text>
+<text top="614" left="303" width="76" height="9" font="1">PyNN <a href="http://www.neuralensemble.org/PyNN">(http://www</a></text>
+<text top="612" left="379" width="3" height="12" font="12"><a href="http://www.neuralensemble.org/PyNN"><i>.</i></a></text>
+<text top="614" left="381" width="60" height="9" font="1"><a href="http://www.neuralensemble.org/PyNN">neuralensemble</a></text>
+<text top="612" left="441" width="3" height="12" font="12"><a href="http://www.neuralensemble.org/PyNN"><i>.</i></a></text>
+<text top="614" left="444" width="42" height="9" font="1"><a href="http://www.neuralensemble.org/PyNN">org/PyNN;</a></text>
+<text top="614" left="490" width="59" height="9" font="4"><a href="">Davison et al.,</a></text>
+<text top="626" left="303" width="18" height="9" font="4"><a href="">2009</a></text>
+<text top="626" left="321" width="228" height="9" font="1">) is a simulator-independent API for describing neuronal</text>
+<text top="637" left="303" width="246" height="9" font="1">networks in Python. Given a PyNN/Python model description,</text>
+<text top="649" left="303" width="247" height="9" font="1">the user can choose which simulator to use without needing to</text>
+<text top="660" left="303" width="216" height="9" font="1">change the model script. This is achieved through a set of</text>
+<text top="660" left="521" width="28" height="9" font="5"><i>simula-</i></text>
+<text top="672" left="303" width="46" height="9" font="5"><i>tor backends</i></text>
+<text top="672" left="349" width="200" height="9" font="1">. Each backend is a Python module that implements</text>
+<text top="683" left="303" width="247" height="9" font="1">the API for a specific simulator, for example by providing a</text>
+<text top="695" left="303" width="247" height="9" font="1">mapping from standard model names and units in PyNN to</text>
+<text top="706" left="303" width="90" height="9" font="1">simulator-specific ones.</text>
+<text top="746" left="45" width="104" height="7" font="13"><a href="http://www.frontiersin.org/Neuroinformatics"><b>Frontiers in Neuroinformatics</b></a></text>
+<text top="746" left="261" width="72" height="7" font="13"><a href="http://www.frontiersin.org"><b>www.frontiersin.org</b></a></text>
+<text top="746" left="440" width="100" height="6" font="0"><a href="http://www.frontiersin.org/Neuroinformatics/archive">April 2014 | Volume 8 | Article 43</a></text>
+<text top="746" left="542" width="2" height="7" font="14">|</text>
+<text top="746" left="546" width="4" height="6" font="15"><b>6</b></text>
+</page>
+</pdf2xml>

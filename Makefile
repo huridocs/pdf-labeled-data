@@ -1,4 +1,5 @@
 start:
+	. venv/bin/activate; python create_xmls.py
 	docker compose up --build
 
 start_detached:

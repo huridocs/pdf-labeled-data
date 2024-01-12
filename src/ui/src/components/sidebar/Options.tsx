@@ -5,7 +5,7 @@ import { Switch } from '@allenai/varnish';
 import { CheckOutlined, CloseOutlined } from '@ant-design/icons';
 
 import { SidebarItem, SidebarItemTitle } from './common';
-import { OptionsStore, SHOW_TOKENS } from '../../context';
+import { OptionsStore, HIDE_LABELS_NAMES, SHOW_TOKENS } from '../../context';
 
 export const Options = () => {
     const { options, setOptions } = useContext(OptionsStore);
@@ -13,6 +13,11 @@ export const Options = () => {
     const onToggleShowTokens = async () => {
         const newValue = !options[SHOW_TOKENS];
         setOptions({ ...options, [SHOW_TOKENS]: newValue });
+    };
+
+    const onToggleShowLabelNames = async () => {
+        const newValue = !options[HIDE_LABELS_NAMES];
+        setOptions({ ...options, [HIDE_LABELS_NAMES]: newValue });
     };
 
     return (
@@ -27,6 +32,16 @@ export const Options = () => {
                         checkedChildren={<CheckOutlined />}
                         unCheckedChildren={<CloseOutlined />}
                         checked={options[SHOW_TOKENS]}
+                    />
+                </div>
+                <div>
+                    Hide label names
+                    <Toggle
+                        size="small"
+                        onChange={onToggleShowLabelNames}
+                        checkedChildren={<CheckOutlined />}
+                        unCheckedChildren={<CloseOutlined />}
+                        checked={options[HIDE_LABELS_NAMES]}
                     />
                 </div>
             </Container>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="23.12.0">
+<page number="1" position="absolute" top="0" left="0" height="779" width="595">
+	<fontspec id="0" size="7" family="BWUFGY+HelveticaNeueLTStd-Lt" color="#656263"/>
+	<fontspec id="1" size="9" family="MPVWYL+MinionPro" color="#231f20"/>
+	<fontspec id="2" size="9" family="TRNRAT+MinionPro" color="#231f20"/>
+	<fontspec id="3" size="9" family="CNHVDT+MTSY" color="#231f20"/>
+	<fontspec id="4" size="9" family="MPVWYL+MinionPro" color="#656263"/>
+	<fontspec id="5" size="12" family="ZYMRJZ+HelveticaNeueLTStd-Bd" color="#231f20"/>
+	<fontspec id="6" size="7" family="ZYMRJZ+HelveticaNeueLTStd-Bd" color="#656263"/>
+<text top="29" left="45" width="41" height="7" font="0">Naveros et al.</text>
+<text top="29" left="444" width="107" height="7" font="0">Event- and Time-Driven Techniques</text>
+<text top="63" left="55" width="235" height="9" font="1">rest of event-driven techniques. This is more significant when</text>
+<text top="74" left="55" width="235" height="9" font="1">the mathematical complexity of the neural models increases</text>
+<text top="86" left="55" width="15" height="9" font="1">(see</text>
+<text top="86" left="72" width="36" height="9" font="2"><a href=""><b>Figures 5</b></a></text>
+<text top="86" left="108" width="5" height="9" font="1"><a href="">–</a></text>
+<text top="86" left="113" width="5" height="9" font="2"><a href=""><b>8</b></a></text>
+<text top="86" left="118" width="5" height="9" font="1"><a href="">)</a>.</text>
+<text top="100" left="45" width="5" height="7" font="3">•</text>
+<text top="97" left="55" width="235" height="9" font="1">The main factor that finally constrains the computational</text>
+<text top="109" left="55" width="235" height="9" font="1">performance of all these event-driven methods is the number</text>
+<text top="120" left="55" width="235" height="9" font="1">of events that need to be processed. These events are mainly</text>
+<text top="132" left="55" width="123" height="9" font="1">internal and propagated spikes <a href="">(</a></text>
+<text top="132" left="178" width="61" height="9" font="4"><a href="">Ros et al., 2006a</a></text>
+<text top="132" left="239" width="51" height="9" font="1"><a href="">) </a>that linearly</text>
+<text top="143" left="55" width="235" height="9" font="1">increase with the neural activity. Time-driven integration</text>
+<text top="155" left="55" width="235" height="9" font="1">methods are preferred rather than event-driven integration</text>
+<text top="166" left="55" width="235" height="9" font="1">methods for those neural networks with high levels of neural</text>
+<text top="178" left="55" width="47" height="9" font="1">activity (see</text>
+<text top="178" left="106" width="36" height="9" font="2"><a href=""><b>Figures 7</b></a></text>
+<text top="178" left="143" width="2" height="9" font="1"><a href="">,</a></text>
+<text top="178" left="149" width="5" height="9" font="2"><a href=""><b>8</b></a></text>
+<text top="178" left="154" width="136" height="9" font="1"><a href="">)</a>. Conversely, there are particular</text>
+<text top="189" left="55" width="235" height="9" font="1">cases in which the event-driven integration methods can</text>
+<text top="200" left="55" width="235" height="9" font="1">be the best option. There are, actually, biologically realistic</text>
+<text top="212" left="55" width="235" height="9" font="1">SNNs in which parts of their inner layers present a very low</text>
+<text top="223" left="55" width="235" height="9" font="1">and sparse neural activity, such as the granular cells in the</text>
+<text top="235" left="55" width="49" height="9" font="1">cerebellum <a href="">(</a></text>
+<text top="235" left="104" width="82" height="9" font="4"><a href="">D’Angelo et al., 2016</a></text>
+<text top="235" left="186" width="104" height="9" font="1"><a href="">) </a>or the mushroom bodies</text>
+<text top="246" left="55" width="178" height="9" font="1">within the olfactory system in Drosophila <a href="">(</a></text>
+<text top="246" left="233" width="57" height="9" font="4"><a href="">Serrano et al.,</a></text>
+<text top="258" left="55" width="18" height="9" font="4"><a href="">2013</a></text>
+<text top="258" left="73" width="217" height="9" font="1"><a href="">)</a>. The importance of these particular networks cannot</text>
+<text top="269" left="55" width="235" height="9" font="1">be overlooked (i.e., just the granular cerebellar layer accounts</text>
+<text top="281" left="55" width="235" height="9" font="1">for half of the neurons of the whole brain, its neurons receive</text>
+<text top="292" left="55" width="235" height="9" font="1">between three and six input synapses with a low and very</text>
+<text top="304" left="55" width="235" height="9" font="1">sparse activity, with most of them remaining silent and barely</text>
+<text top="315" left="55" width="235" height="9" font="1">generating spikes). In these cases, event-driven integration</text>
+<text top="326" left="55" width="235" height="9" font="1">methods perform better than time-driven integration</text>
+<text top="338" left="55" width="35" height="9" font="1">methods.</text>
+<text top="364" left="45" width="214" height="12" font="5">Time-Driven Main Functional Aspects</text>
+<text top="378" left="45" width="245" height="9" font="1">The main functional aspects in relation to the time-driven</text>
+<text top="389" left="45" width="194" height="9" font="1">integration methods can be summarized as follows:</text>
+<text top="409" left="45" width="5" height="7" font="3">•</text>
+<text top="407" left="55" width="235" height="9" font="1">Hybrid CPU-GPU integration methods perform better</text>
+<text top="418" left="55" width="235" height="9" font="1">than CPU methods. This is specifically relevant when the</text>
+<text top="430" left="55" width="235" height="9" font="1">mathematical complexity of the neural models increases. GPU</text>
+<text top="441" left="55" width="235" height="9" font="1">hardware architecture performs better computing parallel</text>
+<text top="453" left="55" width="235" height="9" font="1">tasks than CPU architecture. The computation of the neural</text>
+<text top="464" left="55" width="235" height="9" font="1">dynamics is a pure parallelizable task and consequently, GPU-</text>
+<text top="475" left="55" width="235" height="9" font="1">friendly. In a hybrid CPU-GPU platform, the GPU only</text>
+<text top="487" left="55" width="235" height="9" font="1">processes the neural dynamics, whilst the spike generation</text>
+<text top="498" left="55" width="235" height="9" font="1">and propagation are processed in the CPU. When the</text>
+<text top="510" left="55" width="235" height="9" font="1">mathematical complexity of the neural models increases, the</text>
+<text top="521" left="55" width="235" height="9" font="1">workload assigned to the GPU increases, whilst the workload</text>
+<text top="533" left="55" width="235" height="9" font="1">of the CPU remains equal. For this reason, CPU-GPU neural</text>
+<text top="544" left="55" width="235" height="9" font="1">models perform better than purely CPU neural models,</text>
+<text top="556" left="55" width="235" height="9" font="1">especially when the mathematical complexity of the neural</text>
+<text top="567" left="55" width="235" height="9" font="1">models increases. This increase in performance is shown in</text>
+<text top="579" left="55" width="36" height="9" font="2"><a href=""><b>Figures 5</b></a></text>
+<text top="579" left="91" width="5" height="9" font="1"><a href="">–</a></text>
+<text top="579" left="96" width="5" height="9" font="2"><a href=""><b>8</b></a></text>
+<text top="579" left="101" width="2" height="9" font="1"><a href="">.</a></text>
+<text top="593" left="45" width="5" height="7" font="3">•</text>
+<text top="590" left="55" width="235" height="9" font="1">Bi-fixed-step integration methods outperform fixed-step</text>
+<text top="601" left="55" width="235" height="9" font="1">integration methods for both CPU and GPU platforms</text>
+<text top="613" left="55" width="235" height="9" font="1">when the mathematical complexity of the neural model</text>
+<text top="624" left="55" width="53" height="9" font="1">increases (see</text>
+<text top="624" left="111" width="36" height="9" font="2"><a href=""><b>Figures 5</b></a></text>
+<text top="624" left="148" width="5" height="9" font="1"><a href="">–</a></text>
+<text top="624" left="152" width="5" height="9" font="2"><a href=""><b>8</b></a></text>
+<text top="624" left="157" width="133" height="9" font="1"><a href="">)</a>. Complex neural models usually</text>
+<text top="636" left="55" width="235" height="9" font="1">demand small integration step sizes to better cope with the</text>
+<text top="647" left="55" width="235" height="9" font="1">stiffness of their neural model equations during the spike</text>
+<text top="659" left="55" width="70" height="9" font="1">shape generation.</text>
+<text top="659" left="131" width="49" height="9" font="2"><a href=""><b>Figures 5E,F</b></a></text>
+<text top="659" left="186" width="104" height="9" font="1">show how the maximum</text>
+<text top="670" left="55" width="235" height="9" font="1">step size on a fixed-step integration method is constrained</text>
+<text top="682" left="55" width="235" height="9" font="1">due to the differential equation stiffness (HH model).</text>
+<text top="693" left="55" width="235" height="9" font="1">The adaptation mechanism used by the CPU bi-fixed-step</text>
+<text top="705" left="55" width="235" height="9" font="1">integration methods improves the simulation performance by</text>
+<text top="63" left="315" width="235" height="9" font="1">enlarging the simulation step size during those neural dynamic</text>
+<text top="74" left="315" width="119" height="9" font="1">intervals out of the spike phase.</text>
+<text top="89" left="305" width="5" height="7" font="3">•</text>
+<text top="86" left="315" width="235" height="9" font="1">The adaptation mechanism of the integration step size for</text>
+<text top="97" left="315" width="235" height="9" font="1">GPU bi-fixed-step integration methods increases performance</text>
+<text top="109" left="315" width="235" height="9" font="1">thanks to the minimization of the time spent in the</text>
+<text top="120" left="315" width="235" height="9" font="1">synchronization and transfer of data between the CPU and</text>
+<text top="132" left="315" width="63" height="9" font="1">GPU processors.</text>
+<text top="146" left="305" width="5" height="7" font="3">•</text>
+<text top="143" left="315" width="235" height="9" font="1">Whilst CPU integration methods are better suited for small-</text>
+<text top="155" left="315" width="235" height="9" font="1">medium groups of neurons (from one neuron to several</text>
+<text top="166" left="315" width="235" height="9" font="1">thousands of neurons, depending on the mathematical</text>
+<text top="178" left="315" width="235" height="9" font="1">complexity), the GPU integration methods are better</text>
+<text top="189" left="315" width="235" height="9" font="1">suited for larger numbers of neurons (from thousands to</text>
+<text top="200" left="315" width="235" height="9" font="1">millions of neurons). The computation time invested in the</text>
+<text top="212" left="315" width="235" height="9" font="1">synchronization period and data transferences between CPU</text>
+<text top="223" left="315" width="235" height="9" font="1">and GPU platforms dominates over the computation time</text>
+<text top="235" left="315" width="235" height="9" font="1">invested in solving the neural dynamics when the number of</text>
+<text top="246" left="315" width="163" height="9" font="1">neurons within the network is small (see</text>
+<text top="246" left="482" width="33" height="9" font="2"><a href=""><b>Figure 6</b></a></text>
+<text top="246" left="515" width="35" height="9" font="1"><a href="">)</a>. In this</text>
+<text top="258" left="315" width="235" height="9" font="1">case, the computational performance of the GPU integration</text>
+<text top="269" left="315" width="102" height="9" font="1">methods reaches a plateau.</text>
+<text top="283" left="305" width="5" height="7" font="3">•</text>
+<text top="281" left="315" width="235" height="9" font="1">The adaptation mechanism that the bi-fixed-step integration</text>
+<text top="292" left="315" width="235" height="9" font="1">method uses in CPU may decrease the computational</text>
+<text top="304" left="315" width="235" height="9" font="1">performance when the mean firing rate over the neural</text>
+<text top="315" left="315" width="235" height="9" font="1">network is quite high. When the neural activity increases, the</text>
+<text top="326" left="315" width="235" height="9" font="1">ratio of use between the local and global step also increases.</text>
+<text top="338" left="315" width="235" height="9" font="1">The computational workload for the neural dynamic increases</text>
+<text top="349" left="315" width="235" height="9" font="1">and the performance drops (see how the computation time</text>
+<text top="361" left="315" width="44" height="9" font="1">increases in</text>
+<text top="361" left="362" width="33" height="9" font="2"><a href=""><b>Figure 7</b></a></text>
+<text top="361" left="394" width="5" height="9" font="1"><a href="">)</a>.</text>
+<text top="390" left="305" width="179" height="12" font="5">EDLUT Hybrid Architecture into</text>
+<text top="404" left="305" width="67" height="12" font="5">Perspective</text>
+<text top="418" left="305" width="245" height="9" font="1">EDLUT is a simulator mainly oriented to efficiently simulate</text>
+<text top="430" left="305" width="245" height="9" font="1">medium-scale neural networks (tens of thousands of neurons)</text>
+<text top="441" left="305" width="245" height="9" font="1">pursuing real time simulations. EDLUT uses point neural models,</text>
+<text top="453" left="305" width="245" height="9" font="1">such as LIF, AdEx or HH. EDLUT information transmission</text>
+<text top="464" left="305" width="245" height="9" font="1">relies on spike timing rather than on the particular spike shape.</text>
+<text top="475" left="305" width="245" height="9" font="1">What matters is when the spike is emitted rather than how the</text>
+<text top="487" left="305" width="245" height="9" font="1">spike is generated. Neurons are just means to an end needed</text>
+<text top="498" left="305" width="245" height="9" font="1">toward understanding the behavior of the neural network behind.</text>
+<text top="510" left="305" width="245" height="9" font="1">The neural communication mechanisms are deployed at network</text>
+<text top="521" left="305" width="245" height="9" font="1">level at very high simulation speeds on a single multicore</text>
+<text top="533" left="305" width="245" height="9" font="1">computer, thus facilitating real time embodiment experiments</text>
+<text top="544" left="305" width="3" height="9" font="1"><a href="">(</a></text>
+<text top="544" left="308" width="242" height="9" font="4"><a href="">Carrillo et al., 2008; Luque et al., 2011a,b, 2014a,b, 2016; </a>Garrido</text>
+<text top="556" left="305" width="208" height="9" font="4">et al., <a href="">2013a; Casellato et al., 2014; Antonietti et al., 2016</a></text>
+<text top="556" left="514" width="37" height="9" font="1"><a href="">)</a>. In these</text>
+<text top="567" left="305" width="245" height="9" font="1">neurorobotic experimental set-ups the neural network and the</text>
+<text top="579" left="305" width="132" height="9" font="1">body are coupled as a single entity.</text>
+<text top="590" left="317" width="92" height="9" font="1">Conversely, NEURON <a href="">(</a></text>
+<text top="590" left="408" width="102" height="9" font="4"><a href="">Hines and Carnevale, 1997</a></text>
+<text top="590" left="510" width="40" height="9" font="1"><a href="">) </a>is mainly</text>
+<text top="601" left="305" width="245" height="9" font="1">designed for the simulation of very complex and detailed neural</text>
+<text top="613" left="305" width="245" height="9" font="1">models. What matters here is how the spike was generated rather</text>
+<text top="624" left="305" width="245" height="9" font="1">than when it was emitted. Understanding neurons themselves is</text>
+<text top="636" left="305" width="245" height="9" font="1">the goal. To be as biologically plausible as possible, NEURON is</text>
+<text top="647" left="305" width="245" height="9" font="1">conceived to deal with high levels of mathematical complexity</text>
+<text top="659" left="305" width="245" height="9" font="1">that usually require time-driven simulation methods (either</text>
+<text top="670" left="305" width="245" height="9" font="1">fixed- or variable-step integration methods). The computational</text>
+<text top="682" left="305" width="245" height="9" font="1">cost here highly depends on the mathematical complexity which</text>
+<text top="693" left="305" width="245" height="9" font="1">makes the simulation of hundreds or tens of hundreds neurons</text>
+<text top="705" left="305" width="245" height="9" font="1">conforming a network almost computationally intractable. Using</text>
+<text top="742" left="45" width="149" height="7" font="0"><a href="https://www.frontiersin.org/journals/neuroinformatics">Frontiers in Neuroinformatics </a>| <a href="https://www.frontiersin.org">www.frontiersin.org</a></text>
+<text top="742" left="294" width="8" height="7" font="6">19</text>
+<text top="742" left="440" width="111" height="7" font="0"><a href="https://www.frontiersin.org/journals/neuroinformatics#articles">February 2017 | Volume 11 | Article 7</a></text>
+</page>
+</pdf2xml>

@@ -2,7 +2,16 @@ import React, { MouseEvent, useContext, useState } from 'react';
 import styled, { ThemeContext } from 'styled-components';
 import { Modal, Select } from '@allenai/varnish';
 
-import { Bounds, TokenId, PDFPageInfo, Annotation, AnnotationStore, TASKS } from '../context';
+import {
+    Bounds,
+    TokenId,
+    PDFPageInfo,
+    Annotation,
+    AnnotationStore,
+    TASKS,
+    OptionsStore,
+    HIDE_LABELS_NAMES,
+} from '../context';
 import { CloseCircleFilled, EditFilled } from '@ant-design/icons';
 import { DatasetsStore } from '../context/DatasetsStore';
 
@@ -198,6 +207,7 @@ export const Selection = ({ pageInfo, annotation, showInfo = true }: SelectionPr
     const [isEditLabelModalVisible, setIsEditLabelModalVisible] = useState(false);
     const { activeTask } = useContext(DatasetsStore);
     const annotationStore = useContext(AnnotationStore);
+    const { options } = useContext(OptionsStore);
 
     let color;
     if (!label) {
@@ -242,9 +252,9 @@ export const Selection = ({ pageInfo, annotation, showInfo = true }: SelectionPr
                 {showInfo && !annotationStore.hideLabels && !annotation.hideLabel ? (
                     <SelectionInfo border={border} color={color} onClick={onShiftClick}>
                         <span>
-                            {label.name} {label.metadata}
+                            {!options[HIDE_LABELS_NAMES] && label.name} {label.metadata}
                         </span>
-                        {activeTask !== TASKS.reading_order && (
+                        {activeTask !== TASKS.reading_order && !options[HIDE_LABELS_NAMES] && (
                             <>
                                 <EditFilled
                                     onClick={(e) => {

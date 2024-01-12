@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="23.12.0">
+<page number="1" position="absolute" top="0" left="0" height="792" width="600">
+	<fontspec id="0" size="10" family="Minion" color="#231f20"/>
+	<fontspec id="1" size="10" family="Minion" color="#231f20"/>
+	<fontspec id="2" size="7" family="Minion" color="#231f20"/>
+	<fontspec id="3" size="10" family="MinionExp" color="#231f20"/>
+	<fontspec id="4" size="10" family="Minion" color="#000000"/>
+	<fontspec id="5" size="7" family="Minion" color="#231f20"/>
+	<fontspec id="6" size="10" family="MinionProMath" color="#231f20"/>
+<text top="45" left="51" width="5" height="9" font="0">2</text>
+<text top="45" left="439" width="110" height="9" font="0">Advances in Bioinformatics</text>
+<text top="74" left="65" width="225" height="9" font="0">(2) <i>What important information in the full text does not</i></text>
+<text top="85" left="81" width="87" height="9" font="1"><i>appear in the abstract?</i></text>
+<text top="84" left="167" width="3" height="7" font="2"><i>7</i></text>
+<text top="101" left="65" width="225" height="9" font="0">(3) <i>What should an ideal summary of the full text contain</i></text>
+<text top="112" left="81" width="130" height="9" font="1"><i>that is not already in the abstract?</i></text>
+<text top="128" left="65" width="77" height="9" font="0">(4) <i>What are the di</i></text>
+<text top="125" left="143" width="5" height="13" font="3"><i>ﬀ</i></text>
+<text top="128" left="148" width="143" height="9" font="1"><i>erences in the way authors and peers</i></text>
+<text top="139" left="81" width="53" height="9" font="1"><i>see an article?</i></text>
+<text top="158" left="66" width="225" height="9" font="0">We explore these questions indirectly, using an under-</text>
+<text top="170" left="51" width="240" height="9" font="0">explored information source: the sentences containing the</text>
+<text top="181" left="51" width="240" height="9" font="0">citations to a target article or <i>citances</i>. While cocitation</text>
+<text top="192" left="51" width="240" height="9" font="0">analysis is commonly-used for determining the popularity,</text>
+<text top="204" left="51" width="215" height="9" font="0">and by association, the importance of a publication <a href="">[</a></text>
+<text top="204" left="266" width="5" height="9" font="4"><a href="">8</a></text>
+<text top="204" left="270" width="5" height="9" font="0"><a href="">–</a></text>
+<text top="204" left="275" width="10" height="9" font="4"><a href="">15</a></text>
+<text top="204" left="285" width="6" height="9" font="0"><a href="">],</a></text>
+<text top="215" left="51" width="240" height="9" font="0">our focus here is on the <i>contents </i>of the sentences containing</text>
+<text top="227" left="51" width="131" height="9" font="0">the citations, that is, the citances.</text>
+<text top="238" left="66" width="225" height="9" font="0">In particular, we compare the information content of the</text>
+<text top="249" left="51" width="240" height="9" font="0">abstract of a biomedical journal article to the information</text>
+<text top="261" left="51" width="240" height="9" font="0">in all citances that cite that article, thus contrasting the</text>
+<text top="272" left="51" width="240" height="9" font="0">important points about it as judged by its authors versus</text>
+<text top="283" left="51" width="240" height="9" font="0">as seen by peer researchers over the years following its</text>
+<text top="295" left="51" width="240" height="9" font="0">publication. Put another way, we use citances as an indirect</text>
+<text top="306" left="51" width="215" height="9" font="0">way to access important information in the full text</text>
+<text top="305" left="266" width="3" height="7" font="5">8</text>
+<text top="306" left="269" width="22" height="9" font="0">. The</text>
+<text top="317" left="51" width="240" height="9" font="0">idea is that (1) any information not mentioned in the abstract</text>
+<text top="329" left="51" width="240" height="9" font="0">but referred to in citances should be coming from the full</text>
+<text top="340" left="51" width="240" height="9" font="0">text, and (2) entities and concepts mentioned in a citance</text>
+<text top="352" left="51" width="240" height="9" font="0">should be important and somewhat representative of their</text>
+<text top="363" left="51" width="28" height="9" font="0">source.</text>
+<text top="374" left="66" width="225" height="9" font="0">To give an example, here is the abstract of an article</text>
+<text top="386" left="51" width="97" height="9" font="0">(PubMed ID 11346650):</text>
+<text top="405" left="76" width="190" height="9" font="1"><i>Multiple Mechanisms Regulate Subcellular Local-</i></text>
+<text top="416" left="76" width="98" height="9" font="1"><i>ization of Human CDC6.</i></text>
+<text top="438" left="76" width="190" height="9" font="1"><i>CDC6 is a protein essential for DNA replication,</i></text>
+<text top="449" left="76" width="190" height="9" font="1"><i>the expression and abundance of which are cell</i></text>
+<text top="461" left="76" width="190" height="9" font="1"><i>cycle-regulated in Saccharomyces cerevisiae. We</i></text>
+<text top="472" left="76" width="190" height="9" font="1"><i>have demonstrated previously that the subcellu-</i></text>
+<text top="483" left="76" width="190" height="9" font="1"><i>lar localization of the human CDC6 homolog,</i></text>
+<text top="495" left="76" width="190" height="9" font="1"><i>HsCDC6, is cell cycle-dependent: nuclear during</i></text>
+<text top="506" left="76" width="190" height="9" font="1"><i>G(1) phase and cytoplasmic during S phase.</i></text>
+<text top="517" left="76" width="190" height="9" font="1"><i>Here we demonstrate that endogenous HsCDC6</i></text>
+<text top="529" left="76" width="190" height="9" font="1"><i>is phosphorylated during the G(1)/S transition.</i></text>
+<text top="540" left="76" width="190" height="9" font="1"><i>The N-terminal region contains putative cyclin-</i></text>
+<text top="552" left="76" width="190" height="9" font="1"><i>dependent kinase phosphorylation sites adjoin-</i></text>
+<text top="563" left="76" width="190" height="9" font="1"><i>ing nuclear localization sequences (NLSs) and</i></text>
+<text top="574" left="76" width="190" height="9" font="1"><i>a cyclin-docking motif, whereas the C-terminal</i></text>
+<text top="586" left="76" width="190" height="9" font="1"><i>region contains a nuclear export signal (NES).</i></text>
+<text top="597" left="76" width="190" height="9" font="1"><i>In addition, we show that the observed regu-</i></text>
+<text top="608" left="76" width="190" height="9" font="1"><i>lated subcellular localization depends on phos-</i></text>
+<text top="620" left="76" width="190" height="9" font="1"><i>phorylation status, NLS, and NES. When the</i></text>
+<text top="631" left="76" width="190" height="9" font="1"><i>four putative substrate sites (serines 45, 54,</i></text>
+<text top="643" left="76" width="190" height="9" font="1"><i>74, and 106) for cyclin-dependent kinases are</i></text>
+<text top="654" left="76" width="190" height="9" font="1"><i>mutated to alanines, the resulting HsCDC6A4</i></text>
+<text top="665" left="76" width="190" height="9" font="1"><i>protein is localized predominantly to the nucleus.</i></text>
+<text top="677" left="76" width="190" height="9" font="1"><i>This localization depends upon two functional</i></text>
+<text top="688" left="76" width="190" height="9" font="1"><i>NLSs, because expression of HsCDC6 containing</i></text>
+<text top="699" left="76" width="190" height="9" font="1"><i>mutations in the two putative NLSs results in</i></text>
+<text top="711" left="76" width="190" height="9" font="1"><i>predominantly cytoplasmic distribution. Further-</i></text>
+<text top="722" left="76" width="190" height="9" font="1"><i>more, mutation of the four serines to phosphate-</i></text>
+<text top="733" left="76" width="190" height="9" font="1"><i>mimicking aspartates (HsCDC6D4) results in</i></text>
+<text top="74" left="334" width="190" height="9" font="1"><i>strictly cytoplasmic localization. This cytoplasmic</i></text>
+<text top="85" left="334" width="190" height="9" font="1"><i>localization depends upon the C-terminal NES.</i></text>
+<text top="97" left="334" width="190" height="9" font="1"><i>Together these results demonstrate that HsCDC6</i></text>
+<text top="108" left="334" width="190" height="9" font="1"><i>is phosphorylated at the G(1)/S phase of the</i></text>
+<text top="119" left="334" width="190" height="9" font="1"><i>cell cycle and that the phosphorylation status</i></text>
+<text top="131" left="334" width="149" height="9" font="1"><i>determines the subcellular localization.</i></text>
+<text top="151" left="324" width="165" height="9" font="0">And here are some citances pointing to it:</text>
+<text top="169" left="334" width="190" height="9" font="1"><i>Much of the soluble Cdc6 protein, however, is</i></text>
+<text top="181" left="334" width="190" height="9" font="1"><i>translocated from the nucleus to the cytoplasm</i></text>
+<text top="192" left="334" width="190" height="9" font="1"><i>when CDKs are activated in late G1 phase,</i></text>
+<text top="203" left="334" width="190" height="9" font="1"><i>thus preventing it from further interaction with</i></text>
+<text top="215" left="334" width="145" height="9" font="1"><i>replication origins [#C, #C and #TC].</i></text>
+<text top="235" left="335" width="189" height="9" font="1"><i>To ensure that the pre-RC will not re-form in S</i></text>
+<text top="246" left="334" width="190" height="9" font="1"><i>or G2, Cdc6p is phosphorylated and degraded in</i></text>
+<text top="258" left="334" width="190" height="9" font="1"><i>yeast (#C; #C; #C) or exported to the cytoplasm in</i></text>
+<text top="269" left="334" width="158" height="9" font="1"><i>higher organisms (#TC; #C; #C; #C; #C).</i></text>
+<text top="289" left="335" width="189" height="9" font="1"><i>It is phosphorylated by cyclin A-cdk2 at the G1-</i></text>
+<text top="301" left="334" width="190" height="9" font="1"><i>S transition and this modification causes some,</i></text>
+<text top="312" left="334" width="190" height="9" font="1"><i>but not all, of the Cdc6 to be exported out of the</i></text>
+<text top="323" left="334" width="120" height="9" font="1"><i>nucleus (#TC; #C; #C and #C).</i></text>
+<text top="343" left="335" width="30" height="9" font="1"><i>Cdc6Cy</i></text>
+<text top="341" left="365" width="6" height="13" font="6">Δ</text>
+<text top="343" left="377" width="147" height="9" font="1"><i>has a mutation in a cyclin binding</i></text>
+<text top="355" left="334" width="190" height="9" font="1"><i>motif that is an essential part of the substrate</i></text>
+<text top="366" left="334" width="128" height="9" font="1"><i>recognition signal for cdks (#TC).</i></text>
+<text top="386" left="335" width="189" height="9" font="1"><i>After entry into S phase, phosphorylation of</i></text>
+<text top="398" left="334" width="190" height="9" font="1"><i>HsCdc6, probably by cyclinA/CDK2, leads to its</i></text>
+<text top="409" left="334" width="190" height="9" font="1"><i>export from nucleus to the cytoplasm via NES</i></text>
+<text top="420" left="334" width="27" height="9" font="1"><i>[#TC].</i></text>
+<text top="440" left="335" width="189" height="9" font="1"><i>Once replication begins, Cdc6 is degraded in yeast</i></text>
+<text top="452" left="334" width="190" height="9" font="1"><i>(#C, #C, #C, #C, #C), whereas for mammals it has</i></text>
+<text top="463" left="334" width="190" height="9" font="1"><i>been suggested that Cdc6 is translocated out of the</i></text>
+<text top="475" left="334" width="190" height="9" font="1"><i>nucleus during S phase in a cyclin A-Cdk2- and</i></text>
+<text top="486" left="334" width="190" height="9" font="1"><i>phosphorylation-dependent manner (#C, #TC,</i></text>
+<text top="497" left="334" width="190" height="9" font="1"><i>#C,-#C, #C) and then subject to degradation by</i></text>
+<text top="509" left="334" width="183" height="9" font="1"><i>the anaphase-promoting complex (#C, #C, #C).</i></text>
+<text top="529" left="324" width="225" height="9" font="0">In the above examples, #TC refers to the publication</text>
+<text top="540" left="309" width="240" height="9" font="0">we are comparing against (the target citation: PubMed</text>
+<text top="552" left="309" width="240" height="9" font="0">ID 11346650), whereas #C refers to other publications.</text>
+<text top="563" left="309" width="240" height="9" font="0">Throughout this paper, we will refer to these citation</text>
+<text top="574" left="309" width="210" height="9" font="0">sentences to other publications as <i>adjoining citations</i>.</text>
+<text top="586" left="324" width="225" height="9" font="0">Previous studies have discussed some of the potential of</text>
+<text top="597" left="309" width="166" height="9" font="0">the use of <i>citances </i>for literature mining <a href="">[</a></text>
+<text top="597" left="475" width="10" height="9" font="4"><a href="">16</a></text>
+<text top="597" left="485" width="2" height="9" font="0"><a href="">,</a></text>
+<text top="597" left="490" width="10" height="9" font="4"><a href="">17</a></text>
+<text top="597" left="500" width="49" height="9" font="0"><a href="">]. </a>Similar to</text>
+<text top="608" left="309" width="240" height="9" font="0">anchor text on the web (visible, clickable text in a webpage,</text>
+<text top="620" left="309" width="240" height="9" font="0">clicking on which navigates the user to another webpage),</text>
+<text top="631" left="309" width="240" height="9" font="0">they are votes of confidence about the importance of a</text>
+<text top="643" left="309" width="240" height="9" font="0">research article. Collectively, they also summarize the most</text>
+<text top="654" left="309" width="240" height="9" font="0">important points about the target article, which makes them</text>
+<text top="665" left="309" width="152" height="9" font="0">a potential surrogate for its full text <a href="">[</a></text>
+<text top="665" left="461" width="10" height="9" font="4"><a href="">18</a></text>
+<text top="665" left="470" width="79" height="9" font="0">] and an important</text>
+<text top="677" left="309" width="240" height="9" font="0">knowledge source when generating a survey of scientific</text>
+<text top="688" left="309" width="48" height="9" font="0">paradigms <a href="">[</a></text>
+<text top="688" left="357" width="10" height="9" font="4"><a href="">19</a></text>
+<text top="688" left="366" width="6" height="9" font="0">].</text>
+<text top="699" left="324" width="225" height="9" font="0">While previous work has focused on the <i>words </i>in</text>
+<text top="711" left="309" width="240" height="9" font="0">citances, we compare their contents to the contents of the</text>
+<text top="722" left="309" width="240" height="9" font="0">abstracts using coarse-grained biologically meaningful <i>con-</i></text>
+<text top="733" left="309" width="240" height="9" font="1"><i>cepts </i>such as entities, functions, and experimental methods.</text>
+</page>
+</pdf2xml>

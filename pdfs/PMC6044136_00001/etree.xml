@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="23.12.0">
+<page number="1" position="absolute" top="0" left="0" height="793" width="595">
+	<fontspec id="0" size="9" family="EMHLII+AdvTTb319c559" color="#000000"/>
+	<fontspec id="1" size="10" family="EMHLHF+AdvFrutiger-R" color="#000000"/>
+	<fontspec id="2" size="9" family="EMHNNO+AdvTT09c53c0a" color="#000000"/>
+	<fontspec id="3" size="9" family="EMHLIJ+AdvPalR" color="#000000"/>
+	<fontspec id="4" size="10" family="EMHLIH+AdvEls-ent3" color="#255195"/>
+	<fontspec id="5" size="10" family="EMHLHE+AdvFrutiger-B" color="#255195"/>
+	<fontspec id="6" size="9" family="EMHLIG+AdvItcSymbol-M" color="#000000"/>
+	<fontspec id="7" size="8" family="EMHLHF+AdvFrutiger-R" color="#000000"/>
+<text top="61" left="43" width="239" height="9" font="0">11 males and 6 females ranging in age from 25 to 56 years</text>
+<text top="71" left="43" width="239" height="9" font="0">with a mean age of 43.3 years. Of the 17 patients, 13 were</text>
+<text top="81" left="43" width="239" height="9" font="0">treated for atlantoaxial dislocation, and 4 were treated</text>
+<text top="92" left="43" width="239" height="9" font="0">for atlantoaxial deformity. All patients suffered from neck</text>
+<text top="102" left="43" width="239" height="9" font="0">and shoulder pain, including 5 patients with accompanying</text>
+<text top="113" left="43" width="239" height="9" font="0">cervical cord compression. Imaging examination showed</text>
+<text top="123" left="43" width="239" height="9" font="0">that all 17 patients suffered from cervical instability or dis-</text>
+<text top="134" left="43" width="239" height="9" font="0">location. Fifteen of the patients could fully recover before the</text>
+<text top="144" left="43" width="239" height="9" font="0">surgery, while the other 2 could only generally recover. After</text>
+<text top="155" left="43" width="239" height="9" font="0">surgery, there was no obvious pressure on the anterior aspect</text>
+<text top="165" left="43" width="239" height="9" font="0">of the spinal cord. This study was approved by the ethics</text>
+<text top="176" left="43" width="43" height="9" font="0">committee.</text>
+<text top="200" left="43" width="229" height="10" font="1">Design and production of a modified 3D-printed</text>
+<text top="211" left="43" width="95" height="10" font="1">navigation template</text>
+<text top="223" left="52" width="230" height="9" font="0">We used a LightSpeed 16-slice spiral CT machine (GE, USA)</text>
+<text top="233" left="43" width="239" height="9" font="0">for the imaging examinations. The scanning range included</text>
+<text top="244" left="43" width="239" height="9" font="0">three segments from the first cervical vertebra to the third</text>
+<text top="254" left="43" width="239" height="9" font="0">cervical vertebra with a 1.25-mm slice thickness, 5.0-mm</text>
+<text top="264" left="43" width="239" height="9" font="0">pitch, 9.37-mm/s table speed, 120-kV voltage, and 200-mA</text>
+<text top="275" left="43" width="239" height="9" font="0">current. Scanned images were saved in DICOM format, and</text>
+<text top="285" left="43" width="239" height="9" font="0">the DICOM files were imported into the 3D image produc-</text>
+<text top="296" left="43" width="239" height="9" font="0">ing and editing software Mimics 17.0 (Materialise, Belgium)</text>
+<text top="306" left="43" width="239" height="9" font="0">to construct 3D models of the target cervical area. To avoid</text>
+<text top="317" left="43" width="239" height="9" font="0">damage in the trajectory to the pedicle cortex, preliminary</text>
+<text top="327" left="43" width="239" height="9" font="0">simulation of pedicle screw placement was conducted with</text>
+<text top="338" left="43" width="239" height="9" font="0">computer-aided design software Creo2.0 (PTC, America) using</text>
+<text top="348" left="43" width="239" height="9" font="0">a cylindrical simulated screw with a diameter of 3.5 mm to</text>
+<text top="359" left="43" width="239" height="9" font="0">observe the positional relationship between the trajectory and</text>
+<text top="369" left="43" width="239" height="9" font="0">pedicle in the transverse, sagittal and coronal views of the 3D</text>
+<text top="380" left="43" width="239" height="9" font="0">image. The axis of the cylinder 3.5 mm in diameter was used</text>
+<text top="390" left="43" width="239" height="9" font="0">to build a screw placement guide tube with an inner diameter</text>
+<text top="400" left="43" width="239" height="9" font="0">of 2.1 mm and a vertebral lamina with a length of 15 mm.</text>
+<text top="411" left="43" width="239" height="9" font="0">The template location surface was formed by removing the</text>
+<text top="421" left="43" width="239" height="9" font="0">interfering parts of the template and 3D model after designa-</text>
+<text top="432" left="43" width="239" height="9" font="0">tion of the screw hole position. A cylindrical range pole 3.5 mm</text>
+<text top="442" left="43" width="239" height="9" font="0">in diameter was rebuilt based on the preset axis line of the</text>
+<text top="453" left="43" width="239" height="9" font="0">screw hole. The range pole was moved approximately 10 mm</text>
+<text top="463" left="43" width="239" height="9" font="0">toward the screw hole, and the average thickness of the tem-</text>
+<text top="474" left="43" width="239" height="9" font="0">plate was set at approximately 6 mm. The template file was</text>
+<text top="484" left="43" width="239" height="9" font="0">imported into a Formlab 3D printer (Formlabs, USA) to print</text>
+<text top="495" left="43" width="239" height="9" font="0">the cervical pedicle screw placement template. Ethylene oxide</text>
+<text top="505" left="43" width="239" height="9" font="0">was subsequently used to disinfect the template, which was</text>
+<text top="516" left="43" width="101" height="9" font="0">later sealed for future use.</text>
+<text top="540" left="43" width="202" height="10" font="1">Clinical application of modified 3D-printed</text>
+<text top="551" left="43" width="42" height="10" font="1">template</text>
+<text top="563" left="52" width="230" height="9" font="0">A preoperative simulation surgery was conducted using</text>
+<text top="573" left="43" width="239" height="9" font="0">the 3D-printed template in this study. Kirschner wire was</text>
+<text top="584" left="43" width="239" height="9" font="0">drilled through the guide channel of the modified 3D-printed</text>
+<text top="594" left="43" width="239" height="9" font="0">navigation template and the pedicle to ensure that the wire</text>
+<text top="604" left="43" width="239" height="9" font="0">was completely in the pedicle and would not break the</text>
+<text top="615" left="43" width="57" height="9" font="0">pedicle cortex.</text>
+<text top="613" left="103" width="28" height="12" font="2">In vitro</text>
+<text top="615" left="134" width="148" height="9" font="0">testing demonstrated the accuracy of</text>
+<text top="625" left="43" width="239" height="9" font="0">the modified 3D-printed navigation template. After feasi-</text>
+<text top="636" left="43" width="239" height="9" font="0">bility of the treatment was assured, the navigation template</text>
+<text top="646" left="43" width="239" height="9" font="0">was disinfected with ethylene oxide before use on patients.</text>
+<text top="657" left="43" width="239" height="9" font="0">All patients maintained an atlantoaxial reduction position</text>
+<text top="667" left="43" width="239" height="9" font="0">with a skull traction weight of 3-6 kg. After receiving general</text>
+<text top="678" left="43" width="239" height="9" font="0">anesthesia, patients in the prone position were incised in</text>
+<text top="688" left="43" width="239" height="9" font="0">the middle of neck to expose the posterior atlantoaxial</text>
+<text top="699" left="43" width="239" height="9" font="0">region with complete dissection of the muscles and ligaments</text>
+<text top="709" left="43" width="239" height="9" font="0">attached to the lamina and spinous process. The disinfected</text>
+<text top="720" left="43" width="239" height="9" font="0">modified 3D-printed navigation template was later attached</text>
+<text top="61" left="300" width="239" height="9" font="0">to the lateral mass, lamina, and spinous process of the cor-</text>
+<text top="71" left="300" width="239" height="9" font="0">responding vertebra. Next, after close observation, the</text>
+<text top="81" left="300" width="239" height="9" font="0">surgeons drilled into the vertebral bone cortex to a depth</text>
+<text top="92" left="300" width="239" height="9" font="0">of 10 mm with an electric drill and a 2.0-mm-diameter bit,</text>
+<text top="102" left="300" width="239" height="9" font="0">and assistants subsequently attached the template. Parallel</text>
+<text top="113" left="300" width="239" height="9" font="0">with the direction of the guide posts, the electric drill was</text>
+<text top="123" left="300" width="239" height="9" font="0">used in the guide channels to investigate optimum screw</text>
+<text top="134" left="300" width="145" height="9" font="0">placement and to observe the post</text>
+<text top="132" left="445" width="3" height="12" font="3">’</text>
+<text top="134" left="447" width="92" height="9" font="0">s direction and move-</text>
+<text top="144" left="300" width="239" height="9" font="0">ment. Probes were used after drilling to detect whether the</text>
+<text top="155" left="300" width="239" height="9" font="0">internal walls of the screw channels were intact. Threads and</text>
+<text top="165" left="300" width="239" height="9" font="0">pedicle screws with a diameter of 3.5 mm were placed once</text>
+<text top="176" left="300" width="239" height="9" font="0">the intact screw channels were confirmed. After screw place-</text>
+<text top="186" left="300" width="239" height="9" font="0">ment and lateral observation using a C-arm X-ray machine,</text>
+<text top="196" left="300" width="239" height="9" font="0">the screw position was confirmed, and the surgeons kept</text>
+<text top="207" left="300" width="239" height="9" font="0">patients in the optimum reduction position after adjusting</text>
+<text top="217" left="300" width="239" height="9" font="0">their heads and necks. Bone grafting was completed after</text>
+<text top="228" left="300" width="239" height="9" font="0">screw-rod fixation. Finally, drainage tubes were inserted, and</text>
+<text top="238" left="300" width="137" height="9" font="0">the incision was sutured outward.</text>
+<text top="259" left="300" width="129" height="10" font="1">Postoperative management</text>
+<text top="271" left="309" width="230" height="9" font="0">After surgery, patients were kept under strict bed rest</text>
+<text top="281" left="300" width="239" height="9" font="0">with the cervical spine held stationary and were turned over</text>
+<text top="292" left="300" width="239" height="9" font="0">axially as needed. The drainage flow of the operative site</text>
+<text top="302" left="300" width="239" height="9" font="0">was observed, and the drainage tube was removed if the</text>
+<text top="313" left="300" width="239" height="9" font="0">drainage flow was less than 50 ml/24 h without cerebro-</text>
+<text top="323" left="300" width="239" height="9" font="0">spinal fluid leakage. Before surgery, the patients had taken</text>
+<text top="333" left="300" width="239" height="9" font="0">an antibiotic for 24-48 h, a dehydrant for 3-5 d, and a gastric</text>
+<text top="344" left="300" width="239" height="9" font="0">acid suppression agent for 3-5 d. Adrenalineand was added</text>
+<text top="354" left="300" width="239" height="9" font="0">for 3-5 d if there was impaired spinal cord function before</text>
+<text top="365" left="300" width="239" height="9" font="0">surgery. Patients wore a cervical support device to perform</text>
+<text top="375" left="300" width="139" height="9" font="0">bedside exercises 3 d after surgery.</text>
+<text top="396" left="300" width="52" height="10" font="1">Assessment</text>
+<text top="408" left="309" width="230" height="9" font="0">Regular atlantoaxial CT scanning was used to observe the</text>
+<text top="418" left="300" width="239" height="9" font="0">position of the pedicle screw. The accuracy of screw place-</text>
+<text top="429" left="300" width="239" height="9" font="0">ment was assessed with the Kawaguchi standard by observ-</text>
+<text top="439" left="300" width="239" height="9" font="0">ing the positional relationship between the screw and pedicle,</text>
+<text top="450" left="300" width="239" height="9" font="0">as follows: Level 0: the screw is completely in the pedicle;</text>
+<text top="460" left="300" width="239" height="9" font="0">Level 1: the screw is out of the cortex of the pedicle by less than</text>
+<text top="470" left="300" width="239" height="9" font="0">2 mm, and no screw-related complications occurred, including</text>
+<text top="481" left="300" width="239" height="9" font="0">nerve or vertebral artery injury; Level 2: the screw is out of the</text>
+<text top="491" left="300" width="239" height="9" font="0">cortex of the pedicle by more than 2 mm, and no screw-related</text>
+<text top="502" left="300" width="239" height="9" font="0">complications occurred, including nerve or vertebral artery</text>
+<text top="512" left="300" width="239" height="9" font="0">injury; Level 3: Screw-related complications occurred, including</text>
+<text top="523" left="300" width="239" height="9" font="0">nerve or vertebral artery injury. Levels 0 and 1 were considered</text>
+<text top="533" left="300" width="148" height="9" font="0">to represent accurate screw placement.</text>
+<text top="544" left="309" width="230" height="9" font="0">Using deviation analysis in Mimics software, the transverse</text>
+<text top="554" left="300" width="239" height="9" font="0">and sagittal angles of the pre- and postoperative trajectories</text>
+<text top="565" left="300" width="239" height="9" font="0">were measured and compared (<a href="">7</a>). Transverse angle: the angle</text>
+<text top="575" left="300" width="239" height="9" font="0">between the CT-reconstructed trajectory and the sagittal mid-</text>
+<text top="586" left="300" width="239" height="9" font="0">line. Sagittal angle: the angle between the left view of the</text>
+<text top="596" left="300" width="239" height="9" font="0">CT-reconstructed trajectory and the endplate of the vertebra.</text>
+<text top="606" left="309" width="230" height="9" font="0">The VAS score for cervical and shoulder pain was recorded</text>
+<text top="617" left="300" width="239" height="9" font="0">1 d before, 3 d after and six months after surgery. In this scoring</text>
+<text top="627" left="300" width="239" height="9" font="0">system (with a full score of 10), 0 represents no pain, and 10</text>
+<text top="638" left="300" width="239" height="9" font="0">represents insufferable pain. The JOA score was used (with a</text>
+<text top="648" left="300" width="144" height="9" font="0">full score of 17) to evaluate the patient</text>
+<text top="646" left="443" width="3" height="12" font="3">’</text>
+<text top="648" left="446" width="93" height="9" font="0">s cervical nerve function;</text>
+<text top="659" left="300" width="239" height="9" font="0">in this system, the higher the score, the better the nerve function.</text>
+<text top="678" left="298" width="10" height="13" font="4">’</text>
+<text top="680" left="314" width="40" height="10" font="5">RESULTS</text>
+<text top="698" left="300" width="138" height="10" font="1">Assessment of surgical results</text>
+<text top="709" left="309" width="230" height="9" font="0">The surgeries on all 17 patients were successful, with a</text>
+<text top="720" left="300" width="112" height="9" font="0">mean procedure time of 106</text>
+<text top="717" left="412" width="9" height="12" font="6">±</text>
+<text top="720" left="421" width="118" height="9" font="0">25 min and a mean operative</text>
+<text top="753" left="289" width="4" height="8" font="7">2</text>
+<text top="29" left="43" width="147" height="8" font="7">Assisted C1-C2 Pedicle Screw Placement</text>
+<text top="37" left="43" width="39" height="8" font="7">Pu X et al.</text>
+<text top="29" left="460" width="79" height="8" font="7">CLINICS 2018;73:e259</text>
+</page>
+</pdf2xml>

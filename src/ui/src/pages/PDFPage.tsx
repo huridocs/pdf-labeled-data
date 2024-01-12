@@ -63,7 +63,11 @@ export const PDFPage = () => {
     const [selectedAnnotations, setSelectedAnnotations] = useState<Annotation[]>([]);
 
     const [pdfsStatuses, setPdfsStatuses] = useState<PdfStatus[]>([]);
-    const [activeLabel, setActiveLabel] = useState<Label>({ name: 'a', color: '#FFFFFF' });
+    const [activeLabel, setActiveLabel] = useState<Label>({
+        name: 'a',
+        color: '#FFFFFF',
+        metadata: '',
+    });
     const [labels, setLabels] = useState<Label[]>([]);
     const [hideLabels, setHideLabels] = useState<boolean>(false);
 

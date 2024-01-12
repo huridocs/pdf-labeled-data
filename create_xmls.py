@@ -6,6 +6,8 @@ from config import LABELED_XML_DESTINATION, XML_NAME, PDF_NAME
 
 
 def create_xmls():
+    print("Creating missing XML from PDFs")
+    xmls_count = 0
     for pdf_name in listdir(LABELED_XML_DESTINATION):
         pdf_path = join(LABELED_XML_DESTINATION, pdf_name, PDF_NAME)
         xml_path = join(LABELED_XML_DESTINATION, pdf_name, XML_NAME)
@@ -21,7 +23,10 @@ def create_xmls():
         print(pdf_path)
         print(xml_path)
         subprocess.run(["pdftohtml", "-i", "-xml", "-zoom", "1.0", pdf_path, xml_path])
+        xmls_count += 1
         print()
+
+    print(f"Done. Created {xmls_count} XMLs")
 
 
 if __name__ == "__main__":
