@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="24.01.0">
+<page number="1" position="absolute" top="0" left="0" height="792" width="612">
+	<fontspec id="0" size="18" family="EALAPP+Garamond" color="#000000"/>
+	<fontspec id="1" size="14" family="EALAPP+Garamond" color="#000000"/>
+	<fontspec id="2" size="14" family="Arial" color="#000000"/>
+	<fontspec id="3" size="14" family="EALBGB+Garamond" color="#000000"/>
+	<fontspec id="4" size="14" family="ArialMT" color="#000000"/>
+	<fontspec id="5" size="9" family="EALBGB+Garamond" color="#000000"/>
+	<fontspec id="6" size="11" family="EALAKN+Calibri" color="#000000"/>
+	<fontspec id="7" size="11" family="EALAJM+Calibri" color="#000000"/>
+	<fontspec id="8" size="11" family="EALANO+Calibri" color="#000000"/>
+<text top="43" left="105" width="406" height="20" font="0"><b>COMMUNICATIONS COMMISSION OF KENYA </b></text>
+<text top="66" left="72" width="3" height="16" font="1"><b> </b></text>
+<text top="84" left="84" width="448" height="16" font="1"><b>DISPUTE BETWEEN ESSAR TELECOM KENYA LIMITED AND AIR </b></text>
+<text top="102" left="190" width="236" height="16" font="1"><b>TOUCH CONNECTIONS LIMITED </b></text>
+<text top="120" left="72" width="3" height="16" font="1"><b> </b></text>
+<text top="138" left="123" width="370" height="16" font="1"><b>INTERCONNECTION DETERMINATION NO.1 OF 2010 </b></text>
+<text top="156" left="72" width="465" height="16" font="1"><b>__________________________________________________________________ </b></text>
+<text top="175" left="72" width="3" height="16" font="1"><b> </b></text>
+<text top="193" left="72" width="3" height="16" font="1"><b> </b></text>
+<text top="211" left="72" width="9" height="16" font="1"><b>1.</b></text>
+<text top="213" left="81" width="4" height="13" font="2"><b> </b></text>
+<text top="211" left="90" width="120" height="16" font="1"><b>INTRODUCTION </b></text>
+<text top="229" left="72" width="3" height="16" font="3"> </text>
+<text top="247" left="72" width="474" height="16" font="3">This Determination is made under the Kenya Communications Act, 1998 and as </text>
+<text top="265" left="72" width="477" height="16" font="3">amended (hereinafter referred to as the Act) and the Kenya Communications </text>
+<text top="283" left="72" width="336" height="16" font="3">Regulations, 2001 (hereinafter referred to as the Regulations). </text>
+<text top="301" left="72" width="3" height="16" font="3"> </text>
+<text top="319" left="72" width="475" height="16" font="3">This Determination shall be known as the Determination No.1 of 2010 on the </text>
+<text top="338" left="72" width="474" height="16" font="3">Disconnection of E1 link number 0751362050 allocated to Airtouch Connections </text>
+<text top="356" left="72" width="237" height="16" font="3">Limited by Essar Telecom Kenya Limited.  </text>
+<text top="374" left="72" width="3" height="16" font="3"> </text>
+<text top="392" left="72" width="7" height="16" font="3">  </text>
+<text top="410" left="72" width="10" height="16" font="1"><b>2.</b></text>
+<text top="412" left="82" width="4" height="13" font="2"><b> </b></text>
+<text top="410" left="90" width="216" height="16" font="1"><b>BACKGROUND INFORMATION </b></text>
+<text top="428" left="72" width="3" height="16" font="1"><b> </b></text>
+<text top="446" left="90" width="19" height="16" font="3">2.1.</text>
+<text top="448" left="109" width="4" height="13" font="4"> </text>
+<text top="446" left="112" width="434" height="16" font="3">Essar Telecom Kenya Limited (ETKL) is licensed by the Commission as a </text>
+<text top="464" left="112" width="435" height="16" font="3">Network Service Provider (NFP), Applications Service Provider (ASP) and </text>
+<text top="482" left="112" width="182" height="16" font="3">Content Service Provider (CSP).  </text>
+<text top="501" left="112" width="3" height="16" font="3"> </text>
+<text top="519" left="90" width="19" height="16" font="3">2.2.</text>
+<text top="521" left="109" width="4" height="13" font="4"> </text>
+<text top="519" left="112" width="435" height="16" font="3">Airtouch Connections Limited (ACL) is licensed by the Commission as an </text>
+<text top="537" left="112" width="174" height="16" font="3">Internet Service Provider (ISP). </text>
+<text top="555" left="108" width="3" height="16" font="3"> </text>
+<text top="573" left="90" width="19" height="16" font="3">2.3.</text>
+<text top="575" left="109" width="4" height="13" font="4"> </text>
+<text top="573" left="112" width="273" height="16" font="3">ETKL and ACL entered into an Agreement on 15</text>
+<text top="572" left="385" width="7" height="10" font="5">th</text>
+<text top="573" left="391" width="152" height="16" font="3"> October 2009 that allowed </text>
+<text top="591" left="112" width="437" height="16" font="3">ACL to exchange traffic with ETKL. The business model would allow </text>
+<text top="609" left="112" width="434" height="16" font="3">customers registered with ACL to make international calls using an E1 link </text>
+<text top="627" left="112" width="434" height="16" font="3">provided by ETKL. The value proposition in the model was that it would </text>
+<text top="645" left="112" width="433" height="16" font="3">generate an additional subscriber base and traffic for ETKL while generating </text>
+<text top="664" left="112" width="140" height="16" font="3">some cash flows to ACL. </text>
+<text top="682" left="108" width="3" height="16" font="3"> </text>
+<text top="731" left="279" width="22" height="11" font="6">Page</text>
+<text top="731" left="300" width="2" height="11" font="7"> </text>
+<text top="731" left="303" width="6" height="11" font="8"><b>1</b></text>
+<text top="731" left="308" width="2" height="11" font="7"> </text>
+<text top="731" left="311" width="9" height="11" font="6">of</text>
+<text top="731" left="320" width="2" height="11" font="7"> </text>
+<text top="731" left="322" width="11" height="11" font="8"><b>11</b></text>
+<text top="731" left="333" width="2" height="11" font="7"> </text>
+<text top="745" left="72" width="2" height="11" font="7"> </text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="792" width="612">
+<text top="43" left="90" width="19" height="16" font="3">2.4.</text>
+<text top="45" left="109" width="4" height="13" font="4"> </text>
+<text top="43" left="112" width="438" height="16" font="3">ETKL therefore established an E1 link and provided a pilot number </text>
+<text top="61" left="112" width="433" height="16" font="3">0751362050 to ACL to facilitate the transaction. In addition, ACL paid a total </text>
+<text top="79" left="112" width="364" height="16" font="3">Ksh.650,000 for 1000 SIM cards from ETKL which were supplied.</text>
+<text top="79" left="475" width="3" height="16" font="1"><b> </b></text>
+<text top="97" left="108" width="3" height="16" font="1"><b> </b></text>
+<text top="115" left="72" width="10" height="16" font="3">3.</text>
+<text top="117" left="82" width="4" height="13" font="4"> </text>
+<text top="115" left="90" width="242" height="16" font="1"><b>DISCONNECTION OF THE E1 LINK</b></text>
+<text top="115" left="332" width="3" height="16" font="3"> </text>
+<text top="133" left="112" width="3" height="16" font="3"> </text>
+<text top="151" left="90" width="19" height="16" font="3">3.1.</text>
+<text top="153" left="109" width="4" height="13" font="4"> </text>
+<text top="151" left="112" width="422" height="16" font="3">ACL lodged a formal complaint against ETKL vide a letter dated 12</text>
+<text top="150" left="533" width="7" height="10" font="5">th</text>
+<text top="151" left="540" width="3" height="16" font="3"> </text>
+<text top="169" left="112" width="439" height="16" font="3">November 2009 to the Commission and copied to ETKL regarding </text>
+<text top="187" left="112" width="322" height="16" font="3">suspension of their E1 link number 0751362050 on 4</text>
+<text top="187" left="433" width="7" height="10" font="5">th</text>
+<text top="187" left="440" width="108" height="16" font="3"> November 2009 </text>
+<text top="206" left="112" width="307" height="16" font="3">without prior notice thereby paralyzing their operations. </text>
+<text top="224" left="112" width="3" height="16" font="3"> </text>
+<text top="242" left="90" width="19" height="16" font="3">3.2.</text>
+<text top="244" left="109" width="4" height="13" font="4"> </text>
+<text top="242" left="112" width="37" height="16" font="3">On 13</text>
+<text top="241" left="148" width="7" height="10" font="5">th</text>
+<text top="242" left="155" width="391" height="16" font="3"> November 2009, the Commission received a copy of a letter from </text>
+<text top="260" left="112" width="433" height="16" font="3">ETKL addressed to ACL ostensibly advising ACL that ETKL had proceeded </text>
+<text top="278" left="112" width="422" height="16" font="3">to disconnect the link issued to ACL in line with the agreement dated 15</text>
+<text top="277" left="533" width="7" height="10" font="5">th</text>
+<text top="278" left="540" width="3" height="16" font="3"> </text>
+<text top="296" left="112" width="432" height="16" font="3">October 2009 and that ETKL had no intention of re-establishing or providing </text>
+<text top="314" left="112" width="215" height="16" font="3">an alternative link at that time or at all.  </text>
+<text top="332" left="108" width="3" height="16" font="3"> </text>
+<text top="350" left="90" width="19" height="16" font="3">3.3.</text>
+<text top="352" left="109" width="4" height="13" font="4"> </text>
+<text top="350" left="112" width="42" height="16" font="3">On 18</text>
+<text top="350" left="154" width="7" height="10" font="5">th</text>
+<text top="350" left="161" width="391" height="16" font="3"> November 2009, the Commission wrote to ETKL seeking </text>
+<text top="369" left="112" width="434" height="16" font="3">clarifications on the circumstances surrounding the disconnection of the E1 </text>
+<text top="387" left="112" width="27" height="16" font="3">link. </text>
+<text top="405" left="108" width="3" height="16" font="3"> </text>
+<text top="423" left="90" width="19" height="16" font="3">3.4.</text>
+<text top="425" left="109" width="4" height="13" font="4"> </text>
+<text top="423" left="112" width="36" height="16" font="3">On 19</text>
+<text top="422" left="147" width="7" height="10" font="5">th</text>
+<text top="423" left="154" width="391" height="16" font="3"> November 2009, ETKL responded to the Commission’s letter dated </text>
+<text top="441" left="112" width="13" height="16" font="3">18</text>
+<text top="440" left="125" width="7" height="10" font="5">th</text>
+<text top="441" left="131" width="264" height="16" font="3"> November 2009 and indicated that between 1</text>
+<text top="440" left="395" width="6" height="10" font="5">st</text>
+<text top="441" left="401" width="37" height="16" font="3"> and 4</text>
+<text top="440" left="438" width="7" height="10" font="5">th</text>
+<text top="441" left="444" width="101" height="16" font="3"> November 2009 </text>
+<text top="459" left="112" width="436" height="16" font="3">they realized that the line provided under the link had been misused by </text>
+<text top="477" left="112" width="434" height="16" font="3">generating virtual IMSIS which did not exist in their system. ETKL alleged </text>
+<text top="495" left="112" width="433" height="16" font="3">that ACL had used the E1 link for fraudulent/criminal activities as a result of </text>
+<text top="513" left="112" width="236" height="16" font="3">which ETKL had suspended the link on 4</text>
+<text top="513" left="348" width="7" height="10" font="5">th</text>
+<text top="514" left="355" width="190" height="16" font="3"> November 2009 pending further </text>
+<text top="532" left="112" width="438" height="16" font="3">investigations. ETKL further alleged that after suspension of the link, </text>
+<text top="550" left="112" width="283" height="16" font="3">generation of the virtual IMSIS ceased immediately. </text>
+<text top="568" left="108" width="3" height="16" font="3"> </text>
+<text top="586" left="90" width="19" height="16" font="3">3.5.</text>
+<text top="588" left="109" width="4" height="13" font="4"> </text>
+<text top="586" left="112" width="436" height="16" font="3">Upon further review of the matter brought before it by the parties, the </text>
+<text top="604" left="112" width="433" height="16" font="3">Commission noted that while the dispute emanated from an agreement whose </text>
+<text top="622" left="112" width="432" height="16" font="3">scope was of an interconnect nature, the agreement had not been filed with the </text>
+<text top="640" left="112" width="433" height="16" font="3">Commission for approval in accordance with Clause 48(1) of the Regulations. </text>
+<text top="658" left="112" width="114" height="16" font="3">Consequently, on 11</text>
+<text top="658" left="225" width="7" height="10" font="5">th</text>
+<text top="658" left="232" width="313" height="16" font="3"> December 2009, the Commission wrote to ETKL and </text>
+<text top="677" left="112" width="433" height="16" font="3">ACL directing them to immediately file their interconnection agreement with </text>
+<text top="695" left="112" width="241" height="16" font="3">the Commission for the necessary approval. </text>
+<text top="731" left="279" width="22" height="11" font="6">Page</text>
+<text top="731" left="300" width="2" height="11" font="7"> </text>
+<text top="731" left="303" width="6" height="11" font="8"><b>2</b></text>
+<text top="731" left="308" width="2" height="11" font="7"> </text>
+<text top="731" left="311" width="9" height="11" font="6">of</text>
+<text top="731" left="320" width="2" height="11" font="7"> </text>
+<text top="731" left="322" width="11" height="11" font="8"><b>11</b></text>
+<text top="731" left="333" width="2" height="11" font="7"> </text>
+<text top="745" left="72" width="2" height="11" font="7"> </text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="792" width="612">
+<text top="43" left="108" width="3" height="16" font="3"> </text>
+<text top="61" left="90" width="19" height="16" font="3">3.6.</text>
+<text top="63" left="109" width="4" height="13" font="4"> </text>
+<text top="61" left="112" width="36" height="16" font="3">On 15</text>
+<text top="60" left="148" width="7" height="10" font="5">th</text>
+<text top="61" left="154" width="391" height="16" font="3"> December 2009, ETKL submitted to the Commission a copy a duly </text>
+<text top="79" left="112" width="159" height="16" font="3">executed agreement dated 15</text>
+<text top="78" left="270" width="7" height="10" font="5">th</text>
+<text top="79" left="277" width="267" height="16" font="3"> October 2009 entered into between ETKL and </text>
+<text top="97" left="112" width="208" height="16" font="3">ACL for the provision of E1 services. </text>
+<text top="115" left="108" width="3" height="16" font="3"> </text>
+<text top="133" left="90" width="19" height="16" font="3">3.7.</text>
+<text top="135" left="109" width="4" height="13" font="4"> </text>
+<text top="133" left="112" width="433" height="16" font="3"> Upon review of the agreement sent to it by ETKL, the Commission was of </text>
+<text top="151" left="112" width="436" height="16" font="3">the opinion that the parties had indeed entered into an interconnection </text>
+<text top="169" left="112" width="439" height="16" font="3">agreement. In this regard, the Commission therefore noted that the </text>
+<text top="187" left="112" width="433" height="16" font="3">disconnection of the E1 link by ETKL was unilateral contrary to Clause 45(2) </text>
+<text top="206" left="112" width="228" height="16" font="3">of the Regulations. Consequently, on 17</text>
+<text top="205" left="339" width="7" height="10" font="5">th</text>
+<text top="206" left="346" width="200" height="16" font="3"> December 2009, the Commission </text>
+<text top="224" left="112" width="433" height="16" font="3">wrote to the parties, firstly directing ETKL to re-establish the E1 link to ACL </text>
+<text top="242" left="112" width="435" height="16" font="3">with immediate effect, and secondly, requesting the parties to submit their </text>
+<text top="260" left="112" width="241" height="16" font="3">records of transmissions made between 1</text>
+<text top="259" left="352" width="6" height="10" font="5">st</text>
+<text top="260" left="358" width="40" height="16" font="3"> and 4</text>
+<text top="259" left="398" width="7" height="10" font="5">th</text>
+<text top="260" left="405" width="142" height="16" font="3"> of November 2009 to </text>
+<text top="278" left="112" width="433" height="16" font="3">support or deny the allegations made by ETKL that the E1 link was used for </text>
+<text top="296" left="112" width="310" height="16" font="3">fraudulent/criminal activities by ACL during this period. </text>
+<text top="314" left="108" width="3" height="16" font="3"> </text>
+<text top="332" left="90" width="19" height="16" font="3">3.8.</text>
+<text top="334" left="109" width="4" height="13" font="4"> </text>
+<text top="332" left="112" width="252" height="16" font="3"> In response, ETKL, vide a letter dated 21</text>
+<text top="332" left="364" width="6" height="10" font="5">st</text>
+<text top="332" left="370" width="177" height="16" font="3"> December 2009 referred the </text>
+<text top="350" left="112" width="432" height="16" font="3">Commission to Clause 42(8) of the Regulations that obligates the Commission </text>
+<text top="369" left="112" width="433" height="16" font="3">to carry out investigations where there is allegation of contravention or failure </text>
+<text top="387" left="112" width="434" height="16" font="3">to comply with the provisions of the Act or Regulations; Clause 42(6)(e) on </text>
+<text top="405" left="112" width="433" height="16" font="3">the discretion of the Commission to exempt a licensee from the obligation to </text>
+<text top="423" left="112" width="433" height="16" font="3">enter into an interconnect agreement; and Clause 37(6) on the lawful use of a </text>
+<text top="441" left="112" width="434" height="16" font="3">service acquired as part of interconnection. The letter was silent on whether </text>
+<text top="459" left="112" width="418" height="16" font="3">ETKL had complied with the directive to re-establish the E1 link with ACL. </text>
+<text top="477" left="72" width="3" height="16" font="3"> </text>
+<text top="495" left="90" width="19" height="16" font="3">3.9.</text>
+<text top="497" left="109" width="4" height="13" font="4"> </text>
+<text top="495" left="112" width="432" height="16" font="3">The Commission reviewed the issues raised by ETKL and wrote to ETKL on </text>
+<text top="513" left="112" width="13" height="16" font="3">23</text>
+<text top="513" left="125" width="7" height="10" font="5">rd</text>
+<text top="514" left="132" width="418" height="16" font="3"> December 2009 reiterating that a party wishing to terminate an </text>
+<text top="532" left="112" width="432" height="16" font="3">interconnection agreement can only do so in the manner prescribed by Clause </text>
+<text top="550" left="112" width="436" height="16" font="3">45(2) of the Regulations, and further advised ETKL to comply with the </text>
+<text top="568" left="112" width="436" height="16" font="3">directive of the Commission to re-establish the E1 link with ACL with </text>
+<text top="586" left="112" width="101" height="16" font="3">immediate effect.  </text>
+<text top="604" left="72" width="3" height="16" font="3"> </text>
+<text top="622" left="72" width="3" height="16" font="3"> </text>
+<text top="731" left="279" width="22" height="11" font="6">Page</text>
+<text top="731" left="300" width="2" height="11" font="7"> </text>
+<text top="731" left="303" width="6" height="11" font="8"><b>3</b></text>
+<text top="731" left="308" width="2" height="11" font="7"> </text>
+<text top="731" left="311" width="9" height="11" font="6">of</text>
+<text top="731" left="320" width="2" height="11" font="7"> </text>
+<text top="731" left="322" width="11" height="11" font="8"><b>11</b></text>
+<text top="731" left="333" width="2" height="11" font="7"> </text>
+<text top="745" left="72" width="2" height="11" font="7"> </text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="792" width="612">
+<text top="43" left="72" width="3" height="16" font="1"><b> </b></text>
+<text top="71" left="72" width="10" height="16" font="1"><b>4.</b></text>
+<text top="73" left="82" width="4" height="13" font="2"><b> </b></text>
+<text top="71" left="90" width="171" height="16" font="1"><b>WRITTEN SUBMISSIONS </b></text>
+<text top="89" left="108" width="3" height="16" font="1"><b> </b></text>
+<text top="107" left="108" width="249" height="16" font="1"><b>WRITEN SUBMISSIONS FROM ETKL </b></text>
+<text top="125" left="108" width="3" height="16" font="1"><b> </b></text>
+<text top="143" left="90" width="19" height="16" font="3">4.1.</text>
+<text top="145" left="109" width="4" height="13" font="4"> </text>
+<text top="143" left="112" width="35" height="16" font="3">On 22</text>
+<text top="142" left="146" width="9" height="10" font="5">nd</text>
+<text top="143" left="155" width="389" height="16" font="3"> December 2009, ETKL made written submissions to the Commission </text>
+<text top="161" left="112" width="435" height="16" font="3">in support of their allegation that the E1 link had been used fraudulently </text>
+<text top="179" left="112" width="59" height="16" font="3">between 1</text>
+<text top="179" left="171" width="6" height="10" font="5">st</text>
+<text top="179" left="176" width="41" height="16" font="3"> and 4</text>
+<text top="179" left="217" width="7" height="10" font="5">th</text>
+<text top="179" left="224" width="323" height="16" font="3"> November 2009. The submission included data from </text>
+<text top="197" left="112" width="434" height="16" font="3">AREDU, the ETKL designated roaming partner in Dubai. The submission </text>
+<text top="216" left="112" width="433" height="16" font="3">indicated that roaming call records had been created although ETKL had not </text>
+<text top="234" left="112" width="437" height="16" font="3">yet unlocked their out-roaming services to their subscribers, which they </text>
+<text top="252" left="112" width="433" height="16" font="3">considered a fraudulent activity attributable to the E1 link allocated to ACL. </text>
+<text top="270" left="112" width="433" height="16" font="3">ETKL indicated that they resolved the problem by disconnecting the E1 link </text>
+<text top="288" left="112" width="27" height="16" font="3">on 4</text>
+<text top="287" left="139" width="7" height="10" font="5">th</text>
+<text top="288" left="146" width="401" height="16" font="3"> November 2009 and no further call records were created after the </text>
+<text top="306" left="112" width="436" height="16" font="3">disconnection. ETKL also indicated in the submission that their roaming </text>
+<text top="324" left="112" width="439" height="16" font="3">partner had established records and generated charges amounting to </text>
+<text top="342" left="112" width="423" height="16" font="3">Ksh.753,844.66 payable to AREDU, which it attributed to fraudulent activity. </text>
+<text top="360" left="112" width="3" height="16" font="3"> </text>
+<text top="379" left="90" width="19" height="16" font="3">4.2.</text>
+<text top="381" left="109" width="4" height="13" font="4"> </text>
+<text top="379" left="112" width="38" height="16" font="3">On 28</text>
+<text top="378" left="150" width="7" height="10" font="5">th</text>
+<text top="379" left="156" width="391" height="16" font="3"> December 2009, ETKL made further written submissions to the </text>
+<text top="397" left="112" width="432" height="16" font="3">Commission indicating that ETKL lines identified as having made calls on the </text>
+<text top="415" left="112" width="432" height="16" font="3">AREDU network in Dubai were locked into the ETKL network in Kenya and </text>
+<text top="433" left="112" width="433" height="16" font="3">were barred from roaming. In addition, ETKL indicated that since the alleged </text>
+<text top="451" left="112" width="433" height="16" font="3">numbers were seen in the local Visitor Location Register (VLR), the only way </text>
+<text top="469" left="112" width="434" height="16" font="3">the roaming calls could have been made was through by-passing the ETKL </text>
+<text top="487" left="112" width="435" height="16" font="3">systems. In addition, ETKL requested the Commission to clarify whether </text>
+<text top="505" left="112" width="433" height="16" font="3">agreements for provision of E1 links where a mobile service provider offers a </text>
+<text top="524" left="112" width="437" height="16" font="3">link (access) to an ISP to route traffic are classified as interconnection </text>
+<text top="542" left="112" width="68" height="16" font="3">agreements. </text>
+<text top="560" left="108" width="3" height="16" font="3"> </text>
+<text top="578" left="90" width="19" height="16" font="3">4.3.</text>
+<text top="580" left="109" width="4" height="13" font="4"> </text>
+<text top="578" left="112" width="35" height="16" font="3">On 6</text>
+<text top="577" left="147" width="7" height="10" font="5">th</text>
+<text top="578" left="154" width="397" height="16" font="3"> January 2010, ETKL submitted additional documents to the </text>
+<text top="596" left="112" width="434" height="16" font="3">Commission which included copies of their roaming agreement and a GSM </text>
+<text top="614" left="112" width="232" height="16" font="3">invoice for roaming traffic from AREDU. </text>
+<text top="632" left="108" width="3" height="16" font="3"> </text>
+<text top="650" left="108" width="248" height="16" font="1"><b>WRITTEN SUBMISSIONS FROM ACL </b></text>
+<text top="668" left="108" width="3" height="16" font="3"> </text>
+<text top="731" left="279" width="22" height="11" font="6">Page</text>
+<text top="731" left="300" width="2" height="11" font="7"> </text>
+<text top="731" left="303" width="6" height="11" font="8"><b>4</b></text>
+<text top="731" left="308" width="2" height="11" font="7"> </text>
+<text top="731" left="311" width="9" height="11" font="6">of</text>
+<text top="731" left="320" width="2" height="11" font="7"> </text>
+<text top="731" left="322" width="11" height="11" font="8"><b>11</b></text>
+<text top="731" left="333" width="2" height="11" font="7"> </text>
+<text top="745" left="72" width="2" height="11" font="7"> </text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="792" width="612">
+<text top="43" left="90" width="19" height="16" font="3">4.4.</text>
+<text top="45" left="109" width="4" height="13" font="4"> </text>
+<text top="43" left="112" width="36" height="16" font="3">On 22</text>
+<text top="42" left="147" width="9" height="10" font="5">nd</text>
+<text top="43" left="156" width="389" height="16" font="3"> December 2009, ACL made written submissions to the Commission </text>
+<text top="61" left="112" width="438" height="16" font="3">stating that the E1 link MSISDN 0751362050 was not used for any </text>
+<text top="79" left="112" width="436" height="16" font="3">fraudulent/criminal activities for the whole period that it was in use. In </text>
+<text top="97" left="112" width="435" height="16" font="3">addition, ACL submitted a printout of the downloaded Call Data Records </text>
+<text top="115" left="112" width="433" height="16" font="3">(CDR) file for all calls that passed through their PABX for the whole period </text>
+<text top="133" left="112" width="433" height="16" font="3">that the E1 link was ON which had been shared with ETKL for comparison </text>
+<text top="151" left="112" width="433" height="16" font="3">with their own CDR. ACL complained that despite several requests to ETKL </text>
+<text top="169" left="112" width="435" height="16" font="3">to share with them similar data concerning the alleged fraud, ETKL had </text>
+<text top="187" left="112" width="435" height="16" font="3">neglected to do so. ACL further indicated that they had no capability to </text>
+<text top="206" left="112" width="434" height="16" font="3">generate ETKL IMSIS insisting that such an exercise could only have been </text>
+<text top="224" left="112" width="435" height="16" font="3">executed by ETKL personnel at their switches/servers. ACL further stated </text>
+<text top="242" left="112" width="376" height="16" font="3">that the physical E1 link was unstable for the period between 1</text>
+<text top="241" left="488" width="6" height="10" font="5">st</text>
+<text top="242" left="493" width="40" height="16" font="3"> and 4</text>
+<text top="241" left="533" width="7" height="10" font="5">th</text>
+<text top="242" left="540" width="3" height="16" font="3"> </text>
+<text top="260" left="112" width="432" height="16" font="3">November 2009 within which time the fraud is alleged to have taken place. As </text>
+<text top="278" left="112" width="434" height="16" font="3">a result, the transmission of calls across and within their telecommunication </text>
+<text top="296" left="112" width="434" height="16" font="3">systems was not seamless as provided for in Regulation 37(3) nor was there </text>
+<text top="314" left="112" width="421" height="16" font="3">maintenance of end-to-end quality of service as provided in Regulation 36(c). </text>
+<text top="332" left="112" width="3" height="16" font="3"> </text>
+<text top="350" left="90" width="19" height="16" font="3">4.5.</text>
+<text top="352" left="109" width="4" height="13" font="4"> </text>
+<text top="350" left="112" width="37" height="16" font="3">On 5</text>
+<text top="350" left="149" width="7" height="10" font="5">th</text>
+<text top="350" left="155" width="397" height="16" font="3"> January 2010, ACL submitted to the Commission further </text>
+<text top="369" left="112" width="438" height="16" font="3">correspondence exchanged with ETKL prior to the conclusion of the </text>
+<text top="387" left="112" width="366" height="16" font="3">interconnection agreement and during the existence of the E1 link. </text>
+<text top="405" left="108" width="3" height="16" font="3"> </text>
+<text top="423" left="72" width="10" height="16" font="1"><b>5.</b></text>
+<text top="425" left="82" width="4" height="13" font="2"><b> </b></text>
+<text top="423" left="90" width="72" height="16" font="1"><b>HEARING </b></text>
+<text top="441" left="90" width="271" height="16" font="3">The hearing by the Commission was held on 4</text>
+<text top="440" left="361" width="7" height="10" font="5">th</text>
+<text top="441" left="368" width="38" height="16" font="3"> and 5</text>
+<text top="440" left="406" width="7" height="10" font="5">th</text>
+<text top="441" left="413" width="133" height="16" font="3"> January 2010 and the </text>
+<text top="459" left="90" width="230" height="16" font="3">parties made their submissions as follows: </text>
+<text top="477" left="90" width="3" height="16" font="3"> </text>
+<text top="495" left="90" width="144" height="16" font="1"><b>ETKL SUBMISSIONS: </b></text>
+<text top="513" left="108" width="3" height="16" font="3"> </text>
+<text top="529" left="90" width="10" height="16" font="3">a)</text>
+<text top="531" left="100" width="4" height="13" font="4"> </text>
+<text top="529" left="108" width="436" height="16" font="3">ETKL and ACL entered into an agreement to interconnect their systems over a </text>
+<text top="545" left="108" width="437" height="16" font="3">bidirectional E1 connection based on SS7 signaling protocol for provision of </text>
+<text top="561" left="108" width="82" height="16" font="3">VoIP services; </text>
+<text top="577" left="108" width="3" height="16" font="3"> </text>
+<text top="592" left="90" width="11" height="16" font="3">b)</text>
+<text top="594" left="101" width="4" height="13" font="4"> </text>
+<text top="592" left="108" width="437" height="16" font="3">ETKL has provided a range of numbers to ACL one of which is 0751362050 </text>
+<text top="608" left="108" width="436" height="16" font="3">designated as a pilot number. The numbers are to be accessed through the E1 </text>
+<text top="624" left="108" width="437" height="16" font="3">link to reach ACL systems. All calls between the two companies are to pass </text>
+<text top="640" left="108" width="113" height="16" font="3">through the E1 link; </text>
+<text top="655" left="108" width="3" height="16" font="3"> </text>
+<text top="671" left="108" width="3" height="16" font="3"> </text>
+<text top="731" left="279" width="22" height="11" font="6">Page</text>
+<text top="731" left="300" width="2" height="11" font="7"> </text>
+<text top="731" left="303" width="6" height="11" font="8"><b>5</b></text>
+<text top="731" left="308" width="2" height="11" font="7"> </text>
+<text top="731" left="311" width="9" height="11" font="6">of</text>
+<text top="731" left="320" width="2" height="11" font="7"> </text>
+<text top="731" left="322" width="11" height="11" font="8"><b>11</b></text>
+<text top="731" left="333" width="2" height="11" font="7"> </text>
+<text top="745" left="72" width="2" height="11" font="7"> </text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="792" width="612">
+	<fontspec id="9" size="14" family="EALCAB+Garamond" color="#000000"/>
+<text top="43" left="90" width="10" height="16" font="3">c)</text>
+<text top="45" left="100" width="4" height="13" font="4"> </text>
+<text top="43" left="108" width="435" height="16" font="3">Immediately the E1 link was established, ETKL received TAP files from their </text>
+<text top="58" left="108" width="436" height="16" font="3">roaming partners in Dubai claiming Kshs 753,844.66 for roaming calls between </text>
+<text top="74" left="108" width="7" height="16" font="3">1</text>
+<text top="73" left="115" width="6" height="10" font="5">st</text>
+<text top="74" left="120" width="33" height="16" font="3"> and 3</text>
+<text top="73" left="153" width="7" height="10" font="5">rd</text>
+<text top="74" left="161" width="99" height="16" font="3"> November 2009; </text>
+<text top="90" left="108" width="3" height="16" font="3"> </text>
+<text top="106" left="90" width="11" height="16" font="3">d)</text>
+<text top="108" left="101" width="4" height="13" font="4"> </text>
+<text top="106" left="108" width="436" height="16" font="3">That the number that originated the roaming call in Dubai was seen in the VLR </text>
+<text top="121" left="108" width="438" height="16" font="3">in Kenya 2 hours before it allegedly made the call in Dubai as a roaming </text>
+<text top="137" left="108" width="436" height="16" font="3">number. Therefore the number could not have physically roamed into a Dubai </text>
+<text top="153" left="108" width="246" height="16" font="3">network which is at least 4 hours flight away; </text>
+<text top="169" left="72" width="3" height="16" font="3"> </text>
+<text top="184" left="90" width="10" height="16" font="3">e)</text>
+<text top="186" left="100" width="4" height="13" font="4"> </text>
+<text top="184" left="108" width="436" height="16" font="3">That the numbers are ordinary ETKL’s subscriber numbers not attributable to </text>
+<text top="200" left="108" width="36" height="16" font="3">ACL;  </text>
+<text top="216" left="108" width="3" height="16" font="3"> </text>
+<text top="234" left="90" width="9" height="16" font="3">f)</text>
+<text top="236" left="99" width="4" height="13" font="4"> </text>
+<text top="234" left="108" width="438" height="16" font="3">That the details of the roaming calls were not seen in any part of ETKL’s </text>
+<text top="250" left="108" width="437" height="16" font="3">systems or their international carriers including the E1 link between them and </text>
+<text top="266" left="108" width="36" height="16" font="3">ACL;  </text>
+<text top="281" left="108" width="3" height="16" font="3"> </text>
+<text top="297" left="90" width="10" height="16" font="3">g)</text>
+<text top="299" left="100" width="4" height="13" font="4"> </text>
+<text top="297" left="108" width="438" height="16" font="3">That pre-paid ETKL subscribers are barred from roaming and therefore no </text>
+<text top="313" left="108" width="436" height="16" font="3">roaming bills were expected from roaming partners in this regard. That for this </text>
+<text top="329" left="108" width="440" height="16" font="3">to have occurred, there was fraudulent activity being carried out in their </text>
+<text top="344" left="108" width="51" height="16" font="3">network; </text>
+<text top="360" left="108" width="3" height="16" font="3"> </text>
+<text top="376" left="90" width="11" height="16" font="3">h)</text>
+<text top="378" left="101" width="4" height="13" font="4"> </text>
+<text top="376" left="108" width="436" height="16" font="3">That once the fraudulent activity was noticed, ACL was identified as the newest </text>
+<text top="392" left="108" width="437" height="16" font="3">entrant in ETKL’s network and that they could have been the source of the </text>
+<text top="407" left="108" width="438" height="16" font="3">fraud. A decision was then taken to disconnect the E1 link after which the </text>
+<text top="423" left="108" width="192" height="16" font="3">alleged fraudulent activity stopped; </text>
+<text top="439" left="108" width="3" height="16" font="3"> </text>
+<text top="455" left="90" width="7" height="16" font="3">i)</text>
+<text top="457" left="97" width="4" height="13" font="4"> </text>
+<text top="455" left="108" width="437" height="16" font="3">That ACL used the link for the fraudulent activities that cost ETKL a loss of </text>
+<text top="470" left="108" width="165" height="16" font="3">Kshs753,844.66 in three days; </text>
+<text top="486" left="108" width="3" height="16" font="3"> </text>
+<text top="504" left="90" width="7" height="16" font="3">j)</text>
+<text top="506" left="97" width="4" height="13" font="4"> </text>
+<text top="504" left="108" width="438" height="16" font="3">The suspected practice of call back scenario given through ETKL’s written </text>
+<text top="520" left="108" width="93" height="16" font="3">Submissions of 6</text>
+<text top="519" left="201" width="7" height="10" font="5">th</text>
+<text top="520" left="207" width="224" height="16" font="3"> January 2009 was articulated as follows:  </text>
+<text top="536" left="108" width="3" height="16" font="3"> </text>
+<text top="551" left="138" width="6" height="16" font="3">i.</text>
+<text top="553" left="144" width="4" height="13" font="4"> </text>
+<text top="551" left="162" width="254" height="16" font="3">B party calls access number +254 751362050;  </text>
+<text top="567" left="135" width="9" height="16" font="3">ii.</text>
+<text top="569" left="144" width="4" height="13" font="4"> </text>
+<text top="567" left="162" width="374" height="16" font="3">ACL Initiates call-back through internet to an ISP provider in Dubai;</text>
+<text top="567" left="536" width="3" height="16" font="9"><i> </i></text>
+<text top="567" left="540" width="3" height="16" font="3"> </text>
+<text top="583" left="131" width="13" height="16" font="3">iii.</text>
+<text top="585" left="144" width="4" height="13" font="4"> </text>
+<text top="583" left="162" width="385" height="16" font="3">The call is dropped but Dubai gets all call details &amp; calls back </text>
+<text top="599" left="162" width="220" height="16" font="3">through DU GSM Network (local call);  </text>
+<text top="614" left="131" width="13" height="16" font="3">iv.</text>
+<text top="616" left="144" width="4" height="13" font="4"> </text>
+<text top="614" left="162" width="269" height="16" font="3">This call generates a TAP file payable by ETKL;  </text>
+<text top="630" left="134" width="10" height="16" font="3">v.</text>
+<text top="632" left="144" width="4" height="13" font="4"> </text>
+<text top="630" left="162" width="357" height="16" font="3">Through the internet, the call gets terminated in ACL Kenya; and </text>
+<text top="646" left="131" width="13" height="16" font="3">vi.</text>
+<text top="648" left="144" width="4" height="13" font="4"> </text>
+<text top="646" left="162" width="346" height="16" font="3">ACL Kenya delivers the call to ETKL through E1 connection.  </text>
+<text top="662" left="126" width="3" height="16" font="3"> </text>
+<text top="677" left="90" width="130" height="16" font="1"><b>ACL SUBMISSIONS </b></text>
+<text top="695" left="90" width="3" height="16" font="1"><b> </b></text>
+<text top="731" left="279" width="22" height="11" font="6">Page</text>
+<text top="731" left="300" width="2" height="11" font="7"> </text>
+<text top="731" left="303" width="6" height="11" font="8"><b>6</b></text>
+<text top="731" left="308" width="2" height="11" font="7"> </text>
+<text top="731" left="311" width="9" height="11" font="6">of</text>
+<text top="731" left="320" width="2" height="11" font="7"> </text>
+<text top="731" left="322" width="11" height="11" font="8"><b>11</b></text>
+<text top="731" left="333" width="2" height="11" font="7"> </text>
+<text top="745" left="72" width="2" height="11" font="7"> </text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="792" width="612">
+<text top="43" left="90" width="10" height="16" font="3">a)</text>
+<text top="45" left="100" width="4" height="13" font="4"> </text>
+<text top="43" left="108" width="436" height="16" font="3">ACL submitted that they had been provided with an E1 connection by ETKL </text>
+<text top="58" left="108" width="438" height="16" font="3">to facilitate VOIP services through a range of ETKL numbers. Under the </text>
+<text top="74" left="108" width="442" height="16" font="3">terms of their agreement, they were to use the E1 connection in a </text>
+<text top="90" left="108" width="437" height="16" font="3">unidirectional set up to allow incoming calls from ETKL’s network into their </text>
+<text top="106" left="108" width="438" height="16" font="3">network. There was no termination of international calls (origination of calls </text>
+<text top="121" left="108" width="325" height="16" font="3">from ACL into ETKL’s network) in the opposite direction; </text>
+<text top="137" left="108" width="3" height="16" font="3"> </text>
+<text top="153" left="90" width="11" height="16" font="3">b)</text>
+<text top="155" left="101" width="4" height="13" font="4"> </text>
+<text top="153" left="108" width="437" height="16" font="3">That all calls from ETKL’s subscribers using ACL service would have to pass </text>
+<text top="169" left="108" width="312" height="16" font="3">through ETKL’s network and would be billed by ETKL; </text>
+<text top="184" left="108" width="3" height="16" font="3"> </text>
+<text top="200" left="90" width="10" height="16" font="3">c)</text>
+<text top="202" left="100" width="4" height="13" font="4"> </text>
+<text top="200" left="108" width="438" height="16" font="3">That it would not be possible for ACL to handle calls destined to or from </text>
+<text top="216" left="108" width="440" height="16" font="3">ETKL without the systems of ETKL capturing the information that is </text>
+<text top="232" left="108" width="171" height="16" font="3">traceable in respect of the call;  </text>
+<text top="247" left="108" width="3" height="16" font="3"> </text>
+<text top="263" left="90" width="11" height="16" font="3">d)</text>
+<text top="265" left="101" width="4" height="13" font="4"> </text>
+<text top="263" left="108" width="436" height="16" font="3">That an ETKL  customer cannot roam and make a roaming call without being </text>
+<text top="279" left="108" width="436" height="16" font="3">authenticated by both the Dubai based network and ETKL network to ensure </text>
+<text top="295" left="108" width="353" height="16" font="3">that the subscriber is allowed by his/her home network to roam; </text>
+<text top="310" left="108" width="3" height="16" font="3"> </text>
+<text top="326" left="90" width="10" height="16" font="3">e)</text>
+<text top="328" left="100" width="4" height="13" font="4"> </text>
+<text top="326" left="108" width="436" height="16" font="3">That ETKL’s systems are more superior to ACL’s systems and therefore more </text>
+<text top="342" left="108" width="268" height="16" font="3">capable to detect any malpractice in the network; </text>
+<text top="358" left="108" width="3" height="16" font="3"> </text>
+<text top="373" left="90" width="9" height="16" font="3">f)</text>
+<text top="375" left="99" width="4" height="13" font="4"> </text>
+<text top="373" left="108" width="437" height="16" font="3">That whenever an ETKL subscriber wants to use ACL service, he/she would </text>
+<text top="389" left="108" width="438" height="16" font="3">call ACL on 0751362050 to reach ACL systems. ACL systems would then </text>
+<text top="405" left="108" width="436" height="16" font="3">direct the call to a server in Canada which would prompt the subscriber to call </text>
+<text top="421" left="108" width="438" height="16" font="3">the international destination number. The international leg of the call would </text>
+<text top="436" left="108" width="238" height="16" font="3">then be completed by the server in Canada; </text>
+<text top="452" left="108" width="3" height="16" font="3"> </text>
+<text top="468" left="90" width="10" height="16" font="3">g)</text>
+<text top="470" left="100" width="4" height="13" font="4"> </text>
+<text top="468" left="108" width="436" height="16" font="3">That the subscriber’s call would therefore be registered in ETKL’s network as </text>
+<text top="484" left="108" width="437" height="16" font="3">having called 0751362050 and would be charged a local call charge by ETKL. </text>
+<text top="499" left="108" width="438" height="16" font="3">On the other hand, ACL would deduct the subscriber’s credit based on the </text>
+<text top="515" left="108" width="275" height="16" font="3">charge for the called international destination; and </text>
+<text top="531" left="108" width="3" height="16" font="3"> </text>
+<text top="547" left="90" width="11" height="16" font="3">h)</text>
+<text top="549" left="101" width="4" height="13" font="4"> </text>
+<text top="547" left="108" width="436" height="16" font="3">That the local charge to the subscriber would be deducted by ETKL from the </text>
+<text top="563" left="108" width="437" height="16" font="3">airtime loaded on the subscriber’s phone, while the international leg would be </text>
+<text top="578" left="108" width="400" height="16" font="3">deducted from the account held by the subscriber at the Canadian server. </text>
+<text top="594" left="90" width="3" height="16" font="1"><b> </b></text>
+<text top="612" left="72" width="10" height="16" font="1"><b>6.</b></text>
+<text top="614" left="82" width="4" height="13" font="2"><b> </b></text>
+<text top="612" left="90" width="173" height="16" font="1"><b>COMMISSION FINDINGS </b></text>
+<text top="630" left="90" width="3" height="16" font="1"><b> </b></text>
+<text top="648" left="90" width="457" height="16" font="3">The Commission in arriving at its findings has scrutinized the following key </text>
+<text top="666" left="90" width="267" height="16" font="3">documents which have a bearing on this dispute: </text>
+<text top="685" left="108" width="10" height="16" font="3">a)</text>
+<text top="687" left="118" width="4" height="13" font="4"> </text>
+<text top="685" left="126" width="285" height="16" font="3">Agreement for the provision of E1 services dated 15</text>
+<text top="684" left="411" width="7" height="10" font="5">th</text>
+<text top="684" left="418" width="85" height="16" font="3"> October 2009; </text>
+<text top="731" left="279" width="22" height="11" font="6">Page</text>
+<text top="731" left="300" width="2" height="11" font="7"> </text>
+<text top="731" left="303" width="6" height="11" font="8"><b>7</b></text>
+<text top="731" left="308" width="2" height="11" font="7"> </text>
+<text top="731" left="311" width="9" height="11" font="6">of</text>
+<text top="731" left="320" width="2" height="11" font="7"> </text>
+<text top="731" left="322" width="11" height="11" font="8"><b>11</b></text>
+<text top="731" left="333" width="2" height="11" font="7"> </text>
+<text top="745" left="72" width="2" height="11" font="7"> </text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="792" width="612">
+<text top="43" left="108" width="11" height="16" font="3">b)</text>
+<text top="45" left="119" width="4" height="13" font="4"> </text>
+<text top="43" left="126" width="431" height="16" font="3">International Roaming Agreement between Emirates Integrated </text>
+<text top="61" left="126" width="343" height="16" font="3">Telecommunications Company (AREDU)-ETKL signed on 28</text>
+<text top="60" left="469" width="7" height="10" font="5">th</text>
+<text top="61" left="476" width="58" height="16" font="3"> July and 8</text>
+<text top="60" left="533" width="7" height="10" font="5">th</text>
+<text top="61" left="540" width="3" height="16" font="3"> </text>
+<text top="79" left="126" width="142" height="16" font="3">August 2009 respectively; </text>
+<text top="97" left="108" width="10" height="16" font="3">c)</text>
+<text top="99" left="118" width="4" height="13" font="4"> </text>
+<text top="97" left="126" width="229" height="16" font="3">Call Duration Records (CDR) from ACL; </text>
+<text top="115" left="108" width="11" height="16" font="3">d)</text>
+<text top="117" left="119" width="4" height="13" font="4"> </text>
+<text top="115" left="126" width="316" height="16" font="3">List of TAP files from AREDU submitted by ETKL; and </text>
+<text top="133" left="108" width="10" height="16" font="3">e)</text>
+<text top="135" left="118" width="4" height="13" font="4"> </text>
+<text top="133" left="126" width="308" height="16" font="3">Various correspondence exchanged between the parties. </text>
+<text top="151" left="126" width="3" height="16" font="3"> </text>
+<text top="169" left="90" width="455" height="16" font="3">Upon review of the above documents and the submissions made by the parties, </text>
+<text top="187" left="90" width="228" height="16" font="3">the Commission’s findings are as follows: </text>
+<text top="206" left="90" width="3" height="16" font="3"> </text>
+<text top="224" left="108" width="10" height="16" font="3">a)</text>
+<text top="226" left="118" width="4" height="13" font="4"> </text>
+<text top="224" left="126" width="418" height="16" font="3">The provision of E1 link services fall within the purview of interconnection </text>
+<text top="239" left="126" width="418" height="16" font="3">agreements regulated under Part VII of the Regulations. Consequently, the </text>
+<text top="255" left="126" width="418" height="16" font="3">disconnection of the E1 link by ETKL was in breach of Regulation 45(2) of </text>
+<text top="271" left="126" width="115" height="16" font="3">the said Regulations; </text>
+<text top="287" left="126" width="3" height="16" font="3"> </text>
+<text top="302" left="108" width="11" height="16" font="3">b)</text>
+<text top="304" left="119" width="4" height="13" font="4"> </text>
+<text top="302" left="126" width="418" height="16" font="3">The parties did not file the interconnection agreement with the Commission </text>
+<text top="318" left="126" width="422" height="16" font="3">in breach of Regulation 48(1) of the Regulations. The first time the </text>
+<text top="334" left="126" width="422" height="16" font="3">Commission had sight of the interconnection agreement was when it </text>
+<text top="350" left="126" width="279" height="16" font="3">compelled the parties to file the same for approval; </text>
+<text top="365" left="108" width="3" height="16" font="3"> </text>
+<text top="384" left="108" width="10" height="16" font="3">c)</text>
+<text top="386" left="118" width="4" height="13" font="4"> </text>
+<text top="384" left="126" width="420" height="16" font="3">Upon scrutiny of the agreement alongside the interconnection regulatory </text>
+<text top="399" left="126" width="424" height="16" font="3">framework, it has been noted that the agreement is fraught with </text>
+<text top="415" left="126" width="307" height="16" font="3">fundamental  inconsistencies which need to be rectified; </text>
+<text top="431" left="144" width="3" height="16" font="3"> </text>
+<text top="447" left="108" width="11" height="16" font="3">d)</text>
+<text top="449" left="119" width="4" height="13" font="4"> </text>
+<text top="447" left="126" width="418" height="16" font="3">In view of the four (4) hour air travel time between Kenya and Dubai, it is </text>
+<text top="462" left="126" width="419" height="16" font="3">not practically possible for a subscriber number to be in Dubai making a </text>
+<text top="478" left="126" width="391" height="16" font="3">roaming call 2 hours after it had been cited within the Kenyan network; </text>
+<text top="494" left="126" width="3" height="16" font="3"> </text>
+<text top="510" left="108" width="10" height="16" font="3">e)</text>
+<text top="512" left="118" width="4" height="13" font="4"> </text>
+<text top="510" left="126" width="419" height="16" font="3">That ordinarily, a number that does not have a roaming profile in its local </text>
+<text top="525" left="126" width="317" height="16" font="3">network cannot make a roaming call in a foreign network; </text>
+<text top="541" left="126" width="3" height="16" font="3"> </text>
+<text top="557" left="108" width="9" height="16" font="3">f)</text>
+<text top="559" left="117" width="4" height="13" font="4"> </text>
+<text top="557" left="126" width="418" height="16" font="3">That before a roaming number makes a call; the roaming partner’s systems </text>
+<text top="573" left="126" width="422" height="16" font="3">must authenticate and determine the subscriber’s eligibility to make a </text>
+<text top="588" left="126" width="419" height="16" font="3">roaming call. It is therefore not expected that a TAP file from a roaming </text>
+<text top="604" left="126" width="419" height="16" font="3">partner is generated when the subscribers are not allowed to roam as the </text>
+<text top="620" left="126" width="420" height="16" font="3">necessary authentication processes between the roaming partners’ systems </text>
+<text top="636" left="126" width="419" height="16" font="3">would not have permitted this. Indeed, Clause 8.8.1.2 of the International </text>
+<text top="651" left="126" width="194" height="16" font="3">Roaming Agreement attests to this; </text>
+<text top="667" left="108" width="3" height="16" font="3"> </text>
+<text top="685" left="108" width="10" height="16" font="3">g)</text>
+<text top="687" left="118" width="4" height="13" font="4"> </text>
+<text top="685" left="126" width="418" height="16" font="3">Given that a roaming bill has been generated by AREDU, the presumption </text>
+<text top="701" left="126" width="423" height="16" font="3">is that authentication pursuant to Clause 8.8.1.2 of the International </text>
+<text top="731" left="279" width="22" height="11" font="6">Page</text>
+<text top="731" left="300" width="2" height="11" font="7"> </text>
+<text top="731" left="303" width="6" height="11" font="8"><b>8</b></text>
+<text top="731" left="308" width="2" height="11" font="7"> </text>
+<text top="731" left="311" width="9" height="11" font="6">of</text>
+<text top="731" left="320" width="2" height="11" font="7"> </text>
+<text top="731" left="322" width="11" height="11" font="8"><b>11</b></text>
+<text top="731" left="333" width="2" height="11" font="7"> </text>
+<text top="745" left="72" width="2" height="11" font="7"> </text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="792" width="612">
+	<fontspec id="10" size="14" family="Arial" color="#000000"/>
+<text top="43" left="126" width="421" height="16" font="3">Roaming Agreement had been effected, a situation which is denied by </text>
+<text top="58" left="126" width="419" height="16" font="3">ETKL. In the circumstance, it is surprising that ETKL has not taken the </text>
+<text top="74" left="126" width="356" height="16" font="3">reasonable step of querying the genesis of the bill with AREDU;  </text>
+<text top="90" left="108" width="3" height="16" font="3"> </text>
+<text top="108" left="108" width="11" height="16" font="3">h)</text>
+<text top="110" left="119" width="4" height="13" font="4"> </text>
+<text top="108" left="126" width="421" height="16" font="3">That if indeed there was a valid roaming bill to ETKL in respect of </text>
+<text top="124" left="126" width="388" height="16" font="3">unauthorized roaming calls, this points to high level fraudulent activity; </text>
+<text top="139" left="126" width="3" height="16" font="3"> </text>
+<text top="155" left="108" width="7" height="16" font="3">i)</text>
+<text top="157" left="115" width="4" height="13" font="4"> </text>
+<text top="155" left="126" width="419" height="16" font="3">The suspected practice of call-back scenario as presented by ETKL is not </text>
+<text top="171" left="126" width="426" height="16" font="3">technically feasible and raises more questions than answers. The </text>
+<text top="187" left="126" width="421" height="16" font="3">Commission has carefully analyzed the suspected scenario and finds it </text>
+<text top="203" left="126" width="418" height="16" font="3">necessary to bring out its interrogation of this aspect as shown in italics here </text>
+<text top="218" left="126" width="46" height="16" font="3">below :  </text>
+<text top="234" left="126" width="3" height="16" font="3"> </text>
+<text top="250" left="162" width="10" height="16" font="3">a)</text>
+<text top="252" left="172" width="4" height="13" font="4"> </text>
+<text top="250" left="180" width="47" height="16" font="3">B party </text>
+<text top="250" left="227" width="99" height="16" font="9"><i>(Say 0751xxxxxx)</i></text>
+<text top="250" left="326" width="230" height="16" font="3"> calls access number +254 751362050    </text>
+<text top="266" left="180" width="205" height="16" font="9"><i>( ACL number issued by ETKL in Kenya)</i></text>
+<text top="266" left="386" width="3" height="16" font="3"> </text>
+<text top="281" left="180" width="3" height="16" font="3"> </text>
+<text top="297" left="162" width="11" height="16" font="3">b)</text>
+<text top="299" left="173" width="4" height="13" font="4"> </text>
+<text top="297" left="180" width="366" height="16" font="3">ACL Initiates call-back through internet to an ISP provider in </text>
+<text top="313" left="180" width="34" height="16" font="3">Dubai</text>
+<text top="313" left="214" width="330" height="16" font="9"><i> – A Call back means the calling number (B-party-0751xxxxxx) is </i></text>
+<text top="329" left="180" width="364" height="16" font="9"><i>called back from Dubai and the number to call back will be a Dubai number </i></text>
+<text top="344" left="180" width="247" height="16" font="9"><i>(not ETKL number to generate a roaming TAP file)</i></text>
+<text top="344" left="427" width="3" height="16" font="3"> </text>
+<text top="360" left="108" width="3" height="16" font="3"> </text>
+<text top="378" left="162" width="10" height="16" font="3">c)</text>
+<text top="380" left="172" width="4" height="13" font="4"> </text>
+<text top="378" left="180" width="366" height="16" font="3">The call is dropped but Dubai gets all call details &amp; calls back </text>
+<text top="394" left="180" width="214" height="16" font="3">through DU GSM Network (local call) </text>
+<text top="394" left="394" width="150" height="16" font="9"><i>When the call is dropped, the B </i></text>
+<text top="410" left="180" width="364" height="16" font="9"><i>number details will be known to the Dubai ISP for call back and a call back </i></text>
+<text top="425" left="180" width="364" height="16" font="9"><i>will be initiated to B party (0751xxxxxx) by a Dubai number. How then </i></text>
+<text top="441" left="180" width="364" height="16" font="9"><i>will the same B-party (0751xxxxxx) appear to be calling from Dubai when </i></text>
+<text top="457" left="180" width="195" height="16" font="9"><i>it is supposed to be called back in Kenya? </i></text>
+<text top="457" left="375" width="3" height="16" font="3"> </text>
+<text top="473" left="108" width="3" height="16" font="3"> </text>
+<text top="491" left="162" width="9" height="16" font="9"><i>d)</i></text>
+<text top="493" left="171" width="4" height="13" font="10"><i> </i></text>
+<text top="491" left="180" width="266" height="16" font="3">This call generates a TAP file payable by ETKL. </text>
+<text top="491" left="446" width="97" height="16" font="9"><i>(How can a number </i></text>
+<text top="507" left="180" width="367" height="16" font="9"><i>being called back in Kenya generate a TAP (roaming) file, when it is </i></text>
+<text top="522" left="180" width="364" height="16" font="9"><i>supposed to be called back while in Kenya? How possible is it that a Kenyan </i></text>
+<text top="538" left="180" width="361" height="16" font="9"><i>number will call a GSM network through an SS7 link of an ISP in Dubai? </i></text>
+<text top="554" left="108" width="3" height="16" font="9"><i> </i></text>
+<text top="572" left="162" width="10" height="16" font="3">e)</text>
+<text top="574" left="172" width="4" height="13" font="4"> </text>
+<text top="572" left="180" width="331" height="16" font="3">Through the internet, the call gets terminated in ACL Kenya </text>
+<text top="588" left="180" width="3" height="16" font="3"> </text>
+<text top="603" left="162" width="9" height="16" font="3">f)</text>
+<text top="605" left="171" width="4" height="13" font="4"> </text>
+<text top="603" left="180" width="349" height="16" font="3">ACL Kenya delivers the call to ETKL through E1 connection </text>
+<text top="603" left="529" width="15" height="16" font="9"><i>(If </i></text>
+<text top="619" left="180" width="364" height="16" font="9"><i>this is the case, did ETKL bill ACL for any calls delivered through the E1 </i></text>
+<text top="635" left="180" width="365" height="16" font="9"><i>link? The Commission was informed that ACL does not get any bill from </i></text>
+<text top="651" left="180" width="364" height="16" font="9"><i>ETKL as per the current arrangement. The link provided is bidirectional but </i></text>
+<text top="666" left="180" width="365" height="16" font="9"><i>ACL only uses one direction of calls coming from ETKL to ACL through </i></text>
+<text top="682" left="180" width="63" height="16" font="9"><i>the E1 link. </i></text>
+<text top="682" left="243" width="3" height="16" font="3"> </text>
+<text top="698" left="126" width="3" height="16" font="3"> </text>
+<text top="731" left="279" width="22" height="11" font="6">Page</text>
+<text top="731" left="300" width="2" height="11" font="7"> </text>
+<text top="731" left="303" width="6" height="11" font="8"><b>9</b></text>
+<text top="731" left="308" width="2" height="11" font="7"> </text>
+<text top="731" left="311" width="9" height="11" font="6">of</text>
+<text top="731" left="320" width="2" height="11" font="7"> </text>
+<text top="731" left="322" width="11" height="11" font="8"><b>11</b></text>
+<text top="731" left="333" width="2" height="11" font="7"> </text>
+<text top="745" left="72" width="2" height="11" font="7"> </text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="792" width="612">
+<text top="43" left="126" width="418" height="16" font="3">Based on the above interrogation, it is apparent that the suspected scenario </text>
+<text top="58" left="126" width="419" height="16" font="3">is not technically feasible. The possible by-pass of ETKL network by the </text>
+<text top="74" left="126" width="420" height="16" font="3">alleged fraudulent calls is not technically feasible considering that all calls </text>
+<text top="90" left="126" width="423" height="16" font="3">made would first land in the ETKL switches where they would be </text>
+<text top="106" left="126" width="420" height="16" font="3">authenticated, authorized and then accounted for. It is inconceivable that </text>
+<text top="121" left="126" width="421" height="16" font="3">the system allowed the alleged fraudulent calls to be made without the </text>
+<text top="137" left="126" width="143" height="16" font="3">knowledge of ETKL; and </text>
+<text top="153" left="108" width="3" height="16" font="3"> </text>
+<text top="171" left="108" width="7" height="16" font="3">j)</text>
+<text top="173" left="115" width="4" height="13" font="4"> </text>
+<text top="171" left="126" width="419" height="16" font="3">The Commission asked ETKL to submit Call Detail Records (CDR) to it </text>
+<text top="187" left="126" width="420" height="16" font="3">and this was not honoured. Instead ETKL re-submitted TAP files from </text>
+<text top="203" left="126" width="82" height="16" font="3">AREDU on 6</text>
+<text top="202" left="208" width="7" height="10" font="5">th</text>
+<text top="202" left="215" width="332" height="16" font="3"> January 2010 which do not provide an opportunity for </text>
+<text top="218" left="126" width="418" height="16" font="3">comparison with the CDR presented by ACL. ETKL confirmed during the </text>
+<text top="234" left="126" width="420" height="16" font="3">hearings that the numbers used to make the alleged fraudulent calls were </text>
+<text top="250" left="126" width="255" height="16" font="3">not the numbers allocated to ACL by ETKL.   </text>
+<text top="265" left="126" width="3" height="16" font="3"> </text>
+<text top="281" left="108" width="11" height="16" font="3">k)</text>
+<text top="283" left="119" width="4" height="13" font="4"> </text>
+<text top="281" left="126" width="420" height="16" font="3">In concluding its findings, the Commission has noted with concern that </text>
+<text top="297" left="126" width="258" height="16" font="3">despite issuing a directive to ETKL on 17</text>
+<text top="296" left="384" width="7" height="10" font="5">th</text>
+<text top="297" left="391" width="157" height="16" font="3"> December, 2009, ETKL </text>
+<text top="313" left="126" width="283" height="16" font="3">disregarded it. This directive was reiterated on 23</text>
+<text top="312" left="409" width="7" height="10" font="5">rd</text>
+<text top="313" left="416" width="130" height="16" font="3"> December, 2009 and </text>
+<text top="328" left="126" width="418" height="16" font="3">regrettably, ETKL did not comply.  The Commission takes great exception </text>
+<text top="344" left="126" width="315" height="16" font="3">to this and will not condone such practice in the industry. </text>
+<text top="360" left="108" width="3" height="16" font="1"><b> </b></text>
+<text top="378" left="72" width="10" height="16" font="1"><b>7.</b></text>
+<text top="380" left="82" width="4" height="13" font="2"><b> </b></text>
+<text top="378" left="90" width="60" height="16" font="1"><b>RULING </b></text>
+<text top="396" left="108" width="3" height="16" font="3"> </text>
+<text top="414" left="108" width="437" height="16" font="3">Based on the above findings, it is apparent that ETKL failed to illustrate how </text>
+<text top="430" left="108" width="438" height="16" font="3">the fraudulent activity was facilitated in its network. In addition, and more </text>
+<text top="446" left="108" width="436" height="16" font="3">importantly, it failed to attribute the fraudulent activity (if any) directly to ACL </text>
+<text top="462" left="108" width="437" height="16" font="3">or to a particular system or individual entity except for indirect inference that </text>
+<text top="477" left="108" width="436" height="16" font="3">once the E1 link to ACL was disconnected, the fraud ceased. The Commission </text>
+<text top="493" left="108" width="436" height="16" font="3">finds no direct incontrovertible evidence that the alleged fraud was committed </text>
+<text top="509" left="108" width="49" height="16" font="3">by ACL. </text>
+<text top="525" left="108" width="3" height="16" font="3"> </text>
+<text top="540" left="108" width="437" height="16" font="3">In addition, the Commission finds that ETKL failed to prove on a balance of </text>
+<text top="556" left="108" width="365" height="16" font="3">probability any culpability on the part of ACL on the alleged fraud. </text>
+<text top="572" left="108" width="7" height="16" font="3">  </text>
+<text top="588" left="108" width="227" height="16" font="3">The Commission hereby rules as follows: </text>
+<text top="603" left="108" width="3" height="16" font="3"> </text>
+<text top="619" left="130" width="11" height="16" font="3">1)</text>
+<text top="621" left="140" width="4" height="13" font="4"> </text>
+<text top="619" left="144" width="401" height="16" font="3">That ETKL re-establishes the E1 link with ACL with immediate effect </text>
+<text top="635" left="148" width="313" height="16" font="3">and inform the Commission of the said re-establishment; </text>
+<text top="651" left="130" width="11" height="16" font="3">2)</text>
+<text top="653" left="140" width="4" height="13" font="4"> </text>
+<text top="651" left="144" width="401" height="16" font="3">That the parties renegotiate the interconnection agreement to re-align it </text>
+<text top="666" left="148" width="408" height="16" font="3">comprehensively with the existing interconnection regulatory </text>
+<text top="682" left="148" width="208" height="16" font="3">framework within fourteen (14) days;  </text>
+<text top="731" left="276" width="22" height="11" font="6">Page</text>
+<text top="731" left="297" width="2" height="11" font="7"> </text>
+<text top="731" left="300" width="11" height="11" font="8"><b>10</b></text>
+<text top="731" left="311" width="2" height="11" font="7"> </text>
+<text top="731" left="313" width="9" height="11" font="6">of</text>
+<text top="731" left="323" width="2" height="11" font="7"> </text>
+<text top="731" left="325" width="11" height="11" font="8"><b>11</b></text>
+<text top="731" left="336" width="2" height="11" font="7"> </text>
+<text top="745" left="72" width="2" height="11" font="7"> </text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="792" width="612">
+<text top="731" left="276" width="22" height="11" font="6">Page</text>
+<text top="731" left="297" width="2" height="11" font="7"> </text>
+<text top="731" left="300" width="11" height="11" font="8"><b>11</b></text>
+<text top="731" left="311" width="2" height="11" font="7"> </text>
+<text top="731" left="313" width="9" height="11" font="6">of</text>
+<text top="731" left="323" width="2" height="11" font="7"> </text>
+<text top="731" left="325" width="11" height="11" font="8"><b>11</b></text>
+<text top="731" left="336" width="2" height="11" font="7"> </text>
+<text top="745" left="72" width="2" height="11" font="7"> </text>
+<text top="43" left="130" width="11" height="16" font="3">3)</text>
+<text top="45" left="140" width="4" height="13" font="4"> </text>
+<text top="43" left="144" width="402" height="16" font="3">That ETKL pays to the Commission Ksh.500,000 within fifteen (15) </text>
+<text top="58" left="148" width="400" height="16" font="3">days for failing to comply with the Commission’s directive to re-connect  </text>
+<text top="74" left="148" width="134" height="16" font="3">the E1 link to ACL; and </text>
+<text top="90" left="130" width="11" height="16" font="3">4)</text>
+<text top="92" left="140" width="4" height="13" font="4"> </text>
+<text top="90" left="144" width="407" height="16" font="3">In view of the blatant disregard and non-compliance with the </text>
+<text top="106" left="148" width="206" height="16" font="3">Commission’s directive issued on 17</text>
+<text top="105" left="354" width="7" height="10" font="5">th</text>
+<text top="106" left="360" width="185" height="16" font="3"> December, 2009 and reiterated </text>
+<text top="121" left="148" width="35" height="16" font="3">on 23</text>
+<text top="121" left="183" width="7" height="10" font="5">rd</text>
+<text top="121" left="190" width="358" height="16" font="3"> December, 2009, the Commission hereby enters a formal </text>
+<text top="137" left="148" width="295" height="16" font="3">caution on ETKL’s compliance record for Year 2009. </text>
+<text top="153" left="72" width="3" height="16" font="3"> </text>
+<text top="153" left="108" width="3" height="16" font="3"> </text>
+<text top="169" left="108" width="437" height="16" font="3">In conclusion, the Commission takes allegations of this nature very seriously </text>
+<text top="184" left="108" width="437" height="16" font="3">and has already initiated independent investigations. In the event that any of </text>
+<text top="200" left="108" width="438" height="16" font="3">the parties is found to have willfully perpetrated any fraudulent activity, the </text>
+<text top="216" left="108" width="378" height="16" font="3">Commission will take appropriate action against the offending party.  </text>
+<text top="232" left="108" width="3" height="16" font="3"> </text>
+<text top="247" left="108" width="3" height="16" font="3"> </text>
+<text top="263" left="108" width="3" height="16" font="3"> </text>
+<text top="279" left="108" width="3" height="16" font="3"> </text>
+<text top="295" left="108" width="51" height="16" font="1"><b>DATED</b></text>
+<text top="295" left="159" width="362" height="16" font="3"> this…………………day of ………………………………..2010 </text>
+<text top="310" left="108" width="3" height="16" font="3"> </text>
+<text top="326" left="108" width="3" height="16" font="3"> </text>
+<text top="342" left="108" width="3" height="16" font="3"> </text>
+<text top="358" left="108" width="3" height="16" font="1"><b> </b></text>
+<text top="373" left="391" width="153" height="16" font="1"><b>DIRECTOR GENERAL </b></text>
+</page>
+</pdf2xml>

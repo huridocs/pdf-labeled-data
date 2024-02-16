@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="24.01.0">
+<page number="1" position="absolute" top="0" left="0" height="792" width="612">
+	<fontspec id="0" size="12" family="CourierNewPS" color="#000000"/>
+	<fontspec id="1" size="12" family="CourierNewPSMT" color="#000000"/>
+	<fontspec id="2" size="12" family="VZCPKU+LiberationSans" color="#000000"/>
+<text top="74" left="205" width="209" height="9" font="0"><b>UNITED STATES DISTRICT COURT </b></text>
+<text top="88" left="205" width="209" height="9" font="0"><b>FOR THE DISTRICT OF COLUMBIA </b></text>
+<text top="102" left="72" width="216" height="9" font="0"><b>_____________________________ </b></text>
+<text top="115" left="72" width="7" height="9" font="0"><b> </b></text>
+<text top="115" left="108" width="7" height="9" font="0"><b> </b></text>
+<text top="115" left="144" width="7" height="9" font="0"><b> </b></text>
+<text top="115" left="180" width="7" height="9" font="0"><b> </b></text>
+<text top="115" left="216" width="7" height="9" font="0"><b> </b></text>
+<text top="115" left="252" width="43" height="9" font="0"><b>    ) </b></text>
+<text top="129" left="72" width="288" height="9" font="0"><b>IN THE MATTER OF THE         )          </b></text>
+<text top="142" left="72" width="223" height="9" font="0"><b>SEARCH OF INFORMATION        ) </b></text>
+<text top="156" left="72" width="432" height="9" font="0"><b>ASSOCIATED WITH              )   Magistrate Case No. 14-228 </b></text>
+<text top="170" left="72" width="223" height="9" font="0"><b>[REDACTED]@MAC.COM THAT IS   ) </b></text>
+<text top="183" left="72" width="259" height="9" font="0"><b>STORED AT PREMISES           )      </b></text>
+<text top="197" left="72" width="223" height="9" font="0"><b>CONTROLLED BY APPLE, INC.    ) </b></text>
+<text top="210" left="72" width="223" height="9" font="0"><b>_____________________________) </b></text>
+<text top="224" left="72" width="7" height="9" font="0"><b> </b></text>
+<text top="224" left="108" width="7" height="9" font="0"><b> </b></text>
+<text top="224" left="144" width="7" height="9" font="0"><b> </b></text>
+<text top="224" left="180" width="7" height="9" font="0"><b> </b></text>
+<text top="224" left="216" width="7" height="9" font="0"><b> </b></text>
+<text top="224" left="252" width="7" height="9" font="0"><b> </b></text>
+<text top="224" left="288" width="7" height="9" font="0"><b> </b></text>
+<text top="224" left="324" width="7" height="9" font="0"><b> </b></text>
+<text top="237" left="72" width="7" height="9" font="0"><b> </b></text>
+<text top="251" left="241" width="137" height="9" font="0"><b>MEMORANDUM OPINION </b></text>
+<text top="251" left="378" width="7" height="9" font="1"> </text>
+<text top="265" left="72" width="7" height="9" font="1"> </text>
+<text top="279" left="72" width="7" height="9" font="1"> </text>
+<text top="292" left="108" width="432" height="9" font="1">The government challenges an order by Magistrate Judge John </text>
+<text top="319" left="72" width="461" height="9" font="1">M. Facciola denying its second application for a search warrant </text>
+<text top="347" left="72" width="410" height="9" font="1">under § 2703 of the Stored Communications Act, 18 U.S.C. </text>
+<text top="374" left="72" width="418" height="9" font="1">§§ 2701-12.  The magistrate judge denied the government’s </text>
+<text top="401" left="72" width="468" height="9" font="1">application on the ground that the requested warrant amounted to </text>
+<text top="428" left="72" width="454" height="9" font="1">an unconstitutional general warrant due, in large part, to the </text>
+<text top="455" left="72" width="418" height="9" font="1">procedures set forth in the application for executing the </text>
+<text top="483" left="72" width="454" height="9" font="1">requested warrant.  Following the magistrate judge’s denial of </text>
+<text top="510" left="72" width="454" height="9" font="1">the search warrant application and the government’s subsequent </text>
+<text top="537" left="72" width="454" height="9" font="1">challenge to that decision, the Electronic Frontier Foundation </text>
+<text top="564" left="72" width="389" height="9" font="1">moved for leave to file an amicus brief.  Because the </text>
+<text top="591" left="72" width="461" height="9" font="1">government’s application complies with the Fourth Amendment and </text>
+<text top="618" left="72" width="389" height="9" font="1">the specific procedures for executing the warrant are </text>
+<text top="646" left="72" width="432" height="9" font="1">permissible under Federal Rule of Criminal Procedure 41 and </text>
+<text top="673" left="72" width="425" height="9" font="1">controlling case law, the magistrate judge’s order will be </text>
+<text top="16" left="115" width="381" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 1 of 21</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="792" width="612">
+	<fontspec id="3" size="8" family="CourierNewPSMT" color="#000000"/>
+<text top="39" left="295" width="29" height="9" font="1">-2- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="454" height="9" font="1">vacated, and the government’s application for a search warrant </text>
+<text top="102" left="72" width="137" height="9" font="1">will be granted.   </text>
+<text top="129" left="270" width="79" height="9" font="1">BACKGROUND </text>
+<text top="143" left="306" width="7" height="9" font="1"> </text>
+<text top="156" left="72" width="7" height="9" font="1"> </text>
+<text top="156" left="108" width="396" height="9" font="1">On March 5, 2014, the government filed under 18 U.S.C. </text>
+<text top="183" left="72" width="461" height="9" font="1">§ 2703 of the Stored Communications Act, 18 U.S.C. §§ 2701-2712 </text>
+<text top="211" left="72" width="410" height="9" font="1">a sealed application for a search warrant for electronic </text>
+<text top="238" left="72" width="396" height="9" font="1">communications and other evidence stored on a computer.</text>
+<text top="235" left="468" width="5" height="6" font="3">1</text>
+<text top="238" left="473" width="43" height="9" font="1">  The </text>
+<text top="265" left="72" width="461" height="9" font="1">government’s search warrant application related to a specific e-</text>
+<text top="292" left="72" width="396" height="9" font="1">mail account, [redacted]@mac.com, and involved alleged </text>
+<text top="319" left="72" width="454" height="9" font="1">violations of 41 U.S.C. § 8702 (kickbacks) and 18 U.S.C. § 371 </text>
+<text top="347" left="72" width="403" height="9" font="1">(conspiracy).  The government’s application included an </text>
+<text top="374" left="72" width="439" height="9" font="1">affidavit in support of the search warrant providing factual </text>
+<text top="401" left="72" width="367" height="9" font="1">information to support a finding of probable cause.</text>
+<text top="399" left="440" width="5" height="6" font="3">2</text>
+<text top="401" left="444" width="36" height="9" font="1">  In </text>
+<text top="428" left="72" width="461" height="9" font="1">addition, the government’s application included two attachments </text>
+<text top="455" left="72" width="468" height="9" font="1">that set forth the place to be searched and the particular items </text>
+<text top="492" left="72" width="151" height="9" font="1">                     </text>
+<text top="503" left="108" width="5" height="6" font="3">1</text>
+<text top="505" left="113" width="382" height="9" font="1">  Under the Stored Communications Act, an electronic </text>
+<text top="519" left="72" width="418" height="9" font="1">communications provider is required to disclose contents, </text>
+<text top="532" left="72" width="468" height="9" font="1">records, and other information of an electronic communication to </text>
+<text top="546" left="72" width="468" height="9" font="1">a governmental entity, with or without notice to the subscriber, </text>
+<text top="560" left="72" width="439" height="9" font="1">provided that the statutory requirements are met.  18 U.S.C. </text>
+<text top="573" left="72" width="439" height="9" font="1">§ 2703(a), (b), (c)(1)(A).  To require an electronic service </text>
+<text top="587" left="72" width="396" height="9" font="1">provider to disclose either the contents of electronic </text>
+<text top="600" left="72" width="389" height="9" font="1">communications, or records and other information, the </text>
+<text top="614" left="72" width="446" height="9" font="1">governmental entity must “obtain[] a warrant issued using the </text>
+<text top="628" left="72" width="461" height="9" font="1">procedures described in the Federal Rules of Criminal Procedure </text>
+<text top="641" left="72" width="360" height="9" font="1">. . . by a court of competent jurisdiction.”  Id. </text>
+<text top="655" left="72" width="216" height="9" font="1">§ 2703(b)(1)(A), (c)(1)(A).   </text>
+<text top="668" left="108" width="7" height="9" font="1"> </text>
+<text top="679" left="108" width="5" height="6" font="3">2</text>
+<text top="682" left="113" width="418" height="9" font="1">  Due to the government’s ongoing criminal investigation, </text>
+<text top="696" left="72" width="454" height="9" font="1">very few details regarding the investigation will be addressed </text>
+<text top="709" left="72" width="137" height="9" font="1">in this opinion.   </text>
+<text top="16" left="115" width="381" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 2 of 21</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="295" width="29" height="9" font="1">-3- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="418" height="9" font="1">that the government intended to seize, including specific </text>
+<text top="102" left="72" width="454" height="9" font="1">information that the electronic service provider, Apple, Inc., </text>
+<text top="129" left="72" width="446" height="9" font="1">would be required to disclose.  See Govt.’s Application for a </text>
+<text top="156" left="72" width="454" height="9" font="1">Search Warrant (“Govt.’s Application”), Attach. A, Place to Be </text>
+<text top="183" left="72" width="468" height="9" font="1">Searched at 1; Govt.’s Application, Attach. B, Particular Things </text>
+<text top="211" left="72" width="425" height="9" font="1">to Be Seized by the Government at 1.  The magistrate judge </text>
+<text top="238" left="72" width="468" height="9" font="1">denied the government’s application for a search warrant in part </text>
+<text top="265" left="72" width="446" height="9" font="1">because the application failed to clearly indicate that Apple </text>
+<text top="292" left="72" width="432" height="9" font="1">was required to disclose e-mails in particular, and because </text>
+<text top="319" left="72" width="446" height="9" font="1">probable cause had not been established for all of the emails </text>
+<text top="347" left="72" width="410" height="9" font="1">requested in the search warrant.  In Re: Search of Info. </text>
+<text top="374" left="72" width="446" height="9" font="1">Associated with [redacted]@mac.com that is Stored at Premises </text>
+<text top="401" left="72" width="454" height="9" font="1">Controlled by Apple, Inc., Mag. Case No. 14-228 (JMF), 2014 WL </text>
+<text top="428" left="72" width="410" height="9" font="1">945563, at *2-3 (D.D.C. Mar. 7, 2014).  In addition, the </text>
+<text top="455" left="72" width="418" height="9" font="1">magistrate judge objected to the government’s use of Rule </text>
+<text top="483" left="72" width="202" height="9" font="1">41(e)’s “two-step procedure”</text>
+<text top="480" left="274" width="5" height="6" font="3">3</text>
+<text top="483" left="279" width="230" height="9" font="1"> for gathering evidence whereby </text>
+<text top="510" left="72" width="461" height="9" font="1">Apple would first be required to disclose to the government all </text>
+<text top="537" left="72" width="461" height="9" font="1">e-mails associated with the target e-mail account, and then, at </text>
+<text top="560" left="72" width="151" height="9" font="1">                     </text>
+<text top="571" left="108" width="5" height="6" font="3">3</text>
+<text top="573" left="113" width="418" height="9" font="1">  Federal Criminal Rule 41(e) sets forth the requirements </text>
+<text top="587" left="72" width="432" height="9" font="1">for issuing a warrant, such as the information that must be </text>
+<text top="600" left="72" width="454" height="9" font="1">contained in the warrant and the proper protocol for executing </text>
+<text top="614" left="72" width="439" height="9" font="1">the warrant.  Courts are permitted to issue warrants for the </text>
+<text top="628" left="72" width="454" height="9" font="1">“seizure of electronic storage media or the seizure or copying </text>
+<text top="641" left="72" width="410" height="9" font="1">of electronically stored information.”  Fed. R. Crim. P. </text>
+<text top="655" left="72" width="446" height="9" font="1">41(e)(2)(B).  Included in that provision is authorization for </text>
+<text top="668" left="72" width="468" height="9" font="1">subsequent off-site review of electronic information obtained in </text>
+<text top="682" left="72" width="439" height="9" font="1">accordance with the search warrant.  Id.  The rule expressly </text>
+<text top="696" left="72" width="396" height="9" font="1">“authorizes a later review of the media or information </text>
+<text top="709" left="72" width="274" height="9" font="1">consistent with the warrant[.]”  Id.  </text>
+<text top="16" left="115" width="381" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 3 of 21</text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="295" width="29" height="9" font="1">-4- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="425" height="9" font="1">a later point, the government would examine the e-mails at </text>
+<text top="102" left="72" width="468" height="9" font="1">separate location to identify evidence specified in Attachment B </text>
+<text top="129" left="72" width="338" height="9" font="1">to the government’s application.  Id. at *5-6. </text>
+<text top="156" left="108" width="396" height="9" font="1">The government filed a second application for a search </text>
+<text top="183" left="72" width="432" height="9" font="1">warrant on March 28, 2014.  In the revised application, the </text>
+<text top="211" left="72" width="432" height="9" font="1">government indicated that the warrant applied to the e-mail </text>
+<text top="238" left="72" width="454" height="9" font="1">account for “[redacted]@mac.com,” and that the warrant covered </text>
+<text top="265" left="72" width="468" height="9" font="1">“information . . . dating from January 14, 2014, to the present, </text>
+<text top="292" left="72" width="418" height="9" font="1">and stored at premises controlled by Apple Inc.”  Govt.’s </text>
+<text top="319" left="72" width="446" height="9" font="1">Application for a Search Warrant (“Govt.’s 2d. Application”), </text>
+<text top="347" left="72" width="454" height="9" font="1">Attach. A at 1.  Attachment B set forth further details on the </text>
+<text top="374" left="72" width="432" height="9" font="1">particular items to be seized, which included the following </text>
+<text top="401" left="72" width="72" height="9" font="1">records:  </text>
+<text top="428" left="108" width="409" height="9" font="1">All  e-mails, including e-mail  content, attachments, </text>
+<text top="442" left="108" width="407" height="9" font="1">source and destination addresses, and time and date </text>
+<text top="455" left="108" width="428" height="9" font="1">information, that constitute evidence and </text>
+<text top="469" left="108" width="403" height="9" font="1">instrumentalities of violations of 41 U.S.C § 8702 </text>
+<text top="483" left="108" width="405" height="9" font="1">(Solicitation and Receipt of Kickbacks) and 18 U.S.C. </text>
+<text top="496" left="108" width="404" height="9" font="1">§ 371 (Conspiracy), dated between January 14, 2014, to </text>
+<text top="510" left="108" width="407" height="9" font="1">the present, including e-mails referring or relating </text>
+<text top="523" left="108" width="405" height="9" font="1">to a government investigation involving any or all of </text>
+<text top="537" left="108" width="409" height="9" font="1">the following:  [individuals and entities have been </text>
+<text top="537" left="511" width="13" height="9" font="1"> </text>
+<text top="551" left="108" width="79" height="9" font="1">redacted]. </text>
+<text top="564" left="108" width="7" height="9" font="1"> </text>
+<text top="578" left="72" width="454" height="9" font="1">Id., Attach. B at 1.  Attachment C to the government’s revised </text>
+<text top="605" left="72" width="454" height="9" font="1">application included the specific procedures for executing the </text>
+<text top="632" left="72" width="439" height="9" font="1">search warrant wherein the government would first “conduct a </text>
+<text top="659" left="72" width="439" height="9" font="1">search of the e-mails produced by the Provider and determine </text>
+<text top="687" left="72" width="425" height="9" font="1">which are within the scope of the information to be seized </text>
+<text top="16" left="115" width="381" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 4 of 21</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="295" width="29" height="9" font="1">-5- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="439" height="9" font="1">specified in Attachment B,” and then copy and retain those e-</text>
+<text top="102" left="72" width="468" height="9" font="1">mails that are “within the scope of Attachment B.”  Id., Attach. </text>
+<text top="129" left="72" width="403" height="9" font="1">C at 1.  Law enforcement personnel would then “seal any </text>
+<text top="156" left="72" width="446" height="9" font="1">information from Apple that does not fall within the scope of </text>
+<text top="183" left="72" width="468" height="9" font="1">Attachment B,” and would be prohibited from “further review [of] </text>
+<text top="211" left="72" width="389" height="9" font="1">the information absent an order of the Court.”  Id.   </text>
+<text top="238" left="72" width="7" height="9" font="1"> </text>
+<text top="238" left="108" width="396" height="9" font="1">The magistrate judge rejected the government’s revised </text>
+<text top="265" left="72" width="475" height="9" font="1">application for a search warrant in a second memorandum opinion.  </text>
+<text top="292" left="72" width="454" height="9" font="1">In Re: Search of Info. Associated with [Redacted]@mac.com that </text>
+<text top="319" left="72" width="454" height="9" font="1">is Stored at Premises Controlled by Apple, Inc., Mag. Case No. </text>
+<text top="347" left="72" width="389" height="9" font="1">14-228 (JMF), 2014 WL 1377793 (D.D.C. Apr. 7, 2014).  </text>
+<text top="374" left="72" width="432" height="9" font="1">Reiterating the rationale set forth in the first memorandum </text>
+<text top="401" left="72" width="432" height="9" font="1">opinion, the magistrate judge again denied the government’s </text>
+<text top="428" left="72" width="446" height="9" font="1">application for a search warrant finding that it violated the </text>
+<text top="455" left="72" width="454" height="9" font="1">Fourth Amendment because it amounted to an overly broad search </text>
+<text top="483" left="72" width="446" height="9" font="1">warrant.  Id. at *2-3, *5.  In addition, the magistrate judge </text>
+<text top="510" left="72" width="446" height="9" font="1">rejected the government’s use of the two-step procedure under </text>
+<text top="537" left="72" width="446" height="9" font="1">Rule 41(e), stating that the government was “‘abusing the two-</text>
+<text top="564" left="72" width="468" height="9" font="1">step procedure under Rule 41’ by requiring Apple to disclose the </text>
+<text top="591" left="72" width="446" height="9" font="1">entire contents of an e-mail account.”  Id. at *5 (quoting In </text>
+<text top="618" left="72" width="468" height="9" font="1">Re: Search of Info., Mag. Case No. 14-228 (JMF), 2014 WL 945563, </text>
+<text top="646" left="72" width="446" height="9" font="1">at *5).  To avoid issuing a general warrant that would permit </text>
+<text top="673" left="72" width="454" height="9" font="1">the government to seize large amounts of data not supported by </text>
+<text top="700" left="72" width="432" height="9" font="1">probable cause, the magistrate judge recommended that Apple </text>
+<text top="16" left="115" width="381" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 5 of 21</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="792" width="612">
+	<fontspec id="4" size="10" family="CourierNewPSMT" color="#000000"/>
+<text top="39" left="295" width="29" height="9" font="1">-6- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="403" height="9" font="1">perform the necessary search and turn over any relevant </text>
+<text top="102" left="72" width="317" height="9" font="1">information to the government.  Id. at *6.  </text>
+<text top="129" left="108" width="230" height="9" font="1">The government filed a challenge</text>
+<text top="127" left="339" width="5" height="6" font="3">4</text>
+<text top="129" left="344" width="194" height="9" font="1"> to the magistrate judge’s </text>
+<text top="156" left="72" width="418" height="9" font="1">order on April 21, 2014, seeking review of the magistrate </text>
+<text top="183" left="72" width="461" height="9" font="1">judge’s decision denying the application for a search warrant.  </text>
+<text top="211" left="72" width="468" height="9" font="1">In its challenge, the government argues that the application for </text>
+<text top="238" left="72" width="432" height="9" font="1">search warrant complies with the Fourth Amendment.  Govt.’s </text>
+<text top="265" left="72" width="461" height="9" font="1">Resubmission or Appeal from Mag. J.’s Order Denying Application </text>
+<text top="292" left="72" width="454" height="9" font="1">for Search Warrant (“Govt.’s Challenge”) at 5-7.  In addition, </text>
+<text top="319" left="72" width="461" height="9" font="1">the government argues that the two-step procedure for executing </text>
+<text top="347" left="72" width="454" height="9" font="1">the search warrant is permitted under Federal Rule of Criminal </text>
+<text top="374" left="72" width="202" height="9" font="1">Procedure 41.  Id. at 8-13. </text>
+<text top="401" left="108" width="425" height="9" font="1">On May 2, 2014, the Electronic Frontier Foundation (“EFF”) </text>
+<text top="428" left="72" width="439" height="9" font="1">filed a motion for leave to file a brief as amicus curiae in </text>
+<text top="455" left="72" width="418" height="9" font="1">order to address pertinent questions involving the Fourth </text>
+<text top="483" left="72" width="446" height="9" font="1">Amendment and new technologies.  Mot. for Leave to File Brief </text>
+<text top="510" left="72" width="346" height="9" font="1">Amicus Curiae of Elec. Frontier Found. at 1.    </text>
+<text top="537" left="108" width="7" height="9" font="1"> </text>
+<text top="564" left="108" width="7" height="9" font="1"> </text>
+<text top="587" left="72" width="151" height="9" font="1">                     </text>
+<text top="598" left="108" width="5" height="6" font="3">4</text>
+<text top="600" left="113" width="7" height="9" font="1"> </text>
+<text top="602" left="120" width="6" height="8" font="4"> </text>
+<text top="600" left="126" width="418" height="9" font="1">The government styles its challenge as an appeal, but the </text>
+<text top="614" left="72" width="418" height="9" font="1">reference is a misnomer.  With the exception of authority </text>
+<text top="628" left="72" width="432" height="9" font="1">granted by Federal Rule of Criminal Procedure 58 concerning </text>
+<text top="641" left="72" width="454" height="9" font="1">misdemeanor proceedings handled by a magistrate judge under 18 </text>
+<text top="655" left="72" width="446" height="9" font="1">U.S.C. § 3401, the district court does not exercise appellate </text>
+<text top="668" left="72" width="468" height="9" font="1">power.  See, e.g., United States v. Choi, 818 F. Supp. 2d 79, 85 </text>
+<text top="682" left="72" width="454" height="9" font="1">(D.D.C. 2011) (“The magistrate judge is not an inferior court, </text>
+<text top="696" left="72" width="454" height="9" font="1">and the district court does not stand in an appellate capacity </text>
+<text top="709" left="72" width="180" height="9" font="1">over the magistrate.”).  </text>
+<text top="710" left="252" width="6" height="8" font="4"> </text>
+<text top="16" left="115" width="381" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 6 of 21</text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="295" width="29" height="9" font="1">-7- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="270" width="79" height="9" font="1">DISCUSSION </text>
+<text top="102" left="72" width="166" height="9" font="1">I.  STANDARD OF REVIEW </text>
+<text top="129" left="108" width="403" height="9" font="1">Under the Stored Communications Act, the government may </text>
+<text top="156" left="72" width="461" height="9" font="1">apply for a warrant requiring an electronic service provider to </text>
+<text top="183" left="72" width="439" height="9" font="1">disclose the contents of electronic communications, or other </text>
+<text top="211" left="72" width="374" height="9" font="1">records and information, from a “court of competent </text>
+<text top="238" left="72" width="468" height="9" font="1">jurisdiction.”  18 U.S.C. §§ 2703(a), (b)(1)(A), (c)(1)(A).  The </text>
+<text top="265" left="72" width="418" height="9" font="1">statute defines a court of competent jurisdiction as “any </text>
+<text top="292" left="72" width="432" height="9" font="1">district court of the United States (including a magistrate </text>
+<text top="319" left="72" width="439" height="9" font="1">judge of such a court) or any United States court of appeals </text>
+<text top="347" left="72" width="367" height="9" font="1">that . . . has jurisdiction over the offense being </text>
+<text top="374" left="72" width="446" height="9" font="1">investigated.”  Id. § 2711(3)(A)(i).  Here, the basis for the </text>
+<text top="401" left="72" width="461" height="9" font="1">magistrate judge’s jurisdiction is the Federal Magistrates Act, </text>
+<text top="428" left="72" width="432" height="9" font="1">28 U.S.C. §§ 631-639.  The Federal Magistrates Act provides </text>
+<text top="455" left="72" width="439" height="9" font="1">magistrate judges with authority to decide certain pre-trial </text>
+<text top="483" left="72" width="461" height="9" font="1">matters, including whether to grant search warrant applications.</text>
+<text top="480" left="533" width="5" height="6" font="3">5</text>
+<text top="483" left="538" width="14" height="9" font="1">  </text>
+<text top="510" left="72" width="454" height="9" font="1">Id. § 636(b)(1)(A).  A “judge may designate a magistrate judge </text>
+<text top="537" left="72" width="439" height="9" font="1">to hear and determine any pretrial matter pending before the </text>
+<text top="564" left="72" width="468" height="9" font="1">court,” provided that the matter does not fall within one of the </text>
+<text top="641" left="72" width="151" height="9" font="1">                     </text>
+<text top="652" left="108" width="5" height="6" font="3">5</text>
+<text top="655" left="113" width="425" height="9" font="1">  Under § 636, pretrial matters include the issuing search </text>
+<text top="668" left="72" width="432" height="9" font="1">warrants.  H.R. Rep. 94-1609, at 8, 1976 U.S.C.C.A.N. 6162, </text>
+<text top="682" left="72" width="432" height="9" font="1">6168; accord Gomez v. United States, 490 U.S. 858, 868 n.16 </text>
+<text top="696" left="72" width="72" height="9" font="1">(1989).   </text>
+<text top="709" left="108" width="7" height="9" font="1"> </text>
+<text top="16" left="115" width="381" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 7 of 21</text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="295" width="29" height="9" font="1">-8- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="432" height="9" font="1">enumerated exceptions set forth in the subsection (b)(1)(A).</text>
+<text top="72" left="504" width="5" height="6" font="3">6</text>
+<text top="75" left="509" width="14" height="9" font="1">  </text>
+<text top="102" left="72" width="446" height="9" font="1">Id.  “A judge of the court may reconsider any pretrial matter </text>
+<text top="129" left="72" width="439" height="9" font="1">under this subparagraph (A) where it has been shown that the </text>
+<text top="156" left="72" width="439" height="9" font="1">magistrate judge’s order is clearly erroneous or contrary to </text>
+<text top="183" left="72" width="454" height="9" font="1">law.”  Id.; see also Gomez, 490 U.S. at 868.  Accordingly, the </text>
+<text top="211" left="72" width="446" height="9" font="1">magistrate judge’s order denying the government’s application </text>
+<text top="238" left="72" width="461" height="9" font="1">for a search warrant under 18 U.S.C. § 2703 will be reviewed to </text>
+<text top="265" left="72" width="439" height="9" font="1">determine whether it is clearly erroneous or contrary to the </text>
+<text top="292" left="72" width="29" height="9" font="1">law.</text>
+<text top="290" left="101" width="5" height="6" font="3">7</text>
+<text top="292" left="106" width="22" height="9" font="1">   </text>
+<text top="319" left="72" width="166" height="9" font="1">II.  FOURTH AMENDMENT  </text>
+<text top="347" left="108" width="389" height="9" font="1">The Fourth Amendment provides that “no warrants shall </text>
+<text top="374" left="72" width="382" height="9" font="1">issue, but upon probable cause, supported by oath or </text>
+<text top="401" left="72" width="410" height="9" font="1">affirmation, and particularly describing the place to be </text>
+<text top="428" left="72" width="461" height="9" font="1">searched, and the persons or things to be seized.”  U.S. Const. </text>
+<text top="455" left="72" width="461" height="9" font="1">amend. IV.  “As the text of the Fourth Amendment indicates, the </text>
+<text top="494" left="72" width="151" height="9" font="1">                     </text>
+<text top="505" left="108" width="5" height="6" font="3">6</text>
+<text top="507" left="113" width="396" height="9" font="1">  A “motion for injunctive relief, for judgment on the </text>
+<text top="521" left="72" width="403" height="9" font="1">pleadings, for summary judgment, to dismiss or quash an </text>
+<text top="535" left="72" width="439" height="9" font="1">indictment or information made by the defendant, to suppress </text>
+<text top="548" left="72" width="468" height="9" font="1">evidence in a criminal case, to dismiss or to permit maintenance </text>
+<text top="562" left="72" width="461" height="9" font="1">of a class action, to dismiss for failure to state a claim upon </text>
+<text top="576" left="72" width="439" height="9" font="1">which relief can be granted, and to involuntarily dismiss an </text>
+<text top="589" left="72" width="403" height="9" font="1">action,” are not included in this grant of authority to </text>
+<text top="603" left="72" width="338" height="9" font="1">magistrate judges.  28 U.S.C. § 636 (b)(1)(A). </text>
+<text top="616" left="108" width="6" height="8" font="4"> </text>
+<text top="625" left="108" width="5" height="6" font="3">7</text>
+<text top="628" left="113" width="410" height="9" font="1">  “A finding is clearly erroneous when although there is </text>
+<text top="641" left="72" width="425" height="9" font="1">evidence to support it, the reviewing [body] on the entire </text>
+<text top="655" left="72" width="446" height="9" font="1">evidence is left with the definite and firm conviction that a </text>
+<text top="668" left="72" width="439" height="9" font="1">mistake has been committed.”  United States v. United States </text>
+<text top="682" left="72" width="454" height="9" font="1">Gypsum Co., 333 U.S. 364, 395 (1948) (internal quotation marks </text>
+<text top="696" left="72" width="72" height="9" font="1">omitted). </text>
+<text top="709" left="108" width="7" height="9" font="1"> </text>
+<text top="16" left="115" width="381" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 8 of 21</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="295" width="29" height="9" font="1">-9- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="432" height="9" font="1">ultimate measure of the constitutionality of a governmental </text>
+<text top="102" left="72" width="446" height="9" font="1">search is reasonableness.”  Vernonia Sch. Dist. 47J v. Acton, </text>
+<text top="129" left="72" width="446" height="9" font="1">515 U.S. 646, 652 (1995) (internal quotation marks omitted).  </text>
+<text top="156" left="72" width="446" height="9" font="1">“Where a search is undertaken by law enforcement officials to </text>
+<text top="183" left="72" width="446" height="9" font="1">discover evidence of criminal wrongdoing . . . reasonableness </text>
+<text top="211" left="72" width="468" height="9" font="1">generally requires the obtaining of a judicial warrant.”  Id. at </text>
+<text top="238" left="72" width="461" height="9" font="1">653.  The Supreme Court has interpreted the Fourth Amendment to </text>
+<text top="265" left="72" width="468" height="9" font="1">require: (1) that the warrant be issued by a neutral magistrate; </text>
+<text top="292" left="72" width="432" height="9" font="1">(2) that the neutral magistrate find that there is probable </text>
+<text top="319" left="72" width="418" height="9" font="1">cause to believe that the evidence sought will “‘aid in a </text>
+<text top="347" left="72" width="403" height="9" font="1">particular apprehension or conviction’ for a particular </text>
+<text top="374" left="72" width="446" height="9" font="1">offense;” and (3) that the warrant describes with specificity </text>
+<text top="401" left="72" width="396" height="9" font="1">the “‘things to be seized,’ as well as the place to be </text>
+<text top="428" left="72" width="439" height="9" font="1">searched.”  Dalia v. United States, 441 U.S. 238, 255 (1979) </text>
+<text top="455" left="72" width="468" height="9" font="1">(quoting Warden v. Hayden, 387 U.S. 294, 307 (1967); Stanford v. </text>
+<text top="483" left="72" width="259" height="9" font="1">Texas, 379 U.S. 476, 485 (1965)).   </text>
+<text top="510" left="108" width="432" height="9" font="1">“A judicial officer who is considering an application for a </text>
+<text top="537" left="72" width="468" height="9" font="1">search warrant must decide ‘whether, given all the circumstances </text>
+<text top="564" left="72" width="446" height="9" font="1">set forth in the affidavit before him, including the veracity </text>
+<text top="591" left="72" width="468" height="9" font="1">and basis of knowledge of persons supplying hearsay information, </text>
+<text top="618" left="72" width="439" height="9" font="1">there is a fair probability that contraband or evidence of a </text>
+<text top="646" left="72" width="454" height="9" font="1">crime will be found in a particular place.’”  United States v. </text>
+<text top="673" left="72" width="454" height="9" font="1">Warren, 42 F.3d 647, 652 (D.C. Cir. 1994) (quoting Illinois v. </text>
+<text top="700" left="72" width="461" height="9" font="1">Gates, 462 U.S. 213, 238 (1983)).  “‘Under the Fourth Amendment </text>
+<text top="16" left="115" width="381" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 9 of 21</text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="792" width="612">
+	<fontspec id="5" size="12" family="ArialMT" color="#000000"/>
+<text top="39" left="292" width="36" height="9" font="1">-10- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="468" height="9" font="1">a search warrant sufficiently describes the place to be searched </text>
+<text top="102" left="72" width="468" height="9" font="1">if the officer with a search warrant can, with reasonable effort </text>
+<text top="129" left="72" width="454" height="9" font="1">ascertain and identify the place intended.’”  United States v. </text>
+<text top="156" left="72" width="454" height="9" font="1">Vaughn, 830 F.2d 1185, 1186 (D.C. Cir. 1987) (quoting Moore v. </text>
+<text top="183" left="72" width="403" height="9" font="1">United States, 461 F.2d 1236, 1238 (D.C. Cir. 1972)).   </text>
+<text top="211" left="72" width="468" height="9" font="1">    “The manifest purpose of th[e] particularity requirement was </text>
+<text top="238" left="72" width="446" height="9" font="1">to prevent general searches.”  Maryland v. Garrison, 480 U.S. </text>
+<text top="265" left="72" width="454" height="9" font="1">79, 84 (1987).  General warrants “le[ave] to the discretion of </text>
+<text top="292" left="72" width="461" height="9" font="1">the executing officials the decision as to which persons should </text>
+<text top="319" left="72" width="461" height="9" font="1">be arrested and which places should be searched.  . . .  [These </text>
+<text top="347" left="72" width="446" height="9" font="1">warrants] provide[] no judicial check on the determination of </text>
+<text top="374" left="72" width="468" height="9" font="1">the executing officials that the evidence available justified an </text>
+<text top="401" left="72" width="468" height="9" font="1">intrusion into any particular home.”  Steagald v. United States, </text>
+<text top="428" left="72" width="439" height="9" font="1">451 U.S. 204, 220 (1981).  “By limiting the authorization to </text>
+<text top="455" left="72" width="425" height="9" font="1">search to the specific areas and things for which there is </text>
+<text top="483" left="72" width="468" height="9" font="1">probable cause to search,” the Supreme Court has explained, “the </text>
+<text top="510" left="72" width="432" height="9" font="1">[particularity] requirement ensures that the search will be </text>
+<text top="537" left="72" width="454" height="9" font="1">carefully tailored to its justifications, and will not take on </text>
+<text top="564" left="72" width="425" height="9" font="1">the character of the wide-ranging exploratory searches the </text>
+<text top="591" left="72" width="418" height="9" font="1">Framers intended to prohibit.”  Garrison, 480 U.S. at 84. </text>
+<text top="618" left="108" width="14" height="9" font="1">A.</text>
+<text top="617" left="122" width="3" height="11" font="5"> </text>
+<text top="618" left="126" width="230" height="9" font="1"> Application for search warrant </text>
+<text top="646" left="72" width="461" height="9" font="1">     The magistrate judge rejected the government’s application </text>
+<text top="673" left="72" width="396" height="9" font="1">as an unconstitutional general warrant not because the </text>
+<text top="700" left="72" width="425" height="9" font="1">government failed to provide sufficient facts to support a </text>
+<text top="16" left="112" width="388" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 10 of 21</text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="292" width="36" height="9" font="1">-11- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="461" height="9" font="1">finding of probable cause for the particular e-mails sought, or </text>
+<text top="102" left="72" width="461" height="9" font="1">because the government failed to specify with particularity the </text>
+<text top="129" left="72" width="468" height="9" font="1">electronic records to be seized or the place to search for those </text>
+<text top="156" left="72" width="454" height="9" font="1">records.  Rather, in denying the government’s application, the </text>
+<text top="183" left="72" width="454" height="9" font="1">magistrate judge determined that the government was attempting </text>
+<text top="211" left="72" width="439" height="9" font="1">to “seize large quantities of e-mails for which it ha[d] not </text>
+<text top="238" left="72" width="461" height="9" font="1">established probable cause.”  In Re: Search of Info. Associated </text>
+<text top="265" left="72" width="461" height="9" font="1">with [redacted]@mac.com, 2014 WL 1377793, at *5.  Moreover, the </text>
+<text top="292" left="72" width="461" height="9" font="1">magistrate judge rejected the government’s manner for executing </text>
+<text top="319" left="72" width="468" height="9" font="1">the warrant described in Attachment C to the government’s search </text>
+<text top="347" left="72" width="432" height="9" font="1">warrant application.  Under those procedures Apple would be </text>
+<text top="374" left="72" width="454" height="9" font="1">required to disclose to the government all e-mails and records </text>
+<text top="401" left="72" width="454" height="9" font="1">related to the [redacted]@mac.com e-mail account.  Govt.’s 2d. </text>
+<text top="428" left="72" width="432" height="9" font="1">Application, Attach. C at 1.  Upon receiving the relevant e-</text>
+<text top="455" left="72" width="410" height="9" font="1">mails and records, the government would then examine the </text>
+<text top="483" left="72" width="468" height="9" font="1">information obtained to determine what e-mails and other records </text>
+<text top="510" left="72" width="446" height="9" font="1">are specified in the warrant as items to be seized.  Id.  The </text>
+<text top="537" left="72" width="468" height="9" font="1">magistrate judge determined that because “the two-step procedure </text>
+<text top="564" left="72" width="446" height="9" font="1">is a narrow exception that requires an affirmative showing of </text>
+<text top="591" left="72" width="454" height="9" font="1">need in the warrant application,” the government’s application </text>
+<text top="618" left="72" width="446" height="9" font="1">was deficient because it “fail[ed] to provide any explanation </text>
+<text top="646" left="72" width="418" height="9" font="1">for why the two-step procedure is necessary.”  Id. at *5. </text>
+<text top="673" left="72" width="446" height="9" font="1">     However, the government’s warrant and the procedures for </text>
+<text top="700" left="72" width="475" height="9" font="1">the warrant’s execution appear to comport with the Constitution.  </text>
+<text top="16" left="112" width="388" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 11 of 21</text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="292" width="36" height="9" font="1">-12- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="446" height="9" font="1">First, the government’s search warrant properly restricts law </text>
+<text top="102" left="72" width="461" height="9" font="1">enforcement discretion to determine the location to be searched </text>
+<text top="129" left="72" width="425" height="9" font="1">and the items to be seized.  The government identifies the </text>
+<text top="156" left="72" width="382" height="9" font="1">precise location to be searched -- in this case, the </text>
+<text top="183" left="72" width="418" height="9" font="1">[redacted]@mac.com e-mail account -- and specifies in the </text>
+<text top="211" left="72" width="432" height="9" font="1">attachments to its application the particular e-mails to be </text>
+<text top="238" left="72" width="461" height="9" font="1">seized.  In this way, law enforcement discretion is constrained </text>
+<text top="265" left="72" width="432" height="9" font="1">and limited to the items to be seized that are specified in </text>
+<text top="292" left="72" width="461" height="9" font="1">Attachment B to the warrant.  See generally, Stanford, 379 U.S. </text>
+<text top="319" left="72" width="446" height="9" font="1">at 485-86 (“‘The requirement that warrants shall particularly </text>
+<text top="347" left="72" width="446" height="9" font="1">describe the things to be seized makes general searches under </text>
+<text top="374" left="72" width="446" height="9" font="1">them impossible and prevents the seizure of one thing under a </text>
+<text top="401" left="72" width="461" height="9" font="1">warrant describing another.  As to what is to be taken, nothing </text>
+<text top="428" left="72" width="396" height="9" font="1">is left to the discretion of the officer executing the </text>
+<text top="455" left="72" width="454" height="9" font="1">warrant.’” (quoting Marron v. United States, 275 U.S. 192, 196 </text>
+<text top="483" left="72" width="79" height="9" font="1">(1927)).   </text>
+<text top="510" left="108" width="367" height="9" font="1">Second, the information contained in the affidavit </text>
+<text top="537" left="72" width="454" height="9" font="1">accompanying the search warrant supports a finding of probable </text>
+<text top="564" left="72" width="446" height="9" font="1">cause because there is a fair probability that the electronic </text>
+<text top="591" left="72" width="461" height="9" font="1">communications and records that the government seeks, which are </text>
+<text top="618" left="72" width="425" height="9" font="1">described in detail in the attachments to the government’s </text>
+<text top="646" left="72" width="432" height="9" font="1">search warrant application, will be found in the particular </text>
+<text top="673" left="72" width="403" height="9" font="1">place to be searched.  Moreover, the affidavit includes </text>
+<text top="700" left="72" width="439" height="9" font="1">additional background information on the particular types of </text>
+<text top="16" left="112" width="388" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 12 of 21</text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="292" width="36" height="9" font="1">-13- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="446" height="9" font="1">records that must be disclosed, the specific crimes for which </text>
+<text top="102" left="72" width="439" height="9" font="1">the government seeks evidence, and the targeted entities and </text>
+<text top="129" left="72" width="374" height="9" font="1">individuals.  When read together with the affidavit,</text>
+<text top="127" left="447" width="5" height="6" font="3">8</text>
+<text top="129" left="452" width="36" height="9" font="1"> the </text>
+<text top="156" left="72" width="446" height="9" font="1">government’s application provides detailed information of the </text>
+<text top="183" left="72" width="425" height="9" font="1">alleged criminal scheme and a thorough explanation for why </text>
+<text top="211" left="72" width="461" height="9" font="1">evidence relevant to the investigation is likely to be found in </text>
+<text top="238" left="72" width="418" height="9" font="1">e-mail records and other data related to the target email </text>
+<text top="265" left="72" width="79" height="9" font="1">account.   </text>
+<text top="292" left="72" width="425" height="9" font="1">     Furthermore, the procedures the government adopts for </text>
+<text top="319" left="72" width="446" height="9" font="1">executing the search warrant comply with the Fourth Amendment </text>
+<text top="347" left="72" width="418" height="9" font="1">and are permissible under Rule 41.  “The Federal Rules of </text>
+<text top="374" left="72" width="461" height="9" font="1">Criminal Procedure are carefully tailored ground rules for fair </text>
+<text top="401" left="72" width="461" height="9" font="1">and orderly procedures in administering criminal justice.  Rule </text>
+<text top="428" left="72" width="468" height="9" font="1">41 embodies standards which conform with the requirements of the </text>
+<text top="455" left="72" width="461" height="9" font="1">Fourth Amendment.”  United States v. Haywood, 464 F.2d 756, 760 </text>
+<text top="483" left="72" width="468" height="9" font="1">(D.C. Cir. 1972).  Rule 41 expressly contemplates and authorizes </text>
+<text top="510" left="72" width="461" height="9" font="1">the procedures the government adopts here to execute the search </text>
+<text top="537" left="72" width="72" height="9" font="1">warrant:  </text>
+<text top="573" left="72" width="151" height="9" font="1">                     </text>
+<text top="584" left="108" width="5" height="6" font="3">8</text>
+<text top="587" left="113" width="425" height="9" font="1">  The warrant application must be read in conjunction with </text>
+<text top="600" left="72" width="403" height="9" font="1">the affidavit because the warrant application expressly </text>
+<text top="614" left="72" width="468" height="9" font="1">incorporates the affidavit.  See, e.g., Vaughn, 830 F.2d at 1186 </text>
+<text top="628" left="72" width="461" height="9" font="1">(“‘[T]he warrant may properly be construed with reference to an </text>
+<text top="641" left="72" width="446" height="9" font="1">affidavit for purposes of sustaining the particularity of the </text>
+<text top="655" left="72" width="461" height="9" font="1">premises to be searched, provided (1) the affidavit accompanies </text>
+<text top="668" left="72" width="468" height="9" font="1">the warrant, and in addition (2) the warrant uses suitable words </text>
+<text top="682" left="72" width="439" height="9" font="1">of reference which incorporate the affidavit by reference.’” </text>
+<text top="696" left="72" width="259" height="9" font="1">(quoting Moore, 461 F.2d at 1238)). </text>
+<text top="709" left="108" width="7" height="9" font="1"> </text>
+<text top="16" left="112" width="388" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 13 of 21</text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="292" width="36" height="9" font="1">-14- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="108" width="406" height="9" font="1">Computers and other electronic storage media commonly </text>
+<text top="88" left="108" width="406" height="9" font="1">contain such large amounts of information that it is </text>
+<text top="102" left="108" width="404" height="9" font="1">often impractical for law enforcement to review all of </text>
+<text top="116" left="108" width="404" height="9" font="1">the information during execution of the warrant at the </text>
+<text top="129" left="108" width="405" height="9" font="1">search location.  This rule acknowledges the need for </text>
+<text top="143" left="108" width="408" height="9" font="1">a two-step process: officers may seize or copy the </text>
+<text top="156" left="108" width="404" height="9" font="1">entire storage medium and review it later to determine </text>
+<text top="170" left="108" width="409" height="9" font="1">what electronically stored information falls within </text>
+<text top="183" left="108" width="187" height="9" font="1">the scope of the warrant. </text>
+<text top="197" left="72" width="7" height="9" font="1"> </text>
+<text top="211" left="72" width="446" height="9" font="1">Fed. R. Crim. P. 41(e)(2) advisory committee’s note.  Several </text>
+<text top="238" left="72" width="461" height="9" font="1">courts have found the two-step procedure to be reasonable under </text>
+<text top="265" left="72" width="439" height="9" font="1">the Fourth Amendment, provided that there is a valid warrant </text>
+<text top="292" left="72" width="202" height="9" font="1">supported by probable cause.</text>
+<text top="290" left="274" width="5" height="6" font="3">9</text>
+<text top="292" left="279" width="216" height="9" font="1">  See, e.g., United States v. </text>
+<text top="319" left="72" width="403" height="9" font="1">Schesso, 730 F.3d 1040, 1046 (9th Cir. 2013) (upholding </text>
+<text top="347" left="72" width="439" height="9" font="1">government’s seizure of electronic data for a subsequent off-</text>
+<text top="374" left="72" width="439" height="9" font="1">site search where there was a fair probability that evidence </text>
+<text top="401" left="72" width="446" height="9" font="1">would be found on the defendant’s personal computer and other </text>
+<text top="428" left="72" width="454" height="9" font="1">electronic devices); United States v. Evers, 669 F.3d 645, 652 </text>
+<text top="455" left="72" width="432" height="9" font="1">(6th Cir. 2012) (6th Cir. 2012) (“The federal courts are in </text>
+<text top="478" left="72" width="151" height="9" font="1">                     </text>
+<text top="489" left="108" width="5" height="6" font="3">9</text>
+<text top="492" left="113" width="7" height="9" font="1"> </text>
+<text top="493" left="120" width="6" height="8" font="4"> </text>
+<text top="492" left="126" width="418" height="9" font="1">The D.C. Circuit has not directly addressed the propriety </text>
+<text top="505" left="72" width="454" height="9" font="1">of the procedures for executing search warrants for electronic </text>
+<text top="519" left="72" width="403" height="9" font="1">evidence outlined in Rule 41(e).  In its challenge, the </text>
+<text top="532" left="72" width="468" height="9" font="1">government argues that the D.C. Circuit case of United States v. </text>
+<text top="546" left="72" width="461" height="9" font="1">Heldt, 668 F.2d 1238 (D.C. Cir. 1981), “does not reject the two-</text>
+<text top="560" left="72" width="475" height="9" font="1">step process for execution of warrants for electronic evidence.”  </text>
+<text top="573" left="72" width="446" height="9" font="1">Govt.’s Challenge at 11-12 n.5.  Although it is true that the </text>
+<text top="587" left="72" width="461" height="9" font="1">Heldt case does not expressly reject the two-step process under </text>
+<text top="600" left="72" width="468" height="9" font="1">Rule 41, the case is not applicable to the issues presented here </text>
+<text top="614" left="72" width="425" height="9" font="1">-- namely, whether the government may remove all files and </text>
+<text top="628" left="72" width="461" height="9" font="1">records from a location to perform a subsequent search off-site </text>
+<text top="641" left="72" width="454" height="9" font="1">to identify which e-mails are items specified under the search </text>
+<text top="655" left="72" width="468" height="9" font="1">warrant.  The Heldt case involved an on-site search performed by </text>
+<text top="668" left="72" width="446" height="9" font="1">law enforcement where certain documents were seized under the </text>
+<text top="682" left="72" width="446" height="9" font="1">plain view exception.  That was not a case where, as here, an </text>
+<text top="696" left="72" width="461" height="9" font="1">entire set of files was seized for a subsequent off-site search </text>
+<text top="709" left="72" width="410" height="9" font="1">to identify which items fall within the scope of warrant.</text>
+<text top="710" left="482" width="12" height="8" font="4">  </text>
+<text top="16" left="112" width="388" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 14 of 21</text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="292" width="36" height="9" font="1">-15- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="389" height="9" font="1">agreement that a warrant authorizing the seizure of a </text>
+<text top="102" left="72" width="432" height="9" font="1">defendant’s home computer equipment and digital media for a </text>
+<text top="129" left="72" width="439" height="9" font="1">subsequent off-site electronic search is not unreasonable or </text>
+<text top="156" left="72" width="461" height="9" font="1">overbroad, as long as the probable-cause showing in the warrant </text>
+<text top="183" left="72" width="446" height="9" font="1">application and affidavit demonstrate a ‘sufficient chance of </text>
+<text top="211" left="72" width="468" height="9" font="1">finding some needles in the computer haystack.’” (quoting United </text>
+<text top="238" left="72" width="418" height="9" font="1">States v. Upham, 168 F.3d 532, 535 (1st Cir. 1999))).     </text>
+<text top="265" left="108" width="418" height="9" font="1">In addition, because the government’s proposed procedures </text>
+<text top="292" left="72" width="461" height="9" font="1">comply with the Fourth Amendment and are authorized by Rule 41, </text>
+<text top="319" left="72" width="410" height="9" font="1">there is no need for Apple to search through e-mails and </text>
+<text top="347" left="72" width="454" height="9" font="1">electronic records related to the target account and determine </text>
+<text top="374" left="72" width="468" height="9" font="1">which e-mails are responsive to the search warrant.  Enlisting a </text>
+<text top="401" left="72" width="418" height="9" font="1">service provider to execute the search warrant could also </text>
+<text top="428" left="72" width="396" height="9" font="1">present nettlesome problems.  As the government argues </text>
+<text top="455" left="72" width="418" height="9" font="1">persuasively in its challenge, it would be unworkable and </text>
+<text top="483" left="72" width="425" height="9" font="1">impractical to order Apple to cull the e-mails and related </text>
+<text top="510" left="72" width="418" height="9" font="1">records in order to find evidence that is relevant to the </text>
+<text top="537" left="72" width="439" height="9" font="1">government’s investigation.  Govt.’s Challenge at 17-21.  To </text>
+<text top="564" left="72" width="461" height="9" font="1">begin with, non-governmental employees untrained in the details </text>
+<text top="591" left="72" width="454" height="9" font="1">of the criminal investigation likely lack the requisite skills </text>
+<text top="618" left="72" width="468" height="9" font="1">and expertise to determine whether a document is relevant to the </text>
+<text top="646" left="72" width="454" height="9" font="1">criminal investigation.  Moreover, requiring the government to </text>
+<text top="673" left="72" width="468" height="9" font="1">train the electronic service provider’s employees on the process </text>
+<text top="700" left="72" width="439" height="9" font="1">for identifying information that is responsive to the search </text>
+<text top="16" left="112" width="388" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 15 of 21</text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="292" width="36" height="9" font="1">-16- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="432" height="9" font="1">warrant may prove time-consuming, increase the costs of the </text>
+<text top="102" left="72" width="454" height="9" font="1">investigation, and expose the government to potential security </text>
+<text top="129" left="72" width="86" height="9" font="1">breaches.   </text>
+<text top="156" left="108" width="425" height="9" font="1">As the government argues in its challenge, law enforcement </text>
+<text top="183" left="72" width="389" height="9" font="1">officers are provided with considerable discretion in </text>
+<text top="211" left="72" width="468" height="9" font="1">determining how to execute a particular search warrant.  Govt.’s </text>
+<text top="238" left="72" width="454" height="9" font="1">Challenge at 7.  The Supreme Court has explained that a search </text>
+<text top="265" left="72" width="461" height="9" font="1">warrant’s execution is “generally left to the discretion of the </text>
+<text top="292" left="72" width="425" height="9" font="1">executing officers to determine the details of how best to </text>
+<text top="319" left="72" width="396" height="9" font="1">proceed with the performance of a search authorized by </text>
+<text top="347" left="72" width="446" height="9" font="1">warrant[.]”  Dalia, 441 U.S. at 257.  That said, although law </text>
+<text top="374" left="72" width="454" height="9" font="1">enforcement officers are afforded wide discretion in executing </text>
+<text top="401" left="72" width="454" height="9" font="1">search warrants, “the manner in which a warrant is executed is </text>
+<text top="428" left="72" width="468" height="9" font="1">subject to later judicial review as to its reasonableness.”  Id. </text>
+<text top="455" left="72" width="468" height="9" font="1">at 258; see also Zurcher v. Stanford Daily, 436 U.S. 547, 559–60 </text>
+<text top="483" left="72" width="461" height="9" font="1">(1978).  Accordingly, the government will be afforded deference </text>
+<text top="510" left="72" width="461" height="9" font="1">in deciding how to execute the search warrant, subject to later </text>
+<text top="537" left="72" width="461" height="9" font="1">review by a court to determine whether the search complied with </text>
+<text top="564" left="72" width="374" height="9" font="1">the Fourth Amendment’s reasonableness requirement.  </text>
+<text top="591" left="108" width="425" height="9" font="1">Finally, it should be noted that it is certainly true that </text>
+<text top="618" left="72" width="461" height="9" font="1">searches for electronic data may present increased risks to the </text>
+<text top="646" left="72" width="454" height="9" font="1">individual’s right to privacy as technological advances enable </text>
+<text top="673" left="72" width="403" height="9" font="1">law enforcement to monitor and collect large volumes of </text>
+<text top="700" left="72" width="454" height="9" font="1">electronic communications and other data.  See, e.g., Schesso, </text>
+<text top="16" left="112" width="388" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 16 of 21</text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="292" width="36" height="9" font="1">-17- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="468" height="9" font="1">730 F.3d at 1042 (“Because electronic devices could contain vast </text>
+<text top="102" left="72" width="418" height="9" font="1">quantities of intermingled information, raising the risks </text>
+<text top="129" left="72" width="468" height="9" font="1">inherent in over-seizing data . . . law enforcement and judicial </text>
+<text top="156" left="72" width="432" height="9" font="1">officers must be especially cognizant of privacy risks when </text>
+<text top="183" left="72" width="468" height="9" font="1">drafting and executing search warrants for electronic evidence.” </text>
+<text top="211" left="72" width="468" height="9" font="1">(citations omitted)).  Discussing the serious risk to privacy in </text>
+<text top="238" left="72" width="454" height="9" font="1">searches involving an individual’s personal files, the Supreme </text>
+<text top="265" left="72" width="187" height="9" font="1">Court stated as follows:  </text>
+<text top="292" left="108" width="405" height="9" font="1">We recognize that there are grave dangers inherent in </text>
+<text top="306" left="108" width="403" height="9" font="1">executing a warrant authorizing a  search and seizure </text>
+<text top="319" left="108" width="405" height="9" font="1">of a person’s papers that are not necessarily present </text>
+<text top="333" left="108" width="405" height="9" font="1">in executing a warrant to search for physical objects </text>
+<text top="347" left="108" width="403" height="9" font="1">whose relevance is more easily ascertainable.   In </text>
+<text top="360" left="108" width="404" height="9" font="1">searches for papers, it is certain that some innocuous </text>
+<text top="374" left="108" width="408" height="9" font="1">documents will be examined, at least cursorily, in </text>
+<text top="387" left="108" width="407" height="9" font="1">order to determine whether they are, in fact, among </text>
+<text top="401" left="108" width="403" height="9" font="1">those  papers authorized to be seized.  . . .   In </text>
+<text top="415" left="108" width="412" height="9" font="1">[these]  kinds of searches, responsible officials, </text>
+<text top="428" left="108" width="404" height="9" font="1">including judicial officials, must take care to assure </text>
+<text top="442" left="108" width="403" height="9" font="1">that they are conducted in a manner that  minimizes </text>
+<text top="455" left="108" width="274" height="9" font="1">unwarranted intrusions upon privacy.  </text>
+<text top="469" left="108" width="29" height="9" font="1">    </text>
+<text top="483" left="72" width="439" height="9" font="1">Andresen v. Maryland, 427 U.S. 463, 482 n.11 (1976).  At the </text>
+<text top="510" left="72" width="396" height="9" font="1">same time, searches for electronic data present unique </text>
+<text top="537" left="72" width="468" height="9" font="1">challenges for law enforcement officials tasked with prosecuting </text>
+<text top="564" left="72" width="367" height="9" font="1">crimes and gathering evidence relevant to criminal </text>
+<text top="591" left="72" width="468" height="9" font="1">investigations.  Indeed, the practical realities of searches for </text>
+<text top="618" left="72" width="410" height="9" font="1">electronic records may require the government to examine </text>
+<text top="646" left="72" width="468" height="9" font="1">information outside the scope of the search warrant to determine </text>
+<text top="673" left="72" width="410" height="9" font="1">whether specific information is relevant to the criminal </text>
+<text top="700" left="72" width="461" height="9" font="1">investigation and falls within the scope of the warrant.  Given </text>
+<text top="16" left="112" width="388" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 17 of 21</text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="292" width="36" height="9" font="1">-18- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="468" height="9" font="1">these competing interests, courts must strike the proper balance </text>
+<text top="102" left="72" width="446" height="9" font="1">between ensuring that the government’s ability to effectively </text>
+<text top="129" left="72" width="461" height="9" font="1">and efficiently investigate and prosecute crimes is implemented </text>
+<text top="156" left="72" width="461" height="9" font="1">and assuring respect for individuals’ Fourth Amendment rights.  </text>
+<text top="183" left="72" width="425" height="9" font="1">See, e.g., United States v. Ganias, No. 12-240-CR, 2014 WL </text>
+<text top="211" left="72" width="432" height="9" font="1">2722618, *6 (2d Cir. June 17, 2014) (“Because the degree of </text>
+<text top="238" left="72" width="439" height="9" font="1">privacy secured to citizens by the Fourth Amendment has been </text>
+<text top="265" left="72" width="468" height="9" font="1">impacted by the advance of technology, the challenge is to adapt </text>
+<text top="292" left="72" width="418" height="9" font="1">traditional Fourth Amendment concepts to the Government’s </text>
+<text top="319" left="72" width="468" height="9" font="1">modern, more sophisticated investigative tools.”); United States </text>
+<text top="347" left="72" width="461" height="9" font="1">v. Adjani, 452 F.3d 1140, 1152 (9th Cir. 2006) (“The fact of an </text>
+<text top="374" left="72" width="425" height="9" font="1">increasingly technological world is not lost upon us as we </text>
+<text top="401" left="72" width="432" height="9" font="1">consider the proper balance to strike between protecting an </text>
+<text top="428" left="72" width="454" height="9" font="1">individual’s right to privacy and ensuring that the government </text>
+<text top="455" left="72" width="454" height="9" font="1">is able to prosecute suspected criminals effectively.”).  With </text>
+<text top="483" left="72" width="446" height="9" font="1">these considerations in mind, and for the reasons articulated </text>
+<text top="510" left="72" width="461" height="9" font="1">above, the government’s second application for a search warrant </text>
+<text top="537" left="72" width="115" height="9" font="1">will be granted.</text>
+<text top="534" left="188" width="10" height="6" font="3">10</text>
+<text top="537" left="197" width="7" height="9" font="1"> </text>
+<text top="587" left="72" width="151" height="9" font="1">                     </text>
+<text top="598" left="108" width="10" height="6" font="3">10</text>
+<text top="600" left="118" width="425" height="9" font="1">  The government also asserts that destroying or returning </text>
+<text top="614" left="72" width="410" height="9" font="1">the evidence received from Apple could either expose the </text>
+<text top="628" left="72" width="410" height="9" font="1">government to accusations that it “destroyed exculpatory </text>
+<text top="641" left="72" width="425" height="9" font="1">evidence in violation of Brady v. Maryland,” or hinder the </text>
+<text top="655" left="72" width="425" height="9" font="1">government’s “ability to lay a foundation for evidence and </text>
+<text top="668" left="72" width="425" height="9" font="1">establish authenticity under Rule 901 and 1001-1006 of the </text>
+<text top="682" left="72" width="425" height="9" font="1">Federal Rules of Evidence.”  Govt.’s Challenge at 22.  The </text>
+<text top="696" left="72" width="396" height="9" font="1">concerns presented by the government are valid and the </text>
+<text top="709" left="72" width="396" height="9" font="1">procedures for executing the search warrant strike the </text>
+<text top="16" left="112" width="388" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 18 of 21</text>
+</page>
+<page number="19" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="292" width="36" height="9" font="1">-19- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="281" height="9" font="1">III.  EFF MOTION TO FILE AMICUS BRIEF  </text>
+<text top="102" left="108" width="425" height="9" font="1">Courts have wide discretion in deciding whether to grant a </text>
+<text top="129" left="72" width="439" height="9" font="1">third party leave to file an amicus curiae brief.  See Nat’l </text>
+<text top="156" left="72" width="432" height="9" font="1">Ass’n of Home Builders v. U.S. Army Corps of Eng’rs, 519 F. </text>
+<text top="183" left="72" width="461" height="9" font="1">Supp. 2d 89, 93 (D.D.C. 2007).  Court have permitted parties to </text>
+<text top="211" left="72" width="446" height="9" font="1">file amicus briefs where “the brief will assist the judges by </text>
+<text top="238" left="72" width="461" height="9" font="1">presenting ideas, arguments, theories, insights, facts, or data </text>
+<text top="265" left="72" width="446" height="9" font="1">that are not to be found in the parties’ briefs.”  Voices for </text>
+<text top="292" left="72" width="454" height="9" font="1">Choices v. Illinois Bell Tel. Co., 339 F.3d 542, 545 (7th Cir. </text>
+<text top="319" left="72" width="439" height="9" font="1">2003).  In addition, courts have granted amici permission to </text>
+<text top="347" left="72" width="461" height="9" font="1">file briefs when “‘a party is not represented competently or is </text>
+<text top="374" left="72" width="461" height="9" font="1">not represented at all, when the amicus has an interest in some </text>
+<text top="401" left="72" width="454" height="9" font="1">other case that may be affected by the decision in the present </text>
+<text top="428" left="72" width="468" height="9" font="1">case,’” or in cases where “‘the amicus has unique information or </text>
+<text top="455" left="72" width="439" height="9" font="1">perspective that can help the court beyond the help that the </text>
+<text top="483" left="72" width="461" height="9" font="1">lawyers for the parties are able to provide.’”  Jin v. Ministry </text>
+<text top="510" left="72" width="461" height="9" font="1">of State Sec’y, 557 F. Supp. 2d 131, 137 (D.D.C. 2008) (quoting </text>
+<text top="537" left="72" width="446" height="9" font="1">Ryan v. Commodity Futures Trading Comm’n, 125 F.3d 1062, 1064 </text>
+<text top="564" left="72" width="130" height="9" font="1">(7th Cir. 1997)). </text>
+<text top="591" left="108" width="418" height="9" font="1">EFF seeks leave to file an amicus brief in this matter in </text>
+<text top="618" left="72" width="446" height="9" font="1">light of the “critical questions about the application of the </text>
+<text top="646" left="72" width="461" height="9" font="1">Fourth Amendment to emerging technologies,” and to address “the </text>
+<text top="668" left="72" width="475" height="9" font="1">                                                                  </text>
+<text top="682" left="72" width="410" height="9" font="1">appropriate balance between the government’s interest in </text>
+<text top="696" left="72" width="446" height="9" font="1">protecting the integrity of its investigation and the privacy </text>
+<text top="709" left="72" width="158" height="9" font="1">interests at stake.   </text>
+<text top="16" left="112" width="388" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 19 of 21</text>
+</page>
+<page number="20" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="292" width="36" height="9" font="1">-20- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="468" height="9" font="1">underlying constitutional issues involved here.”  Mot. for Leave </text>
+<text top="102" left="72" width="468" height="9" font="1">to File Brief of Amicus Curiae of Elec. Frontier Found. at 1-2.  </text>
+<text top="129" left="72" width="446" height="9" font="1">Although EFF may be able to offer “arguments, theories, [and] </text>
+<text top="156" left="72" width="418" height="9" font="1">insights,” Voices for Choices, 339 F.3d at 545, and other </text>
+<text top="183" left="72" width="439" height="9" font="1">information addressing the Fourth Amendment’s application to </text>
+<text top="211" left="72" width="432" height="9" font="1">emerging technologies, such information is addressed in the </text>
+<text top="238" left="72" width="425" height="9" font="1">magistrate judge’s comprehensive discussion on the privacy </text>
+<text top="265" left="72" width="461" height="9" font="1">interests at stake in searches for electronic information.  See </text>
+<text top="292" left="72" width="461" height="9" font="1">In Re: Search of Info. Associated with [redacted]@mac.com, 2014 </text>
+<text top="319" left="72" width="454" height="9" font="1">WL 1377793, at *3-5.  Furthermore, given that the government’s </text>
+<text top="347" left="72" width="418" height="9" font="1">application for a search warrant complies with the Fourth </text>
+<text top="374" left="72" width="439" height="9" font="1">Amendment, there is no apparent need to discuss, at least at </text>
+<text top="401" left="72" width="418" height="9" font="1">this stage, the Fourth Amendment’s application to various </text>
+<text top="428" left="72" width="454" height="9" font="1">emerging technologies generally.  The government’s application </text>
+<text top="455" left="72" width="454" height="9" font="1">meets the Fourth Amendment’s requirements for issuing a search </text>
+<text top="483" left="72" width="461" height="9" font="1">warrant for electronic evidence and the procedure for executing </text>
+<text top="510" left="72" width="461" height="9" font="1">the warrant is supported by Rule 41.  Accordingly, and in light </text>
+<text top="537" left="72" width="468" height="9" font="1">of the wide discretion afforded to courts in determining whether </text>
+<text top="564" left="72" width="454" height="9" font="1">to permit third parties to file amicus briefs, EFF’s motion to </text>
+<text top="591" left="72" width="266" height="9" font="1">file an amicus brief will be denied. </text>
+<text top="618" left="306" width="7" height="9" font="1"> </text>
+<text top="632" left="270" width="79" height="9" font="1">CONCLUSION </text>
+<text top="646" left="306" width="7" height="9" font="1"> </text>
+<text top="659" left="108" width="425" height="9" font="1">The government’s application for a search warrant complies </text>
+<text top="687" left="72" width="410" height="9" font="1">with the requirements under the Fourth Amendment and the </text>
+<text top="16" left="112" width="388" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 20 of 21</text>
+</page>
+<page number="21" position="absolute" top="0" left="0" height="792" width="612">
+<text top="39" left="292" width="36" height="9" font="1">-21- </text>
+<text top="52" left="72" width="7" height="9" font="1"> </text>
+<text top="75" left="72" width="454" height="9" font="1">procedures for executing the warrant are authorized by Rule 41 </text>
+<text top="102" left="72" width="446" height="9" font="1">of the Federal Rules of Criminal Procedure.  Accordingly, the </text>
+<text top="129" left="72" width="454" height="9" font="1">magistrate judge’s second memorandum opinion and order will be </text>
+<text top="156" left="72" width="446" height="9" font="1">vacated and the government’s application for a search warrant </text>
+<text top="183" left="72" width="446" height="9" font="1">will be granted.  In addition, EFF’s motion to file an amicus </text>
+<text top="211" left="72" width="410" height="9" font="1">brief will be denied.  A separate order accompanies this </text>
+<text top="238" left="72" width="144" height="9" font="1">memorandum opinion. </text>
+<text top="265" left="108" width="281" height="9" font="1">SIGNED this 7th day of August, 2014.   </text>
+<text top="292" left="72" width="7" height="9" font="1"> </text>
+<text top="306" left="72" width="7" height="9" font="1"> </text>
+<text top="319" left="72" width="7" height="9" font="1"> </text>
+<text top="319" left="108" width="7" height="9" font="1"> </text>
+<text top="319" left="144" width="7" height="9" font="1"> </text>
+<text top="319" left="180" width="7" height="9" font="1"> </text>
+<text top="319" left="216" width="7" height="9" font="1"> </text>
+<text top="319" left="252" width="7" height="9" font="1"> </text>
+<text top="319" left="288" width="7" height="9" font="1"> </text>
+<text top="319" left="324" width="454" height="9" font="1">___________/s/____________                                     </text>
+<text top="333" left="72" width="7" height="9" font="1"> </text>
+<text top="333" left="108" width="7" height="9" font="1"> </text>
+<text top="333" left="144" width="7" height="9" font="1"> </text>
+<text top="333" left="180" width="7" height="9" font="1"> </text>
+<text top="333" left="216" width="7" height="9" font="1"> </text>
+<text top="333" left="252" width="7" height="9" font="1"> </text>
+<text top="333" left="288" width="7" height="9" font="1"> </text>
+<text top="333" left="324" width="137" height="9" font="1">RICHARD W. ROBERTS </text>
+<text top="347" left="72" width="7" height="9" font="1"> </text>
+<text top="347" left="108" width="7" height="9" font="1"> </text>
+<text top="347" left="144" width="7" height="9" font="1"> </text>
+<text top="347" left="180" width="7" height="9" font="1"> </text>
+<text top="347" left="216" width="7" height="9" font="1"> </text>
+<text top="347" left="252" width="7" height="9" font="1"> </text>
+<text top="347" left="288" width="7" height="9" font="1"> </text>
+<text top="347" left="324" width="86" height="9" font="1">Chief Judge </text>
+<text top="360" left="306" width="7" height="9" font="1"> </text>
+<text top="16" left="112" width="388" height="11" font="2">Case 1:14-mj-00228-JMF   Document 11   Filed 08/08/14   Page 21 of 21</text>
+</page>
+</pdf2xml>
