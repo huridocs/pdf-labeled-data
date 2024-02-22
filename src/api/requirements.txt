@@ -8,15 +8,15 @@ uvicorn
 pytest
 pytest-env
 flake8
-black==23.7.0
+black==24.2.0
 requests
 
 # used for form parsing
 python-multipart
-lxml==4.9.3
+lxml==5.1.0
 
 # Allows us to use FastAPI's FileResponse for serving pdfs.
 aiofiles
 
-git+https://github.com/huridocs/pdf-tokens-type-labeler@576a06128ba653562f008fa7177c64a6b43fabe9
+git+https://github.com/huridocs/pdf-tokens-type-labeler@e5a73befe270146e78c8b50da4dd2777bf66ead6
 

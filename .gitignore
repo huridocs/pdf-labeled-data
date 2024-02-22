@@ -175,4 +175,5 @@ cython_debug/
 
 /labeled_data/task_mistakes/
 !/labeled_data/task_mistakes/labels.json
+**/**/etree.xml
 
