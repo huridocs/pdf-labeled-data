@@ -5,4 +5,5 @@ export const TASKS = {
     table_of_content: 'table_of_content',
     paragraph_selector: 'paragraph_selector',
     task_mistakes: 'task_mistakes',
+    benchmark_segmentation: 'benchmark_segmentation',
 };
